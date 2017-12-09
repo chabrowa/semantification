@@ -37,7 +37,7 @@ class ValuesBag(object):
         valuesObject = {}
         for result in results:
             sValue = self.getProperty(result["s"]["value"])
-            pValue = self.getProperty(str(result["p"]["value"]))
+            pValue = self.getProperty(result["p"]["value"])
             oValue = float(result["o"]["value"])
             #spValue = sValue+':'+pValue
             if pValue not in valuesObject:
