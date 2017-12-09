@@ -39,7 +39,6 @@ class ValuesBag(object):
             sValue = self.getProperty(result["s"]["value"])
             pValue = self.getProperty(result["p"]["value"])
             oValue = float(result["o"]["value"])
-            #spValue = sValue+':'+pValue
             if pValue not in valuesObject:
                 valuesObject[pValue] = []
             valuesObject[pValue].append(oValue)
