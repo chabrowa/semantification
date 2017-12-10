@@ -23,7 +23,7 @@ class ValuesBag(object):
             filter (isNumeric(?o)) \
             filter (?p != <http://dbpedia.org/ontology/wikiPageID>) \
             filter (?p != <http://dbpedia.org/ontology/wikiPageRevisionID>) \
-            }"
+            } LIMIT 1000"
 
         sparql = SPARQLWrapper("http://dbpedia.org/sparql")
         sparql.setReturnFormat(JSON)
@@ -42,7 +42,7 @@ class ValuesBag(object):
             if pValue not in valuesObject:
                 valuesObject[pValue] = []
             valuesObject[pValue].append(oValue)
-        return 1
+        return valuesObject
 
     def getProperty(self, numericalProperty):
         return numericalProperty[28:]
