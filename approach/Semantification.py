@@ -9,24 +9,53 @@ class Semantification(object):
 
     def __init__(self, datasetId):
         self.dataset              = Dataset(datasetId)
-        self.backgroundKnowledge  = BackgroundKnowledge(datasetId, self.dataset.subjectColumn.columnTypes)
-        self.sm                   = SimilarityMeasures()
+        if self.dataset.subjectColumn != -1:
+            self.backgroundKnowledge  = BackgroundKnowledge(datasetId, self.dataset.subjectColumn.columnTypes)
+        else:
+            self.backgroundKnowledge = -1
+        self.sm                     = SimilarityMeasures()
+        self.columnsPredictionsKS   = self.getColumnsPredictionsKS()
+        self.columnsResultsKS       = self.getColumnsResultsKS()
 
-    def getPredictionsResults(self):
-        mappingResults = []
+
+    def getColumnsPredictionsKS(self):
+        if self.backgroundKnowledge == -1:
+            return -1
+
+        mappingResults = {}
         for i, mappingId in enumerate(self.dataset.columnsWithMappingsIds):
             for j, numericalId in enumerate(self.dataset.numericalColumnsIds):
                 if mappingId == numericalId:
-                    prediction = self.getColumnPrediction(numericalId)
+                    predictions = self.getColumnPredictions(numericalId)
+                    mappingResults[mappingId] = predictions
                     #if prediction == self.dataset.columnsWithMappings[mappingId]:
-                    #print prediction
+                    #print predictions
+        #print mappingResults
+        return mappingResults
 
-    def getColumnPrediction(self, columnId):
+    def getColumnPredictions(self, columnId):
+        columnPredictions = []
         for index, bag in enumerate(self.backgroundKnowledge.valuesBags):
             for key, values in bag.values.iteritems():
-                #print key
-                #print values
-                #print self.dataset.getColumnValues(columnId)
-                print self.sm.KSTest(self.dataset.getColumnValues(columnId), values)
+                columnPredictions.append([bag.prediction ,key, self.sm.KSTest(self.dataset.getColumnValues(columnId), values)])
+        return columnPredictions
 
-        return 1
+    def getColumnsResultsKS(self):
+        if self.backgroundKnowledge == -1:
+            return -1
+        columnsResults = {}
+        for index, val in enumerate(self.columnsPredictionsKS):
+            highestP = 0
+            column = self.columnsPredictionsKS[val]
+            for i, prediction in enumerate(column):
+                #print prediction
+                #print "______________________"
+                (D,p) = prediction[2]
+                if p > highestP:
+                    highestP = p
+                    highestLabel = prediction[1]
+                    propertyName = prediction[0]
+            columnsResults[val] = [propertyName, highestLabel, highestP]
+        print self.dataset.datasetId
+        print columnsResults
+        return columnsResults

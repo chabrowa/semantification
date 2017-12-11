@@ -23,7 +23,7 @@ class ValuesBag(object):
             filter (isNumeric(?o)) \
             filter (?p != <http://dbpedia.org/ontology/wikiPageID>) \
             filter (?p != <http://dbpedia.org/ontology/wikiPageRevisionID>) \
-            } LIMIT 1000"
+            } LIMIT 500"
 
         sparql = SPARQLWrapper("http://dbpedia.org/sparql")
         sparql.setReturnFormat(JSON)
