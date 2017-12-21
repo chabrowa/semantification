@@ -32,7 +32,8 @@ class SubjectColumn(object):
     def getCellType(self, cell):
         response = CellTypeResponse(cell, commands.getstatusoutput('curl http://model.dbpedia-spotlight.org/en/annotate  \
           --data-urlencode "text=' + str(cell) + '" \
-          --data "confidence=0.05"'))
+          --data "confidence=0.05" \
+          -H "Accept:text/xml"'))
         #print response.uri
         #print response.types
         return response
@@ -52,6 +53,5 @@ class SubjectColumn(object):
                             else:
                                 predictionsPopularity[t] = 1
         predictionsPopularitySorted = sorted(predictionsPopularity.items(), key=operator.itemgetter(1), reverse=True)
-        #print predictionsPopularitySorted
 
         return predictionsPopularitySorted

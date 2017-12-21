@@ -35,6 +35,7 @@ class ValuesBag(object):
 
     def createValuesObject(self, results):
         valuesObject = {}
+        valuesObjectClean = {}
         for result in results:
             sValue = self.getProperty(result["s"]["value"])
             pValue = self.getProperty(result["p"]["value"])
@@ -42,7 +43,13 @@ class ValuesBag(object):
             if pValue not in valuesObject:
                 valuesObject[pValue] = []
             valuesObject[pValue].append(oValue)
-        return valuesObject
+
+        for bag in valuesObject:
+            if len(valuesObject[bag]) > 5:
+                if bag not in valuesObjectClean:
+                    valuesObjectClean[bag] = []
+                valuesObjectClean[bag] = valuesObject[bag]
+        return valuesObjectClean
 
     def getProperty(self, numericalProperty):
         return numericalProperty[28:]

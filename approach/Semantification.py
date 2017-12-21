@@ -46,10 +46,10 @@ class Semantification(object):
         columnsResults = {}
         for index, val in enumerate(self.columnsPredictionsKS):
             highestP = 0
+            propertyName = ''
+            highestLabel = ''
             column = self.columnsPredictionsKS[val]
             for i, prediction in enumerate(column):
-                #print prediction
-                #print "______________________"
                 (D,p) = prediction[2]
                 if p > highestP:
                     highestP = p
