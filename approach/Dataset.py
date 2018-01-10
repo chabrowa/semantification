@@ -9,25 +9,41 @@ from approach.config.imports import *
 
 class Dataset(object):
 
+    # def __init__(self, datasetId):
+    #     self.datasetId              = datasetId
+    #     self.df                     = pd.read_csv(os.path.join(datasetsPath, datasetId))
+    #     self.subjectColumnId        = self.getSubjectColumnId()
+    #     self.subjectColumn          = self.getSubjectColumn()
+    #     self.numericalColumnsIds    = self.getNumericalColumnsIds()
+    #     self.columnsWithMappingsIds = self.getColumnsWithMappingsIds()
+    #     self.columnsWithMappings    = self.getColumnsWithMappings()
+    #     self.columns                = self.getColumns()
+
     def __init__(self, datasetId):
         self.datasetId              = datasetId
-        self.subjectColumnId        = self.getSubjectColumnId()
+        self.df                     = pd.read_csv(os.path.join(datasetsPath, datasetId))
+        self.subjectColumnId        = 0
         self.subjectColumn          = self.getSubjectColumn()
-        self.numericalColumnsIds    = self.getNumericalColumnsIds()
-        self.columnsWithMappingsIds = self.getColumnsWithMappingsIds()
-        self.columnsWithMappings    = self.getColumnsWithMappings()
+        self.columnsWithMappingsIds = [1]
+        self.numericalColumnsIds    = [1]
         self.columns                = self.getColumns()
 
     def getColumns(self):
         columns = []
-        df = pd.read_csv(os.path.join(datasetsPath, self.datasetId))
-        for index, column in enumerate(df):
-            column = (df[column])
+        for index, column in enumerate(self.df):
+            column = (self.df[column])
             columns.append(Column(index, column))
         return columns
 
     def getColumnValues(self, columnId):
         return self.columns[columnId].columnValues
+
+    def getCellValue(self, columnId, subjectCellValue):
+        if int(self.subjectColumnId) != -1:
+            for index, row in self.df.iterrows():
+                if row[int(self.subjectColumnId)] == subjectCellValue:
+                    cell = row[columnId]
+        return cell
 
     def getSubjectColumnId(self):
         with open(subjectFile) as f:
