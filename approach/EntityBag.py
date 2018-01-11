@@ -9,7 +9,6 @@ class EntityBag(object):
         self.cell          = cell
         self.entity        = entity
         self.values        = self.getEntityTriples()
-        print self.entity
 
     def getEntityTriples(self):
         if self.entity == -1:

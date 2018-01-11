@@ -41,9 +41,9 @@ class Semantification(object):
         for index, bag in enumerate(self.backgroundKnowledge.valuesBags):
             for key, values in bag.values.iteritems():
                 columnPredictions.append([bag.prediction ,key, self.sm.KSTest(self.dataset.getColumnValues(columnId), values)])
-        print "HERE:  ------"
-        print columnPredictions
-        print "HERE:  ------"
+        #print "HERE:  ------"
+        #print columnPredictions
+        #print "HERE:  ------"
         return columnPredictions
 
     def getColumnsResultsKS(self):
@@ -97,5 +97,8 @@ class Semantification(object):
 
         predictionsSorted = sorted(predictions, key=itemgetter(4))
 
+        counter = 0
         for p in enumerate(predictionsSorted):
-            print p
+            if counter <5:
+                print p
+                counter = counter + 1
