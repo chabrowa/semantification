@@ -14,11 +14,15 @@ class EntityBag(object):
         if self.entity == -1:
             return -1
 
-        query = "select * where { \
+        query = "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> select * where { \
             <" + self.entity + "> ?p ?o . \
             filter (isNumeric(?o)) \
+            filter (?p != <http://dbpedia.org/ontology/wikiPageID>) \
+            filter (?p != <http://dbpedia.org/ontology/wikiPageRevisionID>) \
             }"
-        sparql = SPARQLWrapper("http://dbpedia.org/sparql")
+
+        sparql = SPARQLWrapper("http://wdaqua-csv2rdf-fuseki.univ-st-etienne.fr/dbpedia_hdt/query")
+        #sparql = SPARQLWrapper("http://dbpedia.org/sparql")
         sparql.setReturnFormat(JSON)
 
         sparql.setQuery(query)  # the previous query as a literal string

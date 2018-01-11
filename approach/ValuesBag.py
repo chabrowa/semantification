@@ -2,6 +2,7 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 
 from approach.config.paths import *
 from approach.config.imports import *
+#import socket
 
 class ValuesBag(object):
 
@@ -17,7 +18,10 @@ class ValuesBag(object):
         return "http://dbpedia.org/ontology/"+ str(prediction)
 
     def getValues(self):
-        query = "select ?s ?p ?o where { \
+        #sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        #socket.setdefaulttimeout(None)
+        #print socket.getdefaulttimeout()
+        query = "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> select ?s ?p ?o where { \
             ?s ?p ?o . \
             ?s rdf:type <" + self.predictionUrl + "> . \
             filter (isNumeric(?o)) \
@@ -25,9 +29,11 @@ class ValuesBag(object):
             filter (?p != <http://dbpedia.org/ontology/wikiPageRevisionID>) \
             } LIMIT 500"
 
-        sparql = SPARQLWrapper("http://dbpedia.org/sparql")
+        sparql = SPARQLWrapper("http://wdaqua-csv2rdf-fuseki.univ-st-etienne.fr/dbpedia_hdt/query")
+        #sparql = SPARQLWrapper("http://dbpedia.org/sparql")
         sparql.setReturnFormat(JSON)
 
+        #sparql.setTimeout(1200)
         sparql.setQuery(query)  # the previous query as a literal string
         sparql.setReturnFormat(JSON)
         results = sparql.query().convert()

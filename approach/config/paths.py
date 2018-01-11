@@ -7,4 +7,4 @@ noRowsToCheck = 10
 
 #datasetsPath = '/Users/emiliakacprzak/Code/papers/semantification/data/'
 
-datasetsPath = '/Users/emiliakacprzak/Code/papers/semantification/benchmark_labels/smallSample/'
+datasetsPath = '/Users/emiliakacprzak/Code/papers/semantification/benchmark_labels/largeSample/large'

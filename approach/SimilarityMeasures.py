@@ -40,7 +40,12 @@ class SimilarityMeasures(object):
     def relativeDifference(self, val1, val2):
         val1 = float(self.getTrim(str(val1)))
         val2 = float(self.getTrim(str(val2)))
-        relDiff = (abs(val1 - val2))/(max(abs(val1), abs(val2)))
+        if max(abs(val1), abs(val2)) == 0:
+            print "devision by 0; values are: " + str(val1) + " : " + str(val2)
+            relDiff = 0
+        else:
+            relDiff = (abs(val1 - val2))/(max(abs(val1), abs(val2)))
+
         return relDiff
 
     def getTrim(self, val):
