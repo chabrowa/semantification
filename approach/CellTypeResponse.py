@@ -6,6 +6,7 @@ class CellTypeResponse(object):
         self.response = response
         self.uri      = self.setUri()
         self.types    = self.setTypes()
+        print self.uri
 
     def setUri(self):
         #cause response was a tuple

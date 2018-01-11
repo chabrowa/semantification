@@ -1,6 +1,8 @@
 from scipy import stats
 from scipy.spatial import distance
 from collections import Counter
+import re
+
 
 from approach.config.paths import *
 from approach.config.imports import *
@@ -34,3 +36,16 @@ class SimilarityMeasures(object):
         vector1 = [counter1[k] for k in all_items]
         vector2 = [counter2[k] for k in all_items]
         return vector1, vector2
+
+    def relativeDifference(self, val1, val2):
+        val1 = float(self.getTrim(str(val1)))
+        val2 = float(self.getTrim(str(val2)))
+        relDiff = (abs(val1 - val2))/(max(abs(val1), abs(val2)))
+        return relDiff
+
+    def getTrim(self, val):
+        trimVal = ''
+        for c in val:
+            if c.isdigit() or c == '.' or c == ',':
+                trimVal = trimVal+ c
+        return trimVal

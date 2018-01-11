@@ -11,13 +11,15 @@ class SubjectColumn(object):
         #self.tableId        = tableId
         #self.columnId       = columnId
         self.columnValues   = columnValues
-        self.columnTypes    = self.getColumnType()
+        self.cellPredictions    = self.getCellPredictions()
+        self.columnTypes    = self.getMostCommonTypes(self.cellPredictions)
+        print self.columnValues
         #self.columnValues   = self.getColumnValues()
 
     def getColumnValues(self):
         pass
 
-    def getColumnType(self):
+    def getCellPredictions(self):
         predictions = []
         #print self.columnValues
         counter = 0
@@ -26,8 +28,7 @@ class SubjectColumn(object):
                 #print cell
                 predictions.append(self.getCellType(cell))
             counter += 1
-
-        return self.getMostCommonTypes(predictions)
+        return predictions
 
     def getCellType(self, cell):
         response = CellTypeResponse(cell, commands.getstatusoutput('curl http://model.dbpedia-spotlight.org/en/annotate  \
