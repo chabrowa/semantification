@@ -30,7 +30,7 @@ class tableModifier(object):
             noRows = len(df)
             small = (5*noRows)/100
             medium = (10 * noRows) / 100
-            large = (10 * noRows) / 100
+            large = (15 * noRows) / 100
 
             try:
                 ###save 5% sample plus variations
