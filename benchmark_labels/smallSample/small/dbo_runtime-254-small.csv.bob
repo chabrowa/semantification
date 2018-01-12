@@ -1,0 +1,164 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   340    0     0  100   340      0    338  0:00:01  0:00:01 --:--:--   339100   340    0     0  100   340      0    169  0:00:02  0:00:02 --:--:--   169100   340    0     0  100   340      0    113  0:00:03  0:00:03 --:--:--   113100   340    0     0  100   340      0     84  0:00:04  0:00:04 --:--:--    84100  4040  100  3700  100   340    850     78  0:00:04  0:00:04 --:--:--   850
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.3358
+        ], 
+        [
+          "postalCode", 
+          0.342
+        ], 
+        [
+          "areaCode", 
+          0.3508
+        ]
+      ], 
+      "maj": [
+        [
+          "postalCode", 
+          7.0
+        ], 
+        [
+          "areaCode", 
+          2.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.3358
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          0.3358
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.3358
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (postalCode)", 
+          0.3407
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          0.3423
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          0.3425
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          0.3425
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (postalCode)", 
+          0.3429
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          0.351
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Town (postalCode)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (postalCode)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[postalCode]>(type|Municipalities_of_Switzerland)>(canton|Aargau)", 
+      0.3275
+    ], 
+    [
+      "Settlement[postalCode]>(type|Municipalities_of_Switzerland)>(canton|Aargau)", 
+      0.3275
+    ], 
+    [
+      "Mountain[elevation]>(mountainRange|Andes)>(locatedInArea|Peru)", 
+      0.3358
+    ], 
+    [
+      "Town[postalCode]>(isPartOf|Vermont)>(type|New_England_town)>(country|United_States)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3377
+    ], 
+    [
+      "Town[postalCode]>(isPartOf|Vermont)>(type|New_England_town)>(country|United_States)", 
+      0.3399
+    ], 
+    [
+      "Location[areaCode]>(timeZone|Indian_Standard_Time)>(isPartOf|Uttar_Pradesh)>(country|India)", 
+      0.3497
+    ], 
+    [
+      "Settlement[postalCode]>(country|Austria)>(state|Salzburg_(state))>(party|Austrian_People's_Party)", 
+      0.3519
+    ], 
+    [
+      "Location[areaCode]>(timeZone|Indian_Standard_Time)>(isPartOf|Uttar_Pradesh)>(country|India)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.352
+    ], 
+    [
+      "Location[postalCode]>(country|Austria)>(state|Salzburg_(state))", 
+      0.3539
+    ], 
+    [
+      "Town[postalCode]>(isPartOf|Vermont)>(type|New_England_town)", 
+      0.3556
+    ]
+  ], 
+  "values": [
+    5160.0, 
+    5700.0
+  ]
+}

@@ -1,0 +1,190 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   402    0     0  100   402      0    401  0:00:01  0:00:01 --:--:--   401100   402    0     0  100   402      0    200  0:00:02  0:00:02 --:--:--   200100   402    0     0  100   402      0    133  0:00:03  0:00:03 --:--:--   133100   402    0     0  100   402      0    104  0:00:03  0:00:03 --:--:--   104{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEpisodes"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "topSpeed", 
+          0.2923
+        ], 
+        [
+          "populationDensity", 
+          0.3402
+        ], 
+        [
+          "number", 
+          0.3567
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          6.0
+        ], 
+        [
+          "topSpeed", 
+          3.0
+        ], 
+        [
+          "number", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Ship (topSpeed)", 
+          0.275
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (topSpeed)", 
+          0.2923
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.3379
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.3562
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.3562
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          0.3562
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.3562
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.3567
+        ], 
+        [
+          "http://dbpedia.org/ontology/GridironFootballPlayer (number)", 
+          0.3567
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmericanFootballPlayer (number)", 
+          0.3567
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.3567
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.3567
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          19.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (topSpeed)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (topSpeed)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmericanFootballPlayer (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/GridironFootballPlayer (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Ship[topSpeed]>(builder|Barrow-in-Furness)>(builder|Vickers_Limited)", 
+      0.2647
+    ], 
+    [
+      "MeanOfTransportation[topSpeed]", 
+      0.306
+    ], 
+    [
+      "Ship[topSpeed]", 
+      0.306
+    ], 
+    [
+      "Location[populationDensity]>(country|Hungary)>(isPartOf|Vas_County)", 
+      0.3158
+    ], 
+    [
+      "Location[populationDensity]>(country|Hungary)>(isPartOf|Vas_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3214
+    ], 
+    [
+      "Location[populationDensity]>(country|Hungary)>(isPartOf|Somogy_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3409
+    ], 
+    [
+      "Location[populationDensity]>(country|Hungary)>(isPartOf|Baranya_County)>(22-rdf-syntax-ns#type|_Feature)>(timeZone|Central_European_Time)", 
+      0.3514
+    ], 
+    [
+      "Location[populationDensity]>(country|Hungary)>(isPartOf|Somogy_County)", 
+      0.3556
+    ], 
+    [
+      "Village[populationDensity]>(isPartOf|Bar100  4757  100  4355  100   402   1126    103  0:00:03  0:00:03 --:--:--  1126
+anya_County)>(22-rdf-syntax-ns#type|_Feature)>(timeZone|Central_European_Time)", 
+      0.3562
+    ], 
+    [
+      "AmericanFootballPlayer[number]>(position|Cornerback)", 
+      0.3567
+    ]
+  ], 
+  "values": [
+    26.0, 
+    43.0, 
+    32.0, 
+    26.0
+  ]
+}

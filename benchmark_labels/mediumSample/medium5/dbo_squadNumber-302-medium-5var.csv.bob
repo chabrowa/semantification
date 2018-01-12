@@ -1,0 +1,153 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   515    0     0  100   515      0    513  0:00:01  0:00:01 --:--:--   513100   515    0     0  100   515      0    257  0:00:02  0:00:02 --:--:--   257100   515    0     0  100   515      0    171  0:00:03  0:00:03 --:--:--   171100   515    0     0  100   515      0    128  0:00:04  0:00:04 --:--:--   128100   515    0     0  100   515      0    102  0:00:05  0:00:05 --:--:--   102100  4058  100  3543  100   515    699    101  0:00:05  0:00:05 --:--:--   745
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/squadNumber"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.2391
+        ], 
+        [
+          "elevation", 
+          0.2472
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          9.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.2345
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2371
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.2408
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.2408
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.2446
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2472
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2472
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2472
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          17.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Burgos)>(type|Municipalities_of_Spain)", 
+      0.2302
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Burgos)", 
+      0.2324
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Iowa)", 
+      0.2328
+    ], 
+    [
+      "Location[populationDensity]>(type|New_England_town)>(isPartOf|Aroostook_County,_Maine)>(country|United_States)", 
+      0.2353
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Maine)>(isPartOf|Aroostook_County,_Maine)>(country|United_States)", 
+      0.2353
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Iowa)>(type|Township_(United_States))", 
+      0.2433
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Nordfriesland)", 
+      0.2472
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Burgos)>(country|Spain)", 
+      0.2473
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Iowa)>(type|Civil_township)", 
+      0.2474
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Burgos)", 
+      0.248
+    ]
+  ], 
+  "values": [
+    2.0, 
+    11.0, 
+    9.0, 
+    2.0, 
+    11.0, 
+    4.0, 
+    8.0
+  ]
+}

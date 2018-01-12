@@ -1,0 +1,197 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   379    0     0  100   379      0    378  0:00:01  0:00:01 --:--:--   378100   379    0     0  100   379      0    189  0:00:02  0:00:02 --:--:--   189100   379    0     0  100   379      0    126  0:00:03  0:00:03 --:--:--   126{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaLand", 
+          0.3333
+        ], 
+        [
+          "areaTotal", 
+          0.3352
+        ], 
+        [
+          "oclc", 
+          0.337
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          8.0
+        ], 
+        [
+          "oclc", 
+          1.0
+        ], 
+        [
+          "areaLand", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaLand)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.3355
+        ], 
+        [
+          "http://dbpedia.org/ontology/AcademicJournal (oclc)", 
+          0.337
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          0.337
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          0.337
+        ], 
+        [
+          "http://dbpedia.org/ontology/PeriodicalLiterature (oclc)", 
+          0.337
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          18.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AcademicJournal (oclc)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PeriodicalLiterature (oclc)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaTotal]>(timeZone|Time_in_Peru)>(isPartOf|Amazonas_Region)", 
+      0.3333
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Time_in_Peru)>(isPartOf|Hu%C3%A1nuco_Region)", 
+      0.3333
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Peru)>(isPartOf|Hu%C3%A1nuco_Region)", 
+      0.3333
+    ], 
+    [
+      "ProtectedArea[areaTotal]>(location|Colorado)>(location|United_States)", 
+      0.3333
+    ], 
+    [
+      "Town[areaLand]>(country|Canada)", 
+      0.3333
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Uttar_Pradesh)>(country|India)", 
+      0.3333
+    ], 
+    [
+      "AcademicJournal[oclc]>(publisher|John_Wiley_&_Sons)", 
+      0.337
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Time_in_Peru)>(isPartOf|Apur%C3%ADmac_Region)", 
+      0.3377
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Ind100  4704  100  4325  100   379   1338    117  0:00:03  0:00:03 --:--:--  1339
+ian_Standard_Time)>(isPartOf|Uttar_Pradesh)", 
+      0.3381
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)", 
+      0.3395
+    ]
+  ], 
+  "values": [
+    275559682.0, 
+    33104.0, 
+    291432596.0
+  ]
+}

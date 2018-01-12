@@ -1,0 +1,147 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   826    0     0  100   826      0   4104 --:--:-- --:--:-- --:--:--  4109100   826    0     0  100   826      0    412  0:00:02  0:00:02 --:--:--   412100   826    0     0  100   826      0    275  0:00:03  0:00:03 --:--:--   275100   826    0     0  100   826      0    206  0:00:04  0:00:04 --:--:--   206100   826    0     0  100   826      0    192  0:00:04  0:00:04 --:--:--   192100  4055  100  3229  100   826    753    192  0:00:04  0:00:04 --:--:--   588
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/capacity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1006
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0994
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.0994
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0994
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.0995
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1047
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          27.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          7.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Baft_County)", 
+      0.0847
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|South_Khorasan_Province)>(isPartOf|Mud_District)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0965
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|South_Khorasan_Province)>(isPartOf|Mud_District)", 
+      0.0985
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Razavi_Khorasan_Province)>(isPartOf|Kakhk_District)", 
+      0.1001
+    ], 
+    [
+      "Location[populationTotal]>(isPartOf|Khuzestan_Province)>(isPartOf|Qilab_Rural_District)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1003
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Khuzestan_Province)>(isPartOf|Qilab_Rural_District)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1003
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Razavi_Khorasan_Province)>(isPartOf|Kakhk_District)>(timeZone|Iran_Standard_Time)", 
+      0.103
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Sistan_and_Baluchestan_Province)>(isPartOf|Gowhar_Kuh_Rural_District)", 
+      0.1049
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Gilan_Province)>(isPartOf|Rahimabad_District)", 
+      0.1074
+    ], 
+    [
+      "Location[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Sharifabad_Rural_District_(Sirjan_County))", 
+      0.1105
+    ]
+  ], 
+  "values": [
+    54.0, 
+    62.0, 
+    318.0, 
+    701.0, 
+    25.0, 
+    25.0, 
+    47.0, 
+    282.0, 
+    363.0, 
+    50.0, 
+    405.0, 
+    105.0, 
+    707.0, 
+    82.0, 
+    25.0, 
+    36.0, 
+    179.0, 
+    145.0, 
+    61.0, 
+    66.0, 
+    58.0, 
+    38.0, 
+    15.0, 
+    26.0, 
+    135.0, 
+    24.0, 
+    48.0, 
+    38.0, 
+    110.0, 
+    22.0, 
+    51.0, 
+    16.0, 
+    69.0
+  ]
+}

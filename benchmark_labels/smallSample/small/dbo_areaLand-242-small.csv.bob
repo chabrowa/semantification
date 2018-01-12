@@ -1,0 +1,196 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   368    0     0  100   368      0    367  0:00:01  0:00:01 --:--:--   367100   368    0     0  100   368      0    191  0:00:01  0:00:01 --:--:--   191{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaLand"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "oclc", 
+          0.3529
+        ], 
+        [
+          "areaTotal", 
+          0.4133
+        ], 
+        [
+          "areaLand", 
+          0.424
+        ]
+      ], 
+      "maj": [
+        [
+          "areaLand", 
+          5.0
+        ], 
+        [
+          "areaTotal", 
+          4.0
+        ], 
+        [
+          "oclc", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Book (oclc)", 
+          0.3529
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          0.3529
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          0.3529
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.4057
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.4122
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.4143
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.4143
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          0.4247
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.4247
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.4247
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.4247
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaLand)", 
+          0.4255
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          0.4286
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaLand)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Book (oclc)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Book[oclc]>(publisher|HarperCollins)>(literaryGenre|Young-adult_fiction)", 
+      0.3529
+    ], 
+    [
+      "Location[areaTotal]>(country|Poland)>(type|Gmina)>(isPartOf|Silesian_Voivodeship)", 
+      0.4
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Poland)>(type|Gmina)>(isPartOf|Silesian_Voivodeship)", 
+      0.4
+    ], 
+    [
+      "Location[areaLand]>(type|New_England_town)>(isPartOf|Massachusetts)>(isPartOf|Worcester_County,_Massachusetts)", 
+      0.4182
+    ], 
+    [
+      "Location[areaLand]>(type|Township_(Pennsylvania))", 
+      0.4209
+    ], 
+    [
+      "Town[areaLand]>(type|Township_(Pennsylvania))", 
+      0.4209
+    ], 
+    [
+      "Location[areaTotal]>(country|Canada)>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Mont%C3%A9r%C3%A9gie)", 
+      0.4245
+    ], 
+    [
+      "Town[areaTotal]>(country|Germany)>(federalState|Hesse)", 
+      0.4286
+    ], 
+    [
+      "Town[areaLand]>(i100  4793  100  4425  100   368   2303    191  0:00:01  0:00:01 --:--:--  2302
+sPartOf|Massachusetts)>(isPartOf|Worcester_County,_Massachusetts)", 
+      0.4286
+    ], 
+    [
+      "Location[areaLand]>(type|New_England_town)>(isPartOf|Massachusetts)>(isPartOf|Worcester_County,_Massachusetts)>(governmentType|Open_town_meeting)", 
+      0.4314
+    ]
+  ], 
+  "values": [
+    68440000.0, 
+    53910000.0
+  ]
+}

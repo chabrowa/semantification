@@ -1,0 +1,189 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   976    0     0  100   976      0   4852 --:--:-- --:--:-- --:--:--  4855100   976    0     0  100   976      0    487  0:00:02  0:00:02 --:--:--   487100   976    0     0  100   976      0    324  0:00:03  0:00:03 --:--:--   325100   976    0     0  100   976      0    243  0:00:04  0:00:04 --:--:--   243100   976    0     0  100   976      0    194  0:00:05  0:00:05 --:--:--   195100   976    0     0  100   976      0    189  0:00:05  0:00:05 --:--:--     0100  4835  100  3859  100   976    750    189  0:00:05  0:00:05 --:--:--   918
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/height"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.2272
+        ], 
+        [
+          "height", 
+          0.2532
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          7.0
+        ], 
+        [
+          "height", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (height)", 
+          0.1752
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.2126
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.2128
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2146
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.2322
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.2322
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.2909
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.2909
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (height)", 
+          0.2923
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (height)", 
+          0.2923
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (height)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "MeanOfTransportation[height]", 
+      0.1752
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Nebraska)>(type|Civil_township)", 
+      0.1797
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Nebraska)", 
+      0.1797
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Minnesota)>(type|Township_(United_States))>(isPartOf|Polk_County,_Minnesota)", 
+      0.2139
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Minnesota)>(isPartOf|Polk_County,_Minnesota)", 
+      0.2139
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Kansas)", 
+      0.2442
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Kansas)", 
+      0.2684
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|South_Dakota)", 
+      0.2909
+    ], 
+    [
+      "Device[height]", 
+      0.2923
+    ], 
+    [
+      "Weapon[height]", 
+      0.2923
+    ]
+  ], 
+  "values": [
+    4.572, 
+    1.97, 
+    1.435, 
+    1.2192, 
+    2.8, 
+    0.14, 
+    2.71, 
+    1.44145, 
+    2.73, 
+    12.0, 
+    1.12, 
+    1.2192, 
+    1.7, 
+    1.45288, 
+    0.123, 
+    1.285, 
+    3.25, 
+    1.71, 
+    1.524, 
+    2.54, 
+    2.4384, 
+    0.123, 
+    3.1, 
+    1.47828, 
+    3.9, 
+    1.74, 
+    28.0
+  ]
+}

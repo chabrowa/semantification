@@ -1,0 +1,273 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1947    0     0  100  1947      0   1941  0:00:01  0:00:01 --:--:--  1943100  1947    0     0  100  1947      0    971  0:00:02  0:00:02 --:--:--   972100  1947    0     0  100  1947      0    647  0:00:03  0:00:03 --:--:--   648100  1947    0     0  100  1947      0    486  0:00:04  0:00:04 --:--:--   486100  1947    0     0  100  1947      0    388  0:00:05  0:00:05 --:--:--   388100  1947    0     0  100  1947      0    351  0:00:05  0:00:05 --:--:--     0{
+  "invalid": [
+    "http://dbpedia.org/ontology/squadNumber"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "number", 
+          0.1181
+        ], 
+        [
+          "elevation", 
+          0.1311
+        ], 
+        [
+          "populationDensity", 
+          0.1487
+        ], 
+        [
+          "height", 
+          0.1501
+        ]
+      ], 
+      "maj": [
+        [
+          "number", 
+          5.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ], 
+        [
+          "height", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          0.1103
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.1181
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.1181
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.1181
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1304
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1311
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1311
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.1487
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1487
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1487
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1487
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1487
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          0.1492
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (height)", 
+          0.1501
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Indonesia)", 
+      0.0916
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Austria)", 
+      0.1008
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Ukrainian_Soviet_Socialist_Republic)", 
+      0.1153
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Schleswig-Flen100  7426  100  5479  100  1947    990    351  0:00:05  0:00:05 --:--:--  1000
+sburg)>(federalState|Schleswig-Holstein)", 
+      0.1265
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Germany)", 
+      0.1337
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Schleswig-Flensburg)", 
+      0.1356
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Michigan)>(type|Township_(United_States))", 
+      0.1487
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Michigan)>(type|Township_(United_States))", 
+      0.1487
+    ], 
+    [
+      "BasketballPlayer[number]>(nationality|Philippines)", 
+      0.1492
+    ], 
+    [
+      "Location[height]>(location|Australia)", 
+      0.1501
+    ]
+  ], 
+  "values": [
+    5.0, 
+    19.0, 
+    16.0, 
+    31.0, 
+    16.0, 
+    6.0, 
+    14.0, 
+    31.0, 
+    7.0, 
+    88.0, 
+    11.0, 
+    13.0, 
+    5.0, 
+    15.0, 
+    9.0, 
+    2.0, 
+    17.0, 
+    38.0, 
+    9.0, 
+    29.0, 
+    15.0, 
+    27.0, 
+    20.0, 
+    5.0, 
+    2.0, 
+    3.0, 
+    27.0, 
+    34.0, 
+    38.0, 
+    25.0, 
+    3.0, 
+    26.0, 
+    4.0, 
+    36.0, 
+    2.0, 
+    30.0, 
+    27.0, 
+    9.0, 
+    8.0, 
+    34.0, 
+    7.0, 
+    25.0, 
+    26.0, 
+    23.0, 
+    19.0, 
+    16.0, 
+    7.0, 
+    22.0, 
+    26.0, 
+    19.0, 
+    7.0, 
+    1.0, 
+    84.0, 
+    28.0, 
+    23.0, 
+    15.0, 
+    15.0, 
+    9.0, 
+    24.0, 
+    30.0, 
+    42.0, 
+    29.0, 
+    28.0
+  ]
+}

@@ -1,0 +1,192 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   405    0     0  100   405      0    403  0:00:01  0:00:01 --:--:--   404100   405    0     0  100   405      0    202  0:00:02  0:00:02 --:--:--   202100   405    0     0  100   405      0    139  0:00:02  0:00:02 --:--:--   139{
+  "invalid": [
+    "http://dbpedia.org/ontology/width"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.3446
+        ], 
+        [
+          "postalCode", 
+          0.3516
+        ], 
+        [
+          "areaWater", 
+          0.3546
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          6.0
+        ], 
+        [
+          "postalCode", 
+          3.0
+        ], 
+        [
+          "populationTotal", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.3446
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.3446
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.3446
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          0.3498
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.3512
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          0.3516
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          0.3516
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (postalCode)", 
+          0.3541
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.3559
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.358
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.358
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.3585
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (postalCode)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[postalCode]>(timeZone|Indian_Standard_Time)", 
+      0.3445
+    ], 
+    [
+      "Settlement[populationTotal]>(country|India)>(isPartOf|Maharashtra)", 
+      0.3446
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Massachusetts)>(type|Census-designated_place)", 
+      0.3455
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Massachusetts)>(type|Census-designated_place)>(country|United_States)", 
+      0.3519
+    ], 
+    [
+      "City[postalCode]>(type|Prefecture-level_city)>(country|China)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.352
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Wisconsin)>(type|City)>(timeZone|Central_Time_Zone)", 
+      0.3559
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Maine)>(type|Census-designated_place)", 
+      0.3561
+    ], 
+    [
+      "City[postalCode]>(type|County-level_city)", 
+      0.3582
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Maine)>(type|Census-designated_place)", 
+      0.3588
+    ], 
+    [
+      "Settlement100  4674  100  4269  100   405   1475    139  0:00:02  0:00:02 --:--:--  1475
+[areaWater]>(isPartOf|Massachusetts)", 
+      0.3592
+    ]
+  ], 
+  "values": [
+    171159.0, 
+    186667.0, 
+    185172.0, 
+    176037.0, 
+    615174.0, 
+    567614.0
+  ]
+}

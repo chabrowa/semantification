@@ -1,0 +1,165 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   567    0     0  100   567      0    565  0:00:01  0:00:01 --:--:--   565100   567    0     0  100   567      0    282  0:00:02  0:00:02 --:--:--   283100   567    0     0  100   567      0    188  0:00:03  0:00:03 --:--:--   188100   567    0     0  100   567      0    141  0:00:04  0:00:04 --:--:--   141100   567    0     0  100   567      0    113  0:00:05  0:00:04  0:00:01   113100  4093  100  3526  100   567    707    113  0:00:05  0:00:04  0:00:01   742
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/height"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "minimumElevation", 
+          0.1246
+        ], 
+        [
+          "elevation", 
+          0.1442
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          6.0
+        ], 
+        [
+          "minimumElevation", 
+          4.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.1203
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.121
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1231
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.1289
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (elevation)", 
+          0.1381
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1442
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.1455
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.147
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1489
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "PopulatedPlace[minimumElevation]", 
+      0.1196
+    ], 
+    [
+      "Settlement[minimumElevation]", 
+      0.121
+    ], 
+    [
+      "Location[minimumElevation]", 
+      0.1289
+    ], 
+    [
+      "Place[minimumElevation]", 
+      0.1289
+    ], 
+    [
+      "ProtectedArea[elevation]>(type|List_of_Connecticut_state_parks)>(country|United_States)", 
+      0.1354
+    ], 
+    [
+      "ProtectedArea[elevation]>(type|List_of_Connecticut_state_parks)", 
+      0.142
+    ], 
+    [
+      "Town[elevation]>(country|India)>(isPartOf|Tamil_Nadu)", 
+      0.1446
+    ], 
+    [
+      "Town[elevation]>(country|India)>(isPartOf|Tamil_Nadu)>(22-rdf-syntax-ns#type|_Feature)>(timeZone|Indian_Standard_Time)", 
+      0.145
+    ], 
+    [
+      "Town[elevation]>(country|India)>(isPartOf|Tamil_Nadu)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1469
+    ], 
+    [
+      "Settlement[elevation]>(country|Italy)>(region|Friuli-Venezia_Giulia)>(province|Province_of_Udine)", 
+      0.1515
+    ]
+  ], 
+  "values": [
+    187.0, 
+    187.0, 
+    3.564, 
+    67.0, 
+    322.0, 
+    65.0, 
+    144.0, 
+    86.0, 
+    462.0, 
+    322.0, 
+    3.564
+  ]
+}

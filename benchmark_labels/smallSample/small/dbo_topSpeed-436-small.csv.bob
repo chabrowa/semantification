@@ -1,0 +1,203 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   313    0     0  100   313      0    312  0:00:01  0:00:01 --:--:--   312100   313    0     0  100   313      0    156  0:00:02  0:00:02 --:--:--   156100   313    0     0  100   313      0    104  0:00:03  0:00:03 --:--:--   104100   313    0     0  100   313      0     78  0:00:04  0:00:04 --:--:--    78100   313    0     0  100   313      0     70  0:00:04  0:00:04 --:--:--    70{
+  "invalid": [
+    "http://dbpedia.org/ontology/topSpeed"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "topSpeed", 
+          0.4844
+        ], 
+        [
+          "maximumElevation", 
+          0.4951
+        ], 
+        [
+          "elevation", 
+          0.4963
+        ], 
+        [
+          "areaCode", 
+          0.5
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          4.0
+        ], 
+        [
+          "areaCode", 
+          3.0
+        ], 
+        [
+          "maximumElevation", 
+          2.0
+        ], 
+        [
+          "topSpeed", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Agent (topSpeed)", 
+          0.4844
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.4934
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.4951
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          0.4951
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          0.4951
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          0.4951
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.4963
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.4963
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.4971
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaCode)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.5
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaCode)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (topSpeed)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Agent[topSpeed]", 
+      0.4844
+    ], 
+    [
+      "Town[elevation]>(country|Republic_of_Ireland)>(isPartOf|Connacht)>(timeZone|Time_in_Ireland)", 
+      0.4907
+    ], 
+    [
+      "Location[maximumElevation]>(department|Nord_(French_department))>(region|Nord-Pas-de-Calais)", 
+      0.4951
+    ], 
+    [
+      "Settlement[maximumElevation]>(department|Nord_(French_department))>(region|Nord-Pas-de-Calais)", 
+      0.4951
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Manche)", 
+      0.4977
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Landes_(department))", 
+      0.4982
+    ], 
+    [
+      "Town[elevation]>(country|Republic_of_I100  4750  100  4437  100   313   1000     70  0:00:04  0:00:04 --:--:--  1200
+reland)", 
+      0.4987
+    ], 
+    [
+      "Place[areaCode]>(timeZone|Eastern_Time_Zone)", 
+      0.5
+    ], 
+    [
+      "City[areaCode]>(timeZone|Central_European_Time)", 
+      0.5
+    ], 
+    [
+      "City[areaCode]>(timeZone|Central_European_Time)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5
+    ]
+  ], 
+  "values": [
+    70.0
+  ]
+}

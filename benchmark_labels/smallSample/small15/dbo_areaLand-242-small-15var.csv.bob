@@ -1,0 +1,196 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   370    0     0  100   370      0    368  0:00:01  0:00:01 --:--:--   369100   370    0     0  100   370      0    208  0:00:01  0:00:01 --:--:--   208{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaLand"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "oclc", 
+          0.423
+        ], 
+        [
+          "areaLand", 
+          0.4372
+        ], 
+        [
+          "areaTotal", 
+          0.4377
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          5.0
+        ], 
+        [
+          "areaLand", 
+          3.0
+        ], 
+        [
+          "oclc", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          0.423
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          0.423
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          0.4239
+        ], 
+        [
+          "http://dbpedia.org/ontology/Book (oclc)", 
+          0.4247
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          0.4306
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.4318
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.4318
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.4335
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaLand)", 
+          0.4405
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.4405
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.4405
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.4405
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.4615
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Book (oclc)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaLand)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Town[areaTotal]>(country|Germany)>(federalState|Hesse)", 
+      0.4107
+    ], 
+    [
+      "Book[oclc]>(publisher|HarperCollins)", 
+      0.4146
+    ], 
+    [
+      "Town[areaLand]>(isPartOf|Massachusetts)", 
+      0.4257
+    ], 
+    [
+      "Location[areaLand]>(type|New_England_town)>(isPartOf|Massachusetts)", 
+      0.4306
+    ], 
+    [
+      "Settlement[areaTotal]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Le%C3%B3n)>(22-rdf-syntax-ns#type|_Feature)>(country|Spain)", 
+      0.4314
+    ], 
+    [
+      "Book[oclc]>(publisher|HarperCollins)>(literaryGenre|Young-adult_fiction)", 
+      0.4314
+    ], 
+    [
+      "Settlement[areaTotal]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Le%C3%B3n)", 
+      0.4414
+    ], 
+    [
+      "Town[areaTotal]>(isPartOf|New_Jersey)", 
+      0.4436
+    ], 
+    [
+      "Town[areaLand]>(isPartOf|New_Jersey)", 
+      0.4553
+    ], 
+    [
+      "Location[areaT100  4598  100  4228  100   370   2381    208  0:00:01  0:00:01 --:--:--  2381
+otal]>(country|Spain)>(isPartOf|Province_of_Huesca)", 
+      0.4615
+    ]
+  ], 
+  "values": [
+    59838792.0, 
+    48289457.0
+  ]
+}

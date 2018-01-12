@@ -1,0 +1,219 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1516    0     0  100  1516      0   1512  0:00:01  0:00:01 --:--:--  1512100  1516    0     0  100  1516      0    756  0:00:02  0:00:02 --:--:--   756100  1516    0     0  100  1516      0    504  0:00:03  0:00:03 --:--:--   504100  1516    0     0  100  1516      0    378  0:00:04  0:00:04 --:--:--   378100  1516    0     0  100  1516      0    302  0:00:05  0:00:05 --:--:--   302100  1516    0     0  100  1516      0    256  0:00:05  0:00:05 --:--:--     0{
+  "invalid": [
+    "http://dbpedia.org/ontology/topSpeed"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.1454
+        ], 
+        [
+          "topSpeed", 
+          0.1536
+        ], 
+        [
+          "minimumElevation", 
+          0.229
+        ]
+      ], 
+      "maj": [
+        [
+          "minimumElevation", 
+          5.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "topSpeed", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (topSpeed)", 
+          0.1244
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.1447
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1454
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1454
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1454
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (topSpeed)", 
+          0.1536
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (topSpeed)", 
+          0.1536
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.2244
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.2244
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.2244
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.2321
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (topSpeed)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (topSpeed)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (topSpeed)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "PublicTransitSystem[topSpeed]", 
+      0.1244
+    ], 
+    [
+      "Village[elevation]>(country|Poland)>(isPartOf|Greater_Poland_Voivodeship)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.139
+    ], 
+    [
+      "Village[elevation]>(country|Poland)>(isPartOf|Greater_Poland_Voivodeship)", 
+      0.1474
+    ], 
+    [
+      "Village[elevation]>(country|Germany)>(district|Anhalt-Bitterfeld)", 
+      0.1498
+    ], 
+    [
+      "Organisation[topSpeed]", 
+      0.1828
+    ], 
+    [
+      "Location[minimumElevation]>(region|Centre_(French_region))>(arrondissement|Arrondissement_of_Blois)", 
+      0.2167
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Centre_(French_region))>(arrondissement|Arrondissement_of_Blois)", 
+      0.2167
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Poitou-Charentes)>(department|Vienne)", 
+      0.2321
+    ], 
+    [
+      "Location[minimumElevation]>(region|Poitou-Charentes)>(department|Vienne)", 
+      0.2357
+    ], 
+    [
+      "Location[minimumElevation]>(region|Pays_de_la_Loire)>(arrondissement|Arrondissement_of_Mamers)", 
+      0.2439
+    ]
+  ], 
+  "values": [
+    70.0, 
+    104.607, 
+    60.0, 
+   100  6057  100  4541  100  1516    767    256  0:00:05  0:00:05 --:--:--   772
+ 80.0, 
+    70.0, 
+    70.0, 
+    80.0, 
+    70.0, 
+    100.0, 
+    80.0, 
+    100.0, 
+    93.3417, 
+    80.0, 
+    21.0, 
+    72.0, 
+    72.0, 
+    80.0, 
+    90.0, 
+    88.5137, 
+    100.0, 
+    120.0, 
+    70.0, 
+    99.7791, 
+    80.0, 
+    72.0, 
+    72.0, 
+    80.467, 
+    88.5137, 
+    72.0, 
+    80.0, 
+    80.0, 
+    75.0, 
+    80.0, 
+    80.0, 
+    90.0, 
+    15.2887, 
+    90.0, 
+    144.841, 
+    160.0, 
+    100.0, 
+    80.0
+  ]
+}

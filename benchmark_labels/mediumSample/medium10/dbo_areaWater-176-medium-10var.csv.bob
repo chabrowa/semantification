@@ -1,0 +1,212 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   354    0     0  100   354      0    352  0:00:01  0:00:01 --:--:--   353100   354    0     0  100   354      0    176  0:00:02  0:00:02 --:--:--   176{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaWater"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "area", 
+          0.4444
+        ], 
+        [
+          "areaTotal", 
+          0.4799
+        ], 
+        [
+          "areaLand", 
+          0.4813
+        ], 
+        [
+          "areaWater", 
+          0.4902
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          6.0
+        ], 
+        [
+          "areaLand", 
+          2.0
+        ], 
+        [
+          "areaWater", 
+          1.0
+        ], 
+        [
+          "area", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (area)", 
+          0.4444
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.4773
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.4795
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.4795
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.4799
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.4806
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.4813
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.4813
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.4857
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          0.4857
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaWater)", 
+          0.4902
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.4902
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaWater)", 
+          0.4902
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.4902
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (area)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[area]>(region|Franche-Comt%C3%A9)>(department|Territoire_de_Belfort)", 
+      0.4444
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Germany)>(district|Rhein-Hunsr%C3%BCck-Kreis)>(type|Verbandsgemeinde)", 
+      0.4638
+    ], 
+    [
+      "Settlement[areaLand]>(isPartOf|Minnesota)", 
+      0.4769
+    ], 
+    [
+      "Location[areaTotal]>(type|Census-designated_place)>(isPartOf|New_Jersey)", 
+      0.4803
+    ], 
+    [
+      "Location[areaTotal]>(type|Municipalities_of_Switzerland)>(district|Bern-Mittelland_(administ100  5153  100  4799  100   354   2361    174  0:00:02  0:00:02 --:--:--  2362
+rative_district))>(canton|Canton_of_Bern)", 
+      0.4808
+    ], 
+    [
+      "Settlement[areaTotal]>(type|Municipalities_of_Switzerland)>(district|Bern-Mittelland_(administrative_district))>(canton|Canton_of_Bern)", 
+      0.4808
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Missouri)>(isPartOf|St._Louis_County,_Missouri)", 
+      0.4857
+    ], 
+    [
+      "City[areaLand]>(isPartOf|Missouri)>(isPartOf|St._Louis_County,_Missouri)", 
+      0.4857
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Germany)>(district|Kusel_(district))", 
+      0.4878
+    ], 
+    [
+      "AdministrativeRegion[areaWater]>(state|Kansas)", 
+      0.4902
+    ]
+  ], 
+  "values": [
+    5196949.0, 
+    4651489.0
+  ]
+}

@@ -1,0 +1,192 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   568    0     0  100   568      0    566  0:00:01  0:00:01 --:--:--   566100   568    0     0  100   568      0    283  0:00:02  0:00:02 --:--:--   283100   568    0     0  100   568      0    188  0:00:03  0:00:03 --:--:--   189100   568    0     0  100   568      0    141  0:00:04  0:00:04 --:--:--   141100   568    0     0  100   568      0    127  0:00:04  0:00:04 --:--:--   127{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfGoals"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "number", 
+          0.2312
+        ], 
+        [
+          "elevation", 
+          0.2418
+        ], 
+        [
+          "minimumElevation", 
+          0.2515
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          5.0
+        ], 
+        [
+          "minimumElevation", 
+          4.0
+        ], 
+        [
+          "number", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.2312
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.2312
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.2312
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          0.2312
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2374
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2418
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2418
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.2443
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.2511
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.2519
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.2519
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.2519
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[elevation]>(isPartOf|New_York)>(isPartOf|Nassau_County,_New_York)>(type|Administrative_divisions_of_New_York)", 
+      0.2188
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Goalkeeper_(association_football))>(birthPlace|Indonesia)", 
+      0.2312
+    ], 
+    [
+      "Village[elevation]>(isPartOf|New_York)>(isPartOf|Nassau_County,_New_York)>(country|United_States)", 
+      0.236
+    ], 
+    [
+      "Village[elevation]>(isPartOf|New_York)>(isPartOf|Nassau_County,_New_York)", 
+      0.2409
+    ], 
+    [
+      "Location[minimumElevation]>(region|Pays_de_la_Loire)>(department|Vend%C3%A9e)", 
+      0.244
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Pays_de_la_Loire)>(department|Vend%C3%A9e)", 
+      0.2455
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|New_York)>(isPartOf|Nassau_County,_New_York)", 
+      0.2544
+    ], 
+    [
+      "Location[minimumElevation]>(department|Manche)>(arrondissement|Arrondissement_of_Coutances)", 
+      0.2582
+    ], 
+    [
+    100  4981  100  4413  100   568    988    127  0:00:04  0:00:04 --:--:--  1111
+  "Settlement[minimumElevation]>(department|Manche)>(arrondissement|Arrondissement_of_Coutances)", 
+      0.2582
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Western_Norway)>(isPartOf|Sogn_og_Fjordane)", 
+      0.2589
+    ]
+  ], 
+  "values": [
+    4.0, 
+    27.0, 
+    33.0, 
+    2.0, 
+    52.0, 
+    46.0
+  ]
+}

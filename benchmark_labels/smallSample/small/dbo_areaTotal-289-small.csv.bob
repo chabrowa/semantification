@@ -1,0 +1,202 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1251    0     0  100  1251      0   1247  0:00:01  0:00:01 --:--:--  1248100  1251    0     0  100  1251      0    624  0:00:02  0:00:02 --:--:--   624100  1251    0     0  100  1251      0    416  0:00:03  0:00:03 --:--:--   416100  1251    0     0  100  1251      0    312  0:00:04  0:00:04 --:--:--   312100  1251    0     0  100  1251      0    249  0:00:05  0:00:05 --:--:--   249100  1251    0     0  100  1251      0    208  0:00:06  0:00:06 --:--:--     0{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.1107
+        ], 
+        [
+          "areaWater", 
+          0.1173
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          6.0
+        ], 
+        [
+          "areaTotal", 
+          4.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          0.1014
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          0.1014
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (areaTotal)", 
+          0.1014
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.1095
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1107
+        ], 
+        [
+          "http://dbpedia.org/ontology/SiteOfSpecialScientificInterest (areaTotal)", 
+          0.1158
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          0.1183
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.1243
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.1243
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.1253
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.1313
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SiteOfSpecialScientificInterest (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaWater]>(isPartOf|New_Jersey)", 
+      0.0724
+    ], 
+    [
+      "Lake[areaTotal]>(country|Switzerland)", 
+      0.1014
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Missouri)", 
+      0.1019
+    ], 
+    [
+      "SiteOfSpecialScientificInterest[areaTotal]", 
+      0.1037
+    ], 
+    [
+      "SiteOfSpecialScientificInterest[areaTotal]>(areaOfSearch|East_Sussex)", 
+      0.1152
+    ], 
+    [
+      "SiteOfSpecialScientificInterest[areaTotal]>(areaOfSearch|Somerset)", 
+      0.1225
+    ], 
+    [
+      "Settlement[areaWater]>(leaderName|Republican_Party_(United_States))", 
+      0.1294
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Michigan)", 
+      0.1313
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Kansas)>(type|Civil_township)", 
+      0.1342
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Kansas)", 
+      0.1348
+    ]
+  ], 
+  "values": [
+    158600.0, 
+    838000.0, 
+    35000.0, 
+    200.0, 
+    162000.0, 
+    30800.0, 
+    1160000.0, 
+    18000.0, 
+    399200.0, 
+    8300.0, 
+    25800.0, 
+    5000.0, 
+    98300.0, 
+    2082000.0, 
+    136739000.0, 
+    126000.0, 
+    1588300.0, 
+    84000.0, 
+    492000.0, 
+    2499000.0, 
+    7048100.0, 
+    60000.0, 
+    4666000.0, 
+    1827000.0, 
+    133000.0, 
+    786000.0, 
+    270300.0, 
+    4450000.0, 
+    680800.0, 
+    186000.0, 
+    91459.0, 
+    22600.0
+  100  5351  100  4100  100  1251    673    205  0:00:06  0:00:06 --:--:--   697
+]
+}

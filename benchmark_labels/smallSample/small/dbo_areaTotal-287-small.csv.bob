@@ -1,0 +1,197 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1258    0     0  100  1258      0   1255  0:00:01  0:00:01 --:--:--  1256100  1258    0     0  100  1258      0    681  0:00:01  0:00:01 --:--:--   681{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.1782
+        ], 
+        [
+          "areaLand", 
+          0.1852
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          9.0
+        ], 
+        [
+          "areaLand", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaTotal)", 
+          0.146
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaTotal)", 
+          0.146
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.178
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.178
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.1785
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.184
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaLand)", 
+          0.1852
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.1852
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaLand)", 
+          0.1852
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.1852
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.2055
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Region[areaTotal]", 
+      0.146
+    ], 
+    [
+      "AdministrativeRegion[areaTotal]", 
+      0.146
+    ], 
+    [
+      "Location[areaTotal]>(country|Canada)>(type|Regional_county_municipality)>(timeZone|Eastern_Time_Zone)", 
+      0.1751
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Canada)>(type|Regional_county_municipality)>(timeZone|Eastern_Time_Zone)", 
+      0.1751
+    ], 
+    [
+      "Settlement[areaTotal]>(country|China)", 
+      0.1789
+    ], 
+    [
+      "Location[areaTotal]>(country|Canada)>(type|Regional_county_municipality)", 
+      0.1831
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Canada)>(type|Regional_county_municipality)", 
+      0.1831
+    ], 
+    [
+      "AdministrativeRegion[areaLand]>(state|New_York)", 
+      0.1852
+    ], 
+    [
+      "City[areaTotal]>(type|County-level_city)>(country|China)>(timeZone|Time_in_China)", 
+      0.1994
+    ], 
+    [
+      "City[areaTotal]>(type|County-level_city)", 
+      0.2175
+    ]
+  ], 
+  "values": [
+    241500000.0, 
+    374300000.0, 
+    1516000000.0, 
+    2618000000.0, 
+    897600000.0, 
+    3516000000.0, 
+    362500000.0, 
+    1516000000.0, 
+    4167000000.0, 
+    5461000000.0, 
+    2543000000.0, 
+    3211000000.0, 
+    2519000000.0, 
+    2290000000.0, 
+    2506000000.0, 
+    1515000000.0, 
+    66700000.0, 
+    641057000.0, 
+    2376000000.0, 
+    264100100  5498  100  4240  100  1258   2296    681  0:00:01  0:00:01 --:--:--  2295
+0000.0, 
+    1587200000.0, 
+    140700000.0, 
+    2641000000.0, 
+    897600000.0, 
+    2519000000.0, 
+    3683000000.0, 
+    1701000000.0
+  ]
+}

@@ -1,0 +1,210 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   479    0     0  100   479      0    477  0:00:01  0:00:01 --:--:--   478100   479    0     0  100   479      0    239  0:00:02  0:00:02 --:--:--   239100   479    0     0  100   479      0    159  0:00:03  0:00:03 --:--:--   159100   479    0     0  100   479      0    119  0:00:04  0:00:04 --:--:--   119100   479    0     0  100   479      0     95  0:00:05  0:00:05 --:--:--    95{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfSeasons"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfSeasons", 
+          0.1368
+        ], 
+        [
+          "populationDensity", 
+          0.2046
+        ], 
+        [
+          "elevation", 
+          0.2458
+        ], 
+        [
+          "length", 
+          0.2723
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          7.0
+        ], 
+        [
+          "numberOfSeasons", 
+          1.0
+        ], 
+        [
+          "length", 
+          1.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          0.1368
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          0.1368
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.1653
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.1653
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1928
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1928
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.2338
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2339
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.2342
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2458
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2458
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2458
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (length)", 
+          0.2723
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "TelevisionShow[numberOfSeasons]>(format|Aspect_ratio_(image))", 
+      0.1368
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Nebraska)", 
+      0.1569
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Colorado)", 
+      0.165
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Kansas)", 
+      0.1739
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Iowa)>(type|Township_(United_States))>(timeZone|Central_Time_Zone)", 
+      0.2331
+    ], 
+    [
+      "Town[populationDensity]>(i100  5131  100  4652  100   479    922     94  0:00:05  0:00:05 --:--:--  1033
+sPartOf|Iowa)>(timeZone|Central_Time_Zone)>(type|Township_(United_States))", 
+      0.2331
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Minnesota)>(type|Township_(United_States))", 
+      0.2351
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Minnesota)", 
+      0.2354
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Nordfriesland)", 
+      0.2458
+    ], 
+    [
+      "Device[length]", 
+      0.2723
+    ]
+  ], 
+  "values": [
+    2.0, 
+    14.0, 
+    6.0, 
+    1.0, 
+    8.0, 
+    1.0, 
+    6.0, 
+    2.0
+  ]
+}

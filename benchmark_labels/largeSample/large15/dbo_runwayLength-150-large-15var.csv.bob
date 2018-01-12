@@ -1,0 +1,179 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   330    0     0  100   330      0    329  0:00:01  0:00:01 --:--:--   329100   330    0     0  100   330      0    164  0:00:02  0:00:02 --:--:--   164100   330    0     0  100   330      0    109  0:00:03  0:00:03 --:--:--   109100   330    0     0  100   330      0     82  0:00:04  0:00:04 --:--:--    82100   330    0     0  100   330      0     70  0:00:04  0:00:04 --:--:--    70{
+  "invalid": [
+    "http://dbpedia.org/ontology/runwayLength"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.5
+        ], 
+        [
+          "maximumElevation", 
+          0.5
+        ], 
+        [
+          "populationDensity", 
+          0.5
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          7.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ], 
+        [
+          "maximumElevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (maximumElevation)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (maximumElevation)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (maximumElevation)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.5
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "SkiArea[maximumElevation]>(location|Canada)", 
+      0.5
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(region|Provence-Alpes-C%C3%B4te_d'Azur)>(department|Vaucluse)", 
+      0.5
+    ], 
+    [
+      "Location[populationTotal]>(country|Spain)>(isPartOf|Province_of_Almer%C3%ADa)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|East_Azerbaijan_Province)>(isPartOf|Tabriz_County)>(isPartOf|Central_District_(Tabriz_County))", 
+      0.5
+    ], 
+    [
+      "Town[populationTotal]>(timeZone|Central_European_Time)>(isPartOf|North_Holland)", 
+      0.5
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(ceremonialCounty|Cornwall)", 
+      0.5
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(region|Provence-Alpes-C%C3%B4te_d'Azur)>(department|Vaucluse)", 
+      0.5
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Spain)>(isPartOf|Andalusia)>(isPartOf|Province_of_Almer%C3%ADa)", 
+      0.5
+    ], 
+    [
+      "Location[populationDensity]>(country|Sweden)>(isPa100  4676  100  4346  100   330    925     70  0:00:04  0:00:04 --:--:--  1086
+rtOf|Stockholm_County)", 
+      0.5
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|New_Jersey)>(governmentType|Faulkner_Act_(mayor%E2%80%93council))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5
+    ]
+  ], 
+  "values": [
+    1072.0
+  ]
+}

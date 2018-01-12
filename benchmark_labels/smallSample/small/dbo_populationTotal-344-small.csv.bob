@@ -1,0 +1,197 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   412    0     0  100   412      0   2049 --:--:-- --:--:-- --:--:--  2049100   412    0     0  100   412      0    205  0:00:02  0:00:02 --:--:--   205100   412    0     0  100   412      0    137  0:00:03  0:00:03 --:--:--   137100   412    0     0  100   412      0    102  0:00:04  0:00:04 --:--:--   102100   412    0     0  100   412      0     84  0:00:04  0:00:04 --:--:--    84{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "weight", 
+          0.2372
+        ], 
+        [
+          "elevation", 
+          0.2508
+        ], 
+        [
+          "populationDensity", 
+          0.264
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          7.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ], 
+        [
+          "weight", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Weapon (weight)", 
+          0.2372
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (weight)", 
+          0.2372
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.243
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.254
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          0.254
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.2625
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.2625
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.2625
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2652
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2654
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.2706
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2708
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2708
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          16.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (weight)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (weight)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|South_Dakota)", 
+      0.2123
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|South_Dakota)>(country|United_States)", 
+      0.2222
+    ], 
+    [
+      "Weapon[weight]>(type|Semi-automatic_pistol)>(origin|United_States)", 
+      0.2372
+    ], 
+    [
+      "Mountain[elevation]>(locatedInArea|South_Korea)", 
+      0.254
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(type|Town)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2613
+    ], 
+    [
+      "Settlement[populationDensity]>(country|Sweden)>(isPartOf|V%C3%A4stra_G%C3%B6taland_County)", 
+      0.2625
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>100  4989  100  4577  100   412    936     84  0:00:04  0:00:04 --:--:--   888
+(type|Town)", 
+      0.264
+    ], 
+    [
+      "Location[populationDensity]>(country|Sweden)>(isPartOf|V%C3%A4stra_G%C3%B6taland_County)", 
+      0.2654
+    ], 
+    [
+      "Town[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(type|Town)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2694
+    ], 
+    [
+      "Town[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(type|Town)", 
+      0.2721
+    ]
+  ], 
+  "values": [
+    663.0, 
+    1316.0, 
+    904.0
+  ]
+}

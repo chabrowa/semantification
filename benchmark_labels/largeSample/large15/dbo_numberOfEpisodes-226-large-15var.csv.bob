@@ -1,0 +1,235 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   332    0     0  100   332      0    331  0:00:01  0:00:01 --:--:--   331100   332    0     0  100   332      0    165  0:00:02  0:00:02 --:--:--   165100   332    0     0  100   332      0    110  0:00:03  0:00:03 --:--:--   110100   332    0     0  100   332      0     82  0:00:04  0:00:04 --:--:--    82100   332    0     0  100   332      0     66  0:00:05  0:00:05 --:--:--    66{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEpisodes"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.499
+        ], 
+        [
+          "elevation", 
+          0.5
+        ], 
+        [
+          "maximumElevation", 
+          0.5
+        ], 
+        [
+          "populationDensity", 
+          0.5
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          5.0
+        ], 
+        [
+          "populationDensity", 
+          3.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ], 
+        [
+          "maximumElevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.4984
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.499
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.499
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (maximumElevation)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (maximumElevation)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (maximumElevation)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.5
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (ele100  5914  100  5582  100   332   1108     65  0:00:05  0:00:05 --:--:--  1302
+vation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[populationTotal]>(type|Census-designated_place)>(isPartOf|Colorado)", 
+      0.4951
+    ], 
+    [
+      "SkiArea[maximumElevation]>(location|Canada)", 
+      0.5
+    ], 
+    [
+      "Village[populationTotal]>(timeZone|Central_European_Time)>(isPartOf|Szabolcs-Szatm%C3%A1r-Bereg_County)", 
+      0.5
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|East_Azerbaijan_Province)>(isPartOf|Tabriz_County)>(isPartOf|Central_District_(Tabriz_County))", 
+      0.5
+    ], 
+    [
+      "Town[populationTotal]>(timeZone|Central_European_Time)>(isPartOf|North_Holland)", 
+      0.5
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(ceremonialCounty|Cornwall)", 
+      0.5
+    ], 
+    [
+      "Location[populationDensity]>(country|Sweden)>(isPartOf|Stockholm_County)", 
+      0.5
+    ], 
+    [
+      "Settlement[populationDensity]>(type|New_England_town)", 
+      0.5
+    ], 
+    [
+      "Settlement[populationDensity]>(country|Sweden)>(isPartOf|Stockholm_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5
+    ], 
+    [
+      "Town[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Arizona)>(type|Ghost_town)", 
+      0.5
+    ]
+  ], 
+  "values": [
+    1087.0
+  ]
+}

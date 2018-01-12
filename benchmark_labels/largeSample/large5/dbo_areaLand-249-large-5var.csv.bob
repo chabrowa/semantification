@@ -1,0 +1,125 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   413    0     0  100   413      0    412  0:00:01  0:00:01 --:--:--   412100   413    0     0  100   413      0    206  0:00:02  0:00:02 --:--:--   206100   413    0     0  100   413      0    155  0:00:02  0:00:02 --:--:--   155100  3037  100  2624  100   413    990    155  0:00:02  0:00:02 --:--:--   990
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaLand"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.333
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.3329
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.3332
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaTotal)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.3333
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          16.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          3.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaTotal]", 
+      0.3317
+    ], 
+    [
+      "Place[areaTotal]", 
+      0.3317
+    ], 
+    [
+      "Location[areaTotal]>(type|Municipalities_of_Switzerland)>(canton|Canton_of_Lucerne)", 
+      0.3333
+    ], 
+    [
+      "Location[areaTotal]>(type|Census-designated_place)>(isPartOf|Maine)", 
+      0.3333
+    ], 
+    [
+      "Location[areaTotal]>(country|United_Kingdom)>(district|Chichester_District)", 
+      0.3333
+    ], 
+    [
+      "Location[areaTotal]>(country|United_Kingdom)>(district|Breckland_District)", 
+      0.3333
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Gujarat)", 
+      0.3333
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Oklahoma)>(country|United_States)", 
+      0.3333
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Oklahoma)>(country|United_States)>(type|City)", 
+      0.3333
+    ], 
+    [
+      "Village[areaTotal]>(country|Germany)>(district|Anhalt-Bitterfeld)", 
+      0.3333
+    ]
+  ], 
+  "values": [
+    24238204621.0, 
+    8036022.0, 
+    7863696.0
+  ]
+}

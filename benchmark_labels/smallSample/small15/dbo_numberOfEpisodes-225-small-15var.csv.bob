@@ -1,0 +1,187 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   330    0     0  100   330      0    329  0:00:01  0:00:01 --:--:--   329100   330    0     0  100   330      0    164  0:00:02  0:00:02 --:--:--   164100   330    0     0  100   330      0    109  0:00:03  0:00:03 --:--:--   109100   330    0     0  100   330      0     82  0:00:04  0:00:04 --:--:--    82{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEpisodes"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaCode", 
+          0.3435
+        ], 
+        [
+          "minimumElevation", 
+          0.4998
+        ], 
+        [
+          "areaWater", 
+          0.5015
+        ]
+      ], 
+      "maj": [
+        [
+          "minimumElevation", 
+          5.0
+        ], 
+        [
+          "areaCode", 
+          3.0
+        ], 
+        [
+          "areaWater", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          0.2635
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          0.2671
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          0.2671
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.4224
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.4984
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.4984
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.4985
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.501
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.503
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaCode]>(region|Lombardy)>(province|Province_of_Como)", 
+      0.2635
+    ], 
+    [
+      "Settlement[areaCode]>(region|Lombardy)>(province|Province_of_Como)", 
+      0.2671
+    ], 
+    [
+      "Location[minimumElevation]>(department|Nord_(French_department))", 
+      0.498
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Nord_(French_department))", 
+      0.498
+    ], 
+    [
+      "Location[minimumElevation]>(department|Nord_(French_department))>(region|Nord-Pas-de-Calais)", 
+      0.4988
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Nord_(French_department))>(region|Nord-Pas-de-Calais)", 
+      0.4988
+    ], 
+    [
+      "Place[areaCode]>(timeZone|Eastern_Time_Zone)", 
+      0.5
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Maryland)>(country|United_States)", 
+      0.5
+    ], 
+    [
+      "Location[areaWater]>(type|Administrative_divisions_of_New_York)>(isPartOf|Nassau_County,_New_York)", 
+      0.503
+    ], 
+ 100  4594  100  4264  100   330    952     73  0:00:04  0:00:04 --:--:--   952
+   [
+      "Location[minimumElevation]>(department|Pas-de-Calais)>(arrondissement|Arrondissement_of_Montreuil)", 
+      0.5052
+    ]
+  ], 
+  "values": [
+    31.0
+  ]
+}

@@ -1,0 +1,134 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   708    0     0  100   708      0    706  0:00:01  0:00:01 --:--:--   706100   708    0     0  100   708      0    353  0:00:02  0:00:02 --:--:--   353100   708    0     0  100   708      0    235  0:00:03  0:00:03 --:--:--   235100   708    0     0  100   708      0    176  0:00:04  0:00:04 --:--:--   176100  3598  100  2890  100   708    610    149  0:00:04  0:00:04 --:--:--   610
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaWater"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.2499
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.2497
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.2497
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.2497
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.2498
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.25
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          0.25
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          20.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          3.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "City[areaTotal]>(isPartOf|Kentucky)", 
+      0.2487
+    ], 
+    [
+      "Location[areaTotal]>(type|Village_(United_States))>(isPartOf|Wisconsin)", 
+      0.25
+    ], 
+    [
+      "Location[areaTotal]>(country|Slovenia)>(isPartOf|Prekmurje)", 
+      0.25
+    ], 
+    [
+      "Location[areaTotal]>(country|Slovenia)>(isPartOf|Gori%C5%A1ka_Statistical_Region)", 
+      0.25
+    ], 
+    [
+      "Location[areaTotal]>(country|Slovenia)>(isPartOf|Inner_Carniola)", 
+      0.25
+    ], 
+    [
+      "Location[areaTotal]>(country|Slovenia)>(isPartOf|Prekmurje)>(isPartOf|Mura_Statistical_Region)", 
+      0.25
+    ], 
+    [
+      "Location[areaTotal]>(country|Slovenia)>(isPartOf|Gori%C5%A1ka_Statistical_Region)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.25
+    ], 
+    [
+      "Town[areaTotal]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)", 
+      0.25
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Idaho)>(timeZone|Mountain_Time_Zone)>(country|United_States)", 
+      0.25
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Oregon)>(type|City)>(timeZone|Pacific_Time_Zone)>(country|United_States)", 
+      0.25
+    ]
+  ], 
+  "values": [
+    0.0, 
+    0.0, 
+    5327201.0, 
+    4243898.0, 
+    3715270.0, 
+    3416306.0, 
+    4924713.0, 
+    5717830.0, 
+    430298263.0, 
+    2651092.0, 
+    4421942.0, 
+    0.0
+  ]
+}

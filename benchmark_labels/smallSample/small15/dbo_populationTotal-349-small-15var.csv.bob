@@ -1,0 +1,269 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1495    0     0  100  1495      0   1490  0:00:01  0:00:01 --:--:--  1492100  1495    0     0  100  1495      0    746  0:00:02  0:00:02 --:--:--   746100  1495    0     0  100  1495      0    497  0:00:03  0:00:03 --:--:--   497100  1495    0     0  100  1495      0    373  0:00:04  0:00:04 --:--:--   373100  1495    0     0  100  1495      0    298  0:00:05  0:00:05 --:--:--   298{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaWater", 
+          0.1166
+        ], 
+        [
+          "areaTotal", 
+          0.1178
+        ], 
+        [
+          "areaLand", 
+          0.1186
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          5.0
+        ], 
+        [
+          "areaTotal", 
+          4.0
+        ], 
+        [
+          "areaLand", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Island (areaTotal)", 
+          0.1135
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          0.1137
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.1162
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.1169
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.1169
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.1169
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.1178
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1178
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.1186
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.1186
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.1186
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.1186
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          0.1186
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.1188
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.1195
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Island[areaTotal]>(country|Croatia)", 
+      0.1135
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Maine)", 
+      0.1137
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Maine)>(type|New_England_town)", 
+      0.1138
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Alaska)>(timeZone|Alaska_Time_Zone)", 
+      0.1162
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Missouri)>(isPartOf|St._Louis_County,_Missouri)>(country|United_States)", 
+      0.1186
+    ], 
+    [100  7183  100  5688  100  1495   1037    272  0:00:05  0:00:05 --:--:--   936
+
+      "Settlement[areaTotal]>(country|Slovenia)>(isPartOf|Gori%C5%A1ka_Statistical_Region)", 
+      0.1186
+    ], 
+    [
+      "City[areaLand]>(isPartOf|Missouri)>(isPartOf|St._Louis_County,_Missouri)>(country|United_States)", 
+      0.1186
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Minnesota)>(isPartOf|Itasca_County,_Minnesota)", 
+      0.1186
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Slovenia)>(isPartOf|Gori%C5%A1ka_Statistical_Region)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1203
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Alaska)>(timeZone|Alaska_Time_Zone)>(type|Alaska)", 
+      0.1207
+    ]
+  ], 
+  "values": [
+    439810.0, 
+    2202751.0, 
+    3558068.0, 
+    7084553.0, 
+    4215458.0, 
+    1950408.0, 
+    18003309.0, 
+    4266226.0, 
+    4896573.0, 
+    5203461.0, 
+    33259649.0, 
+    4272652.0, 
+    1309830.0, 
+    5444278.0, 
+    8576982.0, 
+    1209824.0, 
+    2490637.0, 
+    14958935.0, 
+    1101.0, 
+    7206228.0, 
+    4032307.0, 
+    75936.0, 
+    6177980.0, 
+    11005612.0, 
+    75993.0, 
+    89651.0, 
+    7036257.0, 
+    3859703.0, 
+    44783968.0, 
+    82094232.0, 
+    7368391.0, 
+    73794.0, 
+    2770657.0, 
+    1262321.0, 
+    591842.0, 
+    1210.0, 
+    5161376.0, 
+    3824542.0, 
+    18123833.0, 
+    9450374.0, 
+    179374297.0, 
+    4052541.0, 
+    46240880.0, 
+    1296530653.0, 
+    10834422.0, 
+    47822.0, 
+    567067.0, 
+    3681421.0, 
+    1430294.0, 
+    463772.0, 
+    540219.0, 
+    2065323.0, 
+    1321525.0, 
+    6948972.0, 
+    50174361.0, 
+    10627939.0, 
+    545595.0, 
+    12741443.0, 
+    5257147.0
+  ]
+}

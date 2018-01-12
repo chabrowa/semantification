@@ -1,0 +1,232 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   898    0     0  100   898      0    895  0:00:01  0:00:01 --:--:--   896100   898    0     0  100   898      0    448  0:00:02  0:00:02 --:--:--   448100   898    0     0  100   898      0    298  0:00:03  0:00:03 --:--:--   298100   898    0     0  100   898      0    224  0:00:04  0:00:04 --:--:--   224100   898    0     0  100   898      0    184  0:00:04  0:00:04 --:--:--   184{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.1581
+        ], 
+        [
+          "populationTotal", 
+          0.1687
+        ], 
+        [
+          "width", 
+          0.1826
+        ], 
+        [
+          "length", 
+          0.1833
+        ], 
+        [
+          "numberOfEmployees", 
+          0.1853
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          5.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ], 
+        [
+          "numberOfEmployees", 
+          1.0
+        ], 
+        [
+          "width", 
+          1.0
+        ], 
+        [
+          "length", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          0.1579
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1581
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1581
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1581
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1687
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1687
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1705
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (width)", 
+          0.1826
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          0.1833
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.1833
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cave (length)", 
+          0.1833
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          0.1853
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          0.1853
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          15.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cave (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|Cumbria)", 
+      0.1438
+    ], 
+    [
+      "City[populationDensity]>(country|India)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1572
+    ], 
+    [
+      "City[populationDensity]>(country|India)", 
+      0.1591
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Australia)", 
+      0.1652
+    ], 
+    [
+      "Settlement[populationTotal]", 
+      0.1761
+    ], 
+    [
+      "Settlement[populationTota100  5783  100  4885  100   898   1003    184  0:00:04  0:00:04 --:--:--  1031
+l]>(type|Census-designated_place)>(isPartOf|Washington_(state))", 
+      0.1776
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Spain)>(isPartOf|Province_of_Tarragona)>(22-rdf-syntax-ns#type|_Feature)>(type|Municipalities_of_Spain)>(timeZone|Central_European_Time)", 
+      0.181
+    ], 
+    [
+      "Location[width]>(country|France)", 
+      0.1826
+    ], 
+    [
+      "Cave[length]", 
+      0.1833
+    ], 
+    [
+      "Organisation[numberOfEmployees]", 
+      0.1853
+    ]
+  ], 
+  "values": [
+    300.0, 
+    442.0, 
+    420.0, 
+    11220.0, 
+    5100.0, 
+    3458.0, 
+    5100.0, 
+    5820.0, 
+    5340.0, 
+    1800.0, 
+    4740.0, 
+    6180.0, 
+    -240.0, 
+    300.0, 
+    120.0, 
+    1800.0, 
+    240.0, 
+    442.0, 
+    -360.0, 
+    1320.0, 
+    5340.0, 
+    5340.0
+  ]
+}

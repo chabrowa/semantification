@@ -1,0 +1,231 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   493    0     0  100   493      0    491  0:00:01  0:00:01 --:--:--   492100   493    0     0  100   493      0    246  0:00:02  0:00:02 --:--:--   246100   493    0     0  100   493      0    164  0:00:03  0:00:03 --:--:--   164100   493    0     0  100   493      0    123  0:00:04  0:00:04 --:--:--   123100   493    0     0  100   493      0     98  0:00:05  0:00:05 --:--:--    98{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfGoals"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "topSpeed", 
+          0.3186
+        ], 
+        [
+          "minimumElevation", 
+          0.3278
+        ], 
+        [
+          "elevation", 
+          0.3402
+        ], 
+        [
+          "areaCode", 
+          0.3519
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          4.0
+        ], 
+        [
+          "minimumElevation", 
+          3.0
+        ], 
+        [
+          "topSpeed", 
+          2.0
+        ], 
+        [
+          "areaCode", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.3117
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.3117
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.3117
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (topSpeed)", 
+          0.3186
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (topSpeed)", 
+          0.3186
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.328
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.3359
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.3402
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.3402
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.3402
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.3506
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          0.3519
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          0.3519
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.3519
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaCode)", 
+          0.3519
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (topSpeed)", 
+          0.3531
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (topSpeed)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (topSpeed)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (topSpeed)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Organisation[topSpeed]", 
+      0.28100  5546  100  5053  100   493   1010     98  0:00:05  0:00:05 --:--:--  1140
+42
+    ], 
+    [
+      "Location[minimumElevation]>(department|Aisne)", 
+      0.3113
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Aisne)", 
+      0.3117
+    ], 
+    [
+      "Town[elevation]>(country|Republic_of_Ireland)>(isPartOf|Connacht)>(timeZone|Time_in_Ireland)", 
+      0.3148
+    ], 
+    [
+      "Town[elevation]>(country|Republic_of_Ireland)>(isPartOf|Connacht)", 
+      0.3456
+    ], 
+    [
+      "Village[elevation]>(timeZone|Time_in_Ireland)>(isPartOf|Leinster)", 
+      0.3483
+    ], 
+    [
+      "Village[areaCode]>(country|Hungary)", 
+      0.3519
+    ], 
+    [
+      "Village[elevation]>(timeZone|Time_in_Ireland)>(isPartOf|Leinster)>(country|Republic_of_Ireland)", 
+      0.3523
+    ], 
+    [
+      "PublicTransitSystem[topSpeed]", 
+      0.3531
+    ], 
+    [
+      "Location[minimumElevation]>(department|Seine-et-Marne)", 
+      0.3605
+    ]
+  ], 
+  "values": [
+    60.0, 
+    70.0, 
+    84.0, 
+    86.0, 
+    71.0
+  ]
+}

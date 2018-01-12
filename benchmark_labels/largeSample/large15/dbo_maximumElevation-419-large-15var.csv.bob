@@ -1,0 +1,212 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   360    0     0  100   360      0    358  0:00:01  0:00:01 --:--:--   359100   360    0     0  100   360      0    179  0:00:02  0:00:02 --:--:--   179100   360    0     0  100   360      0    119  0:00:03  0:00:03 --:--:--   119100   360    0     0  100   360      0     89  0:00:04  0:00:04 --:--:--    89100   360    0     0  100   360      0     73  0:00:04  0:00:04 --:--:--    73{
+  "invalid": [
+    "http://dbpedia.org/ontology/maximumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaCode", 
+          0.288
+        ], 
+        [
+          "runtime", 
+          0.2939
+        ], 
+        [
+          "elevation", 
+          0.3077
+        ], 
+        [
+          "populationDensity", 
+          0.3102
+        ]
+      ], 
+      "maj": [
+        [
+          "areaCode", 
+          3.0
+        ], 
+        [
+          "runtime", 
+          3.0
+        ], 
+        [
+          "populationDensity", 
+          3.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          0.2813
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (runtime)", 
+          0.2887
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          0.2939
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          0.2965
+        ], 
+        [
+          "http://dbpedia.org/ontology/Album (runtime)", 
+          0.2966
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          0.302
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.302
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          0.302
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.3067
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.3077
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          0.3154
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.3154
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.3154
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.3154
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Album (runtime)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (runtime)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaCode]>(country|England)>(country|Nottinghamshire)", 
+      0.2796
+    ], 
+    [
+      "Location[areaCode]>(country|England)>(country|Nottinghamshire)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2826
+    ], 
+    [
+      "TelevisionShow[runtime]>(format|Animated_series)", 
+      0.2887
+    ], 
+    [
+      "Album[runtime]>(type|Extended_play)", 
+      0.2965
+    ], 
+    [
+      "Album[runtime]>(type|Extended_play)>(genre|Acoustic_music)100  5063  100  4703  100   360    959     73  0:00:04  0:00:04 --:--:--  1113
+", 
+      0.2966
+    ], 
+    [
+      "Location[populationDensity]>(country|India)>(isPartOf|Kerala)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3012
+    ], 
+    [
+      "Settlement[areaCode]>(country|England)", 
+      0.302
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)", 
+      0.3077
+    ], 
+    [
+      "Location[populationDensity]>(country|India)>(isPartOf|Kerala)", 
+      0.314
+    ], 
+    [
+      "City[populationDensity]>(isPartOf|Missouri)>(isPartOf|St._Louis_County,_Missouri)>(country|United_States)", 
+      0.3154
+    ]
+  ], 
+  "values": [
+    1649.0, 
+    964.0
+  ]
+}

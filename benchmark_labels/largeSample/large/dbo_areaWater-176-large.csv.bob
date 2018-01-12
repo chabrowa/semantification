@@ -1,0 +1,221 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   397    0     0  100   397      0    396  0:00:01  0:00:01 --:--:--   396100   397    0     0  100   397      0    198  0:00:02  0:00:02 --:--:--   198{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaWater"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaLand", 
+          0.3351
+        ], 
+        [
+          "areaTotal", 
+          0.3373
+        ], 
+        [
+          "gross", 
+          0.3396
+        ], 
+        [
+          "areaWater", 
+          0.3428
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          5.0
+        ], 
+        [
+          "gross", 
+          2.0
+        ], 
+        [
+          "areaLand", 
+          2.0
+        ], 
+        [
+          "areaWater", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Village (areaLand)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaTotal)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.3351
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.3351
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.3351
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          0.3369
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.3369
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.3373
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.3373
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.3373
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          0.3388
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (gross)", 
+          0.3396
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (gross)", 
+          0.3396
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (gross)", 
+          0.3396
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.3428
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaLand)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (gross)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (gross)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (gross)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Town[areaTotal]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Town)", 
+      0.3333
+    ], 
+    [
+      "Village[areaTotal]>(country|Slovenia)>(isPartOf|Slovene_Littoral)>(isPartOf|Gori%C5%A1ka_Statistical_Region)", 
+      0.3333
+    ], 
+    [
+      "Village[areaLand]>(type|Administrative_divisions_of_New_York)>(isPartOf|Nassau_County,_New_York)>(country|United_States)", 
+   100  5280  100  4883  100   397   2005    163  0:00:02  0:00:02 --:--:--  2006
+   0.3333
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Idaho)", 
+      0.3369
+    ], 
+    [
+      "City[areaLand]>(isPartOf|Idaho)", 
+      0.3369
+    ], 
+    [
+      "Wikidata:Q11424[gross]>(distributor|United_Artists)>(language|English_language)", 
+      0.3396
+    ], 
+    [
+      "Film[gross]>(distributor|United_Artists)>(language|English_language)", 
+      0.3396
+    ], 
+    [
+      "Town[areaTotal]>(timeZone|Mountain_Time_Zone)", 
+      0.3409
+    ], 
+    [
+      "Town[areaTotal]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Town)>(country|United_States)", 
+      0.3423
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Minnesota)>(isPartOf|St._Louis_County,_Minnesota)", 
+      0.3428
+    ]
+  ], 
+  "values": [
+    200000.0, 
+    4900000.0, 
+    4900000.0
+  ]
+}

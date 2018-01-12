@@ -1,0 +1,196 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   349    0     0  100   349      0    348  0:00:01  0:00:01 --:--:--   348100   349    0     0  100   349      0    174  0:00:02  0:00:02 --:--:--   174100   349    0     0  100   349      0    116  0:00:03  0:00:03 --:--:--   116100   349    0     0  100   349      0     87  0:00:04  0:00:04 --:--:--    87100   349    0     0  100   349      0     69  0:00:05  0:00:05 --:--:--    69{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEmployees"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.2618
+        ], 
+        [
+          "populationTotal", 
+          0.2639
+        ], 
+        [
+          "populationDensity", 
+          0.2651
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          6.0
+        ], 
+        [
+          "populationTotal", 
+          3.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.2581
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2615
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2615
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2616
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.2628
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.2634
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.2635
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2639
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.2639
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2639
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.2651
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.2651
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.2651
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "City[elevation]>(isPartOf|Washington_(state))>(type|City_government_in_Washington_(state))>(country|United_States)>(timeZone|Pacific_Time_Zone)", 
+      0.2535
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kohgiluyeh_and_Boyer-Ahmad_Province)>(isPartOf|Gachsaran_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2603
+    ], 
+    [
+      "Town[elevation]>(country|India)>(isPartOf|Andhra_Pradesh)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2609
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)", 
+      0.2624
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)", 
+      0.2634
+    ], 
+    [
+      "City[elevation]>(isPartOf|Washington_(state))>(type|City_government_i100  5019  100  4670  100   349    817     61  0:00:05  0:00:05 --:--:--   917
+n_Washington_(state))>(country|United_States)", 
+      0.2639
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Khuzestan_Province)>(isPartOf|Tashan_District)", 
+      0.2647
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Washington_(state))>(country|United_States)>(type|Census-designated_place)", 
+      0.2651
+    ], 
+    [
+      "Town[elevation]>(country|India)", 
+      0.2667
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Khuzestan_Province)>(isPartOf|Seydun_District)", 
+      0.2667
+    ]
+  ], 
+  "values": [
+    412.0, 
+    55.0
+  ]
+}

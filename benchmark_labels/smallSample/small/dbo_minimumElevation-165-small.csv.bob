@@ -1,0 +1,196 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   345    0     0  100   345      0    344  0:00:01  0:00:01 --:--:--   344100   345    0     0  100   345      0    172  0:00:02  0:00:02 --:--:--   172100   345    0     0  100   345      0    114  0:00:03  0:00:03 --:--:--   114100   345    0     0  100   345      0     86  0:00:04  0:00:04 --:--:--    86100   345    0     0  100   345      0     68  0:00:05  0:00:05 --:--:--    68{
+  "invalid": [
+    "http://dbpedia.org/ontology/minimumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "minimumElevation", 
+          0.25
+        ], 
+        [
+          "populationTotal", 
+          0.25
+        ], 
+        [
+          "areaWater", 
+          0.2541
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          8.0
+        ], 
+        [
+          "minimumElevation", 
+          1.0
+        ], 
+        [
+          "populationTotal", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.25
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.25
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.25
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.25
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.25
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (minimumElevation)", 
+          0.25
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (minimumElevation)", 
+          0.25
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.2519
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.2524
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.2549
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.2549
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.2549
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          0.2572
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (minimumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "AdministrativeRegion[minimumElevation]>(country|United_States)", 
+      0.25
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Canada)>(isPartOf|Saskatchewan)", 
+      0.25
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Kentucky)>(timeZone|Central_Time_Zone)", 
+      0.2516
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Kentucky)>(timeZone|Central_Time_Zone)", 
+      0.2519
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Kentucky)>(timeZone|Central_Time_Zone)>(type|List_of_cities_in_Kentucky)", 
+      0.2522
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Kentucky)>(timeZone|Central_Time_Zone)>(type|List_of_cities_in_Kentucky)", 
+      0.2522
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Utah)>(t100  4809  100  4464  100   345    786     60  0:00:05  0:00:05 --:--:--   881
+ype|City)", 
+      0.2532
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Virginia)>(country|United_States)>(type|Town)", 
+      0.2565
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Alabama)>(type|Town)", 
+      0.2576
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Virginia)>(country|United_States)", 
+      0.2577
+    ]
+  ], 
+  "values": [
+    163.0, 
+    0.0
+  ]
+}

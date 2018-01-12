@@ -1,0 +1,174 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   521    0     0  100   521      0    519  0:00:01  0:00:01 --:--:--   519100   521    0     0  100   521      0    260  0:00:02  0:00:02 --:--:--   260100   521    0     0  100   521      0    173  0:00:03  0:00:03 --:--:--   173100   521    0     0  100   521      0    131  0:00:03  0:00:03 --:--:--   131100  4351  100  3830  100   521    968    131  0:00:03  0:00:03 --:--:--   968
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/squadNumber"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "number", 
+          0.3106
+        ], 
+        [
+          "height", 
+          0.3176
+        ]
+      ], 
+      "maj": [
+        [
+          "number", 
+          9.0
+        ], 
+        [
+          "height", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/GridironFootballPlayer (number)", 
+          0.2938
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmericanFootballPlayer (number)", 
+          0.2938
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.3046
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.3106
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.3106
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.3176
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (height)", 
+          0.3176
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (height)", 
+          0.3176
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.3176
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          0.3203
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          0.3252
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          15.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmericanFootballPlayer (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/GridironFootballPlayer (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Athlete[number]>(position|Forward_(association_football))", 
+      0.25
+    ], 
+    [
+      "AmericanFootballPlayer[number]>(position|Quarterback)", 
+      0.2938
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Australia)", 
+      0.3038
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Sweden)", 
+      0.3095
+    ], 
+    [
+      "Lighthouse[height]>(location|Australia)", 
+      0.3176
+    ], 
+    [
+      "BasketballPlayer[number]>(league|Euroleague_Basketball)", 
+      0.3218
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Japan)", 
+      0.3244
+    ], 
+    [
+      "BasketballPlayer[number]>(league|Eurocup_Basketball)", 
+      0.3286
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Thailand)", 
+      0.3304
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Spain)", 
+      0.3333
+    ]
+  ], 
+  "values": [
+    3.0, 
+    18.0, 
+    15.0, 
+    16.0
+  ]
+}

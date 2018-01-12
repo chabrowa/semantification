@@ -1,0 +1,165 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   372    0     0  100   372      0    370  0:00:01  0:00:01 --:--:--   371100   372    0     0  100   372      0    185  0:00:02  0:00:02 --:--:--   185100  3883  100  3511  100   372   1630    172  0:00:02  0:00:02 --:--:--  1630
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.2975
+        ], 
+        [
+          "budget", 
+          0.3077
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          9.0
+        ], 
+        [
+          "budget", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.2907
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaTotal)", 
+          0.297
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaTotal)", 
+          0.297
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.2988
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.3008
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.3008
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (budget)", 
+          0.3077
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (budget)", 
+          0.3077
+        ], 
+        [
+          "http://dbpedia.org/ontology/GovernmentAgency (budget)", 
+          0.3077
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.3214
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (budget)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (budget)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/GovernmentAgency (budget)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Odisha)", 
+      0.2593
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Odisha)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2704
+    ], 
+    [
+      "Settlement[areaTotal]>(country|China)", 
+      0.2875
+    ], 
+    [
+      "Region[areaTotal]", 
+      0.297
+    ], 
+    [
+      "AdministrativeRegion[areaTotal]", 
+      0.297
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Time_in_China)", 
+      0.3063
+    ], 
+    [
+      "GovernmentAgency[budget]", 
+      0.3077
+    ], 
+    [
+      "Location[areaTotal]>(country|Russia)", 
+      0.3194
+    ], 
+    [
+      "Location[areaTotal]>(country|Russia)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3194
+    ], 
+    [
+      "City[areaTotal]>(type|County-level_city)>(country|China)>(timeZone|Time_in_China)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3214
+    ]
+  ], 
+  "values": [
+    2013640051.0, 
+    7496595110.0, 
+    17362272.0
+  ]
+}

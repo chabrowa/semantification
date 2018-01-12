@@ -1,0 +1,140 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   599    0     0  100   599      0    597  0:00:01  0:00:01 --:--:--   598100   599    0     0  100   599      0    299  0:00:02  0:00:02 --:--:--   299100   599    0     0  100   599      0    199  0:00:03  0:00:03 --:--:--   199100   599    0     0  100   599      0    149  0:00:04  0:00:04 --:--:--   149100  3814  100  3215  100   599    779    145  0:00:04  0:00:04 --:--:--   779
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/squadNumber"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "width", 
+          0.25
+        ], 
+        [
+          "populationDensity", 
+          0.255
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          9.0
+        ], 
+        [
+          "width", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.2487
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (width)", 
+          0.25
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.2536
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.2536
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2554
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.2575
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          21.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (width)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          3.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationDensity]>(isPartOf|Minnesota)>(type|Township_(United_States))>(isPartOf|Otter_Tail_County,_Minnesota)", 
+      0.2333
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Minnesota)>(isPartOf|Otter_Tail_County,_Minnesota)", 
+      0.2333
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Burgos)", 
+      0.24
+    ], 
+    [
+      "Location[width]>(type|Truss_bridge)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.25
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Burgos)>(type|Municipalities_of_Spain)", 
+      0.2537
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Palencia)", 
+      0.2634
+    ], 
+    [
+      "Location[populationDensity]>(type|New_England_town)>(isPartOf|Aroostook_County,_Maine)", 
+      0.2642
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Maine)>(isPartOf|Aroostook_County,_Maine)", 
+      0.2642
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Palencia)", 
+      0.2683
+    ], 
+    [
+      "Location[populationDensity]>(type|New_England_town)>(isPartOf|Aroostook_County,_Maine)>(country|United_States)", 
+      0.2745
+    ]
+  ], 
+  "values": [
+    5.0, 
+    4.0, 
+    11.0, 
+    9.0, 
+    11.0, 
+    10.0, 
+    3.0, 
+    7.0, 
+    5.0, 
+    8.0
+  ]
+}

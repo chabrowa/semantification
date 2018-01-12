@@ -1,0 +1,184 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   642    0     0  100   642      0   3187 --:--:-- --:--:-- --:--:--  3178100   642    0     0  100   642      0    320  0:00:02  0:00:02 --:--:--   320100   642    0     0  100   642      0    213  0:00:03  0:00:03 --:--:--   213100   642    0     0  100   642      0    160  0:00:04  0:00:04 --:--:--   160100   642    0     0  100   642      0    128  0:00:05  0:00:05 --:--:--   128100   642    0     0  100   642      0    121  0:00:05  0:00:05 --:--:--     0100  4698  100  4056  100   642    765    121  0:00:05  0:00:05 --:--:--  1036
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/capacity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.119
+        ], 
+        [
+          "elevation", 
+          0.1234
+        ], 
+        [
+          "populationDensity", 
+          0.1276
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          5.0
+        ], 
+        [
+          "populationTotal", 
+          4.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.115
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.119
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.119
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1204
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1234
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1234
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1234
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.1237
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1276
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          20.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[populationTotal]>(isPartOf|Isfahan_Province)>(isPartOf|Kashan_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1104
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Slovenia)>(isPartOf|Upper_Carniola)>(isPartOf|Central_Slovenia_Statistical_Region)", 
+      0.118
+    ], 
+    [
+      "City[elevation]>(isPartOf|Oregon)>(type|City)", 
+      0.1205
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Mazandaran_Province)>(isPartOf|Babol_Kenar_District)", 
+      0.1212
+    ], 
+    [
+      "City[elevation]>(isPartOf|Oregon)>(type|City)>(timeZone|Pacific_Time_Zone)", 
+      0.1213
+    ], 
+    [
+      "City[elevation]>(isPartOf|Oregon)>(type|City)>(timeZone|Pacific_Time_Zone)>(country|United_States)", 
+      0.1228
+    ], 
+    [
+      "City[elevation]>(timeZone|Time_in_China)>(type|Prefecture-level_city)", 
+      0.1245
+    ], 
+    [
+      "Settlement[populationTotal]>(type|Census-designated_place)>(timeZone|Alaska_Time_Zone)", 
+      0.1265
+    ], 
+    [
+      "Location[populationDensity]>(type|New_England_town)>(isPartOf|Massachusetts)", 
+      0.1276
+    ], 
+    [
+      "City[elevation]>(timeZone|Time_in_China)>(type|Prefecture-level_city)>(country|China)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1278
+    ]
+  ], 
+  "values": [
+    9226.0, 
+    36.0, 
+    388.0, 
+    16.0, 
+    50.0, 
+    38.0, 
+    771.0, 
+    95.0, 
+    487.0, 
+    217.0, 
+    586.0, 
+    449.0, 
+    825.0, 
+    69.0, 
+    9623.0, 
+    49.0, 
+    292.0, 
+    46.0, 
+    122.0, 
+    73.0, 
+    18.0, 
+    74.0
+  ]
+}

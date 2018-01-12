@@ -1,0 +1,181 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   418    0     0  100   418      0    417  0:00:01  0:00:01 --:--:--   417100   418    0     0  100   418      0    208  0:00:02  0:00:02 --:--:--   208100   418    0     0  100   418      0    139  0:00:03  0:00:03 --:--:--   139100   418    0     0  100   418      0    104  0:00:04  0:00:04 --:--:--   104{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "runwayLength", 
+          0.2299
+        ], 
+        [
+          "populationDensity", 
+          0.2336
+        ], 
+        [
+          "elevation", 
+          0.2573
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          7.0
+        ], 
+        [
+          "runwayLength", 
+          2.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Airport (runwayLength)", 
+          0.2299
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (runwayLength)", 
+          0.2299
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (runwayLength)", 
+          0.2299
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (runwayLength)", 
+          0.2299
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (runwayLength)", 
+          0.2299
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2308
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.2332
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.2366
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.2366
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.2573
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          0.2583
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Airport (runwayLength)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (runwayLength)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (runwayLength)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (runwayLength)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (runwayLength)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationDensity]>(country|Sweden)>(isPartOf|V%C3%A4stra_G%C3%B6taland_County)", 
+      0.2099
+    ], 
+    [
+      "Settlement[populationDensity]>(country|Sweden)>(isPartOf|V%C3%A4stra_G%C3%B6taland_County)", 
+      0.2104
+    ], 
+    [
+      "Airport[runwayLength]>(location|Chile)", 
+      0.2299
+    ], 
+    [
+      "Location[runwayLength]>(location|Chile)", 
+      0.2299
+    ], 
+    [
+      "Location[populationDensity]>(country|Sweden)>(isPartOf|%C3%96sterg%C3%B6tland)", 
+      0.2353
+    ], 
+    [
+      "Settlement[populationDensity]>(country|Sweden)>(isPartOf|%C3%96sterg%C3%B6tland_County)", 
+      0.2353
+    ], 
+    [
+      "Settlement[populationDensity]>(country|Sweden)>(isPartOf|V%C3%A4stra_G%C3%B6taland_County)>(isPartOf|V%C3%A4sterg%C3%B6tland)", 
+      0.2424
+    ], 
+    [
+      "Location[populationDensity]>(country|Sweden)>(isPartOf|V%C3%A4stra_G%C3%B6taland_County)>(isPartOf|V%C3%A4sterg%C3%B6tland)", 
+      0.2432
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Nevada_County,_California)", 
+      0.2573
+    ], 
+    [
+100  4657  100  4239  100   418    901     88  0:00:04  0:00:04 --:--:--   901
+      "Village[populationDensity]>(isPartOf|Western_Norway)", 
+      0.2583
+    ]
+  ], 
+  "values": [
+    603.0, 
+    1386.0, 
+    840.0
+  ]
+}

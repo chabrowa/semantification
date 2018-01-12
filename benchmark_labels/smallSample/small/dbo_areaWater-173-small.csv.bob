@@ -1,0 +1,163 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   325    0     0  100   325      0    324  0:00:01  0:00:01 --:--:--   324100   325    0     0  100   325      0    162  0:00:02  0:00:02 --:--:--   162100  3835  100  3510  100   325   1503    139  0:00:02  0:00:02 --:--:--  1504
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaWater"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "postalCode", 
+          0.5017
+        ], 
+        [
+          "areaWater", 
+          0.5061
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          8.0
+        ], 
+        [
+          "postalCode", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          0.5017
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          0.5017
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          0.5017
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (postalCode)", 
+          0.5023
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          0.5042
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.5048
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.5048
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.5048
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.5056
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.5081
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (postalCode)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "City[postalCode]>(type|County-level_city)", 
+      0.5
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Texas)>(governmentType|Council%E2%80%93manager_government)", 
+      0.502
+    ], 
+    [
+      "City[postalCode]>(type|Prefecture-level_city)>(country|China)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5035
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Missouri)", 
+      0.504
+    ], 
+    [
+      "Town[areaWater]", 
+      0.5045
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Michigan)", 
+      0.5051
+    ], 
+    [
+      "Location[areaWater]>(type|Township_(Pennsylvania))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5067
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Maine)>(type|Census-designated_place)", 
+      0.5076
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Wisconsin)>(type|City)>(timeZone|Central_Time_Zone)", 
+      0.5085
+    ], 
+    [
+      "Location[areaWater]>(type|Administrative_divisions_of_New_York)", 
+      0.5108
+    ]
+  ], 
+  "values": [
+    303029.0
+  ]
+}
