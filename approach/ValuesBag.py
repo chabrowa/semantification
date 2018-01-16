@@ -29,8 +29,8 @@ class ValuesBag(object):
             filter (?p != <http://dbpedia.org/ontology/wikiPageRevisionID>) \
             } LIMIT 500"
 
-        sparql = SPARQLWrapper("http://wdaqua-csv2rdf-fuseki.univ-st-etienne.fr/dbpedia_hdt/query")
-        #sparql = SPARQLWrapper("http://dbpedia.org/sparql")
+        #sparql = SPARQLWrapper("http://wdaqua-csv2rdf-fuseki.univ-st-etienne.fr/dbpedia_hdt/query")
+        sparql = SPARQLWrapper("http://dbpedia.org/sparql")
         sparql.setReturnFormat(JSON)
 
         #sparql.setTimeout(1200)

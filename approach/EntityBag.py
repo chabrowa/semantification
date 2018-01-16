@@ -21,8 +21,8 @@ class EntityBag(object):
             filter (?p != <http://dbpedia.org/ontology/wikiPageRevisionID>) \
             }"
 
-        sparql = SPARQLWrapper("http://wdaqua-csv2rdf-fuseki.univ-st-etienne.fr/dbpedia_hdt/query")
-        #sparql = SPARQLWrapper("http://dbpedia.org/sparql")
+        #sparql = SPARQLWrapper("http://wdaqua-csv2rdf-fuseki.univ-st-etienne.fr/dbpedia_hdt/query")
+        sparql = SPARQLWrapper("http://dbpedia.org/sparql")
         sparql.setReturnFormat(JSON)
 
         sparql.setQuery(query)  # the previous query as a literal string

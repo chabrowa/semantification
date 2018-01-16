@@ -19,13 +19,17 @@ class Dataset(object):
     #     self.columnsWithMappings    = self.getColumnsWithMappings()
     #     self.columns                = self.getColumns()
 
-    def __init__(self, datasetId):
+    def __init__(self, datasetId, subjectColumnId, numericalColumnsIds):
         self.datasetId              = datasetId
         self.df                     = pd.read_csv(os.path.join(datasetsPath, datasetId))
-        self.subjectColumnId        = 0
+        self.subjectColumnId        = subjectColumnId
         self.subjectColumn          = self.getSubjectColumn()
-        self.columnsWithMappingsIds = [1]
-        self.numericalColumnsIds    = [1]
+        if numericalColumnsIds == None:
+            self.numericalColumnsIds    = self.getNumericalColumnsIds()
+        else:
+            self.numericalColumnsIds    = numericalColumnsIds
+
+        #self.columnsWithMappingsIds = [1]
         self.columns                = self.getColumns()
 
     def getColumns(self):
@@ -45,16 +49,16 @@ class Dataset(object):
                     cell = row[columnId]
         return cell
 
-    def getSubjectColumnId(self):
-        with open(subjectFile) as f:
-            content = f.readlines()
-
-        for line in content:
-            (fileDatasetId, subjectColumnIndex) = line.split(",")
-            if fileDatasetId == self.datasetId:
-                #print subjectColumnIndex
-                return subjectColumnIndex
-        return -100
+    # def getSubjectColumnId(self):
+    #     with open(subjectFile) as f:
+    #         content = f.readlines()
+    #
+    #     for line in content:
+    #         (fileDatasetId, subjectColumnIndex) = line.split(",")
+    #         if fileDatasetId == self.datasetId:
+    #             #print subjectColumnIndex
+    #             return subjectColumnIndex
+    #     return -100
 
     def getSubjectColumn(self):
         subjectColumnValues = []
@@ -91,18 +95,18 @@ class Dataset(object):
             return True
         return False
 
-    def getColumnsWithMappingsIds(self):
-        columnsWithMappingsIds = []
-        mappingFile = os.path.join(mappingsPath, self.datasetId)
-        df = pd.read_csv(mappingFile,  header=None)
-        for index, row in df.iterrows():
-            columnsWithMappingsIds.append(int(row[3]))
-        return columnsWithMappingsIds
-
-    def getColumnsWithMappings(self):
-        columnsWithMappings = {}
-        mappingFile = os.path.join(mappingsPath, self.datasetId)
-        df = pd.read_csv(mappingFile,  header=None)
-        for index, row in df.iterrows():
-            columnsWithMappings[int(row[3])] = row[0]
-        return columnsWithMappings
+    # def getColumnsWithMappingsIds(self):
+    #     columnsWithMappingsIds = []
+    #     mappingFile = os.path.join(mappingsPath, self.datasetId)
+    #     df = pd.read_csv(mappingFile,  header=None)
+    #     for index, row in df.iterrows():
+    #         columnsWithMappingsIds.append(int(row[3]))
+    #     return columnsWithMappingsIds
+    #
+    # def getColumnsWithMappings(self):
+    #     columnsWithMappings = {}
+    #     mappingFile = os.path.join(mappingsPath, self.datasetId)
+    #     df = pd.read_csv(mappingFile,  header=None)
+    #     for index, row in df.iterrows():
+    #         columnsWithMappings[int(row[3])] = row[0]
+    #     return columnsWithMappings
