@@ -1,0 +1,203 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   323    0     0  100   323      0    322  0:00:01  0:00:01 --:--:--   322100   323    0     0  100   323      0    161  0:00:02  0:00:02 --:--:--   161{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaWater"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaLand", 
+          0.5
+        ], 
+        [
+          "area", 
+          0.5033
+        ], 
+        [
+          "areaTotal", 
+          0.5077
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          8.0
+        ], 
+        [
+          "area", 
+          1.0
+        ], 
+        [
+          "areaLand", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/HistoricPlace (area)", 
+          0.5033
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          0.5033
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (areaTotal)", 
+          0.5034
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.5051
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.507
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.507
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.5128
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaTotal)", 
+          0.5128
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (areaTotal)", 
+          0.5185
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (areaTotal)", 
+          0.5185
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (areaTotal)", 
+          0.5185
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/HistoricPlace (area)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[areaTotal]>(type|Village_(United_States))", 
+      0.5
+    ], 
+    [
+      "Island[areaTotal]>(country|Australia)", 
+      0.5
+    ], 
+    [
+      "Island[areaTotal]>(country|Antarctica)", 
+      0.5
+    ], 
+    [
+      "Settlement[areaLand]>(type|Village_(United_States))", 
+      0.5
+    ], 
+    [
+      "HistoricPlace[area]>(location|Florida)", 
+      0.5033
+    ], 
+    [
+      "Island[areaTotal]>(country|Antarctica)>(location|Antarctica)", 
+      0.5079
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Canada)>(isPartOf|Saskatchewan)", 
+      0.5098
+    ], 
+    [
+      "Location[areaTotal]>(country|Canada)>(type|Village)>(isPartOf|Sa100  4727  100  4404  100   323   1653    121  0:00:02  0:00:02 --:--:--  1654
+skatchewan)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5128
+    ], 
+    [
+      "Village[areaTotal]>(isPartOf|Saskatchewan)>(type|Village)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5128
+    ], 
+    [
+      "SkiArea[areaTotal]>(location|Canada)", 
+      0.5185
+    ]
+  ], 
+  "values": [
+    828028.0
+  ]
+}

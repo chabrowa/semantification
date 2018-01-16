@@ -1,0 +1,204 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   343    0     0  100   343      0    342  0:00:01  0:00:01 --:--:--   342100   343    0     0  100   343      0    171  0:00:02  0:00:02 --:--:--   171100   343    0     0  100   343      0    114  0:00:03  0:00:03 --:--:--   114100   343    0     0  100   343      0     85  0:00:04  0:00:04 --:--:--    85{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEmployees"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "width", 
+          0.25
+        ], 
+        [
+          "length", 
+          0.2955
+        ], 
+        [
+          "areaWater", 
+          0.2955
+        ], 
+        [
+          "populationTotal", 
+          0.2986
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          4.0
+        ], 
+        [
+          "length", 
+          4.0
+        ], 
+        [
+          "areaWater", 
+          1.0
+        ], 
+        [
+          "width", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          0.25
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          0.25
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.25
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          0.2944
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2945
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          0.2945
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.2945
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2945
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.2955
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (length)", 
+          0.2957
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.2962
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (length)", 
+          0.2962
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.2996
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (length)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Infrastructure[width]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.25
+    ], 
+    [
+      "Location[length]>(22-rdf-syntax-ns#type|_Feature)>(location|Antarctica)>(country|Antarctica)", 
+      0.2923
+    ], 
+    [
+      "Island[length]>(country|Antarctica)>(location|Antarctica)", 
+      0.2939
+    ], 
+    [
+      "City[populationTotal]", 
+      0.2945
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)>(country|United_States)", 
+      0.2955
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_European_Time)>(country|Ukraine)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2963
+    ], 
+    [
+      "Location[length]>(22-100  4890  100  4547  100   343   1059     79  0:00:04  0:00:04 --:--:--  1059
+rdf-syntax-ns#type|_Feature)>(location|Antarctica)", 
+      0.2971
+    ], 
+    [
+      "Island[length]>(country|Antarctica)", 
+      0.2985
+    ], 
+    [
+      "Location[populationTotal]>(country|Spain)>(isPartOf|Province_of_Barcelona)>(type|Municipalities_of_Spain)", 
+      0.3
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_European_Time)>(country|Ukraine)", 
+      0.3036
+    ]
+  ], 
+  "values": [
+    1120.0, 
+    34492.0
+  ]
+}

@@ -1,0 +1,140 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   352    0     0  100   352      0   1752 --:--:-- --:--:-- --:--:--  1751100   352    0     0  100   352      0    175  0:00:02  0:00:02 --:--:--   175100   352    0     0  100   352      0    117  0:00:03  0:00:03 --:--:--   117100   352    0     0  100   352      0     87  0:00:04  0:00:04 --:--:--    87100   352    0     0  100   352      0     80  0:00:04  0:00:04 --:--:--    80100  3697  100  3345  100   352    762     80  0:00:04  0:00:04 --:--:--   714
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationDensity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaCode", 
+          0.5
+        ], 
+        [
+          "populationTotal", 
+          0.5
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          9.0
+        ], 
+        [
+          "areaCode", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.5
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          17.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Place[areaCode]>(timeZone|Eastern_Time_Zone)", 
+      0.5
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(department|Meuse)>(arrondissement|Arrondissement_of_Bar-le-Duc)", 
+      0.5
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(department|Pyr%C3%A9n%C3%A9es-Atlantiques)>(arrondissement|Arrondissement_of_Pau)", 
+      0.5
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kermanshah_Province)>(isPartOf|Bisotun_District)", 
+      0.5
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Sistan_and_Baluchestan_Province)>(isPartOf|Konarak_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Khuzestan_Province)>(isPartOf|Hamidiyeh_District)", 
+      0.5
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kurdistan_Province)>(isPartOf|Central_District_(Kamyaran_County))", 
+      0.5
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Gilan_Province)>(isPartOf|Central_District_(Lahijan_County))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5
+    ], 
+    [
+      "Town[populationTotal]>(timeZone|Central_European_Time)>(isPartOf|Drenthe)", 
+      0.5
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(department|Pyr%C3%A9n%C3%A9es-Atlantiques)>(arrondissement|Arrondissement_of_Pau)", 
+      0.5
+    ]
+  ], 
+  "values": [
+    224.2, 
+    224.2
+  ]
+}

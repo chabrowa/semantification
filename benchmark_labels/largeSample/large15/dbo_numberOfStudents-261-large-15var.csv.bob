@@ -1,0 +1,163 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   356    0     0  100   356      0   1767 --:--:-- --:--:-- --:--:--  1762100   356    0     0  100   356      0    177  0:00:02  0:00:02 --:--:--   177100   356    0     0  100   356      0    122  0:00:02  0:00:02 --:--:--   122100  4183  100  3827  100   356   1322    122  0:00:02  0:00:02 --:--:--  1321
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfStudents"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.5
+        ], 
+        [
+          "width", 
+          0.5
+        ], 
+        [
+          "length", 
+          0.5
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          8.0
+        ], 
+        [
+          "width", 
+          1.0
+        ], 
+        [
+          "length", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.4999
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.4999
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.5
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          15.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[populationTotal]>(country|Poland)", 
+      0.4997
+    ], 
+    [
+      "Infrastructure[width]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_Time_Zone)>(daylightSavingTimeZone|Eastern_Time_Zone)>(region|Montgomery_County,_Pennsylvania)>(country|United_States)", 
+      0.5
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_Time_Zone)>(daylightSavingTimeZone|Eastern_Time_Zone)>(region|Chester_County,_Pennsylvania)>(type|Township_(Pennsylvania))>(country|United_States)", 
+      0.5
+    ], 
+    [
+      "Location[populationTotal]>(country|Poland)>(type|Gmina)>(isPartOf|Lublin_Voivodeship)", 
+      0.5
+    ], 
+    [
+      "Town[populationTotal]>(state|Pennsylvania)>(region|Chester_County,_Pennsylvania)>(country|United_States)", 
+      0.5
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Poland)>(type|Gmina)>(isPartOf|Lublin_Voivodeship)", 
+      0.5
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|Hampshire)", 
+      0.5
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Spain)>(isPartOf|Province_of_Barcelona)>(type|Municipalities_of_Spain)", 
+      0.5
+    ], 
+    [
+      "Location[length]>(22-rdf-syntax-ns#type|_Feature)>(location|Antarctica)", 
+      0.5
+    ]
+  ], 
+  "values": [
+    5950.0
+  ]
+}

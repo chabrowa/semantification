@@ -1,0 +1,188 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   341    0     0  100   341      0    340  0:00:01  0:00:01 --:--:--   340100   341    0     0  100   341      0    170  0:00:02  0:00:02 --:--:--   170100   341    0     0  100   341      0    113  0:00:03  0:00:03 --:--:--   113100   341    0     0  100   341      0     93  0:00:03  0:00:03 --:--:--    93{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.2836
+        ], 
+        [
+          "postalCode", 
+          0.3589
+        ], 
+        [
+          "areaCode", 
+          0.3737
+        ]
+      ], 
+      "maj": [
+        [
+          "areaCode", 
+          5.0
+        ], 
+        [
+          "postalCode", 
+          4.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.2836
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          0.2836
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2836
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          0.3422
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (postalCode)", 
+          0.3559
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          0.364
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          0.364
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          0.3676
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaCode)", 
+          0.4196
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.4201
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          0.4201
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          0.4201
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaCode)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (postalCode)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Mountain[elevation]>(mountainRange|Andes)>(locatedInArea|Peru)", 
+      0.2836
+    ], 
+    [
+      "Location[areaCode]>(timeZone|Indian_Standard_Time)>(isPartOf|Uttar_Pradesh)>(country|India)", 
+      0.3388
+    ], 
+    [
+      "Location[postalCode]>(type|Municipalities_of_Switzerland)>(canton|Aargau)", 
+      0.3392
+    ], 
+    [
+      "Settlement[postalCode]>(type|Municipalities_of_Switzerland)>(canton|Aargau)", 
+      0.3392
+    ], 
+    [
+      "Location[areaCode]>(timeZone|Indian_Standard_Time)>(isPartOf|Uttar_Pradesh)>(country|India)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3408
+    ], 
+    [
+      "Location[areaCode]>(timeZone|Indian_Standard_Time)>(isPartOf|Uttar_Pradesh)", 
+      0.349
+    ], 
+    [
+      "Location[postalCode]>(country|Austria)>(state|Salzburg_(state))>(party|Austrian_People's_Party)", 
+      0.3684
+    ], 
+    [
+      "Settlement[postalCode]>(country|Austria)>(state|Salzburg_(state))>(party|Austrian_People's_Party)", 
+      0.3889
+    ], 
+    [
+      "City[areaCode]>(country|India)>(isPartOf|Uttar_Pradesh)>100  4635  100  4294  100   341   1172     93  0:00:03  0:00:03 --:--:--  1172
+(22-rdf-syntax-ns#type|_Feature)", 
+      0.4167
+    ], 
+    [
+      "City[areaCode]>(country|India)>(isPartOf|Uttar_Pradesh)", 
+      0.4235
+    ]
+  ], 
+  "values": [
+    5117.0, 
+    5537.0
+  ]
+}

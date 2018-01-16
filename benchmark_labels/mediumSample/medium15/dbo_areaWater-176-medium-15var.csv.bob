@@ -1,0 +1,148 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   354    0     0  100   354      0    353  0:00:01  0:00:01 --:--:--   353100   354    0     0  100   354      0    176  0:00:02  0:00:02 --:--:--   176100  3790  100  3436  100   354   1570    161  0:00:02  0:00:02 --:--:--  1571
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaWater"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "area", 
+          0.4603
+        ], 
+        [
+          "areaTotal", 
+          0.4642
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          8.0
+        ], 
+        [
+          "area", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.4602
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.4602
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          0.4603
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (area)", 
+          0.4603
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          0.4603
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (area)", 
+          0.4603
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.4613
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.4718
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          18.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (area)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (area)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[areaTotal]>(country|Germany)>(district|Rhein-Hunsr%C3%BCck-Kreis)", 
+      0.45
+    ], 
+    [
+      "Location[areaTotal]>(type|Municipalities_of_Switzerland)>(canton|Aargau)", 
+      0.4503
+    ], 
+    [
+      "Settlement[areaTotal]>(type|Municipalities_of_Switzerland)>(canton|Aargau)", 
+      0.4503
+    ], 
+    [
+      "Settlement[areaTotal]>(isPartOf|Illinois)>(timeZone|Central_Time_Zone)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.4561
+    ], 
+    [
+      "Location[area]>(region|Nord-Pas-de-Calais)>(arrondissement|Arrondissement_of_B%C3%A9thune)", 
+      0.4603
+    ], 
+    [
+      "Settlement[area]>(department|Pas-de-Calais)>(arrondissement|Arrondissement_of_B%C3%A9thune)", 
+      0.4603
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Germany)>(district|Rhein-Hunsr%C3%BCck-Kreis)>(type|Verbandsgemeinde)", 
+      0.4638
+    ], 
+    [
+      "Location[areaTotal]>(type|Municipalities_of_Switzerland)>(district|Bern-Mittelland_(administrative_district))>(canton|Canton_of_Bern)", 
+      0.4808
+    ], 
+    [
+      "Settlement[areaTotal]>(type|Municipalities_of_Switzerland)>(district|Bern-Mittelland_(administrative_district))>(canton|Canton_of_Bern)", 
+      0.4808
+    ], 
+    [
+      "Location[areaTotal]>(country|United_Kingdom)>(country|Rutland)", 
+      0.4815
+    ]
+  ], 
+  "values": [
+    5577906.0, 
+    4847115.0
+  ]
+}

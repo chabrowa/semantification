@@ -1,0 +1,190 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   521    0     0  100   521      0    519  0:00:01  0:00:01 --:--:--   519100   521    0     0  100   521      0    259  0:00:02  0:00:02 --:--:--   260100   521    0     0  100   521      0    173  0:00:03  0:00:03 --:--:--   173100   521    0     0  100   521      0    130  0:00:04  0:00:04 --:--:--   130{
+  "invalid": [
+    "http://dbpedia.org/ontology/squadNumber"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "number", 
+          0.271
+        ], 
+        [
+          "shipBeam", 
+          0.2792
+        ], 
+        [
+          "elevation", 
+          0.3048
+        ]
+      ], 
+      "maj": [
+        [
+          "number", 
+          5.0
+        ], 
+        [
+          "elevation", 
+          4.0
+        ], 
+        [
+          "shipBeam", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.2675
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          0.2705
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.271
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.271
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          0.2792
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          0.2792
+        ], 
+        [
+          "http://dbpedia.org/ontology/GridironFootballPlayer (number)", 
+          0.2938
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmericanFootballPlayer (number)", 
+          0.2938
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.3048
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.3048
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.3048
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.3051
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmericanFootballPlayer (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/GridironFootballPlayer (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Malaysia)", 
+      0.2214
+    ], 
+    [
+      "Athlete[number]>(position|Forward_(association_football))", 
+      0.25
+    ], 
+    [
+      "Ship[shipBeam]>(country|United_Kingdom)", 
+      0.2792
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Australia)", 
+      0.2923
+    ], 
+    [
+      "AmericanFootballPlayer[number]>(position|Quarterback)", 
+      0.2938
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Sweden)", 
+      0.2976
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Northern_Norway)", 
+      0.3008
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Northern_Norway)>(isPartOf|Finnmark)", 
+      0.3036
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Northern_Norway)>(isPartOf|Nordland)>(timeZone|Central_European_Time)", 
+      0.3036
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Northern_Norway)>(isPartOf|Nordland)", 
+      0.3114100  4691  100  4170  100   521    937    117  0:00:04  0:00:04 --:--:--   937
+
+    ]
+  ], 
+  "values": [
+    3.0, 
+    18.0, 
+    13.0, 
+    15.0
+  ]
+}

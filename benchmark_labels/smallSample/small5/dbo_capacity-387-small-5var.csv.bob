@@ -1,0 +1,191 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   394    0     0  100   394      0    393  0:00:01  0:00:01 --:--:--   393100   394    0     0  100   394      0    196  0:00:02  0:00:02 --:--:--   196100   394    0     0  100   394      0    131  0:00:03  0:00:03 --:--:--   131100   394    0     0  100   394      0     98  0:00:04  0:00:04 --:--:--    98100   394    0     0  100   394      0     78  0:00:05  0:00:05 --:--:--    78100  4352  100  3958  100   394    789     78  0:00:05  0:00:05 --:--:--   888
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/capacity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1524
+        ], 
+        [
+          "width", 
+          0.1727
+        ], 
+        [
+          "length", 
+          0.1809
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          5.0
+        ], 
+        [
+          "width", 
+          4.0
+        ], 
+        [
+          "length", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1473
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1524
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1524
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (width)", 
+          0.1649
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (width)", 
+          0.1751
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (width)", 
+          0.1751
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (width)", 
+          0.1753
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.1753
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.1809
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cave (length)", 
+          0.1809
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          0.1809
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1818
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (width)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cave (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|Cumbria)", 
+      0.1286
+    ], 
+    [
+      "Settlement[populationTotal]>(type|Census-designated_place)>(isPartOf|California)", 
+      0.1375
+    ], 
+    [
+      "Settlement[populationTotal]>(type|Census-designated_place)", 
+      0.1548
+    ], 
+    [
+      "Settlement[populationTotal]>(type|Census-designated_place)>(isPartOf|Colorado)", 
+      0.1592
+    ], 
+    [
+      "Location[width]>(country|France)", 
+      0.1649
+    ], 
+    [
+      "Lake[width]", 
+      0.1751
+    ], 
+    [
+      "BodyOfWater[width]", 
+      0.1751
+    ], 
+    [
+      "NaturalPlace[width]", 
+      0.1756
+    ], 
+    [
+      "Cave[length]", 
+      0.1809
+    ], 
+    [
+      "Village[populationTotal]>(country|United_Kingdom)>(country|Derbyshire)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1818
+    ]
+  ], 
+  "values": [
+    3517.0, 
+    75.0, 
+    8359.0, 
+    1425.0, 
+    345.0
+  ]
+}

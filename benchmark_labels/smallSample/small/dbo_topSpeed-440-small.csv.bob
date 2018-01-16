@@ -1,0 +1,227 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   327    0     0  100   327      0    326  0:00:01  0:00:01 --:--:--   326100   327    0     0  100   327      0    163  0:00:02  0:00:02 --:--:--   163100   327    0     0  100   327      0    108  0:00:03  0:00:03 --:--:--   108100   327    0     0  100   327      0     81  0:00:04  0:00:04 --:--:--    81100   327    0     0  100   327      0     65  0:00:05  0:00:05 --:--:--    65{
+  "invalid": [
+    "http://dbpedia.org/ontology/topSpeed"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.5
+        ], 
+        [
+          "areaCode", 
+          0.5
+        ], 
+        [
+          "minimumElevation", 
+          0.5019
+        ], 
+        [
+          "areaWater", 
+          0.5036
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          4.0
+        ], 
+        [
+          "minimumElevation", 
+          3.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ], 
+        [
+          "areaCode", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.5015
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.5023
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.5029
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.5029
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.503
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.5038
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.5038
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (minimumElevation)", 
+          0.5058
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.5059
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbou100  5486  100  5159  100   327    971     61  0:00:05  0:00:05 --:--:--  1121
+rs": [
+    [
+      "Location[minimumElevation]>(region|Pays_de_la_Loire)>(department|Maine-et-Loire)", 
+      0.5
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Pays_de_la_Loire)>(department|Maine-et-Loire)", 
+      0.5
+    ], 
+    [
+      "Place[areaCode]>(timeZone|Eastern_Time_Zone)", 
+      0.5
+    ], 
+    [
+      "Location[populationDensity]>(country|Hungary)>(isPartOf|Somogy_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5
+    ], 
+    [
+      "Village[populationDensity]>(isPartOf|Veszpr%C3%A9m_County)", 
+      0.5
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Maryland)>(country|United_States)", 
+      0.5
+    ], 
+    [
+      "Location[areaWater]>(type|Administrative_divisions_of_New_York)>(isPartOf|Nassau_County,_New_York)", 
+      0.503
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Nebraska)", 
+      0.5052
+    ], 
+    [
+      "City[minimumElevation]", 
+      0.5058
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Idaho)>(timeZone|Pacific_Time_Zone)>(type|City)", 
+      0.5063
+    ]
+  ], 
+  "values": [
+    29.632
+  ]
+}

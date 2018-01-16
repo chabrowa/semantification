@@ -1,0 +1,211 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   336    0     0  100   336      0    335  0:00:01  0:00:01 --:--:--   335100   336    0     0  100   336      0    178  0:00:01  0:00:01 --:--:--   178{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "gross", 
+          0.5
+        ], 
+        [
+          "areaLand", 
+          0.5
+        ], 
+        [
+          "areaWater", 
+          0.5059
+        ], 
+        [
+          "areaTotal", 
+          0.513
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          7.0
+        ], 
+        [
+          "areaWater", 
+          1.0
+        ], 
+        [
+          "gross", 
+          1.0
+        ], 
+        [
+          "areaLand", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (gross)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (gross)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.5059
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaWater)", 
+          0.5059
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaWater)", 
+          0.5059
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.5059
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.508
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.508
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.5082
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.5152
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          0.5217
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (gross)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (gross)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Person[gross]>(distributor|Walt_Disney_Studios_Motion_Pictures)", 
+      0.5
+    ], 
+    [
+      "Settlement[areaLand]>(governmentType|Council%E2%80%93manager_government)", 
+      0.5
+    ], 
+    [
+      "AdministrativeRegion[areaWater]>(state|Michigan)", 
+      0.5059
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Time_in_Peru)", 
+      0.5065
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Peru)", 
+      0.5072
+    ], 
+    [
+      "Location[areaTotal]>(country|Poland)>(type|Gmina)>(isPartOf|West_Pomeranian_Voivodeship)", 
+      0100  4949  100  4613  100   336   2453    178  0:00:01  0:00:01 --:--:--  2453
+.5088
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Poland)>(type|Gmina)>(isPartOf|West_Pomeranian_Voivodeship)", 
+      0.5088
+    ], 
+    [
+      "ProtectedArea[areaTotal]>(location|California)", 
+      0.5132
+    ], 
+    [
+      "ProtectedArea[areaTotal]>(location|California)>(location|United_States)", 
+      0.5185
+    ], 
+    [
+      "ProtectedArea[areaTotal]>(location|California)>(location|United_States)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5283
+    ]
+  ], 
+  "values": [
+    205793741.0
+  ]
+}

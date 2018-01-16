@@ -1,0 +1,214 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   520    0     0  100   520      0    518  0:00:01  0:00:01 --:--:--   519100   520    0     0  100   520      0    259  0:00:02  0:00:02 --:--:--   259100   520    0     0  100   520      0    173  0:00:03  0:00:03 --:--:--   173100   520    0     0  100   520      0    129  0:00:04  0:00:04 --:--:--   129100   520    0     0  100   520      0    108  0:00:04  0:00:04 --:--:--   108{
+  "invalid": [
+    "http://dbpedia.org/ontology/squadNumber"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "height", 
+          0.2706
+        ], 
+        [
+          "number", 
+          0.2899
+        ], 
+        [
+          "elevation", 
+          0.3036
+        ]
+      ], 
+      "maj": [
+        [
+          "number", 
+          8.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ], 
+        [
+          "height", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.2706
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (height)", 
+          0.2706
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (height)", 
+          0.2706
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.2706
+        ], 
+        [
+          "http://dbpedia.org/ontology/GridironFootballPlayer (number)", 
+          0.2776
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmericanFootballPlayer (number)", 
+          0.2776
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.2855
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          0.2874
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.2899
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.2899
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          0.3008
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.3036
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.3036
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.3036
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.3036
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          15.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmericanFootballPlayer (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/GridironFootballPlayer (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Athlete[number]>(position|Forward_(association_football))", 
+      0.25
+    ], 
+    [
+      "Lighthouse[height]>(location|Australia)", 
+      0.2706
+    ], 
+    [
+      "AmericanFootballPlayer[number]>(position|Quarterback)", 
+      0.2776
+    ], 
+    [
+      "BasketballPlayer[number]>(league|Euroleague_Basketball)", 
+      0.2874
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Austra100  5297  100  4777  100   520    995    108  0:00:04  0:00:04 --:--:--  1120
+lia)", 
+      0.2885
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Thailand)", 
+      0.2946
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Spain)", 
+      0.3016
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Northern_Norway)>(isPartOf|Finnmark)", 
+      0.3036
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Sweden)", 
+      0.3095
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Japan)", 
+      0.3099
+    ]
+  ], 
+  "values": [
+    3.0, 
+    19.0, 
+    14.0, 
+    16.0
+  ]
+}

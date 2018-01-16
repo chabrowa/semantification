@@ -1,0 +1,228 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   389    0     0  100   389      0    387  0:00:01  0:00:01 --:--:--   388100   389    0     0  100   389      0    194  0:00:02  0:00:02 --:--:--   194100   389    0     0  100   389      0    129  0:00:03  0:00:03 --:--:--   129100   389    0     0  100   389      0     97  0:00:04  0:00:04 --:--:--    97{
+  "invalid": [
+    "http://dbpedia.org/ontology/squadNumber"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.3037
+        ], 
+        [
+          "length", 
+          0.3072
+        ], 
+        [
+          "numberOfSeasons", 
+          0.3205
+        ], 
+        [
+          "number", 
+          0.3333
+        ], 
+        [
+          "minimumElevation", 
+          0.3701
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          5.0
+        ], 
+        [
+          "length", 
+          2.0
+        ], 
+        [
+          "minimumElevation", 
+          1.0
+        ], 
+        [
+          "number", 
+          1.0
+        ], 
+        [
+          "numberOfSeasons", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2851
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.2995
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.2995
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (length)", 
+          0.3072
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (length)", 
+          0.3072
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.3084
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.3084
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          0.3205
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          0.3205
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.335
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.335
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.3701
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (length)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "AdministrativeRegion[populationDensity]>(state|Nebraska100  5325  100  4936  100   389   1142     90  0:00:04  0:00:04 --:--:--  1143
+)", 
+      0.2549
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Kansas)", 
+      0.2851
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Colorado)", 
+      0.29
+    ], 
+    [
+      "Device[length]", 
+      0.3072
+    ], 
+    [
+      "Weapon[length]", 
+      0.3072
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]>(format|Aspect_ratio_(image))", 
+      0.3205
+    ], 
+    [
+      "Athlete[number]>(position|Goalkeeper_(association_football))", 
+      0.3333
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Kansas)", 
+      0.335
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|South_Dakota)", 
+      0.3537
+    ], 
+    [
+      "Location[minimumElevation]>(region|Pays_de_la_Loire)>(department|Loire-Atlantique)", 
+      0.3701
+    ]
+  ], 
+  "values": [
+    8.0, 
+    1.0
+  ]
+}

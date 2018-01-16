@@ -1,0 +1,178 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   477    0     0  100   477      0    475  0:00:01  0:00:01 --:--:--   476100   477    0     0  100   477      0    238  0:00:02  0:00:02 --:--:--   238100   477    0     0  100   477      0    158  0:00:03  0:00:03 --:--:--   158100   477    0     0  100   477      0    119  0:00:04  0:00:04 --:--:--   119100   477    0     0  100   477      0     95  0:00:05  0:00:05 --:--:--    95{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEpisodes"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.2173
+        ], 
+        [
+          "populationDensity", 
+          0.2259
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          8.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.216
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.216
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.216
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.2168
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.2212
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          0.2229
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.2229
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.2259
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.2259
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.2289
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.2289
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          20.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Chatrud_District)", 
+      0.1814
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Central_District_(Kerman_County))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2181
+    ], 
+    [
+      "Location[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Sharifabad_Rural_District_(Sirjan_County))", 
+      0.2206
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Mashiz_Rural_District)", 
+      0.2214
+    ], 
+    [
+      "Location[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Mashiz_Rural_District)", 
+      0.2218
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Central_District_(Kerman_County))", 
+      0.2224
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Khuzestan_Province)>(isPartOf|Golgir_District)", 
+      0.2226
+    ], 
+    [
+      "City[populationDensity]>(country|Spain)", 
+      0.2229
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Pennsylvania)", 
+      0.2289
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Isfahan_Province)>(isPartOf|Cent100  4774  100  4297  100   477    847     94  0:00:05  0:00:05 --:--:--   938
+ral_District_(Ardestan_County))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2298
+    ]
+  ], 
+  "values": [
+    889.0, 
+    26.0, 
+    889.0, 
+    50.0, 
+    62.0, 
+    46.0, 
+    13.0, 
+    45.0
+  ]
+}

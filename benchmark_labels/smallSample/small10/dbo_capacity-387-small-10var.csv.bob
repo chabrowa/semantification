@@ -1,0 +1,151 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   395    0     0  100   395      0    393  0:00:01  0:00:01 --:--:--   394100   395    0     0  100   395      0    197  0:00:02  0:00:02 --:--:--   197100   395    0     0  100   395      0    131  0:00:03  0:00:03 --:--:--   131100   395    0     0  100   395      0     98  0:00:04  0:00:04 --:--:--    98100   395    0     0  100   395      0     78  0:00:05  0:00:05 --:--:--    78100  3499  100  3104  100   395    583     74  0:00:05  0:00:05 --:--:--   627
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/capacity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1511
+        ], 
+        [
+          "width", 
+          0.1727
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          6.0
+        ], 
+        [
+          "width", 
+          4.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1511
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1511
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1516
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (width)", 
+          0.1649
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (width)", 
+          0.1751
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (width)", 
+          0.1751
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (width)", 
+          0.1753
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.1753
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          17.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (width)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (width)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|Cumbria)", 
+      0.1286
+    ], 
+    [
+      "Settlement[populationTotal]>(type|Census-designated_place)>(isPartOf|California)", 
+      0.1307
+    ], 
+    [
+      "Settlement[populationTotal]>(type|Census-designated_place)", 
+      0.1421
+    ], 
+    [
+      "Settlement[populationTotal]>(type|Census-designated_place)>(isPartOf|Colorado)", 
+      0.1592
+    ], 
+    [
+      "Location[width]>(country|France)", 
+      0.1649
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(ceremonialCounty|Cornwall)", 
+      0.1653
+    ], 
+    [
+      "Lake[width]", 
+      0.1751
+    ], 
+    [
+      "BodyOfWater[width]", 
+      0.1751
+    ], 
+    [
+      "NaturalPlace[width]", 
+      0.1756
+    ], 
+    [
+      "Settlement[populationTotal]>(type|Census-designated_place)>(isPartOf|Washington_(state))", 
+      0.1807
+    ]
+  ], 
+  "values": [
+    3495.0, 
+    76.0, 
+    8602.0, 
+    1370.0, 
+    377.0
+  ]
+}

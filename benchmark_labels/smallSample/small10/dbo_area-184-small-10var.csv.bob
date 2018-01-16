@@ -1,0 +1,205 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   393    0     0  100   393      0   1952 --:--:-- --:--:-- --:--:--  1955100   393    0     0  100   393      0    196  0:00:02  0:00:02 --:--:--   196100   393    0     0  100   393      0    170  0:00:02  0:00:02 --:--:--   170{
+  "invalid": [
+    "http://dbpedia.org/ontology/area"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.3383
+        ], 
+        [
+          "areaWater", 
+          0.339
+        ], 
+        [
+          "areaLand", 
+          0.3416
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          5.0
+        ], 
+        [
+          "areaWater", 
+          3.0
+        ], 
+        [
+          "areaLand", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Village (areaTotal)", 
+          0.3337
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.3377
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.3381
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.3381
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.3381
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          0.3381
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.3383
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.3383
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.3394
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          0.3414
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.3416
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.3416
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.3416
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.3446
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[areaTotal]>(country|Slovenia)>(isPartOf|Styria_(Slovenia))", 
+      0.3258
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Maine)>(type|New_England_town)", 
+      0.3365
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Slovenia)>(isPartOf|Gori%C5%A1ka_Statistical_Region)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3367
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Maine)", 
+      0.3381
+    ], 
+    [
+      "Village[areaTotal]>(country|Slovenia)>(isPartOf|Styria_(Slovenia))>(isPartOf|Drava_Statistical_Region)", 
+      0.3396
+    ], 
+    [
+      "City[areaLand]>(isPartOf|Oregon)>(type|City)>(timeZone|Pacific_Time_Zone)>(country|United_States)", 
+   100  5018  100  4625  100   393   2001    170  0:00:02  0:00:02 --:--:--  2000
+   0.3397
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Minnesota)>(isPartOf|Otter_Tail_County,_Minnesota)", 
+      0.3423
+    ], 
+    [
+      "City[areaLand]>(isPartOf|Oregon)>(type|City)>(timeZone|Pacific_Time_Zone)", 
+      0.3435
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Oregon)>(type|City)>(timeZone|Pacific_Time_Zone)>(country|United_States)", 
+      0.3444
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|South_Dakota)", 
+      0.345
+    ]
+  ], 
+  "values": [
+    9973820.0, 
+    1896996.0, 
+    1845021.0
+  ]
+}

@@ -1,0 +1,126 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   421    0     0  100   421      0   2093 --:--:-- --:--:-- --:--:--  2094100   421    0     0  100   421      0    210  0:00:02  0:00:02 --:--:--   210100   421    0     0  100   421      0    140  0:00:03  0:00:03 --:--:--   140100   421    0     0  100   421      0    105  0:00:04  0:00:04 --:--:--   105100   421    0     0  100   421      0     84  0:00:05  0:00:05 --:--:--    84100   421    0     0  100   421      0     75  0:00:05  0:00:05 --:--:--     0100  3123  100  2702  100   421    482     75  0:00:05  0:00:05 --:--:--   633
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaWater"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaWater", 
+          0.2896
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.2722
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          0.2926
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.3027
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.3027
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.3033
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.3063
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          4.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaWater]>(isPartOf|Minnesota)>(isPartOf|Stearns_County,_Minnesota)", 
+      0.2582
+    ], 
+    [
+      "Location[areaWater]>(type|Administrative_divisions_of_New_York)", 
+      0.2627
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Minnesota)", 
+      0.2706
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Minnesota)>(isPartOf|Polk_County,_Minnesota)>(type|Township_(United_States))", 
+      0.2882
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Minnesota)>(isPartOf|Polk_County,_Minnesota)", 
+      0.2882
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Texas)>(governmentType|Council%E2%80%93manager_government)", 
+      0.3
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Maryland)>(country|United_States)", 
+      0.3012
+    ], 
+    [
+      "Town[areaWater]", 
+      0.3058
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Texas)>(governmentType|Council%E2%80%93manager_government)>(leaderName|Mayor)>(country|United_States)", 
+      0.3101
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Maine)", 
+      0.311
+    ]
+  ], 
+  "values": [
+    2703988.0, 
+    3237399.0, 
+    0.0, 
+    0.0
+  ]
+}

@@ -1,0 +1,243 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1445    0     0  100  1445      0   1440  0:00:01  0:00:01 --:--:--  1442100  1445    0     0  100  1445      0    721  0:00:02  0:00:02 --:--:--   721100  1445    0     0  100  1445      0    480  0:00:03  0:00:03 --:--:--   481100  1445    0     0  100  1445      0    382  0:00:03  0:00:03 --:--:--   382{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "budget", 
+          0.4713
+        ], 
+        [
+          "areaTotal", 
+          0.5691
+        ], 
+        [
+          "area", 
+          0.6899
+        ]
+      ], 
+      "maj": [
+        [
+          "area", 
+          6.0
+        ], 
+        [
+          "areaTotal", 
+          3.0
+        ], 
+        [
+          "budget", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.4015
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (areaTotal)", 
+          0.4015
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (budget)", 
+          0.4713
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (budget)", 
+          0.4713
+        ], 
+        [
+          "http://dbpedia.org/ontology/GovernmentAgency (budget)", 
+          0.4713
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.5691
+        ], 
+        [
+          "http://dbpedia.org/ontology/WineRegion (areaTotal)", 
+          0.6498
+        ], 
+        [
+          "http://dbpedia.org/ontology/ClericalAdministrativeRegion (area)", 
+          0.6893
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (area)", 
+          0.6893
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          0.6893
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (area)", 
+          0.6893
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          0.6893
+        ], 
+        [
+          "http://dbpedia.org/ontology/Diocese (area)", 
+          0.6897
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (area)", 
+          0.6912
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Diocese (area)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (area)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WineRegion (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ClericalAdministrativeRegion (area)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (area)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (area)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/GovernmentAgency (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (budget)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (budget)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (areaTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Country[areaTotal]", 
+      0.4015
+    ], 
+    [
+      "GovernmentAgency[budget]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.4713
+    ], 
+    [
+      "WineRegion[areaTotal]>(growingGrape|Gew%C3%BCrztraminer)>(growingGrape|Riesling)", 
+      0.6374
+    ], 
+    [
+      "Location[area]>(jurisdiction|Diocese)>(country|China)", 
+      0.668
+    ], 
+    [
+      "Diocese[area]>(country|China)>(jurisdiction|Diocese)", 
+      0.668
+    ], 
+    [
+      "Diocese[area]>(country|China)", 
+      0.6682
+    ], 
+    [
+      "WineRegion[areaTotal]>(growingGrape|Gew%C3%BCrztraminer)", 
+      0.6684
+    ], 
+    [
+      "Diocese[area]>(country|United_States)", 
+      0.7064
+    ], 
+100  6602  100  5157  100  1445   1363    381  0:00:03  0:00:03 --:--:--  1363
+    [
+      "Location[area]>(jurisdiction|Diocese)>(country|United_States)", 
+      0.7145
+    ], 
+    [
+      "Diocese[area]>(country|United_States)>(jurisdiction|Diocese)", 
+      0.7145
+    ]
+  ], 
+  "values": [
+    994179047769.0, 
+    261674876009.0, 
+    237837711132.0, 
+    43401674840.0, 
+    771774014909.0, 
+    37994099271.0, 
+    68912215102.0, 
+    294062321921.0, 
+    252105768559.0, 
+    767973960984.0, 
+    574444483007.0, 
+    1014231769612.0, 
+    137000500707.0, 
+    470302999198.0, 
+    535923658335.0, 
+    811916354732.0, 
+    4830912279017.0, 
+    96479216304.0, 
+    896870926432.0, 
+    23469.0, 
+    908525341.0, 
+    65696244140.0, 
+    697839551153.0, 
+    697881593408.0, 
+    4930848716121.0, 
+    1366465943403.0, 
+    618095056241.0, 
+    632443619797.0, 
+    45256355570.0, 
+    2347530954510.0, 
+    161165529207.0, 
+    947669992187.0, 
+    22803.0, 
+    289390054038.0, 
+    765241969007.0, 
+    898531396918.0, 
+    635362027657.0, 
+    60404585195.0, 
+    369636961621.0, 
+    811813233387.0, 
+    904553620028.0
+  ]
+}

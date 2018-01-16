@@ -1,0 +1,203 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   345    0     0  100   345      0    344  0:00:01  0:00:01 --:--:--   344{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaLand"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaLand", 
+          0.5
+        ], 
+        [
+          "areaWater", 
+          0.5111
+        ], 
+        [
+          "areaTotal", 
+          0.5155
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          5.0
+        ], 
+        [
+          "areaWater", 
+          4.0
+        ], 
+        [
+          "areaLand", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          0.503
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.5091
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.5101
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.5101
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.5101
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaWater)", 
+          0.5101
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.5118
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaWater)", 
+          0.5118
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.5118
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.5172
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.5192
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaWater)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "AdministrativeRegion[areaWater]>(type|County_(United_States))>(isPartOf|California)", 
+      0.5
+    ], 
+    [
+      "Settlement[areaLand]>(governmentType|Council%E2%80%93manager_government)", 
+      0.5
+    ], 
+    [
+      "Town[areaTotal]>(country|Mexico)", 
+      0.503
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|California)>(type|County_(United_States))", 
+      0.5091
+    ], 
+    [
+      "City[areaTotal]>(country|Italy)>(leaderParty|Democratic_Party_(Italy))", 
+      0.5172
+    ], 
+    [
+      "AdministrativeRegion[areaWater]>(state|Michigan)", 
+      0.5176
+    ], 
+    [
+      "AdministrativeRegion[areaWater]>(type|County_(United100  4892  100  4547  100   345   3436    260  0:00:01  0:00:01 --:--:--  3439
+_States))", 
+      0.5179
+    ], 
+    [
+      "Location[areaTotal]>(type|Census-designated_place)>(timeZone|Alaska_Time_Zone)>(country|United_States)", 
+      0.5181
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Time_in_Peru)>(isPartOf|Amazonas_Region)", 
+      0.5185
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Time_in_Peru)>(isPartOf|Lima_Region)>(type|Districts_of_Peru)", 
+      0.5208
+    ]
+  ], 
+  "values": [
+    134446858.0
+  ]
+}

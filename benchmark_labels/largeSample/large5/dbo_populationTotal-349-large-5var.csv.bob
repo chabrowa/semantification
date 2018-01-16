@@ -1,0 +1,428 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  3913    0     0  100  3913      0  19496 --:--:-- --:--:-- --:--:-- 19467100  3913    0     0  100  3913      0   1953  0:00:02  0:00:02 --:--:--  1954100  3913    0     0  100  3913      0   1302  0:00:03  0:00:03 --:--:--  1303100  3913    0     0  100  3913      0    977  0:00:04  0:00:04 --:--:--   977100  3913    0     0  100  3913      0    781  0:00:05  0:00:05 --:--:--   781100  3913    0     0  100  3913      0    651  0:00:06  0:00:06 --:--:--     0100  3913    0     0  100  3913      0    615  0:00:06  0:00:06 --:--:--     0{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaWater", 
+          0.0925
+        ], 
+        [
+          "areaLand", 
+          0.1022
+        ], 
+        [
+          "areaTotal", 
+          0.1071
+        ], 
+        [
+          "gross", 
+          0.1178
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          5.0
+        ], 
+        [
+          "areaWater", 
+          2.0
+        ], 
+        [
+          "areaLand", 
+          2.0
+        ], 
+        [
+          "gross", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaWater)", 
+          0.0925
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.0925
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaWater)", 
+          0.0925
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.0925
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (areaTotal)", 
+          0.0965
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.0965
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          0.0965
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          0.0965
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.0986
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.1022
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.1022
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          0.1095
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1097
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.1134
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.1141
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.1141
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaTotal)", 
+          0.117
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (gross)", 
+          0.1178
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (gross)", 
+          0.1178
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (gross)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (gross)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "AdministrativeRegion[areaWater]>(state|Kansas)", 
+      0.0923
+    ], 
+    [
+      "AdministrativeRegion[areaWater]>(state|Kentucky)", 
+      0.0927
+    ], 
+    [
+      "Settlement[areaLand]>(isPartOf|Maryland)>(country|United_States)", 
+      0.095
+    ], 
+    [
+      "Location[areaTotal]>(country|Canada)>(location|Alberta)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0965
+    ], 
+    [
+      "Lake[areaTotal]>(country|Canada)>(location|Alberta)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0965
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Missouri)>(isPartOf|St._Louis_County,_Missouri)", 
+      0.1093
+    ], 
+    [
+      "City[areaLand]>(isPartOf|Missouri)>(isPartOf|St._Louis_County,_Missouri)", 
+      0.1095
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Missouri)>(isPartOf|St._Louis_County,_Missouri)>(country|United_States)>(type|City)", 
+      0.1159
+    ], 
+    [
+      "Village[areaTotal]", 
+      0.117
+    ], 
+    [
+      "Film[gross]", 
+      0.1178
+    ]
+  ], 
+  "values": [
+    593364.0, 
+    15037233.0, 
+    5809780.0, 
+    2855610.0, 
+    6623271.0, 
+    1249033.0, 
+    18402675.0, 
+    3280805.0, 
+    9943855.0, 
+    2889492.0, 
+    55333.0, 
+    4375087.0, 
+    583193.0, 
+    6279263.0, 
+    39504756.0, 
+    52298774.0, 
+    250146730.0, 
+    10841072.0, 
+    366287.0, 
+    4288472.0, 
+    16339085.0, 
+    53239.0, 
+    37202352.0, 
+    29599421.0, 
+    1183454.0, 
+    445346.0, 
+    9043892.0, 
+    7820902.0, 
+    10974493.0, 
+    17524164.0, 
+    73988.0, 
+    12443646.0, 
+    88015.0, 
+    13329804.0, 
+    25638096.0, 
+    323541.0, 
+    6864228.0, 
+    16364388.0, 
+    918424.0, 
+    3091092.0, 
+    1338036.0, 
+    42478566.0, 
+    17508449.0, 
+    16511526.0, 
+    8602709.0, 
+    26628860.0, 
+    95615.0, 
+    25622738.0, 
+    103933.0, 
+    873057.0, 
+    16084392.0, 
+    9070668.0, 
+    4794589.0, 
+    383744.0, 
+    38577895.0, 
+    544876.0, 
+    16622291.0, 
+    79161442.0, 
+    7626543.0, 
+    550382.0, 
+    2946414.0, 
+    5754640.0, 
+    6186132.0, 
+    33416213.0, 
+    88272309.0, 
+    6689274.0, 
+    80098131.0, 
+    385432.0, 
+    12084471.0, 
+    99072.0, 
+    6628155.0, 
+    88581.0, 
+    1233.0, 
+    1303356867.0, 
+    5426428.0, 
+    85526820.0, 
+    87130798.0, 
+    2098279.0, 
+    11417020.0, 
+    51272698.0, 
+    4782232.0, 
+    3841134.0, 
+    17008475.0, 
+    12070831.0, 
+    88145241.0, 
+    24314367.0, 
+    7020389.0, 
+    405595.0, 
+    88293.0, 
+    58025.0, 
+    7081918.0, 
+    4523402.0, 
+    16901210.0, 
+    2370366.0, 
+    5986159.0, 
+    25613.0, 
+    41220112.0, 
+    2952999.0, 
+    12870979.0, 
+    2038507.0, 
+    564220.0, 
+    24060986.0, 
+    1705240.0, 
+    6111950.0, 
+    12926711.0, 
+    53707.0, 
+    434376.0, 
+    25515660.0, 
+    4579124.0, 
+    396229.0, 
+    4202919.0, 
+    24841550.0, 
+    16923821.0, 
+    36301065.0, 
+    21537648.0, 
+    112035.0, 
+    8417035.0, 
+    8494179.0, 
+    10583789.0, 
+    7662352.0, 
+    3777709.0, 
+    755676.0, 
+    1419042.0, 
+    10724593.0, 
+    37558994.0, 
+    11297037.0, 
+    394773.0, 
+    54288.0, 
+    56204.0, 
+    840671.0, 
+    42980483.0, 
+    930810.0, 
+    44670656.0, 
+    10992518.0, 
+    18892787.0, 
+    21624014.0, 
+    1608942.0, 
+    5530450.0, 
+    10026960.0, 
+    544471.0, 
+    403292.0, 
+    1194219.0, 
+    22570720.0, 
+    25298647.0, 
+    197749878.0, 
+    24571491.0, 
+    9241535.0, 
+    11183562.0, 
+    43154525.0, 
+    849230.0, 
+    808691.0, 
+    1172698.0, 
+    11090780.0, 
+    15694376.0, 
+    15985406.0, 
+    4365872.0, 
+    5459383.0, 
+    9790683.0, 
+    4570408.0, 
+    40621657.0, 
+    4331082.0, 
+    5197514.0, 
+    1380894.0, 
+    1169.0, 
+   100 12332  100  8419  100  3913   1323    615  0:00:06  0:00:06 --:--:--  1342
+ 1746485.0, 
+    24806524.0, 
+    435203.0, 
+    91578293.0, 
+    11308157.0, 
+    3325165.0, 
+    4336645.0, 
+    10703308.0, 
+    8283532.0, 
+    1247523.0, 
+    3604745.0, 
+    98312.0, 
+    1333594.0, 
+    10945365.0
+  ]
+}

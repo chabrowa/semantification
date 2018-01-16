@@ -1,0 +1,237 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   418    0     0  100   418      0    416  0:00:01  0:00:01 --:--:--   417100   418    0     0  100   418      0    208  0:00:02  0:00:02 --:--:--   208100   418    0     0  100   418      0    139  0:00:03  0:00:03 --:--:--   139100   418    0     0  100   418      0    104  0:00:04  0:00:04 --:--:--   104100   418    0     0  100   418      0     87  0:00:04  0:00:04 --:--:--    87{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfGoals"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "number", 
+          0.2333
+        ], 
+        [
+          "height", 
+          0.2667
+        ], 
+        [
+          "elevation", 
+          0.2667
+        ], 
+        [
+          "numberOfEpisodes", 
+          0.2742
+        ], 
+        [
+          "minimumElevation", 
+          0.2805
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          6.0
+        ], 
+        [
+          "minimumElevation", 
+          1.0
+        ], 
+        [
+          "number", 
+          1.0
+        ], 
+        [
+          "numberOfEpisodes", 
+          1.0
+        ], 
+        [
+          "height", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.2333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.2333
+        ], 
+        [
+          "http://dbpedia.org/ontology/BaseballPlayer (number)", 
+          0.2333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.2333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2593
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.2667
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (height)", 
+          0.2667
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          0.2667
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.2667
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2667
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2667
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          0.2742
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          0.2742
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.2778
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.2803
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.2805
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BaseballPlayer (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          1.0
+        ]
+      ]
+    }
+  },100  5707  100  5289  100   418   1108     87  0:00:04  0:00:04 --:--:--  1292
+ 
+  "neighbours": [
+    [
+      "BaseballPlayer[number]", 
+      0.2333
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(federalState|Brandenburg)>(division|Quarter_(urban_subdivision))", 
+      0.2407
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(federalState|Brandenburg)", 
+      0.2615
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Mecklenburgische_Seenplatte_(district))", 
+      0.2625
+    ], 
+    [
+      "Dam[height]>(country|Australia)", 
+      0.2667
+    ], 
+    [
+      "TelevisionShow[numberOfEpisodes]>(network|Broadcast_syndication)>(language|English_language)", 
+      0.2742
+    ], 
+    [
+      "Village[elevation]>(daylightSavingTimeZone|Central_Time_Zone)>(state|Louisiana)", 
+      0.2754
+    ], 
+    [
+      "Village[elevation]>(daylightSavingTimeZone|Central_Time_Zone)>(state|Louisiana)>(country|United_States)", 
+      0.2796
+    ], 
+    [
+      "Town[elevation]>(country|Germany)>(federalState|Brandenburg)", 
+      0.2803
+    ], 
+    [
+      "Location[minimumElevation]>(department|Manche)>(arrondissement|Arrondissement_of_Avranches)", 
+      0.2805
+    ]
+  ], 
+  "values": [
+    74.0, 
+    19.0, 
+    58.0
+  ]
+}

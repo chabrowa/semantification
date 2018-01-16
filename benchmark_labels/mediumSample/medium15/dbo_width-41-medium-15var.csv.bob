@@ -1,0 +1,243 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   322    0     0  100   322      0    321  0:00:01  0:00:01 --:--:--   321100   322    0     0  100   322      0    160  0:00:02  0:00:02 --:--:--   160{
+  "invalid": [
+    "http://dbpedia.org/ontology/width"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.5
+        ], 
+        [
+          "postalCode", 
+          0.5
+        ], 
+        [
+          "width", 
+          0.5
+        ], 
+        [
+          "numberOfEmployees", 
+          0.5
+        ], 
+        [
+          "areaWater", 
+          0.5038
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          4.0
+        ], 
+        [
+          "areaWater", 
+          3.0
+        ], 
+        [
+          "postalCode", 
+          1.0
+        ], 
+        [
+          "width", 
+          1.0
+        ], 
+        [
+          "numberOfEmployees", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (numberOfEmployees)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.503
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.5038
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.5042
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.5042
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.5052
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (numberOfEmployees)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees100  5779  100  5457  100   322   2139    126  0:00:02  0:00:02 --:--:--  2140
+)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Infrastructure[width]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(region|Sicily)>(province|Province_of_Catania)", 
+      0.5
+    ], 
+    [
+      "Location[populationTotal]>(country|Spain)>(isPartOf|Province_of_Barcelona)>(type|Municipalities_of_Spain)", 
+      0.5
+    ], 
+    [
+      "Place[populationTotal]>(country|India)", 
+      0.5
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Spain)>(isPartOf|Province_of_Barcelona)", 
+      0.5
+    ], 
+    [
+      "Company[numberOfEmployees]>(keyPerson|Chief_executive_officer)", 
+      0.5
+    ], 
+    [
+      "PopulatedPlace[postalCode]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5
+    ], 
+    [
+      "Location[areaWater]>(type|Administrative_divisions_of_New_York)>(isPartOf|Nassau_County,_New_York)", 
+      0.503
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|South_Carolina)>(type|Census-designated_place)", 
+      0.5033
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Nebraska)", 
+      0.5052
+    ]
+  ], 
+  "values": [
+    8026.0
+  ]
+}

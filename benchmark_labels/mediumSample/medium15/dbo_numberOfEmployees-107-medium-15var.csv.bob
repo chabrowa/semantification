@@ -1,0 +1,177 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   443    0     0  100   443      0    442  0:00:01  0:00:01 --:--:--   442100   443    0     0  100   443      0    221  0:00:02  0:00:02 --:--:--   221100   443    0     0  100   443      0    147  0:00:03  0:00:03 --:--:--   147100   443    0     0  100   443      0    110  0:00:04  0:00:04 --:--:--   110100   443    0     0  100   443      0     88  0:00:05  0:00:05 --:--:--    88100  4484  100  4041  100   443    806     88  0:00:05  0:00:05 --:--:--   898
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEmployees"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1935
+        ], 
+        [
+          "length", 
+          0.1998
+        ], 
+        [
+          "capacity", 
+          0.2045
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          8.0
+        ], 
+        [
+          "length", 
+          1.0
+        ], 
+        [
+          "capacity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1896
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1896
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1905
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1917
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          0.1998
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (capacity)", 
+          0.2045
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (capacity)", 
+          0.2045
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (capacity)", 
+          0.2045
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerClub (capacity)", 
+          0.2045
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.2051
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          16.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerClub (capacity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (capacity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (capacity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (capacity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[populationTotal]>(type|Village_development_committee)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1633
+    ], 
+    [
+      "Settlement[populationTotal]>(type|Village_development_committee)", 
+      0.1657
+    ], 
+    [
+      "Village[populationTotal]>(type|Village_development_committee)>(isPartOf|Nawalparasi_District)", 
+      0.1905
+    ], 
+    [
+      "Location[length]>(22-rdf-syntax-ns#type|_Feature)>(country|Norway)", 
+      0.1998
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(province|Province_of_Verona)>(region|Veneto)", 
+      0.2015
+    ], 
+    [
+      "SoccerClub[capacity]>(ground|Spain)>(season|2012%E2%80%9313_Segunda_Divisi%C3%B3n_B)", 
+      0.2045
+    ], 
+    [
+      "Location[populationTotal]>(type|Village_development_committee)>(isPartOf|Nawalparasi_District)", 
+      0.2046
+    ], 
+    [
+      "Location[populationTotal]>(type|Village_development_committee)>(isPartOf|Nawalparasi_District)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2055
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(province|Province_of_Verona)", 
+      0.208
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Canada)>(isPartOf|Calgary)", 
+      0.2088
+    ]
+  ], 
+  "values": [
+    6523.0, 
+    21088.0, 
+    2786.0, 
+    4757.0, 
+    1741.0, 
+    5206.0, 
+    4464.0
+  ]
+}

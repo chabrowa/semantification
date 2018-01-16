@@ -1,0 +1,158 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   410    0     0  100   410      0    408  0:00:01  0:00:01 --:--:--   409100   410    0     0  100   410      0    204  0:00:02  0:00:02 --:--:--   204100   410    0     0  100   410      0    136  0:00:03  0:00:03 --:--:--   136100   410    0     0  100   410      0    102  0:00:04  0:00:04 --:--:--   102100  3917  100  3507  100   410    719     84  0:00:04  0:00:04 --:--:--   720
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfGoals"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.2872
+        ], 
+        [
+          "minimumElevation", 
+          0.2918
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          6.0
+        ], 
+        [
+          "minimumElevation", 
+          4.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.2795
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2872
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2872
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2872
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.2899
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.2917
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.2919
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.2919
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.2919
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Town[elevation]>(country|Republic_of_Ireland)>(isPartOf|Connacht)>(timeZone|Time_in_Ireland)", 
+      0.2685
+    ], 
+    [
+      "Village[elevation]>(timeZone|Time_in_Ireland)>(isPartOf|Connacht)>(country|Republic_of_Ireland)", 
+      0.2708
+    ], 
+    [
+      "Village[elevation]>(timeZone|Time_in_Ireland)>(isPartOf|Connacht)", 
+      0.2794
+    ], 
+    [
+      "Location[minimumElevation]>(department|Aisne)", 
+      0.2797
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Aisne)", 
+      0.2801
+    ], 
+    [
+      "Town[elevation]>(country|Republic_of_Ireland)>(isPartOf|Connacht)", 
+      0.2941
+    ], 
+    [
+      "Village[elevation]>(timeZone|Time_in_Ireland)>(isPartOf|Leinster)", 
+      0.3034
+    ], 
+    [
+      "Location[minimumElevation]>(department|Seine-et-Marne)", 
+      0.3037
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Seine-et-Marne)", 
+      0.3037
+    ], 
+    [
+      "Village[elevation]>(timeZone|Time_in_Ireland)>(isPartOf|Leinster)>(country|Republic_of_Ireland)", 
+      0.3068
+    ]
+  ], 
+  "values": [
+    77.0, 
+    67.0, 
+    55.0, 
+    90.0
+  ]
+}

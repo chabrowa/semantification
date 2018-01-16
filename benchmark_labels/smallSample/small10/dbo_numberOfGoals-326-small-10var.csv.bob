@@ -1,0 +1,211 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   327    0     0  100   327      0   1623 --:--:-- --:--:-- --:--:--  1618100   327    0     0  100   327      0    163  0:00:02  0:00:02 --:--:--   163100   327    0     0  100   327      0    108  0:00:03  0:00:03 --:--:--   108100   327    0     0  100   327      0     81  0:00:04  0:00:04 --:--:--    81100   327    0     0  100   327      0     65  0:00:05  0:00:05 --:--:--    65100   327    0     0  100   327      0     59  0:00:05  0:00:05 --:--:--     0{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfGoals"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "height", 
+          0.4938
+        ], 
+        [
+          "maximumElevation", 
+          0.4985
+        ], 
+        [
+          "populationTotal", 
+          0.5
+        ], 
+        [
+          "areaCode", 
+          0.5
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          6.0
+        ], 
+        [
+          "maximumElevation", 
+          2.0
+        ], 
+        [
+          "height", 
+          1.0
+        ], 
+        [
+          "areaCode", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.4938
+        ], 
+        [
+          "http://dbpedia.org/ontology/Hotel (height)", 
+          0.4938
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.4938
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (height)", 
+          0.4938
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          0.4985
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.4985
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          0.4985
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          0.4985
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.5
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          16.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Hotel (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (height)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Hotel[height]", 
+      0.4938
+    ], 
+    [
+      "Settlement[maximumElevation]>(region|Pays_de_la_Loire)", 
+      0.4985
+    ], 
+    [
+      "Location[maximumElevation]>(region|Pays_de_la_Loire)", 
+      0.4985
+    ], 
+    [
+      "Place[areaCode]>(timeZone|Eastern_Time_Zone)", 
+      0.5
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_European_Time)>(isPartOf|Alytus_County)", 
+      0.5
+    ], 
+ 100  5092  100  4765  100   327    870     59  0:00:05  0:00:05 --:--:--  1278
+   [
+      "Village[populationTotal]>(isPartOf|Kohgiluyeh_and_Boyer-Ahmad_Province)>(isPartOf|Sarfaryab_District)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Zarand_County)", 
+      0.5
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Chah_Dadkhoda_District)", 
+      0.5
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kermanshah_Province)>(isPartOf|Gurani_Rural_District)", 
+      0.5
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Khuzestan_Province)>(isPartOf|Hati_District)", 
+      0.5
+    ]
+  ], 
+  "values": [
+    93.0
+  ]
+}

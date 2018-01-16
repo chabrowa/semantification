@@ -1,0 +1,168 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   642    0     0  100   642      0    640  0:00:01  0:00:01 --:--:--   640100   642    0     0  100   642      0    320  0:00:02  0:00:02 --:--:--   320100   642    0     0  100   642      0    213  0:00:03  0:00:03 --:--:--   213100   642    0     0  100   642      0    160  0:00:04  0:00:04 --:--:--   160100   642    0     0  100   642      0    132  0:00:04  0:00:04 --:--:--   132100  4313  100  3671  100   642    755    132  0:00:04  0:00:04 --:--:--   785
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/capacity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1199
+        ], 
+        [
+          "elevation", 
+          0.1242
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          6.0
+        ], 
+        [
+          "elevation", 
+          4.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1185
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1199
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1199
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.12
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.1238
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1242
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1242
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1242
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          15.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[populationTotal]>(isPartOf|Isfahan_Province)>(isPartOf|Kashan_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1104
+    ], 
+    [
+      "Settlement[populationTotal]>(type|Census-designated_place)>(timeZone|Alaska_Time_Zone)", 
+      0.1106
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Slovenia)>(isPartOf|Upper_Carniola)>(isPartOf|Central_Slovenia_Statistical_Region)", 
+      0.118
+    ], 
+    [
+      "City[elevation]>(isPartOf|Oregon)>(type|City)", 
+      0.1205
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Mazandaran_Province)>(isPartOf|Babol_Kenar_District)", 
+      0.1212
+    ], 
+    [
+      "City[elevation]>(isPartOf|Oregon)>(type|City)>(timeZone|Pacific_Time_Zone)", 
+      0.1213
+    ], 
+    [
+      "City[elevation]>(isPartOf|Oregon)>(type|City)>(timeZone|Pacific_Time_Zone)>(country|United_States)", 
+      0.1228
+    ], 
+    [
+      "Settlement[populationTotal]>(type|Census-designated_place)>(timeZone|Alaska_Time_Zone)>(country|United_States)", 
+      0.1286
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Isfahan_Province)", 
+      0.1306
+    ], 
+    [
+      "City[elevation]>(timeZone|Time_in_China)>(type|Prefecture-level_city)", 
+      0.1322
+    ]
+  ], 
+  "values": [
+    9502.0, 
+    36.0, 
+    453.0, 
+    17.0, 
+    50.0, 
+    38.0, 
+    755.0, 
+    94.0, 
+    431.0, 
+    218.0, 
+    510.0, 
+    406.0, 
+    728.0, 
+    70.0, 
+    9237.0, 
+    45.0, 
+    285.0, 
+    48.0, 
+    126.0, 
+    75.0, 
+    17.0, 
+    77.0
+  ]
+}

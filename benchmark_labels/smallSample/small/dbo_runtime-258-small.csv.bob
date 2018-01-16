@@ -1,0 +1,144 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   894    0     0  100   894      0    891  0:00:01  0:00:01 --:--:--   892100   894    0     0  100   894      0    446  0:00:02  0:00:02 --:--:--   446100   894    0     0  100   894      0    297  0:00:03  0:00:03 --:--:--   297100   894    0     0  100   894      0    223  0:00:04  0:00:04 --:--:--   223100   894    0     0  100   894      0    178  0:00:05  0:00:05 --:--:--   178100  4044  100  3150  100   894    612    173  0:00:05  0:00:05 --:--:--   544
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.3031
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.2879
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.2967
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.3105
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.3179
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.318
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.3182
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          25.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(type|Unincorporated_area)", 
+      0.2559
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(type|Unincorporated_area)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2644
+    ], 
+    [
+      "NaturalPlace[elevation]>(country|United_States)", 
+      0.2879
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(type|Census-designated_place)", 
+      0.3115
+    ], 
+    [
+      "Settlement[elevation]>(country|Switzerland)>(canton|Graub%C3%BCnden)", 
+      0.3176
+    ], 
+    [
+      "Town[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Arizona)>(type|Ghost_town)", 
+      0.3182
+    ], 
+    [
+      "Town[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Arizona)>(type|Ghost_town)>(country|United_States)", 
+      0.3182
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Arizona)>(type|Ghost_town)", 
+      0.3182
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Arizona)>(type|Ghost_town)>(country|United_States)", 
+      0.3182
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)", 
+      0.3208
+    ]
+  ], 
+  "values": [
+    1089.0, 
+    994.0, 
+    1026.0, 
+    955.0, 
+    978.0, 
+    1320.0, 
+    967.0, 
+    1000.0, 
+    931.0, 
+    23460.0, 
+    950.0, 
+    971.0, 
+    947.0, 
+    927.0, 
+    1089.0, 
+    943.0, 
+    1173.0, 
+    1049.0, 
+    -5400.0, 
+    1026.0, 
+    1044.0, 
+    14100.0
+  ]
+}

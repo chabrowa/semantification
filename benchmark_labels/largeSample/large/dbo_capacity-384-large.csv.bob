@@ -1,0 +1,171 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   819    0     0  100   819      0    817  0:00:01  0:00:01 --:--:--   818100   819    0     0  100   819      0    408  0:00:02  0:00:02 --:--:--   409100   819    0     0  100   819      0    272  0:00:03  0:00:03 --:--:--   272100   819    0     0  100   819      0    204  0:00:04  0:00:04 --:--:--   204100   819    0     0  100   819      0    186  0:00:04  0:00:04 --:--:--   186100  4542  100  3723  100   819    846    186  0:00:04  0:00:04 --:--:--   854
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/capacity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1046
+        ], 
+        [
+          "numberOfEpisodes", 
+          0.1098
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          9.0
+        ], 
+        [
+          "numberOfEpisodes", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.0963
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1056
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1057
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1057
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1057
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          0.1098
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          0.1098
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          26.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Sharifabad_Rural_District_(Sirjan_County))", 
+      0.0963
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|South_Khorasan_Province)>(isPartOf|Mud_District)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0965
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|South_Khorasan_Province)>(isPartOf|Mud_District)", 
+      0.0985
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Baft_County)", 
+      0.0996
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Sistan_and_Baluchestan_Province)>(isPartOf|Gowhar_Kuh_Rural_District)", 
+      0.1049
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Gilan_Province)>(isPartOf|Rahimabad_District)", 
+      0.1074
+    ], 
+    [
+      "TelevisionShow[numberOfEpisodes]>(network|Broadcast_syndication)", 
+      0.1098
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Central_District_(Shahr-e_Babak_County))", 
+      0.1108
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Khuzestan_Province)>(isPartOf|Sardasht_District)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1131
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Mazandaran_Province)>(isPartOf|Larijan_District)", 
+      0.1148
+    ]
+  ], 
+  "values": [
+    55.0, 
+    66.0, 
+    339.0, 
+    743.0, 
+    24.0, 
+    24.0, 
+    53.0, 
+    292.0, 
+    419.0, 
+    48.0, 
+    419.0, 
+    96.0, 
+    743.0, 
+    92.0, 
+    24.0, 
+    36.0, 
+    196.0, 
+    139.0, 
+    60.0, 
+    71.0, 
+    55.0, 
+    35.0, 
+    16.0, 
+    29.0, 
+    130.0, 
+    24.0, 
+    45.0, 
+    40.0, 
+    120.0, 
+    24.0, 
+    48.0, 
+    16.0, 
+    72.0
+  ]
+}

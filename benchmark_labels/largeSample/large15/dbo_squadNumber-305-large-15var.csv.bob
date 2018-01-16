@@ -1,0 +1,149 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   416    0     0  100   416      0    414  0:00:01  0:00:01 --:--:--   415100   416    0     0  100   416      0    207  0:00:02  0:00:02 --:--:--   207100   416    0     0  100   416      0    138  0:00:03  0:00:03 --:--:--   138100   416    0     0  100   416      0    103  0:00:04  0:00:04 --:--:--   103100   416    0     0  100   416      0     83  0:00:05  0:00:05 --:--:--    83100  3696  100  3280  100   416    608     77  0:00:05  0:00:05 --:--:--   653
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/squadNumber"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "number", 
+          0.2069
+        ], 
+        [
+          "elevation", 
+          0.2106
+        ]
+      ], 
+      "maj": [
+        [
+          "number", 
+          6.0
+        ], 
+        [
+          "elevation", 
+          4.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          0.2066
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.2069
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.2069
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.2069
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2081
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2106
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2106
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.2157
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          17.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Thailand)", 
+      0.1845
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Australia)", 
+      0.1949
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Vorpommern-Greifswald)", 
+      0.2027
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Vorpommern-Greifswald)>(federalState|Mecklenburg-Vorpommern)", 
+      0.2083
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))", 
+      0.2132
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Sweden)", 
+      0.2143
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Northern_Norway)>(isPartOf|Troms)", 
+      0.2154
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Northern_Norway)", 
+      0.2161
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Brazil)", 
+      0.2169
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|England)", 
+      0.2178
+    ]
+  ], 
+  "values": [
+    12.0, 
+    4.0, 
+    25.0
+  ]
+}

@@ -1,0 +1,180 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   390    0     0  100   390      0    388  0:00:01  0:00:01 --:--:--   389100   390    0     0  100   390      0    194  0:00:02  0:00:02 --:--:--   194100   390    0     0  100   390      0    129  0:00:03  0:00:03 --:--:--   129100   390    0     0  100   390      0     97  0:00:04  0:00:04 --:--:--    97100   390    0     0  100   390      0     77  0:00:05  0:00:05 --:--:--    77{
+  "invalid": [
+    "http://dbpedia.org/ontology/minimumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "minimumElevation", 
+          0.0
+        ], 
+        [
+          "populationTotal", 
+          0.0152
+        ], 
+        [
+          "areaWater", 
+          0.0467
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          8.0
+        ], 
+        [
+          "minimumElevation", 
+          1.0
+        ], 
+        [
+          "populationTotal", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0152
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0152
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (populationTotal)", 
+          0.0152
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.0363
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.046
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.0467
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.0467
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.0467
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaWater)", 
+          0.0555
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaWater)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "PopulatedPlace[minimumElevation]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0
+    ], 
+    [
+      "Island[populationTotal]>(archipelago|South_Shetland_Islands)", 
+      0.0152
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Kentucky)>(isPartOf|Jefferson_County,_Kentucky)>(type|List_of_cities_in_Kentucky)", 
+      0.0294
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Kentucky)>(isPartOf|Jefferson_County,_Kentucky)>(type|List_of_cities_in_Kentucky)", 
+      0.0294
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Kentucky)>(isPartOf|Jefferson_County,_Kentucky)", 
+      0.0449
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Kentucky)>(isPartOf|Jefferson_County,_Kentucky)", 
+      0.0455
+    ], 
+    [
+      "Village[areaWater]>(isPartOf|Nebraska)>(timeZone|Central_Time_Zone)", 
+      0.0535
+    ], 
+    [
+      "Location[areaWater]>(type|Village_(United_States))>(isPartOf|Nebraska)>(timeZone|Central_Time_Zone)", 
+      0.0538
+    ], 
+    [
+      "Village[areaWater]>(isPartOf|Nebraska)", 
+      0.0584
+    ], 
+    [
+      "Location[areaWater]>(type|Village_(United_States))>(isPartOf|Nebraska)", 
+      0.0587
+    ]
+  ], 
+  "values": [
+    0.0, 
+    0.100  4494  100  4104  100   390    808     76  0:00:05  0:00:05 --:--:--   911
+0
+  ]
+}

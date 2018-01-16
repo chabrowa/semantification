@@ -1,0 +1,212 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1169    0     0  100  1169      0   1166  0:00:01  0:00:01 --:--:--  1167100  1169    0     0  100  1169      0    583  0:00:02  0:00:02 --:--:--   583100  1169    0     0  100  1169      0    389  0:00:03  0:00:03 --:--:--   389100  1169    0     0  100  1169      0    291  0:00:04  0:00:04 --:--:--   291100  1169    0     0  100  1169      0    253  0:00:04  0:00:04 --:--:--   253100  5070  100  3901  100  1169    847    253  0:00:04  0:00:04 --:--:--   758
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/height"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "height", 
+          0.1725
+        ]
+      ], 
+      "maj": [
+        [
+          "height", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/AmateurBoxer (height)", 
+          0.1264
+        ], 
+        [
+          "http://dbpedia.org/ontology/Boxer (height)", 
+          0.141
+        ], 
+        [
+          "http://dbpedia.org/ontology/TableTennisPlayer (height)", 
+          0.1476
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (height)", 
+          0.1682
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (height)", 
+          0.1682
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (height)", 
+          0.1682
+        ], 
+        [
+          "http://dbpedia.org/ontology/Swimmer (height)", 
+          0.1766
+        ], 
+        [
+          "http://dbpedia.org/ontology/Skater (height)", 
+          0.1797
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (height)", 
+          0.1815
+        ], 
+        [
+          "http://dbpedia.org/ontology/FigureSkater (height)", 
+          0.1835
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (height)", 
+          0.2112
+        ], 
+        [
+          "http://dbpedia.org/ontology/Automobile (height)", 
+          0.2112
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Athlete (height)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (height)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (height)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/FigureSkater (height)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (height)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Swimmer (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Automobile (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Boxer (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmateurBoxer (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TableTennisPlayer (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Skater (height)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "AmateurBoxer[height]", 
+      0.1264
+    ], 
+    [
+      "FigureSkater[height]>(country|France)", 
+      0.1388
+    ], 
+    [
+      "TableTennisPlayer[height]", 
+      0.1476
+    ], 
+    [
+      "Boxer[height]", 
+      0.1556
+    ], 
+    [
+      "FigureSkater[height]", 
+      0.171
+    ], 
+    [
+      "Swimmer[height]>(nationality|Japan)", 
+      0.1766
+    ], 
+    [
+      "Skater[height]", 
+      0.1797
+    ], 
+    [
+      "FigureSkater[height]>(country|Germany)", 
+      0.208
+    ], 
+    [
+      "FigureSkater[height]>(country|China)", 
+      0.21
+    ], 
+    [
+      "Automobile[height]>(bodyStyle|Sport_utility_vehicle)", 
+      0.2112
+    ]
+  ], 
+  "values": [
+    1.78, 
+    1.89, 
+    1.81, 
+    1.57, 
+    1.61, 
+    1.78, 
+    1.73, 
+    1.75, 
+    1.65, 
+    1.83, 
+    1.73, 
+    1.85, 
+    1.58, 
+    1.89, 
+    1.73, 
+    1.53, 
+    1.79, 
+    1.62, 
+    1.65, 
+    1.73, 
+    1.73, 
+    1.62, 
+    1.85, 
+    1.74, 
+    1.88, 
+    1.7, 
+    1.63, 
+    1.78, 
+    1.61, 
+    1.76, 
+    1.58, 
+    1.85, 
+    1.65, 
+    1.77, 
+    1.85, 
+    1.55, 
+    1.63, 
+    1.65, 
+    1.86, 
+    1.66, 
+    1.65, 
+    1.66
+  ]
+}

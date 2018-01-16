@@ -1,0 +1,194 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1370    0     0  100  1370      0   1365  0:00:01  0:00:01 --:--:--  1367100  1370    0     0  100  1370      0    683  0:00:02  0:00:02 --:--:--   683100  1370    0     0  100  1370      0    455  0:00:03  0:00:03 --:--:--   456100  4953  100  3583  100  1370   1036    396  0:00:03  0:00:03 --:--:--  1037
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/weight"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "weight", 
+          0.1716
+        ]
+      ], 
+      "maj": [
+        [
+          "weight", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/MartialArtist (weight)", 
+          0.15
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cyclist (weight)", 
+          0.1663
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (weight)", 
+          0.1716
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (weight)", 
+          0.1716
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (weight)", 
+          0.1716
+        ], 
+        [
+          "http://dbpedia.org/ontology/Swimmer (weight)", 
+          0.1721
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (weight)", 
+          0.1774
+        ], 
+        [
+          "http://dbpedia.org/ontology/Skater (weight)", 
+          0.1774
+        ], 
+        [
+          "http://dbpedia.org/ontology/BadmintonPlayer (weight)", 
+          0.192
+        ], 
+        [
+          "http://dbpedia.org/ontology/VolleyballPlayer (weight)", 
+          0.2
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Athlete (weight)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (weight)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (weight)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cyclist (weight)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Swimmer (weight)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MartialArtist (weight)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BadmintonPlayer (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Skater (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/VolleyballPlayer (weight)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Cyclist[weight]>(birthPlace|Australia)", 
+      0.1433
+    ], 
+    [
+      "Swimmer[weight]", 
+      0.1493
+    ], 
+    [
+      "MartialArtist[weight]>(birthPlace|Japan)", 
+      0.15
+    ], 
+    [
+      "Cyclist[weight]", 
+      0.1508
+    ], 
+    [
+      "Swimmer[weight]>(nationality|Canada)", 
+      0.1628
+    ], 
+    [
+      "Skater[weight]", 
+      0.1774
+    ], 
+    [
+      "BadmintonPlayer[weight]", 
+      0.192
+    ], 
+    [
+      "Swimmer[weight]>(nationality|United_States)", 
+      0.193
+    ], 
+    [
+      "Cyclist[weight]>(birthPlace|Belgium)", 
+      0.1971
+    ], 
+    [
+      "VolleyballPlayer[weight]", 
+      0.2
+    ]
+  ], 
+  "values": [
+    96850.0, 
+    62151.0, 
+    62974.0, 
+    70021.0, 
+    72457.0, 
+    55612.0, 
+    51316.0, 
+    70932.0, 
+    86496.0, 
+    69308.0, 
+    74015.0, 
+    67916.0, 
+    70120.0, 
+    71674.0, 
+    68934.0, 
+    103753.0, 
+    112951.0, 
+    54830.0, 
+    89880.0, 
+    64898.0, 
+    62734.0, 
+    54714.0, 
+    65259.0, 
+    57855.0, 
+    74246.0, 
+    80103.0, 
+    66711.0, 
+    70852.0, 
+    85845.0, 
+    57431.0, 
+    70804.0, 
+    69486.0, 
+    75778.0, 
+    65005.0, 
+    49304.0, 
+    61652.0, 
+    93901.0, 
+    64776.0, 
+    71819.0, 
+    84722.0
+  ]
+}

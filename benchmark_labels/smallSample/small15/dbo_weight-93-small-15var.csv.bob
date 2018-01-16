@@ -1,0 +1,266 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  2239    0     0  100  2239      0   2232  0:00:01  0:00:01 --:--:--  2234{
+  "invalid": [
+    "http://dbpedia.org/ontology/weight"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.1364
+        ], 
+        [
+          "weight", 
+          0.1364
+        ], 
+        [
+          "areaWater", 
+          0.1389
+        ], 
+        [
+          "areaLand", 
+          0.1457
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          7.0
+        ], 
+        [
+          "areaWater", 
+          1.0
+        ], 
+        [
+          "areaLand", 
+          1.0
+        ], 
+        [
+          "weight", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.1299
+        ], 
+        [
+          "http://dbpedia.org/ontology/Train (weight)", 
+          0.1364
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (weight)", 
+          0.1364
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.137
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.1375
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1375
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.1389
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaWater)", 
+          0.1389
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaWater)", 
+          0.1389
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.1389
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.1405
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          0.1457
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          16.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Train (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (weight)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "City[areaTotal]>(country|Italy)", 
+      0.1235
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Asturias)", 
+      0.1299
+    ], 
+    [
+      "City[areaTotal]>(country|Spain)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1303
+    ], 
+    [
+      "Train[weight]", 
+      0.1364
+    ], 
+    [
+      "City[areaTotal]>(country|Spain)", 
+      0.1384
+    ], 
+    [
+      "AdministrativeRegion[areaWater]>(state|Wisconsin)", 
+      0.1389
+    ], 
+    [
+      "City[areaTotal]>(country|Spain)>(22-rdf-syntax-ns#type|_Feature)>(type|Municipalities_of_Spain)", 
+      0.1389
+    ], 
+    [
+      "City[areaTotal]>(country|Spain)>(22-rdf-syntax-ns#type|_Feature)>(type|Municipalities_of_Spain)>(timeZone|Central_European_Time)", 
+      0.1444
+    ], 
+    [
+      "Location[areaLand]>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Laurentides)", 
+      0.1457
+    ], 
+    [
+      "Settlement[areaTotal]>(cou100  7684  100  5445  100  2239   2997   1232  0:00:01  0:00:01 --:--:--  3000
+ntry|Slovenia)>(type|Municipalities_of_Slovenia)", 
+      0.1496
+    ]
+  ], 
+  "values": [
+    20853232.0, 
+    379127768.0, 
+    64506561.0, 
+    16292339.0, 
+    98269885.0, 
+    57032743.0, 
+    32272865.0, 
+    260198802.0, 
+    264045976.0, 
+    36330347.0, 
+    29148562.0, 
+    759367128.0, 
+    44849743.0, 
+    177395811.0, 
+    60141223.0, 
+    19156513.0, 
+    30665637.0, 
+    42454544.0, 
+    40308627.0, 
+    172234944.0, 
+    55712485.0, 
+    167135700.0, 
+    29073491.0, 
+    35035021.0, 
+    691382177.0, 
+    82795744.0, 
+    49749340.0, 
+    430200497.0, 
+    152576198.0, 
+    47336525.0, 
+    407834294.0, 
+    52177109.0, 
+    38852742.0, 
+    306998413.0, 
+    44704588.0, 
+    653371954.0, 
+    417776319.0, 
+    243863883.0, 
+    19121247.0, 
+    120571279.0, 
+    25156254.0, 
+    31070283.0, 
+    52629711.0, 
+    241465356.0, 
+    76744826.0, 
+    461364772.0, 
+    117481989.0, 
+    53790586.0, 
+    369176540.0, 
+    27968989.0, 
+    30871586.0, 
+    71724366.0, 
+    90447721.0, 
+    155478243.0, 
+    107354091.0, 
+    141921904.0, 
+    35402115.0, 
+    274050429.0, 
+    45170125.0, 
+    213709215.0, 
+    431333493.0, 
+    86624564.0, 
+    33625579.0, 
+    74148326.0, 
+    483230274.0, 
+    426368452.0, 
+    46362132.0, 
+    37520220.0, 
+    456486331.0, 
+    12337904.0, 
+    249835533.0, 
+    17753536.0
+  ]
+}

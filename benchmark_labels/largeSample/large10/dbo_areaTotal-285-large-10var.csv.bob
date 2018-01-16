@@ -1,0 +1,191 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   419    0     0  100   419      0   2082 --:--:-- --:--:-- --:--:--  2084100   419    0     0  100   419      0    209  0:00:02  0:00:02 --:--:--   209100   419    0     0  100   419      0    139  0:00:03  0:00:03 --:--:--   139100   419    0     0  100   419      0    104  0:00:04  0:00:04 --:--:--   104100   419    0     0  100   419      0     83  0:00:05  0:00:05 --:--:--    83100   419    0     0  100   419      0     71  0:00:05  0:00:05 --:--:--     0{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.2452
+        ], 
+        [
+          "areaTotal", 
+          0.2936
+        ], 
+        [
+          "areaWater", 
+          0.3042
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          5.0
+        ], 
+        [
+          "areaTotal", 
+          4.0
+        ], 
+        [
+          "populationTotal", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2452
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2452
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (populationTotal)", 
+          0.2452
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (areaTotal)", 
+          0.2885
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.2923
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.2936
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.2949
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.2994
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.2994
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.2994
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.3231
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          0.3231
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (populationTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Country[populationTotal]", 
+      0.2452
+    ], 
+    [
+      "Island[areaTotal]>(country|Australia)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.271
+    ], 
+    [
+      "Island[areaTotal]>(country|Australia)", 
+      0.2774
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Alaska)>(timeZone|Alaska_Time_Zone)", 
+      0.288
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Alaska)", 
+      0.2902
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Alaska)>(timeZone|Alaska_Time_Zone)>(type|Alaska)", 
+      0.2966
+    ], 
+    [
+      "PopulatedPlace[areaTotal]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Minnesota)>(isPartOf|St._Louis_County,_Minnesota)>(type|Township_(United_States))", 
+      0.3231
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Minnesota)>(isPartOf|St._Louis_County,_Minnesota)", 
+      0.3231
+    ], 
+    [
+      "Island[areaTotal]>(country|United_States)", 
+      0.3259
+    ]
+  ], 
+  "values": [
+    194295894.0, 
+    0.0, 
+    3476483.0, 
+   100  4547  100  4128  100   419    703     71  0:00:05  0:00:05 --:--:--   959
+ 32885.0, 
+    38611518.0
+  ]
+}

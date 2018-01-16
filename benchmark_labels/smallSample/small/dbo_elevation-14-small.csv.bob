@@ -1,0 +1,177 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   572    0     0  100   572      0   2844 --:--:-- --:--:-- --:--:--  2845100   572    0     0  100   572      0    285  0:00:02  0:00:02 --:--:--   285100   572    0     0  100   572      0    190  0:00:03  0:00:03 --:--:--   190100   572    0     0  100   572      0    142  0:00:04  0:00:04 --:--:--   142100   572    0     0  100   572      0    118  0:00:04  0:00:04 --:--:--   118{
+  "invalid": [
+    "http://dbpedia.org/ontology/elevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.1577
+        ], 
+        [
+          "populationTotal", 
+          0.1629
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          8.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Infrastructure (elevation)", 
+          0.1577
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          0.1577
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (elevation)", 
+          0.1577
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1577
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          0.159
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1598
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1616
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1638
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1638
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (elevation)", 
+          0.1643
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1674
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "RouteOfTransportation[elevation]", 
+      0.1511
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(department|Somme)>(arrondissement|Amiens)>(region|Picardy)", 
+      0.1563
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(department|Somme)>(arrondissement|Amiens)>(region|Picardy)", 
+      0.1563
+    ], 
+    [
+      "Town[populationTotal]>(isPartOf|Minnesota)>(isPartOf|St._Louis_County,_Minnesota)", 
+      0.159
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Fars_Province)>(isPartOf|Eqlid_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1641
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(department|Somme)>(arrondissement|Amiens)", 
+      0.1642
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(department|Somme)>(arrondissement|Amiens)", 
+      0.1642
+    ], 
+    [
+      "RailwayLine[elevation]", 
+      0.1643
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Fars_Province)>(isPartOf|Central_District_(Kharameh_County))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1681
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Fars_Province)>(isPartOf|Central_District_(Kazerun_County))", 
+      0.1711
+    ]
+  ], 
+  "values": [
+    108.100  4758  100  4186  100   572    867    118  0:00:04  0:00:04 --:--:--   781
+509, 
+    1346.0, 
+    435.864, 
+    262.4, 
+    2017.0, 
+    262.433, 
+    152.705
+  ]
+}
