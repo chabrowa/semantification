@@ -16,8 +16,8 @@ class Experiment(object):
     def getDatasetPredictions(self):
         datasetPredictions = []
 
-        for fn in self.dataPath:
-            datasetPath = dataPath + fn
+        for fn in os.listdir(self.dataPath):
+            datasetPath = os.path.join(self.dataPath, fn)
             datasetPredictions.append(DatasetPrediction(datasetPath))
 
         return datasetPredictions

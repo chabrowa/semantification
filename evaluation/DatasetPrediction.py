@@ -1,7 +1,8 @@
 from approach.config.paths import *
 from approach.config.imports import *
 
-from evaluation.Semantification import Semantification
+from approach.Semantification import Semantification
+from approach.Dataset import Dataset
 
 class DatasetPrediction(object):
 
@@ -10,11 +11,27 @@ class DatasetPrediction(object):
         self.scores            = self.getScores()
 
 
+    def checkDataset(self, dataset):
+        #print dataset.size
+        if dataset.size > 2:
+            return True
+        else:
+            return False
+
+
     def getScores(self):
-        sem = Semantification(self.datasetPath)
+        dataset = Dataset(self.datasetPath , 0, [1])
+        if self.checkDataset(dataset.df) == False:
+            return -1
+
+        sem = Semantification(dataset)
         scores = {}
         scores['columnResults']   = sem.columnsResultsKS
         scores['rowResults']      = sem.rowPredictions
-        scores['finalResults']    = sem.finalResults 
+        scores['finalResults']    = sem.finalResults
 
+        print dataset.datasetId
+        print list(dataset.df.columns.values)
+        print scores['finalResults']
+        print "-----------------------------------"
         return scores

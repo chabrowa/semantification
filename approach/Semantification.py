@@ -118,7 +118,7 @@ class Semantification(object):
                 if p not in finalResults[column]:
                     finalResults[column][p] = (1 - d)
                 else:
-                    if finalResults[column][p] < (1 - d):
+                    if finalResults[column][p] > (1 - d):
                         finalResults[column][p] = (1 - d)
             finalResults[column] = sorted(finalResults[column].items(), key=operator.itemgetter(1))
 

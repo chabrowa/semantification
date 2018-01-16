@@ -5,8 +5,7 @@ from evaluation.Experiment import Experiment
 
 class Evaluation(object):
 
-    def __init__(self, benchmarkPath):
-        self.benchmarkPath       = benchmarkPath
+    def __init__(self,):
         self.experiments         = self.getExperiments()
 
 
@@ -17,7 +16,7 @@ class Evaluation(object):
 
         for s in sizes:
             for d in deviations:
-                expPath = evaluationPath + s + 'Sample/' + s + str(s) + "/"
+                expPath = evaluationPath + s + 'Sample/' + s + str(d) + "/"
                 experiments.append(Experiment(3, s, d, expPath))
         return experiments
 
