@@ -1,0 +1,215 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   444    0     0  100   444      0   2212 --:--:-- --:--:-- --:--:--  2208100   444    0     0  100   444      0    221  0:00:02  0:00:02 --:--:--   221100   444    0     0  100   444      0    147  0:00:03  0:00:03 --:--:--   147100   444    0     0  100   444      0    120  0:00:03  0:00:03 --:--:--   120{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaLand"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1686
+        ], 
+        [
+          "areaTotal", 
+          0.1951
+        ], 
+        [
+          "areaWater", 
+          0.2055
+        ], 
+        [
+          "budget", 
+          0.2058
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          3.0
+        ], 
+        [
+          "budget", 
+          3.0
+        ], 
+        [
+          "populationTotal", 
+          2.0
+        ], 
+        [
+          "areaWater", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Country (populationTotal)", 
+          0.1682
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1686
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1686
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1951
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          0.1951
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (areaTotal)", 
+          0.1953
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          0.1954
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.2055
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.2055
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.2055
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.2056
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (budget)", 
+          0.2058
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (budget)", 
+          0.2058
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (budget)", 
+          0.2058
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (budget)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (budget)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (areaTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Country[populationTotal]>(governmentType|Unitary_state)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1667
+    ], 
+    [
+      "Country[populationTotal]>(governmentType|Unitary_state)", 
+      0.1705
+    ], 
+    [
+      "NaturalPlace[areaTotal]", 
+      0.1945
+    ], 
+    [
+      "Lake[areaTotal]", 
+      0.1953
+    ], 
+    [
+      "BodyOfWater[areaTotal]", 
+      0.1956
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Alaska)>(timeZone|Alaska_Time_Zone)", 
+      0.205
+    ], 
+    [
+      "Film[budget]", 
+ 100  4885  100  4441  100   444   1206    120  0:00:03  0:00:03 --:--:--  1206
+     0.2058
+    ], 
+    [
+      "Wikidata:Q11424[budget]", 
+      0.2058
+    ], 
+    [
+      "Work[budget]", 
+      0.2058
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Alaska)>(timeZone|Alaska_Time_Zone)>(type|Alaska)", 
+      0.206
+    ]
+  ], 
+  "values": [
+    5170000.0, 
+    110000.0, 
+    410000.0, 
+    15660000.0, 
+    50410000.0
+  ]
+}

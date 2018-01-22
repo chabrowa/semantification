@@ -1,0 +1,171 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   343    0     0  100   343      0    342  0:00:01  0:00:01 --:--:--   342100   343    0     0  100   343      0    171  0:00:02  0:00:02 --:--:--   171100   343    0     0  100   343      0    114  0:00:03  0:00:03 --:--:--   114100   343    0     0  100   343      0     85  0:00:04  0:00:04 --:--:--    85{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEmployees"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfEpisodes", 
+          0.4912
+        ], 
+        [
+          "populationTotal", 
+          0.4918
+        ], 
+        [
+          "minimumElevation", 
+          0.4928
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          7.0
+        ], 
+        [
+          "minimumElevation", 
+          2.0
+        ], 
+        [
+          "numberOfEpisodes", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          0.4912
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          0.4912
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.4917
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.4918
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.4918
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.4918
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.4928
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.4928
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.4928
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.4928
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          25.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[populationTotal]>(isPartOf|Hormozgan_Province)>(isPartOf|Rudkhaneh_District)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.4884
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Mazandaran_Province)>(isPartOf|Dodangeh_District)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.4906
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|East_Azerbaijan_Province)>(isPartOf|Qeshlaq_Rural_District_(Ahar_County))", 
+      0.4912
+    ], 
+    [
+      "TelevisionShow[numberOfEpisodes]>(country|India)>(network|Zee_TV)>(format|480i)", 
+      0.4912
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kohgiluyeh_and_Boyer-Ahmad_Province)>(isPartOf|Tayebi-ye_Sarhadi-ye_Gharbi_Rural_District)", 
+      0.4918
+    ], 
+    [
+      "Location[minimumElevation]>(region|Centre_(French_region))>(arrondissement|Arrondissement_of_Montargis)", 
+      0.4928
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Centre_(French_region))>(arrondissement|Arrondissement_of_Montargis)", 
+      0.4928
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Mazandaran_Province)>(isPartOf|Kojur_District)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.4928
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Ardabil_Province)>(isPartOf|Anguti_District)>(isPart100  4663  100  4320  100   343    924     73  0:00:04  0:00:04 --:--:--   924
+Of|Angut-e_Gharbi_Rural_District)", 
+      0.493
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kermanshah_Province)>(isPartOf|Sar_Firuzabad_Rural_District)", 
+      0.4947
+    ]
+  ], 
+  "values": [
+    106.0
+  ]
+}

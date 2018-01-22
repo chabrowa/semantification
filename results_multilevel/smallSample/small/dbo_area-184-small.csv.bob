@@ -1,0 +1,189 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   401    0     0  100   401      0   1999 --:--:-- --:--:-- --:--:--  1995100   401    0     0  100   401      0    200  0:00:02  0:00:02 --:--:--   200100   401    0     0  100   401      0    133  0:00:03  0:00:03 --:--:--   133100   401    0     0  100   401      0    100  0:00:04  0:00:04 --:--:--   100100   401    0     0  100   401      0     80  0:00:05  0:00:05 --:--:--    80100  4360  100  3959  100   401    788     79  0:00:05  0:00:05 --:--:--   738
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/area"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "weight", 
+          0.2805
+        ], 
+        [
+          "area", 
+          0.2905
+        ], 
+        [
+          "areaWater", 
+          0.2997
+        ], 
+        [
+          "populationTotal", 
+          0.3051
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          6.0
+        ], 
+        [
+          "weight", 
+          2.0
+        ], 
+        [
+          "populationTotal", 
+          1.0
+        ], 
+        [
+          "area", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Device (weight)", 
+          0.2805
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          0.2905
+        ], 
+        [
+          "http://dbpedia.org/ontology/HistoricPlace (area)", 
+          0.2905
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (weight)", 
+          0.2908
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          0.2957
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.2986
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.3009
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.3009
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.3009
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.3035
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.3051
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (weight)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/HistoricPlace (area)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Device[weight]", 
+      0.2703
+    ], 
+    [
+      "HistoricPlace[area]", 
+      0.2905
+    ], 
+    [
+      "Weapon[weight]", 
+      0.2908
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Arkansas)>(type|Civil_township)", 
+      0.2957
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Arkansas)>(type|Civil_township)", 
+      0.2957
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|New_Jersey)>(type|Census-designated_place)", 
+      0.2999
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)", 
+      0.3001
+    ], 
+    [
+      "City[areaWater]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)>(type|City)>(timeZone|Pacific_Time_Zone)", 
+      0.3033
+    ], 
+    [
+      "City[areaWater]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)>(type|City)", 
+      0.3037
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Gujarat)", 
+      0.3051
+    ]
+  ], 
+  "values": [
+    809.371, 
+    27518.6, 
+    1770000.0
+  ]
+}

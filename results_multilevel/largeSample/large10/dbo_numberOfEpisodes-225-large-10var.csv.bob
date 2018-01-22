@@ -1,0 +1,174 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   408    0     0  100   408      0    406  0:00:01  0:00:01 --:--:--   407100   408    0     0  100   408      0    203  0:00:02  0:00:02 --:--:--   203100   408    0     0  100   408      0    135  0:00:03  0:00:03 --:--:--   135100   408    0     0  100   408      0    103  0:00:03  0:00:03 --:--:--   103100  4295  100  3887  100   408    983    103  0:00:03  0:00:03 --:--:--   983
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEpisodes"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "topSpeed", 
+          0.2599
+        ], 
+        [
+          "populationDensity", 
+          0.3217
+        ], 
+        [
+          "height", 
+          0.3256
+        ], 
+        [
+          "elevation", 
+          0.3256
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          5.0
+        ], 
+        [
+          "topSpeed", 
+          3.0
+        ], 
+        [
+          "height", 
+          1.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (topSpeed)", 
+          0.2599
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (topSpeed)", 
+          0.2629
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.3205
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.3256
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (height)", 
+          0.3256
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.3288
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.3288
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          0.3288
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.3288
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          16.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (topSpeed)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (topSpeed)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "MeanOfTransportation[topSpeed]", 
+      0.2575
+    ], 
+    [
+      "Ship[topSpeed]", 
+      0.2575
+    ], 
+    [
+      "Ship[topSpeed]>(builder|Barrow-in-Furness)>(builder|Vickers_Limited)", 
+      0.2647
+    ], 
+    [
+      "Location[populationDensity]>(country|Hungary)>(isPartOf|Vas_County)", 
+      0.3158
+    ], 
+    [
+      "Location[populationDensity]>(country|Hungary)>(isPartOf|Somogy_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3182
+    ], 
+    [
+      "Location[populationDensity]>(country|Hungary)>(isPartOf|Vas_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3214
+    ], 
+    [
+      "Location[populationDensity]>(country|Hungary)>(isPartOf|Baranya_County)>(22-rdf-syntax-ns#type|_Feature)>(timeZone|Central_European_Time)", 
+      0.3243
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Sonoma_County,_California)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3256
+    ], 
+    [
+      "Location[height]>(location|South_Africa)", 
+      0.3256
+    ], 
+    [
+      "Village[populationDensity]>(isPartOf|Baranya_County)>(22-rdf-syntax-ns#type|_Feature)>(timeZone|Central_European_Time)", 
+      0.3288
+    ]
+  ], 
+  "values": [
+    25.0, 
+    44.0, 
+    32.0, 
+    29.0
+  ]
+}

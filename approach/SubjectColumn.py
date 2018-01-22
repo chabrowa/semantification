@@ -10,9 +10,9 @@ class SubjectColumn(object):
     def __init__(self, columnValues):
         #self.tableId        = tableId
         #self.columnId       = columnId
-        self.columnValues   = columnValues
-        self.cellPredictions    = self.getCellPredictions()
-        self.columnTypes    = self.getMostCommonTypes(self.cellPredictions)
+        self.columnValues    = columnValues
+        self.cellPredictions = self.getCellPredictions()
+        self.columnTypes     = self.getMostCommonTypes(self.cellPredictions)
         #print self.columnValues
         #self.columnValues   = self.getColumnValues()
 

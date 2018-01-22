@@ -1,0 +1,125 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   419    0     0  100   419      0    417  0:00:01  0:00:01 --:--:--   418100   419    0     0  100   419      0    209  0:00:02  0:00:02 --:--:--   209100   419    0     0  100   419      0    139  0:00:03  0:00:03 --:--:--   139100   419    0     0  100   419      0    104  0:00:04  0:00:04 --:--:--   104100   419    0     0  100   419      0     83  0:00:05  0:00:05 --:--:--    83100   419    0     0  100   419      0     69  0:00:06  0:00:06 --:--:--     0100  3186  100  2767  100   419    440     66  0:00:06  0:00:06 --:--:--   549
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaWater"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaWater", 
+          0.3037
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          0.297
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.3002
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.302
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.302
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.3159
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.3189
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          15.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          3.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Town[areaWater]>(type|Administrative_divisions_of_New_York)", 
+      0.2769
+    ], 
+    [
+      "Town[areaWater]>(type|Administrative_divisions_of_New_York)>(leaderName|Republican_Party_(United_States))>(timeZone|Eastern_Time_Zone)", 
+      0.2807
+    ], 
+    [
+      "Town[areaWater]>(type|Administrative_divisions_of_New_York)>(leaderName|Republican_Party_(United_States))", 
+      0.2821
+    ], 
+    [
+      "Settlement[areaWater]>(governmentType|Council%E2%80%93manager_government)", 
+      0.2833
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Alaska)>(timeZone|Alaska_Time_Zone)>(type|Alaska)", 
+      0.3089
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Massachusetts)>(governmentType|Open_town_meeting)", 
+      0.3189
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Florida)", 
+      0.3205
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Massachusetts)", 
+      0.3213
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Alaska)>(timeZone|Alaska_Time_Zone)", 
+      0.3223
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Michigan)>(type|Township_(United_States))>(timeZone|Eastern_Time_Zone)", 
+      0.3223
+    ]
+  ], 
+  "values": [
+    1585177.0, 
+    133554503.0, 
+    0.0
+  ]
+}

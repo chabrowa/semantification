@@ -1,0 +1,220 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   494    0     0  100   494      0    492  0:00:01  0:00:01 --:--:--   493100   494    0     0  100   494      0    246  0:00:02  0:00:02 --:--:--   246100   494    0     0  100   494      0    164  0:00:03  0:00:03 --:--:--   164100   494    0     0  100   494      0    123  0:00:04  0:00:04 --:--:--   123100   494    0     0  100   494      0     98  0:00:05  0:00:05 --:--:--    98100   494    0     0  100   494      0     82  0:00:06  0:00:06 --:--:--     0{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "number", 
+          0.2444
+        ], 
+        [
+          "areaWater", 
+          0.2727
+        ], 
+        [
+          "populationTotal", 
+          0.2864
+        ], 
+        [
+          "numberOfEmployees", 
+          0.3066
+        ], 
+        [
+          "areaCode", 
+          0.3082
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          6.0
+        ], 
+        [
+          "numberOfEmployees", 
+          1.0
+        ], 
+        [
+          "areaCode", 
+          1.0
+        ], 
+        [
+          "areaWater", 
+          1.0
+        ], 
+        [
+          "number", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.2425
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.2444
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.2444
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          0.2444
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.2444
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.2727
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2773
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2838
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.2856
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (numberOfEmployees)", 
+          0.3066
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          0.3066
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          0.3066
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          0.3082
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[populationTotal]>(country|Canada)>(isPartOf|Alberta)", 
+      0.2207
+    ], 
+    [
+      "BasketballPlayer[number]>(draftTeam|Golden_State_Warriors)", 
+      0.2444
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)>(country|United_States)", 
+      0.2727
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_European_Time)>(isPartOf|Kaunas_County)", 
+      0.2797
+    ], 
+    [
+      "PopulatedPlace[populationTotal]", 
+     100  5145  100  4651  100   494    756     80  0:00:06  0:00:06 --:--:--  1002
+ 0.3032
+    ], 
+    [
+      "Location[populationTotal]", 
+      0.3033
+    ], 
+    [
+      "Place[populationTotal]", 
+      0.3033
+    ], 
+    [
+      "Company[numberOfEmployees]", 
+      0.3066
+    ], 
+    [
+      "Settlement[populationTotal]", 
+      0.308
+    ], 
+    [
+      "Location[areaCode]>(timeZone|Eastern_European_Time)>(isPartOf|Blagoevgrad_Province)>(country|Bulgaria)", 
+      0.3082
+    ]
+  ], 
+  "values": [
+    26069.0, 
+    169.0, 
+    5139.0, 
+    49403.0, 
+    169.0, 
+    48.0, 
+    41377.0, 
+    12.0, 
+    12.0, 
+    26069.0
+  ]
+}

@@ -1,0 +1,188 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   574    0     0  100   574      0    572  0:00:01  0:00:01 --:--:--   572100   574    0     0  100   574      0    286  0:00:02  0:00:02 --:--:--   286100   574    0     0  100   574      0    191  0:00:03  0:00:03 --:--:--   191100   574    0     0  100   574      0    143  0:00:04  0:00:04 --:--:--   143100   574    0     0  100   574      0    114  0:00:05  0:00:05 --:--:--   114100  4631  100  4057  100   574    743    105  0:00:05  0:00:05 --:--:--   782
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/length"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.15
+        ], 
+        [
+          "areaWater", 
+          0.2159
+        ], 
+        [
+          "postalCode", 
+          0.2249
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          8.0
+        ], 
+        [
+          "populationTotal", 
+          1.0
+        ], 
+        [
+          "postalCode", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.15
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.2116
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.2155
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.2162
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.2162
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.2162
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          0.2193
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          0.2249
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (postalCode)", 
+          0.2249
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          0.2249
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          0.2249
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Place[populationTotal]>(country|United_States)", 
+      0.15
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)", 
+      0.1921
+    ], 
+    [
+      "City[areaWater]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)>(type|City)>(timeZone|Pacific_Time_Zone)", 
+      0.2045
+    ], 
+    [
+      "City[areaWater]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)>(type|City)", 
+      0.2074
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Iowa)>(type|Township_(United_States))", 
+      0.2166
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Iowa)>(type|Township_(United_States))", 
+      0.2166
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Iowa)", 
+      0.2234
+    ], 
+    [
+      "Village[postalCode]", 
+      0.2249
+    ], 
+    [
+      "City[areaWater]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)", 
+      0.2291
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|New_Jersey)>(type|Census-designated_place)", 
+      0.2377
+    ]
+  ], 
+  "values": [
+    496000.0, 
+    4.18, 
+    2500.0, 
+    156000.0, 
+    37949.9, 
+    40200.0, 
+    496000.0, 
+    1287480.0, 
+    2800.0, 
+    3218.69
+  ]
+}

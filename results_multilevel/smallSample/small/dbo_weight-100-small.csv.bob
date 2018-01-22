@@ -1,0 +1,372 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  4386    0     0  100  4386      0   4376  0:00:01  0:00:01 --:--:--  4381100  4386    0     0  100  4386      0   2189  0:00:02  0:00:02 --:--:--  2190100  4386    0     0  100  4386      0   1459  0:00:03  0:00:03 --:--:--  1460100  4386    0     0  100  4386      0   1105  0:00:03  0:00:03 --:--:--  1105{
+  "invalid": [
+    "http://dbpedia.org/ontology/weight"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "weight", 
+          0.1449
+        ], 
+        [
+          "postalCode", 
+          0.3053
+        ]
+      ], 
+      "maj": [
+        [
+          "weight", 
+          8.0
+        ], 
+        [
+          "postalCode", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Model (weight)", 
+          0.071
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdultActor (weight)", 
+          0.0867
+        ], 
+        [
+          "http://dbpedia.org/ontology/Actor (weight)", 
+          0.0928
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (weight)", 
+          0.0939
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (weight)", 
+          0.1449
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (weight)", 
+          0.1449
+        ], 
+        [
+          "http://dbpedia.org/ontology/PlayboyPlaymate (weight)", 
+          0.2227
+        ], 
+        [
+          "http://dbpedia.org/ontology/BeautyQueen (weight)", 
+          0.2244
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (weight)", 
+          0.2652
+        ], 
+        [
+          "http://dbpedia.org/ontology/Gymnast (weight)", 
+          0.2652
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          0.2988
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (postalCode)", 
+          0.2988
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          0.2988
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          0.3053
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (postalCode)", 
+          0.3118
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Person (weight)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (weight)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (weight)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Actor (weight)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdultActor (weight)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (postalCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (postalCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BeautyQueen (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Model (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Gymnast (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PlayboyPlaymate (weight)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Model[weight]", 
+      0.071
+    ], 
+    [
+      "AdultActor[weight]>(birthPlace|United_States)", 
+      0.0806
+    ], 
+    [
+      "Artist[weight]", 
+      0.0974
+    ], 
+    [
+      "Actor[weight]", 
+      0.0988
+    ], 
+    [
+      "AdultActor[weight]", 
+      0.0988
+    ], 
+    [
+      "PlayboyPlaymate[weight]", 
+      0.2227
+    ], 
+    [
+      "BeautyQueen[weight]", 
+      0.2244
+    ], 
+    [
+      "Gymnast[weight]", 
+      0.2652
+    ], 
+    [
+      "City[postalCode]>(country|Germany)", 
+      0.2988
+    ], 
+    [
+      "ArchitecturalStructure[postalCode]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.100 10900  100  6514  100  4386   1641   1105  0:00:03  0:00:03 --:--:--  1641
+3118
+    ]
+  ], 
+  "values": [
+    57607.2, 
+    54432.0, 
+    80000.0, 
+    52164.0, 
+    47628.0, 
+    76658.4, 
+    44906.4, 
+    57607.2, 
+    83462.4, 
+    63504.0, 
+    51710.4, 
+    43999.2, 
+    49896.0, 
+    81648.0, 
+    48000.0, 
+    47000.0, 
+    57607.2, 
+    47628.0, 
+    47628.0, 
+    54885.6, 
+    55792.8, 
+    53524.8, 
+    47628.0, 
+    58060.8, 
+    47628.0, 
+    63050.4, 
+    50000.0, 
+    54885.6, 
+    48535.2, 
+    61236.0, 
+    60782.4, 
+    54432.0, 
+    49896.0, 
+    53524.8, 
+    47628.0, 
+    43545.6, 
+    49000.0, 
+    77112.0, 
+    49896.0, 
+    47628.0, 
+    85730.4, 
+    51710.4, 
+    52164.0, 
+    59875.2, 
+    44906.4, 
+    46000.0, 
+    46267.2, 
+    49896.0, 
+    54885.6, 
+    65772.0, 
+    44906.4, 
+    56700.0, 
+    56246.4, 
+    51710.4, 
+    130000.0, 
+    58968.0, 
+    52164.0, 
+    54885.6, 
+    47628.0, 
+    49896.0, 
+    54000.0, 
+    54000.0, 
+    51710.4, 
+    59421.6, 
+    88452.0, 
+    53000.0, 
+    54885.6, 
+    55000.0, 
+    49896.0, 
+    48535.2, 
+    51710.4, 
+    58968.0, 
+    48535.2, 
+    54432.0, 
+    51710.4, 
+    51710.4, 
+    60782.4, 
+    51710.4, 
+    61236.0, 
+    47628.0, 
+    99792.0, 
+    42638.4, 
+    99792.0, 
+    53071.2, 
+    55792.8, 
+    99792.0, 
+    43545.6, 
+    58514.4, 
+    54885.6, 
+    83916.0, 
+    51710.4, 
+    47628.0, 
+    57607.2, 
+    58968.0, 
+    48988.8, 
+    56700.0, 
+    49896.0, 
+    130000.0, 
+    60782.4, 
+    47628.0, 
+    56246.4, 
+    47628.0, 
+    84823.2, 
+    90720.0, 
+    54885.6, 
+    49896.0, 
+    57152.6, 
+    53524.8, 
+    43545.6, 
+    49896.0, 
+    59875.2, 
+    54885.6, 
+    90720.0, 
+    54885.6, 
+    54432.0, 
+    58968.0, 
+    52164.0, 
+    47628.0, 
+    58968.0, 
+    51710.4, 
+    45813.6, 
+    49896.0, 
+    53524.8, 
+    52164.0, 
+    130000.0, 
+    49896.0, 
+    51710.4, 
+    51710.4, 
+    49896.0, 
+    47628.0, 
+    47628.0, 
+    52617.6, 
+    49896.0, 
+    85276.8, 
+    54885.6, 
+    48000.0, 
+    51710.4, 
+    47628.0, 
+    54885.6, 
+    81648.0, 
+    52000.0, 
+    52617.6, 
+    81648.0, 
+    49896.0, 
+    83916.0, 
+    65772.0, 
+    58514.4, 
+    58514.4, 
+    54885.6, 
+    49896.0, 
+    63504.0, 
+    49896.0, 
+    61689.6, 
+    56700.0, 
+    49896.0, 
+    59875.2, 
+    63504.0, 
+    53524.8, 
+    57000.0, 
+    59875.2, 
+    61236.0, 
+    57607.2, 
+    53524.8, 
+    49896.0, 
+    52164.0, 
+    47000.0, 
+    48081.6, 
+    97524.0, 
+    60782.4, 
+    49896.0
+  ]
+}

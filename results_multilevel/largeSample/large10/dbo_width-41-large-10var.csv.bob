@@ -1,0 +1,251 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   316    0     0  100   316      0    315  0:00:01  0:00:01 --:--:--   315100   316    0     0  100   316      0    157  0:00:02  0:00:02 --:--:--   157100   316    0     0  100   316      0    105  0:00:03  0:00:03 --:--:--   105{
+  "invalid": [
+    "http://dbpedia.org/ontology/width"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "length", 
+          0.5
+        ], 
+        [
+          "postalCode", 
+          0.5
+        ], 
+        [
+          "width", 
+          0.5
+        ], 
+        [
+          "numberOfEmployees", 
+          0.5
+        ], 
+        [
+          "populationTotal", 
+          0.502
+        ], 
+        [
+          "areaWater", 
+          0.5031
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          4.0
+        ], 
+        [
+          "areaWater", 
+          2.0
+        ], 
+        [
+          "length", 
+          1.0
+        ], 
+        [
+          "postalCode", 
+          1.0
+        ], 
+        [
+          "width", 
+          1.0
+        ], 
+        [
+          "numberOfEmployees", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Company (numberOfEmployees)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.5018
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.502
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.502
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.503
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.5033
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.5033
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.5033
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.5033
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (numberOfEmployees)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontol100  5953  100  5637  100   316   1775     99  0:00:03  0:00:03 --:--:--  1775
+ogy/Agent (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Infrastructure[width]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Canada)>(isPartOf|Calgary)", 
+      0.5
+    ], 
+    [
+      "Location[length]>(22-rdf-syntax-ns#type|_Feature)>(location|Antarctica)>(country|Antarctica)", 
+      0.5
+    ], 
+    [
+      "Company[numberOfEmployees]>(keyPerson|Chief_executive_officer)", 
+      0.5
+    ], 
+    [
+      "PopulatedPlace[postalCode]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(region|Tuscany)", 
+      0.502
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Eastern_European_Time)>(country|Bulgaria)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5027
+    ], 
+    [
+      "Location[areaWater]>(type|Administrative_divisions_of_New_York)>(isPartOf|Nassau_County,_New_York)", 
+      0.503
+    ], 
+    [
+      "Village[populationTotal]>(country|India)>(isPartOf|Andhra_Pradesh)", 
+      0.5033
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|South_Carolina)>(type|Census-designated_place)", 
+      0.5033
+    ]
+  ], 
+  "values": [
+    4993.0
+  ]
+}

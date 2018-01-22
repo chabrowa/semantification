@@ -1,0 +1,164 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   349    0     0  100   349      0   1733 --:--:-- --:--:-- --:--:--  1727100   349    0     0  100   349      0    174  0:00:02  0:00:02 --:--:--   174100   349    0     0  100   349      0    116  0:00:03  0:00:03 --:--:--   116100   349    0     0  100   349      0     87  0:00:04  0:00:03  0:00:01    87100  4422  100  4073  100   349   1018     87  0:00:04  0:00:03  0:00:01  1018
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEmployees"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.2599
+        ], 
+        [
+          "elevation", 
+          0.2608
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          6.0
+        ], 
+        [
+          "populationTotal", 
+          4.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.2581
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.2584
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2599
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2599
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2602
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2602
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.2609
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.2613
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2613
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.2614
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          4.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "City[elevation]>(isPartOf|Washington_(state))>(type|City_government_in_Washington_(state))>(country|United_States)>(timeZone|Pacific_Time_Zone)", 
+      0.2535
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Gilan_Province)>(isPartOf|Sardar-e_Jangal_District)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2547
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Khuzestan_Province)>(isPartOf|Tashan_District)", 
+      0.2549
+    ], 
+    [
+      "Location[elevation]>(country|Spain)>(isPartOf|Province_of_Tarragona)>(type|Municipalities_of_Spain)>(timeZone|Central_European_Time)", 
+      0.2581
+    ], 
+    [
+      "Town[elevation]>(country|India)>(isPartOf|Andhra_Pradesh)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2609
+    ], 
+    [
+      "Settlement[elevation]>(country|Spain)>(isPartOf|Province_of_Tarragona)>(type|Municipalities_of_Spain)", 
+      0.2627
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Slovenia)>(isPartOf|Upper_Carniola)>(isPartOf|Central_Slovenia_Statistical_Region)", 
+      0.2632
+    ], 
+    [
+      "City[elevation]>(isPartOf|Washington_(state))>(type|City_government_in_Washington_(state))>(country|United_States)", 
+      0.2639
+    ], 
+    [
+      "Location[elevation]>(country|Spain)>(isPartOf|Province_of_Tarragona)>(type|Municipalities_of_Spain)", 
+      0.2656
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Khuzestan_Province)>(isPartOf|Seydun_District)", 
+      0.2667
+    ]
+  ], 
+  "values": [
+    373.0, 
+    55.0
+  ]
+}

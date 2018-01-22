@@ -1,0 +1,128 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   420    0     0  100   420      0   2091 --:--:-- --:--:-- --:--:--  2089100   420    0     0  100   420      0    209  0:00:02  0:00:02 --:--:--   209100   420    0     0  100   420      0    139  0:00:03  0:00:03 --:--:--   139100   420    0     0  100   420      0    104  0:00:04  0:00:04 --:--:--   104100   420    0     0  100   420      0     99  0:00:04  0:00:04 --:--:--    99100  3571  100  3151  100   420    744     99  0:00:04  0:00:04 --:--:--   677
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/capacity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.2775
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.2627
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2774
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2774
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.278
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.2794
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          0.282
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          7.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[populationTotal]>(country|India)>(isPartOf|Thrissur_district)>(type|Village)", 
+      0.2485
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_Time_Zone)>(type|Borough_(New_Jersey))>(isPartOf|Bergen_County,_New_Jersey)", 
+      0.2679
+    ], 
+    [
+      "Town[populationTotal]>(type|List_of_municipalities,_communes,_and_arrondissements_of_Morocco)>(isPartOf|Settat_Province)>(country|Morocco)", 
+      0.2778
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Germany)>(federalState|Lower_Saxony)", 
+      0.2813
+    ], 
+    [
+      "Village[populationTotal]>(country|India)>(isPartOf|Thrissur_district)", 
+      0.2817
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_Time_Zone)>(type|Borough_(New_Jersey))>(isPartOf|Bergen_County,_New_Jersey)>(governmentType|Borough_(New_Jersey))", 
+      0.2821
+    ], 
+    [
+      "Location[populationTotal]>(country|Poland)>(type|Gmina)>(isPartOf|Lesser_Poland_Voivodeship)", 
+      0.2829
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Poland)>(type|Gmina)>(isPartOf|Lesser_Poland_Voivodeship)", 
+      0.2829
+    ], 
+    [
+      "Town[populationTotal]>(timeZone|West_Africa_Time)>(country|Benin)", 
+      0.2848
+    ], 
+    [
+      "Town[populationTotal]>(type|List_of_municipalities,_communes,_and_arrondissements_of_Morocco)>(isPartOf|Settat_Province)", 
+      0.2848
+    ]
+  ], 
+  "values": [
+    10818.0, 
+    13164.0, 
+    12784.0, 
+    4558.0, 
+    7198.0, 
+    10984.0
+  ]
+}

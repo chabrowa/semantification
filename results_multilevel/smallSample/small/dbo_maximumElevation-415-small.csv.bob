@@ -1,0 +1,351 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  2524    0     0  100  2524      0  12574 --:--:-- --:--:-- --:--:-- 12557100  2524    0     0  100  2524      0   1260  0:00:02  0:00:02 --:--:--  1260100  2524    0     0  100  2524      0    840  0:00:03  0:00:03 --:--:--   840100  2524    0     0  100  2524      0    630  0:00:04  0:00:04 --:--:--   630100  2524    0     0  100  2524      0    504  0:00:05  0:00:05 --:--:--   504100  2524    0     0  100  2524      0    458  0:00:05  0:00:05 --:--:--     0{
+  "invalid": [
+    "http://dbpedia.org/ontology/maximumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfEpisodes", 
+          0.0808
+        ], 
+        [
+          "elevation", 
+          0.0847
+        ], 
+        [
+          "populationTotal", 
+          0.0861
+        ], 
+        [
+          "minimumElevation", 
+          0.0877
+        ], 
+        [
+          "populationDensity", 
+          0.0932
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          5.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ], 
+        [
+          "minimumElevation", 
+          1.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ], 
+        [
+          "numberOfEpisodes", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          0.0808
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          0.0808
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.0815
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.086
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0861
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.0861
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0861
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.0877
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.0877
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.0877
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.0879
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.0879
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.0879
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.0879
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.0932
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+   100  9184  100  6660  100  2524   1210    458  0:00:05  0:00:05 --:--:--  1181
+ [
+      "Village[populationTotal]>(isPartOf|Fars_Province)>(isPartOf|Central_District_(Firuzabad_County))", 
+      0.078
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Central_District_(Jiroft_County))", 
+      0.08
+    ], 
+    [
+      "TelevisionShow[numberOfEpisodes]>(country|India)>(network|Star_Plus)", 
+      0.0808
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)", 
+      0.0815
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Languedoc-Roussillon)", 
+      0.0877
+    ], 
+    [
+      "Town[elevation]>(country|India)", 
+      0.0879
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Hormozgan_Province)", 
+      0.0882
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kohgiluyeh_and_Boyer-Ahmad_Province)>(isPartOf|Pataveh_District)", 
+      0.0917
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Mazandaran_Province)>(isPartOf|Shirgah_District)", 
+      0.0926
+    ], 
+    [
+      "Location[populationDensity]>(type|New_England_town)>(isPartOf|Massachusetts)", 
+      0.0932
+    ]
+  ], 
+  "values": [
+    947.0, 
+    271.0, 
+    125.0, 
+    16.0, 
+    993.0, 
+    48.0, 
+    6.0, 
+    12.0, 
+    82.0, 
+    384.0, 
+    384.0, 
+    53.0, 
+    181.0, 
+    107.0, 
+    512.0, 
+    83.0, 
+    265.0, 
+    966.0, 
+    635.0, 
+    54.0, 
+    123.0, 
+    172.0, 
+    393.0, 
+    364.0, 
+    341.0, 
+    82.0, 
+    10.0, 
+    83.0, 
+    79.0, 
+    61.0, 
+    20.0, 
+    42.0, 
+    143.0, 
+    127.0, 
+    823.0, 
+    210.0, 
+    10.0, 
+    124.0, 
+    345.0, 
+    185.6, 
+    123.0, 
+    274.0, 
+    90.0, 
+    32.0, 
+    635.0, 
+    77.0, 
+    190.0, 
+    17.0, 
+    433.0, 
+    470.0, 
+    20.0, 
+    269.0, 
+    906.0, 
+    320.0, 
+    360.0, 
+    748.0, 
+    32.0, 
+    101.0, 
+    127.0, 
+    44.0, 
+    755.0, 
+    48.0, 
+    383.0, 
+    787.0, 
+    841.0, 
+    20.0, 
+    433.0, 
+    158.0, 
+    93.0, 
+    947.0, 
+    450.0, 
+    823.0, 
+    396.0, 
+    857.0, 
+    799.0, 
+    87.0, 
+    67.0, 
+    61.0, 
+    22.0, 
+    309.0, 
+    115.0, 
+    10.0, 
+    993.0, 
+    86.0, 
+    35.0, 
+    44.0, 
+    906.0, 
+    196.0, 
+    15.0, 
+    823.0, 
+    27.0, 
+    115.0, 
+    455.0, 
+    1611.0, 
+    119.0, 
+    284.0, 
+    163.0, 
+    620.0, 
+    79.0, 
+    90.0, 
+    42.0, 
+    217.0, 
+    30.0, 
+    360.0, 
+    1125.0, 
+    17.0, 
+    217.0, 
+    277.0, 
+    879.0, 
+    346.862, 
+    364.0, 
+    181.0, 
+    906.0, 
+    681.0, 
+    1334.0, 
+    68.0, 
+    18.0, 
+    35.0, 
+    226.0, 
+    22.0, 
+    430.0, 
+    45.0, 
+    32.0, 
+    449.0, 
+    841.0
+  ]
+}

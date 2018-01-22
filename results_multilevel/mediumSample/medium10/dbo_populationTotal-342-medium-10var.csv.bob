@@ -1,0 +1,147 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   331    0     0  100   331      0    330  0:00:01  0:00:01 --:--:--   330100   331    0     0  100   331      0    165  0:00:02  0:00:02 --:--:--   165100   331    0     0  100   331      0    110  0:00:03  0:00:03 --:--:--   110100   331    0     0  100   331      0     82  0:00:04  0:00:04 --:--:--    82100   331    0     0  100   331      0     66  0:00:05  0:00:04  0:00:01    66100  3478  100  3147  100   331    632     66  0:00:05  0:00:04  0:00:01   709
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfEpisodes", 
+          0.431
+        ], 
+        [
+          "areaCode", 
+          0.5
+        ], 
+        [
+          "minimumElevation", 
+          0.5
+        ]
+      ], 
+      "maj": [
+        [
+          "numberOfEpisodes", 
+          8.0
+        ], 
+        [
+          "areaCode", 
+          1.0
+        ], 
+        [
+          "minimumElevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/TelevisionSeason (numberOfEpisodes)", 
+          0.4173
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          0.431
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (minimumElevation)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (minimumElevation)", 
+          0.5
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/TelevisionSeason (numberOfEpisodes)", 
+          15.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (minimumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "TelevisionSeason[numberOfEpisodes]>(network|Fox_Broadcasting_Company)", 
+      0.3737
+    ], 
+    [
+      "TelevisionSeason[numberOfEpisodes]>(network|American_Broadcasting_Company)", 
+      0.3863
+    ], 
+    [
+      "TelevisionSeason[numberOfEpisodes]>(network|Fox_Broadcasting_Company)>(country|United_States)", 
+      0.3913
+    ], 
+    [
+      "TelevisionSeason[numberOfEpisodes]>(network|NBC)", 
+      0.4267
+    ], 
+    [
+      "TelevisionSeason[numberOfEpisodes]>(network|Seven_Network)", 
+      0.4429
+    ], 
+    [
+      "TelevisionSeason[numberOfEpisodes]>(network|American_Broadcasting_Company)>(country|United_States)", 
+      0.4474
+    ], 
+    [
+      "TelevisionSeason[numberOfEpisodes]", 
+      0.4846
+    ], 
+    [
+      "Work[numberOfEpisodes]", 
+      0.4955
+    ], 
+    [
+      "AdministrativeRegion[minimumElevation]>(country|United_States)", 
+      0.5
+    ], 
+    [
+      "Place[areaCode]>(timeZone|Eastern_Time_Zone)", 
+      0.5
+    ]
+  ], 
+  "values": [
+    22.0
+  ]
+}

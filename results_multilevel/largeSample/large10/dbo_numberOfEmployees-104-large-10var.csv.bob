@@ -1,0 +1,166 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   376    0     0  100   376      0   1867 --:--:-- --:--:-- --:--:--  1870100   376    0     0  100   376      0    187  0:00:02  0:00:02 --:--:--   187100   376    0     0  100   376      0    125  0:00:03  0:00:03 --:--:--   125100   376    0     0  100   376      0     93  0:00:04  0:00:04 --:--:--    93100   376    0     0  100   376      0     88  0:00:04  0:00:04 --:--:--    88100  4126  100  3750  100   376    886     88  0:00:04  0:00:04 --:--:--   837
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEmployees"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.2071
+        ], 
+        [
+          "minimumElevation", 
+          0.2411
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          8.0
+        ], 
+        [
+          "minimumElevation", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.2037
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.2045
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.205
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.205
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2058
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.2121
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.2409
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.2412
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.2412
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.2412
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          16.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Madhya_Pradesh)>(country|India)", 
+      0.1798
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Madhya_Pradesh)", 
+      0.1833
+    ], 
+    [
+      "City[elevation]>(isPartOf|Madhya_Pradesh)>(country|India)", 
+      0.2021
+    ], 
+    [
+      "Village[elevation]>(country|Czech_Republic)", 
+      0.2045
+    ], 
+    [
+      "City[elevation]>(isPartOf|Madhya_Pradesh)", 
+      0.206
+    ], 
+    [
+      "Settlement[elevation]>(country|Italy)>(region|Umbria)", 
+      0.2073
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Riverside_County,_California)>(type|Census-designated_place)>(country|United_States)", 
+      0.23
+    ], 
+    [
+      "Location[minimumElevation]>(region|Rh%C3%B4ne-Alpes)", 
+      0.2409
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Rh%C3%B4ne-Alpes)", 
+      0.2412
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Riverside_County,_California)>(type|Census-designated_place)", 
+      0.2435
+    ]
+  ], 
+  "values": [
+    200.0, 
+    366.0, 
+    454.0, 
+    514.0
+  ]
+}

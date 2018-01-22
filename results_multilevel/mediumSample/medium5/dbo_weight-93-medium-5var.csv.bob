@@ -1,0 +1,282 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  4567    0     0  100  4567      0   4555  0:00:01  0:00:01 --:--:--  4557100  4567    0     0  100  4567      0   2280  0:00:02  0:00:02 --:--:--  2281{
+  "invalid": [
+    "http://dbpedia.org/ontology/weight"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.1127
+        ], 
+        [
+          "areaLand", 
+          0.115
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          9.0
+        ], 
+        [
+          "areaLand", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.1098
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.111
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.1148
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1148
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.1148
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          0.115
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          0.1168
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          3.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaTotal]>(type|Census-designated_place)>(timeZone|Alaska_Time_Zone)>(country|United_States)", 
+      0.1015
+    ], 
+    [
+      "Location[areaTotal]>(type|Census-designated_place)>(timeZone|Alaska_Time_Zone)", 
+      0.1021
+    ], 
+    [
+      "City[areaTotal]>(country|Spain)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1047
+    ], 
+    [
+      "Town[areaTotal]>(country|Mexico)>(isPartOf|Oaxaca)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1118
+    ], 
+    [
+      "Location[areaTotal]>(country|Canada)>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Laurentides)", 
+      0.115
+    ], 
+    [
+      "Location[areaLand]>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Laurentides)", 
+      0.115
+    ], 
+    [
+      "Town[areaTotal]>(country|Mexico)>(isPartOf|Oaxaca)", 
+      0.1153
+    ], 
+    [
+      "City[areaTotal]>(country|Italy)", 
+      0.1206
+    ], 
+    [
+      "Town[areaTotal]>(country|Mexico)>(isPartOf|Oaxaca)>(22-rdf-syntax-ns#type|_Feature)>(timeZone|Central_Time_Zone)", 
+      0.1217
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Badajoz)", 
+      0.1218
+    ]
+  ], 
+  "values": [
+    63767108.0, 
+    100616034.0, 
+    439735901.0, 
+    40363110.0, 
+    26930569.0, 
+    432764461.0, 
+    385014148.0, 
+    45295023.0, 
+    45172424.0, 
+    384188683.0, 
+    544140932.0, 
+    156638511.0, 
+    14962257.0, 
+    14161543.0, 
+    34864093.0, 
+    154105106.0, 
+    427690285.0, 
+    27238147.0, 
+    268185850.0, 
+    36855627.0, 
+    16493065.0, 
+    400306125.0, 
+    179549132.0, 
+    305535850.0, 
+    230541519.0, 
+    146043714.0, 
+    28155422.0, 
+    29917708.0, 
+    283973423.0, 
+    106699574.0, 
+    32444892.0, 
+    54533390.0, 
+    49638027.0, 
+    46556560.0, 
+    217644600.0, 
+    44736243.0, 
+    217763428.0, 
+    99641055.0, 
+    332477759.0, 
+    732924569.0, 
+    88172395.0, 
+    19153685.0, 
+    207934813.0, 
+    57254289.0, 
+    161436126.0, 
+    33020131.0, 
+    394482995.0, 
+    102714975.0, 
+    108483099.0, 
+    225047720.0, 
+    26885477.0, 
+    386161140.0, 
+    125158490.0, 
+    54290741.0, 
+    19396093.0, 
+    26612615.0, 
+    731961565.0, 
+    45937540.0, 
+    62557882.0, 
+    240645685.0, 
+100 10136  100  5569  100  4567   2123   1741  0:00:02  0:00:02 --:--:--  2123
+    29115604.0, 
+    102794167.0, 
+    90208083.0, 
+    37709399.0, 
+    140418341.0, 
+    33971106.0, 
+    313066718.0, 
+    52918448.0, 
+    44323804.0, 
+    246932517.0, 
+    260750589.0, 
+    436879924.0, 
+    71450472.0, 
+    555424319.0, 
+    76452521.0, 
+    42471705.0, 
+    34957212.0, 
+    136285925.0, 
+    168908828.0, 
+    123677630.0, 
+    32217875.0, 
+    204405188.0, 
+    281148625.0, 
+    61878289.0, 
+    61595709.0, 
+    31799319.0, 
+    92227614.0, 
+    40241018.0, 
+    49536756.0, 
+    33691727.0, 
+    47983886.0, 
+    235100098.0, 
+    239747979.0, 
+    165711555.0, 
+    42092444.0, 
+    197064917.0, 
+    204341411.0, 
+    280454560.0, 
+    773014663.0, 
+    36658108.0, 
+    542533388.0, 
+    449899709.0, 
+    121368040.0, 
+    19320949.0, 
+    269000743.0, 
+    20309527.0, 
+    58231074.0, 
+    31426693.0, 
+    69478847.0, 
+    41771046.0, 
+    17238108.0, 
+    24845741.0, 
+    69544022.0, 
+    535623942.0, 
+    121527849.0, 
+    364850038.0, 
+    443668718.0, 
+    40095954.0, 
+    179045159.0, 
+    13255584.0, 
+    36255052.0, 
+    124067310.0, 
+    50879939.0, 
+    121963924.0, 
+    49052219.0, 
+    745473003.0, 
+    58596872.0, 
+    838960107.0, 
+    209329026.0, 
+    436289967.0, 
+    37109596.0, 
+    174849169.0, 
+    12105466.0, 
+    651945340.0, 
+    49842059.0, 
+    31032461.0, 
+    215917678.0, 
+    22320109.0, 
+    37663773.0, 
+    418831934.0, 
+    835098666.0, 
+    436367825.0, 
+    99567751.0, 
+    171343216.0
+  ]
+}

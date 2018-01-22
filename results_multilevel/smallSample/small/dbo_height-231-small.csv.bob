@@ -1,0 +1,365 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  4280    0     0  100  4280      0   4269  0:00:01  0:00:01 --:--:--  4271100  4280    0     0  100  4280      0   2136  0:00:02  0:00:02 --:--:--  2136100  4280    0     0  100  4280      0   1424  0:00:03  0:00:03 --:--:--  1424100  4280    0     0  100  4280      0   1068  0:00:04  0:00:04 --:--:--  1068100  4280    0     0  100  4280      0    854  0:00:05  0:00:05 --:--:--   854{
+  "invalid": [
+    "http://dbpedia.org/ontology/height"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "height", 
+          0.0893
+        ], 
+        [
+          "elevation", 
+          0.1052
+        ], 
+        [
+          "populationDensity", 
+          0.1161
+        ]
+      ], 
+      "maj": [
+        [
+          "height", 
+          4.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "populationDensity", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.0775
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (height)", 
+          0.0775
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.0775
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (height)", 
+          0.0789
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.0871
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.0871
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1052
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1052
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1064
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1088
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1088
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (height)", 
+          0.1246
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.1306
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1306
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1306
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (height)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (height)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Rendsburg-Eckernf%C3%B6rde)", 
+      0.0718
+    ], 
+    [
+      "Lighthouse[height]", 
+      0.0762
+    ], 
+    [
+      "Tower[height]", 
+      0.0762
+    ], 
+    [
+      "Lighthouse[height]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0802
+    ], 
+    [
+      "Admi100 10904  100  6624  100  4280   1311    847  0:00:05  0:00:05 --:--:--   579
+nistrativeRegion[populationDensity]>(state|Illinois)", 
+      0.0871
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Schleswig-Flensburg)>(federalState|Schleswig-Holstein)", 
+      0.1173
+    ], 
+    [
+      "Location[height]>(location|Australia)", 
+      0.1246
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Schleswig-Flensburg)", 
+      0.1264
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Michigan)>(type|Township_(United_States))>(timeZone|Eastern_Time_Zone)", 
+      0.1306
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Michigan)>(type|Township_(United_States))>(timeZone|Eastern_Time_Zone)", 
+      0.1306
+    ]
+  ], 
+  "values": [
+    10.0584, 
+    32.0, 
+    30.0, 
+    10.9728, 
+    15.0, 
+    15.7, 
+    13.5, 
+    12.0, 
+    29.0, 
+    24.384, 
+    11.0, 
+    11.0, 
+    27.0, 
+    27.1272, 
+    9.0, 
+    36.0, 
+    20.0, 
+    60.0456, 
+    21.9456, 
+    30.0, 
+    22.5552, 
+    6.0, 
+    14.9352, 
+    284.0, 
+    12.8016, 
+    14.0208, 
+    13.4, 
+    5.0, 
+    18.5, 
+    31.7, 
+    12.4968, 
+    17.0, 
+    9.144, 
+    33.0, 
+    12.0, 
+    5.0, 
+    13.0, 
+    21.6408, 
+    50.0, 
+    31.0, 
+    26.4, 
+    5.0, 
+    25.3, 
+    35.3, 
+    32.0, 
+    25.0, 
+    25.8, 
+    11.2776, 
+    18.5, 
+    17.9832, 
+    23.1648, 
+    10.668, 
+    20.0, 
+    7.0, 
+    7.3152, 
+    23.0, 
+    16.0, 
+    55.5, 
+    9.144, 
+    34.7, 
+    8.5344, 
+    7.62, 
+    20.0, 
+    8.3, 
+    20.6, 
+    12.0, 
+    33.6804, 
+    20.0, 
+    10.0584, 
+    10.0, 
+    20.4216, 
+    13.0, 
+    17.3736, 
+    47.0, 
+    56.0, 
+    31.0, 
+    11.0, 
+    35.6616, 
+    41.0, 
+    5.0, 
+    11.5824, 
+    37.0, 
+    1.8, 
+    19.0, 
+    17.0, 
+    15.0, 
+    25.0, 
+    46.6344, 
+    8.0, 
+    14.0208, 
+    30.0, 
+    17.6784, 
+    14.3256, 
+    14.0, 
+    30.0, 
+    6.0, 
+    15.8496, 
+    43.0, 
+    14.0, 
+    17.0688, 
+    10.9728, 
+    6.0, 
+    7.62, 
+    28.0, 
+    19.0, 
+    14.9352, 
+    18.8976, 
+    9.7536, 
+    38.0, 
+    6.0, 
+    18.0, 
+    23.0, 
+    21.336, 
+    12.0, 
+    16.1, 
+    23.0, 
+    8.2296, 
+    28.0, 
+    17.0, 
+    16.0, 
+    8.3, 
+    38.0, 
+    19.2024, 
+    12.8016, 
+    38.96, 
+    21.3, 
+    27.0, 
+    64.9224, 
+    13.0, 
+    9.0, 
+    15.0, 
+    21.0, 
+    31.0, 
+    102.0, 
+    26.0, 
+    43.0, 
+    25.5, 
+    13.0, 
+    60.0456, 
+    19.5, 
+    14.8, 
+    30.0, 
+    40.0, 
+    12.0, 
+    18.0, 
+    12.4968, 
+    33.0, 
+    19.0, 
+    17.3736, 
+    6.096, 
+    38.0, 
+    21.0, 
+    15.24, 
+    27.5, 
+    12.3
+  ]
+}

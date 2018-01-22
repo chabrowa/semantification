@@ -1,0 +1,135 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   436    0     0  100   436      0    434  0:00:01  0:00:01 --:--:--   435100   436    0     0  100   436      0    232  0:00:01  0:00:01 --:--:--   232100  3139  100  2703  100   436   1439    232  0:00:01  0:00:01 --:--:--  1440
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.263
+        ], 
+        [
+          "budget", 
+          0.2749
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          8.0
+        ], 
+        [
+          "budget", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          0.2573
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.2583
+        ], 
+        [
+          "http://dbpedia.org/ontology/WineRegion (areaTotal)", 
+          0.2618
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.268
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (budget)", 
+          0.2743
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (budget)", 
+          0.2749
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (budget)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WineRegion (areaTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "ProtectedArea[areaTotal]>(location|California)", 
+      0.25
+    ], 
+    [
+      "Location[areaTotal]>(country|Canada)>(archipelago|Canadian_Arctic_Archipelago)", 
+      0.2584
+    ], 
+    [
+      "ProtectedArea[areaTotal]>(location|Colorado)>(location|United_States)", 
+      0.2586
+    ], 
+    [
+      "WineRegion[areaTotal]", 
+      0.2618
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)", 
+      0.2622
+    ], 
+    [
+      "ProtectedArea[areaTotal]>(location|Colorado)", 
+      0.2627
+    ], 
+    [
+      "Location[areaTotal]>(country|Canada)>(archipelago|Canadian_Arctic_Archipelago)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2649
+    ], 
+    [
+      "Organisation[budget]", 
+      0.2743
+    ], 
+    [
+      "Agent[budget]", 
+      0.2755
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Uttar_Pradesh)", 
+      0.2857
+    ]
+  ], 
+  "values": [
+    15299559.0, 
+    1054661180.0, 
+    1201710625.0, 
+    5898837.0, 
+    257425353.0
+  ]
+}

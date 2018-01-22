@@ -1,0 +1,182 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   740    0     0  100   740      0    738  0:00:01  0:00:01 --:--:--   738100   740    0     0  100   740      0    369  0:00:02  0:00:02 --:--:--   369100   740    0     0  100   740      0    246  0:00:03  0:00:03 --:--:--   246100   740    0     0  100   740      0    184  0:00:04  0:00:04 --:--:--   184100   740    0     0  100   740      0    147  0:00:05  0:00:05 --:--:--   147100  4747  100  4007  100   740    750    138  0:00:05  0:00:05 --:--:--   753
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfEmployees", 
+          0.1944
+        ], 
+        [
+          "populationTotal", 
+          0.2305
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          7.0
+        ], 
+        [
+          "numberOfEmployees", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Airline (numberOfEmployees)", 
+          0.1919
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (numberOfEmployees)", 
+          0.1944
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          0.1944
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          0.1944
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bank (numberOfEmployees)", 
+          0.1985
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.2254
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2298
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2298
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.2311
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          0.2475
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bank (numberOfEmployees)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (numberOfEmployees)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Airline (numberOfEmployees)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Bank[numberOfEmployees]>(product|Private_equity)", 
+      0.1815
+    ], 
+    [
+      "Airline[numberOfEmployees]", 
+      0.1919
+    ], 
+    [
+      "Bank[numberOfEmployees]>(product|Private_equity)>(industry|Financial_services)", 
+      0.2098
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Spain)>(isPartOf|Province_of_Barcelona)>(type|Municipalities_of_Spain)", 
+      0.2167
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|Essex)", 
+      0.2245
+    ], 
+    [
+      "Location[populationTotal]>(country|Spain)>(isPartOf|Province_of_Alicante)", 
+      0.2259
+    ], 
+    [
+      "Location[populationTotal]>(country|Spain)>(isPartOf|Province_of_Barcelona)>(type|Municipalities_of_Spain)", 
+      0.2286
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Spain)>(isPartOf|Province_of_Barcelona)", 
+      0.2306
+    ], 
+    [
+      "Location[populationTotal]>(country|Spain)>(isPartOf|Province_of_Barcelona)", 
+      0.2398
+    ], 
+    [
+      "City[populationTotal]", 
+      0.2475
+    ]
+  ], 
+  "values": [
+    12942.0, 
+    7782.0, 
+    12.0, 
+    25417.0, 
+    51802.0, 
+    172.0, 
+    3030.0, 
+    12.0, 
+    21364.0, 
+    25801.0, 
+    119459.0, 
+    12.0, 
+    42807.0, 
+    1034.0, 
+    96.0, 
+    117749.0, 
+    3591.0, 
+    136.0, 
+    49211.0, 
+    115716.0
+  ]
+}

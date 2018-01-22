@@ -1,0 +1,249 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1857    0     0  100  1857      0   1851  0:00:01  0:00:01 --:--:--  1853100  1857    0     0  100  1857      0    926  0:00:02  0:00:02 --:--:--   927100  1857    0     0  100  1857      0    618  0:00:03  0:00:03 --:--:--   618100  1857    0     0  100  1857      0    463  0:00:04  0:00:04 --:--:--   463{
+  "invalid": [
+    "http://dbpedia.org/ontology/squadNumber"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "number", 
+          0.0977
+        ], 
+        [
+          "populationDensity", 
+          0.1012
+        ], 
+        [
+          "elevation", 
+          0.1091
+        ]
+      ], 
+      "maj": [
+        [
+          "number", 
+          7.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          0.0966
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.0974
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.0977
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.0977
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsManager (number)", 
+          0.0986
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerManager (number)", 
+          0.0986
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1006
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1012
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1012
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1091
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1091
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1091
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.1091
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsManager (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerManager (number)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Australia)", 
+      0.0699
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Iran)", 
+      0.0958
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Le%C3%B3n)>(country|Spain)", 
+      0.097
+    ], 
+    [
+      "SoccerManager[number]", 
+      0.0986
+    ], 
+    [
+      "SportsManager[number]", 
+      0.0986
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|United_States)", 
+      0.1033
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Le%C3%B3n)", 
+      0.1054
+    ], 
+    [
+      "SoccerPlayer[number]>(position100  6836  100  4979  100  1857   1046    390  0:00:04  0:00:04 --:--:--  1047
+|Defender_(association_football))", 
+      0.1076
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Northern_Norway)>(isPartOf|Troms)", 
+      0.1091
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|England)", 
+      0.1102
+    ]
+  ], 
+  "values": [
+    31.0, 
+    17.0, 
+    19.0, 
+    27.0, 
+    12.0, 
+    10.0, 
+    6.0, 
+    5.0, 
+    5.0, 
+    4.0, 
+    0.0, 
+    16.0, 
+    25.0, 
+    5.0, 
+    25.0, 
+    3.0, 
+    22.0, 
+    4.0, 
+    9.0, 
+    5.0, 
+    80.0, 
+    34.0, 
+    3.0, 
+    19.0, 
+    4.0, 
+    24.0, 
+    5.0, 
+    8.0, 
+    8.0, 
+    1.0, 
+    26.0, 
+    15.0, 
+    9.0, 
+    11.0, 
+    95.0, 
+    17.0, 
+    4.0, 
+    6.0, 
+    6.0, 
+    13.0, 
+    79.0, 
+    14.0, 
+    22.0, 
+    6.0, 
+    18.0, 
+    11.0, 
+    22.0, 
+    13.0, 
+    8.0, 
+    1.0, 
+    2.0, 
+    11.0, 
+    17.0, 
+    18.0, 
+    16.0
+  ]
+}

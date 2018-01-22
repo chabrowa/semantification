@@ -1,0 +1,159 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   389    0     0  100   389      0   1933 --:--:-- --:--:-- --:--:--  1935100   389    0     0  100   389      0    194  0:00:02  0:00:02 --:--:--   194100   389    0     0  100   389      0    129  0:00:03  0:00:03 --:--:--   129100   389    0     0  100   389      0     97  0:00:04  0:00:04 --:--:--    97100   389    0     0  100   389      0     77  0:00:05  0:00:05 --:--:--    77100   389    0     0  100   389      0     72  0:00:05  0:00:05 --:--:--     0100  3709  100  3320  100   389    622     72  0:00:05  0:00:05 --:--:--   880
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/capacity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1585
+        ], 
+        [
+          "width", 
+          0.1727
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          6.0
+        ], 
+        [
+          "width", 
+          4.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1522
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1585
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1585
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (width)", 
+          0.1649
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (width)", 
+          0.1751
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (width)", 
+          0.1751
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (width)", 
+          0.1753
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.1753
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1788
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (width)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (width)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|Cumbria)", 
+      0.1286
+    ], 
+    [
+      "Settlement[populationTotal]>(type|Census-designated_place)>(isPartOf|California)", 
+      0.1453
+    ], 
+    [
+      "Settlement[populationTotal]>(type|Census-designated_place)>(isPartOf|Colorado)", 
+      0.1592
+    ], 
+    [
+      "Settlement[populationTotal]>(type|Census-designated_place)", 
+      0.1614
+    ], 
+    [
+      "Location[width]>(country|France)", 
+      0.1649
+    ], 
+    [
+      "Village[populationTotal]>(country|United_Kingdom)>(country|Derbyshire)", 
+      0.1747
+    ], 
+    [
+      "Lake[width]", 
+      0.1751
+    ], 
+    [
+      "BodyOfWater[width]", 
+      0.1751
+    ], 
+    [
+      "NaturalPlace[width]", 
+      0.1756
+    ], 
+    [
+      "Village[populationTotal]>(country|United_Kingdom)>(country|Derbyshire)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1818
+    ]
+  ], 
+  "values": [
+    3500.0, 
+    76.0, 
+    8000.0, 
+    1458.0, 
+    330.0
+  ]
+}

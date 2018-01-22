@@ -5,19 +5,19 @@ from evaluation.Experiment import Experiment
 
 class Evaluation(object):
 
-    def __init__(self,):
-        self.experiments         = self.getExperiments()
-
+    def __init__(self,sizes,deviations):
+        self.sizes       = sizes
+        self.deviations  = deviations
+        self.experiments = self.getExperiments()
 
     def getExperiments(self):
         experiments = []
-        sizes = ['small', 'medium', 'large']
-        deviations = [0, 5, 10, 15]
 
-        for s in sizes:
-            for d in deviations:
+        for s in self.sizes:
+            for d in self.deviations:
+                #expPath = evaluationPath + s + 'Sample/' + s + str(d) + "/"
                 expPath = evaluationPath + s + 'Sample/' + s + str(d) + "/"
-                experiments.append(Experiment(3, s, d, expPath))
+                experiments.append(Experiment(s, d, expPath))
         return experiments
 
     def getScores(self):

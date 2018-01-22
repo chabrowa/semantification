@@ -1,0 +1,226 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   864    0     0  100   864      0    862  0:00:01  0:00:01 --:--:--   863100   864    0     0  100   864      0    431  0:00:02  0:00:02 --:--:--   431100   864    0     0  100   864      0    287  0:00:03  0:00:03 --:--:--   287100   864    0     0  100   864      0    215  0:00:04  0:00:04 --:--:--   215100   864    0     0  100   864      0    172  0:00:05  0:00:05 --:--:--   172100   864    0     0  100   864      0    154  0:00:05  0:00:05 --:--:--     0{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEpisodes"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "height", 
+          0.2862
+        ], 
+        [
+          "populationDensity", 
+          0.29
+        ], 
+        [
+          "populationTotal", 
+          0.2931
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          5.0
+        ], 
+        [
+          "populationDensity", 
+          4.0
+        ], 
+        [
+          "height", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.284
+        ], 
+        [
+          "http://dbpedia.org/ontology/Rocket (height)", 
+          0.2862
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (height)", 
+          0.2862
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.2928
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2928
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.2928
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2928
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.2934
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.2944
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          0.2944
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.296
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.296
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.2976
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.2976
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Rocket (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (height)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationDensity]>(country|Hungary)", 
+      0.2838
+    ], 
+    [
+      "Location[populationDensity]>(country|Hungary)>(isPartOf|Borsod-Aba%C3%BAj-Zempl%C3%A9n_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2841
+    ], 
+    [
+      "Rocket[height]>(rocketFunction|Launch_vehicle)", 
+      0.2862
+    ], 
+    [
+      "Location[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Golestan_Rural_District100  6026  100  5162  100   864    924    154  0:00:05  0:00:05 --:--:--  1200
+_(Kerman_Province))", 
+      0.2908
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Golestan_Rural_District_(Kerman_Province))", 
+      0.2908
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Rayen_District)", 
+      0.2917
+    ], 
+    [
+      "Village[populationDensity]>(isPartOf|Borsod-Aba%C3%BAj-Zempl%C3%A9n_County)", 
+      0.2944
+    ], 
+    [
+      "Location[populationTotal]>(isPartOf|Khuzestan_Province)>(isPartOf|Jahangiri_Rural_District)", 
+      0.296
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Khuzestan_Province)>(isPartOf|Central_District_(Masjed_Soleyman_County))", 
+      0.296
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|New_York)", 
+      0.2976
+    ]
+  ], 
+  "values": [
+    53.0, 
+    33.0, 
+    63.0, 
+    52.0, 
+    38.0, 
+    50.0, 
+    52.0, 
+    889.0, 
+    50.0, 
+    1.0, 
+    48.0, 
+    31.0, 
+    48.0, 
+    52.0, 
+    45.0, 
+    50.0, 
+    50.0, 
+    49.0, 
+    14.0, 
+    47.0, 
+    51.0, 
+    50.0, 
+    26.0, 
+    49.0
+  ]
+}

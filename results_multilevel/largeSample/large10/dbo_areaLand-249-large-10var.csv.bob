@@ -1,0 +1,109 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   414    0     0  100   414      0   2061 --:--:-- --:--:-- --:--:--  2059100   414    0     0  100   414      0    206  0:00:02  0:00:02 --:--:--   206100   414    0     0  100   414      0    168  0:00:02  0:00:02 --:--:--   168100  2710  100  2296  100   414    935    168  0:00:02  0:00:02 --:--:--   935
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaLand"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.331
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.3263
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.3281
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.3281
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.333
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          26.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaTotal]", 
+      0.3245
+    ], 
+    [
+      "Place[areaTotal]", 
+      0.3245
+    ], 
+    [
+      "Settlement[areaTotal]", 
+      0.3281
+    ], 
+    [
+      "Location[areaTotal]>(type|Municipalities_of_Switzerland)>(canton|Canton_of_Lucerne)", 
+      0.3333
+    ], 
+    [
+      "Location[areaTotal]>(type|Municipalities_of_Switzerland)>(canton|Thurgau)", 
+      0.3333
+    ], 
+    [
+      "Location[areaTotal]>(type|Census-designated_place)>(isPartOf|Maine)", 
+      0.3333
+    ], 
+    [
+      "Location[areaTotal]>(type|Census-designated_place)>(isPartOf|Michigan)", 
+      0.3333
+    ], 
+    [
+      "Location[areaTotal]>(type|Census-designated_place)>(isPartOf|Alabama)>(country|United_States)", 
+      0.3333
+    ], 
+    [
+      "Location[areaTotal]>(type|Census-designated_place)>(isPartOf|Michigan)>(timeZone|Eastern_Time_Zone)", 
+      0.3333
+    ], 
+    [
+      "Location[areaTotal]>(type|Census-designated_place)>(isPartOf|Michigan)>(timeZone|Eastern_Time_Zone)>(country|United_States)", 
+      0.3333
+    ]
+  ], 
+  "values": [
+    26564045977.0, 
+    8418906.0, 
+    7456674.0
+  ]
+}

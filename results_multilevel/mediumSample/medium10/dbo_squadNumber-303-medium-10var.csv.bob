@@ -1,0 +1,344 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  3726    0     0  100  3726      0   3715  0:00:01  0:00:01 --:--:--  3718100  3726    0     0  100  3726      0   1859  0:00:02  0:00:02 --:--:--  1860100  3726    0     0  100  3726      0   1240  0:00:03  0:00:03 --:--:--  1240100  3726    0     0  100  3726      0    930  0:00:04  0:00:04 --:--:--   930100  3726    0     0  100  3726      0    809  0:00:04  0:00:04 --:--:--   809{
+  "invalid": [
+    "http://dbpedia.org/ontology/squadNumber"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "squadNumber", 
+          0.0679
+        ], 
+        [
+          "number", 
+          0.0796
+        ], 
+        [
+          "elevation", 
+          0.0876
+        ], 
+        [
+          "width", 
+          0.1039
+        ]
+      ], 
+      "maj": [
+        [
+          "squadNumber", 
+          4.0
+        ], 
+        [
+          "number", 
+          2.0
+        ], 
+        [
+          "width", 
+          2.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Agent (squadNumber)", 
+          0.0679
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (squadNumber)", 
+          0.0679
+        ], 
+        [
+          "http://dbpedia.org/ontology/OrganisationMember (squadNumber)", 
+          0.0679
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeamMember (squadNumber)", 
+          0.0679
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.0796
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.0796
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.0796
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          0.0874
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.0876
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.0876
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.0877
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.1039
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          0.1039
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          0.1047
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          0.1047
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (squadNumber)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (squadNumber)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/OrganisationMember (squadNumber)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeamMember (squadNumber)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "SoccerPlayer[number]", 
+      0.0639
+    ], 
+    [
+      "Person[squadNumber]", 
+      0.0679
+    ], 
+    [
+      "SportsTeamMember[squadNumber]", 
+      0.0679
+    ], 
+    [
+      "OrganisationMember[squadNumber]", 
+      0.0679
+    ], 
+    [
+      "Agent[squadNumber]", 
+      0.0679
+    100  9696  100  5970  100  3726   1296    809  0:00:04  0:00:04 --:--:--   623
+], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Vorpommern-Greifswald)", 
+      0.0863
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Vorpommern-Greifswald)>(federalState|Mecklenburg-Vorpommern)", 
+      0.0888
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Spain)", 
+      0.0952
+    ], 
+    [
+      "ArchitecturalStructure[width]", 
+      0.1032
+    ], 
+    [
+      "RouteOfTransportation[width]", 
+      0.1047
+    ]
+  ], 
+  "values": [
+    9.0, 
+    6.0, 
+    6.0, 
+    27.0, 
+    28.0, 
+    95.0, 
+    12.0, 
+    1.0, 
+    9.0, 
+    32.0, 
+    22.0, 
+    14.0, 
+    7.0, 
+    1.0, 
+    13.0, 
+    19.0, 
+    14.0, 
+    10.0, 
+    9.0, 
+    5.0, 
+    3.0, 
+    7.0, 
+    19.0, 
+    29.0, 
+    3.0, 
+    8.0, 
+    8.0, 
+    36.0, 
+    8.0, 
+    23.0, 
+    19.0, 
+    9.0, 
+    5.0, 
+    3.0, 
+    24.0, 
+    6.0, 
+    15.0, 
+    8.0, 
+    15.0, 
+    16.0, 
+    23.0, 
+    35.0, 
+    27.0, 
+    2.0, 
+    1.0, 
+    13.0, 
+    8.0, 
+    19.0, 
+    1.0, 
+    6.0, 
+    13.0, 
+    4.0, 
+    12.0, 
+    42.0, 
+    20.0, 
+    20.0, 
+    8.0, 
+    16.0, 
+    3.0, 
+    18.0, 
+    6.0, 
+    15.0, 
+    23.0, 
+    21.0, 
+    8.0, 
+    15.0, 
+    20.0, 
+    8.0, 
+    42.0, 
+    17.0, 
+    2.0, 
+    2.0, 
+    4.0, 
+    38.0, 
+    23.0, 
+    23.0, 
+    13.0, 
+    5.0, 
+    15.0, 
+    22.0, 
+    21.0, 
+    2.0, 
+    11.0, 
+    14.0, 
+    30.0, 
+    3.0, 
+    1.0, 
+    31.0, 
+    86.0, 
+    7.0, 
+    20.0, 
+    12.0, 
+    14.0, 
+    4.0, 
+    29.0, 
+    20.0, 
+    19.0, 
+    7.0, 
+    1.0, 
+    23.0, 
+    17.0, 
+    34.0, 
+    2.0, 
+    48.0, 
+    22.0, 
+    18.0, 
+    19.0, 
+    7.0, 
+    15.0, 
+    24.0, 
+    10.0, 
+    12.0, 
+    8.0, 
+    5.0, 
+    27.0, 
+    16.0, 
+    22.0, 
+    6.0, 
+    34.0, 
+    29.0, 
+    9.0, 
+    28.0, 
+    5.0, 
+    21.0, 
+    39.0, 
+    18.0
+  ]
+}

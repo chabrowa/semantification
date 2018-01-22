@@ -1,0 +1,140 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   754    0     0  100   754      0    751  0:00:01  0:00:01 --:--:--   752100   754    0     0  100   754      0    376  0:00:02  0:00:02 --:--:--   376100   754    0     0  100   754      0    319  0:00:02  0:00:02 --:--:--   319100  3720  100  2966  100   754   1255    319  0:00:02  0:00:02 --:--:--  1255
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaLand"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.1498
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          0.1211
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          0.1211
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (areaTotal)", 
+          0.1211
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1487
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.1493
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.1644
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          25.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Lake[areaTotal]>(country|Canada)", 
+      0.1211
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Andhra_Pradesh)", 
+      0.1389
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Uttar_Pradesh)>(country|India)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1429
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Tamil_Nadu)", 
+      0.1439
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Tamil_Nadu)>(country|India)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1485
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Tamil_Nadu)>(country|India)", 
+      0.1519
+    ], 
+    [
+      "Location[areaTotal]", 
+      0.1607
+    ], 
+    [
+      "Place[areaTotal]", 
+      0.1607
+    ], 
+    [
+      "PopulatedPlace[areaTotal]", 
+      0.1644
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Andhra_Pradesh)>(country|India)", 
+      0.1645
+    ]
+  ], 
+  "values": [
+    1047910000.0, 
+    34000000.0, 
+    2402280000.0, 
+    2000000.0, 
+    15500000.0, 
+    5956970.0, 
+    175100000.0, 
+    6100000.0, 
+    1047910000.0, 
+    2402280000.0, 
+    920000.0, 
+    11500000.0, 
+    18490000.0, 
+    7070670.0, 
+    1231000.0, 
+    55948000.0, 
+    18490000.0, 
+    175100000.0
+  ]
+}

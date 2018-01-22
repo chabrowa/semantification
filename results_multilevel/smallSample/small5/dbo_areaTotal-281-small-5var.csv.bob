@@ -1,0 +1,235 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   317    0     0  100   317      0    316  0:00:01  0:00:01 --:--:--   316100   317    0     0  100   317      0    158  0:00:02  0:00:02 --:--:--   158{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaLand", 
+          0.5
+        ], 
+        [
+          "area", 
+          0.5043
+        ], 
+        [
+          "areaTotal", 
+          0.5068
+        ], 
+        [
+          "areaWater", 
+          0.5084
+        ], 
+        [
+          "oclc", 
+          0.5088
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          5.0
+        ], 
+        [
+          "areaWater", 
+          2.0
+        ], 
+        [
+          "area", 
+          1.0
+        ], 
+        [
+          "oclc", 
+          1.0
+        ], 
+        [
+          "areaLand", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.5033
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          0.5043
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (area)", 
+          0.5043
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          0.5043
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.5059
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.5059
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.5082
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.5084
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaWater)", 
+          0.5084
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaWater)", 
+          0.5084
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.5084
+        ], 
+        [
+          "http://dbpedia.org/ontology/Book (oclc)", 
+          0.5088
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          0.5088
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          0.5088
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (areaTotal)", 
+          0.5094
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Book (oclc)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (area)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[areaTotal]>(country|Austria)>(state|Burgenland)", 
+      100  5327  100  5010  100   317   2203    139  0:00:02  0:00:02 --:--:--  2204
+0.5
+    ], 
+    [
+      "Location[areaLand]>(isPartOf|California)>(isPartOf|Riverside_County,_California)>(type|Census-designated_place)>(country|United_States)", 
+      0.5
+    ], 
+    [
+      "Settlement[area]>(region|Centre_(French_region))", 
+      0.5043
+    ], 
+    [
+      "Location[areaTotal]>(country|Canada)>(isPartOf|Ontario)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5077
+    ], 
+    [
+      "Settlement[areaTotal]>(isPartOf|Illinois)", 
+      0.5083
+    ], 
+    [
+      "Region[areaWater]", 
+      0.5084
+    ], 
+    [
+      "AdministrativeRegion[areaWater]", 
+      0.5084
+    ], 
+    [
+      "Location[areaTotal]>(type|Census-designated_place)>(isPartOf|Nevada)", 
+      0.5088
+    ], 
+    [
+      "Book[oclc]>(publisher|Ace_Books)>(country|United_States)", 
+      0.5088
+    ], 
+    [
+      "Island[areaTotal]>(archipelago|Tuamotus)", 
+      0.5094
+    ]
+  ], 
+  "values": [
+    18287225.0
+  ]
+}

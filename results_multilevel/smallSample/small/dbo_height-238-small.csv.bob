@@ -1,0 +1,316 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  3427    0     0  100  3427      0   3419  0:00:01  0:00:01 --:--:--  3423100  3427    0     0  100  3427      0   1711  0:00:02  0:00:02 --:--:--  1711100  3427    0     0  100  3427      0   1140  0:00:03  0:00:03 --:--:--  1141100  3427    0     0  100  3427      0    855  0:00:04  0:00:04 --:--:--   855100  3427    0     0  100  3427      0    684  0:00:05  0:00:05 --:--:--   684{
+  "invalid": [
+    "http://dbpedia.org/ontology/height"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.1402
+        ], 
+        [
+          "populationDensity", 
+          0.1444
+        ], 
+        [
+          "minimumElevation", 
+          0.1463
+        ]
+      ], 
+      "maj": [
+        [
+          "minimumElevation", 
+          4.0
+        ], 
+        [
+          "elevation", 
+          4.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1356
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1396
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1396
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1411
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.1432
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1432
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1444
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1444
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (populationDensity)", 
+          0.1455
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.1456
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.1456
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1456
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.1469
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.1514
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[elevation]>(isPartOf|New_York)", 
+      0.1278
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Languedoc-Roussillon)>(department|H%C3%A9rault)", 
+      0.1366
+    ], 
+    [
+      "Location[minimumElevation]>(region|Languedoc-Roussillon)>(department|H%C3%A9rault)", 
+      0.1392
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Napa_County,_California)", 
+      0.1394
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPar100  9418  100  5991  100  3427   1023    585  0:00:05  0:00:05 --:--:--   528
+tOf|Napa_County,_California)>(country|United_States)", 
+      0.1425
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Arkansas)", 
+      0.1432
+    ], 
+    [
+      "Country[populationDensity]", 
+      0.1455
+    ], 
+    [
+      "Town[elevation]>(country|India)>(isPartOf|Odisha)", 
+      0.1514
+    ], 
+    [
+      "Location[minimumElevation]>(department|Eure)>(region|Upper_Normandy)", 
+      0.1547
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Eure)>(region|Upper_Normandy)", 
+      0.1547
+    ]
+  ], 
+  "values": [
+    45.0, 
+    140.0, 
+    36.0, 
+    121.92, 
+    124.968, 
+    5.1816, 
+    214.77, 
+    10.0, 
+    3.81, 
+    167.5, 
+    100.0, 
+    50.0, 
+    111.0, 
+    44.6, 
+    8.0, 
+    105.0, 
+    155.0, 
+    122.0, 
+    34.0, 
+    138.0, 
+    107.65, 
+    33.0, 
+    136.0, 
+    87.0, 
+    4.3, 
+    4.3, 
+    140.0, 
+    204.0, 
+    20.0, 
+    118.0, 
+    109.728, 
+    216.0, 
+    74.0, 
+    109.728, 
+    5.4864, 
+    230.5, 
+    18.7, 
+    44.6, 
+    82.5, 
+    265.0, 
+    135.636, 
+    131.064, 
+    1.5, 
+    214.77, 
+    4.4, 
+    155.5, 
+    270.0, 
+    150.0, 
+    3.76, 
+    320.9, 
+    126.0, 
+    254.0, 
+    60.0, 
+    3.5, 
+    297.0, 
+    45.0, 
+    10.0, 
+    6.096, 
+    44.7, 
+    122.0, 
+    4.2672, 
+    138.0, 
+    11.0, 
+    58.0, 
+    145.0, 
+    168.0, 
+    11.0, 
+    82.0, 
+    204.5, 
+    15.24, 
+    102.413, 
+    4.572, 
+    4.8768, 
+    10.0, 
+    77.4192, 
+    27.0, 
+    90.0, 
+    5.0, 
+    68.0, 
+    102.413, 
+    5.6388, 
+    104.0, 
+    6.096, 
+    3.6576, 
+    154.0, 
+    130.0, 
+    65.0, 
+    90.0, 
+    65.0, 
+    126.0, 
+    2.7432, 
+    183.0, 
+    9.0, 
+    360.0, 
+    6.858, 
+    190.0, 
+    20.0, 
+    18.5928, 
+    4.572, 
+    142.0, 
+    139.0, 
+    19.0, 
+    168.25, 
+    165.0, 
+    100.0, 
+    114.6, 
+    4.2, 
+    185.0, 
+    19.0, 
+    52.4256, 
+    230.5, 
+    107.0, 
+    21.0, 
+    184.099
+  ]
+}

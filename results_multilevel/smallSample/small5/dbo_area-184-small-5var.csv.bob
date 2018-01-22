@@ -1,0 +1,181 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   393    0     0  100   393      0    392  0:00:01  0:00:01 --:--:--   392100   393    0     0  100   393      0    196  0:00:02  0:00:02 --:--:--   196100  4421  100  4028  100   393   1469    143  0:00:02  0:00:02 --:--:--  1469
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/area"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.3342
+        ], 
+        [
+          "areaLand", 
+          0.3356
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          7.0
+        ], 
+        [
+          "areaLand", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/SportFacility (areaTotal)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (areaTotal)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (areaTotal)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.3339
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.3342
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.3344
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          0.3351
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.3351
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.3356
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.3356
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.3356
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          0.3359
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (areaTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "City[areaTotal]>(isPartOf|Idaho)", 
+      0.3263
+    ], 
+    [
+      "Town[areaTotal]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Town)", 
+      0.3333
+    ], 
+    [
+      "SkiArea[areaTotal]>(location|United_States)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3333
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|South_Dakota)>(timeZone|Central_Time_Zone)", 
+      0.3347
+    ], 
+    [
+      "City[areaLand]>(isPartOf|South_Dakota)>(timeZone|Central_Time_Zone)", 
+      0.3347
+    ], 
+    [
+      "City[areaLand]>(isPartOf|Idaho)", 
+      0.3351
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Idaho)>(timeZone|Mountain_Time_Zone)>(country|United_States)", 
+      0.3372
+    ], 
+    [
+      "City[areaLand]>(isPartOf|Idaho)>(timeZone|Mountain_Time_Zone)>(country|United_States)", 
+      0.3372
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Slovenia)>(isPartOf|Mura_Statistical_Region)", 
+      0.3373
+    ], 
+    [
+      "Town[areaTotal]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)", 
+      0.3375
+    ]
+  ], 
+  "values": [
+    10345697.0, 
+    1728727.0, 
+    1692361.0
+  ]
+}

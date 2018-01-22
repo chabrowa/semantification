@@ -1,0 +1,159 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   617    0     0  100   617      0    615  0:00:01  0:00:01 --:--:--   615100   617    0     0  100   617      0    307  0:00:02  0:00:02 --:--:--   308100   617    0     0  100   617      0    205  0:00:03  0:00:03 --:--:--   205100  3729  100  3112  100   617    871    172  0:00:03  0:00:03 --:--:--   871
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/weight"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "weight", 
+          0.1759
+        ]
+      ], 
+      "maj": [
+        [
+          "weight", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Swimmer (weight)", 
+          0.1615
+        ], 
+        [
+          "http://dbpedia.org/ontology/MartialArtist (weight)", 
+          0.1682
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (weight)", 
+          0.1759
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (weight)", 
+          0.1759
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (weight)", 
+          0.1759
+        ], 
+        [
+          "http://dbpedia.org/ontology/Skier (weight)", 
+          0.1883
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (weight)", 
+          0.1921
+        ], 
+        [
+          "http://dbpedia.org/ontology/GolfPlayer (weight)", 
+          0.1949
+        ], 
+        [
+          "http://dbpedia.org/ontology/IceHockeyPlayer (weight)", 
+          0.196
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Athlete (weight)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (weight)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (weight)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Swimmer (weight)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MartialArtist (weight)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/GolfPlayer (weight)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (weight)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/IceHockeyPlayer (weight)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Skier (weight)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Swimmer[weight]>(nationality|Russia)", 
+      0.1189
+    ], 
+    [
+      "MartialArtist[weight]>(birthPlace|United_States)", 
+      0.1544
+    ], 
+    [
+      "MartialArtist[weight]", 
+      0.1672
+    ], 
+    [
+      "Swimmer[weight]>(nationality|Brazil)>(birthPlace|Brazil)", 
+      0.1753
+    ], 
+    [
+      "MartialArtist[weight]>(birthPlace|Brazil)", 
+      0.1825
+    ], 
+    [
+      "Swimmer[weight]>(nationality|Brazil)", 
+      0.1834
+    ], 
+    [
+      "GolfPlayer[weight]>(nationality|Japan)>(birthPlace|Japan)", 
+      0.1881
+    ], 
+    [
+      "Skier[weight]", 
+      0.1883
+    ], 
+    [
+      "IceHockeyPlayer[weight]>(deathPlace|Canada)", 
+      0.196
+    ], 
+    [
+      "GolfPlayer[weight]>(nationality|Japan)", 
+      0.2051
+    ]
+  ], 
+  "values": [
+    75000.0, 
+    54000.0, 
+    78000.0, 
+    86000.0, 
+    84000.0, 
+    95000.0, 
+    60000.0, 
+    69000.0, 
+    77000.0, 
+    70000.0, 
+    73000.0, 
+    78000.0, 
+    84000.0
+  ]
+}

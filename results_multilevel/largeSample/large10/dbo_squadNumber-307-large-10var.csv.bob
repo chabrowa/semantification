@@ -1,0 +1,179 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   627    0     0  100   627      0    626  0:00:01  0:00:01 --:--:--   626100   627    0     0  100   627      0    313  0:00:02  0:00:02 --:--:--   313100   627    0     0  100   627      0    208  0:00:03  0:00:03 --:--:--   208100   627    0     0  100   627      0    160  0:00:03  0:00:03 --:--:--   160{
+  "invalid": [
+    "http://dbpedia.org/ontology/squadNumber"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "number", 
+          0.1667
+        ], 
+        [
+          "populationDensity", 
+          0.1672
+        ], 
+        [
+          "numberOfSeasons", 
+          0.1722
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          8.0
+        ], 
+        [
+          "numberOfSeasons", 
+          1.0
+        ], 
+        [
+          "number", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1666
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1666
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsManager (number)", 
+          0.1667
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.1667
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.1667
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerManager (number)", 
+          0.1667
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1668
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1679
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          0.1722
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          0.1722
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerManager (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsManager (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Segovia)", 
+      0.1603
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Segovia)", 
+      0.1603
+    ], 
+    [
+      "SoccerManager[number]>(position|Midfielder)", 
+      0.1667
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)", 
+      0.1675
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Salamanca)>(timeZone|Central_European_Time)", 
+      0.1684
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Salamanca)", 
+      0.1684
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Salamanca)>(timeZone|Central_European_Time)>(country|Spain)", 
+      0.1702
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Salamanca)>(country|Spain)", 
+      0.1702
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]>(format|Aspect_ratio_(image))>(format|16:9)", 
+      0.1722
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)", 
+      0.1725
+    ]
+  ], 
+  "values": [
+    5.0, 
+    16.0, 
+    6.0, 
+    4.0, 
+    9.0, 
+    12.0, 
+   100  4756  100  4129  100   627   1054    160  0:00:03  0:00:03 --:--:--  1054
+ 11.0, 
+    2.0, 
+    17.0
+  ]
+}
