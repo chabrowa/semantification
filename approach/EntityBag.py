@@ -21,6 +21,8 @@ class EntityBag(object):
             filter (?p != <http://dbpedia.org/ontology/wikiPageRevisionID>) \
             }"
 
+        #print query
+
         #sparql = SPARQLWrapper("http://wdaqua-csv2rdf-fuseki.univ-st-etienne.fr/dbpedia_hdt/query")
         sparql = SPARQLWrapper("http://dbpedia.org/sparql")
         sparql.setReturnFormat(JSON)
@@ -40,6 +42,8 @@ class EntityBag(object):
             if pValue not in valuesObject:
                 valuesObject[pValue] = []
             valuesObject[pValue].append(oValue)
+            
+        print valuesObject
 
         # for bag in valuesObject:
         #     if len(valuesObject[bag]) > 5:

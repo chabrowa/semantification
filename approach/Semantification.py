@@ -72,11 +72,16 @@ class Semantification(object):
     def getRowPrediction(self, columnId):
         columnPredictions = []
 
+        # iterate over values in a numerical column in a dataset
         for i, cell in enumerate(self.dataset.subjectColumn.columnValues):
+            # iterate over every baf in entity bags
             for index, bag in enumerate(self.backgroundKnowledge.entityBags):
                 if bag.cell == cell:
+                    # bag.values is {u'http://dbpedia.org/ontology/squadNumber': [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0, 21.0, 22.0, 23.0]}
                     if bag.entity != -1 and bag.values != -1:
+
                         for val in bag.values:
+                            # compare to every value from properties with multiple scores e.q. squadNumber
                             for num in bag.values[val]:
                                 columnPredictions.append([cell, bag.entity, val, num, self.sm.relativeDifference(num, self.dataset.getCellValue(columnId, cell))])
 
@@ -87,14 +92,18 @@ class Semantification(object):
     def getRowResults(self, rowPredictions):
         rowResults = {}
         # TODO test those prints with two numerical columns
+        # for each numerical column
         for column in rowPredictions:
             rowResults[column] = {}
+            # for each row in this column
             for p in enumerate(rowPredictions[column]):
                 propertyName = self.getPropertyName(p[1][2])
-                prediction = p[1][4]
+                #prediction = p[1][4]
+                print prediction
                 if propertyName not in rowResults[column]:
                     rowResults[column][propertyName] = prediction
                 else:
+                    # we want the best prediction for each property since there can be more than one per property 
                     if rowResults[column][propertyName] > prediction:
                         rowResults[column][propertyName] = prediction
 
@@ -107,6 +116,12 @@ class Semantification(object):
         columnLevel = self.columnsResultsKS
         rowLevel = self.rowPredictions
         columnsNumber = len(rowLevel)
+
+        print self.dataset.datasetId
+        print "Column Level: "
+        print columnLevel
+        print "Row Level: "
+        print rowLevel
 
         for column in range(1, columnsNumber+1):
             finalResults[column] = {}
@@ -121,6 +136,9 @@ class Semantification(object):
                     if finalResults[column][p] > (1 - d):
                         finalResults[column][p] = (1 - d)
             finalResults[column] = sorted(finalResults[column].items(), key=operator.itemgetter(1))
+
+        print "Final Level: "
+        print finalResults
 
         return finalResults
 

@@ -40,12 +40,12 @@ class Experiment(object):
                             'dbo_squadNumber-304-large.csv']
 
         for fn in os.listdir(self.dataPath):
-            if fn in notWorkinDatasets:
-                datasetPath = os.path.join(self.dataPath, fn)
-                dataset = DatasetPrediction(datasetPath)
-                if dataset.scores != -1:
-                    datasetPredictions.append(dataset)
-                count = count + 1
+            #if fn in notWorkinDatasets:
+            datasetPath = os.path.join(self.dataPath, fn)
+            dataset = DatasetPrediction(datasetPath)
+            if dataset.scores != -1:
+                datasetPredictions.append(dataset)
+            count = count + 1
         print "all datasets: " + str(count)
 
         return datasetPredictions
@@ -88,6 +88,7 @@ class Experiment(object):
             #    (p,d) = prediction[1]
             #    if correctMapping == p:
             #        correctlyLabelledTopX = correctlyLabelledTopX + 1
+            print datasetPrediction.datasetPath
             print datasetPrediction.scores['finalResults'][1]
 
             # calculating from top 1 predictions
