@@ -114,7 +114,7 @@ class dbpediaQuery(object):
         valueSum = np.sum(valueList)
         for key in dicto:
             dicto[key] = (dicto[key] / valueSum) * 100
-        print(dicto)
+        # print(dicto)
         #we remove classes with >0.1% of occurrences. That's quite arbitrary, I know
         try:
             chosenOnes = random.sample([key for key in dicto if dicto[key] > 0.1], 10)
