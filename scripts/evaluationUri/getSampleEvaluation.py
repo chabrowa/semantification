@@ -4,6 +4,6 @@ from approach.config.paths import *
 from approach.config.imports import *
 
 
-sizes = ['large']
+sizes = ['small']
 deviations = [0]
 e = Evaluation(sizes, deviations)

@@ -19,6 +19,7 @@ class CellTypeResponse(object):
     def setTypes(self):
         response = self.response[1]
         try:
+            # TODO result is Schema:CreativeWork,DBpedia:Work,DBpedia:MusicalWork,Schema:MusicAlbum,DBpedia:Album can that "Schema here break the results???"
             types = response[response.index('<Resource '):]
             types = types[types.index('types="')+7:]
             return types[:types.find('"')]

@@ -21,6 +21,7 @@ class Dataset(object):
 
     def __init__(self, datasetId, subjectColumnId, numericalColumnsIds):
         self.datasetId              = datasetId
+        #print datasetId
         self.df                     = pd.read_csv(os.path.join(datasetsPath, datasetId))
         self.subjectColumnId        = subjectColumnId
         self.subjectColumn          = self.getSubjectColumn()

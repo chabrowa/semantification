@@ -12,6 +12,7 @@ class SubjectColumn(object):
         #self.columnId       = columnId
         self.columnValues    = columnValues
         self.cellPredictions = self.getCellPredictions()
+        #print self.cellPredictions
         self.columnTypes     = self.getMostCommonTypes(self.cellPredictions)
         #print self.columnValues
         #self.columnValues   = self.getColumnValues()

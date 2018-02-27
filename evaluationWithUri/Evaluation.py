@@ -15,6 +15,7 @@ class Evaluation(object):
 
         for s in self.sizes:
             for d in self.deviations:
+                print "Size: " + str(s) + " Deviation: " + str(d)
                 #expPath = evaluationPath + s + 'Sample/' + s + str(d) + "/"
                 expPath = evaluationPath + s + 'Sample/' + s + str(d) + "/"
                 experiments.append(Experiment(s, d, expPath))

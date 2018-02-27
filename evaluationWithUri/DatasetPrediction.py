@@ -39,7 +39,13 @@ class DatasetPrediction(object):
 
         #print dataset.subjectColumn.columnTypes
         correctProperty = self.getCorrectPrediction()
+        #print "START AGAIN: "
+        #print correctProperty
         dataset.subjectColumn.columnTypes = [(correctProperty,1)]
+        for cell in dataset.subjectColumn.cellPredictions:
+            #print cell.cell
+            cell.uri   = cell.cell
+            cell.types = correctProperty
 
         sem = Semantification(dataset)
         scores = {}
