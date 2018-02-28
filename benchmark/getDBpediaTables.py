@@ -9,6 +9,7 @@ import sys
 from SPARQLWrapper import SPARQLWrapper, JSON
 import numpy as np
 import csv
+import re
 
 
 class dbpediaQuery(object):
@@ -54,7 +55,9 @@ class dbpediaQuery(object):
 
     def getTables(self, dbClass, dbProperty):
 
-            query = "SELECT ?s ?o WHERE {?s <"+dbProperty+"> ?o . ?s a <"+dbClass+"> . FILTER(isNumeric(?o))} "
+            query = "SELECT ?s ?sLabel ?o WHERE {?s <"+dbProperty+"> ?o . ?s a <"+dbClass+"> ." \
+            " ?s rdfs:label ?sLabel . FILTER (lang(?sLabel) = 'en')}"
+            # query = "SELECT ?s ?o WHERE {?s <" + dbProperty + "> ?o .  ?s a <" + dbClass + "> .} "
 
             sparql = SPARQLWrapper("http://dbpedia.org/sparql")
             sparql.setReturnFormat(JSON)
@@ -68,7 +71,7 @@ class dbpediaQuery(object):
 
     def propertyHandler(self, results, prop):
         propertyUses = {}
-        discardedClasses = ['http://dbpedia.org/ontology/Agent'] #'http://dbpedia.org/ontology/Person' ?
+        discardedClasses = ['http://dbpedia.org/ontology/Agent', 'http://dbpedia.org/ontology/Organisation', 'http://dbpedia.org/ontology/Person', 'http://dbpedia.org/ontology/Work', 'http://dbpedia.org/ontology/Place']
         for result in results["results"]["bindings"]:
             if result['class']['value'].startswith('http://dbpedia.org/ontology'):
                 if result['class']['value'] not in discardedClasses:
@@ -77,7 +80,7 @@ class dbpediaQuery(object):
                     noTriples = result['noStats']['value']
                     propertyUses[dbClass] = int(noTriples)
                 except KeyError:
-                    print result
+                    print(result)
 
         classesSelected = self.classesSelector(propertyUses, prop)
 
@@ -85,15 +88,21 @@ class dbpediaQuery(object):
 
     def tableDataHandler(self, results, dbclass, prop):
         self.counter += 1
-        fileName = prop.replace('http://dbpedia.org/ontology/', 'dbo_') + '-' + str(self.counter) + '.csv'
+        if not os.path.exists('dbpediaTables/'):
+            os.makedirs('dbpediaTables/')
+
+        fileName = 'dbpediaTables/' + prop.replace('http://dbpedia.org/ontology/', 'dbo_') + '-' + str(self.counter) + '.csv'
         with open(fileName, 'w') as csvfile:
             tableWriter = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-            tableWriter.writerow([dbclass.encode('utf-8'), prop.encode('utf-8')])
+            dblabel = dbclass.replace('http://dbpedia.org/ontology/', '')
+            tableWriter.writerow([dbclass.encode('utf-8').decode('utf-8'), dblabel.encode('utf-8').decode('utf-8'), prop.encode('utf-8').decode('utf-8')])
 
             for result in results["results"]["bindings"]:
                 subj = result['s']['value']
+                subjLabel = result['sLabel']['value']
                 obj = result['o']['value']
-                tableWriter.writerow([subj.encode('utf-8'), obj.encode('utf-8')])
+                if not re.match(r'[aA-zZ]', obj):
+                    tableWriter.writerow([subj.encode('utf-8').decode('utf-8'), subjLabel.encode('utf-8').decode('utf-8'), obj.encode('utf-8').decode('utf-8')])
 
 
     def classesSelector(self, dicto, prop):
@@ -102,8 +111,13 @@ class dbpediaQuery(object):
         self.medianUse[prop] = np.median(valueList)
         self.maxUse[prop] = np.max(valueList)
         self.minUse[prop] = np.min(valueList)
+        valueSum = np.sum(valueList)
+        for key in dicto:
+            dicto[key] = (dicto[key] / valueSum) * 100
+        # print(dicto)
+        #we remove classes with >0.1% of occurrences. That's quite arbitrary, I know
         try:
-            chosenOnes = random.sample([key for key in dicto], 10)
+            chosenOnes = random.sample([key for key in dicto if dicto[key] > 0.1], 10)
         except ValueError:
             chosenOnes = [key for key in dicto]
 

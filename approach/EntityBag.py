@@ -22,28 +22,20 @@ class EntityBag(object):
         #    }"
 
 
-        # query = "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\
-        #         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
-        #         PREFIX owl: <http://www.w3.org/2002/07/owl#> select * where { \
-        #         <" + self.entity + "> ?p ?o . \
-        #         filter(EXISTS{?p rdf:type owl:DatatypeProperty}) \
-        #         filter (?p != <http://dbpedia.org/ontology/wikiPageID>) \
-        #         filter (?p != <http://dbpedia.org/ontology/wikiPageRevisionID>) \
-        #         }"
+        query = "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
+                PREFIX owl: <http://www.w3.org/2002/07/owl#> select * where { \
+                <" + self.entity + "> ?p ?o . \
+                filter(EXISTS{?p rdf:type owl:DatatypeProperty}) \
+                filter (?p != <http://dbpedia.org/ontology/wikiPageID>) \
+                filter (?p != <http://dbpedia.org/ontology/wikiPageRevisionID>) \
+                }"
 
-        query = "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> \
-              PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \
-              PREFIX owl: <http://www.w3.org/2002/07/owl#> select * where { \
-              <http://dbpedia.org/resource/London> ?p ?o . \
-              filter(EXISTS{?p rdf:type owl:DatatypeProperty}) \
-              filter (?p != <http://dbpedia.org/ontology/wikiPageID>) \
-              filter (?p != <http://dbpedia.org/ontology/wikiPageRevisionID>) \
-              }"
 
-        print query
+        #print query
         #sparql = SPARQLWrapper("http://wdaqua-csv2rdf-fuseki.univ-st-etienne.fr/dbpedia/query")
-        #sparql = SPARQLWrapper("http://dbpedia.org/sparql")
-        sparql = SPARQLWrapper("http://uk.dbpedia.org/sparql")
+        sparql = SPARQLWrapper("http://dbpedia.org/sparql")
+        #sparql = SPARQLWrapper("http://uk.dbpedia.org/sparql")
         sparql.setReturnFormat(JSON)
 
         sparql.setQuery(query)  # the previous query as a literal string

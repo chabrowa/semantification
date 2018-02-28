@@ -7,7 +7,9 @@ noRowsToCheck = 10
 
 #datasetsPath = '/Users/emiliakacprzak/Code/papers/semantification/data/'
 
-datasetsPath = '/Users/emiliakacprzak/Code/papers/semantification/benchmark_labels/largeSample/large'
+#datasetsPath = '/Users/emiliakacprzak/Code/papers/semantification/benchmark_labels/largeSample/large'
 
 #evaluationPath = '/Users/emiliakacprzak/Code/papers/semantification/benchmark_labels/'
-evaluationPath = '/Users/emiliakacprzak/Code/papers/semantification/benchmark_labels_new/'
+#evaluationPath = '/Users/emiliakacprzak/Code/papers/semantification/benchmark_labels_new/'
+
+evaluationPath = '/Users/emiliakacprzak/Code/papers/semantification/benchmark/'

@@ -23,30 +23,30 @@ class ValuesBag(object):
         #print socket.getdefaulttimeout()
 
 
-        # query = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
-        #     PREFIX owl: <http://www.w3.org/2002/07/owl#>\
-        #     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> select ?s ?p ?o where { \
-        #     ?s rdf:type <" + self.predictionUrl + "> . \
-        #     ?s ?p ?o . \
-        #     filter(EXISTS{?p rdf:type owl:DatatypeProperty}) \
-        #     filter (?p != <http://dbpedia.org/ontology/wikiPageID>) \
-        #     filter (?p != <http://dbpedia.org/ontology/wikiPageRevisionID>) \
-        #     } LIMIT 100"
-
         query = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
             PREFIX owl: <http://www.w3.org/2002/07/owl#>\
             PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> select ?s ?p ?o where { \
             ?s rdf:type <" + self.predictionUrl + "> . \
             ?s ?p ?o . \
-            filter (isNumeric(?o)) \
+            filter(EXISTS{?p rdf:type owl:DatatypeProperty}) \
             filter (?p != <http://dbpedia.org/ontology/wikiPageID>) \
             filter (?p != <http://dbpedia.org/ontology/wikiPageRevisionID>) \
-            } LIMIT 500"
+            } LIMIT 100"
+
+        # query = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
+        #     PREFIX owl: <http://www.w3.org/2002/07/owl#>\
+        #     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> select ?s ?p ?o where { \
+        #     ?s rdf:type <" + self.predictionUrl + "> . \
+        #     ?s ?p ?o . \
+        #     filter (isNumeric(?o)) \
+        #     filter (?p != <http://dbpedia.org/ontology/wikiPageID>) \
+        #     filter (?p != <http://dbpedia.org/ontology/wikiPageRevisionID>) \
+        #     } LIMIT 500"
 
         #print query
 
-        sparql = SPARQLWrapper("http://wdaqua-csv2rdf-fuseki.univ-st-etienne.fr/dbpedia/query")
-        #sparql = SPARQLWrapper("http://dbpedia.org/sparql")
+        #sparql = SPARQLWrapper("http://wdaqua-csv2rdf-fuseki.univ-st-etienne.fr/dbpedia/query")
+        sparql = SPARQLWrapper("http://dbpedia.org/sparql")
         sparql.setReturnFormat(JSON)
 
         #sparql.setTimeout(1200)
