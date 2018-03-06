@@ -22,7 +22,8 @@ class Dataset(object):
     def __init__(self, datasetId, subjectColumnId, numericalColumnsIds):
         self.datasetId              = datasetId
         #print datasetId
-        self.df                     = pd.read_csv(os.path.join(datasetsPath, datasetId))
+        #self.df                     = pd.read_csv(os.path.join(datasetsPath, datasetId))
+        self.df                     = pd.read_csv(datasetId)
         self.subjectColumnId        = subjectColumnId
         self.subjectColumn          = self.getSubjectColumn()
         if numericalColumnsIds == None:
@@ -63,9 +64,8 @@ class Dataset(object):
 
     def getSubjectColumn(self):
         subjectColumnValues = []
-        df = pd.read_csv(os.path.join(datasetsPath, self.datasetId))
         if int(self.subjectColumnId) != -1:
-            for index, row in df.iterrows():
+            for index, row in self.df.iterrows():
                 subjectColumnValues.append(row[int(self.subjectColumnId)])
 
             return SubjectColumn(subjectColumnValues)
@@ -74,9 +74,8 @@ class Dataset(object):
 
     def getNumericalColumnsIds(self):
         numericalColumnsIds = []
-        df = pd.read_csv(datasetsPath + self.datasetId)
-        for index, column in enumerate(df):
-            column = (df[column])
+        for index, column in enumerate(self.df):
+            column = (self.df[column])
             if self.columnHasNumbers(column):
                 if index != self.subjectColumnId:
                     numericalColumnsIds.append(index)

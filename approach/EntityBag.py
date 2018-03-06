@@ -34,15 +34,18 @@ class EntityBag(object):
 
         #print query
         #sparql = SPARQLWrapper("http://wdaqua-csv2rdf-fuseki.univ-st-etienne.fr/dbpedia/query")
-        sparql = SPARQLWrapper("http://dbpedia.org/sparql")
+        #sparql = SPARQLWrapper("http://dbpedia.org/sparql")
+        #sparql = SPARQLWrapper("http://localhost:23456/db-test/query")
+        sparql = SPARQLWrapper("http://localhost:3031/db-test/query")
+
         #sparql = SPARQLWrapper("http://uk.dbpedia.org/sparql")
         sparql.setReturnFormat(JSON)
 
         sparql.setQuery(query)  # the previous query as a literal string
         sparql.setReturnFormat(JSON)
         results = sparql.query().convert()
-        print results
-        print "--------------------------------------------------"
+        #print results
+        #print "--------------------------------------------------"
         return self.createValuesObject(results["results"]["bindings"])
 
     def createValuesObject(self, results):

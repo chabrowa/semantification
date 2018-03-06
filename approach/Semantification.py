@@ -134,6 +134,7 @@ class Semantification(object):
         finalResults = {}
         columnLevel = self.columnsResultsKS
         rowLevel = self.rowPredictions
+        #print rowLevel
         columnsNumber = len(rowLevel)
 
         #print self.dataset.datasetId
@@ -142,7 +143,9 @@ class Semantification(object):
         #print "Row Level: "
         #print rowLevel
 
-        for column in range(1, columnsNumber+1):
+        #for column in range(1, columnsNumber+1):
+        for columnResults in enumerate(rowLevel):
+            (iterator, column) = columnResults
             finalResults[column] = {}
             for rowPrediction in enumerate(rowLevel[column]):
                 (p, d) = rowPrediction[1]

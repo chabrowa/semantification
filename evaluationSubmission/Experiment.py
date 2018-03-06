@@ -1,40 +1,41 @@
 from approach.config.paths import *
 from approach.config.imports import *
 
-from evaluationWithUri.DatasetPrediction import DatasetPrediction
+from evaluationSubmission.DatasetPredictionUrl import DatasetPrediction
 
 class Experiment(object):
 
     def __init__(self, size, percentageDeviation, dataPath):
         self.size                = size
         self.dataPath            = dataPath
-        #self.datasetsPredictions = self.getDatasetPredictions()
-        self.datasetsPredictions = self.getNotWorkingDatasetPredictions()
+        self.datasetsPredictions = self.getDatasetPredictions()
+        #self.datasetsPredictions = self.getNotWorkingDatasetPredictions()
         self.percentageDeviation = percentageDeviation
         self.score               = self.getScore()
 
 
-    def getNotWorkingDatasetPredictions(self):
-        datasetPredictions = []
-        count = 0
-
-        for fn in os.listdir(self.dataPath):
-            #if fn in sample3:
-            datasetPath = os.path.join(self.dataPath, fn)
-            dataset = DatasetPrediction(datasetPath)
-            if dataset.scores != -1:
-                datasetPredictions.append(dataset)
-            count = count + 1
-            print count
-        print "all datasets: " + str(count)
-
-        return datasetPredictions
+    # def getNotWorkingDatasetPredictions(self):
+    #     datasetPredictions = []
+    #     count = 0
+    #
+    #     for fn in os.listdir(self.dataPath):
+    #         #if fn in sample3:
+    #         datasetPath = os.path.join(self.dataPath, fn)
+    #         dataset = DatasetPrediction(datasetPath)
+    #         if dataset.scores != -1:
+    #             datasetPredictions.append(dataset)
+    #         count = count + 1
+    #         print count
+    #     print "all datasets: " + str(count)
+    #
+    #     return datasetPredictions
 
     def getDatasetPredictions(self):
         datasetPredictions = []
-        count = 1
+        count = 0
         for fn in os.listdir(self.dataPath):
             #print str(count) + ":  " + str(fn)
+            #if count < 10:
             datasetPath = os.path.join(self.dataPath, fn)
             dataset = DatasetPrediction(datasetPath)
             if dataset.scores != -1:
@@ -52,11 +53,12 @@ class Experiment(object):
 
         for datasetPrediction in self.datasetsPredictions:
             total = total + 1
-            correctMapping =  self.getPropertyName(datasetPrediction.columnMapping[1])
+            correctMapping =  self.getPropertyName(datasetPrediction.columnMapping[2])
 
             # calculating from top 3 predictions
             counter = 0
-            for prediction in enumerate(datasetPrediction.scores['finalResults'][1]):
+            finalScores = datasetPrediction.scores['finalResults'][2]
+            for prediction in enumerate(finalScores):
                 if counter <= 2:
                     (p,d) = prediction[1]
                     if correctMapping == p:
@@ -64,24 +66,18 @@ class Experiment(object):
                 counter = counter + 1
 
             # calculating if any predictions
-            for prediction in enumerate(datasetPrediction.scores['finalResults'][1]):
+            for prediction in enumerate(finalScores):
                 (p,d) = prediction[1]
                 if correctMapping == p:
                     correctlyLabelledTopX = correctlyLabelledTopX + 1
-            #print datasetPrediction.datasetPath
-            #print datasetPrediction.scores['finalResults'][1]
-
-            # calculating from top 1 predictions
-            #print datasetPrediction.scores['finalResults'][1]
-            prediction = datasetPrediction.scores['finalResults'][1][0]
+            prediction = finalScores[0]
             (p,d) = prediction
             if correctMapping == p:
-                #print "correct mapping: " + str(correctMapping) + " - " + str(p)
                 correctlyLabelledTop1 = correctlyLabelledTop1 + 1
             else:
                 print "NOT correct mapping: " + str(correctMapping) + " - " + str(p)
                 print datasetPrediction.datasetPath
-                print datasetPrediction.scores['finalResults'][1]
+                print finalScores
 
 
 
