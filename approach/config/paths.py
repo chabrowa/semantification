@@ -4,6 +4,8 @@ mappingsPath = '/Users/emiliakacprzak/Code/papers/semantification/data/testdata/
 
 
 noRowsToCheck = 10
+noMaxTopPredictions = 5
+minPopularity = 5
 
 #datasetsPath = '/Users/emiliakacprzak/Code/papers/semantification/data/'
 

@@ -9,16 +9,6 @@ from approach.config.imports import *
 
 class Dataset(object):
 
-    # def __init__(self, datasetId):
-    #     self.datasetId              = datasetId
-    #     self.df                     = pd.read_csv(os.path.join(datasetsPath, datasetId))
-    #     self.subjectColumnId        = self.getSubjectColumnId()
-    #     self.subjectColumn          = self.getSubjectColumn()
-    #     self.numericalColumnsIds    = self.getNumericalColumnsIds()
-    #     self.columnsWithMappingsIds = self.getColumnsWithMappingsIds()
-    #     self.columnsWithMappings    = self.getColumnsWithMappings()
-    #     self.columns                = self.getColumns()
-
     def __init__(self, datasetId, subjectColumnId, numericalColumnsIds):
         self.datasetId              = datasetId
         #print datasetId
@@ -30,8 +20,6 @@ class Dataset(object):
             self.numericalColumnsIds    = self.getNumericalColumnsIds()
         else:
             self.numericalColumnsIds    = numericalColumnsIds
-
-        #self.columnsWithMappingsIds = [1]
         self.columns                = self.getColumns()
 
     def getColumns(self):
@@ -94,19 +82,3 @@ class Dataset(object):
         if score>=0.5:
             return True
         return False
-
-    # def getColumnsWithMappingsIds(self):
-    #     columnsWithMappingsIds = []
-    #     mappingFile = os.path.join(mappingsPath, self.datasetId)
-    #     df = pd.read_csv(mappingFile,  header=None)
-    #     for index, row in df.iterrows():
-    #         columnsWithMappingsIds.append(int(row[3]))
-    #     return columnsWithMappingsIds
-    #
-    # def getColumnsWithMappings(self):
-    #     columnsWithMappings = {}
-    #     mappingFile = os.path.join(mappingsPath, self.datasetId)
-    #     df = pd.read_csv(mappingFile,  header=None)
-    #     for index, row in df.iterrows():
-    #         columnsWithMappings[int(row[3])] = row[0]
-    #     return columnsWithMappings

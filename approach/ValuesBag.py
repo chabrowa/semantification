@@ -23,34 +23,24 @@ class ValuesBag(object):
         #print socket.getdefaulttimeout()
 
 
-        # query = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
-        #     PREFIX owl: <http://www.w3.org/2002/07/owl#>\
-        #     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> select ?s ?p ?o where { \
-        #     ?s rdf:type <" + self.predictionUrl + "> . \
-        #     ?s ?p ?o . \
-        #     filter(EXISTS{?p rdf:type owl:DatatypeProperty}) \
-        #     filter (?p != <http://dbpedia.org/ontology/wikiPageID>) \
-        #     filter (?p != <http://dbpedia.org/ontology/wikiPageRevisionID>) \
-        #     } LIMIT 100"
-
-
-        #   SHOULD WE CHANGE THIS????? TO THE ONE ABOVE
         query = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
-                    PREFIX owl: <http://www.w3.org/2002/07/owl#>\
-                    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> select ?s ?p ?o where { \
-                    ?s rdf:type <" + self.predictionUrl + "> . \
-                    ?s ?p ?o . \
-                    filter (isNumeric(?o)) \
-                    filter (?p != <http://dbpedia.org/ontology/wikiPageID>) \
-                    filter (?p != <http://dbpedia.org/ontology/wikiPageRevisionID>) \
-                    } LIMIT 500"
+             PREFIX owl: <http://www.w3.org/2002/07/owl#>\
+             PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> select ?s ?p ?o where { \
+             ?s rdf:type <" + self.predictionUrl + "> . \
+             ?s ?p ?o . \
+             filter(EXISTS{?p rdf:type owl:DatatypeProperty}) \
+             filter (?p != <http://dbpedia.org/ontology/wikiPageID>) \
+             filter (?p != <http://dbpedia.org/ontology/wikiPageRevisionID>) \
+             } LIMIT 1000"
+#             } LIMIT 500"
 
         #print query
-
         #sparql = SPARQLWrapper("http://wdaqua-csv2rdf-fuseki.univ-st-etienne.fr/dbpedia/query")
-        #sparql = SPARQLWrapper("http://dbpedia.org/sparql")
+        sparql = SPARQLWrapper("http://dbpedia.org/sparql")
         #sparql = SPARQLWrapper("http://localhost:23456/db-test/query")
-        sparql = SPARQLWrapper("http://localhost:3031/db-test/query")
+        #sparql = SPARQLWrapper("http://localhost:3031/db-test/query")
+
+        #sparql = SPARQLWrapper("http://kbox.kaist.ac.kr:5889/sparql")
 
         sparql.setReturnFormat(JSON)
 
@@ -58,6 +48,11 @@ class ValuesBag(object):
         sparql.setQuery(query)  # the previous query as a literal string
         sparql.setReturnFormat(JSON)
         results = sparql.query().convert()
+        time.sleep(0.5)
+        #print "Value" + str(self.prediction) + " : " +  str(self.popularity)
+
+
+
         return self.createValuesObject(results["results"]["bindings"])
 
     def createValuesObject(self, results):
@@ -66,10 +61,14 @@ class ValuesBag(object):
         for result in results:
             sValue = self.getProperty(result["s"]["value"])
             pValue = self.getProperty(result["p"]["value"])
-            oValue = float(result["o"]["value"])
-            if pValue not in valuesObject:
-                valuesObject[pValue] = []
-            valuesObject[pValue].append(oValue)
+            try:
+                oValue = float(result["o"]["value"])
+                if pValue not in valuesObject:
+                    valuesObject[pValue] = []
+                valuesObject[pValue].append(oValue)
+            except:
+                pass
+
 
         for bag in valuesObject:
             if len(valuesObject[bag]) > 5:
@@ -77,6 +76,7 @@ class ValuesBag(object):
                     valuesObjectClean[bag] = []
                 valuesObjectClean[bag] = valuesObject[bag]
         return valuesObjectClean
+
 
     def getProperty(self, numericalProperty):
         return numericalProperty[28:]

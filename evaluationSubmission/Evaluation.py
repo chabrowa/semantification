@@ -20,3 +20,7 @@ class Evaluation(object):
                 expPath = evaluationPath + s + 'Sample/' + s + str(d) + "/"
                 experiments.append(Experiment(s, d, expPath))
         return experiments
+
+    def getResults(self):
+        for e in self.experiments:
+            pass

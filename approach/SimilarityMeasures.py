@@ -50,7 +50,7 @@ class SimilarityMeasures(object):
 
             return relDiff
         except:
-            # should it be zero or 1? this is the worse case scenario - value is a string not a number even 
+            # this is the worse case scenario - value is a string not a number even 
             return 1
 
     def getTrim(self, val):

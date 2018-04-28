@@ -19,18 +19,18 @@ class DatasetPrediction(object):
             return False
 
     # why this is here?
-    def checkCorrect(self, scores):
-        correctMapping =  self.getPropertyName(self.columnMapping[1])
-
-        counter = 0
-        for prediction in enumerate(scores[2]):
-            if counter <= 2:
-                (p,d) = prediction[1]
-                #if correctMapping != p:
-                    #print self.datasetPath
-                    #print correctMapping
-                    #print scores
-                counter = counter + 1
+    # def checkCorrect(self, scores):
+    #     correctMapping =  self.getPropertyName(self.columnMapping[1])
+    #
+    #     counter = 0
+    #     for prediction in enumerate(scores[2]):
+    #         if counter <= 2:
+    #             (p,d) = prediction[1]
+    #             #if correctMapping != p:
+    #                 #print self.datasetPath
+    #                 #print correctMapping
+    #                 #print scores
+    #             counter = counter + 1
 
     def getScores(self):
         # predefined where are numerical and subject columns
@@ -39,6 +39,7 @@ class DatasetPrediction(object):
             return -1
 
         correctProperty = self.getCorrectPrediction()
+        # overwriting column type with a correct type  & cell types
         dataset.subjectColumn.columnTypes = [(correctProperty,1)]
         for cell in dataset.subjectColumn.cellPredictions:
             #print cell.cell
@@ -51,10 +52,11 @@ class DatasetPrediction(object):
         scores['rowResults']      = sem.rowPredictions
         scores['finalResults']    = sem.finalResults
 
-        self.checkCorrect(scores['finalResults'])
+        #self.checkCorrect(scores['finalResults'])
 
         return scores
 
+    #correct columns mappings
     def getColumnMapping(self):
         dataset = Dataset(self.datasetPath , 0, [2])
         if self.checkDataset(dataset.df) == False:

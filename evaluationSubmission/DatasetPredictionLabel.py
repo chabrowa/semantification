@@ -19,39 +19,17 @@ class DatasetPrediction(object):
             return False
 
 
-    def checkCorrect(self, scores):
-        correctMapping =  self.getPropertyName(self.columnMapping[1])
-
-        counter = 0
-        for prediction in enumerate(scores[1]):
-            if counter <= 2:
-                (p,d) = prediction[1]
-                #if correctMapping != p:
-                    #print self.datasetPath
-                    #print correctMapping
-                    #print scores
-                counter = counter + 1
-
     def getScores(self):
         # predefined where are numerical and subject columns
         dataset = Dataset(self.datasetPath , 1, [2])
         if self.checkDataset(dataset.df) == False:
             return -1
 
-        #correctProperty = self.getCorrectPrediction()
-        #dataset.subjectColumn.columnTypes = [(correctProperty,1)]
-        #for cell in dataset.subjectColumn.cellPredictions:
-            #print cell.cell
-        #    cell.uri   = cell.cell
-        #    cell.types = correctProperty
-
         sem = Semantification(dataset)
         scores = {}
         scores['columnResults']   = sem.columnsResultsKS
         scores['rowResults']      = sem.rowPredictions
         scores['finalResults']    = sem.finalResults
-
-        self.checkCorrect(scores['finalResults'])
 
         return scores
 

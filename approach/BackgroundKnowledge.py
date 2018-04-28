@@ -16,14 +16,17 @@ class BackgroundKnowledge(object):
 
     def getValuesBags(self):
         valuesBags = []
+        counter = 0
         for index, prediction in enumerate(self.typePredictions):
-            valuesBags.append(ValuesBag(prediction[0], prediction[1]))
+            if counter < noMaxTopPredictions:
+                if prediction[1] > minPopularity:
+                    valuesBags.append(ValuesBag(prediction[0], prediction[1]))
+                    counter += counter
 
         return valuesBags
 
     def getEntityBags(self):
         entityBags = []
-        #print self.cellPredictions
         for index, prediction in enumerate(self.cellPredictions):
             entityBags.append(EntityBag(prediction.uri, prediction.cell))
 

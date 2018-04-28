@@ -14,14 +14,6 @@ class EntityBag(object):
         if self.entity == -1:
             return -1
 
-        #query = "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> select * where { \
-        #    <" + self.entity + "> ?p ?o . \
-        #    filter (isNumeric(?o)) \
-        #    filter (?p != <http://dbpedia.org/ontology/wikiPageID>) \
-        #    filter (?p != <http://dbpedia.org/ontology/wikiPageRevisionID>) \
-        #    }"
-
-
         query = "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\
                 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
                 PREFIX owl: <http://www.w3.org/2002/07/owl#> select * where { \
@@ -34,18 +26,22 @@ class EntityBag(object):
 
         #print query
         #sparql = SPARQLWrapper("http://wdaqua-csv2rdf-fuseki.univ-st-etienne.fr/dbpedia/query")
-        #sparql = SPARQLWrapper("http://dbpedia.org/sparql")
+        sparql = SPARQLWrapper("http://dbpedia.org/sparql")
         #sparql = SPARQLWrapper("http://localhost:23456/db-test/query")
-        sparql = SPARQLWrapper("http://localhost:3031/db-test/query")
+        #sparql = SPARQLWrapper("http://localhost:3031/db-test/query")
 
         #sparql = SPARQLWrapper("http://uk.dbpedia.org/sparql")
+
+        #sparql = SPARQLWrapper("http://kbox.kaist.ac.kr:5889/sparql")
         sparql.setReturnFormat(JSON)
 
         sparql.setQuery(query)  # the previous query as a literal string
         sparql.setReturnFormat(JSON)
         results = sparql.query().convert()
-        #print results
-        #print "--------------------------------------------------"
+        time.sleep(0.5)
+
+        #print "entity"
+
         return self.createValuesObject(results["results"]["bindings"])
 
     def createValuesObject(self, results):
@@ -62,14 +58,6 @@ class EntityBag(object):
             except:
                 pass
 
-        #print valuesObject
-
-        # for bag in valuesObject:
-        #     if len(valuesObject[bag]) > 5:
-        #         if bag not in valuesObjectClean:
-        #             valuesObjectClean[bag] = []
-        #         valuesObjectClean[bag] = valuesObject[bag]
-        # return valuesObjectClean
         return valuesObject
 
     def getProperty(self, numericalProperty):
