@@ -1,0 +1,227 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.1211
+        ], 
+        [
+          "capacity", 
+          0.1272
+        ], 
+        [
+          "populationTotal", 
+          0.1408
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          6.0
+        ], 
+        [
+          "capacity", 
+          3.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          0.1211
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.1211
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1211
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (capacity)", 
+          0.1272
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (capacity)", 
+          0.1272
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (capacity)", 
+          0.1272
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerClub (capacity)", 
+          0.1282
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1346
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1406
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1406
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1406
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1415
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          0.1424
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          18.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerClub (capacity)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (capacity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (capacity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (capacity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "SoccerClub[capacity]>(league|Serie_D)", 
+      0.1169
+    ], 
+    [
+      "Volcano[elevation]", 
+      0.1211
+    ], 
+    [
+      "SoccerClub[capacity]>(ground|Spain)>(league|Tercera_Divisi%C3%B3n_Groups_1%E2%80%939)>(position|Tercera_Divisi%C3%B3n_Groups_1%E2%80%939)", 
+      0.1258
+    ], 
+    [
+      "Village[populationTotal]>(country|India)>(isPartOf|Tiruchirappalli_district)", 
+      0.1346
+    ], 
+    [
+      "SoccerClub[capacity]>(ground|Spain)>(league|Tercera_Divisi%C3%B3n_Groups_1%E2%80%939)", 
+      0.1389
+    ], 
+    [
+      "Town[populationTotal]>(isPartOf|New_York)>(type|Town)>(leaderName|Democratic_Party_(United_States))", 
+      0.1412
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_Time_Zone)>(type|Township_(United_States))>(isPartOf|Ohio)", 
+      0.1415
+    ], 
+    [
+      "Town[populationTotal]>(isPartOf|Ohio)>(type|Township_(United_States))", 
+      0.1415
+    ], 
+    [
+      "Town[populationTotal]>(isPartOf|New_York)>(type|Town)>(leaderName|Democratic_Party_(United_States))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1415
+    ], 
+    [
+      "Town[populationTotal]>(isPartOf|New_York)>(type|Town)>(leaderName|Democratic_Party_(United_States))>(22-rdf-syntax-ns#type|_Feature)>(country|United_States)", 
+      0.1443
+    ]
+  ], 
+  "values": [
+    1416.735000285042, 
+    6070.0026978674905, 
+    1041.358806247974, 
+    3971.2620048927433, 
+    4560.090851963971, 
+    3659.9267750389126, 
+    1207.332490885262, 
+    881.0610259473576, 
+    1315.6138668462706, 
+    772.8561592150579, 
+    5539.683004591993, 
+    1489.0172342099968, 
+    1588.841823261693, 
+    2222.2194285036094, 
+    5783.500155578772, 
+    2401.3745465266775, 
+    4819.488138195659, 
+    5126.106969750511, 
+    2399.951640975506, 
+    6175.488253873114, 
+    2658.9408945022037, 
+    2034.9608269211835, 
+    1888.2675419156265, 
+    2030.3445788968352, 
+    3325.4665753968543, 
+    793.3698884950682, 
+    959.5849872655334, 
+    2344.7749625921338, 
+    4787.917047786602, 
+    1357.923947354773, 
+    910.2537876360561, 
+    3591.2228674364587, 
+    4228.702205502153, 
+    2451.8893950041097, 
+    1031.7935938184346, 
+    1278.787148850608
+  ]
+}

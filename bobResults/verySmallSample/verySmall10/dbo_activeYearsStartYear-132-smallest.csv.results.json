@@ -1,0 +1,224 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/activeYearsStartYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "openingYear", 
+          0.3197
+        ], 
+        [
+          "foundingYear", 
+          0.3198
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.3199
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.3199
+        ]
+      ], 
+      "maj": [
+        [
+          "foundingYear", 
+          4.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          2.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          2.0
+        ], 
+        [
+          "openingYear", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          0.3196
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.3197
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.3197
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.3197
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.3197
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          0.3197
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          0.3197
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.3198
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.3198
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          0.3198
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.3199
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.3199
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.3199
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Bridge[openingYear]", 
+      0.3196
+    ], 
+    [
+      "School[foundingYear]", 
+      0.3197
+    ], 
+    [
+      "EducationalInstitution[foundingYear]", 
+      0.3197
+    ], 
+    [
+      "RouteOfTransportation[openingYear]", 
+      0.3198
+    ], 
+    [
+      "Organisation[foundingYear]", 
+      0.3198
+    ], 
+    [
+      "Agent[foundingYear]", 
+      0.3198
+    ], 
+    [
+      "Person[activeYearsStartYear]", 
+      0.3198
+    ], 
+    [
+      "Agent[activeYearsStartYear]", 
+      0.3199
+    ], 
+    [
+      "Person[activeYearsEndYear]", 
+      0.3199
+    ], 
+    [
+      "Agent[activeYearsEndYear]", 
+      0.32
+    ]
+  ], 
+  "values": [
+    1837.0, 
+    2233.0, 
+    2154.0, 
+    2100.0, 
+    1876.0, 
+    2104.0, 
+    1817.0, 
+    1776.0, 
+    1954.0, 
+    2182.0, 
+    1885.0, 
+    1887.0, 
+    2171.0, 
+    1902.0, 
+    2038.0, 
+    1948.0, 
+    1947.0, 
+    2035.0, 
+    2005.0, 
+    1862.0, 
+    1979.0, 
+    1885.0, 
+    1975.0, 
+    1873.0, 
+    1815.0
+  ]
+}

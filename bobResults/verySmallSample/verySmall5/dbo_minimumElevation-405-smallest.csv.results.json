@@ -1,0 +1,291 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/minimumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "minimumElevation", 
+          0.0783
+        ], 
+        [
+          "populationTotal", 
+          0.0943
+        ], 
+        [
+          "elevation", 
+          0.0946
+        ]
+      ], 
+      "maj": [
+        [
+          "minimumElevation", 
+          4.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "populationTotal", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.0737
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.0743
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.0767
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.0828
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.09
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.0946
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.0946
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.0946
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.0948
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0964
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.0964
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0964
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.0968
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "PopulatedPlace[minimumElevation]", 
+      0.0731
+    ], 
+    [
+      "Settlement[minimumElevation]", 
+      0.0743
+    ], 
+    [
+      "Location[minimumElevation]", 
+      0.0828
+    ], 
+    [
+      "Place[minimumElevation]", 
+      0.0828
+    ], 
+    [
+      "Location[populationTotal]>(country|Poland)>(type|Village)>(isPartOf|Chojnice_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.09
+    ], 
+    [
+      "Town[elevation]>(country|India)>(isPartOf|Tamil_Nadu)", 
+      0.092
+    ], 
+    [
+      "Village[populationTotal]>(timeZone|Central_European_Time)>(isPartOf|Pirot_District)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0929
+    ], 
+    [
+      "Town[elevation]>(country|India)>(isPartOf|Tamil_Nadu)>(22-rdf-syntax-ns#type|_Feature)>(timeZone|Indian_Standard_Time)", 
+      0.0943
+    ], 
+    [
+      "Town[elevation]>(country|India)>(isPartOf|Tamil_Nadu)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0975
+    ], 
+    [
+      "Village[populationTotal]>(timeZone|Central_European_Time)>(isPartOf|Pirot_District)>(22-rdf-syntax-ns#type|_Feature)>(type|Village)", 
+      0.1
+    ]
+  ], 
+  "values": [
+    27.926932910499858, 
+    695.2775342365168, 
+    171.45548968942865, 
+    0.0, 
+    111.96924380570884, 
+    158.27888607289506, 
+    15.502344033722528, 
+    16.549460895693894, 
+    53.62654160963713, 
+    20.756957430797613, 
+    190.3771261853323, 
+    79.65909067863973, 
+    0.0, 
+    18.73535977527208, 
+    158.9629711416774, 
+    50.27534927358981, 
+    70.27017641155415, 
+    34.920580333550895, 
+    188.73420098741104, 
+    202.632159756011, 
+    220.93953070757058, 
+    191.89459634225682, 
+    247.81055883622923, 
+    290.47264037608693, 
+    594.4287042430117, 
+    675.3122953554357, 
+    73.63251880516597, 
+    143.14330076987986, 
+    305.5182342243988, 
+    70.19489671674432, 
+    227.077122559524, 
+    392.853312913785, 
+    33.514659720572624, 
+    197.81585583062105, 
+    951.1949579035196, 
+    144.49535040870293, 
+    85.0691566848686, 
+    113.44240137165606, 
+    236.09110710964947, 
+    1.9048519663745163, 
+    7.130601248157297, 
+    54.76753661445003, 
+    234.59896512837057, 
+    149.36686865306567, 
+    135.71036798473241, 
+    670.3894348070758, 
+    9.18486616764945, 
+    139.17171143674295, 
+    1178.1946217830762, 
+    178.12103282367855, 
+    45.97086244464852, 
+    270.86247414304233, 
+    94.70226133859371, 
+    508.2820546041985, 
+    66.67259626521685, 
+    65.32526431486671, 
+    52.82320209992924, 
+    404.38826172273934, 
+    120.45290149502759, 
+    216.35968386118742, 
+    138.934693330998, 
+    1.057225887164224, 
+    295.0624857295092, 
+    188.97868493207383, 
+    145.65592011829546, 
+    23.639337157968576, 
+    1033.7010141766716, 
+    10.168263263456119, 
+    513.8883272200213, 
+    148.119157230168, 
+    197.78241894165322, 
+    148.79731787318488, 
+    82.97542594258928, 
+    73.37449084780246, 
+    103.63883417827718, 
+    193.01873794794474, 
+    658.8927308530051, 
+    204.84828350086082, 
+    82.13253003979845, 
+    492.8210589780516, 
+    0.0, 
+    585.7064218015198, 
+    149.76185233148152, 
+    183.31033940380905, 
+    0.9596987717943386, 
+    176.9136644946246, 
+    2.123764103277635, 
+    332.81703475949064, 
+    59.172175610370246, 
+    292.3771769492569, 
+    149.27667309605678, 
+    105.10472211943963, 
+    293.57981368671756, 
+    110.43142071138816, 
+    194.53844729794034, 
+    165.8660435008874, 
+    23.04244119641936, 
+    79.49933435895781, 
+    274.9610380653487, 
+    163.83982260446095
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runwayLength"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "runtime", 
+          0.1029
+        ], 
+        [
+          "populationDensity", 
+          0.1468
+        ], 
+        [
+          "elevation", 
+          0.1538
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          5.0
+        ], 
+        [
+          "populationDensity", 
+          3.0
+        ], 
+        [
+          "runtime", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          0.1029
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          0.1029
+        ], 
+        [
+          "http://dbpedia.org/ontology/Album (runtime)", 
+          0.1037
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1367
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1375
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.1376
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1548
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1548
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1581
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          0.16
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.1615
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          0.1649
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1649
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1649
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1649
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.172
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Album (runtime)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Album[runtime]>(type|Extended_play)", 
+      0.0985
+    ], 
+    [
+      "Album[runtime]>(type|Extended_play)>(genre|Acoustic_music)", 
+      0.1072
+    ], 
+    [
+      "Location[populationDensity]>(country|India)>(isPartOf|Kerala)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1358
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)", 
+      0.1367
+    ], 
+    [
+      "Village[elevation]>(country|Kyrgyzstan)>(isPartOf|Jalal-Abad_Province)", 
+      0.1376
+    ], 
+    [
+      "Location[populationDensity]>(country|India)>(isPartOf|Kerala)", 
+      0.1398
+    ], 
+    [
+      "Mountain[elevation]>(locatedInArea|Australia)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1542
+    ], 
+    [
+      "City[populationDensity]>(isPartOf|Missouri)>(isPartOf|St._Louis_County,_Missouri)>(country|United_States)", 
+      0.1649
+    ], 
+    [
+      "Mountain[elevation]>(locatedInArea|Australia)", 
+      0.1688
+    ], 
+    [
+      "Town[elevation]>(timeZone|Mountain_Time_Zone)", 
+      0.172
+    ]
+  ], 
+  "values": [
+    697.5312440315183, 
+    958.412557989377, 
+    1965.9431013867597, 
+    1320.3632425840356, 
+    1018.4651920053614, 
+    1446.120511905645, 
+    1673.8271916036751, 
+    1001.7831805749004, 
+    2602.0373531454256, 
+    1809.7378884118204, 
+    512.4180811482291, 
+    2518.4656239831847, 
+    1127.3911356288127, 
+    2481.873452590144, 
+    893.1964724505926, 
+    1092.4504195129991, 
+    1270.8491673295832, 
+    947.5081321284717, 
+    630.3933566833562, 
+    1550.1226937232236, 
+    1437.2854645393913, 
+    1712.68046696947, 
+    1547.1225857560637, 
+    1222.7135363207426, 
+    1755.757788753707, 
+    883.1077226387072, 
+    1032.157978820504, 
+    499.35479129055153, 
+    988.3578861734666, 
+    429.52085704968, 
+    1494.267132194746, 
+    1634.2011408918481, 
+    1278.2009959377115, 
+    1305.2976655927916, 
+    1881.9698661021712, 
+    1339.608156672934, 
+    1040.0977113282033
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaWater"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaWater", 
+          0.0938
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.0924
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.0938
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.0938
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.0962
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          0.0971
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.1035
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          17.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          4.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Town[areaWater]", 
+      0.0796
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Michigan)>(type|Census-designated_place)>(timeZone|Eastern_Time_Zone)>(country|United_States)", 
+      0.0881
+    ], 
+    [
+      "Location[areaWater]>(type|Administrative_divisions_of_New_York)", 
+      0.0893
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Minnesota)", 
+      0.0897
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Michigan)>(type|Census-designated_place)>(timeZone|Eastern_Time_Zone)", 
+      0.0921
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Michigan)", 
+      0.0945
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Michigan)>(type|Census-designated_place)", 
+      0.0958
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Minnesota)>(isPartOf|Polk_County,_Minnesota)>(type|Township_(United_States))", 
+      0.1029
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Minnesota)>(isPartOf|Polk_County,_Minnesota)", 
+      0.1029
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Texas)>(governmentType|Council%E2%80%93manager_government)>(leaderName|Mayor)", 
+      0.1035
+    ]
+  ], 
+  "values": [
+    0.0, 
+    0.0, 
+    1061136.7029499547, 
+    0.0, 
+    0.0, 
+    305856.1061477634, 
+    508475.9610840008, 
+    5912459.909048175, 
+    145656726.09579295, 
+    0.0, 
+    1712644.0161061375, 
+    7422082.21825591, 
+    0.0, 
+    0.0, 
+    3253885.28453131, 
+    1724770.5164045081, 
+    147146.4090731173, 
+    1206978.7062929738, 
+    21867784.4525168, 
+    0.0, 
+    4084192.4510012995, 
+    4953427.949713159, 
+    257091.33429807538, 
+    51562.86190514505, 
+    10338057.86116798, 
+    0.0, 
+    4496729.683857605, 
+    3174800.5885193497, 
+    245902.8596744173, 
+    1152255.0411459038, 
+    0.0, 
+    420447.08916720224, 
+    3140491.7265446624, 
+    1372351.310391878, 
+    325922.8892745707, 
+    7820781.269411481, 
+    0.0, 
+    4337221.505196879, 
+    0.0, 
+    3021646.0044564046, 
+    0.0, 
+    95772.90115144532, 
+    103244.1013231248, 
+    505353.7501845077, 
+    6215076.280995467, 
+    0.0, 
+    402536.2018886878, 
+    0.0, 
+    1005897.3346673027, 
+    26732.76451867159, 
+    0.0, 
+    71479.01155328873, 
+    104824.00166207993, 
+    0.0, 
+    0.0, 
+    9651842.001035448, 
+    79183.70731450086, 
+    0.0, 
+    5741981.258639071, 
+    159641.70968484995, 
+    3263616.814965712, 
+    0.0, 
+    0.0, 
+    0.0, 
+    1355868.2515929556, 
+    7341316.2138728285, 
+    0.0, 
+    4100335.115930098, 
+    0.0, 
+    2924651.2094936343, 
+    1276566.1085616946, 
+    1732482.8604615403, 
+    1219078.2626079242, 
+    0.0, 
+    818433.3189340156, 
+    506845.0193955787, 
+    0.0, 
+    959046.6874045642, 
+    254875.18801643082, 
+    3007714.162527402, 
+    3601182.085393251, 
+    734740.772115367, 
+    0.0, 
+    905826.1074069092, 
+    264265732.23067963, 
+    941687.0403224309, 
+    2032043.392237856, 
+    2354546.058783066, 
+    512368.786900438, 
+    771388.5893650228, 
+    1551499.1543443669, 
+    0.0, 
+    0.0, 
+    2860320.787685465, 
+    0.0, 
+    0.0, 
+    195666.36746390414, 
+    778470.8819290777, 
+    36173578.7889995, 
+    0.0
+  ]
+}

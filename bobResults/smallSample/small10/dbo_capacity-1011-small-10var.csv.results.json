@@ -1,0 +1,191 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/capacity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.0902
+        ], 
+        [
+          "capacity", 
+          0.0926
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          8.0
+        ], 
+        [
+          "capacity", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.0729
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.0867
+        ], 
+        [
+          "http://dbpedia.org/ontology/Train (capacity)", 
+          0.0926
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (capacity)", 
+          0.0926
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0926
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0926
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.0961
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          19.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (capacity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Train (capacity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationTotal]>(country|France)>(department|Hautes-Pyr%C3%A9n%C3%A9es)>(arrondissement|Arrondissement_of_Bagn%C3%A8res-de-Bigorre)", 
+      0.0729
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(department|Hautes-Pyr%C3%A9n%C3%A9es)>(arrondissement|Arrondissement_of_Bagn%C3%A8res-de-Bigorre)", 
+      0.0729
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Ardabil_Province)>(isPartOf|Moradlu_District)", 
+      0.0893
+    ], 
+    [
+      "Train[capacity]", 
+      0.0926
+    ], 
+    [
+      "MeanOfTransportation[capacity]", 
+      0.0926
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|East_Azerbaijan_Province)>(isPartOf|Minjavan_District)", 
+      0.0942
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Khuzestan_Province)>(isPartOf|Abezhdan_District)", 
+      0.0969
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kohgiluyeh_and_Boyer-Ahmad_Province)>(isPartOf|Central_District_(Kohgiluyeh_County))", 
+      0.097
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Fars_Province)>(isPartOf|Central_District_(Mamasani_County))", 
+      0.0984
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Ardabil_Province)>(isPartOf|Anguti_District)>(isPartOf|Angut-e_Gharbi_Rural_District)", 
+      0.0998
+    ]
+  ], 
+  "values": [
+    49.0, 
+    47.0, 
+    3.0, 
+    536.0, 
+    892.0, 
+    122.0, 
+    45.0, 
+    198.0, 
+    232.0, 
+    53.0, 
+    57.0, 
+    46.0, 
+    75.0, 
+    0.0, 
+    45.0, 
+    44.0, 
+    118.0, 
+    234.0, 
+    175.0, 
+    31.0, 
+    208.0, 
+    262.0, 
+    215.0, 
+    44.0, 
+    5.0, 
+    2259.0, 
+    958.0, 
+    0.0, 
+    100.0, 
+    42.0, 
+    809.0, 
+    99.0, 
+    39.0, 
+    349.0, 
+    847.0, 
+    47.0, 
+    209.0, 
+    67.0, 
+    195.0, 
+    38.0, 
+    132.0, 
+    420.0, 
+    63.0, 
+    220.0, 
+    275.0, 
+    27.0, 
+    375.0, 
+    162.0, 
+    253.0, 
+    45.0, 
+    84.0, 
+    10.0, 
+    68.0, 
+    253.0, 
+    254.0, 
+    53.0
+  ]
+}

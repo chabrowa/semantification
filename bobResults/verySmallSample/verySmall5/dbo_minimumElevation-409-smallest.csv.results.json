@@ -1,0 +1,158 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/minimumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1752
+        ], 
+        [
+          "populationDensity", 
+          0.1799
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          9.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1745
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1749
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1749
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1755
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1771
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.1799
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1799
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1799
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1799
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          24.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[populationTotal]>(isPartOf|Kurdistan_Province)>(isPartOf|Central_District_(Marivan_County))", 
+      0.1714
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Fars_Province)>(isPartOf|Central_District_(Kazerun_County))", 
+      0.1729
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kermanshah_Province)>(isPartOf|Central_District_(Eslamabad-e_Gharb_County))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.173
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Sistan_and_Baluchestan_Province)>(isPartOf|Dashtiari_District)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1734
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kurdistan_Province)>(isPartOf|Central_District_(Marivan_County))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1746
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(department|Landes_(department))>(arrondissement|Arrondissement_of_Mont-de-Marsan)", 
+      0.1771
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(department|Landes_(department))>(arrondissement|Arrondissement_of_Mont-de-Marsan)", 
+      0.1771
+    ], 
+    [
+      "Village[populationTotal]>(country|United_Kingdom)>(district|North_Norfolk)", 
+      0.1783
+    ], 
+    [
+      "Village[populationTotal]>(country|United_Kingdom)>(district|East_Lindsey)", 
+      0.1786
+    ], 
+    [
+      "Town[populationDensity]>(timeZone|Mountain_Time_Zone)>(governmentType|List_of_cities_and_towns_in_Colorado)>(type|Town)", 
+      0.1799
+    ]
+  ], 
+  "values": [
+    920.7174055320853, 
+    258.1662488321488, 
+    217.80203386741852, 
+    227.04670753426552, 
+    559.3186731976147, 
+    0.0, 
+    622.2902354175609
+  ]
+}

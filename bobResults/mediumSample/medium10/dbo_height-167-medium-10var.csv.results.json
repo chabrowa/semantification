@@ -1,0 +1,429 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/height"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfEpisodes", 
+          0.1462
+        ], 
+        [
+          "width", 
+          0.179
+        ], 
+        [
+          "height", 
+          0.2004
+        ], 
+        [
+          "number", 
+          0.2011
+        ], 
+        [
+          "populationDensity", 
+          0.212
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          5.0
+        ], 
+        [
+          "width", 
+          2.0
+        ], 
+        [
+          "number", 
+          1.0
+        ], 
+        [
+          "numberOfEpisodes", 
+          1.0
+        ], 
+        [
+          "height", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          0.1462
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionSeason (numberOfEpisodes)", 
+          0.1462
+        ], 
+        [
+          "http://dbpedia.org/ontology/RoadTunnel (width)", 
+          0.1534
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          0.1534
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          0.1534
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.1534
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          0.1534
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (height)", 
+          0.2004
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (height)", 
+          0.2004
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsManager (number)", 
+          0.2011
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.2011
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.2011
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerManager (number)", 
+          0.2011
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (width)", 
+          0.2046
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.2066
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.2102
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.2102
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2137
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.2173
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerManager (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionSeason (numberOfEpisodes)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsManager (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RoadTunnel (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (height)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "TelevisionSeason[numberOfEpisodes]>(country|United_Kingdom)", 
+      0.1462
+    ], 
+    [
+      "RoadTunnel[width]", 
+      0.1534
+    ], 
+    [
+      "Ship[height]", 
+      0.2004
+    ], 
+    [
+      "SoccerManager[number]>(position|Midfielder)", 
+      0.2011
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Zamora)", 
+      0.203
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Zamora)", 
+      0.203
+    ], 
+    [
+      "Location[width]>(type|Truss_bridge)", 
+      0.2046
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Wisconsin)", 
+      0.2173
+    ], 
+    [
+      "Location[populationDensity]>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Estrie)>(country|Canada)", 
+      0.2179
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Wisconsin)>(type|Town)", 
+      0.2185
+    ]
+  ], 
+  "values": [
+    10.560371950520048, 
+    12.20705631746859, 
+    10.452058130949837, 
+    7.68354118323704, 
+    76.75448853955174, 
+    22.797013751461712, 
+    40.52071347448647, 
+    11.142559624334854, 
+    7.46175793562584, 
+    10.64175607276924, 
+    5.6629979170078695, 
+    24.40424170713647, 
+    7.1148103082014496, 
+    11.75628560479209, 
+    8.633091372506279, 
+    9.960185605311421, 
+    6.715980899098681, 
+    10.549531376348812, 
+    8.376339211969562, 
+    3.345538049528638, 
+    9.768845348486959, 
+    10.218326193775617, 
+    7.034723062483314, 
+    3.786493819636249, 
+    8.954529785139298, 
+    22.631926704793027, 
+    6.659785331951354, 
+    3.09177382611125, 
+    11.622564960570973, 
+    17.545204365455213, 
+    7.954012114342156, 
+    12.925606855084547, 
+    9.985118763817773, 
+    8.880751882327665, 
+    9.463221619601033, 
+    9.918941753206742, 
+    9.275584416308014, 
+    2.1297784503778137, 
+    8.694373250160064, 
+    11.683465469456578, 
+    32.23432432950526, 
+    9.494835262374446, 
+    11.530963663025872, 
+    66.08045082128992, 
+    2.1410184141023345, 
+    2.449844241621188, 
+    28.333859459558273, 
+    1.5118267080523577, 
+    10.233570417441562, 
+    7.6003219722137665, 
+    8.586029562617032, 
+    61.28978623915765, 
+    10.420425286272007, 
+    10.565036722378373, 
+    9.030079019527912, 
+    13.445827828902498, 
+    7.946075473622675, 
+    5.216766085195279, 
+    9.279197893494269, 
+    9.991618325393766, 
+    7.218387630256296, 
+    2.705024200923991, 
+    12.235586951166965, 
+    10.863756430750094, 
+    35.078842872238695, 
+    7.927290783395639, 
+    10.97663850706459, 
+    1.8019150232088952, 
+    3.220484560718187, 
+    11.942902964107532, 
+    10.458921555573037, 
+    9.020805727383705, 
+    13.440169293677759, 
+    9.528838547055857, 
+    9.313524695907375, 
+    8.385297541173607, 
+    7.8611419475086075, 
+    10.515030944153875, 
+    10.79325845074678, 
+    41.682201842601074, 
+    10.2186650578026, 
+    10.087989460289347, 
+    9.785379110052565, 
+    8.562931290730635, 
+    8.910028632636704, 
+    38.0968548606058, 
+    7.736474913100511, 
+    8.133877174347342, 
+    6.566186258969214, 
+    3.4310662923648043, 
+    9.434365166164689, 
+    8.810392040984908, 
+    8.404236435264208, 
+    43.000347508554114, 
+    1.1979400475784605, 
+    11.111409217408328, 
+    11.216051108437547, 
+    9.469482438905613, 
+    8.887941009707532, 
+    8.987934734644574, 
+    2.1464405024168953, 
+    43.676538601118246, 
+    64.46268203417063, 
+    9.259166200258631, 
+    7.534899680695098, 
+    8.274096287039535, 
+    10.062519071258578, 
+    12.202780618023084, 
+    6.261222940826886, 
+    2.8991130943129724, 
+    8.071495190035021, 
+    8.180711695195132, 
+    27.078140363442618, 
+    2.3450324233031603, 
+    9.67191029048399, 
+    10.781865731464528, 
+    6.986073349537372, 
+    7.790829872357026, 
+    11.562732275206338, 
+    1.2137835868170945, 
+    9.864775174652676, 
+    3.7631131034770933, 
+    56.80329345382661, 
+    7.937288157336191, 
+    8.923276255837022, 
+    9.590205538119365, 
+    1.6711147852908874, 
+    7.913558903178942, 
+    2.279814339141162, 
+    9.504857520565931, 
+    3.3898715906681645, 
+    9.306033280806666, 
+    9.248804209170833, 
+    2.2473781483094006, 
+    8.311401422854994, 
+    10.430309838711311, 
+    3.1117986282777204, 
+    8.32625893941276, 
+    12.170889789447596, 
+    47.86682774753284, 
+    2.313431196230931, 
+    7.703092637195086, 
+    32.200730554985064, 
+    8.955586755227642, 
+    14.66213312078173, 
+    10.483778878598596, 
+    9.510949194922173, 
+    9.603831543823475, 
+    9.875110987038248, 
+    11.616157988984394, 
+    61.489558365453746, 
+    13.568851065966449, 
+    38.68822694631704, 
+    11.311042169122757, 
+    7.96989690101388, 
+    9.151608930596531, 
+    22.102016612630198, 
+    6.876875108887384, 
+    6.886268645266036, 
+    11.223754986477342, 
+    8.789514798857438, 
+    11.789956800008412, 
+    2.7490749677563633, 
+    5.718455292797947, 
+    8.384002129577771, 
+    8.085558352032622, 
+    3.127769484669143, 
+    11.23138385456411, 
+    9.196884558576937, 
+    9.987269853238642, 
+    61.12769743213895, 
+    8.617337786916059, 
+    11.60833963748589, 
+    8.239739065987592
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationDensity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.0818
+        ], 
+        [
+          "populationTotal", 
+          0.0884
+        ], 
+        [
+          "elevation", 
+          0.0894
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          7.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.0794
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.0794
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          0.0794
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.0794
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.0841
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.0867
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0889
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.0889
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0889
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.0889
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.0894
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.0894
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.0894
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[populationDensity]", 
+      0.0794
+    ], 
+    [
+      "Location[populationTotal]>(country|Poland)>(type|Village)>(isPartOf|West_Pomeranian_Voivodeship)>(isPartOf|Gryfino_County)", 
+      0.0817
+    ], 
+    [
+      "Location[populationDensity]>(timeZone|Pacific_Time_Zone)>(country|Canada)", 
+      0.0841
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Khuzestan_Province)>(isPartOf|Omidiyeh_County)", 
+      0.0855
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Gilan_Province)>(isPartOf|Haviq_District)", 
+      0.0863
+    ], 
+    [
+      "Location[populationTotal]>(country|Poland)>(type|Village)>(isPartOf|West_Pomeranian_Voivodeship)>(isPartOf|Stargard_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0869
+    ], 
+    [
+      "Settlement[elevation]>(country|Italy)>(region|Campania)", 
+      0.0894
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Gilan_Province)", 
+      0.0919
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Sistan_and_Baluchestan_Province)>(isPartOf|Konarak_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.092
+    ], 
+    [
+      "Location[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Rigan_Rural_District)", 
+      0.0947
+    ]
+  ], 
+  "values": [
+    5.196153869388116, 
+    61.13599144843509, 
+    168.14216912780466, 
+    867.5987222240093, 
+    884.2945615805526, 
+    51.236259153477945, 
+    453.0255493059054, 
+    256.76860996671104, 
+    428.95560835977665, 
+    451.28488690476746, 
+    416.0743114260572, 
+    0.7144495023407916, 
+    417.5775377282755, 
+    841.5824513181008, 
+    368.8806811769126, 
+    727.108866077577, 
+    64.14112214756032, 
+    566.1097186258363, 
+    192.8532082134229, 
+    128.40254246065123, 
+    373.79162988460723, 
+    31.814684942856253, 
+    20.46412790879771, 
+    134.75214612026053, 
+    341.6924738366704, 
+    12.76380665974412, 
+    1229.9299613835387, 
+    21.902417710380103, 
+    119.05529539665211, 
+    118.42239843305438, 
+    119.91124915171183, 
+    53.99407385877318, 
+    188.70524973520924, 
+    60.34248779270171, 
+    328.68569968584427, 
+    39.919961333355964, 
+    563.5613509788773, 
+    342.759591577737, 
+    234.4550737905067, 
+    605.9271833361546, 
+    25.091630523269988, 
+    38.17278880548662, 
+    478.8166241484317, 
+    48.18752950155004, 
+    337.5672558028886, 
+    300.68460758257964, 
+    120.22125240992226, 
+    971.2029651720131, 
+    80.0780069853931, 
+    348.2305997226033, 
+    518.998825199663, 
+    369.68604083169566, 
+    88.68238006598179, 
+    140.03428838877502, 
+    486.85518026874666, 
+    435.462645961001, 
+    339.98264687825423, 
+    274.4421200506599, 
+    662.1402973535828, 
+    196.56374432996196, 
+    449.05242236062537, 
+    61.820295052385035, 
+    439.5255275845659, 
+    740.1066899419028, 
+    233.42006804669458, 
+    105.51974280432756, 
+    3.793829205191265, 
+    442.56197280773176, 
+    70.03794994275493, 
+    41.17312996960228, 
+    711.2084077838682, 
+    182.19759964653306, 
+    314.07781587956936, 
+    427.9163838986556, 
+    1438.1114536070315, 
+    31.64123396462185, 
+    1509.405983107999, 
+    4.61333439866638, 
+    12.139042966301764, 
+    57.38921528569857, 
+    306.84760846833615, 
+    830.9003910522067, 
+    237.94636731615188, 
+    793.7397523845153, 
+    41.906004482582965
+  ]
+}

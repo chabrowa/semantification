@@ -1,0 +1,273 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfStudents", 
+          0.2651
+        ], 
+        [
+          "areaCode", 
+          0.2688
+        ], 
+        [
+          "capacity", 
+          0.2843
+        ], 
+        [
+          "populationTotal", 
+          0.2846
+        ], 
+        [
+          "elevation", 
+          0.2849
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          5.0
+        ], 
+        [
+          "areaCode", 
+          2.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ], 
+        [
+          "numberOfStudents", 
+          1.0
+        ], 
+        [
+          "capacity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.2651
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.2651
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          0.2651
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.2651
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaCode)", 
+          0.2686
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.2688
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          0.2688
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          0.2688
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.2742
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.284
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerClub (capacity)", 
+          0.2843
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (capacity)", 
+          0.2843
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (capacity)", 
+          0.2843
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (capacity)", 
+          0.2843
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2847
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2847
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.2849
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2849
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          0.2849
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.2865
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          0.2868
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaCode)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerClub (capacity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (capacity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (capacity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (capacity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "School[numberOfStudents]>(state|Georgia_(U.S._state))", 
+      0.2651
+    ], 
+    [
+      "City[areaCode]>(country|India)>(isPartOf|Maharashtra)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2674
+    ], 
+    [
+      "City[areaCode]>(country|India)>(isPartOf|Maharashtra)", 
+      0.2701
+    ], 
+    [
+      "Village[populationTotal]>(country|India)>(isPartOf|Thanjavur_Taluk)", 
+      0.2742
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_Time_Zone)>(governmentType|Town_council)>(type|Town)>(leaderName|Democratic_Party_(United_States))>(22-rdf-syntax-ns#type|_Feature)>(country|United_States)", 
+      0.284
+    ], 
+    [
+      "Town[populationTotal]>(isPartOf|New_York)>(type|Town)>(leaderName|Democratic_Party_(United_States))>(22-rdf-syntax-ns#type|_Feature)>(country|United_States)>(governmentType|Town_council)", 
+      0.284
+    ], 
+    [
+      "SoccerClub[capacity]>(ground|Spain)>(league|Tercera_Divisi%C3%B3n_Groups_1%E2%80%939)>(position|Tercera_Divisi%C3%B3n_Groups_1%E2%80%939)", 
+      0.2843
+    ], 
+    [
+      "Mountain[elevation]>(locatedInArea|United_States)", 
+      0.2849
+    ], 
+    [
+      "Settlement[populationTotal]>(type|Census-designated_place)>(isPartOf|Maine)", 
+      0.29
+    ], 
+    [
+      "Town[populationTotal]>(isPartOf|New_York)>(type|Town)>(leaderName|Democratic_Party_(United_States))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2907
+    ]
+  ], 
+  "values": [
+    3175.880987356191, 
+    1146.2436806078676
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/area"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.3
+        ], 
+        [
+          "length", 
+          0.3516
+        ], 
+        [
+          "number", 
+          0.44
+        ], 
+        [
+          "numberOfSeasons", 
+          0.4449
+        ], 
+        [
+          "numberOfGoals", 
+          0.4493
+        ]
+      ], 
+      "maj": [
+        [
+          "numberOfSeasons", 
+          5.0
+        ], 
+        [
+          "numberOfGoals", 
+          2.0
+        ], 
+        [
+          "length", 
+          1.0
+        ], 
+        [
+          "number", 
+          1.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.3
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.3
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.3
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.3
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (length)", 
+          0.3516
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (length)", 
+          0.3516
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.44
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.44
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.44
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          0.4412
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          0.4449
+        ], 
+        [
+          "http://dbpedia.org/ontology/CareerStation (numberOfGoals)", 
+          0.4493
+        ], 
+        [
+          "http://dbpedia.org/ontology/TimePeriod (numberOfGoals)", 
+          0.4493
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TimePeriod (numberOfGoals)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/CareerStation (numberOfGoals)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "AdministrativeRegion[populationDensity]>(state|Montana)", 
+      0.3
+    ], 
+    [
+      "Weapon[length]>(type|Sniper_rifle)", 
+      0.3516
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]>(language|Hindi)", 
+      0.44
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]>(language|Hindi)>(format|480i)", 
+      0.44
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]>(language|Hindi)>(format|480i)>(country|India)", 
+      0.44
+    ], 
+    [
+      "Athlete[number]>(position|Goalkeeper_(association_football))", 
+      0.44
+    ], 
+    [
+      "TimePeriod[numberOfGoals]", 
+      0.4493
+    ], 
+    [
+      "CareerStation[numberOfGoals]", 
+      0.4493
+    ], 
+    [
+      "Work[numberOfSeasons]", 
+      0.4523
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]", 
+      0.4523
+    ]
+  ], 
+  "values": [
+    0.8137154287321442, 
+    1.1568640842806235, 
+    0.89820650557434, 
+    1.1317984696274792, 
+    0.9295236253940873, 
+    0.8383351838574967, 
+    1.0619065826188052, 
+    0.9072186355651962, 
+    1.1475109600425974, 
+    0.9112076627429888, 
+    0.9055079737455352, 
+    0.9890461942634834, 
+    0.9609109319212008, 
+    0.8119360170384912, 
+    10.621610303570437, 
+    8.918771262287507, 
+    1.0207543281828382, 
+    0.9449938003890558, 
+    1.0439634510607596, 
+    1.0109609459842255, 
+    1.048664933137304, 
+    1.1312479705337974, 
+    1.7532592957730857, 
+    1.046157514621039, 
+    1.037351462753294
+  ]
+}

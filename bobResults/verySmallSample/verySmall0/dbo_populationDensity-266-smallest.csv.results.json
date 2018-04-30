@@ -1,0 +1,275 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationDensity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfEmployees", 
+          0.113
+        ], 
+        [
+          "populationDensity", 
+          0.1228
+        ], 
+        [
+          "elevation", 
+          0.1411
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          6.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "numberOfEmployees", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/GovernmentAgency (numberOfEmployees)", 
+          0.113
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          0.113
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          0.113
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1232
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.125
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1264
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1334
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1381
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1411
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1411
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.1468
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/GovernmentAgency (numberOfEmployees)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "GovernmentAgency[numberOfEmployees]>(location|Oklahoma_City)", 
+      0.113
+    ], 
+    [
+      "Location[populationDensity]", 
+      0.1135
+    ], 
+    [
+      "PopulatedPlace[populationDensity]", 
+      0.1135
+    ], 
+    [
+      "Place[populationDensity]", 
+      0.1135
+    ], 
+    [
+      "Settlement[elevation]>(type|Town)", 
+      0.1292
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Michigan)", 
+      0.1308
+    ], 
+    [
+      "Settlement[populationDensity]", 
+      0.1315
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Nebraska)", 
+      0.1343
+    ], 
+    [
+      "Town[elevation]>(type|Towns_of_the_People's_Republic_of_China)>(country|China)>(timeZone|Time_in_China)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1452
+    ], 
+    [
+      "Town[elevation]>(type|Towns_of_the_People's_Republic_of_China)>(country|China)>(timeZone|Time_in_China)", 
+      0.1488
+    ]
+  ], 
+  "values": [
+    11953.735151263567, 
+    481.3267648432199, 
+    1743.2778962206557, 
+    317.14697761975486, 
+    0.02590464162287959, 
+    2578.845541384563, 
+    2.6529033409499, 
+    520.9964926752289, 
+    3.830830929036204, 
+    2553.187503545076, 
+    2093.168145294938, 
+    108.34539259905613, 
+    324.79006354347996, 
+    2.641343007404306, 
+    332.5496522013346, 
+    16.961323089514277, 
+    3411.6285145129227, 
+    14.8020712517856, 
+    873.5940453742919, 
+    202.87122894991145, 
+    357.0655530425057, 
+    20.095829231660293, 
+    17.308952575075484, 
+    36.63675391928838, 
+    1.232311696506206, 
+    0.27388298784008935, 
+    15.239069715775903, 
+    493.9663008326459, 
+    582.8907535931969, 
+    360.51945230866085, 
+    169.55113786360164, 
+    1026.1296527234524, 
+    0.9922693089764739, 
+    278.75783655957457, 
+    16.374611707612836, 
+    11.26800217307154, 
+    4.264304410692567, 
+    27.169426192844522, 
+    250.73348945817415, 
+    51.231951833327585, 
+    313.48297797376904, 
+    155.32407339779377, 
+    6.1199304057123305, 
+    5.376834675018191, 
+    3.002150942668239, 
+    457.7284890520647, 
+    385.544878502005, 
+    1428.540446091365, 
+    241.7361120942944, 
+    41.0045833595696, 
+    48.858413521907934, 
+    0.3905753616442111, 
+    1344.9947501724496, 
+    188.53296472562738, 
+    66.30553672280082, 
+    17.369702464150315, 
+    173.52698017446696, 
+    153.25071731100354, 
+    11.448855290623229, 
+    324.3669865168627, 
+    7.385961877114951, 
+    4.5049971189979034, 
+    2514.865139782519, 
+    2.2148516368781785, 
+    40.48654401759414, 
+    1.357749670646784, 
+    928.5540349874434, 
+    1649.5361650218128, 
+    13.239940673234573, 
+    847.3112501147132, 
+    226.17317896221397, 
+    17.672650853004725, 
+    3.487816508650636, 
+    21.255586855594593, 
+    2.957390245574068, 
+    427.7032654128388, 
+    30.292786091474124, 
+    0.0, 
+    1164.0084012499008, 
+    18.79475827691798, 
+    517.8278768335813, 
+    14.453292404584387, 
+    4.101236072362988, 
+    345.41697990511693, 
+    1207.2956807263063, 
+    0.4239724288994525, 
+    1.8297550163669076, 
+    5.738041069327112, 
+    12.860469873670844, 
+    989.8639307316244, 
+    79.65045722986358, 
+    135.88778807398066, 
+    1.492313160775562, 
+    221.4340306097527, 
+    9.87940042165504, 
+    367.74188002439905, 
+    1504.7208265299496, 
+    657.7321666278934, 
+    4.64891083000917, 
+    43.053754382327895
+  ]
+}

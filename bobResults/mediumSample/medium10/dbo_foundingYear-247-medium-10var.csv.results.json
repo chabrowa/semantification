@@ -1,0 +1,221 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/foundingYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.3131
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          0.2705
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.31
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.3135
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.3135
+        ], 
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          0.3263
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          23.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          3.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Mountain[elevation]>(locatedInArea|Norway)>(locatedInArea|Oppland)", 
+      0.2705
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.2737
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)", 
+      0.2917
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)>(country|United_States)", 
+      0.2979
+    ], 
+    [
+      "Volcano[elevation]>(locatedInArea|Indonesia)>(type|Stratovolcano)", 
+      0.3172
+    ], 
+    [
+      "Volcano[elevation]>(locatedInArea|Indonesia)", 
+      0.3184
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)", 
+      0.3332
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Colorado)>(type|Census-designated_place)", 
+      0.3385
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Colorado)", 
+      0.3416
+    ], 
+    [
+      "Volcano[elevation]>(locatedInArea|Russia)", 
+      0.3481
+    ]
+  ], 
+  "values": [
+    1952.0, 
+    2132.0, 
+    2077.0, 
+    2126.0, 
+    2144.0, 
+    2174.0, 
+    1591.0, 
+    1665.0, 
+    1883.0, 
+    2117.0, 
+    1905.0, 
+    1880.0, 
+    2248.0, 
+    1640.0, 
+    1817.0, 
+    1984.0, 
+    2145.0, 
+    2102.0, 
+    2161.0, 
+    2020.0, 
+    2080.0, 
+    2106.0, 
+    2014.0, 
+    1783.0, 
+    1735.0, 
+    2062.0, 
+    1700.0, 
+    1929.0, 
+    2052.0, 
+    2139.0, 
+    2374.0, 
+    2485.0, 
+    2317.0, 
+    2159.0, 
+    1734.0, 
+    1587.0, 
+    1896.0, 
+    1876.0, 
+    1907.0, 
+    2135.0, 
+    2239.0, 
+    1737.0, 
+    1951.0, 
+    2223.0, 
+    1770.0, 
+    1815.0, 
+    2344.0, 
+    1883.0, 
+    1618.0, 
+    1920.0, 
+    2443.0, 
+    2074.0, 
+    1779.0, 
+    2022.0, 
+    1566.0, 
+    1818.0, 
+    1826.0, 
+    1628.0, 
+    2051.0, 
+    1920.0, 
+    2130.0, 
+    1895.0, 
+    1908.0, 
+    1833.0, 
+    1846.0, 
+    1854.0, 
+    1883.0, 
+    1638.0, 
+    1815.0, 
+    1742.0, 
+    1844.0, 
+    2092.0, 
+    1880.0, 
+    2257.0, 
+    2161.0, 
+    1839.0, 
+    2341.0, 
+    2204.0, 
+    2153.0, 
+    1993.0, 
+    2069.0, 
+    2251.0, 
+    2092.0, 
+    2220.0, 
+    2305.0, 
+    1930.0, 
+    2076.0, 
+    2248.0, 
+    1770.0, 
+    1540.0, 
+    1665.0, 
+    1834.0, 
+    2265.0, 
+    1864.0, 
+    1806.0, 
+    1568.0, 
+    2261.0, 
+    2119.0, 
+    1984.0, 
+    2196.0, 
+    1969.0, 
+    1868.0, 
+    1553.0, 
+    2187.0, 
+    0.0, 
+    2105.0, 
+    2259.0, 
+    2121.0, 
+    1897.0, 
+    1885.0
+  ]
+}

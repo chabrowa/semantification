@@ -1,0 +1,256 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/activeYearsEndYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.2796
+        ], 
+        [
+          "areaCode", 
+          0.3316
+        ], 
+        [
+          "openingYear", 
+          0.3319
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.3321
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.3322
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          3.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          2.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          2.0
+        ], 
+        [
+          "areaCode", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.2796
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          0.3306
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          0.3316
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.3319
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.3319
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.3319
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.3319
+        ], 
+        [
+          "http://dbpedia.org/ontology/Locomotive (activeYearsEndYear)", 
+          0.3321
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (activeYearsEndYear)", 
+          0.3321
+        ], 
+        [
+          "http://dbpedia.org/ontology/Locomotive (activeYearsStartYear)", 
+          0.3322
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (activeYearsStartYear)", 
+          0.3322
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          0.3329
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Locomotive (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Locomotive (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.2756
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Colorado)>(type|Census-designated_place)", 
+      0.2836
+    ], 
+    [
+      "RailwayLine[openingYear]", 
+      0.3306
+    ], 
+    [
+      "Location[areaCode]>(country|England)>(country|Cumbria)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3316
+    ], 
+    [
+      "Locomotive[activeYearsEndYear]", 
+      0.3321
+    ], 
+    [
+      "MeanOfTransportation[activeYearsEndYear]", 
+      0.3321
+    ], 
+    [
+      "RouteOfTransportation[openingYear]", 
+      0.3321
+    ], 
+    [
+      "Locomotive[activeYearsStartYear]", 
+      0.3322
+    ], 
+    [
+      "MeanOfTransportation[activeYearsStartYear]", 
+      0.3322
+    ], 
+    [
+      "Bridge[openingYear]", 
+      0.3329
+    ]
+  ], 
+  "values": [
+    2004.0, 
+    1691.0, 
+    1973.0, 
+    1721.0, 
+    1868.0, 
+    2350.0, 
+    2494.0, 
+    1907.0, 
+    2128.0, 
+    1789.0, 
+    1694.0, 
+    1708.0, 
+    1642.0, 
+    2193.0, 
+    2031.0, 
+    1929.0, 
+    2193.0, 
+    1817.0, 
+    1726.0, 
+    1860.0, 
+    2089.0, 
+    1964.0, 
+    1936.0, 
+    1837.0, 
+    2027.0, 
+    1869.0, 
+    2031.0, 
+    2061.0, 
+    1974.0, 
+    2029.0, 
+    1896.0, 
+    2243.0, 
+    1916.0, 
+    1932.0, 
+    2275.0, 
+    1696.0, 
+    1835.0, 
+    2191.0, 
+    1933.0, 
+    1752.0, 
+    1673.0, 
+    1933.0, 
+    1884.0, 
+    2096.0, 
+    1736.0, 
+    2209.0, 
+    1639.0, 
+    1724.0, 
+    2088.0, 
+    2238.0, 
+    1908.0, 
+    2489.0, 
+    1957.0, 
+    1794.0, 
+    1973.0, 
+    1932.0, 
+    1585.0
+  ]
+}

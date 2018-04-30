@@ -1,0 +1,243 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runwayLength"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfStudents", 
+          0.1095
+        ], 
+        [
+          "populationDensity", 
+          0.1291
+        ], 
+        [
+          "elevation", 
+          0.1472
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          6.0
+        ], 
+        [
+          "numberOfStudents", 
+          2.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.1095
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.1095
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.1095
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          0.1109
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.1231
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1281
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          0.1376
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1426
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1426
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1437
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.1449
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (elevation)", 
+          0.1522
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (elevation)", 
+          0.1522
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1545
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.162
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "School[numberOfStudents]>(state|Georgia_(U.S._state))>(type|State_school)", 
+      0.0998
+    ], 
+    [
+      "School[numberOfStudents]>(state|Georgia_(U.S._state))>(type|State_school)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1193
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Illinois)>(isPartOf|Cook_County,_Illinois)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1222
+    ], 
+    [
+      "Village[elevation]>(country|Kyrgyzstan)", 
+      0.1231
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Illinois)>(isPartOf|Cook_County,_Illinois)", 
+      0.1359
+    ], 
+    [
+      "Mountain[elevation]>(locatedInArea|Norway)", 
+      0.1376
+    ], 
+    [
+      "Lake[elevation]>(country|Switzerland)>(type|Reservoir)", 
+      0.1522
+    ], 
+    [
+      "Location[elevation]>(country|Switzerland)>(type|Reservoir)", 
+      0.1522
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Himachal_Pradesh)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1562
+    ], 
+    [
+      "Town[elevation]>(timeZone|Mountain_Time_Zone)", 
+      0.162
+    ]
+  ], 
+  "values": [
+    898.264175869173, 
+    1639.5446283125336, 
+    2583.3721113857932, 
+    944.4255373619839, 
+    1830.5802704609782, 
+    1714.8577629457252, 
+    1850.605747746464, 
+    1226.6042627483898, 
+    2675.8896630304857, 
+    1730.7851195747355, 
+    1607.091250236842, 
+    594.897816753244, 
+    1426.9648891177474, 
+    1397.5592624675974, 
+    1267.4505681688356, 
+    1318.261573644778, 
+    647.7817744682803, 
+    1850.4731642228255, 
+    1192.064874668354, 
+    2017.6450455702743, 
+    1058.1066364018513, 
+    1929.3531444686369, 
+    2239.1410094992507, 
+    931.3487724651782, 
+    2184.235027713165, 
+    1994.8758909317366, 
+    1717.2586987365746, 
+    1004.3025854508152, 
+    2100.9838845422264, 
+    1909.3682440083442, 
+    1049.3016397699485, 
+    1190.5013398190717, 
+    1924.5643986321325, 
+    1340.7788359622004, 
+    1674.5391624979375, 
+    1381.3270167651726
+  ]
+}

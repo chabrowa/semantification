@@ -1,0 +1,243 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.1012
+        ], 
+        [
+          "runtime", 
+          0.1039
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          9.0
+        ], 
+        [
+          "runtime", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.0967
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1012
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1012
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1027
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          0.1039
+        ], 
+        [
+          "http://dbpedia.org/ontology/Song (runtime)", 
+          0.1039
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          0.1039
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.1105
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          18.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Song (runtime)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[elevation]>(isPartOf|Missouri)", 
+      0.0905
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Missouri)>(type|Village_(United_States))", 
+      0.0952
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Missouri)>(type|Village)>(country|United_States)", 
+      0.0974
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|Michigan)>(type|Unincorporated_area)", 
+      0.1
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|Michigan)>(type|Unincorporated_area)>(country|United_States)", 
+      0.1
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Missouri)>(type|Village)", 
+      0.1014
+    ], 
+    [
+      "Song[runtime]", 
+      0.1039
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|Michigan)", 
+      0.1048
+    ], 
+    [
+      "Town[elevation]>(isPartOf|Michigan)", 
+      0.1105
+    ], 
+    [
+      "Settlement[elevation]>(country|Slovenia)>(isPartOf|Mura_Statistical_Region)>(isPartOf|Styria_(Slovenia))", 
+      0.111
+    ]
+  ], 
+  "values": [
+    247.7181140622196, 
+    357.8245876591268, 
+    221.0944063905767, 
+    188.76670775495145, 
+    353.1394896496972, 
+    245.64268344097832, 
+    258.78459715611774, 
+    216.5032946320184, 
+    281.8566849756876, 
+    185.5046225206514, 
+    217.4678902480794, 
+    238.45294813149417, 
+    270.5200438803526, 
+    197.70664006302962, 
+    226.35305841652513, 
+    261.2052616804316, 
+    316.0558754768323, 
+    167.33556290624279, 
+    265.14566083378276, 
+    217.1899308236096, 
+    210.4016820162969, 
+    286.9323450879726, 
+    338.58606823725955, 
+    187.55069139508322, 
+    266.66219843231966, 
+    269.98654363844037, 
+    246.84952870311093, 
+    239.58995729604763, 
+    347.6360605164178, 
+    225.31324704896053, 
+    180.97734412627014, 
+    259.6816850696383, 
+    300.0018070294685, 
+    299.8515235792082, 
+    209.3749584918313, 
+    168.73018554281848, 
+    212.60533095300093, 
+    237.38266796027818, 
+    179.32882655857617, 
+    268.5007971169896, 
+    1574.4008407161389, 
+    303.1947419426421, 
+    233.85304806072529, 
+    253.67219879555816, 
+    299.26340613957524, 
+    295.4771693143267, 
+    169.47083946720272, 
+    439.7238919209841, 
+    246.09607027489932, 
+    234.43489683129334, 
+    280.7495327125766, 
+    137.40600488024532, 
+    251.08024516320566, 
+    274.71014129327443, 
+    1667.887955955243, 
+    191.07843402530193, 
+    216.50450219655335, 
+    248.5060296931113, 
+    187.04452765151777, 
+    230.38899438189753, 
+    202.16815484504139, 
+    323.97268251344065, 
+    243.5072458271033, 
+    272.06748809906566, 
+    224.00976996440806, 
+    230.895170377154, 
+    365.39613260707296, 
+    327.80295401010625, 
+    240.23062232227025, 
+    250.88988856627532, 
+    277.8303073997759, 
+    121.41643925341033, 
+    325.4575970861383, 
+    195.11652457753323, 
+    213.45461430208624, 
+    120.26028899739231, 
+    265.0396484850808, 
+    393.8256848341919, 
+    216.31563584230182, 
+    240.98482056775282, 
+    131.8847311534137, 
+    307.0885518766802, 
+    123.11708591844763, 
+    311.7045487886346, 
+    228.6601514163411, 
+    243.14634869441062, 
+    199.22481626246784, 
+    300.868746983148, 
+    178.4890483653851, 
+    959.2108637273138, 
+    140.48300363359502, 
+    199.27659288380886, 
+    177.38244571095453, 
+    245.53429695672938, 
+    313.0057475188936, 
+    267.393763697355, 
+    160.84885239079642, 
+    1282.326984024053, 
+    184.67646974877667, 
+    245.09615754331833
+  ]
+}

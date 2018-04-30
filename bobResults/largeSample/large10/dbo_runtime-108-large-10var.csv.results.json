@@ -1,0 +1,190 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.2177
+        ], 
+        [
+          "runtime", 
+          0.2344
+        ], 
+        [
+          "populationDensity", 
+          0.2483
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          8.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ], 
+        [
+          "runtime", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.2095
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          0.2344
+        ], 
+        [
+          "http://dbpedia.org/ontology/Album (runtime)", 
+          0.2344
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          0.2344
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2483
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2519
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2519
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2519
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.2519
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          26.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Album (runtime)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(type|Unincorporated_area)", 
+      0.1723
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(type|Unincorporated_area)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1808
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(type|Census-designated_place)", 
+      0.2097
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)", 
+      0.2103
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Nebraska)>(country|United_States)", 
+      0.2339
+    ], 
+    [
+      "Album[runtime]>(type|Extended_play)>(genre|Death_metal)", 
+      0.2344
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Nebraska)", 
+      0.2404
+    ], 
+    [
+      "Location[elevation]>(country|Switzerland)>(canton|Graub%C3%BCnden)", 
+      0.2419
+    ], 
+    [
+      "Location[populationDensity]>(country|India)>(isPartOf|Kerala)", 
+      0.2483
+    ], 
+    [
+      "Town[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)", 
+      0.2519
+    ]
+  ], 
+  "values": [
+    1011.3990740907439, 
+    1172.7956020907172, 
+    1123.352284766723, 
+    882.4008384829626, 
+    4697.203852994237, 
+    1072.4850727368166, 
+    6437.200257480646, 
+    864.1145246578565, 
+    1046.7401511737457, 
+    823.3232995957177, 
+    762.5425809212586, 
+    938.7987923042374, 
+    3692.4406341758995, 
+    1073.5899013275002, 
+    1011.1653384100314, 
+    1475.924350975172, 
+    954.8108056696327, 
+    1251.7820017221725, 
+    1009.2106677993443, 
+    933.817846614354, 
+    1032.6661954916385, 
+    1149.4387130911866, 
+    1032.590627520416, 
+    927.7391848529919, 
+    1124.9125304796203, 
+    1059.7413618209905, 
+    909.7342200523439, 
+    5807.3417958114915, 
+    3990.324846940426, 
+    1055.6005347445744, 
+    953.7213890889863
+  ]
+}

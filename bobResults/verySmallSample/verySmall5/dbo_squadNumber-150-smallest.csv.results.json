@@ -1,0 +1,190 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/squadNumber"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.177
+        ], 
+        [
+          "minimumElevation", 
+          0.2071
+        ], 
+        [
+          "populationDensity", 
+          0.2283
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          4.0
+        ], 
+        [
+          "populationDensity", 
+          4.0
+        ], 
+        [
+          "minimumElevation", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.177
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.177
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.177
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.2071
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.2071
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.2071
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.2071
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.218
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.218
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.218
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.218
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2591
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Nordfriesland)", 
+      0.1477
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Dithmarschen)>(federalState|Schleswig-Holstein)", 
+      0.1765
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Dithmarschen)", 
+      0.186
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Kansas)", 
+      0.1894
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Steinburg)", 
+      0.1978
+    ], 
+    [
+      "Location[minimumElevation]>(department|Manche)>(arrondissement|Arrondissement_of_Cherbourg)", 
+      0.2071
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Manche)>(arrondissement|Arrondissement_of_Cherbourg)", 
+      0.2071
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Texas)", 
+      0.226
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Colorado)", 
+      0.2386
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Iowa)>(type|Township_(United_States))>(timeZone|Central_Time_Zone)", 
+      0.2591
+    ]
+  ], 
+  "values": [
+    11.0, 
+    4.0, 
+    2.0, 
+    13.0, 
+    1.0, 
+    36.0, 
+    2.0
+  ]
+}

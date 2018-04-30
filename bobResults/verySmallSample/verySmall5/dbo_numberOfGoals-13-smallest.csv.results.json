@@ -1,0 +1,167 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfGoals"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "minimumElevation", 
+          0.1824
+        ], 
+        [
+          "elevation", 
+          0.1841
+        ], 
+        [
+          "height", 
+          0.1989
+        ]
+      ], 
+      "maj": [
+        [
+          "minimumElevation", 
+          6.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "height", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.1808
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.1811
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.1826
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1826
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1841
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1841
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1856
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.1989
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.1989
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[elevation]>(country|France)>(department|Charente-Maritime)", 
+      0.1578
+    ], 
+    [
+      "Location[minimumElevation]>(department|Pas-de-Calais)>(arrondissement|Arrondissement_of_Montreuil)", 
+      0.1727
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Pas-de-Calais)>(arrondissement|Arrondissement_of_Montreuil)", 
+      0.1727
+    ], 
+    [
+      "Location[minimumElevation]>(department|Somme)>(arrondissement|Abbeville)", 
+      0.1809
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Somme)>(arrondissement|Abbeville)", 
+      0.1809
+    ], 
+    [
+      "Location[minimumElevation]>(region|Pays_de_la_Loire)", 
+      0.193
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Pays_de_la_Loire)", 
+      0.1942
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(federalState|Lower_Saxony)", 
+      0.1959
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Charente-Maritime)>(region|Poitou-Charentes)", 
+      0.1987
+    ], 
+    [
+      "ArchitecturalStructure[height]", 
+      0.1989
+    ]
+  ], 
+  "values": [
+    64.0, 
+    67.0, 
+    7.0, 
+    96.0, 
+    31.0, 
+    27.0, 
+    4.0, 
+    25.0
+  ]
+}

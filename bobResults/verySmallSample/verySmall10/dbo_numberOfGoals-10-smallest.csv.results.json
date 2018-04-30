@@ -1,0 +1,151 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfGoals"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.1859
+        ], 
+        [
+          "minimumElevation", 
+          0.1931
+        ]
+      ], 
+      "maj": [
+        [
+          "minimumElevation", 
+          8.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.17
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.17
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.17
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.1934
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1934
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.1942
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.1947
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2018
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[populationDensity]>(isPartOf|Kansas)", 
+      0.17
+    ], 
+    [
+      "Location[minimumElevation]>(department|Manche)", 
+      0.1828
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Manche)", 
+      0.1842
+    ], 
+    [
+      "Location[minimumElevation]>(region|Pays_de_la_Loire)", 
+      0.1884
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Pays_de_la_Loire)", 
+      0.1896
+    ], 
+    [
+      "Location[minimumElevation]>(department|Pas-de-Calais)>(arrondissement|Arrondissement_of_Saint-Omer)", 
+      0.1986
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Pas-de-Calais)>(arrondissement|Arrondissement_of_Saint-Omer)", 
+      0.1986
+    ], 
+    [
+      "Location[minimumElevation]>(department|Somme)>(arrondissement|Abbeville)", 
+      0.2012
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Somme)>(arrondissement|Abbeville)", 
+      0.2012
+    ], 
+    [
+      "Location[populationDensity]>(type|Township_(Pennsylvania))>(22-rdf-syntax-ns#type|_Feature)>(country|United_States)", 
+      0.2018
+    ]
+  ], 
+  "values": [
+    47.0, 
+    8.0, 
+    1.0, 
+    16.0, 
+    45.0, 
+    1.0, 
+    73.0, 
+    55.0
+  ]
+}

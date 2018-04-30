@@ -31,16 +31,20 @@ class ValuesBag(object):
              filter(EXISTS{?p rdf:type owl:DatatypeProperty}) \
              filter (?p != <http://dbpedia.org/ontology/wikiPageID>) \
              filter (?p != <http://dbpedia.org/ontology/wikiPageRevisionID>) \
-             } LIMIT 1000"
+             } LIMIT 10000"
 #             } LIMIT 500"
 
         #print query
         #sparql = SPARQLWrapper("http://wdaqua-csv2rdf-fuseki.univ-st-etienne.fr/dbpedia/query")
-        sparql = SPARQLWrapper("http://dbpedia.org/sparql")
+        #sparql = SPARQLWrapper("http://dbpedia.org/sparql")
+        #sparql = SPARQLWrapper("http://35.198.64.247:8165/sparql")
+
         #sparql = SPARQLWrapper("http://localhost:23456/db-test/query")
         #sparql = SPARQLWrapper("http://localhost:3031/db-test/query")
 
         #sparql = SPARQLWrapper("http://kbox.kaist.ac.kr:5889/sparql")
+
+        sparql = SPARQLWrapper("http://ec2-34-241-15-85.eu-west-1.compute.amazonaws.com/sparql")
 
         sparql.setReturnFormat(JSON)
 

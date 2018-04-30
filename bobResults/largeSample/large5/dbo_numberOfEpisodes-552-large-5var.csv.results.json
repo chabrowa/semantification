@@ -1,0 +1,230 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEpisodes"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.1315
+        ], 
+        [
+          "elevation", 
+          0.151
+        ], 
+        [
+          "shipBeam", 
+          0.16
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          4.0
+        ], 
+        [
+          "populationDensity", 
+          4.0
+        ], 
+        [
+          "shipBeam", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.125
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.125
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1337
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1337
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.138
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.138
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.1507
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.151
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.151
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.151
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          0.16
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          0.16
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "AdministrativeRegion[populationDensity]>(state|Iowa)", 
+      0.1164
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Zamora)", 
+      0.125
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Zamora)", 
+      0.125
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Northern_Norway)>(isPartOf|Nordland)", 
+      0.1407
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Northern_Norway)>(isPartOf|Nordland)>(timeZone|Central_European_Time)", 
+      0.1486
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Northern_Norway)", 
+      0.1513
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Arkansas)", 
+      0.1596
+    ], 
+    [
+      "Ship[shipBeam]", 
+      0.16
+    ], 
+    [
+      "MeanOfTransportation[shipBeam]", 
+      0.16
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Northern_Norway)>(isPartOf|Troms)", 
+      0.1633
+    ]
+  ], 
+  "values": [
+    7.0, 
+    10.0, 
+    12.0, 
+    37.0, 
+    11.0, 
+    11.0, 
+    9.0, 
+    10.0, 
+    30.0, 
+    10.0, 
+    12.0, 
+    121.0, 
+    24.0, 
+    2.0, 
+    6.0, 
+    5.0, 
+    6.0, 
+    6.0, 
+    10.0, 
+    11.0, 
+    24.0, 
+    16.0, 
+    11.0, 
+    9.0, 
+    14.0, 
+    20.0, 
+    27.0, 
+    10.0, 
+    27.0, 
+    8.0, 
+    8.0, 
+    79.0, 
+    27.0, 
+    10.0, 
+    9.0, 
+    46.0, 
+    26.0, 
+    7.0, 
+    11.0, 
+    10.0, 
+    10.0, 
+    5.0, 
+    5.0, 
+    8.0, 
+    7.0, 
+    11.0, 
+    6.0
+  ]
+}

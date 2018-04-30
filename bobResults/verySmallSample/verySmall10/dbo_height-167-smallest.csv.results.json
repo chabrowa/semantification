@@ -1,0 +1,232 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/height"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfEpisodes", 
+          0.2335
+        ], 
+        [
+          "height", 
+          0.2916
+        ], 
+        [
+          "populationDensity", 
+          0.3105
+        ], 
+        [
+          "number", 
+          0.3112
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          5.0
+        ], 
+        [
+          "number", 
+          3.0
+        ], 
+        [
+          "numberOfEpisodes", 
+          1.0
+        ], 
+        [
+          "height", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          0.2335
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionSeason (numberOfEpisodes)", 
+          0.2335
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (height)", 
+          0.2916
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (height)", 
+          0.2916
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.3032
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.3048
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.3068
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.3068
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.3087
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.3087
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.3112
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.3112
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.3129
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsManager (number)", 
+          0.3153
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerManager (number)", 
+          0.3153
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsManager (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionSeason (numberOfEpisodes)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerManager (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (height)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "TelevisionSeason[numberOfEpisodes]>(country|United_Kingdom)", 
+      0.2335
+    ], 
+    [
+      "Ship[height]", 
+      0.2916
+    ], 
+    [
+      "Athlete[number]>(position|Midfielder)", 
+      0.3032
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Zamora)", 
+      0.3048
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Zamora)", 
+      0.3048
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Iowa)", 
+      0.3087
+    ], 
+    [
+      "Location[populationDensity]>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Estrie)>(country|Canada)", 
+      0.313
+    ], 
+    [
+      "SoccerManager[number]", 
+      0.3153
+    ], 
+    [
+      "SportsManager[number]", 
+      0.3153
+    ], 
+    [
+      "Location[populationDensity]>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Estrie)", 
+      0.3209
+    ]
+  ], 
+  "values": [
+    9.45171318192383, 
+    9.779362440875012, 
+    3.233521418803988, 
+    60.21645972882083, 
+    9.210097305653788, 
+    9.360891492231826, 
+    10.097012094444926, 
+    10.149531845987884, 
+    10.078144808957944, 
+    1.7052094603214876, 
+    9.623053580768504, 
+    4.8157847232005775, 
+    11.936105062412263, 
+    8.81683555904261, 
+    11.391166618395282, 
+    10.4381865955329, 
+    12.412271281851526
+  ]
+}

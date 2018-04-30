@@ -1,0 +1,179 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/minimumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "minimumElevation", 
+          0.1998
+        ], 
+        [
+          "populationTotal", 
+          0.2242
+        ], 
+        [
+          "elevation", 
+          0.2284
+        ]
+      ], 
+      "maj": [
+        [
+          "minimumElevation", 
+          6.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ], 
+        [
+          "populationTotal", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Village (minimumElevation)", 
+          0.1607
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.1979
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1991
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.2026
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.2035
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.2245
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.2284
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2284
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2284
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2284
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[minimumElevation]>(country|France)", 
+      0.1607
+    ], 
+    [
+      "PopulatedPlace[minimumElevation]", 
+      0.2031
+    ], 
+    [
+      "Location[minimumElevation]", 
+      0.2035
+    ], 
+    [
+      "Place[minimumElevation]", 
+      0.2035
+    ], 
+    [
+      "Settlement[minimumElevation]", 
+      0.206
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Pyr%C3%A9n%C3%A9es-Atlantiques)", 
+      0.2219
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_European_Time)>(isPartOf|Paphos_District)", 
+      0.2222
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_European_Time)>(isPartOf|Limassol_District)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2262
+    ], 
+    [
+      "Town[elevation]>(country|India)>(isPartOf|Andhra_Pradesh)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2283
+    ], 
+    [
+      "Town[elevation]>(country|India)>(isPartOf|Andhra_Pradesh)", 
+      0.2285
+    ]
+  ], 
+  "values": [
+    90.9972420096765, 
+    448.3565334340026, 
+    56.95479904595288, 
+    0.0, 
+    0.0, 
+    101.46963595601488, 
+    0.0, 
+    343.69508411438494, 
+    220.06174323339806, 
+    484.9643794502159, 
+    197.11690045202607, 
+    204.0230886463842
+  ]
+}

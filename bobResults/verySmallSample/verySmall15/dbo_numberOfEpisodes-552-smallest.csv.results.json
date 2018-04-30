@@ -1,0 +1,210 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEpisodes"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.3249
+        ], 
+        [
+          "elevation", 
+          0.3281
+        ], 
+        [
+          "populationDensity", 
+          0.3293
+        ], 
+        [
+          "number", 
+          0.3306
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "number", 
+          3.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ], 
+        [
+          "populationTotal", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.3249
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.3249
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.3249
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.3249
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.3267
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.3267
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.3267
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.3272
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.3293
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.3306
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.3306
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          0.3306
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.3306
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.3309
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[elevation]>(isPartOf|Northern_Norway)>(isPartOf|Troms)", 
+      0.3231
+    ], 
+    [
+      "Location[populationTotal]>(country|Poland)>(type|Human_settlement)", 
+      0.3249
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Poland)>(type|Human_settlement)", 
+      0.3249
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Germany)", 
+      0.325
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Le%C3%B3n)>(country|Spain)>(timeZone|Central_European_Time)", 
+      0.3293
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Le%C3%B3n)>(country|Spain)", 
+      0.3293
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Northern_Norway)>(isPartOf|Nordland)>(timeZone|Central_European_Time)", 
+      0.3304
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Yolo_County,_California)", 
+      0.3309
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Italy)", 
+      0.3333
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Spain)", 
+      0.3333
+    ]
+  ], 
+  "values": [
+    8.0, 
+    8.0, 
+    36.0
+  ]
+}

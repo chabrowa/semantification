@@ -1,0 +1,267 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runwayLength"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "runwayLength", 
+          0.076
+        ], 
+        [
+          "populationDensity", 
+          0.1051
+        ], 
+        [
+          "elevation", 
+          0.1112
+        ]
+      ], 
+      "maj": [
+        [
+          "runwayLength", 
+          5.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Airport (runwayLength)", 
+          0.076
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (runwayLength)", 
+          0.076
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (runwayLength)", 
+          0.076
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (runwayLength)", 
+          0.076
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (runwayLength)", 
+          0.076
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1046
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1089
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.1181
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1181
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          0.1181
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (runwayLength)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (runwayLength)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (runwayLength)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Airport (runwayLength)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (runwayLength)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "ArchitecturalStructure[runwayLength]", 
+      0.076
+    ], 
+    [
+      "Airport[runwayLength]", 
+      0.076
+    ], 
+    [
+      "Infrastructure[runwayLength]", 
+      0.076
+    ], 
+    [
+      "Place[runwayLength]", 
+      0.076
+    ], 
+    [
+      "Location[runwayLength]", 
+      0.076
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Himachal_Pradesh)", 
+      0.0997
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Illinois)>(isPartOf|Cook_County,_Illinois)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1011
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Illinois)>(isPartOf|Cook_County,_Illinois)", 
+      0.1091
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Himachal_Pradesh)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1159
+    ], 
+    [
+      "Mountain[elevation]>(locatedInArea|Japan)", 
+      0.1181
+    ]
+  ], 
+  "values": [
+    1311.7786357027833, 
+    1617.601306602193, 
+    1068.523555562333, 
+    1459.4986983493745, 
+    1557.7505988527928, 
+    733.2644516753693, 
+    1561.983826789255, 
+    1157.3157689258492, 
+    1590.2042826591878, 
+    1512.1591776062032, 
+    1737.5099248543236, 
+    925.0472198086026, 
+    1380.623352272521, 
+    733.3100232405313, 
+    1078.36796157959, 
+    2515.330626596591, 
+    1299.1559802898566, 
+    1176.5306117327307, 
+    2519.459461846133, 
+    1627.210358319664, 
+    617.9113886329762, 
+    957.2528534205239, 
+    1381.8382602132147, 
+    865.2077434668206, 
+    865.4609157028156, 
+    1569.2948157980413, 
+    2930.765993372604, 
+    1132.2836866924001, 
+    784.9647285145813, 
+    1460.4250052709845, 
+    1200.2771076049958, 
+    1513.6603894559937, 
+    638.8178786509857, 
+    2841.8138528520903, 
+    2974.835192897878, 
+    1501.2073984155259, 
+    3360.9290214068783, 
+    803.7310122631184, 
+    1184.307863814721, 
+    720.7366627013661, 
+    628.3881193938075, 
+    2204.0763772840387, 
+    400.5166781378606, 
+    1564.0060075308165, 
+    790.6875564606864, 
+    1459.2091805809096, 
+    486.65199699591284, 
+    1464.2023436730615, 
+    690.5733927999677, 
+    949.5196803736503, 
+    901.2797044528278, 
+    777.7720068281394, 
+    4643.176322332933, 
+    3692.6537504735097, 
+    1788.474105642365, 
+    2014.9886937563415, 
+    740.8224362937982, 
+    1722.232828589519, 
+    1426.7566750371343, 
+    1423.726763677094, 
+    1737.924568153917, 
+    1681.6036436131537, 
+    1143.7383500826807, 
+    2351.22163384106, 
+    1165.7591457738265, 
+    3180.966133636063, 
+    2967.635831418118, 
+    1163.9008502759204, 
+    777.6987434877434, 
+    2384.6346256315423, 
+    609.1903907457918, 
+    3001.912284655989, 
+    2311.312268017847, 
+    839.8475387247206, 
+    1249.8580138615778, 
+    1669.5831996153158, 
+    1182.974952244783, 
+    579.565422222341, 
+    3634.944821493309, 
+    792.193575034761, 
+    1672.824134862243, 
+    1229.2999361544082, 
+    2703.424956741463, 
+    44.45166449784876, 
+    1008.2389525921384, 
+    3995.039349374883, 
+    1060.8666483173515, 
+    2287.5000387786877, 
+    3546.6528855273996, 
+    1626.3724625229838, 
+    4096.182763624338, 
+    1397.7198110033569, 
+    3612.0701149909883, 
+    4238.845959678949, 
+    951.6112366304003, 
+    2762.306518479955, 
+    720.6647116093737, 
+    2547.9533530591975, 
+    11046.827851117408, 
+    801.3695102555939
+  ]
+}

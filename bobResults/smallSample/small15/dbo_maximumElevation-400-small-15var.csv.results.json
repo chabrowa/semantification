@@ -1,0 +1,205 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/maximumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.1032
+        ], 
+        [
+          "elevation", 
+          0.1109
+        ], 
+        [
+          "height", 
+          0.1216
+        ], 
+        [
+          "populationTotal", 
+          0.1325
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "populationTotal", 
+          3.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ], 
+        [
+          "height", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1032
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1032
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1032
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          0.1037
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1104
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (height)", 
+          0.1197
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.1234
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1312
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1325
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1325
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1336
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "City[populationDensity]>(country|Spain)", 
+      0.1008
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Gujarat)", 
+      0.1019
+    ], 
+    [
+      "City[populationDensity]>(country|Spain)>(timeZone|Central_European_Time)", 
+      0.1057
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Gujarat)>(country|India)", 
+      0.1059
+    ], 
+    [
+      "Location[height]", 
+      0.1197
+    ], 
+    [
+      "Place[height]", 
+      0.1234
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Monterey_County,_California)", 
+      0.125
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Isfahan_Province)>(isPartOf|Central_District_(Ardestan_County))", 
+      0.131
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Isfahan_Province)>(isPartOf|Central_District_(Ardestan_County))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1313
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Slovenia)>(isPartOf|Inner_Carniola%E2%80%93Karst_Statistical_Region)", 
+      0.1352
+    ]
+  ], 
+  "values": [
+    27.703104692102066, 
+    946.5994241652727, 
+    63.250944220984614, 
+    914.3387813075229, 
+    17.445086388436582, 
+    115.93100345488378, 
+    15.187043378770964, 
+    11.546802646621021, 
+    9.858680501435819, 
+    28.585613128740114, 
+    87.77906800425586, 
+    10.913727809482467, 
+    66.66382734931531, 
+    7.988774501664202, 
+    67.88661370392089, 
+    24.063879714880386, 
+    105.24326813922984, 
+    46.40127606999118, 
+    18.39366979322876, 
+    53.679766194535766, 
+    302.4704491380814, 
+    119.47248489702308
+  ]
+}

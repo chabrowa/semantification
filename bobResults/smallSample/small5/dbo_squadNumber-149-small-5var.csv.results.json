@@ -1,0 +1,215 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/squadNumber"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "squadNumber", 
+          0.092
+        ], 
+        [
+          "number", 
+          0.1113
+        ], 
+        [
+          "populationDensity", 
+          0.1176
+        ]
+      ], 
+      "maj": [
+        [
+          "number", 
+          5.0
+        ], 
+        [
+          "squadNumber", 
+          4.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Agent (squadNumber)", 
+          0.092
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (squadNumber)", 
+          0.092
+        ], 
+        [
+          "http://dbpedia.org/ontology/OrganisationMember (squadNumber)", 
+          0.092
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeamMember (squadNumber)", 
+          0.092
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.1113
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.1113
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.1113
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          0.1127
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          0.1167
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1176
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (squadNumber)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (squadNumber)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/OrganisationMember (squadNumber)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeamMember (squadNumber)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Person[squadNumber]", 
+      0.092
+    ], 
+    [
+      "SportsTeamMember[squadNumber]", 
+      0.092
+    ], 
+    [
+      "OrganisationMember[squadNumber]", 
+      0.092
+    ], 
+    [
+      "Agent[squadNumber]", 
+      0.092
+    ], 
+    [
+      "SoccerPlayer[number]", 
+      0.096
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Indonesia)", 
+      0.1038
+    ], 
+    [
+      "BasketballPlayer[number]>(nationality|Philippines)", 
+      0.1167
+    ], 
+    [
+      "Location[populationDensity]>(type|New_England_town)>(isPartOf|Vermont)", 
+      0.1176
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Spain)", 
+      0.119
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Germany)", 
+      0.1208
+    ]
+  ], 
+  "values": [
+    2.0, 
+    10.0, 
+    40.0, 
+    1.0, 
+    2.0, 
+    24.0, 
+    28.0, 
+    1.0, 
+    13.0, 
+    13.0, 
+    30.0, 
+    13.0, 
+    26.0, 
+    14.0, 
+    28.0, 
+    17.0, 
+    22.0, 
+    25.0, 
+    20.0, 
+    16.0, 
+    20.0, 
+    0.0, 
+    12.0, 
+    22.0, 
+    31.0, 
+    16.0, 
+    27.0, 
+    1.0, 
+    4.0, 
+    2.0, 
+    2.0, 
+    10.0, 
+    12.0, 
+    22.0, 
+    6.0, 
+    63.0, 
+    18.0, 
+    42.0, 
+    16.0, 
+    64.0, 
+    10.0, 
+    5.0, 
+    81.0, 
+    20.0, 
+    10.0, 
+    20.0, 
+    12.0, 
+    11.0
+  ]
+}

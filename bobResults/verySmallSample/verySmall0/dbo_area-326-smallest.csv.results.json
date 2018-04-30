@@ -1,0 +1,141 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/area"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfGoals", 
+          0.4493
+        ], 
+        [
+          "areaWater", 
+          0.5059
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          8.0
+        ], 
+        [
+          "numberOfGoals", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/CareerStation (numberOfGoals)", 
+          0.4493
+        ], 
+        [
+          "http://dbpedia.org/ontology/TimePeriod (numberOfGoals)", 
+          0.4493
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.5058
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.5059
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.5059
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.5059
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.5061
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TimePeriod (numberOfGoals)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/CareerStation (numberOfGoals)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "TimePeriod[numberOfGoals]", 
+      0.4493
+    ], 
+    [
+      "CareerStation[numberOfGoals]", 
+      0.4493
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Maryland)>(country|United_States)", 
+      0.5
+    ], 
+    [
+      "Location[areaWater]>(type|Administrative_divisions_of_New_York)>(isPartOf|Nassau_County,_New_York)", 
+      0.503
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Nebraska)", 
+      0.5052
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Idaho)>(timeZone|Pacific_Time_Zone)>(type|City)", 
+      0.5063
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|California)>(isPartOf|Riverside_County,_California)>(type|Census-designated_place)", 
+      0.507
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|California)>(isPartOf|Riverside_County,_California)>(type|Census-designated_place)>(country|United_States)", 
+      0.5072
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Indiana)", 
+      0.5082
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|South_Carolina)>(type|Census-designated_place)", 
+      0.5099
+    ]
+  ], 
+  "values": [
+    0.9139360511044544, 
+    1.024534294760291, 
+    0.9642261942985874, 
+    0.9504137830208678, 
+    0.907980869522999, 
+    0.9666522796083732
+  ]
+}

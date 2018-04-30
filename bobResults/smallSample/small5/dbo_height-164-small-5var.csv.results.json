@@ -1,0 +1,247 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/height"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.1182
+        ], 
+        [
+          "populationTotal", 
+          0.1247
+        ], 
+        [
+          "minimumElevation", 
+          0.1256
+        ], 
+        [
+          "numberOfEpisodes", 
+          0.1371
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          4.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "minimumElevation", 
+          2.0
+        ], 
+        [
+          "numberOfEpisodes", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1131
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.1236
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1247
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1247
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1247
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1247
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.1276
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.1276
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1276
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1284
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1284
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1284
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.1284
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          0.1371
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          0.1371
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Humboldt_County,_California)", 
+      0.1125
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Monterey_County,_California)", 
+      0.1136
+    ], 
+    [
+      "Location[minimumElevation]>(region|Languedoc-Roussillon)>(department|H%C3%A9rault)", 
+      0.1236
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|South_Khorasan_Province)>(isPartOf|Jolgeh-e_Mazhan_District)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1239
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|South_Khorasan_Province)>(isPartOf|Jolgeh-e_Mazhan_District)", 
+      0.125
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Isfahan_Province)>(isPartOf|Central_District_(Ardestan_County))", 
+      0.125
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Isfahan_Province)>(isPartOf|Central_District_(Ardestan_County))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.125
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Languedoc-Roussillon)>(department|H%C3%A9rault)", 
+      0.1276
+    ], 
+    [
+      "Town[elevation]>(isPartOf|New_Jersey)", 
+      0.1284
+    ], 
+    [
+      "TelevisionShow[numberOfEpisodes]>(network|Broadcast_syndication)>(language|English_language)", 
+      0.1371
+    ]
+  ], 
+  "values": [
+    1.628801859677143, 
+    172.99328359353254, 
+    77.15255554266368, 
+    227.19961923814685, 
+    37.169136391003356, 
+    21.203129931869206, 
+    45.1045008764843, 
+    32.39141997580682, 
+    239.18300337594155, 
+    53.63339016048998, 
+    15.404810969441819, 
+    44.3967392937119, 
+    102.22170763646206, 
+    13.066834946835893, 
+    5.3924959132788866, 
+    15.571724938910705, 
+    76.98863711419642, 
+    108.09229248911183, 
+    81.98291325456613, 
+    285.1273401955741, 
+    5.040376003875852, 
+    42.40172023610919, 
+    239.38553713058573, 
+    231.80053867376955, 
+    49.15148814878584, 
+    221.84587879786187, 
+    23.640406749645738, 
+    38.52036501478423, 
+    13.439517366069136, 
+    4.231876930706469, 
+    35.742100581160415, 
+    22.934497669166433
+  ]
+}

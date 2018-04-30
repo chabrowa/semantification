@@ -1,0 +1,281 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/activeYearsEndYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.2657
+        ], 
+        [
+          "populationTotal", 
+          0.2725
+        ], 
+        [
+          "minimumElevation", 
+          0.2725
+        ], 
+        [
+          "maximumElevation", 
+          0.2821
+        ]
+      ], 
+      "maj": [
+        [
+          "maximumElevation", 
+          3.0
+        ], 
+        [
+          "populationTotal", 
+          3.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ], 
+        [
+          "minimumElevation", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2634
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.2686
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2722
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.2722
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2722
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.2725
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (minimumElevation)", 
+          0.2725
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (minimumElevation)", 
+          0.2725
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.2729
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.273
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (minimumElevation)", 
+          0.2742
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          0.2759
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (maximumElevation)", 
+          0.2821
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.2821
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (maximumElevation)", 
+          0.2821
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (maximumElevation)", 
+          0.2821
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (minimumElevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (maximumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Place[elevation]>(country|Canada)", 
+      0.2586
+    ], 
+    [
+      "SkiArea[minimumElevation]>(location|United_States)", 
+      0.2641
+    ], 
+    [
+      "Village[populationTotal]>(country|United_Kingdom)>(country|West_Sussex)", 
+      0.2686
+    ], 
+    [
+      "NaturalPlace[elevation]", 
+      0.2729
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_Time_Zone)>(isPartOf|Vermont)>(type|New_England_town)>(country|United_States)", 
+      0.273
+    ], 
+    [
+      "Town[populationTotal]>(timeZone|Central_European_Time)>(isPartOf|North_Holland)", 
+      0.2759
+    ], 
+    [
+      "SkiArea[minimumElevation]>(location|United_States)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2809
+    ], 
+    [
+      "ArchitecturalStructure[maximumElevation]", 
+      0.282
+    ], 
+    [
+      "SportFacility[maximumElevation]", 
+      0.2821
+    ], 
+    [
+      "SkiArea[maximumElevation]", 
+      0.2821
+    ]
+  ], 
+  "values": [
+    1749.0, 
+    91.0, 
+    103.0, 
+    249.0, 
+    2388.0, 
+    60.0, 
+    54.0, 
+    1722.0, 
+    7.0, 
+    1772.0, 
+    2426.0, 
+    2128.0, 
+    1889.0, 
+    1696.0, 
+    2481.0, 
+    2055.0, 
+    1819.0, 
+    2096.0, 
+    1988.0, 
+    2283.0, 
+    2116.0, 
+    2319.0, 
+    1993.0, 
+    75.0, 
+    1673.0, 
+    2304.0, 
+    112.0, 
+    1793.0, 
+    2123.0, 
+    64.0, 
+    2040.0, 
+    86.0, 
+    43.0, 
+    65.0, 
+    3.0, 
+    2138.0, 
+    1943.0, 
+    1783.0, 
+    91.0, 
+    1993.0, 
+    2228.0, 
+    1645.0, 
+    1670.0, 
+    2202.0, 
+    53.0, 
+    1773.0, 
+    1958.0, 
+    2158.0, 
+    1632.0, 
+    68.0, 
+    2166.0, 
+    68.0, 
+    1670.0, 
+    2128.0, 
+    1906.0, 
+    1936.0, 
+    89.0, 
+    1942.0
+  ]
+}

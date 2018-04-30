@@ -1,0 +1,219 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/weight"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "weight", 
+          0.1265
+        ], 
+        [
+          "areaTotal", 
+          0.1718
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          8.0
+        ], 
+        [
+          "weight", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Automobile (weight)", 
+          0.0895
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (weight)", 
+          0.1265
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.1667
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1667
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.1673
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.1874
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          24.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (weight)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Automobile (weight)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Automobile[weight]", 
+      0.0895
+    ], 
+    [
+      "Settlement[areaTotal]>(isPartOf|Pennsylvania)>(type|List_of_Pittsburgh_neighborhoods)", 
+      0.1581
+    ], 
+    [
+      "MeanOfTransportation[weight]", 
+      0.1635
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Slovenia)>(isPartOf|Southeast_Slovenia_Statistical_Region)", 
+      0.1659
+    ], 
+    [
+      "Settlement[areaTotal]>(isPartOf|Pennsylvania)>(type|List_of_Pittsburgh_neighborhoods)>(22-rdf-syntax-ns#type|_Feature)>(isPartOf|Allegheny_County,_Pennsylvania)", 
+      0.1661
+    ], 
+    [
+      "Settlement[areaTotal]>(isPartOf|Pennsylvania)>(type|List_of_Pittsburgh_neighborhoods)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1664
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Slovenia)>(isPartOf|Upper_Carniola)", 
+      0.1712
+    ], 
+    [
+      "Settlement[areaTotal]>(isPartOf|Pennsylvania)>(type|List_of_Pittsburgh_neighborhoods)>(22-rdf-syntax-ns#type|_Feature)>(isPartOf|Allegheny_County,_Pennsylvania)>(country|United_States)", 
+      0.1724
+    ], 
+    [
+      "Location[areaTotal]>(country|Canada)>(governmentType|Municipal_corporation)", 
+      0.1867
+    ], 
+    [
+      "Location[areaTotal]>(country|Slovenia)>(isPartOf|Ivan%C4%8Dna_Gorica)", 
+      0.188
+    ]
+  ], 
+  "values": [
+    1936.9872350316114, 
+    520323.2524570788, 
+    1234472.4931162638, 
+    37444195.02264426, 
+    864060.0050721604, 
+    1204183.8435862884, 
+    610147.2229277197, 
+    1242246.8477915947, 
+    6366654.58497422, 
+    2247132.8667675843, 
+    601638.8940288587, 
+    1103582.4432658239, 
+    1674217.6226774056, 
+    368393.94313790085, 
+    17773079.36961722, 
+    1144911.186669161, 
+    1195394.1889644742, 
+    1836551.416212398, 
+    1739017.8155804027, 
+    1730575.3987278533, 
+    1678366.7450920118, 
+    788880.7077817982, 
+    799987.457779065, 
+    1318583.1699795981, 
+    1082596.1933657557, 
+    780771.3783563168, 
+    7829757.065150743, 
+    1127208.4201350869, 
+    1147596.850012428, 
+    843060.4967575085, 
+    1365880.133576241, 
+    1507985.9997065575, 
+    1648808.5131573821, 
+    1495346.485883781, 
+    521551.50119568733, 
+    577982.4271837923, 
+    1418435.8333487755, 
+    273687.54678714124, 
+    1098874.9650009517, 
+    1251441.072805359, 
+    2249677.397579272, 
+    1571408.047931413, 
+    1234787.4618452236, 
+    1260601.6874975304, 
+    9184210.162506813, 
+    1080900.1587546975, 
+    1975547.8885606537, 
+    1361883.7005200435, 
+    981587.4165568716, 
+    1284723.4599328127, 
+    887992.6889605629, 
+    3080206.4651690796, 
+    101.05154950959798, 
+    1902219.836455476, 
+    1474703.6350533708, 
+    1143516.957871792, 
+    1431076.590444454, 
+    1182913.9092345808, 
+    883816.2616331569, 
+    1679139.2092760967, 
+    8925381.489151992, 
+    1736361.6890796553, 
+    3995318.6122218813, 
+    1496554.2903429493, 
+    902269.1872501544, 
+    1339961.7277170275, 
+    1055760.3823094168, 
+    1365125.8411978967, 
+    2895739.2371975537, 
+    1221258.7873156336, 
+    1649878.2050052467, 
+    60375.22272740151, 
+    1526797.8060449152, 
+    1183305.662627457, 
+    1170125.5576310572, 
+    748721.7959869972, 
+    123311.50774497373, 
+    448696.1787405073, 
+    1270477.0895956683, 
+    18998432.58260657, 
+    1475347.776703471, 
+    1572406.4496674463, 
+    1881952.0476809682, 
+    302871.0451836112, 
+    3450477.9321970628, 
+    828989.8150889247, 
+    1512665.9421509912, 
+    509003.2065776092, 
+    918314.0486027682, 
+    516028.8790129335, 
+    957805.9587586506, 
+    1765211.747880847
+  ]
+}

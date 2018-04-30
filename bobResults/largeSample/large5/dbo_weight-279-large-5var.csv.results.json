@@ -1,0 +1,269 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/weight"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "weight", 
+          0.1965
+        ], 
+        [
+          "postalCode", 
+          0.2457
+        ]
+      ], 
+      "maj": [
+        [
+          "weight", 
+          9.0
+        ], 
+        [
+          "postalCode", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (weight)", 
+          0.1352
+        ], 
+        [
+          "http://dbpedia.org/ontology/Skater (weight)", 
+          0.1352
+        ], 
+        [
+          "http://dbpedia.org/ontology/TableTennisPlayer (weight)", 
+          0.1801
+        ], 
+        [
+          "http://dbpedia.org/ontology/MartialArtist (weight)", 
+          0.1897
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (weight)", 
+          0.1965
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (weight)", 
+          0.1965
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (weight)", 
+          0.1965
+        ], 
+        [
+          "http://dbpedia.org/ontology/Swimmer (weight)", 
+          0.2024
+        ], 
+        [
+          "http://dbpedia.org/ontology/Boxer (weight)", 
+          0.2238
+        ], 
+        [
+          "http://dbpedia.org/ontology/BadmintonPlayer (weight)", 
+          0.2454
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          0.2457
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (postalCode)", 
+          0.2457
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          0.2457
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          0.2457
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Athlete (weight)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (weight)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (weight)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Swimmer (weight)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MartialArtist (weight)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BadmintonPlayer (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Skater (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TableTennisPlayer (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Boxer (weight)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Skater[weight]", 
+      0.1352
+    ], 
+    [
+      "Swimmer[weight]", 
+      0.1718
+    ], 
+    [
+      "TableTennisPlayer[weight]", 
+      0.1801
+    ], 
+    [
+      "MartialArtist[weight]>(birthPlace|Japan)", 
+      0.1897
+    ], 
+    [
+      "Swimmer[weight]>(nationality|United_States)", 
+      0.1982
+    ], 
+    [
+      "Swimmer[weight]>(nationality|Australia)", 
+      0.2043
+    ], 
+    [
+      "Swimmer[weight]>(nationality|Canada)", 
+      0.22
+    ], 
+    [
+      "Boxer[weight]", 
+      0.2238
+    ], 
+    [
+      "BadmintonPlayer[weight]", 
+      0.2454
+    ], 
+    [
+      "City[postalCode]", 
+      0.2457
+    ]
+  ], 
+  "values": [
+    58876.49785375266, 
+    72010.95793037387, 
+    61542.43757333411, 
+    63345.234461019085, 
+    59491.53653241243, 
+    62423.49524705394, 
+    67333.34531892426, 
+    68420.66558253784, 
+    82409.77014673468, 
+    128970.65002879057, 
+    69815.36541580305, 
+    57413.34641514328, 
+    71654.67564816582, 
+    80256.19463019473, 
+    75635.76022793885, 
+    57675.22777542856, 
+    66768.42882175632, 
+    71213.9267704795, 
+    44310.88838681682, 
+    85590.43724095641, 
+    50163.352182385985, 
+    59520.44224780107, 
+    96135.2916871475, 
+    63161.539396141285, 
+    76115.61948319653, 
+    58165.75834504252, 
+    87361.06997049223, 
+    57078.664118015346, 
+    75186.44736158302, 
+    60491.136864150474, 
+    37846.19612704549, 
+    69855.12007537496, 
+    87249.20970834048, 
+    78108.70224564137, 
+    81744.13747742544, 
+    87777.91468270076, 
+    128088.78565701167, 
+    61124.04659561887, 
+    78162.35394967112, 
+    64654.63796754885, 
+    103534.89009843783, 
+    60047.83151793204, 
+    78164.74900443219, 
+    69962.17847881366, 
+    62248.204849460104, 
+    46451.23032867223, 
+    107051.12184230018, 
+    68186.37269743395, 
+    62657.0770485739, 
+    52988.490824980654, 
+    61772.69400336784, 
+    58280.12928905603, 
+    76046.31339442685, 
+    65312.882171536396, 
+    64551.948388932906, 
+    55450.961524342376, 
+    48065.80246155104, 
+    60767.02066199252, 
+    42745.311859464644, 
+    52140.05556883407, 
+    78457.6946775338, 
+    93448.16795446319, 
+    88210.15033270036, 
+    58170.80471291615, 
+    77264.88742315746, 
+    48298.73258466701, 
+    49668.61893007737, 
+    84303.16135152904, 
+    80847.74063133865, 
+    52428.178318655024, 
+    115339.28733480685, 
+    54514.99266631668, 
+    53952.22021051577, 
+    61768.53402278908, 
+    57390.358716918134, 
+    64903.06231658795, 
+    66234.00808154498, 
+    48902.22347227818
+  ]
+}

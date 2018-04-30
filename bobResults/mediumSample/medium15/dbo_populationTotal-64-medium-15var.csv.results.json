@@ -1,0 +1,221 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.1198
+        ], 
+        [
+          "populationTotal", 
+          0.148
+        ], 
+        [
+          "areaWater", 
+          0.1547
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          5.0
+        ], 
+        [
+          "populationTotal", 
+          3.0
+        ], 
+        [
+          "areaWater", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.0989
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (areaTotal)", 
+          0.1003
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1198
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          0.1337
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (areaTotal)", 
+          0.1339
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          0.134
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.148
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.148
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (populationTotal)", 
+          0.1492
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.1547
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.1547
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.1547
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.1547
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (areaTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Island[areaTotal]>(country|New_Zealand)", 
+      0.0917
+    ], 
+    [
+      "Island[areaTotal]>(country|New_Zealand)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1061
+    ], 
+    [
+      "NaturalPlace[areaTotal]", 
+      0.1332
+    ], 
+    [
+      "Lake[areaTotal]", 
+      0.1339
+    ], 
+    [
+      "BodyOfWater[areaTotal]", 
+      0.134
+    ], 
+    [
+      "Country[populationTotal]", 
+      0.1425
+    ], 
+    [
+      "Country[populationTotal]>(governmentType|Unitary_state)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.15
+    ], 
+    [
+      "Country[populationTotal]>(governmentType|Unitary_state)", 
+      0.1514
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Alaska)>(timeZone|Alaska_Time_Zone)>(type|Alaska)", 
+      0.1546
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Alaska)>(timeZone|Alaska_Time_Zone)", 
+      0.1548
+    ]
+  ], 
+  "values": [
+    113901.0, 
+    2463436.0, 
+    204392.0, 
+    84573.0, 
+    218558969.0, 
+    52037575.0, 
+    1411771.0, 
+    35357780.0, 
+    152674.0, 
+    125737.0, 
+    1746599.0, 
+    1112997.0, 
+    82977.0, 
+    49837807.0, 
+    19406804.0, 
+    8029641.0, 
+    53250801.0, 
+    36.0, 
+    8528453.0, 
+    323891988.0, 
+    3084.0, 
+    129510859.0, 
+    8018463.0, 
+    593929.0, 
+    2932275.0, 
+    15468942.0, 
+    934852214.0, 
+    7026310.0, 
+    597721.0, 
+    59118.0
+  ]
+}

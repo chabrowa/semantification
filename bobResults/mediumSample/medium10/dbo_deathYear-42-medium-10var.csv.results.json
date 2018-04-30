@@ -1,0 +1,241 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/deathYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.3322
+        ], 
+        [
+          "openingYear", 
+          0.3659
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          8.0
+        ], 
+        [
+          "openingYear", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          0.2983
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.323
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.323
+        ], 
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          0.3352
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.3364
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.3659
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.3659
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.3659
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.3659
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          0.3659
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          20.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Mountain[elevation]>(locatedInArea|Norway)>(locatedInArea|Oppland)", 
+      0.2983
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.304
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)", 
+      0.33
+    ], 
+    [
+      "Volcano[elevation]>(locatedInArea|Indonesia)>(type|Stratovolcano)", 
+      0.3347
+    ], 
+    [
+      "Volcano[elevation]>(locatedInArea|Indonesia)", 
+      0.3359
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)>(country|United_States)", 
+      0.3396
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Colorado)>(type|Census-designated_place)", 
+      0.3488
+    ], 
+    [
+      "RailwayTunnel[openingYear]", 
+      0.3659
+    ], 
+    [
+      "RailwayTunnel[openingYear]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3659
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)", 
+      0.366
+    ]
+  ], 
+  "values": [
+    1567.0, 
+    1979.0, 
+    1843.0, 
+    2473.0, 
+    1841.0, 
+    1871.0, 
+    1582.0, 
+    1886.0, 
+    2156.0, 
+    1970.0, 
+    1856.0, 
+    2061.0, 
+    2276.0, 
+    1833.0, 
+    1915.0, 
+    1834.0, 
+    1823.0, 
+    1870.0, 
+    1943.0, 
+    1954.0, 
+    1691.0, 
+    2189.0, 
+    2273.0, 
+    1926.0, 
+    1688.0, 
+    2022.0, 
+    1673.0, 
+    2159.0, 
+    1982.0, 
+    1879.0, 
+    1870.0, 
+    1891.0, 
+    1885.0, 
+    2350.0, 
+    2168.0, 
+    2249.0, 
+    1879.0, 
+    2242.0, 
+    2301.0, 
+    1822.0, 
+    2269.0, 
+    2068.0, 
+    2012.0, 
+    1829.0, 
+    2222.0, 
+    2144.0, 
+    1921.0, 
+    1750.0, 
+    1793.0, 
+    1970.0, 
+    1816.0, 
+    1561.0, 
+    1974.0, 
+    1829.0, 
+    2114.0, 
+    1643.0, 
+    1995.0, 
+    1767.0, 
+    1901.0, 
+    2180.0, 
+    2194.0, 
+    2153.0, 
+    1763.0, 
+    2213.0, 
+    1994.0, 
+    1774.0, 
+    1857.0, 
+    1577.0, 
+    2214.0, 
+    1986.0, 
+    2082.0, 
+    1799.0, 
+    2263.0, 
+    2038.0, 
+    2072.0, 
+    1966.0, 
+    2180.0, 
+    2289.0, 
+    1753.0, 
+    2103.0, 
+    1670.0, 
+    2139.0
+  ]
+}

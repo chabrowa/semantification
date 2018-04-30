@@ -1,0 +1,147 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfSeasons"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1218
+        ], 
+        [
+          "areaWater", 
+          0.1397
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          8.0
+        ], 
+        [
+          "populationTotal", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1218
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1218
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (populationTotal)", 
+          0.1225
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.1344
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          0.1408
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.1414
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.1414
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.1414
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          17.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Island[populationTotal]>(country|New_Zealand)", 
+      0.1186
+    ], 
+    [
+      "Island[populationTotal]>(country|New_Zealand)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.125
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Arkansas)>(type|Town)", 
+      0.1283
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Arkansas)>(type|Town)", 
+      0.1295
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Oklahoma)>(type|Town)", 
+      0.1393
+    ], 
+    [
+      "Town[areaWater]>(governmentType|List_of_cities_and_towns_in_Colorado)>(country|United_States)", 
+      0.1397
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Oklahoma)>(type|Town)", 
+      0.14
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Oklahoma)", 
+      0.1429
+    ], 
+    [
+      "Town[areaWater]>(governmentType|List_of_cities_and_towns_in_Colorado)>(country|United_States)>(type|Town)", 
+      0.1441
+    ], 
+    [
+      "Town[areaWater]>(governmentType|List_of_cities_and_towns_in_Colorado)", 
+      0.1534
+    ]
+  ], 
+  "values": [
+    0.0, 
+    0.0, 
+    0.0, 
+    1.0
+  ]
+}

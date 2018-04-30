@@ -15,23 +15,42 @@ class Experiment(object):
         # Results
         self.levelResults        = self.getLevelScore()
         self.results             = self.getScore()
+        self.distribution        = self.getDistribution()
 
+
+    def getDistribution(self):
+        #distribution = []
+
+        for datasetPrediction in self.datasetsPredictions:
+            # calculating if any predictions
+            correctMapping =  self.getPropertyName(datasetPrediction.columnMapping[2])
+            finalScores = datasetPrediction.scores['finalResults'][2]
+            correctPosition = -1
+            counter = 0
+            for prediction in enumerate(finalScores):
+                (p,d) = prediction[1]
+                if correctMapping == p:
+                    correctPosition = counter
+                counter += 1
+            #distribution.append((datasetPrediction.rowsNumber, ))
+            print str(datasetPrediction.rowsNumber) + ", " + str(correctPosition)
+        return -1
 
 
     def getDatasetPredictions(self):
         datasetPredictions = []
         count = 0
         for fn in os.listdir(self.dataPath):
-            #if count < 20:
-            #print str(count) + ":  " + str(fn)
+            #if count < 5:
+            print str(count) + ":  " + str(fn)
             datasetPath = os.path.join(self.dataPath, fn)
             #if fn == "dbo_formationYear-817-smallest.csv":
-            if "dbo_formationYear" in fn:
-                print str(count) + ":  " + str(fn)
-                dataset = DatasetPrediction(datasetPath)
-                if dataset.scores != -1:
-                    datasetPredictions.append(dataset)
-                count = count + 1
+            #if "dbo_formationYear" in fn:
+            #print str(count) + ":  " + str(fn)
+            dataset = DatasetPrediction(datasetPath)
+            if dataset.scores != -1:
+                datasetPredictions.append(dataset)
+            count = count + 1
         print "all datasets: " + str(count)
 
         return datasetPredictions

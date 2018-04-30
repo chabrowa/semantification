@@ -1,0 +1,258 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.1066
+        ], 
+        [
+          "budget", 
+          0.1459
+        ], 
+        [
+          "area", 
+          0.2919
+        ]
+      ], 
+      "maj": [
+        [
+          "area", 
+          8.0
+        ], 
+        [
+          "areaTotal", 
+          1.0
+        ], 
+        [
+          "budget", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.1066
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1066
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (areaTotal)", 
+          0.1066
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (budget)", 
+          0.1459
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (budget)", 
+          0.1459
+        ], 
+        [
+          "http://dbpedia.org/ontology/GovernmentAgency (budget)", 
+          0.1459
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (area)", 
+          0.2687
+        ], 
+        [
+          "http://dbpedia.org/ontology/Diocese (area)", 
+          0.2867
+        ], 
+        [
+          "http://dbpedia.org/ontology/ClericalAdministrativeRegion (area)", 
+          0.2932
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (area)", 
+          0.2953
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          0.2953
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (area)", 
+          0.2953
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          0.2953
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Diocese (area)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (area)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (area)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ClericalAdministrativeRegion (area)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (area)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/GovernmentAgency (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (budget)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (budget)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (areaTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Country[areaTotal]", 
+      0.1066
+    ], 
+    [
+      "GovernmentAgency[budget]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1459
+    ], 
+    [
+      "Location[area]>(jurisdiction|Diocese)>(country|China)", 
+      0.2687
+    ], 
+    [
+      "Diocese[area]>(country|China)>(jurisdiction|Diocese)", 
+      0.2687
+    ], 
+    [
+      "Diocese[area]>(country|China)", 
+      0.2693
+    ], 
+    [
+      "Diocese[area]>(country|United_States)", 
+      0.303
+    ], 
+    [
+      "Diocese[area]>(country|Brazil)", 
+      0.3046
+    ], 
+    [
+      "ClericalAdministrativeRegion[area]", 
+      0.3069
+    ], 
+    [
+      "Diocese[area]", 
+      0.3069
+    ], 
+    [
+      "AdministrativeRegion[area]", 
+      0.3075
+    ]
+  ], 
+  "values": [
+    5793237370.427929, 
+    4019172658475.6426, 
+    2138093446.4790676, 
+    152539788.46058884, 
+    74329717615.35529, 
+    103747109725.05086, 
+    91575367341.07307, 
+    12234296842.14489, 
+    415811146520.79584, 
+    10143001341.5075, 
+    38318636940.60068, 
+    75715802.46616787, 
+    4650145042247.293, 
+    682345107.4332297, 
+    200835389203.03735, 
+    539600214984.30597, 
+    11016356109.213428, 
+    131642832.31760775, 
+    29326931207.81819, 
+    2072392212847.557, 
+    21602722.231269225, 
+    856915691343.2909, 
+    35727990448.750114, 
+    67864463002.02464, 
+    3320291004.1734924, 
+    711274066244.5095, 
+    36478526984.88458, 
+    15528018416.997602, 
+    8454503494.736871, 
+    69407960607.05862, 
+    2253069385.9231277, 
+    1955420848522.1196, 
+    4738882519.744114, 
+    322685681052.98694, 
+    41438540303.18606, 
+    8086829646.706903, 
+    468419328.5011058, 
+    388872875172.82947, 
+    70464120299.35318, 
+    18077218707.146812, 
+    359330026.31945646, 
+    331769.5795952565, 
+    47506076.70647994, 
+    26873910147.182617, 
+    1852862839970.9517, 
+    548460050245.1529, 
+    12491666476.671436, 
+    504928213.789059, 
+    40063839136.93386, 
+    1071143546550.9547, 
+    2818193527.610964, 
+    54358044231.9642, 
+    535885093760.72253, 
+    16787539954.339025, 
+    725413208501.1528, 
+    13566976138.927454, 
+    1494937953497.8755, 
+    1386514.6324596263, 
+    20266030229.520557, 
+    10865839692544.924, 
+    2024548240.5178561, 
+    2149573129.5332656, 
+    309614111690.3801, 
+    161917052319.20984, 
+    4031049555.096949, 
+    2571787464579.6826, 
+    237098058697.95737
+  ]
+}

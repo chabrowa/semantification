@@ -1,0 +1,168 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/height"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "height", 
+          0.1789
+        ]
+      ], 
+      "maj": [
+        [
+          "height", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Artist (height)", 
+          0.14
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdultActor (height)", 
+          0.1428
+        ], 
+        [
+          "http://dbpedia.org/ontology/Actor (height)", 
+          0.1429
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bodybuilder (height)", 
+          0.1544
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (height)", 
+          0.1789
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (height)", 
+          0.1789
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (height)", 
+          0.1953
+        ], 
+        [
+          "http://dbpedia.org/ontology/PlayboyPlaymate (height)", 
+          0.1969
+        ], 
+        [
+          "http://dbpedia.org/ontology/FigureSkater (height)", 
+          0.1972
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (height)", 
+          0.1979
+        ], 
+        [
+          "http://dbpedia.org/ontology/TableTennisPlayer (height)", 
+          0.2256
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Agent (height)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (height)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/FigureSkater (height)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (height)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (height)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (height)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Actor (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdultActor (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PlayboyPlaymate (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bodybuilder (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TableTennisPlayer (height)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Artist[height]", 
+      0.1343
+    ], 
+    [
+      "AdultActor[height]", 
+      0.1428
+    ], 
+    [
+      "Actor[height]", 
+      0.143
+    ], 
+    [
+      "Bodybuilder[height]", 
+      0.1544
+    ], 
+    [
+      "FigureSkater[height]>(country|China)", 
+      0.1558
+    ], 
+    [
+      "PlayboyPlaymate[height]", 
+      0.1969
+    ], 
+    [
+      "FigureSkater[height]", 
+      0.2032
+    ], 
+    [
+      "FigureSkater[height]>(country|Japan)", 
+      0.2083
+    ], 
+    [
+      "FigureSkater[height]>(country|South_Korea)", 
+      0.2242
+    ], 
+    [
+      "TableTennisPlayer[height]", 
+      0.2256
+    ]
+  ], 
+  "values": [
+    1.7690710934879772, 
+    1.7952148177538085, 
+    1.578014852964832, 
+    1.7058146817149453, 
+    1.465497953683953, 
+    1.6365913072826672, 
+    1.6568686318012518, 
+    1.5440586929625453, 
+    1.700723430153262
+  ]
+}

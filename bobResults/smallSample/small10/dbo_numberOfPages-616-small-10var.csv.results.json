@@ -1,0 +1,193 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfPages"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.1761
+        ], 
+        [
+          "populationDensity", 
+          0.1778
+        ], 
+        [
+          "minimumElevation", 
+          0.1857
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          6.0
+        ], 
+        [
+          "populationDensity", 
+          3.0
+        ], 
+        [
+          "minimumElevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1742
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1749
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1749
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1763
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          0.1778
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1785
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1785
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1785
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1785
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.1857
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.1857
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1857
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[elevation]>(country|Italy)>(province|Province_of_Rome)>(region|Latium)", 
+      0.1661
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Hautes-Pyr%C3%A9n%C3%A9es)", 
+      0.1685
+    ], 
+    [
+      "Location[elevation]>(country|Spain)>(isPartOf|Province_of_Badajoz)", 
+      0.1714
+    ], 
+    [
+      "Village[populationDensity]>(isPartOf|Ohio)>(type|Village_(United_States))", 
+      0.1749
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Ohio)>(type|Village_(United_States))", 
+      0.1763
+    ], 
+    [
+      "Settlement[elevation]>(country|Spain)>(isPartOf|Province_of_Badajoz)", 
+      0.18
+    ], 
+    [
+      "Village[populationDensity]>(isPartOf|Ohio)", 
+      0.1821
+    ], 
+    [
+      "Settlement[elevation]>(country|Spain)>(isPartOf|Province_of_C%C3%A1ceres)", 
+      0.1851
+    ], 
+    [
+      "Location[elevation]>(country|Spain)>(isPartOf|Province_of_C%C3%A1ceres)", 
+      0.1855
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Auvergne_(region))", 
+      0.1857
+    ]
+  ], 
+  "values": [
+    540.0, 
+    101.0, 
+    605.0, 
+    700.0, 
+    359.0, 
+    499.0, 
+    396.0, 
+    489.0, 
+    401.0, 
+    190.0
+  ]
+}

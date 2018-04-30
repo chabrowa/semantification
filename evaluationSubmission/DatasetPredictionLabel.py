@@ -10,7 +10,16 @@ class DatasetPrediction(object):
         self.datasetPath   = datasetPath
         self.columnMapping = self.getColumnMapping()
         self.scores        = self.getScores()
+        self.rowsNumber    = self.getRowsNumber()
 
+
+    def getRowsNumber(self):
+        # predefined where are numerical and subject columns
+        dataset = Dataset(self.datasetPath , 1, [2])
+        if self.checkDataset(dataset.df) == False:
+            return -1
+
+        return dataset.df.size
 
     def checkDataset(self, dataset):
         if dataset.size > 2:

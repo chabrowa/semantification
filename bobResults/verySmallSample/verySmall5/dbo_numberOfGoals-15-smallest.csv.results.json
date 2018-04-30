@@ -1,0 +1,207 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfGoals"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfSeasons", 
+          0.1954
+        ], 
+        [
+          "elevation", 
+          0.1979
+        ], 
+        [
+          "populationDensity", 
+          0.2243
+        ], 
+        [
+          "minimumElevation", 
+          0.24
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          6.0
+        ], 
+        [
+          "minimumElevation", 
+          2.0
+        ], 
+        [
+          "numberOfSeasons", 
+          1.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          0.1954
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          0.1954
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1979
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1979
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1991
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.2243
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.2243
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.2243
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.2243
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.24
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.24
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.24
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.24
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          20.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Steinburg)", 
+      0.1442
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Dithmarschen)>(federalState|Schleswig-Holstein)", 
+      0.1941
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]>(format|Aspect_ratio_(image))>(format|16:9)", 
+      0.1954
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Dithmarschen)", 
+      0.1977
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Nordfriesland)", 
+      0.2079
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Vorpommern-R%C3%BCgen)", 
+      0.2171
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Texas)", 
+      0.2243
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Vorpommern-R%C3%BCgen)>(federalState|Mecklenburg-Vorpommern)", 
+      0.2264
+    ], 
+    [
+      "Location[minimumElevation]>(department|Manche)>(arrondissement|Arrondissement_of_Cherbourg)", 
+      0.24
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Manche)>(arrondissement|Arrondissement_of_Cherbourg)", 
+      0.24
+    ]
+  ], 
+  "values": [
+    11.0, 
+    13.0, 
+    23.0, 
+    1.0, 
+    2.0, 
+    4.0, 
+    2.0, 
+    17.0
+  ]
+}

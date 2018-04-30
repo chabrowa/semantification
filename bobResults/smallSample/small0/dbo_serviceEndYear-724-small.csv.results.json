@@ -1,0 +1,173 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/serviceEndYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.2795
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.2693
+        ], 
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          0.2907
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.2976
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2976
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (elevation)", 
+          0.3106
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (elevation)", 
+          0.3106
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          27.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.2308
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)", 
+      0.2503
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)>(country|United_States)", 
+      0.2564
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Colorado)>(type|Census-designated_place)", 
+      0.2633
+    ], 
+    [
+      "Volcano[elevation]>(locatedInArea|Indonesia)>(type|Stratovolcano)", 
+      0.2889
+    ], 
+    [
+      "Volcano[elevation]>(locatedInArea|Indonesia)", 
+      0.2935
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)", 
+      0.2954
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Colorado)", 
+      0.2984
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Colorado)>(type|Town)", 
+      0.3072
+    ], 
+    [
+      "Lake[elevation]>(location|Glacier_National_Park_(U.S.))>(location|Glacier_County,_Montana)>(location|United_States)", 
+      0.3106
+    ]
+  ], 
+  "values": [
+    1832.0, 
+    1781.0, 
+    2212.0, 
+    1992.0, 
+    1846.0, 
+    1775.0, 
+    2290.0, 
+    1595.0, 
+    2482.0, 
+    1950.0, 
+    2284.0, 
+    2173.0, 
+    1991.0, 
+    1787.0, 
+    1883.0, 
+    1891.0, 
+    2196.0, 
+    1671.0, 
+    1789.0, 
+    1857.0, 
+    2084.0, 
+    2029.0, 
+    2063.0, 
+    1889.0, 
+    2105.0, 
+    1563.0, 
+    1876.0, 
+    2380.0, 
+    1929.0, 
+    1860.0, 
+    2160.0, 
+    2315.0, 
+    2123.0, 
+    2221.0, 
+    2131.0, 
+    1633.0, 
+    1862.0, 
+    1504.0, 
+    1455.0, 
+    2217.0, 
+    1932.0, 
+    2066.0, 
+    1524.0, 
+    1939.0, 
+    1865.0, 
+    1775.0, 
+    1713.0, 
+    1605.0, 
+    1877.0, 
+    1788.0, 
+    2082.0, 
+    1905.0, 
+    1685.0, 
+    1659.0
+  ]
+}

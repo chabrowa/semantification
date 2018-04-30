@@ -1,0 +1,148 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/activeYearsEndYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.3191
+        ], 
+        [
+          "areaCode", 
+          0.332
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          8.0
+        ], 
+        [
+          "areaCode", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          0.3107
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.3161
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.3221
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.3221
+        ], 
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          0.3277
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          0.3305
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          20.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.2668
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Colorado)>(type|Census-designated_place)", 
+      0.2875
+    ], 
+    [
+      "Mountain[elevation]>(locatedInArea|Norway)>(locatedInArea|Oppland)", 
+      0.3107
+    ], 
+    [
+      "Location[areaCode]>(country|England)>(country|Cumbria)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3216
+    ], 
+    [
+      "Volcano[elevation]>(locatedInArea|Indonesia)>(type|Stratovolcano)", 
+      0.327
+    ], 
+    [
+      "Volcano[elevation]>(locatedInArea|Indonesia)", 
+      0.3287
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)", 
+      0.3319
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)>(country|United_States)", 
+      0.3385
+    ], 
+    [
+      "Location[areaCode]>(country|England)>(country|Cumbria)", 
+      0.3423
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)", 
+      0.3617
+    ]
+  ], 
+  "values": [
+    1677.0, 
+    1723.0, 
+    1848.0, 
+    2285.0, 
+    2136.0, 
+    1807.0, 
+    2042.0, 
+    2248.0, 
+    2078.0, 
+    1907.0, 
+    2015.0, 
+    1866.0, 
+    1796.0, 
+    1734.0, 
+    1936.0, 
+    2383.0, 
+    1754.0, 
+    2214.0, 
+    1486.0, 
+    2038.0, 
+    2070.0
+  ]
+}

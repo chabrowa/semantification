@@ -1,0 +1,272 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/yearOfConstruction"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "deathYear", 
+          0.1886
+        ], 
+        [
+          "elevation", 
+          0.1976
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.2002
+        ], 
+        [
+          "foundingYear", 
+          0.2213
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          6.0
+        ], 
+        [
+          "foundingYear", 
+          2.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          1.0
+        ], 
+        [
+          "deathYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1868
+        ], 
+        [
+          "http://dbpedia.org/ontology/Painter (deathYear)", 
+          0.1886
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          0.1886
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (deathYear)", 
+          0.1886
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          0.1886
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.2002
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.2002
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsEndYear)", 
+          0.2002
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsEndYear)", 
+          0.2002
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (elevation)", 
+          0.2109
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (elevation)", 
+          0.2115
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.2115
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2115
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          0.2165
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.2165
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.2165
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          0.2165
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (foundingYear)", 
+          0.226
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (foundingYear)", 
+          0.226
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (foundingYear)", 
+          0.226
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          16.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Painter (deathYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (deathYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.1651
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)>(country|United_States)", 
+      0.178
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)", 
+      0.1807
+    ], 
+    [
+      "Painter[deathYear]", 
+      0.1886
+    ], 
+    [
+      "ChristianBishop[activeYearsEndYear]>(religion|Anglicanism)", 
+      0.2002
+    ], 
+    [
+      "Lake[elevation]>(location|Glacier_National_Park_(U.S.))>(location|Glacier_County,_Montana)>(location|United_States)", 
+      0.2076
+    ], 
+    [
+      "Lake[elevation]>(location|Glacier_National_Park_(U.S.))>(location|Glacier_County,_Montana)", 
+      0.2154
+    ], 
+    [
+      "School[foundingYear]>(type|Independent_school_(United_Kingdom))", 
+      0.2165
+    ], 
+    [
+      "Settlement[foundingYear]", 
+      0.226
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)", 
+      0.2388
+    ]
+  ], 
+  "values": [
+    1750.0, 
+    1453.0, 
+    1880.0, 
+    1708.0, 
+    1623.0, 
+    2196.0, 
+    2161.0, 
+    1699.0, 
+    1830.0, 
+    2028.0, 
+    1859.0, 
+    1975.0, 
+    1565.0, 
+    1433.0, 
+    1872.0, 
+    1999.0, 
+    1842.0
+  ]
+}

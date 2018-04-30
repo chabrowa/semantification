@@ -1,0 +1,180 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.2169
+        ], 
+        [
+          "runwayLength", 
+          0.2281
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          8.0
+        ], 
+        [
+          "runwayLength", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1958
+        ], 
+        [
+          "http://dbpedia.org/ontology/Airport (runwayLength)", 
+          0.2281
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (runwayLength)", 
+          0.2281
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (runwayLength)", 
+          0.2281
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (runwayLength)", 
+          0.2281
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (runwayLength)", 
+          0.2281
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2522
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2522
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2522
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.2542
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          20.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Airport (runwayLength)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (runwayLength)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (runwayLength)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (runwayLength)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (runwayLength)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(type|Census-designated_place)", 
+      0.1664
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(type|Unincorporated_area)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1757
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)", 
+      0.1757
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(type|Unincorporated_area)", 
+      0.1931
+    ], 
+    [
+      "Airport[runwayLength]>(owner|Alaska_Department_of_Transportation_&_Public_Facilities)", 
+      0.2281
+    ], 
+    [
+      "Location[runwayLength]>(owner|Alaska_Department_of_Transportation_&_Public_Facilities)", 
+      0.2281
+    ], 
+    [
+      "Town[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)", 
+      0.2372
+    ], 
+    [
+      "Town[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(type|Town)", 
+      0.2585
+    ], 
+    [
+      "Town[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(type|Town)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2609
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(type|Town)", 
+      0.2678
+    ]
+  ], 
+  "values": [
+    936.9743133902188, 
+    878.558535749798, 
+    1100.3040476857311, 
+    1047.8466236235035, 
+    1149.868295707041, 
+    1322.0828139148362, 
+    1081.1663151916416, 
+    977.2603459467787, 
+    23480.39254147032, 
+    1025.9500752557528, 
+    942.8552033182636, 
+    963.9491498078758, 
+    1001.5039747401725, 
+    946.0556270906583, 
+    938.6841372963952, 
+    779.0189090453601, 
+    841.8922130692255, 
+    3561.651843603336, 
+    1282.2956543340838, 
+    927.0158044469324, 
+    890.391936474265
+  ]
+}

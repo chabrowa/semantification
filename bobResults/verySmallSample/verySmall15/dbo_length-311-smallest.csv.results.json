@@ -1,0 +1,355 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/length"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "length", 
+          0.0909
+        ], 
+        [
+          "populationDensity", 
+          0.094
+        ], 
+        [
+          "maximumElevation", 
+          0.0941
+        ], 
+        [
+          "minimumElevation", 
+          0.103
+        ], 
+        [
+          "populationTotal", 
+          0.1062
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          3.0
+        ], 
+        [
+          "minimumElevation", 
+          2.0
+        ], 
+        [
+          "length", 
+          2.0
+        ], 
+        [
+          "maximumElevation", 
+          2.0
+        ], 
+        [
+          "populationTotal", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (length)", 
+          0.0909
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.0927
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.0929
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.0935
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          0.0935
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          0.0935
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (length)", 
+          0.0938
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.094
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.094
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          0.0948
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.0964
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.0964
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.1026
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.1026
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1026
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.1035
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1062
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1062
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1062
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Ship[length]", 
+      0.082
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(country|South_Korea)>(type|List_of_cities_in_South_Korea)", 
+      0.0918
+    ], 
+    [
+      "Settlement[maximumElevation]>(region|Pays_de_la_Loire)>(department|Vend%C3%A9e)", 
+      0.0935
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(country|South_Korea)", 
+      0.0939
+    ], 
+    [
+      "Location[maximumElevation]>(region|Pays_de_la_Loire)>(department|Vend%C3%A9e)", 
+      0.0948
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Alabama)", 
+      0.0964
+    ], 
+    [
+      "Ship[length]>(country|United_Kingdom)", 
+      0.0998
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Dordogne)>(region|Aquitaine)", 
+      0.1026
+    ], 
+    [
+      "Location[minimumElevation]>(department|Dordogne)>(region|Aquitaine)", 
+      0.1035
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Slovenia)>(isPartOf|Municipality_of_Sevnica)", 
+      0.1062
+    ]
+  ], 
+  "values": [
+    98.35209102829764, 
+    146.63116655749633, 
+    46.939729807651425, 
+    104.50316505312058, 
+    60.21895922523686, 
+    239.08756155625156, 
+    99.82175065541108, 
+    128.81228555809892, 
+    5.958077267104379, 
+    120.3247124249905, 
+    14.044043822924964, 
+    151.33008766798278, 
+    97.23520481631373, 
+    53.687551945529975, 
+    127.49739767243534, 
+    16.028265877239328, 
+    46.76748580010295, 
+    35.906123681485745, 
+    65.84132353170135, 
+    16.05431688623832, 
+    59.66091087103879, 
+    167.076401794277, 
+    48.197370175320316, 
+    115.42630217111204, 
+    183.16165025590087, 
+    200.5854291510597, 
+    51.86133751526285, 
+    39.66229666987392, 
+    209.47535157385985, 
+    114.9188160665148, 
+    45.68436688863969, 
+    138.28242478823276, 
+    27.545913100524533, 
+    15.719529115516178, 
+    29.702695112679205, 
+    85.48568864340466, 
+    63.74150466371605, 
+    98.20608480086173, 
+    96.6300268275995, 
+    19.106596349435485, 
+    104.10243454793647, 
+    100.97603658087253, 
+    69.96052219564329, 
+    64.43239601793495, 
+    29.957518650603063, 
+    86.6445943149601, 
+    64.89299342446174, 
+    66.32942253405925, 
+    106.42485600621242, 
+    54.008023678534805, 
+    73.10541487833446, 
+    126.09848959753539, 
+    91.07774103710986, 
+    11.68836124897337, 
+    220.70158816563438, 
+    82.57886017926573, 
+    19.28979427901388, 
+    77.16357439885373, 
+    148.32006176420214, 
+    62.45653139133186, 
+    82.76945630295185, 
+    54.691897668023294, 
+    132.6176314282502, 
+    47.76106741097247, 
+    54.01379803868088, 
+    112.2910845798489, 
+    75.97477814745329, 
+    176.3020042446742, 
+    101.25168853786444, 
+    140.19352527872985, 
+    106.1446784110089, 
+    65.0493725622368, 
+    115.65646780378613, 
+    55.38090446090684, 
+    177.60291779047353, 
+    156.1950213702481, 
+    94.72709113629121, 
+    51.28716854368569, 
+    20.111284185740153, 
+    203.4198251576564, 
+    46.021155951409916, 
+    50.45456891491338, 
+    53.68410561202717, 
+    95.76073004345663, 
+    180.36871172076818, 
+    94.04057491827642, 
+    86.38955413740906, 
+    49.32242027905292, 
+    70.60478302126691, 
+    382.1574392258816, 
+    63.13031014644614, 
+    48.43434855790659, 
+    166.82740804618527, 
+    49.486113148397045, 
+    51.66326309089676, 
+    46.502920873582255, 
+    56.5402610244579, 
+    122.06058619766624, 
+    139.51523932968064, 
+    116.90627078653245
+  ]
+}

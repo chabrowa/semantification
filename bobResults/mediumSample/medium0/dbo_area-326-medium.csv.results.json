@@ -1,0 +1,305 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/area"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "length", 
+          0.3285
+        ], 
+        [
+          "populationDensity", 
+          0.3988
+        ], 
+        [
+          "minimumElevation", 
+          0.4372
+        ], 
+        [
+          "numberOfGoals", 
+          0.4493
+        ], 
+        [
+          "areaWater", 
+          0.4578
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          3.0
+        ], 
+        [
+          "numberOfGoals", 
+          2.0
+        ], 
+        [
+          "areaWater", 
+          2.0
+        ], 
+        [
+          "minimumElevation", 
+          2.0
+        ], 
+        [
+          "length", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Device (length)", 
+          0.3285
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (length)", 
+          0.3285
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.3988
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.3988
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.3988
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.3988
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.4372
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.4372
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.4372
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.4372
+        ], 
+        [
+          "http://dbpedia.org/ontology/CareerStation (numberOfGoals)", 
+          0.4493
+        ], 
+        [
+          "http://dbpedia.org/ontology/TimePeriod (numberOfGoals)", 
+          0.4493
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.4572
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.4583
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.4583
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.4583
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.4583
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TimePeriod (numberOfGoals)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/CareerStation (numberOfGoals)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "AdministrativeRegion[populationDensity]>(state|Montana)", 
+      0.2939
+    ], 
+    [
+      "Weapon[length]>(type|Sniper_rifle)", 
+      0.3285
+    ], 
+    [
+      "Location[minimumElevation]>(region|Pays_de_la_Loire)>(department|Loire-Atlantique)", 
+      0.4372
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Pays_de_la_Loire)>(department|Loire-Atlantique)", 
+      0.4372
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|North_Dakota)", 
+      0.4475
+    ], 
+    [
+      "TimePeriod[numberOfGoals]", 
+      0.4493
+    ], 
+    [
+      "CareerStation[numberOfGoals]", 
+      0.4493
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|South_Dakota)", 
+      0.4549
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Oklahoma)>(type|City)>(country|United_States)", 
+      0.4572
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Tennessee)>(timeZone|Eastern_Time_Zone)", 
+      0.4583
+    ]
+  ], 
+  "values": [
+    1.1859472067469974, 
+    26854284.93212797, 
+    0.9144376289953793, 
+    1.027436147592559, 
+    1.1647012741967702, 
+    0.8473155762122098, 
+    38983215.71547213, 
+    0.9647006784695936, 
+    730886173.8148235, 
+    0.9447083278554151, 
+    1.0435094832366567, 
+    1.1908748142423038, 
+    0.956029304730415, 
+    0.8349813303104945, 
+    0.9223897800048253, 
+    43069954.06366307, 
+    1.2001727948709986, 
+    7613991.461223193, 
+    0.8863454339098646, 
+    1.1629054046948168, 
+    0.8947492876146803, 
+    0.8003605212136229, 
+    1.0346093721911742, 
+    0.9925553750857821, 
+    1.0244360524987781, 
+    1.0763533165965795, 
+    0.9322826260165211, 
+    1.0128073413636984, 
+    1.0432440092461615, 
+    0.8674686575726486, 
+    0.8540839936902397, 
+    0.9237472033723209, 
+    1.1320301698220394, 
+    0.8736993986591057, 
+    1.0604120639194785, 
+    1.0603012884208871, 
+    1.1227750715462606, 
+    0.8511994353838274, 
+    2.067317868140019, 
+    1.2225114600579845, 
+    0.9694159782033319, 
+    0.973001513239552, 
+    1.0066985699708473, 
+    0.7721120506423738, 
+    0.9820265573510725, 
+    1.1050545990275766, 
+    0.9019594021698144, 
+    1.1424752774436822, 
+    1.1026414366209085, 
+    0.883910991699992, 
+    0.9944999053795106, 
+    0.8809227027861507, 
+    1.0508465977926424, 
+    0.9148161686990995, 
+    1.269526912205241, 
+    1.010381396834236, 
+    0.9514729735173197, 
+    1.0090750642411384, 
+    0.930616078705879, 
+    0.8998324719844919, 
+    1.0728368346286627, 
+    1.0171758523559171, 
+    0.8419950185713451, 
+    1.0005975024707952, 
+    61994.7214903282, 
+    0.8741354437709072
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/shipBeam"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "shipBeam", 
+          0.1644
+        ], 
+        [
+          "populationDensity", 
+          0.1782
+        ], 
+        [
+          "number", 
+          0.2137
+        ], 
+        [
+          "elevation", 
+          0.2386
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "populationDensity", 
+          3.0
+        ], 
+        [
+          "number", 
+          2.0
+        ], 
+        [
+          "shipBeam", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          0.1644
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          0.1644
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1782
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.1782
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.1782
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1782
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.204
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.2137
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.2137
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.2371
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2386
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2386
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2386
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          0.2429
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "AdministrativeRegion[populationDensity]>(state|Iowa)", 
+      0.1589
+    ], 
+    [
+      "Ship[shipBeam]", 
+      0.1644
+    ], 
+    [
+      "MeanOfTransportation[shipBeam]", 
+      0.1644
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Arkansas)", 
+      0.1842
+    ], 
+    [
+      "Athlete[number]>(position|Midfielder)", 
+      0.1846
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Missouri)", 
+      0.1915
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Northern_Norway)>(isPartOf|Nordland)>(timeZone|Central_European_Time)", 
+      0.2304
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Northern_Norway)>(isPartOf|Nordland)", 
+      0.2421
+    ], 
+    [
+      "BasketballPlayer[number]>(league|Eurocup_Basketball)", 
+      0.2429
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Northern_Norway)", 
+      0.2432
+    ]
+  ], 
+  "values": [
+    8.967072101951533, 
+    14.398786590517886, 
+    33.95381591513829, 
+    5.628243801600382, 
+    8.199996449802914, 
+    9.000236463775202, 
+    27.07635097194972, 
+    13.1437627297027, 
+    10.670373602906821, 
+    7.875914523387661
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/draftYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.3562
+        ], 
+        [
+          "populationTotal", 
+          0.4038
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          8.0
+        ], 
+        [
+          "populationTotal", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          0.1618
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.3313
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.3512
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.3778
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.3786
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.391
+        ], 
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          0.3946
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.4038
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.4038
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.4038
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.4038
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.4038
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Mountain[elevation]>(locatedInArea|Norway)>(locatedInArea|Oppland)", 
+      0.1618
+    ], 
+    [
+      "Settlement[elevation]>(country|Peru)>(isPartOf|Amazonas_Region)", 
+      0.3565
+    ], 
+    [
+      "Volcano[elevation]", 
+      0.3602
+    ], 
+    [
+      "Settlement[elevation]>(country|Peru)>(isPartOf|Cajamarca_Region)>(timeZone|Time_in_Peru)", 
+      0.3856
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.391
+    ], 
+    [
+      "Settlement[elevation]>(country|Peru)>(isPartOf|Cajamarca_Region)", 
+      0.3913
+    ], 
+    [
+      "Volcano[elevation]>(locatedInArea|Indonesia)>(type|Stratovolcano)", 
+      0.401
+    ], 
+    [
+      "Volcano[elevation]>(locatedInArea|Indonesia)", 
+      0.4022
+    ], 
+    [
+      "Location[populationTotal]>(type|Village_development_committee)>(isPartOf|Karnali_Zone)", 
+      0.4038
+    ], 
+    [
+      "Village[populationTotal]>(type|Village_development_committee)>(isPartOf|Karnali_Zone)", 
+      0.4038
+    ]
+  ], 
+  "values": [
+    2104.0, 
+    2111.0, 
+    2056.0, 
+    2428.0, 
+    2244.0, 
+    1959.0, 
+    1781.0, 
+    2128.0, 
+    1931.0, 
+    1817.0, 
+    1891.0, 
+    2174.0, 
+    2201.0, 
+    1848.0, 
+    1777.0, 
+    1981.0, 
+    2226.0, 
+    2146.0, 
+    2515.0, 
+    2246.0, 
+    1580.0, 
+    2275.0, 
+    1894.0
+  ]
+}

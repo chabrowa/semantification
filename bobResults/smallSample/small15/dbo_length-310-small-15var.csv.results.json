@@ -1,0 +1,310 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/length"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "length", 
+          0.0647
+        ], 
+        [
+          "populationTotal", 
+          0.0795
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          9.0
+        ], 
+        [
+          "length", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.0647
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          0.0647
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          0.0647
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (length)", 
+          0.0647
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (length)", 
+          0.0647
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          0.0749
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0783
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0783
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.0804
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.0828
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.0839
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          16.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (length)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Bridge[length]", 
+      0.0647
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|Kansas)", 
+      0.0669
+    ], 
+    [
+      "Settlement[populationTotal]>(type|Census-designated_place)>(isPartOf|New_Mexico)", 
+      0.0754
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|Kansas)>(governmentType|Mayor%E2%80%93council_government)>(type|City)", 
+      0.0756
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|Kansas)>(governmentType|Mayor%E2%80%93council_government)", 
+      0.0792
+    ], 
+    [
+      "Village[populationTotal]>(timeZone|Central_European_Time)", 
+      0.0828
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(department|Meurthe-et-Moselle)>(arrondissement|Arrondissement_of_Nancy)", 
+      0.0839
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(department|Meurthe-et-Moselle)>(arrondissement|Arrondissement_of_Nancy)>(region|Lorraine_(region))", 
+      0.0839
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(department|Meurthe-et-Moselle)>(arrondissement|Arrondissement_of_Nancy)", 
+      0.0839
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(department|Meurthe-et-Moselle)>(arrondissement|Arrondissement_of_Nancy)>(region|Lorraine_(region))", 
+      0.0839
+    ]
+  ], 
+  "values": [
+    1299.4516155173537, 
+    14125.816222839285, 
+    361.76595910807026, 
+    380.85093602349264, 
+    176.06461940973773, 
+    686.6618069069957, 
+    639.3023243299515, 
+    3476.779029884556, 
+    6410.763128590063, 
+    1218.7595366868622, 
+    32.67565518498747, 
+    117296.45220546538, 
+    484.4154977978553, 
+    987.2849322572874, 
+    38.341744265811315, 
+    1536.5881860201914, 
+    329.76806824258324, 
+    570.8872116203272, 
+    263.54604581324054, 
+    548180.228695281, 
+    18.488478210621146, 
+    2841.5163731769426, 
+    323.1904443581485, 
+    169.8835970733082, 
+    52.918401196184355, 
+    3122.3946653059065, 
+    321.97439665337805, 
+    1063.6440271467932, 
+    883.1167513510252, 
+    1124.8210575992898, 
+    884.1449819279818, 
+    65.48367914681609, 
+    257.04128904337523, 
+    191.35890489838556, 
+    299.5153627037244, 
+    606.947106285684, 
+    146.8688213932132, 
+    31089.228656848452, 
+    1347.8919929915073, 
+    218.62913693277497, 
+    880.4796203252837, 
+    444.99269567381873, 
+    701.4880639373982, 
+    823.1730133168089, 
+    3079.4545237565153, 
+    442.8367455638959, 
+    191.73487366199745, 
+    721.4898689210917, 
+    282.46854414557356, 
+    35.49977151635893, 
+    6869582.25855187, 
+    160.2899063540967, 
+    641.3548913984415, 
+    35.940354851884805, 
+    202.09782028706715, 
+    20.42053727865223, 
+    1508.4377601878, 
+    978.441097046448, 
+    360.6311683286566, 
+    61.07103226669851, 
+    445.64567987711774, 
+    4849.721164702282, 
+    28.891924904104954, 
+    23.030141003527287, 
+    974.0436412262741, 
+    85.95391259365303, 
+    238.74837015151945, 
+    1347.6723269377683, 
+    579.0055357381626, 
+    47.87323773495015, 
+    380.2132053844845, 
+    120.88781550751256, 
+    348.56662324021636, 
+    132133.6356761709, 
+    61.06841365875073, 
+    3065.2194579794673, 
+    1316.184517133847, 
+    188.25385945471862, 
+    6263145.01360866, 
+    1038.8297172436314, 
+    292365.62882575195, 
+    225.26951198111675, 
+    1479.6124652871517, 
+    1126.001451770921, 
+    482.0530611296704, 
+    499.3988124580574, 
+    31.06535456964145, 
+    244.0128900054779, 
+    229.23152883078848, 
+    1535.3730784216689, 
+    2209.2177784096784, 
+    1133.6161920430422, 
+    770.1183895056267, 
+    273.795357909524, 
+    1750130.6883071978, 
+    32.62346397617258, 
+    924.9904805669601, 
+    28.500119387017936, 
+    3891.408308470508, 
+    251.12614585743205, 
+    547.8020931438816, 
+    397.4910967778867, 
+    20.646906629825054, 
+    1560.9945839266281, 
+    250.67289088528827, 
+    6995.749462412155, 
+    2002.3314697314781, 
+    1478.574355142672, 
+    757.2336850872856, 
+    14.856524229606904, 
+    123799.89187914795, 
+    131.38100627037147, 
+    407.9628851802737, 
+    89.44954634671346, 
+    12.488534872552346, 
+    120.78685731367446, 
+    150576.77645930913, 
+    235.4889852796365, 
+    1118.6599054270766, 
+    60.01146895594213, 
+    1034.379473815348, 
+    335.94535290059054, 
+    4759.4543663766635, 
+    84.10545957864396, 
+    1128.6007629059477, 
+    1065.6338748526202, 
+    56.91363714532482, 
+    92.78127664297845, 
+    443.63790267668304, 
+    80.63869072465937, 
+    130.29924652373555, 
+    24.46661023536176, 
+    1275.1387238424263, 
+    213.53834116869962, 
+    296.96933313466883, 
+    496.10057033681693, 
+    1162.5415772427662, 
+    126.70432021592165, 
+    154.13496402700747, 
+    678.7457366036442, 
+    159.45397955875174, 
+    364.1524710419874, 
+    106.93894776817041
+  ]
+}

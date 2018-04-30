@@ -1,0 +1,259 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "runtime", 
+          0.0955
+        ], 
+        [
+          "weight", 
+          0.1462
+        ], 
+        [
+          "populationTotal", 
+          0.1786
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          7.0
+        ], 
+        [
+          "runtime", 
+          2.0
+        ], 
+        [
+          "weight", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (runtime)", 
+          0.0923
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          0.0986
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (runtime)", 
+          0.0986
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (weight)", 
+          0.1462
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (weight)", 
+          0.1462
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1782
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.179
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1792
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1792
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          16.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (weight)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (runtime)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (runtime)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (weight)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Wikidata:Q11424[runtime]", 
+      0.0923
+    ], 
+    [
+      "Film[runtime]", 
+      0.0986
+    ], 
+    [
+      "Weapon[weight]>(type|Sniper_rifle)", 
+      0.1462
+    ], 
+    [
+      "Location[populationTotal]>(country|Poland)>(type|Gmina)>(isPartOf|Lublin_Voivodeship)", 
+      0.1746
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Poland)>(type|Gmina)>(isPartOf|Lublin_Voivodeship)", 
+      0.1746
+    ], 
+    [
+      "Location[populationTotal]>(type|Village_development_committee)>(isPartOf|Mahottari_District)", 
+      0.1748
+    ], 
+    [
+      "Location[populationTotal]>(country|Poland)>(type|Gmina)>(isPartOf|%C5%81%C3%B3d%C5%BA_Voivodeship)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1767
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Poland)>(type|Gmina)>(isPartOf|%C5%81%C3%B3d%C5%BA_Voivodeship)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1767
+    ], 
+    [
+      "Location[populationTotal]>(country|Poland)>(type|Gmina)>(isPartOf|%C5%81%C3%B3d%C5%BA_Voivodeship)", 
+      0.1862
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Poland)>(type|Gmina)>(isPartOf|%C5%81%C3%B3d%C5%BA_Voivodeship)", 
+      0.1862
+    ]
+  ], 
+  "values": [
+    6180.580998884759, 
+    4308.888460099679, 
+    9549.840774441629, 
+    6436.345968182086, 
+    8319.645589519752, 
+    5897.003153399334, 
+    3768.386690821818, 
+    1088.8135953387232, 
+    5471.538235971701, 
+    362.16133813553836, 
+    4859.299740714521, 
+    6759.043224143963, 
+    5393.838400538272, 
+    8248.538864967062, 
+    5262.330176998365, 
+    5160.498932477378, 
+    5764.379557091594, 
+    6015.316607175879, 
+    7731.019034957076, 
+    1442.9796275840638, 
+    3877.794058565963, 
+    5803.48643634034, 
+    6468.2356682187665, 
+    6524.8133674882165, 
+    8089.946838092954, 
+    5774.384018769312, 
+    6257.836378264438, 
+    5855.995605911613, 
+    5990.196817966548, 
+    5042.196651498422, 
+    6069.727311858623, 
+    6700.039862502277, 
+    5316.881849775642, 
+    1037.4196791224688, 
+    5035.691169816647, 
+    6119.557939488782, 
+    11645.558957474523, 
+    3137.7363611217206, 
+    4681.084307568621, 
+    7700.304300216801, 
+    1558.8264400413432, 
+    4770.5884059363325, 
+    7593.965820068611, 
+    7055.939754980918, 
+    4958.571324688208, 
+    6060.456256666786, 
+    6308.469175500166, 
+    7323.072873452229, 
+    1418.0051287572505, 
+    6578.198278159229, 
+    5448.27839162608, 
+    5066.753529444939, 
+    7391.968182487345, 
+    5115.413674915638, 
+    1514.829858468939, 
+    5385.420000712021, 
+    5120.2505458906335, 
+    5482.45926906131, 
+    6630.651440165826, 
+    2285.331031835736, 
+    7120.336142005207, 
+    7269.81877318598, 
+    3628.218609789031, 
+    4579.144050803128, 
+    5397.503117066173, 
+    5977.758109048597, 
+    6323.46850476518, 
+    6033.774691292591, 
+    5435.0395673265275, 
+    6539.47443792549, 
+    6443.460934996548, 
+    6736.387744248104, 
+    7503.899104425155, 
+    7315.985337050716, 
+    5138.116390264856, 
+    5237.983835212685, 
+    8855.78697130309, 
+    5463.042562158468, 
+    4708.583398347316, 
+    9324.414553942112, 
+    6381.438427971864, 
+    5438.789856813181, 
+    8012.464082607603, 
+    5044.124245568433, 
+    6675.415299440394, 
+    3353.638369654118, 
+    6040.40184737222, 
+    7136.760051699847, 
+    4531.862629519342, 
+    6194.566162302591, 
+    5664.7443439037415, 
+    5521.89802683908, 
+    5392.0612925703035, 
+    5850.263575206792, 
+    6388.166687823269, 
+    5559.152415700018, 
+    3694.8513798636573, 
+    6096.683098343563, 
+    2987.241698672056, 
+    4743.335818844624
+  ]
+}

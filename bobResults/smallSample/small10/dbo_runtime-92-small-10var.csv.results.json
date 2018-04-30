@@ -1,0 +1,220 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "capacity", 
+          0.1273
+        ], 
+        [
+          "populationTotal", 
+          0.1352
+        ], 
+        [
+          "postalCode", 
+          0.1422
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          7.0
+        ], 
+        [
+          "capacity", 
+          2.0
+        ], 
+        [
+          "postalCode", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Organisation (capacity)", 
+          0.1273
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (capacity)", 
+          0.1273
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (capacity)", 
+          0.1273
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerClub (capacity)", 
+          0.1273
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          0.1318
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1338
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1343
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1353
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1353
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1387
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          0.1422
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          0.1422
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          0.1422
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerClub (capacity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (capacity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (capacity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (capacity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationTotal]>(timeZone|Eastern_Time_Zone)>(governmentType|Town_council)>(type|Administrative_divisions_of_New_York)", 
+      0.1224
+    ], 
+    [
+      "SoccerClub[capacity]>(ground|Spain)>(position|Tercera_Divisi%C3%B3n)", 
+      0.1241
+    ], 
+    [
+      "SoccerClub[capacity]>(ground|Spain)>(season|2012%E2%80%9313_Segunda_Divisi%C3%B3n_B)", 
+      0.1305
+    ], 
+    [
+      "Town[populationTotal]>(isPartOf|New_York)>(type|Administrative_divisions_of_New_York)>(leaderName|Republican_Party_(United_States))", 
+      0.1318
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(region|Sicily)>(province|Province_of_Palermo)", 
+      0.1318
+    ], 
+    [
+      "Village[populationTotal]>(type|Village_development_committee)>(isPartOf|Mechi_Zone)", 
+      0.1383
+    ], 
+    [
+      "Village[populationTotal]>(type|Village_development_committee)>(isPartOf|Mechi_Zone)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.139
+    ], 
+    [
+      "Location[populationTotal]>(type|Village_development_committee)>(isPartOf|Mechi_Zone)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1392
+    ], 
+    [
+      "Settlement[postalCode]>(type|Municipalities_of_Switzerland)", 
+      0.1422
+    ], 
+    [
+      "Location[populationTotal]>(type|Village_development_committee)>(isPartOf|Mechi_Zone)", 
+      0.1437
+    ]
+  ], 
+  "values": [
+    4129.786864075452, 
+    3258.2756381146464, 
+    20978.868157873443, 
+    10003.514312938414, 
+    1775.8576877059156, 
+    1581.8455765105944, 
+    1713.389081712327, 
+    7565.620250710011, 
+    -4122.255719478546, 
+    1348.3086714274814, 
+    6302.0965913880445, 
+    7409.515131853324, 
+    5968.8991368156385, 
+    3633.9176769441033, 
+    24467.144986837167, 
+    3342.0728151635612, 
+    5190.480381473023, 
+    4134.766986991744, 
+    4092.9115938601803, 
+    2286.0313786727147, 
+    7623.557465285352, 
+    1589.3484387096112, 
+    2654.3651997156144, 
+    3710.8375685323604, 
+    6361.559664700371, 
+    2976.7111519399405, 
+    910.7726279110017, 
+    2940.2544101003637, 
+    6448.2521446425535
+  ]
+}

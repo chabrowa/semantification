@@ -1,0 +1,288 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/budget"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaWater", 
+          0.1315
+        ], 
+        [
+          "areaTotal", 
+          0.1349
+        ], 
+        [
+          "oclc", 
+          0.1373
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          6.0
+        ], 
+        [
+          "oclc", 
+          2.0
+        ], 
+        [
+          "areaWater", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PeriodicalLiterature (oclc)", 
+          0.1236
+        ], 
+        [
+          "http://dbpedia.org/ontology/AcademicJournal (oclc)", 
+          0.1236
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.1315
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaWater)", 
+          0.1315
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaWater)", 
+          0.1315
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.1315
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.1354
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          0.1373
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          0.1373
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1374
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.1374
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.1374
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.1374
+        ], 
+        [
+          "http://dbpedia.org/ontology/Book (oclc)", 
+          0.151
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          15.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AcademicJournal (oclc)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Book (oclc)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PeriodicalLiterature (oclc)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Cantabria)", 
+      0.1124
+    ], 
+    [
+      "AdministrativeRegion[areaWater]>(state|Minnesota)", 
+      0.117
+    ], 
+    [
+      "AcademicJournal[oclc]>(publisher|Informa)", 
+      0.1236
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)", 
+      0.1309
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Zaragoza)", 
+      0.1325
+    ], 
+    [
+      "City[areaTotal]>(country|Ukraine)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1374
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Zaragoza)>(timeZone|Central_European_Time)", 
+      0.146
+    ], 
+    [
+      "AdministrativeRegion[areaWater]>(state|Montana)", 
+      0.1461
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Castell%C3%B3n)", 
+      0.1502
+    ], 
+    [
+      "Book[oclc]", 
+      0.151
+    ]
+  ], 
+  "values": [
+    41681413.85434696, 
+    1.6405805750192235, 
+    26062881.420821045, 
+    22273371.781121433, 
+    32382320.999053355, 
+    550086903686.1245, 
+    22573718.491053514, 
+    17168415.15424534, 
+    16729322.358670052, 
+    403236096.81024474, 
+    208413647.25611168, 
+    39800636.40966026, 
+    31290640.907020193, 
+    30146147.09782502, 
+    193991.72818464716, 
+    544837780.623376, 
+    9606794.593428772, 
+    55776667.72088924, 
+    14694184.787126096, 
+    543.2248272384246, 
+    13893738.019228127, 
+    69511886208.22858, 
+    23485737.936127342, 
+    805612239.9693619, 
+    35190965.08809949, 
+    49657323.95244183, 
+    7548490775.188361, 
+    42455287.025990136, 
+    9172048.057845697, 
+    37817751.93118693, 
+    65905301.892513886, 
+    31456516.349857304, 
+    23738953.69176956, 
+    36297518.34772211, 
+    33240403.73655786, 
+    34270330.58457203, 
+    30326288.492283676, 
+    19603494.94362632, 
+    9570413.303356107, 
+    16579115.287950791, 
+    53548570.45114378, 
+    34962670.468049884, 
+    25671725.35005663, 
+    49879193.36588092, 
+    22746192.340664107, 
+    20300483021.696285, 
+    205354304191.313, 
+    154592088.17172205, 
+    3071816.490908858, 
+    43835835.30480509, 
+    12092711.074237203, 
+    68206181.75083953, 
+    32324756.345869556, 
+    35270009.75631916, 
+    9940411.957749994, 
+    373601397.28574663, 
+    7228873654.707633, 
+    29216660.312313695, 
+    71452284.82431515, 
+    24420286.7164289, 
+    8386097.652118153, 
+    18357659.611639146, 
+    2106372722.092747, 
+    46434696.55147132, 
+    59844.28852882161, 
+    33542922.817722823, 
+    288583207.1464069, 
+    80724137.47622642, 
+    38033516.971832916, 
+    93697647987.72191, 
+    13047307.50414599, 
+    243891714.04413027, 
+    159888953.60541174, 
+    48070791.91040544, 
+    361807954.94581336, 
+    22624727.324491397, 
+    101012935.14998582, 
+    16633675.446519583, 
+    38067170.41023011, 
+    45470030.487776324, 
+    25624092.22470323, 
+    25402609.195453368, 
+    1580707734.428145, 
+    47340600.00618694, 
+    16039973.17066371, 
+    26723889.106539484, 
+    861459082.2523754, 
+    8225880517.556998, 
+    8182162.557642199
+  ]
+}

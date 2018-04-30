@@ -1,0 +1,145 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.2894
+        ], 
+        [
+          "weight", 
+          0.3077
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          9.0
+        ], 
+        [
+          "weight", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.2876
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2977
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2977
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2977
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.2984
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (weight)", 
+          0.3077
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (weight)", 
+          0.3077
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          25.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (weight)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (weight)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(type|Census-designated_place)", 
+      0.2262
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)", 
+      0.2602
+    ], 
+    [
+      "Town[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)", 
+      0.2924
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(type|Unincorporated_area)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2944
+    ], 
+    [
+      "Town[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(type|Town)", 
+      0.2993
+    ], 
+    [
+      "Town[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(type|Town)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3014
+    ], 
+    [
+      "Weapon[weight]>(type|Revolver)", 
+      0.3077
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(type|Town)", 
+      0.3087
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(type|Town)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3108
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(type|Unincorporated_area)", 
+      0.311
+    ]
+  ], 
+  "values": [
+    1089.5970521935592, 
+    1105.7045662126811, 
+    925.3018608662254, 
+    3373.8921721829706, 
+    825.6114376521834, 
+    1027.533127439323, 
+    968.1836223090877, 
+    1081.3896022662113, 
+    1075.9006414391304, 
+    849.9013124728232
+  ]
+}

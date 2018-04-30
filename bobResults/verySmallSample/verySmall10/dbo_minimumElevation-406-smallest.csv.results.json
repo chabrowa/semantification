@@ -1,0 +1,192 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/minimumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "minimumElevation", 
+          0.1625
+        ], 
+        [
+          "populationDensity", 
+          0.1753
+        ], 
+        [
+          "elevation", 
+          0.1805
+        ]
+      ], 
+      "maj": [
+        [
+          "minimumElevation", 
+          6.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Village (minimumElevation)", 
+          0.145
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.1573
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1573
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.1635
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.1718
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1753
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1753
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1753
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1783
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1805
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1805
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.191
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[minimumElevation]", 
+      0.125
+    ], 
+    [
+      "Village[minimumElevation]>(country|Greece)", 
+      0.155
+    ], 
+    [
+      "Settlement[elevation]>(country|Italy)>(province|Province_of_Messina)", 
+      0.1667
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Languedoc-Roussillon)>(department|Pyr%C3%A9n%C3%A9es-Orientales)", 
+      0.1667
+    ], 
+    [
+      "Location[minimumElevation]>(region|Languedoc-Roussillon)>(department|Pyr%C3%A9n%C3%A9es-Orientales)", 
+      0.1675
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Indiana)", 
+      0.1753
+    ], 
+    [
+      "Location[minimumElevation]>(region|Languedoc-Roussillon)", 
+      0.1782
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Languedoc-Roussillon)", 
+      0.1824
+    ], 
+    [
+      "Settlement[elevation]>(country|Italy)>(region|Liguria)>(province|Province_of_Genoa)", 
+      0.1838
+    ], 
+    [
+      "City[elevation]>(country|Spain)", 
+      0.191
+    ]
+  ], 
+  "values": [
+    3.0832879386501313, 
+    83.46261628494015, 
+    216.34795884621334, 
+    633.0553208296217, 
+    846.35352242774, 
+    0.0, 
+    699.0424396597109, 
+    276.4551277152575, 
+    385.9651131739698
+  ]
+}

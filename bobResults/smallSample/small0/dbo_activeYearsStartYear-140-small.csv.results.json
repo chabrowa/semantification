@@ -1,0 +1,179 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/activeYearsStartYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.3631
+        ], 
+        [
+          "populationTotal", 
+          0.3846
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          9.0
+        ], 
+        [
+          "populationTotal", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          0.1762
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.347
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.3569
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.3736
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.3752
+        ], 
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          0.38
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.3846
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.3846
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.3846
+        ], 
+        [
+          "http://dbpedia.org/ontology/MountainRange (elevation)", 
+          0.4108
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.4128
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MountainRange (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Mountain[elevation]>(locatedInArea|Norway)>(locatedInArea|Oppland)", 
+      0.1762
+    ], 
+    [
+      "Settlement[elevation]>(country|Peru)>(isPartOf|Amazonas_Region)", 
+      0.3367
+    ], 
+    [
+      "Volcano[elevation]>(locatedInArea|Indonesia)", 
+      0.3768
+    ], 
+    [
+      "Volcano[elevation]>(locatedInArea|Indonesia)>(type|Stratovolcano)", 
+      0.3778
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Canada)>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Mont%C3%A9r%C3%A9gie)", 
+      0.3846
+    ], 
+    [
+      "Settlement[elevation]>(country|Peru)>(isPartOf|Cajamarca_Region)>(timeZone|Time_in_Peru)", 
+      0.3892
+    ], 
+    [
+      "Volcano[elevation]", 
+      0.3931
+    ], 
+    [
+      "Settlement[elevation]>(country|Peru)>(isPartOf|Cajamarca_Region)", 
+      0.3949
+    ], 
+    [
+      "MountainRange[elevation]", 
+      0.4108
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Colorado)>(type|Town)", 
+      0.4128
+    ]
+  ], 
+  "values": [
+    1946.0, 
+    1642.0, 
+    2026.0, 
+    2409.0, 
+    1986.0, 
+    2039.0, 
+    2009.0, 
+    2250.0, 
+    2151.0, 
+    1720.0, 
+    2122.0, 
+    2252.0
+  ]
+}

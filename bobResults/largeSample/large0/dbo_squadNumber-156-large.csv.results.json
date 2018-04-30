@@ -1,0 +1,219 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/squadNumber"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "number", 
+          0.1051
+        ], 
+        [
+          "populationDensity", 
+          0.1365
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          6.0
+        ], 
+        [
+          "number", 
+          4.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/SportsManager (number)", 
+          0.0813
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerManager (number)", 
+          0.0813
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.1051
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.1051
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          0.1289
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.1289
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1351
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.136
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.136
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1377
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.1385
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.1385
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsManager (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerManager (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "SoccerManager[number]", 
+      0.0813
+    ], 
+    [
+      "SportsManager[number]", 
+      0.0813
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Australia)", 
+      0.128
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Malaysia)", 
+      0.1299
+    ], 
+    [
+      "Settlement[populationDensity]>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Chaudi%C3%A8re-Appalaches)", 
+      0.1301
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Zamora)", 
+      0.1364
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Zamora)", 
+      0.1364
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Minnesota)", 
+      0.1385
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_%C3%81vila)", 
+      0.139
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_%C3%81vila)", 
+      0.139
+    ]
+  ], 
+  "values": [
+    18.0, 
+    2.0, 
+    9.0, 
+    20.0, 
+    6.0, 
+    39.0, 
+    1.0, 
+    9.0, 
+    1.0, 
+    7.0, 
+    9.0, 
+    14.0, 
+    5.0, 
+    5.0, 
+    21.0, 
+    2.0, 
+    11.0, 
+    6.0, 
+    8.0, 
+    13.0, 
+    29.0, 
+    1.0, 
+    21.0, 
+    2.0, 
+    20.0, 
+    10.0, 
+    14.0, 
+    21.0, 
+    29.0, 
+    31.0, 
+    11.0, 
+    7.0, 
+    26.0, 
+    20.0, 
+    4.0, 
+    14.0, 
+    4.0, 
+    3.0, 
+    11.0, 
+    16.0, 
+    13.0, 
+    8.0, 
+    9.0, 
+    22.0
+  ]
+}

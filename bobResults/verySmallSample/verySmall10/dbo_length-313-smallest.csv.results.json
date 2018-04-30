@@ -1,0 +1,233 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/length"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "length", 
+          0.4316
+        ], 
+        [
+          "elevation", 
+          0.4442
+        ], 
+        [
+          "height", 
+          0.4512
+        ], 
+        [
+          "number", 
+          0.4674
+        ], 
+        [
+          "minimumElevation", 
+          0.4677
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          4.0
+        ], 
+        [
+          "length", 
+          3.0
+        ], 
+        [
+          "minimumElevation", 
+          1.0
+        ], 
+        [
+          "number", 
+          1.0
+        ], 
+        [
+          "height", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Locomotive (length)", 
+          0.4175
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (length)", 
+          0.4316
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.4404
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.4442
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.4442
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.4512
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.4512
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (height)", 
+          0.4512
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (height)", 
+          0.4512
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.4563
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (length)", 
+          0.4598
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.4674
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.4674
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          0.4674
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.4674
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.4677
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Locomotive (length)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Locomotive[length]>(builder|Electro-Motive_Diesel)", 
+      0.3889
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Schleswig-Flensburg)>(federalState|Schleswig-Holstein)", 
+      0.4271
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Schleswig-Flensburg)", 
+      0.4343
+    ], 
+    [
+      "Locomotive[length]>(builder|American_Locomotive_Company)", 
+      0.4462
+    ], 
+    [
+      "Lighthouse[height]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.4512
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Western_Norway)>(isPartOf|Sogn_og_Fjordane)", 
+      0.4563
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Rendsburg-Eckernf%C3%B6rde)", 
+      0.459
+    ], 
+    [
+      "Ship[length]>(type|Patrol_boat)>(builder|New_York)", 
+      0.4598
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|China)", 
+      0.4674
+    ], 
+    [
+      "Location[minimumElevation]>(department|Pas-de-Calais)>(arrondissement|Arrondissement_of_B%C3%A9thune)", 
+      0.4677
+    ]
+  ], 
+  "values": [
+    20.288172206454075, 
+    17.521316202248055
+  ]
+}

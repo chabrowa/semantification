@@ -1,0 +1,185 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/budget"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.1739
+        ], 
+        [
+          "areaWater", 
+          0.2176
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          9.0
+        ], 
+        [
+          "areaWater", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.1508
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (areaTotal)", 
+          0.1602
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          0.1759
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1805
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.182
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (areaTotal)", 
+          0.1842
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.1877
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.2087
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.2176
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaWater)", 
+          0.2176
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaWater)", 
+          0.2176
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.2176
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaTotal]>(country|Canada)>(archipelago|Canadian_Arctic_Archipelago)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1505
+    ], 
+    [
+      "Location[areaTotal]>(country|Canada)>(archipelago|Canadian_Arctic_Archipelago)", 
+      0.1513
+    ], 
+    [
+      "Island[areaTotal]>(location|Northern_Canada)", 
+      0.1561
+    ], 
+    [
+      "Island[areaTotal]>(location|Northern_Canada)>(archipelago|Canadian_Arctic_Archipelago)", 
+      0.163
+    ], 
+    [
+      "ProtectedArea[areaTotal]>(location|California)>(location|United_States)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1717
+    ], 
+    [
+      "ProtectedArea[areaTotal]>(location|California)>(location|United_States)", 
+      0.1815
+    ], 
+    [
+      "Country[areaTotal]>(officialLanguage|English_language)", 
+      0.1842
+    ], 
+    [
+      "City[areaTotal]>(governmentType|Municipality)", 
+      0.1877
+    ], 
+    [
+      "AdministrativeRegion[areaWater]>(state|Michigan)", 
+      0.2176
+    ], 
+    [
+      "Settlement[areaTotal]>(country|India)", 
+      0.2192
+    ]
+  ], 
+  "values": [
+    398860984.4485775, 
+    31227020541.030212, 
+    18748343.26181652, 
+    95.93924266265962, 
+    316235106.2265476, 
+    25741702.89261453, 
+    7173706813.254513, 
+    1352843654.805519, 
+    426259551.53978306, 
+    250263039.93133247
+  ]
+}

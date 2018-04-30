@@ -1,0 +1,297 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaWater"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaLand", 
+          0.1008
+        ], 
+        [
+          "budget", 
+          0.1032
+        ], 
+        [
+          "areaWater", 
+          0.1062
+        ], 
+        [
+          "areaTotal", 
+          0.1083
+        ], 
+        [
+          "oclc", 
+          0.1094
+        ]
+      ], 
+      "maj": [
+        [
+          "areaLand", 
+          3.0
+        ], 
+        [
+          "areaTotal", 
+          3.0
+        ], 
+        [
+          "budget", 
+          2.0
+        ], 
+        [
+          "oclc", 
+          1.0
+        ], 
+        [
+          "areaWater", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          0.0954
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.0956
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.0956
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.0956
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (budget)", 
+          0.1032
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (budget)", 
+          0.1032
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (budget)", 
+          0.1032
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1048
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          0.1048
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          0.1048
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (areaTotal)", 
+          0.1048
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.1062
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.1062
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaWater)", 
+          0.1062
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaWater)", 
+          0.1062
+        ], 
+        [
+          "http://dbpedia.org/ontology/Book (oclc)", 
+          0.1094
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          0.1094
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          0.1094
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.1101
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          0.1114
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Book (oclc)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (budget)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "City[areaLand]>(isPartOf|Alaska)>(timeZone|Alaska_Time_Zone)>(type|Alaska)", 
+      0.0943
+    ], 
+    [
+      "City[areaLand]>(isPartOf|Alaska)>(timeZone|Alaska_Time_Zone)", 
+      0.0969
+    ], 
+    [
+      "Wikidata:Q11424[budget]>(distributor|New_Line_Cinema)", 
+      0.1032
+    ], 
+    [
+      "Film[budget]>(distributor|New_Line_Cinema)", 
+      0.1032
+    ], 
+    [
+      "Lake[areaTotal]>(country|Bolivia)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1048
+    ], 
+    [
+      "AdministrativeRegion[areaWater]>(state|Texas)", 
+      0.1062
+    ], 
+    [
+      "Location[areaTotal]>(type|Census-designated_place)>(isPartOf|Nevada)", 
+      0.1089
+    ], 
+    [
+      "Book[oclc]>(publisher|Ace_Books)>(country|United_States)", 
+      0.1094
+    ], 
+    [
+      "Location[areaTotal]>(type|Census-designated_place)>(isPartOf|Oklahoma)", 
+      0.1114
+    ], 
+    [
+      "Location[areaLand]>(isPartOf|Oklahoma)>(type|Census-designated_place)", 
+      0.1114
+    ]
+  ], 
+  "values": [
+    66882082.27710899, 
+    2187135401.492031, 
+    8810170.425768701, 
+    1216277.1399843541, 
+    3546082.826640444, 
+    51327598.0996062, 
+    12352424.762949923, 
+    28925843.79269872, 
+    27164089.32863171, 
+    19445415.512753494, 
+    12771922.57823034, 
+    22065142.501974314, 
+    1076051494.3371499, 
+    108041.48226680784, 
+    18721744.403836563, 
+    9768274.19980026, 
+    38630854.827628314, 
+    35207174.05161217, 
+    329623.507190585, 
+    124197809.30723055, 
+    21151900.50523314, 
+    87023118.33659163, 
+    3010220.2665283396, 
+    13852272.301604157, 
+    257787608.15878332, 
+    489398.78032291477, 
+    14599536.974746887, 
+    6611926.51962631, 
+    8895993.219046196, 
+    21334870.546107393, 
+    5610670.2002701815, 
+    21648420.68048998, 
+    51330411.67298608, 
+    29097714.167457677
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runwayLength"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "runtime", 
+          0.317
+        ], 
+        [
+          "areaCode", 
+          0.3427
+        ]
+      ], 
+      "maj": [
+        [
+          "areaCode", 
+          8.0
+        ], 
+        [
+          "runtime", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          0.317
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (runtime)", 
+          0.3192
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          0.3429
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          26.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (runtime)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "TelevisionShow[runtime]>(format|Animated_series)", 
+      0.3058
+    ], 
+    [
+      "Location[areaCode]>(country|England)>(country|Suffolk)", 
+      0.3111
+    ], 
+    [
+      "Location[areaCode]>(country|England)>(country|Gloucestershire)", 
+      0.3125
+    ], 
+    [
+      "Location[areaCode]>(country|England)>(country|Surrey)", 
+      0.3174
+    ], 
+    [
+      "Location[areaCode]>(country|England)>(country|Gloucestershire)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3197
+    ], 
+    [
+      "TelevisionShow[runtime]>(format|Animated_series)>(genre|Science_fiction)", 
+      0.3281
+    ], 
+    [
+      "Location[areaCode]>(country|England)>(district|Aylesbury_Vale)", 
+      0.3636
+    ], 
+    [
+      "Location[areaCode]>(country|England)>(country|Derbyshire)", 
+      0.371
+    ], 
+    [
+      "Location[areaCode]>(country|England)>(country|Derbyshire)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3714
+    ], 
+    [
+      "Location[areaCode]>(country|England)>(country|Dorset)", 
+      0.375
+    ]
+  ], 
+  "values": [
+    1289.223083329909, 
+    1548.3679920988673
+  ]
+}
