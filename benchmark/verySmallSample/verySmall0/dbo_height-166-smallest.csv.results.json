@@ -1,0 +1,223 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/height"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "width", 
+          0.1068
+        ], 
+        [
+          "height", 
+          0.2
+        ]
+      ], 
+      "maj": [
+        [
+          "height", 
+          9.0
+        ], 
+        [
+          "width", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Automobile (width)", 
+          0.1068
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (width)", 
+          0.1068
+        ], 
+        [
+          "http://dbpedia.org/ontology/Automobile (height)", 
+          0.1855
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (height)", 
+          0.1855
+        ], 
+        [
+          "http://dbpedia.org/ontology/Boxer (height)", 
+          0.1862
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmateurBoxer (height)", 
+          0.1864
+        ], 
+        [
+          "http://dbpedia.org/ontology/Swimmer (height)", 
+          0.1963
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (height)", 
+          0.2018
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (height)", 
+          0.2018
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (height)", 
+          0.2018
+        ], 
+        [
+          "http://dbpedia.org/ontology/Skier (height)", 
+          0.2094
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (height)", 
+          0.2125
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wrestler (height)", 
+          0.2218
+        ], 
+        [
+          "http://dbpedia.org/ontology/TennisPlayer (height)", 
+          0.2289
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Athlete (height)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (height)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (height)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Skier (height)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Swimmer (height)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TennisPlayer (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Automobile (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Boxer (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Automobile (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmateurBoxer (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wrestler (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (height)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Automobile[width]", 
+      0.1068
+    ], 
+    [
+      "Swimmer[height]", 
+      0.1432
+    ], 
+    [
+      "Automobile[height]>(bodyStyle|Sport_utility_vehicle)", 
+      0.1855
+    ], 
+    [
+      "Boxer[height]", 
+      0.1861
+    ], 
+    [
+      "AmateurBoxer[height]", 
+      0.1864
+    ], 
+    [
+      "Skier[height]>(team|Alpine_skiing_at_the_2010_Winter_Olympics)", 
+      0.2031
+    ], 
+    [
+      "Skier[height]", 
+      0.2218
+    ], 
+    [
+      "Wrestler[height]", 
+      0.2218
+    ], 
+    [
+      "Swimmer[height]>(nationality|Canada)", 
+      0.2228
+    ], 
+    [
+      "TennisPlayer[height]>(country|Australia)", 
+      0.2289
+    ]
+  ], 
+  "values": [
+    1.9468153198781881, 
+    1.6428932295754763, 
+    1.8018207856054302, 
+    0.0, 
+    1.8414936134625737, 
+    1.6965067962794707, 
+    1.857500698056477, 
+    1.815895972649937, 
+    1.7517810363762039, 
+    1.9334518056602727, 
+    1.654212480546049, 
+    1.8130210994568061, 
+    1.6707282943098736, 
+    1.9102319682229438, 
+    1.5356605459801806, 
+    1.566752531646888, 
+    1.6410008069255373, 
+    1.7608531596727512, 
+    1.9446270561471755, 
+    1.7878795655228317, 
+    1.9801518536196776, 
+    1.874262676873487, 
+    1.8170244228003405, 
+    2.040619333571202, 
+    1.7670553057752991, 
+    1.6032438776097169, 
+    1.4734776452705765, 
+    1.9616747052688717, 
+    1.774817061895624, 
+    1.5608930930472176, 
+    1.5118550701796762, 
+    1.469558317064746
+  ]
+}

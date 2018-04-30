@@ -1,0 +1,158 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/oclc"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "oclc", 
+          0.4216
+        ], 
+        [
+          "areaTotal", 
+          0.4248
+        ]
+      ], 
+      "maj": [
+        [
+          "oclc", 
+          7.0
+        ], 
+        [
+          "areaTotal", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Book (oclc)", 
+          0.4156
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.4215
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          0.4216
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          0.4216
+        ], 
+        [
+          "http://dbpedia.org/ontology/AcademicJournal (oclc)", 
+          0.4217
+        ], 
+        [
+          "http://dbpedia.org/ontology/PeriodicalLiterature (oclc)", 
+          0.4285
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.4314
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.4314
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.4314
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Book (oclc)", 
+          18.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AcademicJournal (oclc)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PeriodicalLiterature (oclc)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Book[oclc]>(publisher|Pocket_Books)>(literaryGenre|Horror_fiction)>(mediaType|Paperback)>(country|United_States)", 
+      0.4079
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(region|Emilia-Romagna)", 
+      0.4095
+    ], 
+    [
+      "AcademicJournal[oclc]>(publisher|Cambridge_University_Press)", 
+      0.4145
+    ], 
+    [
+      "Book[oclc]>(publisher|Pocket_Books)>(literaryGenre|Horror_fiction)>(mediaType|Paperback)>(country|United_States)>(language|English_language)", 
+      0.416
+    ], 
+    [
+      "Book[oclc]>(publisher|Pocket_Books)>(literaryGenre|Horror_fiction)>(mediaType|Paperback)", 
+      0.4205
+    ], 
+    [
+      "Book[oclc]>(publisher|Pocket_Books)>(literaryGenre|Horror_fiction)", 
+      0.4212
+    ], 
+    [
+      "Settlement[areaTotal]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Le%C3%B3n)>(22-rdf-syntax-ns#type|_Feature)>(country|Spain)", 
+      0.4314
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Teruel)", 
+      0.4335
+    ], 
+    [
+      "PeriodicalLiterature[oclc]", 
+      0.4348
+    ], 
+    [
+      "AcademicJournal[oclc]", 
+      0.4361
+    ]
+  ], 
+  "values": [
+    41888759.0, 
+    56523851.0, 
+    53447707.0, 
+    51733855.0, 
+    49583257.0, 
+    51449446.0, 
+    51034940.0
+  ]
+}

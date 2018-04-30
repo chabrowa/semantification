@@ -1,0 +1,291 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "budget", 
+          0.071
+        ], 
+        [
+          "areaTotal", 
+          0.1088
+        ], 
+        [
+          "area", 
+          0.2833
+        ]
+      ], 
+      "maj": [
+        [
+          "area", 
+          8.0
+        ], 
+        [
+          "areaTotal", 
+          1.0
+        ], 
+        [
+          "budget", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Agent (budget)", 
+          0.071
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (budget)", 
+          0.071
+        ], 
+        [
+          "http://dbpedia.org/ontology/GovernmentAgency (budget)", 
+          0.071
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.1088
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1088
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (areaTotal)", 
+          0.1088
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (area)", 
+          0.2783
+        ], 
+        [
+          "http://dbpedia.org/ontology/Diocese (area)", 
+          0.2816
+        ], 
+        [
+          "http://dbpedia.org/ontology/ClericalAdministrativeRegion (area)", 
+          0.2832
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (area)", 
+          0.2837
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          0.284
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (area)", 
+          0.284
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          0.284
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Diocese (area)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (area)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (area)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ClericalAdministrativeRegion (area)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (area)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/GovernmentAgency (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (budget)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (budget)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (areaTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "GovernmentAgency[budget]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.071
+    ], 
+    [
+      "Country[areaTotal]", 
+      0.1088
+    ], 
+    [
+      "Location[area]>(jurisdiction|Diocese)>(country|United_States)", 
+      0.2783
+    ], 
+    [
+      "Diocese[area]>(country|United_States)>(jurisdiction|Diocese)", 
+      0.2783
+    ], 
+    [
+      "Diocese[area]>(country|United_States)", 
+      0.2794
+    ], 
+    [
+      "ClericalAdministrativeRegion[area]", 
+      0.2858
+    ], 
+    [
+      "Diocese[area]", 
+      0.2858
+    ], 
+    [
+      "AdministrativeRegion[area]", 
+      0.2861
+    ], 
+    [
+      "Region[area]", 
+      0.2861
+    ], 
+    [
+      "Diocese[area]>(country|Brazil)", 
+      0.2867
+    ]
+  ], 
+  "values": [
+    586044876168.2356, 
+    36270981095881.44, 
+    7809972348.139906, 
+    19490753885.472454, 
+    84461224.03258365, 
+    302662077.6003558, 
+    3580489474.3771644, 
+    4480.555922957156, 
+    1164893468039.8823, 
+    532292196.43320405, 
+    2578745442558.8467, 
+    202769840403.7404, 
+    62025237.422289215, 
+    15767660277.26075, 
+    30627843103.597435, 
+    157183760.53575978, 
+    351244245846.0897, 
+    73975326137.95087, 
+    866854970468.2136, 
+    4116906487.0335064, 
+    23626525047.078773, 
+    31264686268.245247, 
+    699136858.4170516, 
+    467137675479.10284, 
+    372174597.7277407, 
+    59830002376.62096, 
+    7672258402.111866, 
+    9538841706.836924, 
+    109981486540.09175, 
+    9822230.04842104, 
+    63917333728.67247, 
+    40606491202.86079, 
+    7535880.705075419, 
+    777466497458.0552, 
+    49134349.39902717, 
+    116085177832.65411, 
+    27521164221.84465, 
+    214574335897.61554, 
+    64896433026.631226, 
+    23231385212.405586, 
+    559070606.037287, 
+    970795666123.8015, 
+    5525677238.114219, 
+    122961094753.06834, 
+    33154124446.34899, 
+    925116200727.3397, 
+    6197918704233.536, 
+    25548795.27931177, 
+    846181177.1138059, 
+    656311.818233104, 
+    19774139734.447952, 
+    40650403819.982796, 
+    8507226855461.005, 
+    340710078230.3644, 
+    12746459249.596827, 
+    9100584099.927053, 
+    6708196.075701464, 
+    377095221945.5835, 
+    66094349335.34553, 
+    233191769.69857192, 
+    824483273800.4722, 
+    95201927080.10472, 
+    2578138877167.131, 
+    5609722724.306041, 
+    1456455259796.236, 
+    90512400.44997346, 
+    733942927788.7916, 
+    6401324.529115824, 
+    38849825632.466934, 
+    381644901726.0606, 
+    1080323341760.4321, 
+    577586872102.1556, 
+    34891202.300299525, 
+    616141757.7785451, 
+    2531120442.156703, 
+    12501380157.708738, 
+    27556332980.505142, 
+    332753670302.1945, 
+    225887262.40015644, 
+    2969930423629.3384, 
+    634447865131.896, 
+    30631088.560859412, 
+    540772402.009032, 
+    10314188.75630803, 
+    404219034.53071386, 
+    1771203.7287048395, 
+    16079353815884.594, 
+    1424705901.5798123, 
+    68075428803.63405, 
+    137557086757.02927, 
+    19007453236.00421, 
+    12455197636.396944, 
+    328515988580.95435, 
+    4475660181.325607, 
+    150297968192.11322, 
+    1304743554.483549, 
+    510164459.0662269, 
+    20002315.831912544, 
+    2824040362250.992, 
+    398051948.353113
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/gross"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaLand", 
+          0.3177
+        ], 
+        [
+          "areaTotal", 
+          0.3656
+        ]
+      ], 
+      "maj": [
+        [
+          "areaLand", 
+          5.0
+        ], 
+        [
+          "areaTotal", 
+          5.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          0.316
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaLand)", 
+          0.3185
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.3188
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.3188
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.3188
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.3615
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.3615
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.3615
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaTotal)", 
+          0.362
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.3715
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (areaTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaLand)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          3.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[areaLand]>(isPartOf|Michigan)>(timeZone|Eastern_Time_Zone)>(type|Village_(United_States))", 
+      0.315
+    ], 
+    [
+      "Location[areaLand]>(type|Village_(United_States))>(isPartOf|Michigan)>(timeZone|Eastern_Time_Zone)", 
+      0.3152
+    ], 
+    [
+      "Location[areaLand]>(type|Village_(United_States))>(isPartOf|Michigan)", 
+      0.3171
+    ], 
+    [
+      "Village[areaLand]>(isPartOf|Michigan)", 
+      0.3176
+    ], 
+    [
+      "Village[areaLand]>(isPartOf|Michigan)>(timeZone|Eastern_Time_Zone)", 
+      0.3238
+    ], 
+    [
+      "Village[areaTotal]>(country|Slovenia)>(isPartOf|Styria_(Slovenia))", 
+      0.3561
+    ], 
+    [
+      "Village[areaTotal]>(country|Slovenia)>(isPartOf|Styria_(Slovenia))>(isPartOf|Drava_Statistical_Region)", 
+      0.3585
+    ], 
+    [
+      "Location[areaTotal]>(type|Village_(United_States))>(isPartOf|Michigan)>(timeZone|Eastern_Time_Zone)", 
+      0.3696
+    ], 
+    [
+      "Village[areaTotal]>(isPartOf|Michigan)>(timeZone|Eastern_Time_Zone)>(type|Village_(United_States))", 
+      0.3701
+    ], 
+    [
+      "Location[areaTotal]>(type|Village_(United_States))>(isPartOf|Michigan)", 
+      0.374
+    ]
+  ], 
+  "values": [
+    2500000.0, 
+    3300000.0, 
+    2000000.0
+  ]
+}

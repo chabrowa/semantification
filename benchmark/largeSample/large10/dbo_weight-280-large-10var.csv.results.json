@@ -1,0 +1,251 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/weight"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "length", 
+          0.1002
+        ], 
+        [
+          "populationTotal", 
+          0.1026
+        ], 
+        [
+          "populationDensity", 
+          0.1076
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          8.0
+        ], 
+        [
+          "length", 
+          1.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.0987
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.1002
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          0.1002
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          0.1002
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (length)", 
+          0.1002
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (length)", 
+          0.1002
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1018
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1018
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1031
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1046
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.1076
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1076
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1076
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1076
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (length)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationTotal]>(country|Poland)>(type|Village)>(isPartOf|Pozna%C5%84_County)", 
+      0.0944
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|West_Azerbaijan_Province)>(isPartOf|Khoy_County)>(isPartOf|Central_District_(Khoy_County))", 
+      0.0962
+    ], 
+    [
+      "Location[populationTotal]>(isPartOf|Razavi_Khorasan_Province)>(isPartOf|Tabadkan_Rural_District)", 
+      0.0998
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Razavi_Khorasan_Province)>(isPartOf|Tabadkan_Rural_District)", 
+      0.0998
+    ], 
+    [
+      "Bridge[length]", 
+      0.1002
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Khuzestan_Province)>(isPartOf|Abadan_County)", 
+      0.1009
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|New_Jersey)", 
+      0.1076
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(department|Meurthe-et-Moselle)>(arrondissement|Arrondissement_of_Nancy)", 
+      0.109
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(department|Haute-Garonne)", 
+      0.1103
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(department|Haute-Garonne)", 
+      0.1103
+    ]
+  ], 
+  "values": [
+    4691.813411206499, 
+    612.0962122650598, 
+    1073.2464998155558, 
+    1886.8857809766394, 
+    121.25403153530415, 
+    2100.6381838388816, 
+    434.78774989563016, 
+    305.21026015363094, 
+    344.729421432883, 
+    743.9394423544508, 
+    103.93602392043489, 
+    458.27498059661326, 
+    46.38847166400138, 
+    46.217545469474686, 
+    1606.6615799280164, 
+    346.7771527450969, 
+    43.290187539412536, 
+    781.0011496251578, 
+    226.74646271115003, 
+    120.74304389161811, 
+    706.3847774076075, 
+    431.4495497770917, 
+    21.142895059223942, 
+    5925.760528917163, 
+    666.1550359856153, 
+    516.2512703126581, 
+    626.8647266081109, 
+    1314.0832055429732, 
+    121.29236571148546, 
+    46.84732278590547, 
+    100.4572702548725, 
+    508.35886797399434, 
+    228.24362865270422, 
+    117.44286972744469, 
+    7558.818939685241, 
+    450.1922998759557, 
+    5477.106766866394, 
+    546.3882402453806, 
+    307.8942186673022, 
+    40.84774873417594, 
+    388.5862677736568, 
+    995.3549056205852, 
+    336.3470646621139, 
+    155.6902676835657, 
+    94.44608096991014, 
+    109.19209455309756, 
+    442.6976705083555, 
+    236.9796317691006, 
+    9071.2022983815, 
+    32.93250483958261, 
+    419.7666818062654, 
+    21050.073366244203
+  ]
+}

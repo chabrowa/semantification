@@ -1,0 +1,137 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfStudents"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.25
+        ], 
+        [
+          "areaWater", 
+          0.2972
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          9.0
+        ], 
+        [
+          "populationTotal", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.25
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          0.2842
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.287
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.287
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.287
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaWater)", 
+          0.2894
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.3058
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          15.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaWater)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Place[populationTotal]>(country|United_States)", 
+      0.25
+    ], 
+    [
+      "Village[areaWater]>(isPartOf|Wisconsin)", 
+      0.2764
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Iowa)>(type|Township_(United_States))", 
+      0.2842
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Iowa)>(type|Township_(United_States))", 
+      0.2842
+    ], 
+    [
+      "Location[areaWater]>(type|Village_(United_States))>(isPartOf|Wisconsin)", 
+      0.288
+    ], 
+    [
+      "Village[areaWater]>(isPartOf|Wisconsin)>(type|Village_(United_States))", 
+      0.288
+    ], 
+    [
+      "Village[areaWater]>(isPartOf|Wisconsin)>(type|Village)", 
+      0.2995
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|California)", 
+      0.3122
+    ], 
+    [
+      "Location[areaWater]>(type|Village_(United_States))>(isPartOf|Michigan)>(timeZone|Eastern_Time_Zone)", 
+      0.3204
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)", 
+      0.3216
+    ]
+  ], 
+  "values": [
+    1300.0, 
+    200000.0
+  ]
+}

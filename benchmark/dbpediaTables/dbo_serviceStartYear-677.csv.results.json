@@ -1,0 +1,328 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/serviceStartYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "serviceStartYear", 
+          0.1085
+        ], 
+        [
+          "foundingYear", 
+          0.1589
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.1666
+        ]
+      ], 
+      "maj": [
+        [
+          "serviceStartYear", 
+          4.0
+        ], 
+        [
+          "foundingYear", 
+          4.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/MilitaryPerson (serviceStartYear)", 
+          0.087
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceStartYear)", 
+          0.1085
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceStartYear)", 
+          0.1162
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryUnit (activeYearsStartYear)", 
+          0.1558
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.1558
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsStartYear)", 
+          0.1558
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.1589
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          0.1589
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.1589
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          0.1609
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceStartYear)", 
+          0.176
+        ], 
+        [
+          "http://dbpedia.org/ontology/PrimeMinister (serviceStartYear)", 
+          0.176
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (activeYearsStartYear)", 
+          0.1774
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (activeYearsStartYear)", 
+          0.1774
+        ], 
+        [
+          "http://dbpedia.org/ontology/Venue (activeYearsStartYear)", 
+          0.1774
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceStartYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceStartYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryUnit (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryPerson (serviceStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PrimeMinister (serviceStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Venue (activeYearsStartYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Person[serviceStartYear]", 
+      0.0855
+    ], 
+    [
+      "Agent[serviceStartYear]", 
+      0.0855
+    ], 
+    [
+      "MilitaryPerson[serviceStartYear]", 
+      0.087
+    ], 
+    [
+      "School[foundingYear]>(type|Single-sex_education)", 
+      0.145
+    ], 
+    [
+      "MilitaryUnit[activeYearsStartYear]>(country|Canada)", 
+      0.1558
+    ], 
+    [
+      "School[foundingYear]>(type|Single-sex_education)>(state|New_York)>(religion|Catholic_Church)", 
+      0.1582
+    ], 
+    [
+      "School[foundingYear]>(type|Single-sex_education)>(state|New_York)>(religion|Catholic_Church)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1661
+    ], 
+    [
+      "School[foundingYear]>(type|Single-sex_education)>(state|New_York)", 
+      0.1664
+    ], 
+    [
+      "PrimeMinister[serviceStartYear]", 
+      0.176
+    ], 
+    [
+      "Venue[activeYearsStartYear]", 
+      0.1774
+    ]
+  ], 
+  "values": [
+    1928.0, 
+    1975.0, 
+    1917.0, 
+    1940.0, 
+    1923.0, 
+    1929.0, 
+    1936.0, 
+    1948.0, 
+    1897.0, 
+    1940.0, 
+    1931.0, 
+    1758.0, 
+    1914.0, 
+    1887.0, 
+    1905.0, 
+    1832.0, 
+    1861.0, 
+    1904.0, 
+    1942.0, 
+    1915.0, 
+    1914.0, 
+    1876.0, 
+    1928.0, 
+    1942.0, 
+    1945.0, 
+    1940.0, 
+    1940.0, 
+    1935.0, 
+    2006.0, 
+    1940.0, 
+    1900.0, 
+    1982.0, 
+    1883.0, 
+    1937.0, 
+    1928.0, 
+    1940.0, 
+    1885.0, 
+    1915.0, 
+    1918.0, 
+    1948.0, 
+    1888.0, 
+    1893.0, 
+    1861.0, 
+    1884.0, 
+    1962.0, 
+    1870.0, 
+    1847.0, 
+    1914.0, 
+    1975.0, 
+    1992.0, 
+    1931.0, 
+    1969.0, 
+    1914.0, 
+    1933.0, 
+    1895.0, 
+    1889.0, 
+    1913.0, 
+    1916.0, 
+    1929.0, 
+    1775.0, 
+    1924.0, 
+    1852.0, 
+    1775.0, 
+    1861.0, 
+    1841.0, 
+    1954.0, 
+    1913.0, 
+    1861.0, 
+    1941.0, 
+    1949.0, 
+    1861.0, 
+    1914.0, 
+    1941.0, 
+    1947.0, 
+    1942.0, 
+    1949.0, 
+    1942.0, 
+    1948.0, 
+    1943.0, 
+    1938.0, 
+    1949.0, 
+    1943.0, 
+    1979.0, 
+    1940.0, 
+    1986.0, 
+    1954.0, 
+    1940.0, 
+    1950.0, 
+    1953.0, 
+    1961.0, 
+    1931.0, 
+    1923.0, 
+    1919.0, 
+    1910.0, 
+    1863.0, 
+    1903.0, 
+    1941.0, 
+    1940.0, 
+    1918.0, 
+    1979.0, 
+    1956.0, 
+    1914.0, 
+    1861.0, 
+    1938.0, 
+    1844.0, 
+    1847.0, 
+    1881.0, 
+    1882.0, 
+    1936.0, 
+    1938.0, 
+    1916.0, 
+    1755.0, 
+    1881.0, 
+    1883.0, 
+    1913.0, 
+    1970.0, 
+    1911.0, 
+    1906.0, 
+    1887.0, 
+    1938.0, 
+    1861.0
+  ]
+}

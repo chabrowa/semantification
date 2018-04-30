@@ -1,0 +1,197 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.1071
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaTotal)", 
+          0.0793
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaTotal)", 
+          0.0793
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.1026
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1026
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.103
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.1174
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.1257
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Region[areaTotal]", 
+      0.0793
+    ], 
+    [
+      "AdministrativeRegion[areaTotal]", 
+      0.0793
+    ], 
+    [
+      "City[areaTotal]>(type|County-level_city)>(country|China)>(timeZone|Time_in_China)", 
+      0.0956
+    ], 
+    [
+      "City[areaTotal]>(type|County-level_city)>(country|China)", 
+      0.0992
+    ], 
+    [
+      "City[areaTotal]>(type|County-level_city)", 
+      0.1075
+    ], 
+    [
+      "City[areaTotal]>(type|County-level_city)>(country|China)>(timeZone|Time_in_China)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1095
+    ], 
+    [
+      "Location[areaTotal]>(country|Canada)>(type|Regional_county_municipality)", 
+      0.1219
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Canada)>(type|Regional_county_municipality)", 
+      0.1219
+    ], 
+    [
+      "Location[areaTotal]>(country|Canada)>(type|Regional_county_municipality)>(timeZone|Eastern_Time_Zone)", 
+      0.1286
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Canada)>(type|Regional_county_municipality)>(timeZone|Eastern_Time_Zone)", 
+      0.1286
+    ]
+  ], 
+  "values": [
+    636237066.2776738, 
+    2371375916.8356013, 
+    11837391495.751987, 
+    236639292.06699595, 
+    2278575421.6765475, 
+    898435684.4588995, 
+    886127405.7918713, 
+    1113520583.0412745, 
+    3980561.167958445, 
+    765840352.2496718, 
+    7231284.8645613175, 
+    261981967707.31476, 
+    11397914337.85305, 
+    1719177148.1563957, 
+    36214725215.16347, 
+    1427049740.2852817, 
+    656534773.3349061, 
+    4082201129.6567783, 
+    969319819.798833, 
+    1672959000.6823022, 
+    2065977.0192830234, 
+    2682045746.950887, 
+    427568338.57907146, 
+    2630447970.3582497, 
+    1210700314.1635692, 
+    1107716134.6985507, 
+    818900071.5604761, 
+    2721463522.108268, 
+    559328946.338027, 
+    1767220573.7057345, 
+    228437699.69329536, 
+    3044943629.150004, 
+    6713987952.023204, 
+    1468084046.1228545, 
+    1534420745.6580825, 
+    4958558430.309158, 
+    1979558777.4095669, 
+    2371608080.592379, 
+    2915476627.3990397, 
+    1811211286.8843622, 
+    47257389676.77629, 
+    25503476.62505209, 
+    1444727193.3942494, 
+    1763538454.0068827, 
+    1393525764.5583184, 
+    21301738355.463604, 
+    1608431085.455627, 
+    630563411.0298836, 
+    1329173115.206855, 
+    716921708.6858358, 
+    2530922239.419105, 
+    2395860947.5312953, 
+    1197826777.6176684, 
+    4620335621.653591, 
+    24424609117.3751, 
+    1711213195.6570423, 
+    241719599.2800502, 
+    1280897708.9568572, 
+    251822613518.32416, 
+    17259694020.73295, 
+    16682519329.781181, 
+    28152839303.5594, 
+    1371617992.838467, 
+    5608093825.372945, 
+    1799185243.634618, 
+    3382830012.1711, 
+    2757721060.983314, 
+    1755587427.2157035, 
+    5191516747.651253, 
+    1878954632.6958106
+  ]
+}

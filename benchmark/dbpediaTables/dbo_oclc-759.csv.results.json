@@ -1,0 +1,152 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/oclc"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.5021
+        ], 
+        [
+          "areaLand", 
+          0.5027
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          9.0
+        ], 
+        [
+          "areaLand", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.5027
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          0.5027
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.5027
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.5027
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.504
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          18.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          18.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Community_of_Madrid)", 
+      0.5
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(region|Marche)>(province|Province_of_Macerata)", 
+      0.5
+    ], 
+    [
+      "PopulatedPlace[areaTotal]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5
+    ], 
+    [
+      "City[areaTotal]>(leaderName|Mayor)>(country|United_States)>(timeZone|Central_Time_Zone)>(type|City)", 
+      0.5
+    ], 
+    [
+      "City[areaTotal]>(leaderName|Mayor)>(country|United_States)>(timeZone|Central_Time_Zone)>(type|City)>(governmentType|Council%E2%80%93manager_government)", 
+      0.5
+    ], 
+    [
+      "City[areaTotal]>(leaderName|Mayor)>(country|United_States)>(timeZone|Central_Time_Zone)>(type|City)>(governmentType|Council%E2%80%93manager_government)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5
+    ], 
+    [
+      "City[areaLand]>(leaderName|Mayor)>(governmentType|Council%E2%80%93manager_government)>(timeZone|Central_Time_Zone)>(country|United_States)>(type|City)", 
+      0.5027
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(region|Lazio)", 
+      0.5048
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Alicante)", 
+      0.506
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Uttar_Pradesh)>(country|India)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5079
+    ]
+  ], 
+  "values": [
+    34737173.0
+  ]
+}

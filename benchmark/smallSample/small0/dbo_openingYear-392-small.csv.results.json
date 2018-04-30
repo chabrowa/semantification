@@ -1,0 +1,141 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/openingYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.2149
+        ], 
+        [
+          "areaCode", 
+          0.2492
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          8.0
+        ], 
+        [
+          "areaCode", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.201
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (elevation)", 
+          0.2276
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (elevation)", 
+          0.2334
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.2334
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2334
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          0.2499
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          20.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (elevation)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.1527
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)", 
+      0.1997
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)>(country|United_States)", 
+      0.2007
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Colorado)>(type|Census-designated_place)", 
+      0.2088
+    ], 
+    [
+      "Lake[elevation]>(location|Glacier_National_Park_(U.S.))>(location|Glacier_County,_Montana)>(location|United_States)", 
+      0.2143
+    ], 
+    [
+      "Lake[elevation]>(location|Glacier_National_Park_(U.S.))>(location|Glacier_County,_Montana)", 
+      0.2193
+    ], 
+    [
+      "Location[areaCode]>(country|England)>(country|Cumbria)", 
+      0.2448
+    ], 
+    [
+      "Location[areaCode]>(country|England)>(country|Cumbria)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2537
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)", 
+      0.2571
+    ], 
+    [
+      "Lake[elevation]>(location|Glacier_National_Park_(U.S.))", 
+      0.2667
+    ]
+  ], 
+  "values": [
+    2150.0, 
+    1745.0, 
+    1539.0, 
+    1995.0, 
+    2134.0, 
+    1595.0, 
+    1926.0, 
+    1678.0, 
+    2248.0, 
+    1609.0, 
+    1892.0, 
+    1.0, 
+    2090.0, 
+    1876.0
+  ]
+}

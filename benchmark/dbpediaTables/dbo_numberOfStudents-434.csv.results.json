@@ -1,0 +1,247 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfStudents"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.1567
+        ], 
+        [
+          "maximumElevation", 
+          0.16
+        ], 
+        [
+          "numberOfStudents", 
+          0.1789
+        ], 
+        [
+          "length", 
+          0.1814
+        ]
+      ], 
+      "maj": [
+        [
+          "length", 
+          4.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "maximumElevation", 
+          2.0
+        ], 
+        [
+          "numberOfStudents", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.1447
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1447
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1447
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1447
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          0.16
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.16
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          0.16
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          0.16
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1622
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.1789
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          0.1789
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.1789
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.1789
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (length)", 
+          0.1807
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.1809
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          0.1809
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          0.1809
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          0.183
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Dam (length)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[elevation]>(country|Kyrgyzstan)>(isPartOf|Osh_Province)", 
+      0.1447
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Himachal_Pradesh)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1588
+    ], 
+    [
+      "Location[maximumElevation]>(region|Rh%C3%B4ne-Alpes)>(department|Savoie)", 
+      0.16
+    ], 
+    [
+      "Settlement[maximumElevation]>(region|Rh%C3%B4ne-Alpes)>(department|Savoie)", 
+      0.16
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Himachal_Pradesh)", 
+      0.1667
+    ], 
+    [
+      "School[numberOfStudents]>(state|Georgia_(U.S._state))>(type|State_school)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1789
+    ], 
+    [
+      "Dam[length]>(owner|Government_of_Maharashtra)>(22-rdf-syntax-ns#type|_Feature)>(owner|India)", 
+      0.1803
+    ], 
+    [
+      "Dam[length]>(owner|Government_of_Maharashtra)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1807
+    ], 
+    [
+      "Dam[length]>(owner|Government_of_Maharashtra)", 
+      0.1818
+    ], 
+    [
+      "Location[length]>(22-rdf-syntax-ns#type|_Feature)>(owner|India)", 
+      0.183
+    ]
+  ], 
+  "values": [
+    885.0, 
+    1927.0, 
+    1116.0, 
+    2790.0, 
+    1872.0, 
+    2400.0, 
+    466.0, 
+    1475.0
+  ]
+}

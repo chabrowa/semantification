@@ -1,0 +1,166 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfGoals"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "minimumElevation", 
+          0.1333
+        ], 
+        [
+          "numberOfEpisodes", 
+          0.1594
+        ], 
+        [
+          "populationDensity", 
+          0.165
+        ]
+      ], 
+      "maj": [
+        [
+          "minimumElevation", 
+          8.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ], 
+        [
+          "numberOfEpisodes", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.1334
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1334
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.1335
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.1337
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          0.1594
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.165
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[minimumElevation]>(department|Somme)>(arrondissement|Abbeville)", 
+      0.1193
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Somme)>(arrondissement|Abbeville)", 
+      0.1193
+    ], 
+    [
+      "Location[minimumElevation]>(region|Pays_de_la_Loire)", 
+      0.1292
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Pays_de_la_Loire)", 
+      0.13
+    ], 
+    [
+      "Location[minimumElevation]>(department|Pas-de-Calais)>(arrondissement|Arrondissement_of_Saint-Omer)", 
+      0.1308
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Pas-de-Calais)>(arrondissement|Arrondissement_of_Saint-Omer)", 
+      0.1308
+    ], 
+    [
+      "Location[minimumElevation]>(department|Pas-de-Calais)>(arrondissement|Arrondissement_of_Montreuil)", 
+      0.1533
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Pas-de-Calais)>(arrondissement|Arrondissement_of_Montreuil)", 
+      0.1533
+    ], 
+    [
+      "Work[numberOfEpisodes]", 
+      0.1594
+    ], 
+    [
+      "Location[populationDensity]>(type|Township_(Pennsylvania))", 
+      0.165
+    ]
+  ], 
+  "values": [
+    70.0, 
+    2.0, 
+    0.0, 
+    71.0, 
+    3.0, 
+    10.0, 
+    12.0, 
+    87.0, 
+    10.0, 
+    16.0, 
+    23.0, 
+    68.0, 
+    29.0, 
+    79.0, 
+    0.0, 
+    81.0, 
+    29.0, 
+    69.0, 
+    39.0, 
+    15.0, 
+    11.0, 
+    30.0, 
+    38.0, 
+    52.0, 
+    12.0, 
+    2.0, 
+    81.0, 
+    78.0, 
+    76.0, 
+    1.0, 
+    48.0
+  ]
+}

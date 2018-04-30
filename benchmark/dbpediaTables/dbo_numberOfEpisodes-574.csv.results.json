@@ -1,0 +1,250 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEpisodes"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "width", 
+          0.2194
+        ], 
+        [
+          "number", 
+          0.2258
+        ], 
+        [
+          "height", 
+          0.2449
+        ], 
+        [
+          "populationDensity", 
+          0.248
+        ]
+      ], 
+      "maj": [
+        [
+          "width", 
+          4.0
+        ], 
+        [
+          "height", 
+          4.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ], 
+        [
+          "number", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Bridge (width)", 
+          0.2189
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (width)", 
+          0.2189
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          0.2194
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          0.2194
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.2194
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          0.2194
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          0.2258
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.2258
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.2258
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.2258
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (height)", 
+          0.2448
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (height)", 
+          0.2448
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.2449
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          0.2449
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.2449
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.248
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.248
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.248
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.248
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Dam (height)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (height)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (width)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (width)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[width]>(type|Cable-stayed_bridge)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2167
+    ], 
+    [
+      "Bridge[width]>(type|Cable-stayed_bridge)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2167
+    ], 
+    [
+      "Location[width]>(type|Cable-stayed_bridge)", 
+      0.2222
+    ], 
+    [
+      "Bridge[width]>(type|Cable-stayed_bridge)", 
+      0.2222
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Goalkeeper_(association_football))>(birthPlace|Indonesia)", 
+      0.2258
+    ], 
+    [
+      "Dam[height]>(owner|Government_of_Maharashtra)>(22-rdf-syntax-ns#type|_Feature)>(owner|India)", 
+      0.244
+    ], 
+    [
+      "Location[height]>(owner|Government_of_Maharashtra)>(22-rdf-syntax-ns#type|_Feature)>(owner|India)", 
+      0.244
+    ], 
+    [
+      "Dam[height]>(owner|Government_of_Maharashtra)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2458
+    ], 
+    [
+      "Location[height]>(owner|Government_of_Maharashtra)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2458
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Kentucky)", 
+      0.248
+    ]
+  ], 
+  "values": [
+    15.0, 
+    26.0, 
+    36.0
+  ]
+}

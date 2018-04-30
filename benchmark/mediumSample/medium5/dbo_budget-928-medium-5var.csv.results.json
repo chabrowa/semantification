@@ -1,0 +1,234 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/budget"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "budget", 
+          0.0524
+        ], 
+        [
+          "areaTotal", 
+          0.0801
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          8.0
+        ], 
+        [
+          "budget", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/School (budget)", 
+          0.0524
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (budget)", 
+          0.0524
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (budget)", 
+          0.0524
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (budget)", 
+          0.0524
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.0789
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.0812
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.0812
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.0817
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          17.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (budget)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "EducationalInstitution[budget]", 
+      0.0524
+    ], 
+    [
+      "School[budget]", 
+      0.0524
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(region|Calabria)>(province|Province_of_Reggio_Calabria)", 
+      0.0677
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Austria)>(state|Lower_Austria)", 
+      0.0712
+    ], 
+    [
+      "Location[areaTotal]>(country|Austria)>(state|Lower_Austria)", 
+      0.072
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(region|Marche)>(province|Province_of_Pesaro_and_Urbino)", 
+      0.0827
+    ], 
+    [
+      "Settlement[areaTotal]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Valladolid)>(country|Spain)", 
+      0.0859
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Valladolid)", 
+      0.0864
+    ], 
+    [
+      "Settlement[areaTotal]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Valladolid)", 
+      0.0866
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(region|Calabria)", 
+      0.0879
+    ]
+  ], 
+  "values": [
+    22846425.077414047, 
+    18224055.29904237, 
+    43383207.04074394, 
+    29855318.15323401, 
+    32641766.93938323, 
+    24254780.14879968, 
+    29832819.538469274, 
+    33008264.40150672, 
+    18297851.756271694, 
+    20131458.112077344, 
+    100208540.09262423, 
+    183812631261.07617, 
+    15771575.499231413, 
+    43994852.976297066, 
+    36285734.30354574, 
+    29110923.893833302, 
+    3.0301444286596446, 
+    34645637.989695475, 
+    33208790.19309302, 
+    17970854.551890433, 
+    48305661.06241249, 
+    34204523.7922506, 
+    40030778.04845983, 
+    2260181.82029158, 
+    38305597.91793545, 
+    6577063.14391304, 
+    41378579.709503844, 
+    51765485.877788395, 
+    28499716.993754357, 
+    17093315.19724805, 
+    27785121.292994257, 
+    14494266.12431622, 
+    50812109.376298964, 
+    28971881.00984126, 
+    17295529.571350865, 
+    164375790.35006592, 
+    10297238.836377164, 
+    14138415.602513108, 
+    13058102.85233088, 
+    16554260.817571128, 
+    7972236.071007772, 
+    13299371.454840671, 
+    59778169.43860828, 
+    14945834.441763017, 
+    13017675.883668846, 
+    59711293.40971835, 
+    15337874.275658267, 
+    19509020.30301416, 
+    18302636.88002359, 
+    31855481.621950693, 
+    90027186.36200075, 
+    18263500.543157842, 
+    19964734.00223642, 
+    32832308.799231395, 
+    25401646.402747292, 
+    26403356.868537758, 
+    44416904.29097211, 
+    25529412.458397605, 
+    10163790.686416479, 
+    13124744.666996611, 
+    43514204.3857261, 
+    29798184.946743805, 
+    92479866.76332515, 
+    6319195.9519311385, 
+    21895678.436345335, 
+    35643251.05958752, 
+    21351483.70448722, 
+    28295249.94970788, 
+    14132241.686734255, 
+    88862207.28713143, 
+    33071792.27989463, 
+    10657770.268216474, 
+    28876319.168720853, 
+    25625489.30811941, 
+    5999712.048461142, 
+    16304553.312018268, 
+    28048427.497094546, 
+    17006377.75308048, 
+    45060486.4280063, 
+    14143505.49927001, 
+    37320272.025043845, 
+    51542609.91698911, 
+    3764269.2150543574, 
+    104686588.42465402, 
+    28638427.504764393, 
+    145120966.71374616, 
+    33537163.702102456, 
+    90509765.04768783, 
+    9008775.594566638, 
+    53635782.74023095, 
+    15552648.50578617
+  ]
+}

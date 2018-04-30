@@ -1,0 +1,219 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/budget"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "budget", 
+          0.1236
+        ], 
+        [
+          "areaTotal", 
+          0.1572
+        ], 
+        [
+          "areaWater", 
+          0.1705
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          7.0
+        ], 
+        [
+          "budget", 
+          2.0
+        ], 
+        [
+          "areaWater", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Agent (budget)", 
+          0.1236
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (budget)", 
+          0.1245
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.1473
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.1473
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.1486
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1652
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.1705
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaWater)", 
+          0.1705
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaWater)", 
+          0.1705
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.1705
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          0.1733
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (budget)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Agent[budget]", 
+      0.1227
+    ], 
+    [
+      "Organisation[budget]", 
+      0.1245
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Maharashtra)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1306
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Maharashtra)", 
+      0.1472
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Canada)>(timeZone|Pacific_Time_Zone)", 
+      0.1473
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Maharashtra)>(22-rdf-syntax-ns#type|_Feature)>(country|India)", 
+      0.1544
+    ], 
+    [
+      "ProtectedArea[areaTotal]>(location|Idaho)>(location|United_States)", 
+      0.1699
+    ], 
+    [
+      "AdministrativeRegion[areaWater]>(state|Minnesota)", 
+      0.1705
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)", 
+      0.1722
+    ], 
+    [
+      "ProtectedArea[areaTotal]>(location|Idaho)", 
+      0.1784
+    ]
+  ], 
+  "values": [
+    19013332992.934486, 
+    8285798.01867674, 
+    91742701.77762574, 
+    15328711.01383351, 
+    26072725.020266056, 
+    36935032.38176363, 
+    151105147.7458878, 
+    36438872.904614806, 
+    8904794.333886461, 
+    48943978.77583787, 
+    31531750564.809593, 
+    18275172.15702065, 
+    6768211.995156512, 
+    9209774632.916197, 
+    70126751.81113937, 
+    13109414.924397, 
+    7079321.4544464415, 
+    34193642.55756644, 
+    520289516.98919934, 
+    24575488.020559624, 
+    560012767.8892065, 
+    31793834.148286562, 
+    21932611.56804461, 
+    8323705852.977031, 
+    51090524266.020485, 
+    46804025875.71085, 
+    129549139.72007157, 
+    28.35538487884384, 
+    12508783.465552041, 
+    44369802.639425576, 
+    17826752.051482465, 
+    50158950.9719115, 
+    236425467.8354485, 
+    16558.394805380456, 
+    45289584.429768674, 
+    41144441.90063458, 
+    3809878646.5457964, 
+    22615851.936946783, 
+    514128983355.99646, 
+    19420402.67770559, 
+    38088379.11726497, 
+    29542500.585569654, 
+    34472953.06683727, 
+    161967985.30633023
+  ]
+}

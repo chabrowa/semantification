@@ -1,0 +1,242 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/budget"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1585
+        ], 
+        [
+          "length", 
+          0.1757
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          7.0
+        ], 
+        [
+          "length", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationTotal)", 
+          0.1413
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationTotal)", 
+          0.1413
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1563
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1563
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1643
+        ], 
+        [
+          "http://dbpedia.org/ontology/Stream (length)", 
+          0.1648
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          0.1648
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          0.1648
+        ], 
+        [
+          "http://dbpedia.org/ontology/River (length)", 
+          0.1648
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1714
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          0.1788
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.1811
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/River (length)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Stream (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationTotal)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "AdministrativeRegion[populationTotal]>(timeZone|Iran_Standard_Time)", 
+      0.1328
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Iran_Standard_Time)", 
+      0.1365
+    ], 
+    [
+      "AdministrativeRegion[populationTotal]>(country|Peru)", 
+      0.1498
+    ], 
+    [
+      "River[length]>(sourceCountry|Australia)", 
+      0.1566
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Eastern_European_Time)>(country|Greece)", 
+      0.1686
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_European_Time)>(type|Regional_units_of_Greece)", 
+      0.1714
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Eastern_European_Time)>(country|Greece)>(type|Regional_units_of_Greece)", 
+      0.1714
+    ], 
+    [
+      "River[length]>(sourceCountry|France)", 
+      0.1731
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|California)>(governmentType|Council%E2%80%93manager_government)", 
+      0.1788
+    ], 
+    [
+      "Place[length]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1974
+    ]
+  ], 
+  "values": [
+    53973.349410288974, 
+    35786.660839296295, 
+    33962902.641903594, 
+    252036.00410431338, 
+    241370.23605316365, 
+    3715968.668292168, 
+    102876.67624822949, 
+    674921.5443612842, 
+    5247687.767960626, 
+    45288.82191765796, 
+    60542.470229021084, 
+    378365.70567558624, 
+    42268.57032786194, 
+    4445397.406801793, 
+    150613.9377199522, 
+    120137.5734158057, 
+    51978270.50384573, 
+    720954.5082905573, 
+    20374.063345680555, 
+    101595.80699642279, 
+    9976.21237086838, 
+    84349.92138917076, 
+    65577.57924881118, 
+    25163.941886116125, 
+    54942.90055247919, 
+    58273.88373168788, 
+    8889.971056358596, 
+    54498.279632284924, 
+    57793.62126162288, 
+    31670.901161948397, 
+    58134.52883621835, 
+    51153.811493933135, 
+    106691.04757537988, 
+    53519.79947034863, 
+    34648.1861745965, 
+    53608.05863781307, 
+    1001550.884585415, 
+    4284557.896728012, 
+    50632.06970219425, 
+    86276.38206765166, 
+    38066.96497536109, 
+    58669.68850674929, 
+    91903.54902100812, 
+    42264.62283498996, 
+    113120.29855862599, 
+    110532.8226313394, 
+    1527933.536992612, 
+    232140.9874189983, 
+    51854.66147158612, 
+    27613.244431018407, 
+    23522.984153162448, 
+    45322.264771747024, 
+    219423.19088034818, 
+    44204.3074299899, 
+    48373.40995222704, 
+    60548.7073139042, 
+    90793.04562442595, 
+    172560.47345621896, 
+    116415.75580315926, 
+    72408.25544482956, 
+    92853.06088739428, 
+    31380.667617926185, 
+    82180.80162064673, 
+    632893.38717227, 
+    46324.48741193975, 
+    48197.621483478215, 
+    88287.42374723905
+  ]
+}

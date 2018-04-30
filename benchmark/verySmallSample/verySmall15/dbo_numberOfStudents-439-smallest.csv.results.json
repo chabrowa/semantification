@@ -1,0 +1,243 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfStudents"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfStudents", 
+          0.0798
+        ], 
+        [
+          "populationTotal", 
+          0.0892
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          9.0
+        ], 
+        [
+          "numberOfStudents", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.0798
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.0798
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          0.0798
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.0798
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.0868
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0875
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0875
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.0923
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          20.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[populationTotal]>(type|Census-designated_place)>(isPartOf|Pennsylvania)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0716
+    ], 
+    [
+      "School[numberOfStudents]", 
+      0.0798
+    ], 
+    [
+      "Settlement[populationTotal]>(type|Census-designated_place)>(isPartOf|Pennsylvania)", 
+      0.0827
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(province|Trentino)>(region|S%C3%BCdtirol)", 
+      0.0892
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(province|Trentino)>(region|S%C3%BCdtirol)", 
+      0.0894
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(province|Trentino)", 
+      0.0899
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(province|Trentino)", 
+      0.0918
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Germany)>(district|Trier-Saarburg)", 
+      0.094
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(province|Province_of_Alessandria)", 
+      0.0966
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(province|Province_of_Oristano)", 
+      0.0979
+    ]
+  ], 
+  "values": [
+    637.0, 
+    1634.0, 
+    3010.0, 
+    728.0, 
+    58.0, 
+    25945.0, 
+    701.0, 
+    4490.0, 
+    397.0, 
+    367.0, 
+    268.0, 
+    458.0, 
+    1696.0, 
+    1654.0, 
+    774.0, 
+    2523.0, 
+    1196.0, 
+    719.0, 
+    2185.0, 
+    607.0, 
+    548.0, 
+    420.0, 
+    3187.0, 
+    2603.0, 
+    824.0, 
+    1129.0, 
+    832.0, 
+    403.0, 
+    3136.0, 
+    1343.0, 
+    406.0, 
+    423.0, 
+    1902.0, 
+    620.0, 
+    278.0, 
+    571.0, 
+    43.0, 
+    509.0, 
+    269.0, 
+    1415.0, 
+    2254.0, 
+    99.0, 
+    2023.0, 
+    1495.0, 
+    1646.0, 
+    0.0, 
+    2055.0, 
+    300.0, 
+    1406.0, 
+    224.0, 
+    2243.0, 
+    400.0, 
+    587.0, 
+    9.0, 
+    31.0, 
+    705.0, 
+    530.0, 
+    372.0, 
+    1887.0, 
+    841.0, 
+    1474.0, 
+    1891.0, 
+    166.0, 
+    456.0, 
+    1245.0, 
+    111.0, 
+    1092.0, 
+    787.0, 
+    697.0, 
+    576.0, 
+    507.0, 
+    2966.0, 
+    1701.0, 
+    1285.0, 
+    1426.0, 
+    1756.0, 
+    75322.0, 
+    965.0, 
+    102.0, 
+    602.0, 
+    1490.0, 
+    1130.0, 
+    1780.0, 
+    563.0, 
+    1793.0, 
+    1485.0, 
+    391.0, 
+    6580.0, 
+    795.0, 
+    840.0, 
+    439.0, 
+    1241.0, 
+    2767.0, 
+    1309.0, 
+    136.0, 
+    2086.0, 
+    688.0, 
+    1.0, 
+    2283.0, 
+    1819.0
+  ]
+}

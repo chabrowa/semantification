@@ -1,0 +1,257 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/topSpeed"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.4902
+        ], 
+        [
+          "height", 
+          0.4936
+        ], 
+        [
+          "populationTotal", 
+          0.4938
+        ], 
+        [
+          "numberOfEpisodes", 
+          0.4943
+        ], 
+        [
+          "elevation", 
+          0.4954
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          3.0
+        ], 
+        [
+          "height", 
+          3.0
+        ], 
+        [
+          "numberOfEpisodes", 
+          2.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ], 
+        [
+          "populationTotal", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.4896
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.4896
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.4896
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.4896
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.4901
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.4925
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (height)", 
+          0.4925
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          0.4925
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.4925
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (height)", 
+          0.4936
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.4938
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.4938
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.4938
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          0.4943
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          0.4943
+        ], 
+        [
+          "http://dbpedia.org/ontology/Airport (elevation)", 
+          0.4954
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          0.4954
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.4954
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (elevation)", 
+          0.4954
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Airport (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (height)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationDensity]>(country|Hungary)>(isPartOf|Zala_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.4872
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|North_Carolina)", 
+      0.4896
+    ], 
+    [
+      "Dam[height]>(owner|Department_of_Water_Affairs)", 
+      0.4925
+    ], 
+    [
+      "Location[height]>(owner|Department_of_Water_Affairs)", 
+      0.4925
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Slovenia)>(isPartOf|Inner_Carniola%E2%80%93Karst_Statistical_Region)", 
+      0.4938
+    ], 
+    [
+      "Location[populationDensity]>(country|Hungary)>(isPartOf|Zala_County)", 
+      0.494
+    ], 
+    [
+      "TelevisionShow[numberOfEpisodes]>(channel|CBS)>(format|Black-and-white)>(format|Monaural)", 
+      0.4943
+    ], 
+    [
+      "TelevisionShow[numberOfEpisodes]>(channel|CBS)>(format|Black-and-white)", 
+      0.4944
+    ], 
+    [
+      "Airport[elevation]>(operator|Royal_Air_Force)>(owner|Air_Ministry)", 
+      0.4954
+    ], 
+    [
+      "Location[height]", 
+      0.4957
+    ]
+  ], 
+  "values": [
+    38.892, 
+    37.04
+  ]
+}

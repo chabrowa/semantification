@@ -1,0 +1,267 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/routeNumber"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "number", 
+          0.2769
+        ], 
+        [
+          "numberOfEmployees", 
+          0.2921
+        ], 
+        [
+          "populationDensity", 
+          0.2955
+        ], 
+        [
+          "elevation", 
+          0.2974
+        ], 
+        [
+          "populationTotal", 
+          0.3
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "number", 
+          3.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ], 
+        [
+          "numberOfEmployees", 
+          1.0
+        ], 
+        [
+          "populationTotal", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/GridironFootballPlayer (number)", 
+          0.2759
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmericanFootballPlayer (number)", 
+          0.276
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.2769
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.2769
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.2769
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          0.279
+        ], 
+        [
+          "http://dbpedia.org/ontology/GovernmentAgency (numberOfEmployees)", 
+          0.2921
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          0.2921
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          0.2921
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.2945
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.2955
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.2955
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.2955
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          0.2964
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (elevation)", 
+          0.2968
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2973
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2974
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2974
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.2985
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.3
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/GovernmentAgency (numberOfEmployees)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/GridironFootballPlayer (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmericanFootballPlayer (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "GridironFootballPlayer[number]", 
+      0.2759
+    ], 
+    [
+      "AmericanFootballPlayer[number]", 
+      0.276
+    ], 
+    [
+      "BasketballPlayer[number]", 
+      0.279
+    ], 
+    [
+      "GovernmentAgency[numberOfEmployees]>(location|Oklahoma_City)", 
+      0.2921
+    ], 
+    [
+      "Town[populationDensity]>(timeZone|Central_European_Time)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2945
+    ], 
+    [
+      "City[populationDensity]>(type|Types_of_municipalities_in_Quebec)", 
+      0.2964
+    ], 
+    [
+      "Island[elevation]", 
+      0.2968
+    ], 
+    [
+      "Settlement[elevation]>(type|Town)>(country|United_States)", 
+      0.2969
+    ], 
+    [
+      "Town[elevation]>(type|Towns_of_the_People's_Republic_of_China)>(country|China)>(timeZone|Time_in_China)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2985
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_European_Time)>(isPartOf|Alytus_County)", 
+      0.3
+    ]
+  ], 
+  "values": [
+    3.0, 
+    886.0, 
+    856.0, 
+    28.0
+  ]
+}

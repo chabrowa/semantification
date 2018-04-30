@@ -1,0 +1,192 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaCode"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaCode", 
+          0.3337
+        ], 
+        [
+          "populationTotal", 
+          0.4957
+        ], 
+        [
+          "numberOfStudents", 
+          0.4958
+        ]
+      ], 
+      "maj": [
+        [
+          "areaCode", 
+          7.0
+        ], 
+        [
+          "numberOfStudents", 
+          2.0
+        ], 
+        [
+          "populationTotal", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          0.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaCode)", 
+          0.3819
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          0.3893
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.3893
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          0.3893
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          0.4952
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.4957
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.4957
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.4957
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.4957
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.4958
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.4958
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.4958
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Town (areaCode)", 
+          21.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaCode]>(daylightSavingTimeZone|Eastern_Time_Zone)>(region|Capital_District)", 
+      0.0
+    ], 
+    [
+      "Town[areaCode]>(isPartOf|New_York)>(type|Administrative_divisions_of_New_York)>(country|United_States)", 
+      0.352
+    ], 
+    [
+      "Town[areaCode]>(isPartOf|New_York)>(type|Administrative_divisions_of_New_York)", 
+      0.3582
+    ], 
+    [
+      "Town[areaCode]>(isPartOf|New_York)>(type|Administrative_divisions_of_New_York)>(country|United_States)>(timeZone|Eastern_Time_Zone)", 
+      0.3607
+    ], 
+    [
+      "Town[areaCode]>(isPartOf|New_York)>(type|Town)>(leaderName|Republican_Party_(United_States))", 
+      0.3721
+    ], 
+    [
+      "Town[areaCode]>(isPartOf|New_York)", 
+      0.4327
+    ], 
+    [
+      "Town[areaCode]>(isPartOf|New_York)>(type|Town)", 
+      0.4601
+    ], 
+    [
+      "School[numberOfStudents]>(state|Illinois)>(type|Private_school)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.4915
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Fars_Province)>(isPartOf|Central_District_(Darab_County))", 
+      0.4957
+    ], 
+    [
+      "School[numberOfStudents]>(state|Illinois)>(type|Private_school)", 
+      0.5
+    ]
+  ], 
+  "values": [
+    518.0
+  ]
+}

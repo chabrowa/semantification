@@ -1,0 +1,275 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runwayLength"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "runwayLength", 
+          0.0826
+        ], 
+        [
+          "length", 
+          0.1
+        ], 
+        [
+          "populationDensity", 
+          0.106
+        ]
+      ], 
+      "maj": [
+        [
+          "runwayLength", 
+          5.0
+        ], 
+        [
+          "length", 
+          4.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Airport (runwayLength)", 
+          0.0826
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (runwayLength)", 
+          0.0826
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (runwayLength)", 
+          0.0826
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (runwayLength)", 
+          0.0826
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (runwayLength)", 
+          0.0826
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (length)", 
+          0.0991
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          0.0999
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.0999
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          0.0999
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          0.1002
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.106
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Dam (length)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (runwayLength)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (runwayLength)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (runwayLength)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Airport (runwayLength)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (runwayLength)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "ArchitecturalStructure[runwayLength]", 
+      0.0826
+    ], 
+    [
+      "Airport[runwayLength]", 
+      0.0826
+    ], 
+    [
+      "Infrastructure[runwayLength]", 
+      0.0826
+    ], 
+    [
+      "Place[runwayLength]", 
+      0.0826
+    ], 
+    [
+      "Location[runwayLength]", 
+      0.0826
+    ], 
+    [
+      "Dam[length]>(owner|Government_of_Maharashtra)>(22-rdf-syntax-ns#type|_Feature)>(owner|India)", 
+      0.0974
+    ], 
+    [
+      "Dam[length]>(owner|Government_of_Maharashtra)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0981
+    ], 
+    [
+      "Location[length]>(22-rdf-syntax-ns#type|_Feature)>(owner|India)", 
+      0.1002
+    ], 
+    [
+      "Dam[length]>(owner|Government_of_Maharashtra)", 
+      0.1042
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Illinois)>(isPartOf|Cook_County,_Illinois)", 
+      0.106
+    ]
+  ], 
+  "values": [
+    3066.6437991804946, 
+    2467.7214513064196, 
+    3553.34429412546, 
+    1514.9745783943101, 
+    1326.60680017191, 
+    2491.037254155678, 
+    1516.1001691229067, 
+    2206.532980501304, 
+    2492.8697261902603, 
+    1875.136722517906, 
+    1146.1174925593098, 
+    697.050448635536, 
+    3743.268741326291, 
+    2238.010207372462, 
+    751.6414116864245, 
+    2126.6918674827175, 
+    1828.8388525492826, 
+    1781.0620759453755, 
+    1159.0623268351183, 
+    865.0524253829391, 
+    745.4652809624957, 
+    1718.6119517413129, 
+    1489.092778296245, 
+    1928.74398605537, 
+    783.8496455884224, 
+    793.3221510848867, 
+    3089.2225584696007, 
+    3490.9291464854678, 
+    1392.4570694621084, 
+    351.04540269671696, 
+    1956.4200455081439, 
+    610.3111295181275, 
+    3292.7455926533303, 
+    3423.340104111998, 
+    885.7025461691039, 
+    883.2521400136013, 
+    745.279768179254, 
+    2797.906654625072, 
+    2068.2781026828447, 
+    1190.3568864608583, 
+    2006.1896398965562, 
+    2718.184813318261, 
+    2634.219149238156, 
+    1247.084512467646, 
+    1701.8345154788701, 
+    1301.823565713452, 
+    3598.2497407875762, 
+    884.2141241127364, 
+    2333.4614331304497, 
+    1053.800815369895, 
+    1854.8688911190172, 
+    725.2101164645063, 
+    2152.293293840722, 
+    3889.559984866669, 
+    1754.3651881193077, 
+    2563.1637232815724, 
+    820.1732391913113, 
+    1130.9444270764127, 
+    1858.0801781570008, 
+    2614.400759723427, 
+    851.5686141891335, 
+    1658.181796863907, 
+    610.1831797610741, 
+    2487.8000056706464, 
+    1353.3377247681194, 
+    2581.2394819614965, 
+    1290.4724766201123, 
+    4107.481538993956, 
+    691.542851042602, 
+    1082.7376752220327, 
+    712.9190460196745, 
+    768.9105450104857, 
+    1496.1940816625138, 
+    954.5986614256811, 
+    1348.3319044727905, 
+    0.0, 
+    2051.640245121594, 
+    993.5109297888152, 
+    619.7140008522932, 
+    1346.8276050908403, 
+    1066.8856286822725, 
+    865.2781758976214, 
+    1827.4427348814863, 
+    818.6980139490523, 
+    1928.8327888218387, 
+    2466.7366837605214, 
+    1701.3144428267667, 
+    1630.087171196867, 
+    1078.0074202285386, 
+    1184.3229706748182, 
+    1060.79697158212, 
+    1605.478983810349, 
+    1662.2886357518594, 
+    1645.8614175388307, 
+    1057.7590314433808, 
+    1159.0292096640853, 
+    665.4262727753877, 
+    2207.0297207369535, 
+    1089.7304673215, 
+    531.6163259241416
+  ]
+}

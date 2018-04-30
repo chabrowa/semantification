@@ -1,0 +1,113 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfStudents"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.2719
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          0.2708
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2712
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2712
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.2714
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.2778
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          21.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          18.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          4.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[populationTotal]>(country|Italy)>(region|Lazio)", 
+      0.2653
+    ], 
+    [
+      "City[populationTotal]>(daylightSavingTimeZone|Central_Time_Zone)>(state|Illinois)>(country|United_States)", 
+      0.2672
+    ], 
+    [
+      "City[populationTotal]>(daylightSavingTimeZone|Central_Time_Zone)>(state|Illinois)>(country|United_States)>(type|List_of_cities_in_Illinois)", 
+      0.268
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|Missouri)>(isPartOf|St._Louis_County,_Missouri)>(country|United_States)", 
+      0.2687
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(region|Umbria)>(province|Province_of_Perugia)", 
+      0.2692
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|Scotland)", 
+      0.2716
+    ], 
+    [
+      "City[populationTotal]>(daylightSavingTimeZone|Central_Time_Zone)>(state|Illinois)", 
+      0.2727
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|Missouri)>(isPartOf|St._Louis_County,_Missouri)>(country|United_States)>(type|City)", 
+      0.2769
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(region|Umbria)>(province|Province_of_Perugia)", 
+      0.2778
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(province|Province_of_Caserta)", 
+      0.2813
+    ]
+  ], 
+  "values": [
+    1747.0, 
+    10000.0
+  ]
+}

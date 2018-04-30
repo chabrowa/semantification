@@ -1,0 +1,144 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaWater"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "gross", 
+          0.1194
+        ], 
+        [
+          "areaTotal", 
+          0.1253
+        ]
+      ], 
+      "maj": [
+        [
+          "gross", 
+          6.0
+        ], 
+        [
+          "areaTotal", 
+          4.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Work (gross)", 
+          0.1194
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (gross)", 
+          0.1208
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (gross)", 
+          0.1208
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.1255
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (gross)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (gross)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (gross)", 
+          3.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Wikidata:Q11424[gross]>(distributor|Walt_Disney_Studios_Motion_Pictures)", 
+      0.1125
+    ], 
+    [
+      "Film[gross]>(distributor|Walt_Disney_Studios_Motion_Pictures)", 
+      0.1125
+    ], 
+    [
+      "Wikidata:Q11424[gross]>(distributor|New_Line_Cinema)", 
+      0.1166
+    ], 
+    [
+      "Film[gross]>(distributor|New_Line_Cinema)", 
+      0.1166
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(region|Sicily)>(province|Province_of_Catania)", 
+      0.1241
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Alicante)", 
+      0.1241
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Kerala)", 
+      0.1245
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Kerala)>(country|India)", 
+      0.1285
+    ], 
+    [
+      "Wikidata:Q11424[gross]>(distributor|Walt_Disney_Studios_Motion_Pictures)>(country|United_States)", 
+      0.1293
+    ], 
+    [
+      "Film[gross]>(distributor|Walt_Disney_Studios_Motion_Pictures)>(country|United_States)", 
+      0.1293
+    ]
+  ], 
+  "values": [
+    11691363.068451881, 
+    14184097226.162663, 
+    99347025.00510307, 
+    13841911.389579616, 
+    1959721691.4567828, 
+    1175001965.1604176, 
+    8967841.51072396, 
+    33033617.493173964, 
+    251458103.41826916, 
+    18318952.618941434, 
+    36944584.566153556, 
+    541389.9569710644, 
+    4781698.2653240785, 
+    15656762.070809834, 
+    5603246.035840112, 
+    48757114.78989148, 
+    15020906.587798735, 
+    5915201.445126786, 
+    78762409.21779713, 
+    25845730.6667453, 
+    22233395.203809507, 
+    54359542.03820351, 
+    22362157.280138716, 
+    42729799.38775496, 
+    2244911.071839438, 
+    208724522.7863849, 
+    20300500.71558806, 
+    198891476.086224, 
+    5637812.20488114, 
+    95394730.43012118, 
+    24327434.674812358, 
+    18520385.61990561, 
+    14183680.469976855
+  ]
+}

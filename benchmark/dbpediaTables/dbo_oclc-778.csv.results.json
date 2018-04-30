@@ -1,0 +1,197 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/oclc"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaLand", 
+          0.1473
+        ], 
+        [
+          "areaWater", 
+          0.1481
+        ], 
+        [
+          "areaTotal", 
+          0.1636
+        ], 
+        [
+          "budget", 
+          0.1649
+        ]
+      ], 
+      "maj": [
+        [
+          "areaLand", 
+          6.0
+        ], 
+        [
+          "budget", 
+          2.0
+        ], 
+        [
+          "areaTotal", 
+          1.0
+        ], 
+        [
+          "areaWater", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          0.1408
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.1481
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaWater)", 
+          0.1481
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaWater)", 
+          0.1481
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.1481
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.1552
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.1552
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.1552
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.1636
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (budget)", 
+          0.1649
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (budget)", 
+          0.1649
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (budget)", 
+          0.1649
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (budget)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaLand]>(isPartOf|Washington_(state))>(type|City_government_in_Washington_(state))", 
+      0.1327
+    ], 
+    [
+      "Location[areaLand]>(isPartOf|Washington_(state))>(type|City_government_in_Washington_(state))>(country|United_States)", 
+      0.137
+    ], 
+    [
+      "Location[areaLand]>(isPartOf|Washington_(state))>(type|City_government_in_Washington_(state))>(country|United_States)>(timeZone|Pacific_Time_Zone)", 
+      0.1389
+    ], 
+    [
+      "AdministrativeRegion[areaWater]>(state|Colorado)", 
+      0.1481
+    ], 
+    [
+      "Settlement[areaLand]>(isPartOf|Maryland)", 
+      0.1489
+    ], 
+    [
+      "Settlement[areaLand]>(isPartOf|Georgia_(U.S._state))", 
+      0.1614
+    ], 
+    [
+      "Location[areaTotal]>(type|Census-designated_place)", 
+      0.1636
+    ], 
+    [
+      "Wikidata:Q11424[budget]>(distributor|Lions_Gate_Entertainment)", 
+      0.1649
+    ], 
+    [
+      "Film[budget]>(distributor|Lions_Gate_Entertainment)", 
+      0.1649
+    ], 
+    [
+      "Location[areaLand]>(isPartOf|Washington_(state))", 
+      0.1651
+    ]
+  ], 
+  "values": [
+    6144525.0, 
+    20993609.0, 
+    27683446.0, 
+    3121031.0, 
+    13782049.0, 
+    1996159.0
+  ]
+}

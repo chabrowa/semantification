@@ -1,0 +1,214 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1184
+        ], 
+        [
+          "elevation", 
+          0.1238
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          6.0
+        ], 
+        [
+          "elevation", 
+          4.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1084
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (elevation)", 
+          0.1194
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.1194
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (elevation)", 
+          0.1199
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1238
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1282
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.1282
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1282
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1282
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1282
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1282
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1282
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationTotal]>(timeZone|Eastern_European_Time)>(isPartOf|Nicosia_District)>(country|Cyprus)", 
+      0.1019
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_European_Time)>(isPartOf|Nicosia_District)", 
+      0.1111
+    ], 
+    [
+      "Location[populationTotal]>(country|Poland)>(type|Village)>(isPartOf|Pozna%C5%84_County)", 
+      0.1128
+    ], 
+    [
+      "BodyOfWater[elevation]", 
+      0.1189
+    ], 
+    [
+      "Lake[elevation]", 
+      0.1199
+    ], 
+    [
+      "Village[elevation]>(timeZone|Eastern_European_Time)>(country|Turkey)", 
+      0.1282
+    ], 
+    [
+      "Village[elevation]>(timeZone|Eastern_European_Time)>(country|Turkey)>(isPartOf|Mersin_Province)", 
+      0.1282
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Fars_Province)>(isPartOf|Central_District_(Marvdasht_County))", 
+      0.1282
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Fars_Province)>(isPartOf|Khafr_District)", 
+      0.1282
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Razavi_Khorasan_Province)>(isPartOf|Joghatai_County)", 
+      0.1282
+    ]
+  ], 
+  "values": [
+    260.0, 
+    0.0, 
+    1285.0, 
+    4.0, 
+    469.0, 
+    93.0, 
+    108000.0, 
+    1316.0, 
+    987.0, 
+    2052.0, 
+    1485.0, 
+    0.0, 
+    489.0, 
+    4177.0, 
+    0.0, 
+    195.0, 
+    268.0, 
+    167.0, 
+    1401.0, 
+    9000.0, 
+    8006.0, 
+    368.0, 
+    0.0, 
+    870.0, 
+    1088.0, 
+    20.0, 
+    832.0, 
+    860.0, 
+    459.0, 
+    395.0, 
+    271.0, 
+    904.0, 
+    190.0, 
+    362.0, 
+    263.0, 
+    566.0, 
+    21.0, 
+    663.0, 
+    962.0
+  ]
+}

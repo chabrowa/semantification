@@ -1,0 +1,217 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfSeasons"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.3027
+        ], 
+        [
+          "populationDensity", 
+          0.3235
+        ], 
+        [
+          "number", 
+          0.3333
+        ], 
+        [
+          "numberOfSeasons", 
+          0.3462
+        ], 
+        [
+          "minimumElevation", 
+          0.3701
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          4.0
+        ], 
+        [
+          "populationDensity", 
+          3.0
+        ], 
+        [
+          "numberOfSeasons", 
+          1.0
+        ], 
+        [
+          "minimumElevation", 
+          1.0
+        ], 
+        [
+          "number", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.3011
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.3027
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.3027
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.3174
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.3266
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.3266
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.3266
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.3266
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          0.3462
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          0.3462
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.3701
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Dithmarschen)", 
+      0.2791
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Dithmarschen)>(federalState|Schleswig-Holstein)", 
+      0.2824
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Nordfriesland)", 
+      0.2978
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Colorado)", 
+      0.31
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Kansas)", 
+      0.3174
+    ], 
+    [
+      "Athlete[number]>(position|Goalkeeper_(association_football))", 
+      0.3333
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Nebraska)", 
+      0.3431
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]>(format|Aspect_ratio_(image))", 
+      0.3462
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Steinburg)", 
+      0.3516
+    ], 
+    [
+      "Location[minimumElevation]>(region|Pays_de_la_Loire)>(department|Loire-Atlantique)", 
+      0.3701
+    ]
+  ], 
+  "values": [
+    11.0, 
+    1.0
+  ]
+}

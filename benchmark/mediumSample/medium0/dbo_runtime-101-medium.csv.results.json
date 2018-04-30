@@ -1,0 +1,215 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.2131
+        ], 
+        [
+          "populationTotal", 
+          0.2132
+        ], 
+        [
+          "populationDensity", 
+          0.2192
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          8.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.2094
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.213
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.2131
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2131
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2131
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2131
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2145
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2145
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.2183
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.2192
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          0.2192
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.2192
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.2192
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationTotal]>(country|France)>(department|Pyr%C3%A9n%C3%A9es-Atlantiques)", 
+      0.2022
+    ], 
+    [
+      "Settlement[populationTotal]>(type|Census-designated_place)>(isPartOf|Wisconsin)", 
+      0.2024
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(department|Pyr%C3%A9n%C3%A9es-Atlantiques)", 
+      0.2107
+    ], 
+    [
+      "Village[elevation]>(timeZone|Pakistan_Standard_Time)", 
+      0.2131
+    ], 
+    [
+      "Location[populationTotal]>(country|England)>(type|Civil_parishes_in_England)", 
+      0.2167
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|West_Azerbaijan_Province)>(isPartOf|Central_District_(Mahabad_County))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2169
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Ardabil_Province)>(isPartOf|Central_District_(Meshgin_Shahr_County))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2179
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(department|Marne)>(arrondissement|Arrondissement_of_Reims)", 
+      0.2185
+    ], 
+    [
+      "Village[populationDensity]>(timeZone|Indian_Standard_Time)", 
+      0.2192
+    ], 
+    [
+      "Village[populationTotal]>(country|United_Kingdom)>(country|Suffolk)", 
+      0.2206
+    ]
+  ], 
+  "values": [
+    163.38790026937258, 
+    191.62515452034606, 
+    203.92147173056702, 
+    5581.562123718067, 
+    2296.3019430736294, 
+    143.65756434594817, 
+    199.9238594932033, 
+    146.58957458608958, 
+    162.00810451978862, 
+    196.93733721369466, 
+    3428.355042465597, 
+    746.7596151545658, 
+    3616.605363331041, 
+    307.9752895588849, 
+    163.04447195072618, 
+    184.46470047778385, 
+    145.85239937076506, 
+    4889.505959039128, 
+    179.87176298070776, 
+    225.5623396364214, 
+    1781.2238677668458, 
+    215.57707721837173, 
+    3276.326696191582, 
+    251.24768099243857
+  ]
+}

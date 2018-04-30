@@ -1,0 +1,202 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/capacity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.1797
+        ], 
+        [
+          "populationTotal", 
+          0.1802
+        ], 
+        [
+          "elevation", 
+          0.1848
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          5.0
+        ], 
+        [
+          "populationTotal", 
+          3.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          0.1776
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1797
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1797
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1802
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1802
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1802
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1804
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1812
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.1834
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1838
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1848
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1848
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.1902
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Chatrud_District)", 
+      0.1658
+    ], 
+    [
+      "City[populationDensity]>(country|Spain)", 
+      0.1776
+    ], 
+    [
+      "City[elevation]>(isPartOf|Washington_(state))>(type|City)>(country|United_States)>(timeZone|Pacific_Time_Zone)", 
+      0.1788
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Wisconsin)", 
+      0.1818
+    ], 
+    [
+      "Settlement[elevation]>(country|Italy)>(province|Province_of_Verona)>(region|Veneto)", 
+      0.1818
+    ], 
+    [
+      "Settlement[elevation]>(country|Italy)>(province|Province_of_Verona)", 
+      0.1841
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Fars_Province)>(isPartOf|Central_District_(Qir_and_Karzin_County))", 
+      0.1854
+    ], 
+    [
+      "City[elevation]>(isPartOf|Washington_(state))>(type|City)>(country|United_States)", 
+      0.1892
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Central_District_(Kerman_County))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1896
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Andhra_Pradesh)>(country|India)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1902
+    ]
+  ], 
+  "values": [
+    41.0, 
+    229.0, 
+    49.0, 
+    590.0, 
+    14.0, 
+    906.0, 
+    47.0, 
+    286.0, 
+    25.0, 
+    10.0, 
+    40.0
+  ]
+}

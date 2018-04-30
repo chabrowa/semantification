@@ -1,0 +1,200 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/gross"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.5022
+        ], 
+        [
+          "areaWater", 
+          0.5045
+        ], 
+        [
+          "areaLand", 
+          0.506
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          7.0
+        ], 
+        [
+          "areaWater", 
+          2.0
+        ], 
+        [
+          "areaLand", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaWater)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaWater)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.5007
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.5012
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.5031
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.5031
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaLand)", 
+          0.506
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.506
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.506
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.506
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          0.5075
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.5091
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "AdministrativeRegion[areaWater]>(type|County_(United_States))>(isPartOf|California)", 
+      0.5
+    ], 
+    [
+      "Location[areaTotal]>(country|Poland)>(type|Gmina)>(isPartOf|Lublin_Voivodeship)", 
+      0.5
+    ], 
+    [
+      "Location[areaTotal]>(country|Poland)>(type|Gmina)>(isPartOf|Greater_Poland_Voivodeship)", 
+      0.5
+    ], 
+    [
+      "Town[areaTotal]>(isPartOf|New_York)>(type|Administrative_divisions_of_New_York)>(leaderName|Republican_Party_(United_States))", 
+      0.5
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Poland)>(type|Gmina)>(isPartOf|Lublin_Voivodeship)", 
+      0.5
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Poland)>(type|Gmina)>(isPartOf|Greater_Poland_Voivodeship)", 
+      0.5
+    ], 
+    [
+      "Location[areaTotal]>(type|Census-designated_place)>(timeZone|Alaska_Time_Zone)", 
+      0.5027
+    ], 
+    [
+      "Town[areaLand]>(type|Administrative_divisions_of_New_York)>(leaderName|Republican_Party_(United_States))", 
+      0.506
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|California)>(type|County_(United_States))", 
+      0.5091
+    ], 
+    [
+      "Town[areaTotal]>(isPartOf|New_York)>(type|Administrative_divisions_of_New_York)>(leaderName|Republican_Party_(United_States))>(governmentType|Town_council)>(country|United_States)", 
+      0.5125
+    ]
+  ], 
+  "values": [
+    117500000.0
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/shipBeam"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfEpisodes", 
+          0.1676
+        ], 
+        [
+          "populationDensity", 
+          0.2547
+        ], 
+        [
+          "shipBeam", 
+          0.265
+        ], 
+        [
+          "number", 
+          0.2657
+        ], 
+        [
+          "elevation", 
+          0.2895
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          5.0
+        ], 
+        [
+          "shipBeam", 
+          2.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ], 
+        [
+          "number", 
+          1.0
+        ], 
+        [
+          "numberOfEpisodes", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          0.1676
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionSeason (numberOfEpisodes)", 
+          0.1676
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.2485
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2485
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.2563
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.2563
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.2589
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.2589
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          0.265
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          0.265
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.2657
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.2657
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.2657
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2895
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2895
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2895
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.2895
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionSeason (numberOfEpisodes)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "TelevisionSeason[numberOfEpisodes]>(country|United_Kingdom)", 
+      0.1676
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Iowa)", 
+      0.24
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Zamora)", 
+      0.2485
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Zamora)", 
+      0.2485
+    ], 
+    [
+      "Ship[shipBeam]", 
+      0.265
+    ], 
+    [
+      "MeanOfTransportation[shipBeam]", 
+      0.265
+    ], 
+    [
+      "Athlete[number]>(position|Midfielder)", 
+      0.2657
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Arkansas)", 
+      0.2667
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Missouri)", 
+      0.27
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Northern_Norway)>(isPartOf|Nordland)", 
+      0.2895
+    ]
+  ], 
+  "values": [
+    12.992273789259219, 
+    9.043088044658981, 
+    6.766041840271285, 
+    8.875876740927538, 
+    19.471501220331824, 
+    9.497256068231469, 
+    7.631194940560096, 
+    10.659656379721683, 
+    16.724477118782332, 
+    9.983598016801036, 
+    8.619923337998994
+  ]
+}

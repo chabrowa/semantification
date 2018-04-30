@@ -1,0 +1,227 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEpisodes"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "number", 
+          0.1029
+        ], 
+        [
+          "numberOfEpisodes", 
+          0.1038
+        ], 
+        [
+          "elevation", 
+          0.1061
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          6.0
+        ], 
+        [
+          "number", 
+          3.0
+        ], 
+        [
+          "numberOfEpisodes", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Airport (elevation)", 
+          0.0814
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (elevation)", 
+          0.0814
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          0.0814
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.0997
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.1029
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.1029
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.1029
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          0.1038
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          0.1038
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.1088
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1088
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1088
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1124
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Airport (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Airport[elevation]>(owner|Alaska_Department_of_Transportation_&_Public_Facilities)", 
+      0.0814
+    ], 
+    [
+      "Person[number]", 
+      0.1029
+    ], 
+    [
+      "Agent[number]", 
+      0.1029
+    ], 
+    [
+      "Athlete[number]", 
+      0.1029
+    ], 
+    [
+      "TelevisionShow[numberOfEpisodes]>(channel|CBS)", 
+      0.1038
+    ], 
+    [
+      "Town[elevation]>(country|India)>(isPartOf|West_Bengal)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1086
+    ], 
+    [
+      "Town[elevation]>(country|India)>(isPartOf|West_Bengal)", 
+      0.109
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|West_Bengal)>(22-rdf-syntax-ns#type|_Feature)>(country|India)", 
+      0.1121
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|West_Bengal)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1125
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|West_Bengal)", 
+      0.1129
+    ]
+  ], 
+  "values": [
+    6.0, 
+    462.0, 
+    13.0, 
+    338.0, 
+    12.0, 
+    84.0, 
+    14.0, 
+    13.0, 
+    159.0, 
+    0.0, 
+    6.0, 
+    26.0, 
+    13.0, 
+    17.0, 
+    2.0, 
+    34.0, 
+    26.0, 
+    22.0, 
+    70.0, 
+    67.0, 
+    19.0, 
+    9.0, 
+    47.0, 
+    23.0, 
+    435.0, 
+    7.0, 
+    0.0, 
+    78.0, 
+    77.0, 
+    5.0, 
+    28.0, 
+    292.0, 
+    17.0, 
+    23.0, 
+    0.0, 
+    2.0
+  ]
+}

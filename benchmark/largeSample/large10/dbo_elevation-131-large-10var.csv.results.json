@@ -1,0 +1,354 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/elevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.0578
+        ], 
+        [
+          "populationTotal", 
+          0.0788
+        ], 
+        [
+          "maximumElevation", 
+          0.0813
+        ], 
+        [
+          "populationDensity", 
+          0.0883
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          7.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ], 
+        [
+          "maximumElevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.0578
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (elevation)", 
+          0.0578
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0788
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.0788
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0788
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.0789
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.0813
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (maximumElevation)", 
+          0.0813
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          0.0813
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          0.0813
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.0883
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          27.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "ProtectedArea[elevation]", 
+      0.0578
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|West_Azerbaijan_Province)>(isPartOf|Khoy_County)>(isPartOf|Central_District_(Khoy_County))", 
+      0.0664
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Razavi_Khorasan_Province)>(isPartOf|Zeberkhan_District)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.074
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Fars_Province)>(isPartOf|Central_District_(Kazerun_County))", 
+      0.076
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Razavi_Khorasan_Province)>(isPartOf|Central_District_(Sabzevar_County))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.08
+    ], 
+    [
+      "City[maximumElevation]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0813
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Hormozgan_Province)>(isPartOf|Bastak_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.083
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Razavi_Khorasan_Province)>(isPartOf|Central_District_(Quchan_County))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.085
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Rud_Ab_District_(Kerman_Province))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.087
+    ], 
+    [
+      "Location[populationDensity]>(timeZone|Pacific_Time_Zone)", 
+      0.0883
+    ]
+  ], 
+  "values": [
+    1137.0731498041973, 
+    95.33362497771468, 
+    134.96355093326602, 
+    2028.3098885063325, 
+    2054.391105029862, 
+    342.3822548541626, 
+    108.14598391573136, 
+    224.58644116392657, 
+    323.24855543470983, 
+    128.31143668618026, 
+    244.11312224483268, 
+    606.7649803071421, 
+    117.66820937065302, 
+    1268.6446460335662, 
+    338.8597619328581, 
+    338.53926277656154, 
+    1871.0278561815746, 
+    149.53242176581327, 
+    169.16814801437485, 
+    438.19151247251284, 
+    1488.2883564474237, 
+    482.9203356935513, 
+    15.759913927630329, 
+    71.16479382545663, 
+    1516.445598667366, 
+    256.14375064619855, 
+    2391.089821426344, 
+    595.0663472945735, 
+    10.739176260571401, 
+    2.6658486647059085, 
+    639.6439083234072, 
+    422.1152161326896, 
+    505.85593258479287, 
+    1235.3159355946837, 
+    10.989028816200914, 
+    1050.5904866974097, 
+    438.29706150684945, 
+    1218.6405461672384, 
+    1742.4510729626832, 
+    2.6948733796733655, 
+    353.0740745178197, 
+    711.3089227044636, 
+    5.630081980719109, 
+    449.6133585018007, 
+    320.82943169365905, 
+    302.89757452594523, 
+    416.5866914568796, 
+    292.29739409698874, 
+    53.41577188615335, 
+    736.4024820602999, 
+    170.43806348017574, 
+    559.0261727357324, 
+    313.4001639747752, 
+    1106.025069499454, 
+    678.2522826097654, 
+    512.3920784989986, 
+    111.08044523354458, 
+    787.9143899959685, 
+    309.8425422437004, 
+    38.23063143653136, 
+    155.56648861535135, 
+    2027.4797832210206, 
+    310.34496025906265, 
+    422.5385102226964, 
+    339.21419896831634, 
+    630.7738090423832, 
+    168.38788898414998, 
+    441.396740461549, 
+    672.940395609918, 
+    127.27059998134777, 
+    1870.6084346191635, 
+    729.035627067005, 
+    577.143325978655, 
+    230.36010814412776, 
+    8.371209163864261, 
+    506.61964258000586, 
+    419.4457615137127, 
+    1136.4319395958446, 
+    108.22464058935826, 
+    1191.2880270793428, 
+    176.84759441540874, 
+    800.6063077753851, 
+    266.74029548223666, 
+    449.5421699098174, 
+    2128.3084958008562, 
+    25.427127443339447, 
+    513.0832684289763, 
+    1995.5325376523565, 
+    1509.564659800116, 
+    417.1964602828221, 
+    1814.5398644780455, 
+    1107.9592851437403, 
+    4.466690676545619, 
+    49.41794323494741, 
+    173.63866500631036, 
+    53.904293091717854, 
+    566.0706698914242, 
+    123.37637548786543, 
+    0.8690570637331161, 
+    265.48912206547476, 
+    66.79027661837024, 
+    254.47216812505343, 
+    130.02234434165547, 
+    339.5679792747209, 
+    199.30833347525103, 
+    327.0829984943553, 
+    211.6827023350167, 
+    616.0977742306783, 
+    7.74631857014858, 
+    19.40643700219782, 
+    1453.8746762937046, 
+    64.99371917880421, 
+    44.90471281713984, 
+    2154.704603529666, 
+    355.48111882655746, 
+    617.531775687363, 
+    40.970309483396846, 
+    0.0, 
+    68.37808038244322, 
+    196.80467827892787, 
+    166.9076818244881, 
+    62.115782229402214, 
+    509.5399566006133, 
+    47.291218460326036, 
+    734.1576246706958, 
+    378.89518166042103, 
+    321.15778118850574, 
+    61.063560084915125, 
+    1582.838079912619, 
+    57.962137167205185, 
+    311.87679055068605, 
+    296.83545350250006, 
+    297.53330969510245, 
+    1040.4707947841928, 
+    1083.7225220416763, 
+    301.9261339261501, 
+    252.16086127836076, 
+    38.57311195977633, 
+    1324.04602665689, 
+    269.78584541867053, 
+    341.01317034979286, 
+    249.94919159136563, 
+    703.5429865477304, 
+    242.65564423738846, 
+    2.84407444772657, 
+    581.7768863823133, 
+    357.45777453974114, 
+    573.4718597669603, 
+    21.357437991210716, 
+    136.71652019773745, 
+    2571.389875530631, 
+    385.80918678751635, 
+    1252.9481720807407, 
+    1584.5170002971417, 
+    1426.8076085720006, 
+    2180.8315812501774, 
+    728.4679409790272, 
+    795.2969710052444, 
+    27.851681845295385, 
+    692.7479408243503, 
+    375.62568058252805, 
+    177.83183350479706, 
+    255.10084990653002, 
+    1397.8196047720442, 
+    169.4413851522276, 
+    1664.0752610845548, 
+    1230.4976327169156, 
+    44.0913800559632, 
+    172.30412763104403, 
+    406.58145726384276, 
+    116.39490085120872
+  ]
+}

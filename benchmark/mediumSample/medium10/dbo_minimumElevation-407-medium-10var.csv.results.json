@@ -1,0 +1,203 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/minimumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.1222
+        ], 
+        [
+          "elevation", 
+          0.1365
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          8.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          0.108
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1168
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1168
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1255
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.1256
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          0.1256
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1256
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1257
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1474
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          16.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "City[populationDensity]>(isPartOf|Missouri)>(isPartOf|St._Louis_County,_Missouri)>(country|United_States)", 
+      0.1038
+    ], 
+    [
+      "City[populationDensity]>(isPartOf|Missouri)>(isPartOf|St._Louis_County,_Missouri)", 
+      0.1097
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Missouri)>(isPartOf|St._Louis_County,_Missouri)>(type|City)>(country|United_States)", 
+      0.1102
+    ], 
+    [
+      "City[populationDensity]>(isPartOf|Missouri)>(isPartOf|St._Louis_County,_Missouri)>(country|United_States)>(type|City)", 
+      0.1102
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Missouri)>(isPartOf|St._Louis_County,_Missouri)>(type|City)", 
+      0.1192
+    ], 
+    [
+      "Mountain[elevation]>(locatedInArea|Japan)", 
+      0.1256
+    ], 
+    [
+      "Location[populationDensity]>(country|India)>(isPartOf|Kerala)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1374
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|New_Jersey)>(isPartOf|Monmouth_County,_New_Jersey)", 
+      0.1434
+    ], 
+    [
+      "Location[populationDensity]>(country|India)>(isPartOf|Kerala)", 
+      0.1436
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)", 
+      0.1474
+    ]
+  ], 
+  "values": [
+    2006.0230552624628, 
+    2206.1938389599954, 
+    973.7214032498426, 
+    1008.839767622238, 
+    1306.6206310238226, 
+    302.67755479721296, 
+    1799.215070576145, 
+    1861.9613842161516, 
+    1257.0854389419537, 
+    1508.1475586093866, 
+    1740.7699109857163, 
+    1433.212281856725, 
+    1717.49601074137, 
+    1146.455119782886, 
+    274.1172175398378, 
+    366.9890533882154, 
+    522.4240039164594, 
+    2085.9755051765806, 
+    1885.1295971675263, 
+    308.2996499279702, 
+    1240.3999090035618, 
+    1438.2273253856845, 
+    1913.1596038537175, 
+    2015.5646292998401, 
+    1006.4941346186329, 
+    285.04570134879924, 
+    1524.5000962773966, 
+    995.2248087475659, 
+    2326.771046992344, 
+    953.2526251933541, 
+    1512.55158128652, 
+    753.0786771739521, 
+    1427.9057534009723, 
+    1015.8092906190407, 
+    2406.7937372932033, 
+    1061.802878379014, 
+    1256.2583852428384, 
+    2551.9802009833265, 
+    1950.0056395715035, 
+    1612.0371722164798, 
+    1044.5590429799668, 
+    302.72149814062624, 
+    1142.0771397739331, 
+    507.5546355915997, 
+    517.5250493316989, 
+    844.941310562008, 
+    1511.3978070773328, 
+    1648.1503030449505, 
+    1766.7112209423685, 
+    1033.033731926261, 
+    1820.2156294480296, 
+    293.3870124434942
+  ]
+}

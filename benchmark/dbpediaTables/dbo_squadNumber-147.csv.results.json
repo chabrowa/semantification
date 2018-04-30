@@ -1,0 +1,265 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/squadNumber"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "width", 
+          0.1164
+        ], 
+        [
+          "number", 
+          0.1462
+        ], 
+        [
+          "height", 
+          0.148
+        ], 
+        [
+          "squadNumber", 
+          0.1516
+        ]
+      ], 
+      "maj": [
+        [
+          "squadNumber", 
+          4.0
+        ], 
+        [
+          "number", 
+          3.0
+        ], 
+        [
+          "width", 
+          2.0
+        ], 
+        [
+          "height", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Bridge (width)", 
+          0.1123
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          0.1164
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          0.1164
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.1164
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          0.1164
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          0.1461
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.1462
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.1462
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.1462
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          0.1462
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.148
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (height)", 
+          0.148
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.148
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (height)", 
+          0.148
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (squadNumber)", 
+          0.1516
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (squadNumber)", 
+          0.1516
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeamMember (squadNumber)", 
+          0.1516
+        ], 
+        [
+          "http://dbpedia.org/ontology/OrganisationMember (squadNumber)", 
+          0.1516
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Bridge (width)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (squadNumber)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (squadNumber)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/OrganisationMember (squadNumber)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeamMember (squadNumber)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Bridge[width]>(type|Arch_bridge)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0957
+    ], 
+    [
+      "Bridge[width]>(type|Cantilever_bridge)", 
+      0.1372
+    ], 
+    [
+      "BasketballPlayer[number]>(league|Euroleague_Basketball)", 
+      0.1397
+    ], 
+    [
+      "SoccerPlayer[number]", 
+      0.1461
+    ], 
+    [
+      "Lighthouse[height]>(location|Australia)", 
+      0.148
+    ], 
+    [
+      "Person[squadNumber]", 
+      0.1516
+    ], 
+    [
+      "SportsTeamMember[squadNumber]", 
+      0.1516
+    ], 
+    [
+      "OrganisationMember[squadNumber]", 
+      0.1516
+    ], 
+    [
+      "Agent[squadNumber]", 
+      0.1516
+    ], 
+    [
+      "BasketballPlayer[number]>(league|Eurocup_Basketball)", 
+      0.1527
+    ]
+  ], 
+  "values": [
+    18.0, 
+    21.0, 
+    1.0, 
+    4.0, 
+    5.0, 
+    6.0, 
+    7.0, 
+    9.0, 
+    10.0, 
+    11.0, 
+    12.0, 
+    13.0, 
+    14.0, 
+    15.0, 
+    16.0, 
+    17.0, 
+    18.0, 
+    19.0, 
+    20.0, 
+    21.0, 
+    22.0, 
+    23.0, 
+    24.0, 
+    25.0, 
+    26.0, 
+    32.0
+  ]
+}

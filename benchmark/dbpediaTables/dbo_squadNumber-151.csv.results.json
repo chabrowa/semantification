@@ -1,0 +1,126 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/squadNumber"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.1074
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.1048
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1077
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1077
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.108
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1094
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          17.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          5.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationDensity]>(isPartOf|Wisconsin)>(type|Town)", 
+      0.102
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Wisconsin)>(type|Town)", 
+      0.102
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Salamanca)", 
+      0.1024
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Wisconsin)", 
+      0.1038
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)", 
+      0.1069
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Missouri)", 
+      0.1101
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)", 
+      0.1104
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Salamanca)>(timeZone|Central_European_Time)>(country|Spain)", 
+      0.1121
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Salamanca)>(country|Spain)", 
+      0.1121
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Salamanca)>(timeZone|Central_European_Time)", 
+      0.1123
+    ]
+  ], 
+  "values": [
+    1.0, 
+    2.0, 
+    3.0, 
+    4.0, 
+    5.0, 
+    6.0, 
+    7.0, 
+    8.0, 
+    9.0, 
+    10.0, 
+    11.0, 
+    14.0, 
+    17.0, 
+    69.0, 
+    96.0
+  ]
+}

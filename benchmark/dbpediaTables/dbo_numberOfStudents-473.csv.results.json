@@ -1,0 +1,161 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfStudents"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaCode", 
+          0.4031
+        ], 
+        [
+          "elevation", 
+          0.4078
+        ]
+      ], 
+      "maj": [
+        [
+          "areaCode", 
+          9.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Town (areaCode)", 
+          0.3563
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          0.3977
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.3977
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          0.3977
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.4078
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.4078
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.4078
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.4078
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          0.4222
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaCode)", 
+          0.4343
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (areaCode)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaCode)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Town[areaCode]>(isPartOf|Kerala)>(country|India)", 
+      0.352
+    ], 
+    [
+      "Town[areaCode]>(isPartOf|Kerala)", 
+      0.3578
+    ], 
+    [
+      "Town[areaCode]>(isPartOf|Kerala)>(country|India)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3586
+    ], 
+    [
+      "Village[areaCode]>(isPartOf|Kerala)", 
+      0.3894
+    ], 
+    [
+      "Village[elevation]>(country|Czech_Republic)>(isPartOf|South_Bohemian_Region)", 
+      0.4078
+    ], 
+    [
+      "Location[areaCode]>(timeZone|Indian_Standard_Time)>(isPartOf|Thiruvananthapuram_district)>(isPartOf|Kerala)", 
+      0.4216
+    ], 
+    [
+      "Location[areaCode]>(timeZone|Indian_Standard_Time)>(isPartOf|Thiruvananthapuram_district)", 
+      0.4231
+    ], 
+    [
+      "Village[areaCode]>(isPartOf|Kerala)>(isPartOf|Ernakulam_district)>(22-rdf-syntax-ns#type|_Feature)>(country|India)", 
+      0.4412
+    ], 
+    [
+      "Village[areaCode]>(isPartOf|Kerala)>(isPartOf|Kollam_district)", 
+      0.4423
+    ], 
+    [
+      "Village[areaCode]>(isPartOf|Kerala)>(isPartOf|Ernakulam_district)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.4423
+    ]
+  ], 
+  "values": [
+    500.0, 
+    465.0
+  ]
+}

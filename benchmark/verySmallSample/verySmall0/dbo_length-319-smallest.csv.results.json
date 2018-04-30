@@ -1,0 +1,249 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/length"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1274
+        ], 
+        [
+          "length", 
+          0.1397
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          6.0
+        ], 
+        [
+          "length", 
+          4.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Road (length)", 
+          0.1272
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          0.1272
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          0.1272
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (length)", 
+          0.1272
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1274
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1274
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1274
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          0.1291
+        ], 
+        [
+          "http://dbpedia.org/ontology/River (length)", 
+          0.1362
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.1397
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          0.1439
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          0.1439
+        ], 
+        [
+          "http://dbpedia.org/ontology/Stream (length)", 
+          0.1439
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          23.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/River (length)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Stream (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Road (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (length)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "City[populationTotal]>(country|Mexico)", 
+      0.0989
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|California)>(governmentType|Council%E2%80%93manager_government)>(country|United_States)>(timeZone|Pacific_Time_Zone)", 
+      0.109
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|California)>(governmentType|Council%E2%80%93manager_government)>(country|United_States)", 
+      0.1101
+    ], 
+    [
+      "Road[length]", 
+      0.1272
+    ], 
+    [
+      "River[length]>(state|California)>(country|United_States)", 
+      0.1316
+    ], 
+    [
+      "City[populationTotal]>(country|Spain)>(type|Municipalities_of_Spain)>(timeZone|Central_European_Time)", 
+      0.1418
+    ], 
+    [
+      "Stream[length]", 
+      0.15
+    ], 
+    [
+      "River[length]", 
+      0.15
+    ], 
+    [
+      "City[populationTotal]>(country|Spain)>(type|Municipalities_of_Spain)", 
+      0.1515
+    ], 
+    [
+      "City[populationTotal]>(country|Spain)>(type|Municipalities_of_Spain)>(timeZone|Central_European_Time)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.153
+    ]
+  ], 
+  "values": [
+    4803.624925503677, 
+    149274.00345564273, 
+    155296.74111729683, 
+    5510.267545434041, 
+    17727.707254657766, 
+    15841.22800300847, 
+    93820.64279681315, 
+    95794.48718579534, 
+    1813193.4457467715, 
+    28419.003928881346, 
+    103328.21301667107, 
+    5446.273976525916, 
+    12262.46054823789, 
+    18389.516771188777, 
+    14663.244333069357, 
+    241421.46531198878, 
+    43594.33222875242, 
+    22763.759532419906, 
+    114963.23546942882, 
+    56056.46856575208, 
+    15029.524755031345, 
+    21532.820311824267, 
+    6203.30934010814, 
+    206861.99817064794, 
+    178578.96389345813, 
+    109704.56452546765, 
+    15232.947645871722, 
+    19978.842928578593, 
+    6155.453921488702, 
+    511547.11163562065, 
+    16381.331397668613, 
+    19122.457563439108, 
+    6810.677010152705, 
+    4031.3562185712026, 
+    3941.0873739005797, 
+    147921.16808916625, 
+    149741.04438312034, 
+    244600.871021734, 
+    25149.97310879781, 
+    15009.790288360136, 
+    40889.94456367689, 
+    82009.99500518265, 
+    215910.24854885414, 
+    81910.03926251433, 
+    46430.12867811744, 
+    88076.75742250349, 
+    71345.1254644627, 
+    3151.2327263461552, 
+    97987.72826345681, 
+    53622.90852634157, 
+    8948.341808484907, 
+    164107.12048253688, 
+    263310.4497710945, 
+    96247.09019091725, 
+    162709.63290272566, 
+    28885.255818618043, 
+    24089.80275272654, 
+    4080.413300915683, 
+    363294.6796919449, 
+    7034.841528613641, 
+    17316.304998277967, 
+    156990.6346664026, 
+    43621.57229442377, 
+    12909.22812424134, 
+    31162.88197273382, 
+    155336.75681742563
+  ]
+}

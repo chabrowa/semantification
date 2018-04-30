@@ -1,0 +1,219 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/maximumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "maximumElevation", 
+          0.1076
+        ], 
+        [
+          "elevation", 
+          0.1144
+        ], 
+        [
+          "populationTotal", 
+          0.1158
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          7.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ], 
+        [
+          "maximumElevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Island (maximumElevation)", 
+          0.1076
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.1076
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          0.1076
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1136
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.1139
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1144
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1144
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1144
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1158
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1158
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1187
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          20.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)", 
+      0.1027
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Slovenia)>(isPartOf|Slovene_Littoral)", 
+      0.1057
+    ], 
+    [
+      "Island[maximumElevation]", 
+      0.1076
+    ], 
+    [
+      "City[elevation]>(timeZone|Time_in_China)>(type|County-level_city)>(country|China)", 
+      0.1111
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Zarand_County)", 
+      0.1169
+    ], 
+    [
+      "City[elevation]>(timeZone|Time_in_China)>(type|County-level_city)", 
+      0.1177
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Zarand_County)>(isPartOf|Central_District_(Zarand_County))", 
+      0.1206
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Zarand_County)>(isPartOf|Central_District_(Zarand_County))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1207
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Khuzestan_Province)>(isPartOf|Central_District_(Lali_County))", 
+      0.122
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Fars_Province)>(isPartOf|Central_District_(Jahrom_County))", 
+      0.1222
+    ]
+  ], 
+  "values": [
+    59.356889669426764, 
+    825.7677837434916, 
+    247.67979107793298, 
+    161.5184828900068, 
+    120.63850388789115, 
+    1283.1455281415772, 
+    41.20734206164866, 
+    48.03798952598831, 
+    54.85053517006209, 
+    95.1824155177493, 
+    43.75810765965486, 
+    52.72381217950447, 
+    19.293305968964848, 
+    731.5104591354877, 
+    21.76906723295766, 
+    829.2953027459015, 
+    42.66569434772384, 
+    87.60884127771232, 
+    169.0190007381094, 
+    11.885826688341249, 
+    5.12472886639649, 
+    37.61373504161897, 
+    897.1475444886615, 
+    71.1573445514249, 
+    24.143401136717966, 
+    14.287054869895934, 
+    36.45928658263819, 
+    50.08093876680167, 
+    520.6993712127003, 
+    10.455173327153272, 
+    71.94114550145967, 
+    36.37318824444105, 
+    659.0922594523754, 
+    436.2591156381657, 
+    715.4291828786874, 
+    59.213364159294144, 
+    159.0248716979992, 
+    698.3437448708077, 
+    39.873097418196494, 
+    70.37680467755587, 
+    602.1983520349473, 
+    37.01651798815689, 
+    104.28876257347514, 
+    124.50247537503813
+  ]
+}

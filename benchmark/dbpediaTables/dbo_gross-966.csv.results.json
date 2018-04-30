@@ -1,0 +1,210 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/gross"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaWater", 
+          0.2779
+        ], 
+        [
+          "areaTotal", 
+          0.2954
+        ], 
+        [
+          "areaLand", 
+          0.3016
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          5.0
+        ], 
+        [
+          "areaTotal", 
+          4.0
+        ], 
+        [
+          "areaLand", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.2718
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          0.2824
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.2845
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.2845
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.2845
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.2883
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.292
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.2954
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.3016
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.3016
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.3016
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (areaTotal)", 
+          0.3055
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (areaTotal)", 
+          0.3055
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (areaTotal)", 
+          0.3055
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.3086
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaWater]>(isPartOf|Minnesota)>(isPartOf|Itasca_County,_Minnesota)", 
+      0.2566
+    ], 
+    [
+      "Settlement[areaTotal]>(isPartOf|Illinois)>(timeZone|Central_Time_Zone)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2632
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Minnesota)>(isPartOf|St._Louis_County,_Minnesota)>(type|Township_(United_States))", 
+      0.2744
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Minnesota)>(isPartOf|St._Louis_County,_Minnesota)", 
+      0.2744
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Maine)", 
+      0.2895
+    ], 
+    [
+      "Town[areaWater]>(type|Administrative_divisions_of_New_York)", 
+      0.2946
+    ], 
+    [
+      "Settlement[areaLand]>(isPartOf|Minnesota)>(country|United_States)", 
+      0.3016
+    ], 
+    [
+      "Settlement[areaTotal]>(isPartOf|Minnesota)>(22-rdf-syntax-ns#type|_Feature)>(country|United_States)>(timeZone|Central_Time_Zone)", 
+      0.3043
+    ], 
+    [
+      "SkiArea[areaTotal]", 
+      0.3055
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Kentucky)", 
+      0.3086
+    ]
+  ], 
+  "values": [
+    5000000.0, 
+    154971.0, 
+    8515300.0
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/routeNumber"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.2575
+        ], 
+        [
+          "elevation", 
+          0.2647
+        ], 
+        [
+          "populationTotal", 
+          0.2649
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          5.0
+        ], 
+        [
+          "populationTotal", 
+          4.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.2575
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          0.2575
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.2575
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.2575
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.2576
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.2614
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.2649
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2649
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2649
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.2649
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2665
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2665
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2697
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "City[populationDensity]>(type|Types_of_municipalities_in_Quebec)", 
+      0.2575
+    ], 
+    [
+      "Location[elevation]>(country|Spain)>(isPartOf|Province_of_Alicante)>(type|Municipalities_of_Spain)", 
+      0.2576
+    ], 
+    [
+      "City[elevation]>(country|Spain)>(type|Municipalities_of_Spain)", 
+      0.2612
+    ], 
+    [
+      "City[elevation]>(timeZone|Time_in_China)>(type|Prefecture-level_city)", 
+      0.2615
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Fars_Province)>(isPartOf|Larestan_County)", 
+      0.2643
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Isfahan_Province)", 
+      0.265
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Central_District_(Rafsanjan_County))", 
+      0.2652
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Hormozgan_Province)>(isPartOf|Bastak_County)", 
+      0.2653
+    ], 
+    [
+      "Settlement[elevation]>(country|Spain)>(isPartOf|Province_of_Alicante)>(type|Municipalities_of_Spain)", 
+      0.2712
+    ], 
+    [
+      "Settlement[elevation]>(country|Spain)>(isPartOf|Province_of_Alicante)>(type|Municipalities_of_Spain)>(isPartOf|Valencian_Community)", 
+      0.2719
+    ]
+  ], 
+  "values": [
+    580.0, 
+    40.0
+  ]
+}

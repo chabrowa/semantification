@@ -1,0 +1,211 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaCode"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaCode", 
+          0.235
+        ], 
+        [
+          "elevation", 
+          0.2457
+        ], 
+        [
+          "populationDensity", 
+          0.2463
+        ]
+      ], 
+      "maj": [
+        [
+          "areaCode", 
+          5.0
+        ], 
+        [
+          "elevation", 
+          4.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          0.2345
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaCode)", 
+          0.235
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          0.2358
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.2358
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          0.2358
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2436
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2436
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2443
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.2446
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          0.2449
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          0.2463
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.2463
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.2463
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.2463
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.25
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaCode)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaCode]>(country|England)>(country|Surrey)", 
+      0.2174
+    ], 
+    [
+      "Village[areaCode]>(country|Wales)>(ceremonialCounty|Gwent_(county))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2308
+    ], 
+    [
+      "Village[areaCode]>(country|Wales)>(ceremonialCounty|Gwent_(county))", 
+      0.2407
+    ], 
+    [
+      "Location[areaCode]>(country|England)>(district|Chichester_District)", 
+      0.2415
+    ], 
+    [
+      "Mountain[elevation]>(locatedInArea|Japan)>(type|Fold_(geology))", 
+      0.2429
+    ], 
+    [
+      "Settlement[elevation]>(type|City)", 
+      0.2436
+    ], 
+    [
+      "Location[areaCode]>(country|England)>(country|Suffolk)", 
+      0.2444
+    ], 
+    [
+      "City[populationDensity]>(type|List_of_cities_in_Kentucky)>(isPartOf|Jefferson_County,_Kentucky)", 
+      0.2463
+    ], 
+    [
+      "Mountain[elevation]>(locatedInArea|Japan)>(type|Fold_(geology))>(mountainRange|Hidaka_Mountains)", 
+      0.2464
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Utah)", 
+      0.25
+    ]
+  ], 
+  "values": [
+    1749.0, 
+    302.0, 
+    1428.0, 
+    1603.0
+  ]
+}

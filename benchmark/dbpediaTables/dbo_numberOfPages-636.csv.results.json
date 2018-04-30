@@ -1,0 +1,209 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfPages"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaCode", 
+          0.2747
+        ], 
+        [
+          "elevation", 
+          0.2807
+        ], 
+        [
+          "maximumElevation", 
+          0.2931
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          7.0
+        ], 
+        [
+          "maximumElevation", 
+          2.0
+        ], 
+        [
+          "areaCode", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.2675
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          0.2747
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.2747
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          0.2747
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaCode)", 
+          0.2747
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2772
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2781
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2859
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          0.2931
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.2931
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          0.2931
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          0.2931
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (elevation)", 
+          0.2974
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (elevation)", 
+          0.2976
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.2976
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Chhattisgarh)>(country|India)", 
+      0.2662
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Allier)>(region|Auvergne_(region))", 
+      0.2685
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Chhattisgarh)", 
+      0.2692
+    ], 
+    [
+      "Town[areaCode]>(timeZone|Eastern_European_Time)", 
+      0.2747
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Allier)", 
+      0.2753
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Haut-Rhin)", 
+      0.2906
+    ], 
+    [
+      "Location[maximumElevation]>(department|Meurthe-et-Moselle)>(arrondissement|Arrondissement_of_Briey)", 
+      0.2931
+    ], 
+    [
+      "Settlement[maximumElevation]>(department|Meurthe-et-Moselle)>(arrondissement|Arrondissement_of_Briey)", 
+      0.2931
+    ], 
+    [
+      "Lake[elevation]>(location|Ontario)>(country|Canada)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2964
+    ], 
+    [
+      "Lake[elevation]>(location|Ontario)>(country|Canada)", 
+      0.2988
+    ]
+  ], 
+  "values": [
+    380.0, 
+    260.0
+  ]
+}

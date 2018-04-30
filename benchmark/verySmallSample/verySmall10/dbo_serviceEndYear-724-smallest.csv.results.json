@@ -1,0 +1,225 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/serviceEndYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.4331
+        ], 
+        [
+          "maximumElevation", 
+          0.4559
+        ], 
+        [
+          "populationTotal", 
+          0.4576
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          6.0
+        ], 
+        [
+          "populationTotal", 
+          3.0
+        ], 
+        [
+          "maximumElevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          0.3754
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.42
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.42
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.4231
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.4241
+        ], 
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          0.441
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          0.4507
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.4531
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (maximumElevation)", 
+          0.4559
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (maximumElevation)", 
+          0.4559
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (maximumElevation)", 
+          0.4559
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.4559
+        ], 
+        [
+          "http://dbpedia.org/ontology/MountainRange (elevation)", 
+          0.456
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.4576
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.4576
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.46
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MountainRange (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Mountain[elevation]>(locatedInArea|Norway)>(locatedInArea|Oppland)", 
+      0.3754
+    ], 
+    [
+      "Settlement[elevation]>(country|Peru)>(isPartOf|Amazonas_Region)", 
+      0.42
+    ], 
+    [
+      "Volcano[elevation]", 
+      0.441
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.4483
+    ], 
+    [
+      "Town[populationTotal]>(timeZone|Mountain_Time_Zone)>(isPartOf|Arizona)", 
+      0.4507
+    ], 
+    [
+      "SkiArea[maximumElevation]>(location|United_States)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.4559
+    ], 
+    [
+      "MountainRange[elevation]", 
+      0.456
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)", 
+      0.4578
+    ], 
+    [
+      "Settlement[populationTotal]>(type|Census-designated_place)>(isPartOf|Michigan)>(country|United_States)>(timeZone|Eastern_Time_Zone)", 
+      0.4607
+    ], 
+    [
+      "Settlement[populationTotal]>(type|Census-designated_place)>(isPartOf|Michigan)>(country|United_States)", 
+      0.4615
+    ]
+  ], 
+  "values": [
+    2020.0, 
+    1863.0, 
+    2071.0, 
+    2115.0, 
+    1787.0, 
+    2092.0, 
+    2212.0, 
+    2037.0, 
+    1857.0, 
+    1876.0
+  ]
+}

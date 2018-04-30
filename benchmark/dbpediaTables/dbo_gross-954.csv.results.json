@@ -1,0 +1,122 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/gross"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.1865
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.1716
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.177
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1778
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.1778
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.2279
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          20.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          7.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[areaTotal]>(country|China)>(type|District_(China))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1468
+    ], 
+    [
+      "Settlement[areaTotal]>(country|China)>(type|District_(China))>(22-rdf-syntax-ns#type|_Feature)>(timeZone|Time_in_China)", 
+      0.1563
+    ], 
+    [
+      "City[areaTotal]>(governmentType|Municipality)>(timeZone|Time_in_Chile)>(type|List_of_cities_in_Chile)", 
+      0.1696
+    ], 
+    [
+      "City[areaTotal]>(governmentType|Municipality)>(timeZone|Time_in_Chile)", 
+      0.1708
+    ], 
+    [
+      "Location[areaTotal]>(country|Canada)>(type|Unorganized_area_(Canada))", 
+      0.1737
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Canada)>(type|Unorganized_area_(Canada))", 
+      0.1737
+    ], 
+    [
+      "Settlement[areaTotal]>(country|China)>(type|District_(China))", 
+      0.1915
+    ], 
+    [
+      "City[areaTotal]>(governmentType|Municipality)", 
+      0.2009
+    ], 
+    [
+      "Settlement[areaTotal]>(country|India)", 
+      0.2129
+    ], 
+    [
+      "Location[areaTotal]>(country|Canada)>(archipelago|Canadian_Arctic_Archipelago)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2686
+    ]
+  ], 
+  "values": [
+    1978000000.0, 
+    604200000.0, 
+    2283897024.0, 
+    3.682, 
+    3900000000.0, 
+    50150575.0, 
+    1632000000.0, 
+    665080639.0, 
+    281386624.0, 
+    282600000.0, 
+    261000000.0
+  ]
+}

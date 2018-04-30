@@ -1,0 +1,204 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/minimumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "minimumElevation", 
+          0.1642
+        ], 
+        [
+          "populationTotal", 
+          0.2023
+        ]
+      ], 
+      "maj": [
+        [
+          "minimumElevation", 
+          8.0
+        ], 
+        [
+          "populationTotal", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.1134
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (minimumElevation)", 
+          0.1136
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (minimumElevation)", 
+          0.132
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.1587
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1587
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (minimumElevation)", 
+          0.1928
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (minimumElevation)", 
+          0.2022
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2023
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2023
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.2025
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.2031
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (minimumElevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (minimumElevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (minimumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "City[minimumElevation]", 
+      0.0757
+    ], 
+    [
+      "Town[minimumElevation]", 
+      0.132
+    ], 
+    [
+      "City[minimumElevation]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1325
+    ], 
+    [
+      "AdministrativeRegion[minimumElevation]", 
+      0.177
+    ], 
+    [
+      "Region[minimumElevation]", 
+      0.177
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Canada)>(isPartOf|Saskatchewan)", 
+      0.1965
+    ], 
+    [
+      "Location[minimumElevation]>(country|Greece)", 
+      0.2025
+    ], 
+    [
+      "AdministrativeRegion[minimumElevation]>(country|Greece)", 
+      0.204
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Canada)>(isPartOf|Saskatchewan)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2081
+    ], 
+    [
+      "AdministrativeRegion[minimumElevation]>(country|United_States)", 
+      0.2131
+    ]
+  ], 
+  "values": [
+    216.84356872654286, 
+    270.96954182648955, 
+    21.818799959318465, 
+    0.0, 
+    839.998596376216, 
+    0.0, 
+    0.0, 
+    0.0, 
+    220.18809588296233, 
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    258.63330654576265, 
+    0.0, 
+    0.0, 
+    -128.17140668918344, 
+    226.91172037382654, 
+    185.24521181743611, 
+    92.06718418337263, 
+    2148.932947876256, 
+    0.0, 
+    490.35830741857524, 
+    4.901063143898745, 
+    1179.5470368878027, 
+    909.6878486962269, 
+    0.0, 
+    0.0, 
+    575.6633094951871, 
+    0.0, 
+    245.06055472808336, 
+    0.0, 
+    186.68952666507755, 
+    89.93258766784058, 
+    0.0, 
+    153.0476354269279, 
+    313.1598102411845
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEpisodes"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfEmployees", 
+          0.0887
+        ], 
+        [
+          "populationDensity", 
+          0.1002
+        ], 
+        [
+          "elevation", 
+          0.1245
+        ], 
+        [
+          "height", 
+          0.125
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          7.0
+        ], 
+        [
+          "numberOfEmployees", 
+          1.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ], 
+        [
+          "height", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          0.0887
+        ], 
+        [
+          "http://dbpedia.org/ontology/Non-ProfitOrganisation (numberOfEmployees)", 
+          0.0887
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          0.0887
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.1002
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1002
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1002
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1002
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1192
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1192
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1213
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          0.1235
+        ], 
+        [
+          "http://dbpedia.org/ontology/Airport (elevation)", 
+          0.1235
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (elevation)", 
+          0.1235
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          0.125
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.125
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (height)", 
+          0.125
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.125
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1259
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          20.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Airport (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Non-ProfitOrganisation (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Non-ProfitOrganisation[numberOfEmployees]", 
+      0.0887
+    ], 
+    [
+      "Town[populationDensity]", 
+      0.1002
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(federalState|Lower_Saxony)", 
+      0.1192
+    ], 
+    [
+      "Airport[elevation]>(owner|Alaska_Department_of_Transportation_&_Public_Facilities)", 
+      0.1235
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|West_Bengal)", 
+      0.1238
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Kerala)", 
+      0.125
+    ], 
+    [
+      "RouteOfTransportation[height]", 
+      0.125
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Kerala)>(country|India)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1259
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|West_Bengal)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1269
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|West_Bengal)>(22-rdf-syntax-ns#type|_Feature)>(country|India)", 
+      0.1269
+    ]
+  ], 
+  "values": [
+    159.0, 
+    972.0, 
+    71.0, 
+    28.0, 
+    58.0, 
+    8.0, 
+    6.0, 
+    681.0, 
+    41.0, 
+    72.0, 
+    16.0, 
+    18.0, 
+    25.0, 
+    2.0, 
+    94.0, 
+    6.0, 
+    4000.0, 
+    19.0, 
+    88.0, 
+    8.0, 
+    9.0, 
+    29.0, 
+    2.0, 
+    2.0, 
+    4.0, 
+    555.0, 
+    52.0, 
+    30.0, 
+    120.0, 
+    5.0, 
+    3.0, 
+    42.0
+  ]
+}

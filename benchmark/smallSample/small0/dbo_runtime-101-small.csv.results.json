@@ -1,0 +1,235 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.1227
+        ], 
+        [
+          "minimumElevation", 
+          0.1518
+        ], 
+        [
+          "runtime", 
+          0.1526
+        ], 
+        [
+          "populationDensity", 
+          0.1553
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          4.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ], 
+        [
+          "minimumElevation", 
+          2.0
+        ], 
+        [
+          "runtime", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.0976
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.1239
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1311
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1311
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1335
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.1518
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.1518
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.1518
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1518
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          0.1526
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          0.1526
+        ], 
+        [
+          "http://dbpedia.org/ontology/Song (runtime)", 
+          0.1535
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1553
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1553
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1553
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          0.1559
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Song (runtime)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[elevation]>(isPartOf|Kentucky)", 
+      0.0976
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Pyr%C3%A9n%C3%A9es-Atlantiques)>(arrondissement|Arrondissement_of_Oloron-Sainte-Marie)", 
+      0.1236
+    ], 
+    [
+      "City[elevation]>(isPartOf|Tennessee)", 
+      0.1239
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Pyr%C3%A9n%C3%A9es-Atlantiques)>(arrondissement|Arrondissement_of_Pau)", 
+      0.1458
+    ], 
+    [
+      "Song[runtime]", 
+      0.1501
+    ], 
+    [
+      "Location[minimumElevation]>(department|Haute-Garonne)", 
+      0.1518
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Haute-Garonne)", 
+      0.1518
+    ], 
+    [
+      "Village[populationDensity]>(isPartOf|Alberta)", 
+      0.1526
+    ], 
+    [
+      "Song[runtime]>(recordLabel|Reprise_Records)", 
+      0.1551
+    ], 
+    [
+      "Village[populationDensity]>(isPartOf|Alberta)>(timeZone|Mountain_Time_Zone)", 
+      0.158
+    ]
+  ], 
+  "values": [
+    299.31943157716523, 
+    269.1104572108236, 
+    3861.8541975345406, 
+    225.25302714868388, 
+    158.94050680658387, 
+    224.09794686229355, 
+    192.72728999743939, 
+    63.53059150222175, 
+    287.6514570019432, 
+    174.49076156433765, 
+    134.90271819280628, 
+    320.25239910899444
+  ]
+}

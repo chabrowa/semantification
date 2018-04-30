@@ -1,0 +1,206 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfPages"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "length", 
+          0.145
+        ], 
+        [
+          "populationTotal", 
+          0.1581
+        ], 
+        [
+          "populationDensity", 
+          0.1651
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          8.0
+        ], 
+        [
+          "length", 
+          1.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.145
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          0.145
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (length)", 
+          0.145
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          0.145
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          0.1534
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1558
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1558
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1567
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1572
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1619
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1651
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1651
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          0.1651
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1651
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[populationTotal]>(timeZone|Central_European_Time)>(isPartOf|Borsod-Aba%C3%BAj-Zempl%C3%A9n_County)", 
+      0.1413
+    ], 
+    [
+      "Dam[length]>(operator|United_States_Army_Corps_of_Engineers)", 
+      0.145
+    ], 
+    [
+      "Town[populationTotal]>(isPartOf|Maine)>(isPartOf|Aroostook_County,_Maine)", 
+      0.1534
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(department|Seine-Maritime)>(arrondissement|Le_Havre)", 
+      0.1582
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(department|Seine-Maritime)>(arrondissement|Le_Havre)", 
+      0.1582
+    ], 
+    [
+      "Village[populationTotal]>(country|United_Kingdom)>(country|Worcestershire)>(country|England)", 
+      0.1607
+    ], 
+    [
+      "Location[populationTotal]>(country|Spain)>(isPartOf|Province_of_Le%C3%B3n)>(22-rdf-syntax-ns#type|_Feature)>(timeZone|Central_European_Time)", 
+      0.1618
+    ], 
+    [
+      "Village[populationDensity]>(isPartOf|Illinois)", 
+      0.1651
+    ], 
+    [
+      "Village[populationTotal]>(timeZone|Central_European_Time)>(isPartOf|Borsod-Aba%C3%BAj-Zempl%C3%A9n_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1655
+    ], 
+    [
+      "Location[populationTotal]>(country|Spain)>(isPartOf|Province_of_Le%C3%B3n)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1656
+    ]
+  ], 
+  "values": [
+    943.0, 
+    446.0, 
+    224.0, 
+    284.0, 
+    2677.0, 
+    1192.0, 
+    392.0
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/weight"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "weight", 
+          0.2109
+        ], 
+        [
+          "postalCode", 
+          0.2742
+        ]
+      ], 
+      "maj": [
+        [
+          "weight", 
+          9.0
+        ], 
+        [
+          "postalCode", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Artist (weight)", 
+          0.1295
+        ], 
+        [
+          "http://dbpedia.org/ontology/Actor (weight)", 
+          0.1314
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdultActor (weight)", 
+          0.141
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (weight)", 
+          0.2109
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (weight)", 
+          0.2109
+        ], 
+        [
+          "http://dbpedia.org/ontology/Gymnast (weight)", 
+          0.2516
+        ], 
+        [
+          "http://dbpedia.org/ontology/Model (weight)", 
+          0.2524
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmateurBoxer (weight)", 
+          0.2642
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          0.2742
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (postalCode)", 
+          0.2742
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (weight)", 
+          0.282
+        ], 
+        [
+          "http://dbpedia.org/ontology/Boxer (weight)", 
+          0.2838
+        ], 
+        [
+          "http://dbpedia.org/ontology/Swimmer (weight)", 
+          0.3087
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Person (weight)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (weight)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (weight)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (weight)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Actor (weight)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdultActor (weight)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (postalCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Swimmer (weight)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Boxer (weight)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmateurBoxer (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Model (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Gymnast (weight)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Actor[weight]", 
+      0.1219
+    ], 
+    [
+      "AdultActor[weight]", 
+      0.1219
+    ], 
+    [
+      "Artist[weight]", 
+      0.1236
+    ], 
+    [
+      "AdultActor[weight]>(birthPlace|United_States)", 
+      0.1505
+    ], 
+    [
+      "Gymnast[weight]", 
+      0.2516
+    ], 
+    [
+      "Model[weight]", 
+      0.2524
+    ], 
+    [
+      "AmateurBoxer[weight]", 
+      0.2642
+    ], 
+    [
+      "ArchitecturalStructure[postalCode]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2742
+    ], 
+    [
+      "Boxer[weight]", 
+      0.3033
+    ], 
+    [
+      "Swimmer[weight]>(nationality|South_Korea)", 
+      0.3087
+    ]
+  ], 
+  "values": [
+    46287.90538524077, 
+    62083.579728283235, 
+    64253.21231694362, 
+    43624.79842622912, 
+    68684.45231554145, 
+    58084.326660247316, 
+    61276.25844235279, 
+    70960.56505545077, 
+    62444.20508896415, 
+    50425.77505483001, 
+    73865.643351933, 
+    53406.26876322956, 
+    63895.78218502947, 
+    62990.08070887722, 
+    45747.31441839212, 
+    49866.382497528444, 
+    47397.058909478874, 
+    38132.873493514344, 
+    54088.94967819883, 
+    61410.51285974786, 
+    59535.34216450238, 
+    52943.96897768333, 
+    47513.436088389964, 
+    75125.32419306091, 
+    88904.61208271913, 
+    51791.035003085, 
+    49234.648012766535, 
+    50106.93125941694, 
+    53037.61068188374, 
+    43857.80919314856, 
+    55050.254236347726
+  ]
+}

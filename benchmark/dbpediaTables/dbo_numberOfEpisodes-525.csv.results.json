@@ -1,0 +1,264 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEpisodes"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "number", 
+          0.4779
+        ], 
+        [
+          "minimumElevation", 
+          0.4894
+        ], 
+        [
+          "height", 
+          0.4941
+        ], 
+        [
+          "populationTotal", 
+          0.4958
+        ], 
+        [
+          "elevation", 
+          0.4977
+        ]
+      ], 
+      "maj": [
+        [
+          "number", 
+          4.0
+        ], 
+        [
+          "populationTotal", 
+          2.0
+        ], 
+        [
+          "minimumElevation", 
+          2.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ], 
+        [
+          "height", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          0.469
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.4779
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.4779
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.4779
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.4872
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.4872
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.4872
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          0.4874
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.4915
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.4941
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (height)", 
+          0.4941
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.4941
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (height)", 
+          0.4941
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.4958
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.4958
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.4958
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.4958
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.4977
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.4977
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.4977
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (height)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Iran)", 
+      0.4667
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Malaysia)", 
+      0.4714
+    ], 
+    [
+      "BasketballPlayer[number]>(league|Euroleague_Basketball)", 
+      0.4828
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Poitou-Charentes)>(department|Charente-Maritime)", 
+      0.4872
+    ], 
+    [
+      "BasketballPlayer[number]>(nationality|Philippines)>(league|Philippine_Basketball_Association)", 
+      0.4906
+    ], 
+    [
+      "Location[minimumElevation]>(region|Poitou-Charentes)>(department|Charente-Maritime)", 
+      0.4915
+    ], 
+    [
+      "Lighthouse[height]>(location|Australia)", 
+      0.4941
+    ], 
+    [
+      "Location[populationTotal]>(country|Poland)>(type|Human_settlement)", 
+      0.4958
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Poland)>(type|Human_settlement)", 
+      0.4958
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|New_York)>(isPartOf|Suffolk_County,_New_York)", 
+      0.4977
+    ]
+  ], 
+  "values": [
+    13.0
+  ]
+}

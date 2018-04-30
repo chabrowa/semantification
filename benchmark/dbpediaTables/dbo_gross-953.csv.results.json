@@ -1,0 +1,233 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/gross"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaLand", 
+          0.1253
+        ], 
+        [
+          "areaTotal", 
+          0.1456
+        ], 
+        [
+          "areaWater", 
+          0.1475
+        ], 
+        [
+          "budget", 
+          0.161
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          4.0
+        ], 
+        [
+          "budget", 
+          3.0
+        ], 
+        [
+          "areaLand", 
+          2.0
+        ], 
+        [
+          "areaTotal", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.1204
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.1253
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.1253
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaLand)", 
+          0.1398
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.1451
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.1456
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1456
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          0.1456
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.1456
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.1469
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.1483
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.1483
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.1487
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (budget)", 
+          0.161
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (budget)", 
+          0.161
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (budget)", 
+          0.161
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (budget)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (budget)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[areaLand]>(isPartOf|North_Dakota)", 
+      0.1107
+    ], 
+    [
+      "Town[areaLand]>(isPartOf|Arkansas)", 
+      0.1398
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Alaska)>(timeZone|Alaska_Time_Zone)>(type|Alaska)", 
+      0.1431
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Maine)", 
+      0.1451
+    ], 
+    [
+      "Town[areaTotal]>(isPartOf|Arkansas)", 
+      0.1456
+    ], 
+    [
+      "Settlement[areaWater]>(governmentType|Council%E2%80%93manager_government)", 
+      0.15
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Alaska)>(timeZone|Alaska_Time_Zone)", 
+      0.1519
+    ], 
+    [
+      "Film[budget]", 
+      0.161
+    ], 
+    [
+      "Wikidata:Q11424[budget]", 
+      0.161
+    ], 
+    [
+      "Work[budget]", 
+      0.161
+    ]
+  ], 
+  "values": [
+    439766.0, 
+    8000.0, 
+    1427172.0, 
+    84400000.0, 
+    6451628.0, 
+    1791323.0, 
+    2600000.0, 
+    1110840.0, 
+    10000000.0, 
+    1210000000.0
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/routeNumber"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.1248
+        ], 
+        [
+          "populationTotal", 
+          0.1254
+        ], 
+        [
+          "elevation", 
+          0.1258
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          8.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1242
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1248
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1248
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1248
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1252
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1252
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1252
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1258
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1273
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          22.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[populationTotal]>(isPartOf|Isfahan_Province)>(isPartOf|Chadegan_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1115
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kohgiluyeh_and_Boyer-Ahmad_Province)>(isPartOf|Gachsaran_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1205
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Washington_(state))>(country|United_States)>(type|Census-designated_place)", 
+      0.1248
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|San_Diego_County,_California)", 
+      0.1258
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Razavi_Khorasan_Province)>(isPartOf|Bardaskan_County)", 
+      0.1265
+    ], 
+    [
+      "Location[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Rigan_Rural_District)", 
+      0.1273
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Rigan_Rural_District)", 
+      0.1273
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Fars_Province)", 
+      0.1279
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Fars_Province)>(isPartOf|Jereh_and_Baladeh_District)", 
+      0.1312
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Hormozgan_Province)>(isPartOf|Bastak_County)", 
+      0.1313
+    ]
+  ], 
+  "values": [
+    650.0, 
+    151.0, 
+    159.0, 
+    295.0, 
+    128.0, 
+    129.0, 
+    1883.0, 
+    141.0, 
+    8.0, 
+    161.0, 
+    836.0, 
+    985.0, 
+    3.0, 
+    441.0, 
+    507.0, 
+    715.0, 
+    820.0, 
+    858.0, 
+    39.0, 
+    14.0, 
+    57.0, 
+    68.0, 
+    35.0, 
+    861.0, 
+    56.0, 
+    114.0, 
+    128.0, 
+    510.0, 
+    131.0, 
+    120.0
+  ]
+}

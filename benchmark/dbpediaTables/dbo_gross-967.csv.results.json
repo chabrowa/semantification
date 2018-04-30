@@ -1,0 +1,161 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/gross"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "area", 
+          0.4069
+        ], 
+        [
+          "areaLand", 
+          0.4191
+        ], 
+        [
+          "areaTotal", 
+          0.4199
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          5.0
+        ], 
+        [
+          "area", 
+          3.0
+        ], 
+        [
+          "areaLand", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (area)", 
+          0.4062
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          0.4062
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          0.4062
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (area)", 
+          0.4083
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.4195
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          0.4195
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.4204
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.4204
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.4204
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (area)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (area)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[area]>(region|Pays_de_la_Loire)>(department|Vend%C3%A9e)", 
+      0.4048
+    ], 
+    [
+      "Settlement[area]>(region|Burgundy)>(department|Ni%C3%A8vre)", 
+      0.4076
+    ], 
+    [
+      "Location[area]>(region|Pays_de_la_Loire)>(department|Vend%C3%A9e)", 
+      0.4083
+    ], 
+    [
+      "Location[areaTotal]>(type|Census-designated_place)>(isPartOf|California)>(isPartOf|Riverside_County,_California)", 
+      0.4151
+    ], 
+    [
+      "Settlement[areaTotal]>(isPartOf|California)>(isPartOf|Riverside_County,_California)>(type|Census-designated_place)", 
+      0.4151
+    ], 
+    [
+      "Location[areaLand]>(isPartOf|California)>(isPartOf|Riverside_County,_California)>(type|Census-designated_place)", 
+      0.4151
+    ], 
+    [
+      "Location[areaTotal]>(type|Census-designated_place)>(isPartOf|California)>(isPartOf|Riverside_County,_California)>(country|United_States)", 
+      0.4231
+    ], 
+    [
+      "Settlement[areaTotal]>(isPartOf|California)>(isPartOf|Riverside_County,_California)>(type|Census-designated_place)>(country|United_States)", 
+      0.4231
+    ], 
+    [
+      "Location[areaLand]>(isPartOf|California)>(isPartOf|Riverside_County,_California)>(type|Census-designated_place)>(country|United_States)", 
+      0.4231
+    ], 
+    [
+      "Settlement[areaTotal]>(region|Lombardy)>(province|Province_of_Brescia)", 
+      0.4231
+    ]
+  ], 
+  "values": [
+    17500000.0, 
+    22300000.0
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/routeNumber"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "minimumElevation", 
+          0.1601
+        ], 
+        [
+          "populationTotal", 
+          0.1695
+        ], 
+        [
+          "elevation", 
+          0.1719
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          7.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ], 
+        [
+          "minimumElevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1601
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (minimumElevation)", 
+          0.1601
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (minimumElevation)", 
+          0.1601
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (minimumElevation)", 
+          0.1601
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          0.1648
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.1681
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1695
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1695
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1699
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1715
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1731
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (minimumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Town[populationTotal]>(timeZone|Central_European_Time)>(isPartOf|Zeeland)", 
+      0.1599
+    ], 
+    [
+      "SkiArea[minimumElevation]>(location|United_States)", 
+      0.1601
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|East_Azerbaijan_Province)>(isPartOf|Tabriz_County)", 
+      0.1618
+    ], 
+    [
+      "NaturalPlace[elevation]", 
+      0.1681
+    ], 
+    [
+      "Town[populationTotal]>(timeZone|Central_European_Time)>(isPartOf|Zeeland)>(country|Netherlands)", 
+      0.1685
+    ], 
+    [
+      "Village[populationTotal]>(country|United_Kingdom)>(country|West_Sussex)", 
+      0.1717
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(province|Province_of_Biella)", 
+      0.1724
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|East_Azerbaijan_Province)>(isPartOf|Tabriz_County)>(isPartOf|Central_District_(Tabriz_County))", 
+      0.1746
+    ], 
+    [
+      "Place[elevation]>(country|Canada)", 
+      0.1756
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Canada)>(type|List_of_parishes_in_New_Brunswick)", 
+      0.1776
+    ]
+  ], 
+  "values": [
+    2588.0, 
+    2775.0, 
+    1108.0, 
+    1165.0, 
+    169.0, 
+    1865.0, 
+    2317.0, 
+    2627.0, 
+    2593.0, 
+    1221.0, 
+    1431.0, 
+    1869.0, 
+    2243.0, 
+    2023.0, 
+    243.0, 
+    3474.0, 
+    187.0, 
+    620.0, 
+    13.0, 
+    165.0, 
+    473.0
+  ]
+}

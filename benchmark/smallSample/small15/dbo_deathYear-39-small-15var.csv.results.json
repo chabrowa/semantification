@@ -1,0 +1,203 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/deathYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.2797
+        ], 
+        [
+          "areaCode", 
+          0.2899
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          9.0
+        ], 
+        [
+          "areaCode", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.2641
+        ], 
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          0.2881
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          0.2899
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.2912
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (elevation)", 
+          0.2933
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2939
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (elevation)", 
+          0.2939
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.3046
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.3046
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          17.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Colorado)>(type|Census-designated_place)", 
+      0.228
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.232
+    ], 
+    [
+      "Volcano[elevation]>(locatedInArea|Indonesia)>(type|Stratovolcano)", 
+      0.2868
+    ], 
+    [
+      "Lake[elevation]>(location|Glacier_National_Park_(U.S.))>(location|Glacier_County,_Montana)>(location|United_States)", 
+      0.2896
+    ], 
+    [
+      "Location[areaCode]>(country|England)>(country|Cumbria)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2899
+    ], 
+    [
+      "Volcano[elevation]>(locatedInArea|Indonesia)", 
+      0.2901
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)", 
+      0.2917
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)>(country|United_States)", 
+      0.2967
+    ], 
+    [
+      "Lake[elevation]>(location|Glacier_National_Park_(U.S.))>(location|Glacier_County,_Montana)", 
+      0.2982
+    ], 
+    [
+      "Settlement[elevation]>(country|Peru)>(isPartOf|Amazonas_Region)", 
+      0.3046
+    ]
+  ], 
+  "values": [
+    1869.0, 
+    1900.0, 
+    2004.0, 
+    1649.0, 
+    2346.0, 
+    2419.0, 
+    2296.0, 
+    1703.0, 
+    2332.0, 
+    2381.0, 
+    1941.0, 
+    1773.0, 
+    1689.0, 
+    1903.0, 
+    2220.0, 
+    2229.0, 
+    1535.0, 
+    2009.0, 
+    2048.0, 
+    1418.0, 
+    1946.0, 
+    1956.0, 
+    2547.0, 
+    2239.0, 
+    1973.0, 
+    1652.0, 
+    1855.0, 
+    2221.0, 
+    2038.0, 
+    2047.0, 
+    1796.0, 
+    1666.0, 
+    1617.0, 
+    1880.0, 
+    1746.0, 
+    1954.0, 
+    1899.0, 
+    1561.0, 
+    1620.0, 
+    1710.0, 
+    1933.0, 
+    2194.0, 
+    1788.0, 
+    2064.0, 
+    1932.0, 
+    2148.0, 
+    1878.0, 
+    1682.0, 
+    1846.0, 
+    1761.0, 
+    1727.0, 
+    2461.0
+  ]
+}

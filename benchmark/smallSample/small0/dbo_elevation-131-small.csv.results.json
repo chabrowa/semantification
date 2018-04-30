@@ -1,0 +1,256 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/elevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "minimumElevation", 
+          0.0997
+        ], 
+        [
+          "elevation", 
+          0.1092
+        ], 
+        [
+          "populationDensity", 
+          0.1201
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          6.0
+        ], 
+        [
+          "minimumElevation", 
+          2.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Island (elevation)", 
+          0.0983
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.0986
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.1009
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.1009
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1009
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1071
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1071
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1108
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1118
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1174
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          0.1174
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1174
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1174
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1227
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Island[elevation]", 
+      0.0983
+    ], 
+    [
+      "Location[minimumElevation]>(region|Languedoc-Roussillon)", 
+      0.0986
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Languedoc-Roussillon)", 
+      0.1009
+    ], 
+    [
+      "Location[elevation]>(country|Spain)>(isPartOf|Province_of_Barcelona)>(type|Municipalities_of_Spain)", 
+      0.1068
+    ], 
+    [
+      "Settlement[elevation]>(country|Spain)>(isPartOf|Province_of_Barcelona)", 
+      0.1088
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)", 
+      0.1119
+    ], 
+    [
+      "Settlement[elevation]>(country|Spain)>(isPartOf|Province_of_Barcelona)>(type|Municipalities_of_Spain)", 
+      0.114
+    ], 
+    [
+      "Location[elevation]>(country|Spain)>(isPartOf|Province_of_Barcelona)", 
+      0.1155
+    ], 
+    [
+      "City[populationDensity]>(type|Types_of_municipalities_in_Quebec)", 
+      0.1174
+    ], 
+    [
+      "Location[populationDensity]>(timeZone|Pacific_Time_Zone)>(country|Canada)", 
+      0.1227
+    ]
+  ], 
+  "values": [
+    229.6886669075876, 
+    441.08917398092296, 
+    37.211807656427396, 
+    301.8541204180984, 
+    259.75726626524033, 
+    428.89217117281885, 
+    19.594852654470515, 
+    4.434672485186585, 
+    17.189045654337164, 
+    204.30399395653274, 
+    17.37091848346708, 
+    10.184099492254823, 
+    67.00515044576953, 
+    2.794459014392515, 
+    390.12525560350986, 
+    225.37875149996972, 
+    0.0, 
+    0.0, 
+    632.786400082294, 
+    333.6767830718332, 
+    853.4194402579928, 
+    1056.9731705037404, 
+    31.56051496506714, 
+    407.894936491242, 
+    18.491754469515712, 
+    312.45352072338125, 
+    602.449038023621, 
+    2.0651524981803115, 
+    98.63603310747767, 
+    25.699161837656867, 
+    288.34047630198165, 
+    528.5992734858098, 
+    233.4517999720682, 
+    0.0, 
+    1.8506024471629468, 
+    1273.421862564169, 
+    254.22980118433327, 
+    335.94099372283927, 
+    24.033785968901054, 
+    613.2673316690683, 
+    148.84871764259745, 
+    9.876986964109205, 
+    2779.152625685435, 
+    2239.4408757802726, 
+    40.2951232152603, 
+    903.6959010735123, 
+    664.8152353690778, 
+    295.24912397957866, 
+    560.5937411264057, 
+    1433.0705371223924, 
+    1255.7397420635307, 
+    273.00918757764515, 
+    327.1089662005952, 
+    112.72395361548972, 
+    1375.586471234778, 
+    186.76716647170497, 
+    78.8632651393036
+  ]
+}

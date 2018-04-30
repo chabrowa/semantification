@@ -1,0 +1,199 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/weight"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "weight", 
+          0.0936
+        ], 
+        [
+          "areaTotal", 
+          0.143
+        ], 
+        [
+          "areaWater", 
+          0.1552
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          8.0
+        ], 
+        [
+          "weight", 
+          1.0
+        ], 
+        [
+          "areaWater", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Train (weight)", 
+          0.0936
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (weight)", 
+          0.0936
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.1439
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.1552
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaWater)", 
+          0.1552
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaWater)", 
+          0.1552
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.1552
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          27.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Train (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (weight)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Train[weight]", 
+      0.0936
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Huesca)", 
+      0.1195
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_C%C3%A1ceres)", 
+      0.1233
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(region|Umbria)", 
+      0.1454
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Toledo)>(isPartOf|Castilla-La_Mancha)", 
+      0.1455
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Toledo)", 
+      0.1484
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Canary_Islands)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1496
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Canary_Islands)", 
+      0.1528
+    ], 
+    [
+      "AdministrativeRegion[areaWater]>(state|Louisiana)", 
+      0.1552
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_C%C3%A1ceres)>(type|List_of_municipalities_in_C%C3%A1ceres)", 
+      0.1595
+    ]
+  ], 
+  "values": [
+    88781378.80038884, 
+    138016332.95602423, 
+    166287734.50133228, 
+    38641547.607051305, 
+    183648117.6183506, 
+    29755867.910961285, 
+    424405918.3261049, 
+    32615749.594337113, 
+    40625377.44117983, 
+    38314356.006471574, 
+    349176522.6241867, 
+    39796868.34438133, 
+    433548051.8632627, 
+    45616514.280091636, 
+    69142727.56833285, 
+    409213410.522541, 
+    32226223.87245045, 
+    72210912.56994048, 
+    34733561.698176764, 
+    14146984.540262777, 
+    27592220.549565166, 
+    47362872.283639625, 
+    15446073.424751975, 
+    25820256.453861017, 
+    38653464.5193815, 
+    107317735.21453562, 
+    42178606.56487492, 
+    182775703.87473968, 
+    17282181.693462808, 
+    241393640.24156228, 
+    68754007.59402485, 
+    276843207.22931314, 
+    249549617.45856875, 
+    100364593.58889832, 
+    31958278.335571084, 
+    18267073.444754537, 
+    118380561.87516129, 
+    34462772.6207506, 
+    36309425.02404275, 
+    284438526.2904402, 
+    580374721.315314, 
+    110979832.62741199, 
+    46276473.65440587, 
+    322215060.8168788, 
+    18435519.653277323, 
+    139040581.41462153, 
+    261517519.78995255, 
+    44068602.33480657, 
+    21446831.81909722, 
+    38731487.693298504, 
+    26913406.68258685, 
+    9744473.746409046, 
+    33776942.34750189, 
+    33235954.778044257, 
+    64259987.7286417, 
+    39493540.84108183
+  ]
+}

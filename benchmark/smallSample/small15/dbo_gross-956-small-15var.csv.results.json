@@ -1,0 +1,219 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/gross"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaWater", 
+          0.1483
+        ], 
+        [
+          "area", 
+          0.1791
+        ], 
+        [
+          "populationTotal", 
+          0.1861
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          7.0
+        ], 
+        [
+          "area", 
+          2.0
+        ], 
+        [
+          "populationTotal", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.1351
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.1443
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.1443
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.1443
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.1536
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          0.1666
+        ], 
+        [
+          "http://dbpedia.org/ontology/HistoricPlace (area)", 
+          0.1761
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          0.1791
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (area)", 
+          0.1821
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (area)", 
+          0.1821
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          0.1861
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1861
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1861
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1861
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (area)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (area)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/HistoricPlace (area)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaWater]>(isPartOf|New_Jersey)>(type|Census-designated_place)", 
+      0.1257
+    ], 
+    [
+      "City[areaWater]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)>(type|City)", 
+      0.1278
+    ], 
+    [
+      "City[areaWater]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)>(type|City)>(timeZone|Pacific_Time_Zone)", 
+      0.1305
+    ], 
+    [
+      "City[areaWater]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)", 
+      0.1525
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Iowa)>(type|Township_(United_States))", 
+      0.1666
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Iowa)>(type|Township_(United_States))", 
+      0.1666
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)", 
+      0.1685
+    ], 
+    [
+      "HistoricPlace[area]", 
+      0.1761
+    ], 
+    [
+      "Building[area]>(location|New_York)", 
+      0.1821
+    ], 
+    [
+      "City[populationTotal]>(country|Spain)>(type|Municipalities_of_Spain)>(timeZone|Central_European_Time)", 
+      0.1861
+    ]
+  ], 
+  "values": [
+    29198.93462361901, 
+    127897.33984326766, 
+    303552.9704779694, 
+    583542.0242893882, 
+    8020.6344205715195, 
+    3006.1170672112644, 
+    87752.98168094271, 
+    520.8504961450393, 
+    8817.134459496647, 
+    151567.73144461648, 
+    45168.54676358405, 
+    8841.446761393881, 
+    96767.622757734, 
+    68073.6089241327, 
+    322912.7531280231, 
+    335889.32717996085, 
+    348703.03679487016, 
+    1111.5002116971075, 
+    218419.36941728354, 
+    0.0
+  ]
+}

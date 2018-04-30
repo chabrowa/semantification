@@ -1,0 +1,224 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/oclc"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaLand", 
+          0.5013
+        ], 
+        [
+          "areaTotal", 
+          0.5013
+        ], 
+        [
+          "areaWater", 
+          0.5088
+        ], 
+        [
+          "weight", 
+          0.513
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          5.0
+        ], 
+        [
+          "areaLand", 
+          2.0
+        ], 
+        [
+          "areaTotal", 
+          2.0
+        ], 
+        [
+          "weight", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.5009
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.5009
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.5013
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.5013
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.5013
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.5013
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaLand)", 
+          0.5026
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          0.5026
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.508
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          0.5098
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.5101
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.5101
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.5101
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.5104
+        ], 
+        [
+          "http://dbpedia.org/ontology/Automobile (weight)", 
+          0.513
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (weight)", 
+          0.513
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaLand)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Automobile (weight)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (weight)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaWater]>(isPartOf|Minnesota)>(isPartOf|Beltrami_County,_Minnesota)>(country|United_States)", 
+      0.5
+    ], 
+    [
+      "Settlement[areaTotal]>(type|Village_(United_States))", 
+      0.5
+    ], 
+    [
+      "Settlement[areaLand]>(type|Village_(United_States))", 
+      0.5
+    ], 
+    [
+      "Town[areaLand]>(isPartOf|Colorado)>(type|Town)>(country|United_States)", 
+      0.5026
+    ], 
+    [
+      "Town[areaTotal]>(timeZone|Mountain_Time_Zone)>(governmentType|List_of_cities_and_towns_in_Colorado)>(type|Town)>(country|United_States)", 
+      0.5026
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|New_Hampshire)>(type|New_England_town)>(country|United_States)", 
+      0.5098
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Florida)>(governmentType|Council%E2%80%93manager_government)", 
+      0.5104
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Minnesota)>(isPartOf|Beltrami_County,_Minnesota)", 
+      0.5116
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Minnesota)>(isPartOf|Beltrami_County,_Minnesota)>(country|United_States)>(timeZone|Central_Time_Zone)", 
+      0.5122
+    ], 
+    [
+      "Automobile[weight]>(layout|Four-wheel_drive)", 
+      0.513
+    ]
+  ], 
+  "values": [
+    1559541.0
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfPages"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1393
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1381
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1392
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1396
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1396
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1405
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          16.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          15.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          6.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[populationTotal]>(isPartOf|Hormozgan_Province)>(isPartOf|Bandar_Lengeh_County)", 
+      0.1231
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Spain)>(isPartOf|Province_of_Palencia)", 
+      0.1308
+    ], 
+    [
+      "Location[populationTotal]>(country|Spain)>(isPartOf|Province_of_Palencia)", 
+      0.1358
+    ], 
+    [
+      "Location[populationTotal]>(country|Spain)>(isPartOf|Province_of_Segovia)", 
+      0.1404
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Spain)>(isPartOf|Province_of_Teruel)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1413
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Lorestan_Province)>(isPartOf|Central_District_(Delfan_County))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1417
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Spain)>(isPartOf|Province_of_Segovia)", 
+      0.1429
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Lorestan_Province)>(isPartOf|Kunani_District)", 
+      0.1455
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Razavi_Khorasan_Province)>(isPartOf|Central_District_(Nishapur_County))", 
+      0.1456
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Lorestan_Province)>(isPartOf|Central_District_(Delfan_County))", 
+      0.1462
+    ]
+  ], 
+  "values": [
+    44.0, 
+    1000.0, 
+    108.0, 
+    267.0, 
+    176.0
+  ]
+}

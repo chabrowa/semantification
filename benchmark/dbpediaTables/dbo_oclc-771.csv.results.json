@@ -1,0 +1,129 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/oclc"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.3068
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Lake (areaTotal)", 
+          0.2992
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.3036
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (areaTotal)", 
+          0.3037
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          0.305
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          0.3067
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.3068
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          0.32
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (areaTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (areaTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          3.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Island[areaTotal]>(country|United_States)", 
+      0.2778
+    ], 
+    [
+      "Island[areaTotal]>(country|United_States)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2813
+    ], 
+    [
+      "Lake[areaTotal]>(country|New_Zealand)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2941
+    ], 
+    [
+      "Lake[areaTotal]>(country|New_Zealand)", 
+      0.3
+    ], 
+    [
+      "Lake[areaTotal]", 
+      0.3129
+    ], 
+    [
+      "BodyOfWater[areaTotal]", 
+      0.3129
+    ], 
+    [
+      "NaturalPlace[areaTotal]", 
+      0.3136
+    ], 
+    [
+      "ProtectedArea[areaTotal]>(location|Canada)>(location|Ontario)", 
+      0.32
+    ], 
+    [
+      "Island[areaTotal]>(country|New_Zealand)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3273
+    ], 
+    [
+      "Island[areaTotal]>(country|New_Zealand)", 
+      0.3281
+    ]
+  ], 
+  "values": [
+    890331.0, 
+    53144585.0
+  ]
+}

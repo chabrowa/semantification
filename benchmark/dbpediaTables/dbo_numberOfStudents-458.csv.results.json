@@ -1,0 +1,168 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfStudents"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.113
+        ], 
+        [
+          "populationDensity", 
+          0.1225
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          9.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1075
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1129
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.113
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.113
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1144
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1225
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1225
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1225
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          0.1248
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[populationTotal]>(isPartOf|Fars_Province)>(isPartOf|Central_District_(Marvdasht_County))", 
+      0.0897
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Khuzestan_Province)>(isPartOf|Abadan_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.109
+    ], 
+    [
+      "Location[populationTotal]>(country|England)>(district|Aylesbury_Vale)", 
+      0.1107
+    ], 
+    [
+      "Settlement[populationTotal]>(type|Census-designated_place)>(isPartOf|Utah)", 
+      0.114
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_European_Time)>(isPartOf|Nicosia_District)", 
+      0.1151
+    ], 
+    [
+      "Village[populationTotal]>(timeZone|Central_European_Time)", 
+      0.1162
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Razavi_Khorasan_Province)>(isPartOf|Joghatai_County)", 
+      0.1176
+    ], 
+    [
+      "Settlement[populationTotal]>(type|Census-designated_place)>(isPartOf|New_Mexico)", 
+      0.1198
+    ], 
+    [
+      "Settlement[populationDensity]>(country|India)", 
+      0.1225
+    ], 
+    [
+      "Town[populationTotal]>(timeZone|Mountain_Time_Zone)", 
+      0.1248
+    ]
+  ], 
+  "values": [
+    480.0, 
+    1100.0, 
+    130.0, 
+    30.0, 
+    2668.0, 
+    600.0, 
+    240.0, 
+    260.0, 
+    800.0, 
+    9115.0, 
+    280.0, 
+    1800.0, 
+    0.0, 
+    552.0, 
+    812.0, 
+    55.0, 
+    1600.0
+  ]
+}

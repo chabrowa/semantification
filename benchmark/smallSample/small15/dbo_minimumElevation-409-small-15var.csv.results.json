@@ -1,0 +1,173 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/minimumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "minimumElevation", 
+          0.1922
+        ]
+      ], 
+      "maj": [
+        [
+          "minimumElevation", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (minimumElevation)", 
+          0.162
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (minimumElevation)", 
+          0.1691
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.1919
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1922
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.1922
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (minimumElevation)", 
+          0.1959
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (minimumElevation)", 
+          0.2055
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.219
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (minimumElevation)", 
+          3.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "AdministrativeRegion[minimumElevation]>(country|Greece)", 
+      0.1548
+    ], 
+    [
+      "Location[minimumElevation]>(country|Greece)", 
+      0.156
+    ], 
+    [
+      "AdministrativeRegion[minimumElevation]", 
+      0.1763
+    ], 
+    [
+      "Region[minimumElevation]", 
+      0.1763
+    ], 
+    [
+      "ProtectedArea[minimumElevation]", 
+      0.1842
+    ], 
+    [
+      "ProtectedArea[minimumElevation]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2018
+    ], 
+    [
+      "Village[minimumElevation]>(country|Greece)", 
+      0.2047
+    ], 
+    [
+      "Village[minimumElevation]", 
+      0.2072
+    ], 
+    [
+      "Location[minimumElevation]>(region|Languedoc-Roussillon)", 
+      0.2284
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Languedoc-Roussillon)", 
+      0.232
+    ]
+  ], 
+  "values": [
+    119.81540634836412, 
+    0.0, 
+    0.0, 
+    753.6795552712808, 
+    44.502798915172576, 
+    0.0, 
+    430.4156448094993, 
+    648.7083877417374, 
+    0.0, 
+    752.7141462923285, 
+    583.7824204880241, 
+    0.0, 
+    97.67078267169217, 
+    910.8174201740968, 
+    882.0082149540586, 
+    0.0, 
+    826.700377638933, 
+    242.44144784798925, 
+    0.0, 
+    8.292598059078617, 
+    0.0, 
+    47.74558666650222, 
+    761.3440819925784, 
+    859.3347999549497, 
+    939.3424714842354, 
+    477.8393493655318, 
+    413.61619672883273, 
+    434.20644526363856, 
+    288.82900355150326, 
+    510.9391300758921, 
+    0.0, 
+    811.3273659039735, 
+    0.0, 
+    837.4237816739243, 
+    102.09879163518781, 
+    0.0, 
+    1019.1510001412234, 
+    160.72856952144457
+  ]
+}

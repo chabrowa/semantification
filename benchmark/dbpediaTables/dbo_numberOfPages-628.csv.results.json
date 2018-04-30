@@ -1,0 +1,218 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfPages"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "maximumElevation", 
+          0.1411
+        ], 
+        [
+          "elevation", 
+          0.1473
+        ], 
+        [
+          "areaCode", 
+          0.1521
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          6.0
+        ], 
+        [
+          "areaCode", 
+          2.0
+        ], 
+        [
+          "maximumElevation", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.1411
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          0.1411
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          0.1411
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          0.1411
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1439
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.1442
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1449
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1473
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          0.1521
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.1521
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          0.1525
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.153
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (elevation)", 
+          0.159
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.159
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (elevation)", 
+          0.159
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[elevation]>(country|France)>(department|Haute-Marne)", 
+      0.1274
+    ], 
+    [
+      "Settlement[maximumElevation]>(department|Moselle)", 
+      0.1411
+    ], 
+    [
+      "Location[maximumElevation]>(department|Moselle)", 
+      0.1411
+    ], 
+    [
+      "Town[elevation]>(isPartOf|Iowa)>(type|Civil_township)", 
+      0.1442
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Haute-Marne)>(arrondissement|Arrondissement_of_Chaumont)", 
+      0.1473
+    ], 
+    [
+      "Settlement[areaCode]>(timeZone|Eastern_European_Time)>(country|Turkey)", 
+      0.1497
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Haut-Rhin)", 
+      0.1528
+    ], 
+    [
+      "City[elevation]>(isPartOf|Iowa)", 
+      0.153
+    ], 
+    [
+      "Settlement[areaCode]>(timeZone|Eastern_European_Time)>(country|Turkey)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1545
+    ], 
+    [
+      "Lake[elevation]>(location|Ontario)", 
+      0.159
+    ]
+  ], 
+  "values": [
+    336.0, 
+    275.0, 
+    180.0, 
+    311.0, 
+    270.0, 
+    451.0, 
+    324.0, 
+    334.0, 
+    223.0, 
+    380.0, 
+    370.0
+  ]
+}

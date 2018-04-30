@@ -1,0 +1,176 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/oclc"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.5178
+        ], 
+        [
+          "areaWater", 
+          0.5224
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          9.0
+        ], 
+        [
+          "areaWater", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Country (areaTotal)", 
+          0.5053
+        ], 
+        [
+          "http://dbpedia.org/ontology/WineRegion (areaTotal)", 
+          0.5101
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          0.5133
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.5152
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.5199
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.5224
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaWater)", 
+          0.5224
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaWater)", 
+          0.5224
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.5224
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.5261
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (areaTotal)", 
+          0.5263
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.5282
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WineRegion (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Country[areaTotal]>(officialLanguage|English_language)", 
+      0.5053
+    ], 
+    [
+      "WineRegion[areaTotal]>(growingGrape|Gew%C3%BCrztraminer)", 
+      0.5056
+    ], 
+    [
+      "ProtectedArea[areaTotal]>(location|California)>(location|United_States)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5094
+    ], 
+    [
+      "WineRegion[areaTotal]>(growingGrape|Gew%C3%BCrztraminer)>(growingGrape|Riesling)", 
+      0.5132
+    ], 
+    [
+      "ProtectedArea[areaTotal]>(location|California)>(location|United_States)", 
+      0.5185
+    ], 
+    [
+      "AdministrativeRegion[areaWater]>(state|Florida)", 
+      0.5224
+    ], 
+    [
+      "Location[areaTotal]>(country|Canada)>(archipelago|Canadian_Arctic_Archipelago)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5225
+    ], 
+    [
+      "Island[areaTotal]>(location|Northern_Canada)", 
+      0.5263
+    ], 
+    [
+      "Settlement[areaTotal]>(country|India)", 
+      0.5282
+    ], 
+    [
+      "Location[areaTotal]>(country|Canada)>(archipelago|Canadian_Arctic_Archipelago)", 
+      0.531
+    ]
+  ], 
+  "values": [
+    316782233.0
+  ]
+}

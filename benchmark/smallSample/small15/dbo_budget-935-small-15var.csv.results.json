@@ -1,0 +1,240 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/budget"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.1667
+        ], 
+        [
+          "length", 
+          0.1696
+        ], 
+        [
+          "populationTotal", 
+          0.1707
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          7.0
+        ], 
+        [
+          "length", 
+          2.0
+        ], 
+        [
+          "areaTotal", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationTotal)", 
+          0.1551
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationTotal)", 
+          0.1551
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (areaTotal)", 
+          0.1667
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1667
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (areaTotal)", 
+          0.1667
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1669
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1669
+        ], 
+        [
+          "http://dbpedia.org/ontology/Stream (length)", 
+          0.1696
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.1696
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          0.1696
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          0.1696
+        ], 
+        [
+          "http://dbpedia.org/ontology/River (length)", 
+          0.1696
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          0.171
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1752
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1933
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/River (length)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Stream (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (areaTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "AdministrativeRegion[populationTotal]>(timeZone|Iran_Standard_Time)", 
+      0.1491
+    ], 
+    [
+      "City[populationTotal]>(type|Cities_of_Japan)", 
+      0.152
+    ], 
+    [
+      "River[length]>(sourceCountry|France)", 
+      0.1529
+    ], 
+    [
+      "AdministrativeRegion[populationTotal]>(country|Peru)", 
+      0.161
+    ], 
+    [
+      "City[populationTotal]>(type|Cities_of_Japan)>(country|Japan)", 
+      0.1649
+    ], 
+    [
+      "SportFacility[areaTotal]>(location|United_States)", 
+      0.1667
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Iran_Standard_Time)", 
+      0.1847
+    ], 
+    [
+      "River[length]>(sourceCountry|Australia)", 
+      0.1863
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|California)>(governmentType|Council%E2%80%93manager_government)", 
+      0.1897
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_European_Time)>(type|Regional_units_of_Greece)", 
+      0.1933
+    ]
+  ], 
+  "values": [
+    116418.03168611007, 
+    87374.92613061791, 
+    58236.34537210048, 
+    50874.52353430225, 
+    50196.96848059677, 
+    43681.497372758866, 
+    910209.4980051938, 
+    29676.740255065273, 
+    86954.57510549732, 
+    37021.19032243648, 
+    73274.4643229239, 
+    87711.35484183315, 
+    35987.885394690085, 
+    883260.8455754668, 
+    34330.274245892986, 
+    518676.6049214039, 
+    50706.74997174975, 
+    961727.6507594468, 
+    61295.19237409729, 
+    105628.08796639365, 
+    96774.2237453261, 
+    185601.89880948685, 
+    54740.502800676724, 
+    58322.52436045387, 
+    114189.76721992235, 
+    44225.29731304905, 
+    190141.53183898286, 
+    102536.54713511355, 
+    57369.82528620835, 
+    20182.608015935508, 
+    23507.811351690292, 
+    1209474.0294045901, 
+    54536.125567302995
+  ]
+}

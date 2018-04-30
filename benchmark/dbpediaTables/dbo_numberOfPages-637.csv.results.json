@@ -1,0 +1,264 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfPages"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "runtime", 
+          0.4925
+        ], 
+        [
+          "elevation", 
+          0.5
+        ], 
+        [
+          "areaWater", 
+          0.5
+        ], 
+        [
+          "minimumElevation", 
+          0.5
+        ], 
+        [
+          "populationDensity", 
+          0.5
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          4.0
+        ], 
+        [
+          "minimumElevation", 
+          2.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ], 
+        [
+          "runtime", 
+          1.0
+        ], 
+        [
+          "areaWater", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          0.4925
+        ], 
+        [
+          "http://dbpedia.org/ontology/Song (runtime)", 
+          0.4925
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          0.4925
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.5
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Song (runtime)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Song[runtime]>(recordLabel|Atlantic_Records)", 
+      0.4925
+    ], 
+    [
+      "Location[minimumElevation]>(region|Languedoc-Roussillon)>(department|Pyr%C3%A9n%C3%A9es-Orientales)", 
+      0.5
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Languedoc-Roussillon)>(department|Pyr%C3%A9n%C3%A9es-Orientales)", 
+      0.5
+    ], 
+    [
+      "Settlement[populationDensity]>(type|New_England_town)", 
+      0.5
+    ], 
+    [
+      "Village[populationDensity]>(isPartOf|Michigan)>(timeZone|Eastern_Time_Zone)>(type|Village_(United_States))", 
+      0.5
+    ], 
+    [
+      "Town[elevation]>(isPartOf|Minnesota)>(isPartOf|Polk_County,_Minnesota)", 
+      0.5
+    ], 
+    [
+      "Village[elevation]>(country|Czech_Republic)>(isPartOf|Central_Bohemian_Region)", 
+      0.5
+    ], 
+    [
+      "Settlement[elevation]>(country|Italy)>(region|Sardinia)", 
+      0.5
+    ], 
+    [
+      "Location[elevation]>(isPartOf|Minnesota)>(isPartOf|Polk_County,_Minnesota)>(type|Township_(United_States))", 
+      0.5
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Maryland)>(country|United_States)", 
+      0.5
+    ]
+  ], 
+  "values": [
+    279.0
+  ]
+}

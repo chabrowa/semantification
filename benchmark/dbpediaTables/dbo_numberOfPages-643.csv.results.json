@@ -1,0 +1,177 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfPages"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.2575
+        ], 
+        [
+          "populationTotal", 
+          0.2618
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          7.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          0.253
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (elevation)", 
+          0.253
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.2571
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2575
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2598
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2598
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.261
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2617
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2617
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.2621
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.2624
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.2625
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Building[elevation]>(country|Portugal)", 
+      0.253
+    ], 
+    [
+      "City[elevation]>(daylightSavingTimeZone|Central_Time_Zone)", 
+      0.2571
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kohgiluyeh_and_Boyer-Ahmad_Province)", 
+      0.2578
+    ], 
+    [
+      "Location[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Howmeh_Rural_District_(Bam_County))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2586
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Howmeh_Rural_District_(Bam_County))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2586
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Slovenia)>(isPartOf|Slovene_Littoral)>(isPartOf|Gori%C5%A1ka_Statistical_Region)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.26
+    ], 
+    [
+      "Village[elevation]>(country|Germany)", 
+      0.2624
+    ], 
+    [
+      "Location[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Sarduiyeh_Rural_District)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2656
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Sarduiyeh_Rural_District)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2656
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|West_Azerbaijan_Province)>(isPartOf|Baryaji_Rural_District)", 
+      0.2667
+    ]
+  ], 
+  "values": [
+    46.0, 
+    209.0
+  ]
+}

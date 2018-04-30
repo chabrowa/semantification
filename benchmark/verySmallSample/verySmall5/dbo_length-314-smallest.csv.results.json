@@ -1,0 +1,275 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/length"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "length", 
+          0.0839
+        ], 
+        [
+          "populationTotal", 
+          0.0903
+        ]
+      ], 
+      "maj": [
+        [
+          "length", 
+          6.0
+        ], 
+        [
+          "populationTotal", 
+          4.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          0.08
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          0.08
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (length)", 
+          0.08
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          0.0825
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.0827
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          0.0827
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.087
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.087
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationTotal)", 
+          0.087
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationTotal)", 
+          0.087
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          0.09
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.0982
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (length)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationTotal]>(timeZone|Eastern_Time_Zone)>(governmentType|Mayor%E2%80%93council_government)", 
+      0.0753
+    ], 
+    [
+      "Lake[length]>(location|British_Columbia)", 
+      0.08
+    ], 
+    [
+      "Lake[length]>(location|British_Columbia)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.08
+    ], 
+    [
+      "ArchitecturalStructure[length]", 
+      0.0823
+    ], 
+    [
+      "Infrastructure[length]", 
+      0.0827
+    ], 
+    [
+      "Region[populationTotal]", 
+      0.087
+    ], 
+    [
+      "AdministrativeRegion[populationTotal]", 
+      0.087
+    ], 
+    [
+      "Place[length]", 
+      0.0886
+    ], 
+    [
+      "Location[length]", 
+      0.09
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Andhra_Pradesh)>(22-rdf-syntax-ns#type|_Feature)>(country|India)", 
+      0.112
+    ]
+  ], 
+  "values": [
+    23673.5974589678, 
+    48244.702360463256, 
+    6056.894673179562, 
+    11663.597918369498, 
+    4072.0363685998477, 
+    511668.4384606529, 
+    1047.620975217715, 
+    58035.507770012824, 
+    364517.07179254683, 
+    13164.95674149501, 
+    225.69065484765028, 
+    31042.44884268622, 
+    1057217.267985386, 
+    152.72883335973847, 
+    20312.995612633153, 
+    37334.01259245716, 
+    257268.93433425948, 
+    11380.984723825011, 
+    151.84887134606586, 
+    10236.590726011604, 
+    1619.3259323215152, 
+    4695.838951259034, 
+    2062.3273886526117, 
+    67180.85203653602, 
+    110824.3879624886, 
+    527.4131893635296, 
+    20285.745102712324, 
+    10930.364871212843, 
+    2485.376203636604, 
+    1593.598905163345, 
+    48876.681654132444, 
+    95317.98074350094, 
+    5715.303091230477, 
+    525116.7597798877, 
+    165589.58319867362, 
+    7911.901150014937, 
+    946.5357798554479, 
+    12759.051349622196, 
+    5523.0356592023245, 
+    14376.150001763086, 
+    263384.25063083955, 
+    234143.14745546132, 
+    99314.552697107, 
+    3463.7130711921413, 
+    28.9810468851991, 
+    58683.591162192264, 
+    66814.58468037695, 
+    965.3137999280473, 
+    8216.537677566337, 
+    39405.12453883802, 
+    4407.86909383574, 
+    1636.342517013927, 
+    17267.56070711025, 
+    64970.169908149204, 
+    25726.149358404866, 
+    6893.658749291226, 
+    1060.4055998288136, 
+    416.6139564785496, 
+    131309.0491109691, 
+    73360.45546004835, 
+    30111.10797292983, 
+    23213.0634656221, 
+    29010.33971280449, 
+    22163.347887086824, 
+    9103.952330769342, 
+    9451.342511653678, 
+    457985.77511122817, 
+    89806.23234840625, 
+    26663.171887089196, 
+    697.0015179291825, 
+    35831.4882737072, 
+    13825.495141165382, 
+    23307.179513948395, 
+    69730.10756130618, 
+    113683.94462767888, 
+    29728.654131446696, 
+    47150.99281238437, 
+    59033.94847678278, 
+    27775.521827837412, 
+    21469.246462486248, 
+    8153.278569771521, 
+    4365.2883356601, 
+    19896.041885282433, 
+    356.5369805877077, 
+    1739.7574089583575, 
+    49072.0492071131, 
+    23388.578422416864, 
+    13055.275050372813, 
+    279.9437484769655, 
+    1769.5876060278035, 
+    38476.82499606766, 
+    73856.70490019757, 
+    395962.1784927088, 
+    23461.306647010522, 
+    8803.637641978496, 
+    8589.557574461143, 
+    15355.1900363567, 
+    77.1104972854856, 
+    2323.0418986468253, 
+    1191.8597970035523
+  ]
+}

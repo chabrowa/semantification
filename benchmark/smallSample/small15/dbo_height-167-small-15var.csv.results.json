@@ -1,0 +1,310 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/height"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "height", 
+          0.1509
+        ], 
+        [
+          "populationDensity", 
+          0.1644
+        ], 
+        [
+          "width", 
+          0.1782
+        ], 
+        [
+          "numberOfEpisodes", 
+          0.1839
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          7.0
+        ], 
+        [
+          "width", 
+          1.0
+        ], 
+        [
+          "numberOfEpisodes", 
+          1.0
+        ], 
+        [
+          "height", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Ship (height)", 
+          0.1509
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (height)", 
+          0.1509
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1591
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.1608
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1675
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1709
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1709
+        ], 
+        [
+          "http://dbpedia.org/ontology/RoadTunnel (width)", 
+          0.1782
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          0.1782
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          0.1782
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.1782
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          0.1782
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.182
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.182
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          0.1839
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionSeason (numberOfEpisodes)", 
+          0.1839
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionSeason (numberOfEpisodes)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RoadTunnel (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Ship[height]", 
+      0.1509
+    ], 
+    [
+      "Location[populationDensity]>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Estrie)>(country|Canada)", 
+      0.1534
+    ], 
+    [
+      "Location[populationDensity]>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Estrie)", 
+      0.1545
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Missouri)>(type|Township_(United_States))", 
+      0.1608
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Missouri)>(type|Township_(United_States))", 
+      0.1608
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Zamora)", 
+      0.1697
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Zamora)", 
+      0.1697
+    ], 
+    [
+      "RoadTunnel[width]", 
+      0.1782
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Iowa)", 
+      0.182
+    ], 
+    [
+      "TelevisionSeason[numberOfEpisodes]>(country|United_Kingdom)", 
+      0.1839
+    ]
+  ], 
+  "values": [
+    30.36496973955015, 
+    9.27104022844425, 
+    9.632691638515544, 
+    27.020959126611725, 
+    10.490507845252653, 
+    10.896738850322786, 
+    9.755542013460659, 
+    2.2554835683714423, 
+    12.909165379252562, 
+    74.92854549251457, 
+    42.30211171195177, 
+    8.310747960228497, 
+    7.817225121658462, 
+    27.59229983610218, 
+    2.880555317047304, 
+    8.665823405801998, 
+    8.764508345305684, 
+    8.985823066132879, 
+    10.37597681270284, 
+    32.366521157639404, 
+    9.488292237664327, 
+    9.923274871168566, 
+    10.138993256473489, 
+    21.32640829193647, 
+    8.563188463881742, 
+    7.76071103923768, 
+    9.140758609292911, 
+    9.759403942760356, 
+    2.4615494423767097, 
+    10.392116476329335, 
+    11.235736788988952, 
+    7.172664597908092, 
+    9.949503352773482, 
+    10.124440634521651, 
+    2.7141475620468065, 
+    10.328105204043311, 
+    6.9758307485061675, 
+    3.315414965049101, 
+    7.001149338776448, 
+    9.243714851529024, 
+    2.956618071195805, 
+    7.72320872638869, 
+    4.21989678651024, 
+    11.370780693000443, 
+    61.301068609428526, 
+    7.765341633827338, 
+    8.5777502788974, 
+    10.023139819955354, 
+    13.262696931945927, 
+    13.254455350540963, 
+    10.039291679019266, 
+    8.915559931853046, 
+    37.84343550346511, 
+    10.836699027168343, 
+    9.818699843990055, 
+    53.63444439390308, 
+    4.118231650515793, 
+    17.46464914397218, 
+    8.009076529584126, 
+    4.125468661211787, 
+    11.661106583685616, 
+    46.289038693768184, 
+    9.848494313351006, 
+    109.41583155498526, 
+    17.207635146305208, 
+    2.8653174283613962, 
+    2.3882866004654653, 
+    2.794044123198492, 
+    8.620594253008937, 
+    11.416127601665064, 
+    9.136268253778626, 
+    10.073088537827047, 
+    12.906352035440037, 
+    27.64320749149757, 
+    67.6722008750433, 
+    9.88313935658474, 
+    63.93547778816399, 
+    2.661959789872049, 
+    1.6601359096907111, 
+    3.560669347615495, 
+    7.526506456077739, 
+    11.367768050092119, 
+    10.205727693365283, 
+    9.603047078130544, 
+    2.75062012850233, 
+    10.488040640592782, 
+    12.664203306053505
+  ]
+}

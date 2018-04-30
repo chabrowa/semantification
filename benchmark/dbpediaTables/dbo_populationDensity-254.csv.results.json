@@ -1,0 +1,240 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationDensity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfMatches", 
+          0.1021
+        ], 
+        [
+          "populationDensity", 
+          0.1164
+        ], 
+        [
+          "populationTotal", 
+          0.1212
+        ], 
+        [
+          "elevation", 
+          0.1461
+        ], 
+        [
+          "minimumElevation", 
+          0.1521
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          3.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ], 
+        [
+          "numberOfMatches", 
+          2.0
+        ], 
+        [
+          "populationTotal", 
+          2.0
+        ], 
+        [
+          "minimumElevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/CareerStation (numberOfMatches)", 
+          0.1021
+        ], 
+        [
+          "http://dbpedia.org/ontology/TimePeriod (numberOfMatches)", 
+          0.1021
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1148
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1148
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.1148
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.1148
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1196
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1212
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1212
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1212
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1212
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1458
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.1521
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TimePeriod (numberOfMatches)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/CareerStation (numberOfMatches)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "TimePeriod[numberOfMatches]", 
+      0.1021
+    ], 
+    [
+      "CareerStation[numberOfMatches]", 
+      0.1021
+    ], 
+    [
+      "Region[populationDensity]", 
+      0.1148
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]", 
+      0.1148
+    ], 
+    [
+      "Location[populationDensity]>(type|Types_of_municipalities_in_Quebec)", 
+      0.1196
+    ], 
+    [
+      "Location[populationTotal]>(country|Poland)>(type|Human_settlement)>(isPartOf|West_Pomeranian_Voivodeship)", 
+      0.1212
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Poland)>(type|Human_settlement)>(isPartOf|West_Pomeranian_Voivodeship)", 
+      0.1212
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Goa)>(country|India)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.143
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Goa)>(country|India)", 
+      0.1492
+    ], 
+    [
+      "Location[minimumElevation]>(region|Pays_de_la_Loire)>(department|Vend%C3%A9e)", 
+      0.1521
+    ]
+  ], 
+  "values": [
+    31.5, 
+    0.05, 
+    37.2, 
+    2.0, 
+    254.5, 
+    19.1, 
+    7.2, 
+    1221.1, 
+    28.7, 
+    3.0, 
+    0.0, 
+    5.9, 
+    224.2, 
+    2.4, 
+    8.1, 
+    140.9, 
+    29.9, 
+    17.1, 
+    0.0, 
+    81.3, 
+    17.4, 
+    10.3, 
+    11.0, 
+    14.7, 
+    108.3, 
+    17.3, 
+    2.8, 
+    2.3, 
+    21.1, 
+    13.5, 
+    36.1, 
+    0.4, 
+    14.0
+  ]
+}

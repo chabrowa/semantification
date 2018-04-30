@@ -1,0 +1,219 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaWater"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaWater", 
+          0.0752
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.0668
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.0761
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.0771
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.0773
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.0788
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          0.0833
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          27.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaWater]", 
+      0.0668
+    ], 
+    [
+      "PopulatedPlace[areaWater]", 
+      0.0668
+    ], 
+    [
+      "Place[areaWater]", 
+      0.0668
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Texas)>(governmentType|Council%E2%80%93manager_government)>(leaderName|Mayor)>(country|United_States)>(timeZone|Central_Time_Zone)>(type|City)", 
+      0.0714
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Mississippi)>(type|City)", 
+      0.0748
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Texas)>(governmentType|Council%E2%80%93manager_government)>(leaderName|Mayor)>(country|United_States)>(timeZone|Central_Time_Zone)", 
+      0.0753
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Mississippi)>(type|City)>(country|United_States)", 
+      0.0813
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Mississippi)", 
+      0.0818
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Illinois)", 
+      0.0833
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Texas)>(governmentType|Council%E2%80%93manager_government)>(leaderName|Mayor)>(country|United_States)", 
+      0.0835
+    ]
+  ], 
+  "values": [
+    0.0, 
+    983057.1740461295, 
+    13905452.17470687, 
+    103356.65400607859, 
+    0.0, 
+    0.0, 
+    0.0, 
+    139448.24789765678, 
+    34638676.41076376, 
+    0.0, 
+    51370.33434897343, 
+    131765.98427588693, 
+    25750.313720721126, 
+    517389.7633129104, 
+    1514252.527799309, 
+    0.0, 
+    0.0, 
+    654616.9092068941, 
+    0.0, 
+    0.0, 
+    245542.47321063132, 
+    0.0, 
+    0.0, 
+    946.5552800607311, 
+    169773.8549157684, 
+    1677809.133835306, 
+    0.0, 
+    1101742.0875156375, 
+    101813234.60124183, 
+    0.0, 
+    217104.45530382605, 
+    0.0, 
+    477484.9287302744, 
+    95833.46560447657, 
+    382591.93322531093, 
+    1146540.5299994783, 
+    14316803.719788881, 
+    0.0, 
+    3352081.3020672468, 
+    438705.6202478852, 
+    1829364.1946556026, 
+    144151.04869558994, 
+    101656.32577235377, 
+    1228847.0594146235, 
+    1274708.373836497, 
+    2860754.5126027386, 
+    699526.2240378993, 
+    747683.1308261454, 
+    537163.1506150193, 
+    202195.52923011684, 
+    1577396.802166455, 
+    190086.7604448678, 
+    3789745.606879554, 
+    39456.29805935899, 
+    300387.9058145434, 
+    932687.347932922, 
+    0.0, 
+    3723849.7326843147, 
+    224942.29328265932, 
+    1313662.2406793558, 
+    384922.21843214263, 
+    4311215.63335056, 
+    1992229.2690623542, 
+    0.0, 
+    0.0, 
+    0.0, 
+    527832.325717202, 
+    101320.2883311492, 
+    171860.0205879774, 
+    24974722.73293524, 
+    263497.24056239956, 
+    2117388.733511677, 
+    649159.9579970344, 
+    795598.3649884342, 
+    77177.27720351539, 
+    6013773.424012025, 
+    0.0, 
+    0.0, 
+    10617534.909623839, 
+    25011.681381913102, 
+    1461532.1551528897, 
+    526038.2025162199, 
+    2553.475956442234, 
+    100784.98422245934, 
+    22769.221399150047, 
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    5660561.349876365, 
+    66258.68638239469, 
+    0.0, 
+    45577.250115971205, 
+    9489585.231096879, 
+    230121.02256816634, 
+    0.0, 
+    31541.346686495825, 
+    852212.1970990591, 
+    76449.90148908697, 
+    6680639.858002611
+  ]
+}

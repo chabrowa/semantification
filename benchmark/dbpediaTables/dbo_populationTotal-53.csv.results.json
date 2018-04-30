@@ -1,0 +1,181 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "weight", 
+          0.237
+        ], 
+        [
+          "populationTotal", 
+          0.2407
+        ], 
+        [
+          "areaWater", 
+          0.261
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          8.0
+        ], 
+        [
+          "weight", 
+          1.0
+        ], 
+        [
+          "populationTotal", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Weapon (weight)", 
+          0.237
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (weight)", 
+          0.237
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2407
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2407
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (populationTotal)", 
+          0.2407
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          0.2549
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.2587
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.2587
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.2587
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.2626
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.2632
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (weight)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Weapon[weight]", 
+      0.237
+    ], 
+    [
+      "Island[populationTotal]>(location|Southeast_Asia)", 
+      0.2407
+    ], 
+    [
+      "City[areaWater]>(isPartOf|California)", 
+      0.246
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Iowa)>(type|Township_(United_States))>(timeZone|Central_Time_Zone)", 
+      0.2549
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Iowa)>(type|Township_(United_States))>(timeZone|Central_Time_Zone)", 
+      0.2549
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|California)>(isPartOf|San_Diego_County,_California)", 
+      0.2644
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Washington_(state))>(type|City_government_in_Washington_(state))", 
+      0.2645
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Washington_(state))>(type|City_government_in_Washington_(state))", 
+      0.2645
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Washington_(state))>(type|City_government_in_Washington_(state))>(country|United_States)", 
+      0.2696
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Washington_(state))>(type|City_government_in_Washington_(state))>(country|United_States)", 
+      0.2696
+    ]
+  ], 
+  "values": [
+    30000.0, 
+    354830825.0, 
+    9355.0, 
+    3500000.0, 
+    1850.0, 
+    75730.0
+  ]
+}

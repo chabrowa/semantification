@@ -1,0 +1,213 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationDensity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.2361
+        ], 
+        [
+          "minimumElevation", 
+          0.25
+        ], 
+        [
+          "elevation", 
+          0.2547
+        ], 
+        [
+          "populationDensity", 
+          0.2605
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          5.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "minimumElevation", 
+          1.0
+        ], 
+        [
+          "populationTotal", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1905
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1905
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1905
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.2361
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (elevation)", 
+          0.2417
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.25
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.25
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.25
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (minimumElevation)", 
+          0.25
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2547
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2547
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2809
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2849
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.2849
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[populationDensity]>(isPartOf|Wisconsin)", 
+      0.1905
+    ], 
+    [
+      "Island[elevation]>(country|United_States)", 
+      0.2292
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_European_Time)>(isPartOf|Paphos_District)", 
+      0.2361
+    ], 
+    [
+      "Village[minimumElevation]>(country|France)", 
+      0.25
+    ], 
+    [
+      "Island[elevation]>(country|United_States)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.25
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Nebraska)", 
+      0.2568
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Kansas)>(timeZone|Central_Time_Zone)>(country|United_States)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2844
+    ], 
+    [
+      "Town[elevation]>(country|India)>(isPartOf|Odisha)", 
+      0.2849
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Kansas)>(timeZone|Central_Time_Zone)>(country|United_States)", 
+      0.2851
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Kansas)>(timeZone|Central_Time_Zone)", 
+      0.2857
+    ]
+  ], 
+  "values": [
+    15000.0, 
+    1.2, 
+    1.5, 
+    188.0, 
+    187.2, 
+    30.5021
+  ]
+}

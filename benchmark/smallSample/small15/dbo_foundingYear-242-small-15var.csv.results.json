@@ -1,0 +1,295 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/foundingYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.3102
+        ], 
+        [
+          "openingYear", 
+          0.3152
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.3183
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          6.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.2815
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (openingYear)", 
+          0.3136
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          0.314
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          0.3142
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          0.3143
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.3161
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.3161
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.3161
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.3161
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          0.3179
+        ], 
+        [
+          "http://dbpedia.org/ontology/Royalty (activeYearsEndYear)", 
+          0.3183
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.3183
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.3183
+        ], 
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          0.3244
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.3246
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.3246
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Royalty (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (openingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.2815
+    ], 
+    [
+      "PublicTransitSystem[openingYear]", 
+      0.3136
+    ], 
+    [
+      "RailwayLine[openingYear]", 
+      0.314
+    ], 
+    [
+      "Agent[openingYear]", 
+      0.3145
+    ], 
+    [
+      "RailwayTunnel[openingYear]", 
+      0.3145
+    ], 
+    [
+      "Organisation[openingYear]", 
+      0.3147
+    ], 
+    [
+      "Royalty[activeYearsEndYear]>(deathPlace|France)", 
+      0.3183
+    ], 
+    [
+      "RailwayTunnel[openingYear]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3196
+    ], 
+    [
+      "Volcano[elevation]>(locatedInArea|Indonesia)>(type|Stratovolcano)", 
+      0.3236
+    ], 
+    [
+      "Volcano[elevation]>(locatedInArea|Indonesia)", 
+      0.3255
+    ]
+  ], 
+  "values": [
+    2240.0, 
+    1919.0, 
+    1811.0, 
+    1565.0, 
+    1913.0, 
+    2237.0, 
+    1968.0, 
+    2095.0, 
+    2018.0, 
+    1978.0, 
+    1989.0, 
+    2111.0, 
+    1935.0, 
+    1802.0, 
+    1872.0, 
+    1798.0, 
+    1892.0, 
+    1933.0, 
+    1739.0, 
+    1828.0, 
+    2156.0, 
+    2169.0, 
+    2358.0, 
+    1732.0, 
+    1773.0, 
+    1684.0, 
+    1898.0, 
+    1866.0, 
+    1713.0, 
+    1965.0, 
+    1916.0, 
+    2018.0, 
+    2369.0, 
+    2168.0, 
+    1860.0, 
+    1650.0, 
+    2123.0, 
+    1919.0, 
+    1864.0, 
+    1978.0, 
+    2382.0, 
+    1998.0, 
+    1891.0, 
+    2016.0, 
+    2037.0, 
+    1750.0, 
+    1600.0, 
+    1780.0, 
+    1720.0, 
+    1950.0, 
+    2147.0, 
+    1909.0, 
+    2085.0, 
+    2242.0, 
+    2161.0, 
+    1892.0, 
+    1893.0, 
+    1833.0, 
+    1858.0, 
+    1894.0, 
+    2115.0, 
+    2222.0, 
+    1852.0, 
+    2079.0, 
+    1886.0, 
+    1702.0, 
+    1931.0, 
+    2053.0, 
+    2286.0, 
+    1825.0, 
+    2346.0, 
+    2406.0, 
+    1727.0, 
+    1560.0, 
+    1688.0, 
+    1885.0, 
+    2127.0, 
+    1882.0, 
+    1918.0, 
+    1863.0
+  ]
+}

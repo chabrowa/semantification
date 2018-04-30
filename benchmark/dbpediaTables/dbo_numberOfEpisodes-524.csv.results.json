@@ -1,0 +1,241 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEpisodes"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "number", 
+          0.2692
+        ], 
+        [
+          "shipBeam", 
+          0.2871
+        ], 
+        [
+          "populationDensity", 
+          0.3282
+        ], 
+        [
+          "height", 
+          0.3353
+        ], 
+        [
+          "elevation", 
+          0.3385
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          5.0
+        ], 
+        [
+          "shipBeam", 
+          2.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ], 
+        [
+          "number", 
+          1.0
+        ], 
+        [
+          "height", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.2692
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.2692
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.2692
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          0.2871
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          0.2871
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.3015
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.3015
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.3239
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.3239
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (height)", 
+          0.3353
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (height)", 
+          0.3353
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.3385
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.3385
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.3385
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.3385
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.3455
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.3463
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (height)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Athlete[number]>(position|Midfielder)", 
+      0.2692
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Iowa)", 
+      0.2741
+    ], 
+    [
+      "Ship[shipBeam]", 
+      0.2871
+    ], 
+    [
+      "MeanOfTransportation[shipBeam]", 
+      0.2871
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Arkansas)", 
+      0.3289
+    ], 
+    [
+      "Ship[height]", 
+      0.3353
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Northern_Norway)>(isPartOf|Troms)", 
+      0.3385
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Zamora)", 
+      0.3455
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Zamora)", 
+      0.3455
+    ], 
+    [
+      "Settlement[populationDensity]>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Chaudi%C3%A8re-Appalaches)", 
+      0.3472
+    ]
+  ], 
+  "values": [
+    15.0, 
+    8.0
+  ]
+}

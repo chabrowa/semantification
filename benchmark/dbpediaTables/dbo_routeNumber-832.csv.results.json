@@ -1,0 +1,194 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/routeNumber"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfEmployees", 
+          0.1905
+        ], 
+        [
+          "populationDensity", 
+          0.2118
+        ], 
+        [
+          "elevation", 
+          0.2309
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          6.0
+        ], 
+        [
+          "populationDensity", 
+          3.0
+        ], 
+        [
+          "numberOfEmployees", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          0.1905
+        ], 
+        [
+          "http://dbpedia.org/ontology/Non-ProfitOrganisation (numberOfEmployees)", 
+          0.1905
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          0.1905
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.2034
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.2034
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.2034
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.2034
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2121
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.2289
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          0.2362
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2362
+        ], 
+        [
+          "http://dbpedia.org/ontology/Airport (elevation)", 
+          0.2362
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (elevation)", 
+          0.2362
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          19.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Airport (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Non-ProfitOrganisation (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Non-ProfitOrganisation[numberOfEmployees]", 
+      0.1905
+    ], 
+    [
+      "Location[populationDensity]>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Laurentides)", 
+      0.1967
+    ], 
+    [
+      "Town[populationDensity]", 
+      0.2034
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Kerala)>(country|India)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2238
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Napa_County,_California)>(country|United_States)", 
+      0.2267
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Kerala)>(country|India)", 
+      0.2276
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Kerala)", 
+      0.2303
+    ], 
+    [
+      "Location[populationDensity]>(type|New_England_town)", 
+      0.2352
+    ], 
+    [
+      "Airport[elevation]>(owner|Alaska_Department_of_Transportation_&_Public_Facilities)", 
+      0.2362
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Napa_County,_California)", 
+      0.2407
+    ]
+  ], 
+  "values": [
+    26.0, 
+    4.0, 
+    219.0
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationDensity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.0829
+        ], 
+        [
+          "elevation", 
+          0.0857
+        ], 
+        [
+          "populationDensity", 
+          0.0887
+        ], 
+        [
+          "maximumElevation", 
+          0.0903
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          7.0
+        ], 
+        [
+          "maximumElevation", 
+          1.0
+        ], 
+        [
+          "populationTotal", 
+          1.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0829
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.0829
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0829
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.0832
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.0857
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.0857
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.0885
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.0887
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.0888
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (maximumElevation)", 
+          0.0903
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.0903
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          0.0903
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[elevation]>(country|Italy)>(region|Friuli-Venezia_Giulia)", 
+      0.0753
+    ], 
+    [
+      "Settlement[elevation]>(country|Italy)>(region|Emilia-Romagna)", 
+      0.0825
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Slovenia)>(isPartOf|Slovene_Littoral)", 
+      0.0829
+    ], 
+    [
+      "City[elevation]>(isPartOf|Washington_(state))", 
+      0.0868
+    ], 
+    [
+      "Town[elevation]>(isPartOf|North_Carolina)>(type|Town)", 
+      0.0868
+    ], 
+    [
+      "Location[populationDensity]>(type|New_England_town)>(isPartOf|Massachusetts)>(governmentType|Open_town_meeting)", 
+      0.0887
+    ], 
+    [
+      "City[elevation]>(timeZone|Time_in_China)>(type|County-level_city)>(country|China)", 
+      0.0893
+    ], 
+    [
+      "City[elevation]>(timeZone|Time_in_China)>(type|County-level_city)", 
+      0.0896
+    ], 
+    [
+      "Town[elevation]>(isPartOf|North_Carolina)>(type|Town)>(country|United_States)", 
+      0.0897
+    ], 
+    [
+      "Island[maximumElevation]", 
+      0.0903
+    ]
+  ], 
+  "values": [
+    42.40574804333428, 
+    36.84320703646456, 
+    536.9599908073662, 
+    22.891481122690948, 
+    36.21392551895467, 
+    5080.610135210413, 
+    16.275254216518892, 
+    3.0341534753144312, 
+    16.974349153806166, 
+    132.96581351515388, 
+    62.08709498700215, 
+    92.15840063290352, 
+    4.745454853642898, 
+    3.16746245183269, 
+    111.77029054515471, 
+    1678.2641125814685, 
+    12.407590310359085, 
+    183.11189251442354, 
+    33.85509976925273, 
+    505.0149214356568, 
+    313.30779325704657, 
+    13.90544424418934, 
+    343.44742931422843, 
+    132.23179494601195, 
+    48.87695855083254, 
+    107.40504413534426, 
+    43.830013433726634, 
+    4323.648513495492, 
+    119.6960993834385, 
+    0.24330859639696595, 
+    330.0983228164639, 
+    3.0868448389175436, 
+    53.265983881805035, 
+    1391.1929829396795, 
+    80.67421709231347, 
+    1058.4283756088414, 
+    16.96911064433079, 
+    21106.837988627372, 
+    406.5874733347, 
+    81.52301500189321, 
+    42.87022450235005, 
+    1.2402091761437153, 
+    29.37370227305893, 
+    115.33336007276411, 
+    227.47063491877833, 
+    33.74463357603527, 
+    625.0775858717883, 
+    245.67995446055363, 
+    198.66817771718445, 
+    201.6797724858482, 
+    60.39245597794377, 
+    28.191952288813873, 
+    704.0372172166802, 
+    65.68817600982618, 
+    28.504596303177216, 
+    180.2087282623321, 
+    70.96576684483733, 
+    180.02274188713233, 
+    130.88907502225047, 
+    20.490544054531203, 
+    11.100237300992381, 
+    3.6966277954538125, 
+    549.5006462110447, 
+    110.80845938954269, 
+    41.7938196689776, 
+    98.36754538522821, 
+    27.32848330634471, 
+    730.5913642389186, 
+    379.09306517858454, 
+    417.46973925180293, 
+    145.41353360662433, 
+    75.91089955701601, 
+    266.6946184497352, 
+    23.392072327861126, 
+    686.4530770540542, 
+    11.267946467936333, 
+    56.75067310507566, 
+    50.79233569547981, 
+    273.82982139749896, 
+    51.43900715419847, 
+    112.4137673160862, 
+    13.176713718323786, 
+    310.9413710094914
+  ]
+}

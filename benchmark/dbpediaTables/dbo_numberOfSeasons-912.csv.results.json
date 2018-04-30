@@ -1,0 +1,221 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfSeasons"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfSeasons", 
+          0.0842
+        ], 
+        [
+          "populationDensity", 
+          0.1639
+        ], 
+        [
+          "elevation", 
+          0.1816
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          6.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "numberOfSeasons", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          0.0842
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          0.0842
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.1495
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1495
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1544
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1544
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.156
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.156
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.1707
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1816
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1816
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1878
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1908
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "TelevisionShow[numberOfSeasons]>(format|Aspect_ratio_(image))", 
+      0.0842
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Minnesota)", 
+      0.1495
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Minnesota)>(type|Township_(United_States))", 
+      0.1496
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Colorado)", 
+      0.15
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Nebraska)", 
+      0.1569
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Kansas)", 
+      0.1612
+    ], 
+    [
+      "City[elevation]>(isPartOf|Florida)>(governmentType|Council%E2%80%93manager_government)", 
+      0.1667
+    ], 
+    [
+      "City[elevation]>(isPartOf|Florida)>(governmentType|Council%E2%80%93manager_government)>(timeZone|Eastern_Time_Zone)", 
+      0.1738
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Nordfriesland)", 
+      0.2045
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Iowa)>(type|Township_(United_States))>(timeZone|Central_Time_Zone)", 
+      0.2164
+    ]
+  ], 
+  "values": [
+    7.0, 
+    6.0, 
+    3.0, 
+    6.0, 
+    3.0, 
+    13.0, 
+    1.0, 
+    1.0, 
+    23.0, 
+    3.0, 
+    7.0, 
+    2.0, 
+    3.0, 
+    14.0, 
+    4.0, 
+    8.0, 
+    1.0, 
+    20.0, 
+    2.0, 
+    1.0, 
+    4.0, 
+    2.0, 
+    4.0, 
+    1.0, 
+    3.0, 
+    3.0, 
+    12.0, 
+    1.0, 
+    1.0, 
+    6.0
+  ]
+}

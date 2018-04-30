@@ -1,0 +1,204 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfEmployees", 
+          0.1917
+        ], 
+        [
+          "length", 
+          0.1939
+        ], 
+        [
+          "populationTotal", 
+          0.1966
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          8.0
+        ], 
+        [
+          "numberOfEmployees", 
+          1.0
+        ], 
+        [
+          "length", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Company (numberOfEmployees)", 
+          0.1917
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          0.1917
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          0.1917
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cave (length)", 
+          0.1939
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.1939
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          0.1939
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1947
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1962
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1967
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1968
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          15.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cave (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|Buckinghamshire)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1846
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|Buckinghamshire)", 
+      0.1902
+    ], 
+    [
+      "Company[numberOfEmployees]", 
+      0.1917
+    ], 
+    [
+      "Cave[length]", 
+      0.1939
+    ], 
+    [
+      "Location[populationTotal]", 
+      0.1962
+    ], 
+    [
+      "Place[populationTotal]", 
+      0.1962
+    ], 
+    [
+      "PopulatedPlace[populationTotal]", 
+      0.1963
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|Lincolnshire)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1972
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|Lincolnshire)", 
+      0.2055
+    ], 
+    [
+      "Settlement[populationTotal]", 
+      0.2069
+    ]
+  ], 
+  "values": [
+    10800.0, 
+    5820.0, 
+    233.0, 
+    178.0, 
+    213.0, 
+    5400.0, 
+    6060.0, 
+    193.0, 
+    182.0, 
+    286.0, 
+    8400.0, 
+    7800.0, 
+    378.0, 
+    8880.0, 
+    172.0, 
+    6120.0, 
+    3106.0, 
+    420.0, 
+    216.0, 
+    250.0, 
+    8220.0, 
+    4800.0, 
+    8100.0, 
+    8520.0, 
+    215.0, 
+    303.0, 
+    192.0, 
+    186.0, 
+    1380.0, 
+    211.0, 
+    7140.0, 
+    207.0, 
+    -2700.0, 
+    7380.0, 
+    8040.0, 
+    9480.0, 
+    9600.0
+  ]
+}

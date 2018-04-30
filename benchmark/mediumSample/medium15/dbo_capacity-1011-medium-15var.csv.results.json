@@ -1,0 +1,223 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/capacity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.0719
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0719
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0719
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.0721
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.0722
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.0723
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          19.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          7.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[populationTotal]>(country|Italy)>(isPartOf|Perugia)", 
+      0.0659
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(isPartOf|Perugia)", 
+      0.0699
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Ardabil_Province)>(isPartOf|Namin_County)>(isPartOf|Central_District_(Namin_County))", 
+      0.0714
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Slovenia)>(isPartOf|Upper_Carniola)>(isPartOf|Central_Slovenia_Statistical_Region)", 
+      0.0714
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Khuzestan_Province)", 
+      0.0726
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(isPartOf|Perugia)>(type|Frazione)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0726
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(isPartOf|Perugia)>(type|Frazione)", 
+      0.0726
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(isPartOf|Perugia)>(type|Frazione)", 
+      0.0735
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Sistan_and_Baluchestan_Province)", 
+      0.0738
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(isPartOf|Perugia)>(type|Frazione)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0755
+    ]
+  ], 
+  "values": [
+    51.0, 
+    42.0, 
+    0.0, 
+    60.0, 
+    1271.0, 
+    228.0, 
+    179.0, 
+    73.0, 
+    53.0, 
+    145.0, 
+    90.0, 
+    8447.0, 
+    665.0, 
+    1583.0, 
+    49.0, 
+    44.0, 
+    586.0, 
+    262.0, 
+    23.0, 
+    223.0, 
+    209.0, 
+    118.0, 
+    57.0, 
+    1286.0, 
+    393.0, 
+    0.0, 
+    1208.0, 
+    405.0, 
+    323.0, 
+    8.0, 
+    175.0, 
+    190.0, 
+    49.0, 
+    522.0, 
+    600.0, 
+    754.0, 
+    475.0, 
+    44.0, 
+    618.0, 
+    78.0, 
+    310.0, 
+    327.0, 
+    40.0, 
+    958.0, 
+    93.0, 
+    83.0, 
+    23.0, 
+    366.0, 
+    551.0, 
+    137.0, 
+    26.0, 
+    60.0, 
+    265.0, 
+    87.0, 
+    63.0, 
+    250.0, 
+    326.0, 
+    595.0, 
+    140.0, 
+    116.0, 
+    68.0, 
+    136.0, 
+    224.0, 
+    48.0, 
+    81.0, 
+    96.0, 
+    173.0, 
+    246.0, 
+    21.0, 
+    107.0, 
+    64.0, 
+    33.0, 
+    43.0, 
+    82.0, 
+    669.0, 
+    95.0, 
+    45.0, 
+    490.0, 
+    2019.0, 
+    679.0, 
+    39.0, 
+    300.0, 
+    6.0, 
+    0.0, 
+    0.0, 
+    20.0, 
+    60.0, 
+    209.0, 
+    523.0, 
+    46.0, 
+    414.0, 
+    38.0, 
+    0.0, 
+    115.0, 
+    140.0, 
+    50.0, 
+    67.0, 
+    380.0, 
+    213.0, 
+    1529.0, 
+    359.0, 
+    67.0, 
+    197.0, 
+    572.0, 
+    93.0, 
+    201.0, 
+    10.0, 
+    65.0, 
+    999.0, 
+    39.0, 
+    341.0, 
+    50.0
+  ]
+}

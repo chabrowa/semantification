@@ -1,0 +1,201 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfPages"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.2802
+        ], 
+        [
+          "elevation", 
+          0.2841
+        ], 
+        [
+          "numberOfPages", 
+          0.2846
+        ], 
+        [
+          "runtime", 
+          0.286
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          5.0
+        ], 
+        [
+          "populationTotal", 
+          2.0
+        ], 
+        [
+          "runtime", 
+          2.0
+        ], 
+        [
+          "numberOfPages", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.278
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.281
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.283
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.283
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2836
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (numberOfPages)", 
+          0.2846
+        ], 
+        [
+          "http://dbpedia.org/ontology/Book (numberOfPages)", 
+          0.2846
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfPages)", 
+          0.2846
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.2857
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          0.286
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          0.286
+        ], 
+        [
+          "http://dbpedia.org/ontology/Song (runtime)", 
+          0.2864
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.2885
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Song (runtime)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Book (numberOfPages)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (numberOfPages)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfPages)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationTotal]>(country|Poland)>(type|Village)>(isPartOf|Kwidzyn_County)", 
+      0.2727
+    ], 
+    [
+      "Settlement[elevation]>(country|Slovenia)>(isPartOf|White_Carniola)", 
+      0.2778
+    ], 
+    [
+      "Town[elevation]", 
+      0.278
+    ], 
+    [
+      "Song[runtime]>(writer|Roger_Waters)", 
+      0.2841
+    ], 
+    [
+      "Book[numberOfPages]>(literaryGenre|Children's_literature)>(publisher|HarperCollins)", 
+      0.2846
+    ], 
+    [
+      "Village[elevation]>(country|Czech_Republic)>(isPartOf|%C3%9Ast%C3%AD_nad_Labem_Region)", 
+      0.2857
+    ], 
+    [
+      "Location[populationTotal]>(country|Poland)>(type|Village)>(isPartOf|Kwidzyn_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2877
+    ], 
+    [
+      "Song[runtime]>(writer|Roger_Waters)>(recordLabel|Harvest_Records)", 
+      0.2879
+    ], 
+    [
+      "Location[elevation]>(country|Slovenia)>(isPartOf|Municipality_of_Kr%C5%A1ko)>(isPartOf|Lower_Carniola)", 
+      0.2885
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Lot_(department))", 
+      0.2907
+    ]
+  ], 
+  "values": [
+    170.0, 
+    363.0
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/formationYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.3406
+        ], 
+        [
+          "areaCode", 
+          0.3454
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.3559
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.356
+        ], 
+        [
+          "foundingYear", 
+          0.357
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          2.0
+        ], 
+        [
+          "foundingYear", 
+          2.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          2.0
+        ], 
+        [
+          "areaCode", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.3366
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          0.3454
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.3486
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.3486
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.3486
+        ], 
+        [
+          "http://dbpedia.org/ontology/Locomotive (activeYearsEndYear)", 
+          0.3559
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (activeYearsEndYear)", 
+          0.3559
+        ], 
+        [
+          "http://dbpedia.org/ontology/Locomotive (activeYearsStartYear)", 
+          0.356
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (activeYearsStartYear)", 
+          0.356
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          0.357
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          0.357
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.357
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.357
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Locomotive (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Locomotive (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.3271
+    ], 
+    [
+      "Location[areaCode]>(country|England)>(country|Cumbria)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3454
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Colorado)>(type|Census-designated_place)", 
+      0.3462
+    ], 
+    [
+      "Settlement[elevation]>(country|Peru)>(isPartOf|Amazonas_Region)", 
+      0.3486
+    ], 
+    [
+      "Locomotive[activeYearsEndYear]", 
+      0.3559
+    ], 
+    [
+      "MeanOfTransportation[activeYearsEndYear]", 
+      0.3559
+    ], 
+    [
+      "Locomotive[activeYearsStartYear]", 
+      0.356
+    ], 
+    [
+      "MeanOfTransportation[activeYearsStartYear]", 
+      0.356
+    ], 
+    [
+      "School[foundingYear]", 
+      0.357
+    ], 
+    [
+      "EducationalInstitution[foundingYear]", 
+      0.357
+    ]
+  ], 
+  "values": [
+    1669.0, 
+    1727.0, 
+    1946.0, 
+    1666.0, 
+    1885.0, 
+    1916.0, 
+    1899.0, 
+    1957.0, 
+    1862.0, 
+    2121.0, 
+    2149.0, 
+    2417.0, 
+    2219.0, 
+    2194.0
+  ]
+}

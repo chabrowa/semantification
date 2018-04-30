@@ -1,0 +1,201 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaWater"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaLand", 
+          0.5
+        ], 
+        [
+          "areaTotal", 
+          0.5008
+        ], 
+        [
+          "areaWater", 
+          0.5035
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          5.0
+        ], 
+        [
+          "areaWater", 
+          4.0
+        ], 
+        [
+          "areaLand", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (areaTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.5007
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.5007
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.501
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.5012
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.5013
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.5024
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.5024
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.5024
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          0.5035
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.5043
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaTotal]>(country|Slovenia)>(isPartOf|Ivan%C4%8Dna_Gorica)", 
+      0.5
+    ], 
+    [
+      "Settlement[areaTotal]>(type|Village_(United_States))", 
+      0.5
+    ], 
+    [
+      "Island[areaTotal]>(country|Australia)", 
+      0.5
+    ], 
+    [
+      "Settlement[areaLand]>(type|Village_(United_States))", 
+      0.5
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Florida)", 
+      0.5013
+    ], 
+    [
+      "Location[areaTotal]>(country|Canada)>(isPartOf|List_of_neighbourhoods_in_Edmonton)", 
+      0.502
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Canada)>(isPartOf|List_of_neighbourhoods_in_Edmonton)", 
+      0.502
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|New_Jersey)>(governmentType|Township_(New_Jersey))", 
+      0.5035
+    ], 
+    [
+      "Town[areaWater]>(type|Township_(New_Jersey))>(governmentType|Township_(New_Jersey))", 
+      0.5035
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Massachusetts)", 
+      0.5055
+    ]
+  ], 
+  "values": [
+    1056000.0, 
+    1061900.0
+  ]
+}

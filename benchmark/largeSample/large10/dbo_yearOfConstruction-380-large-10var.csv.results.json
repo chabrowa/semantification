@@ -1,0 +1,276 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/yearOfConstruction"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.237
+        ], 
+        [
+          "deathYear", 
+          0.2432
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.2466
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.2471
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          5.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          2.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          2.0
+        ], 
+        [
+          "deathYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.2317
+        ], 
+        [
+          "http://dbpedia.org/ontology/Painter (deathYear)", 
+          0.2432
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          0.2432
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsEndYear)", 
+          0.2432
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (deathYear)", 
+          0.2432
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsEndYear)", 
+          0.2432
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          0.2432
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.2466
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsStartYear)", 
+          0.2466
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          0.2466
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.2471
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.2471
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsStartYear)", 
+          0.25
+        ], 
+        [
+          "http://dbpedia.org/ontology/Royalty (activeYearsEndYear)", 
+          0.251
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (elevation)", 
+          0.2649
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.2649
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2649
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (elevation)", 
+          0.2649
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          17.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Royalty (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Painter (deathYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (deathYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.2034
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Colorado)>(type|Census-designated_place)", 
+      0.2042
+    ], 
+    [
+      "Painter[deathYear]", 
+      0.2432
+    ], 
+    [
+      "Cleric[activeYearsStartYear]", 
+      0.2432
+    ], 
+    [
+      "ChristianBishop[activeYearsEndYear]>(religion|Anglicanism)", 
+      0.2432
+    ], 
+    [
+      "ChristianBishop[activeYearsStartYear]", 
+      0.25
+    ], 
+    [
+      "Royalty[activeYearsEndYear]>(deathPlace|France)", 
+      0.251
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)", 
+      0.2533
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)>(country|United_States)", 
+      0.259
+    ], 
+    [
+      "Lake[elevation]>(location|Glacier_National_Park_(U.S.))>(location|Glacier_County,_Montana)>(location|United_States)", 
+      0.2649
+    ]
+  ], 
+  "values": [
+    1893.0, 
+    1811.0, 
+    1755.0, 
+    1735.0, 
+    1554.0, 
+    1858.0, 
+    1849.0, 
+    1547.0, 
+    2134.0, 
+    1795.0, 
+    2219.0, 
+    1726.0, 
+    1791.0, 
+    1900.0, 
+    1785.0, 
+    1505.0, 
+    1860.0, 
+    2110.0, 
+    1776.0, 
+    1690.0, 
+    2063.0, 
+    2047.0, 
+    1588.0, 
+    1878.0, 
+    2027.0, 
+    1827.0, 
+    1950.0, 
+    1674.0, 
+    1715.0, 
+    2119.0, 
+    1683.0, 
+    2012.0, 
+    1635.0, 
+    2024.0, 
+    1972.0, 
+    2359.0, 
+    1677.0
+  ]
+}

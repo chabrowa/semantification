@@ -1,0 +1,292 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEmployees"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1034
+        ], 
+        [
+          "width", 
+          0.1081
+        ], 
+        [
+          "numberOfEmployees", 
+          0.1186
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          6.0
+        ], 
+        [
+          "width", 
+          2.0
+        ], 
+        [
+          "numberOfEmployees", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.0975
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (width)", 
+          0.1065
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.1097
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          0.1186
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          0.1186
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1284
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1284
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1284
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          18.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationTotal]>(timeZone|Eastern_European_Time)>(isPartOf|Kaunas_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0749
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_European_Time)>(country|Estonia)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1018
+    ], 
+    [
+      "Location[populationTotal]>(country|England)>(region|East_Midlands)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1024
+    ], 
+    [
+      "Location[populationTotal]>(country|England)>(region|East_Midlands)", 
+      0.106
+    ], 
+    [
+      "Location[width]", 
+      0.1065
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_European_Time)>(country|Estonia)", 
+      0.1067
+    ], 
+    [
+      "Place[width]", 
+      0.1097
+    ], 
+    [
+      "Organisation[numberOfEmployees]", 
+      0.1186
+    ], 
+    [
+      "Agent[numberOfEmployees]", 
+      0.1186
+    ], 
+    [
+      "Settlement[populationTotal]>(type|Census-designated_place)>(isPartOf|California)>(isPartOf|Tulare_County,_California)", 
+      0.1284
+    ]
+  ], 
+  "values": [
+    529.0, 
+    1100.0, 
+    7000.0, 
+    5.0, 
+    2500.0, 
+    1700.0, 
+    708.0, 
+    45.0, 
+    323.0, 
+    12.0, 
+    50.0, 
+    2500.0, 
+    916.0, 
+    3600.0, 
+    200.0, 
+    20.0, 
+    360.0, 
+    2219.0, 
+    33.0, 
+    1600.0, 
+    3000.0, 
+    650.0, 
+    437.0, 
+    100.0, 
+    4000.0, 
+    4000.0, 
+    138.0, 
+    3000.0, 
+    15023.0, 
+    700.0, 
+    1600.0, 
+    3302.0, 
+    250.0, 
+    1582.0, 
+    690.0, 
+    329418.0, 
+    300.0, 
+    2000.0, 
+    89.0, 
+    30.0, 
+    1500.0, 
+    587.0, 
+    1136.0, 
+    12.0, 
+    193.0, 
+    24.0, 
+    22.0, 
+    23.0, 
+    600.0, 
+    1000.0, 
+    300.0, 
+    3500.0, 
+    5000.0, 
+    300.0, 
+    21.0, 
+    40.0, 
+    1000.0, 
+    540.0, 
+    300.0, 
+    9.0, 
+    3150.0, 
+    450.0, 
+    22.0, 
+    121289.0, 
+    3000.0, 
+    350.0, 
+    20.0, 
+    23.0, 
+    446.0, 
+    290.0, 
+    25000.0, 
+    60.0, 
+    2600.0, 
+    10.0, 
+    12998.0, 
+    19000.0, 
+    18.0, 
+    1700.0, 
+    409.0, 
+    44000.0, 
+    11500.0, 
+    10851.0, 
+    8501.0, 
+    4400.0, 
+    44.0, 
+    6830.0, 
+    11000.0, 
+    1000.0, 
+    2000.0, 
+    50000.0, 
+    8000.0, 
+    6000.0, 
+    25.0, 
+    50.0, 
+    21.0, 
+    115.0, 
+    300.0, 
+    1260.0, 
+    1200.0, 
+    1000.0, 
+    10.0, 
+    50.0, 
+    21181.0, 
+    30.0, 
+    3.0, 
+    500.0, 
+    4000.0, 
+    250.0, 
+    27.0, 
+    40.0, 
+    400.0, 
+    10.0, 
+    240.0, 
+    400.0, 
+    13000.0, 
+    580.0, 
+    405.0, 
+    385.0, 
+    260.0, 
+    175.0, 
+    2600.0, 
+    350.0, 
+    4.0, 
+    20.0, 
+    6.0, 
+    100.0, 
+    30.0, 
+    70.0, 
+    4413.0, 
+    120.0, 
+    69.0, 
+    387.0, 
+    14980.0, 
+    36.0, 
+    51.0, 
+    696.0, 
+    25.0, 
+    47.0, 
+    7.0, 
+    288.0, 
+    6000.0
+  ]
+}

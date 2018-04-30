@@ -1,0 +1,156 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfPages"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "maximumElevation", 
+          0.2216
+        ], 
+        [
+          "elevation", 
+          0.2275
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          6.0
+        ], 
+        [
+          "maximumElevation", 
+          4.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          0.2177
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          0.2179
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.2215
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          0.2215
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2224
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2224
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.2228
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2242
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.2379
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[elevation]>(country|Austria)>(district|S%C3%BCdoststeiermark_District)", 
+      0.2
+    ], 
+    [
+      "Location[maximumElevation]>(department|Moselle)>(arrondissement|Arrondissement_of_Ch%C3%A2teau-Salins)", 
+      0.2026
+    ], 
+    [
+      "Settlement[maximumElevation]>(department|Moselle)>(arrondissement|Arrondissement_of_Ch%C3%A2teau-Salins)", 
+      0.2026
+    ], 
+    [
+      "Town[elevation]>(isPartOf|Iowa)>(type|Civil_township)", 
+      0.2228
+    ], 
+    [
+      "Settlement[elevation]>(country|Austria)>(district|S%C3%BCdoststeiermark_District)>(party|Austrian_People's_Party)", 
+      0.2269
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Chhattisgarh)>(country|India)", 
+      0.2338
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Haute-Marne)>(arrondissement|Arrondissement_of_Chaumont)", 
+      0.24
+    ], 
+    [
+      "Settlement[maximumElevation]>(department|Moselle)", 
+      0.2404
+    ], 
+    [
+      "Location[maximumElevation]>(department|Moselle)", 
+      0.2407
+    ], 
+    [
+      "Location[elevation]>(isPartOf|Kentucky)>(isPartOf|Perry_County,_Kentucky)>(type|Unincorporated_area)>(timeZone|Eastern_Time_Zone)", 
+      0.2413
+    ]
+  ], 
+  "values": [
+    364.0, 
+    261.0, 
+    302.0, 
+    332.0, 
+    261.0
+  ]
+}

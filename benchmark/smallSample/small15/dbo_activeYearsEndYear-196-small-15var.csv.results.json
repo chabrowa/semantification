@@ -1,0 +1,292 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/activeYearsEndYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.2343
+        ], 
+        [
+          "minimumElevation", 
+          0.2563
+        ], 
+        [
+          "length", 
+          0.2584
+        ], 
+        [
+          "populationTotal", 
+          0.2595
+        ], 
+        [
+          "numberOfStudents", 
+          0.2618
+        ]
+      ], 
+      "maj": [
+        [
+          "length", 
+          4.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ], 
+        [
+          "minimumElevation", 
+          2.0
+        ], 
+        [
+          "numberOfStudents", 
+          1.0
+        ], 
+        [
+          "populationTotal", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2281
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.2531
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          0.2531
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (minimumElevation)", 
+          0.2543
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.2563
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (minimumElevation)", 
+          0.2563
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (minimumElevation)", 
+          0.2563
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.2582
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          0.2582
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          0.2582
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (length)", 
+          0.2584
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          0.2588
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2595
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.2595
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.2595
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2595
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.2618
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.2618
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          0.2618
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.2618
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Dam (length)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (minimumElevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Place[elevation]>(country|Canada)", 
+      0.2155
+    ], 
+    [
+      "SkiArea[minimumElevation]>(location|United_States)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2465
+    ], 
+    [
+      "Mountain[elevation]>(locatedInArea|Norway)", 
+      0.2531
+    ], 
+    [
+      "Dam[length]>(owner|Government_of_Maharashtra)", 
+      0.2569
+    ], 
+    [
+      "Dam[length]>(owner|Government_of_Maharashtra)>(22-rdf-syntax-ns#type|_Feature)>(owner|India)", 
+      0.2587
+    ], 
+    [
+      "Location[length]>(22-rdf-syntax-ns#type|_Feature)>(owner|India)", 
+      0.2588
+    ], 
+    [
+      "Dam[length]>(owner|Government_of_Maharashtra)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2591
+    ], 
+    [
+      "Village[populationTotal]>(country|India)>(isPartOf|Orathanadu_Taluk)", 
+      0.2595
+    ], 
+    [
+      "School[numberOfStudents]>(state|Georgia_(U.S._state))>(type|State_school)", 
+      0.2618
+    ], 
+    [
+      "SkiArea[minimumElevation]>(location|United_States)", 
+      0.2661
+    ]
+  ], 
+  "values": [
+    94.0, 
+    2234.0, 
+    1801.0, 
+    2278.0, 
+    59.0, 
+    215.0, 
+    2156.0, 
+    2122.0, 
+    1591.0, 
+    106.0, 
+    1816.0, 
+    2299.0, 
+    12.0, 
+    71.0, 
+    1792.0, 
+    1583.0, 
+    2231.0, 
+    1916.0, 
+    1997.0, 
+    2474.0, 
+    2244.0, 
+    1901.0, 
+    2332.0, 
+    73.0, 
+    18.0, 
+    1884.0, 
+    1486.0, 
+    1767.0, 
+    2203.0
+  ]
+}

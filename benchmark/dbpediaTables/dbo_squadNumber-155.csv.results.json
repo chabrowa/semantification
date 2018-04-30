@@ -1,0 +1,236 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/squadNumber"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.1354
+        ], 
+        [
+          "shipBeam", 
+          0.1422
+        ], 
+        [
+          "number", 
+          0.1712
+        ]
+      ], 
+      "maj": [
+        [
+          "number", 
+          6.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ], 
+        [
+          "shipBeam", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1354
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1354
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1354
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1354
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          0.1422
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          0.1422
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          0.1643
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.1668
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.1712
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.1712
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          0.1746
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsManager (number)", 
+          0.1799
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerManager (number)", 
+          0.1799
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsManager (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerManager (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Zamora)", 
+      0.1354
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Zamora)", 
+      0.1354
+    ], 
+    [
+      "Ship[shipBeam]", 
+      0.1422
+    ], 
+    [
+      "MeanOfTransportation[shipBeam]", 
+      0.1422
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Malaysia)", 
+      0.1476
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Australia)", 
+      0.1658
+    ], 
+    [
+      "BasketballPlayer[number]>(league|Eurocup_Basketball)", 
+      0.1746
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|United_States)", 
+      0.1794
+    ], 
+    [
+      "SoccerManager[number]", 
+      0.1799
+    ], 
+    [
+      "SportsManager[number]", 
+      0.1799
+    ]
+  ], 
+  "values": [
+    1.0, 
+    2.0, 
+    3.0, 
+    4.0, 
+    5.0, 
+    6.0, 
+    7.0, 
+    8.0, 
+    9.0, 
+    10.0, 
+    11.0, 
+    12.0, 
+    13.0, 
+    14.0, 
+    15.0, 
+    16.0, 
+    17.0, 
+    18.0, 
+    19.0, 
+    20.0, 
+    21.0, 
+    22.0, 
+    23.0, 
+    1.0, 
+    2.0, 
+    3.0, 
+    4.0, 
+    5.0, 
+    6.0, 
+    7.0, 
+    8.0, 
+    9.0, 
+    10.0, 
+    11.0, 
+    12.0, 
+    13.0, 
+    14.0, 
+    15.0, 
+    16.0, 
+    17.0, 
+    18.0, 
+    19.0, 
+    20.0, 
+    21.0, 
+    22.0
+  ]
+}

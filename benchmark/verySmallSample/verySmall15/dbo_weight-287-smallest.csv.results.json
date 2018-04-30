@@ -1,0 +1,121 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/weight"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.1687
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.1625
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1775
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.1775
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.178
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          19.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          15.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          4.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaTotal]>(country|Slovenia)>(isPartOf|Municipality_of_Trebnje)", 
+      0.1546
+    ], 
+    [
+      "Location[areaTotal]>(country|Canada)>(governmentType|Municipal_corporation)>(isPartOf|Alberta)", 
+      0.1551
+    ], 
+    [
+      "Location[areaTotal]>(country|Canada)>(type|Village)", 
+      0.1637
+    ], 
+    [
+      "Location[areaTotal]>(country|Slovenia)>(isPartOf|Municipality_of_Kr%C5%A1ko)", 
+      0.1658
+    ], 
+    [
+      "Location[areaTotal]>(country|Slovenia)>(isPartOf|Ivan%C4%8Dna_Gorica)", 
+      0.1667
+    ], 
+    [
+      "Location[areaTotal]>(country|Canada)>(governmentType|Municipal_corporation)", 
+      0.1712
+    ], 
+    [
+      "Settlement[areaTotal]>(isPartOf|Pennsylvania)>(type|List_of_Pittsburgh_neighborhoods)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1723
+    ], 
+    [
+      "Settlement[areaTotal]>(isPartOf|Pennsylvania)>(type|List_of_Pittsburgh_neighborhoods)", 
+      0.1762
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Slovenia)>(isPartOf|Upper_Carniola)", 
+      0.1771
+    ], 
+    [
+      "Settlement[areaTotal]>(isPartOf|Pennsylvania)>(type|List_of_Pittsburgh_neighborhoods)>(22-rdf-syntax-ns#type|_Feature)>(isPartOf|Allegheny_County,_Pennsylvania)", 
+      0.1842
+    ]
+  ], 
+  "values": [
+    868759.3539080706, 
+    1202057.2653431469, 
+    1476585.3669639507, 
+    503270.35499325825, 
+    1573514.0608960483, 
+    848704.7834760755, 
+    10428982.570120266, 
+    1592935.6223617499, 
+    867437.9718030794, 
+    1152624.626964716, 
+    520807.24590858375, 
+    168.1210746856422, 
+    1289070.6968859243, 
+    913499.1455705799, 
+    1752231.9454946073, 
+    11042350.371571807, 
+    680814.5691706532, 
+    3713714.032616186
+  ]
+}

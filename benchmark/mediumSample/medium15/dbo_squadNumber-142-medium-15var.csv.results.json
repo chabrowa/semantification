@@ -1,0 +1,286 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/squadNumber"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.0951
+        ], 
+        [
+          "number", 
+          0.0953
+        ], 
+        [
+          "populationDensity", 
+          0.0961
+        ], 
+        [
+          "numberOfEpisodes", 
+          0.1116
+        ]
+      ], 
+      "maj": [
+        [
+          "number", 
+          5.0
+        ], 
+        [
+          "populationDensity", 
+          3.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ], 
+        [
+          "numberOfEpisodes", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/SportsManager (number)", 
+          0.0735
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerManager (number)", 
+          0.0735
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.0849
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.0905
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.0905
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.0951
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.0951
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.0951
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.0951
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.0953
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.0953
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.1074
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1074
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          0.1098
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.1099
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          0.1116
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          0.1116
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsManager (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerManager (number)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "SoccerManager[number]", 
+      0.0735
+    ], 
+    [
+      "SportsManager[number]", 
+      0.0735
+    ], 
+    [
+      "Settlement[populationDensity]>(type|Types_of_municipalities_in_Quebec)", 
+      0.0736
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Northern_Norway)>(isPartOf|Troms)", 
+      0.0951
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Missouri)>(type|Township_(United_States))", 
+      0.1074
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Missouri)>(type|Township_(United_States))", 
+      0.1074
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Brazil)", 
+      0.1091
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))", 
+      0.1101
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Thailand)", 
+      0.1104
+    ], 
+    [
+      "TelevisionShow[numberOfEpisodes]>(format|Documentary_film)", 
+      0.1116
+    ]
+  ], 
+  "values": [
+    19.0, 
+    21.0, 
+    5.0, 
+    90.0, 
+    12.0, 
+    2.0, 
+    3.0, 
+    0.0, 
+    1.0, 
+    48.0, 
+    6.0, 
+    9.0, 
+    5.0, 
+    5.0, 
+    68.0, 
+    23.0, 
+    20.0, 
+    9.0, 
+    14.0, 
+    10.0, 
+    2.0, 
+    40.0, 
+    6.0, 
+    7.0, 
+    0.0, 
+    6.0, 
+    1.0, 
+    17.0, 
+    2.0, 
+    50.0, 
+    8.0, 
+    10.0, 
+    13.0, 
+    46.0, 
+    0.0, 
+    19.0, 
+    5.0, 
+    28.0, 
+    18.0, 
+    27.0, 
+    35.0, 
+    4.0, 
+    36.0, 
+    14.0, 
+    12.0, 
+    16.0, 
+    26.0, 
+    2.0, 
+    4.0, 
+    21.0, 
+    6.0, 
+    9.0, 
+    16.0, 
+    1.0, 
+    7.0
+  ]
+}

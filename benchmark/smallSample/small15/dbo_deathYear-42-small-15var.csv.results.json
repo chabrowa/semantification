@@ -1,0 +1,240 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/deathYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.3587
+        ], 
+        [
+          "yearOfConstruction", 
+          0.387
+        ], 
+        [
+          "openingYear", 
+          0.3888
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          5.0
+        ], 
+        [
+          "openingYear", 
+          3.0
+        ], 
+        [
+          "yearOfConstruction", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          0.2803
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.3337
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.3587
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.3751
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.3754
+        ], 
+        [
+          "http://dbpedia.org/ontology/Train (yearOfConstruction)", 
+          0.387
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (yearOfConstruction)", 
+          0.387
+        ], 
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          0.3871
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          0.3876
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.3883
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.3888
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.3888
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.3888
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (openingYear)", 
+          0.3897
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (yearOfConstruction)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Train (yearOfConstruction)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (openingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Mountain[elevation]>(locatedInArea|Norway)>(locatedInArea|Oppland)", 
+      0.2803
+    ], 
+    [
+      "Settlement[elevation]>(country|Peru)>(isPartOf|Cajamarca_Region)>(timeZone|Time_in_Peru)", 
+      0.3726
+    ], 
+    [
+      "Settlement[elevation]>(country|Peru)>(isPartOf|Amazonas_Region)", 
+      0.3756
+    ], 
+    [
+      "Settlement[elevation]>(country|Peru)>(isPartOf|Cajamarca_Region)", 
+      0.378
+    ], 
+    [
+      "Train[yearOfConstruction]", 
+      0.387
+    ], 
+    [
+      "MeanOfTransportation[yearOfConstruction]", 
+      0.387
+    ], 
+    [
+      "Volcano[elevation]", 
+      0.3871
+    ], 
+    [
+      "RailwayLine[openingYear]", 
+      0.3876
+    ], 
+    [
+      "RouteOfTransportation[openingYear]", 
+      0.389
+    ], 
+    [
+      "Dam[openingYear]", 
+      0.3897
+    ]
+  ], 
+  "values": [
+    1921.0, 
+    1808.0, 
+    2457.0, 
+    1849.0, 
+    2439.0, 
+    2442.0, 
+    2500.0, 
+    1810.0, 
+    1947.0, 
+    1909.0, 
+    2160.0, 
+    1923.0, 
+    1900.0, 
+    1824.0, 
+    2036.0, 
+    2110.0, 
+    1852.0, 
+    2317.0, 
+    1931.0, 
+    2067.0, 
+    1757.0, 
+    1733.0, 
+    2029.0, 
+    1979.0, 
+    1839.0, 
+    1805.0, 
+    1855.0, 
+    2027.0, 
+    2012.0, 
+    1933.0, 
+    1816.0, 
+    1977.0, 
+    1997.0, 
+    2204.0, 
+    2108.0, 
+    1886.0, 
+    2210.0, 
+    1901.0, 
+    2043.0, 
+    2113.0, 
+    1979.0
+  ]
+}

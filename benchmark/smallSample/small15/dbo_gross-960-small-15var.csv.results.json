@@ -1,0 +1,178 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/gross"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "area", 
+          0.1537
+        ], 
+        [
+          "areaWater", 
+          0.1678
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          7.0
+        ], 
+        [
+          "area", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/HistoricPlace (area)", 
+          0.1526
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          0.1537
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (area)", 
+          0.1542
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (area)", 
+          0.155
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.1662
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.1667
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.169
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.169
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.169
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          0.1751
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (area)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (area)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/HistoricPlace (area)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Building[area]>(location|New_York)", 
+      0.1506
+    ], 
+    [
+      "HistoricPlace[area]", 
+      0.1526
+    ], 
+    [
+      "Building[area]>(location|New_York)>(architecturalStyle|Greek_Revival_architecture)", 
+      0.1579
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)", 
+      0.1607
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|New_Jersey)>(type|Census-designated_place)", 
+      0.1628
+    ], 
+    [
+      "City[areaWater]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)>(type|City)>(timeZone|Pacific_Time_Zone)", 
+      0.1654
+    ], 
+    [
+      "City[areaWater]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)>(type|City)", 
+      0.1661
+    ], 
+    [
+      "City[areaWater]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)", 
+      0.1696
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Iowa)>(type|Township_(United_States))", 
+      0.1751
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Iowa)>(type|Township_(United_States))", 
+      0.1751
+    ]
+  ], 
+  "values": [
+    1348314.629280623, 
+    31187.92501030802, 
+    254690.59920451435, 
+    64343.97119157321, 
+    19782.186979597896, 
+    9196871.773022749, 
+    724.1513928674661, 
+    10415.657335828737, 
+    7745.241377129438, 
+    6401012.001363106, 
+    37914.01834114417, 
+    0.0, 
+    13306.925435909954, 
+    7666975.381487386, 
+    202253.14947286775, 
+    1259.8698498720082, 
+    460591.82091709046, 
+    46042.625717056486, 
+    42912.584365835086
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfGoals"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "minimumElevation", 
+          0.0946
+        ], 
+        [
+          "elevation", 
+          0.1326
+        ], 
+        [
+          "numberOfEpisodes", 
+          0.1384
+        ]
+      ], 
+      "maj": [
+        [
+          "minimumElevation", 
+          8.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ], 
+        [
+          "numberOfEpisodes", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.0947
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.0947
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.0956
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.0958
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.1326
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1326
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1326
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1326
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          0.1384
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          0.1384
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[minimumElevation]>(department|Somme)>(arrondissement|Abbeville)", 
+      0.0776
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Somme)>(arrondissement|Abbeville)", 
+      0.0776
+    ], 
+    [
+      "Location[minimumElevation]>(region|Pays_de_la_Loire)", 
+      0.0815
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Pays_de_la_Loire)", 
+      0.0824
+    ], 
+    [
+      "Location[minimumElevation]>(department|Pas-de-Calais)>(arrondissement|Arrondissement_of_Saint-Omer)", 
+      0.1005
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Pas-de-Calais)>(arrondissement|Arrondissement_of_Saint-Omer)", 
+      0.1005
+    ], 
+    [
+      "Location[minimumElevation]>(department|Pas-de-Calais)>(arrondissement|Arrondissement_of_Montreuil)", 
+      0.1182
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Pas-de-Calais)>(arrondissement|Arrondissement_of_Montreuil)", 
+      0.1182
+    ], 
+    [
+      "Village[elevation]>(country|Germany)>(federalState|Mecklenburg-Vorpommern)", 
+      0.1326
+    ], 
+    [
+      "TelevisionShow[numberOfEpisodes]", 
+      0.1384
+    ]
+  ], 
+  "values": [
+    7.0, 
+    80.0, 
+    44.0, 
+    80.0, 
+    31.0, 
+    103.0, 
+    5.0, 
+    34.0, 
+    49.0, 
+    2.0, 
+    98.0, 
+    18.0, 
+    0.0, 
+    4.0, 
+    0.0, 
+    30.0, 
+    74.0, 
+    4.0, 
+    13.0, 
+    0.0, 
+    13.0, 
+    4.0, 
+    74.0, 
+    24.0, 
+    1.0, 
+    6.0, 
+    72.0, 
+    11.0, 
+    60.0, 
+    31.0, 
+    133.0, 
+    33.0, 
+    22.0, 
+    1.0, 
+    25.0, 
+    0.0, 
+    66.0, 
+    50.0, 
+    74.0, 
+    36.0, 
+    72.0, 
+    9.0, 
+    1.0, 
+    98.0, 
+    56.0, 
+    40.0, 
+    75.0, 
+    26.0, 
+    14.0, 
+    71.0, 
+    76.0, 
+    65.0, 
+    5627.0, 
+    52.0, 
+    11.0, 
+    9.0, 
+    63.0, 
+    71.0, 
+    48.0, 
+    12.0, 
+    66.0, 
+    26.0, 
+    36.0, 
+    30.0, 
+    56.0, 
+    40.0, 
+    17.0, 
+    17.0, 
+    70.0, 
+    48.0, 
+    66.0, 
+    79.0, 
+    40.0, 
+    82.0, 
+    4.0, 
+    53.0, 
+    3.0, 
+    28.0, 
+    33.0, 
+    20.0, 
+    3.0, 
+    69.0, 
+    6.0, 
+    1995.0, 
+    27.0, 
+    0.0, 
+    1.0, 
+    3.0, 
+    76.0
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEpisodes"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaCode", 
+          0.4918
+        ], 
+        [
+          "postalCode", 
+          0.4991
+        ], 
+        [
+          "populationDensity", 
+          0.5
+        ], 
+        [
+          "elevation", 
+          0.5
+        ], 
+        [
+          "areaWater", 
+          0.5
+        ]
+      ], 
+      "maj": [
+        [
+          "areaCode", 
+          5.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ], 
+        [
+          "areaWater", 
+          1.0
+        ], 
+        [
+          "postalCode", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/City (areaCode)", 
+          0.4863
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          0.4863
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          0.4897
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.4941
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          0.4991
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (postalCode)", 
+          0.4991
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          0.4991
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          0.4991
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.5
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaCode)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (postalCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "City[areaCode]>(type|List_of_cities_in_Kentucky)", 
+      0.4588
+    ], 
+    [
+      "Village[postalCode]>(country|Greece)", 
+      0.4991
+    ], 
+    [
+      "Settlement[populationDensity]>(type|New_England_town)", 
+      0.5
+    ], 
+    [
+      "Village[elevation]>(timeZone|Eastern_European_Time)", 
+      0.5
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Is%C3%A8re)>(arrondissement|Arrondissement_of_Grenoble)", 
+      0.5
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Maryland)>(country|United_States)", 
+      0.5
+    ], 
+    [
+      "Place[areaCode]>(timeZone|Eastern_Time_Zone)", 
+      0.5
+    ], 
+    [
+      "Place[areaCode]>(state|Illinois)", 
+      0.5
+    ], 
+    [
+      "Settlement[areaCode]>(type|Village)", 
+      0.5
+    ], 
+    [
+      "City[areaCode]>(isPartOf|Washington_(state))>(type|City_government_in_Washington_(state))>(country|United_States)", 
+      0.5
+    ]
+  ], 
+  "values": [
+    502.0
+  ]
+}

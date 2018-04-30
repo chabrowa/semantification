@@ -1,0 +1,160 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/oclc"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaLand", 
+          0.5018
+        ], 
+        [
+          "areaTotal", 
+          0.5022
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          8.0
+        ], 
+        [
+          "areaLand", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Village (areaLand)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.5018
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.5019
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.5025
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          0.5027
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          0.5036
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaTotal]>(country|Poland)>(type|Gmina)>(isPartOf|Silesian_Voivodeship)", 
+      0.5
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Poland)>(type|Gmina)>(isPartOf|Silesian_Voivodeship)", 
+      0.5
+    ], 
+    [
+      "ProtectedArea[areaTotal]>(location|South_Africa)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5
+    ], 
+    [
+      "Village[areaLand]>(type|Types_of_municipalities_in_Quebec)", 
+      0.5
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Canada)", 
+      0.501
+    ], 
+    [
+      "ProtectedArea[areaTotal]", 
+      0.5018
+    ], 
+    [
+      "Location[areaLand]>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Mont%C3%A9r%C3%A9gie)", 
+      0.5036
+    ], 
+    [
+      "ProtectedArea[areaTotal]>(location|Canada)", 
+      0.5045
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Austria)>(state|Carinthia_(state))", 
+      0.5049
+    ], 
+    [
+      "ProtectedArea[areaTotal]>(location|South_Africa)", 
+      0.5055
+    ]
+  ], 
+  "values": [
+    60667860.0
+  ]
+}

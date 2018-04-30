@@ -1,0 +1,191 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/capacity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "maximumElevation", 
+          0.0619
+        ], 
+        [
+          "populationTotal", 
+          0.0785
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          9.0
+        ], 
+        [
+          "maximumElevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Island (maximumElevation)", 
+          0.0619
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.0619
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          0.0619
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.0784
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0785
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0785
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.0824
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          20.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[populationTotal]>(country|Slovenia)", 
+      0.0578
+    ], 
+    [
+      "Island[maximumElevation]", 
+      0.0619
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Slovenia)>(isPartOf|Upper_Carniola)", 
+      0.0753
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Fars_Province)>(isPartOf|Central_District_(Fasa_County))", 
+      0.0754
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Slovenia)>(isPartOf|Slovene_Littoral)", 
+      0.0767
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Slovenia)>(isPartOf|Slovene_Littoral)>(isPartOf|Gori%C5%A1ka_Statistical_Region)", 
+      0.0783
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)", 
+      0.0824
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|South_Khorasan_Province)", 
+      0.0829
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Slovenia)>(isPartOf|Upper_Carniola)>(isPartOf|Upper_Carniola_Statistical_Region)", 
+      0.0885
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Lorestan_Province)>(isPartOf|Central_District_(Pol-e_Dokhtar_County))", 
+      0.0893
+    ]
+  ], 
+  "values": [
+    92.0, 
+    175.0, 
+    5.0, 
+    55.0, 
+    39.0, 
+    118.0, 
+    8.0, 
+    239.0, 
+    77.0, 
+    36.0, 
+    95.0, 
+    3.0, 
+    795.0, 
+    148.0, 
+    42.0, 
+    146.0, 
+    33.0, 
+    48.0, 
+    39.0, 
+    84.0, 
+    643.0, 
+    235.0, 
+    134.0, 
+    293.0, 
+    14.0, 
+    112.0, 
+    342.0, 
+    0.0, 
+    19.0, 
+    23.0, 
+    309.0, 
+    43.0, 
+    796.0, 
+    8.0, 
+    221.0, 
+    67.0, 
+    34.0, 
+    77.0, 
+    59.0, 
+    68.0, 
+    38.0, 
+    222.0, 
+    496.0, 
+    661.0, 
+    46.0, 
+    85.0, 
+    893.0, 
+    284.0, 
+    362364.0, 
+    449.0, 
+    16.0, 
+    194.0, 
+    94.0, 
+    31.0, 
+    134.0, 
+    57.0
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/serviceEndYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "deathYear", 
+          0.2143
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.2143
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.2156
+        ]
+      ], 
+      "maj": [
+        [
+          "activeYearsEndYear", 
+          5.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          3.0
+        ], 
+        [
+          "deathYear", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Philosopher (deathYear)", 
+          0.2143
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cardinal (activeYearsStartYear)", 
+          0.2143
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.2143
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          0.2143
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cardinal (activeYearsEndYear)", 
+          0.2143
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsStartYear)", 
+          0.2143
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsStartYear)", 
+          0.2143
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsEndYear)", 
+          0.2143
+        ], 
+        [
+          "http://dbpedia.org/ontology/Scientist (activeYearsEndYear)", 
+          0.2143
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (deathYear)", 
+          0.2143
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsEndYear)", 
+          0.2143
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          0.2143
+        ], 
+        [
+          "http://dbpedia.org/ontology/Medician (activeYearsEndYear)", 
+          0.2143
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          0.2143
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.2156
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.2156
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsStartYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Scientist (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Philosopher (deathYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cardinal (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cardinal (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (deathYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Medician (activeYearsEndYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Artist[deathYear]", 
+      0.2143
+    ], 
+    [
+      "Philosopher[deathYear]", 
+      0.2143
+    ], 
+    [
+      "Cleric[activeYearsStartYear]", 
+      0.2143
+    ], 
+    [
+      "ChristianBishop[activeYearsStartYear]", 
+      0.2143
+    ], 
+    [
+      "Cardinal[activeYearsStartYear]", 
+      0.2143
+    ], 
+    [
+      "Cardinal[activeYearsEndYear]", 
+      0.2143
+    ], 
+    [
+      "Scientist[activeYearsEndYear]", 
+      0.2143
+    ], 
+    [
+      "Medician[activeYearsEndYear]", 
+      0.2143
+    ], 
+    [
+      "ChristianBishop[activeYearsEndYear]>(religion|Catholic_Church)", 
+      0.2143
+    ], 
+    [
+      "Person[activeYearsEndYear]", 
+      0.2211
+    ]
+  ], 
+  "values": [
+    1946.0, 
+    2139.0, 
+    1604.0, 
+    1771.0, 
+    1902.0, 
+    1995.0, 
+    1592.0, 
+    29.0, 
+    2286.0, 
+    1819.0, 
+    1984.0, 
+    1966.0, 
+    1991.0, 
+    2038.0
+  ]
+}

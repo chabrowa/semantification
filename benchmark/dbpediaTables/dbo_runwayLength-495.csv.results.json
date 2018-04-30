@@ -1,0 +1,206 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runwayLength"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.1842
+        ], 
+        [
+          "populationTotal", 
+          0.2039
+        ], 
+        [
+          "width", 
+          0.2286
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          4.0
+        ], 
+        [
+          "populationTotal", 
+          3.0
+        ], 
+        [
+          "width", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          0.1763
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1792
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.1842
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1842
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2039
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2039
+        ], 
+        [
+          "http://dbpedia.org/ontology/MountainRange (elevation)", 
+          0.2086
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.2099
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (width)", 
+          0.2286
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (width)", 
+          0.2286
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.2286
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (width)", 
+          0.2286
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (width)", 
+          0.2286
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (width)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MountainRange (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Volcano[elevation]>(locatedInArea|Russia)", 
+      0.1714
+    ], 
+    [
+      "Volcano[elevation]>(locatedInArea|Indonesia)>(type|Stratovolcano)", 
+      0.1778
+    ], 
+    [
+      "Volcano[elevation]>(locatedInArea|Indonesia)", 
+      0.179
+    ], 
+    [
+      "Village[populationTotal]>(country|India)>(isPartOf|Orathanadu_Taluk)", 
+      0.1792
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Canada)>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Mont%C3%A9r%C3%A9gie)", 
+      0.2026
+    ], 
+    [
+      "MountainRange[elevation]", 
+      0.2086
+    ], 
+    [
+      "Location[width]>(location|Nordland)", 
+      0.2286
+    ], 
+    [
+      "Location[width]>(location|Nordland)>(country|Norway)", 
+      0.2286
+    ], 
+    [
+      "Lake[width]>(location|Nordland)", 
+      0.2286
+    ], 
+    [
+      "Settlement[populationTotal]>(type|Census-designated_place)>(isPartOf|Maine)", 
+      0.23
+    ]
+  ], 
+  "values": [
+    450.0, 
+    3108.96, 
+    3351.28, 
+    1176.0, 
+    1176.22, 
+    1566.98, 
+    1567.0, 
+    1678.53, 
+    1679.0, 
+    1964.0, 
+    1964.44, 
+    1987.91, 
+    1988.0, 
+    3100.0, 
+    3100.12
+  ]
+}

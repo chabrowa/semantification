@@ -1,0 +1,217 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEpisodes"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "number", 
+          0.3333
+        ], 
+        [
+          "minimumElevation", 
+          0.34
+        ], 
+        [
+          "elevation", 
+          0.3431
+        ], 
+        [
+          "populationDensity", 
+          0.3541
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          4.0
+        ], 
+        [
+          "populationDensity", 
+          3.0
+        ], 
+        [
+          "minimumElevation", 
+          2.0
+        ], 
+        [
+          "number", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.34
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.34
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.34
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.34
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.3425
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.3431
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.3431
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.3477
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.3477
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.3477
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.3477
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.3669
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "AdministrativeRegion[populationDensity]>(state|Texas)", 
+      0.3327
+    ], 
+    [
+      "Athlete[number]>(position|Goalkeeper_(association_football))", 
+      0.3333
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Dithmarschen)>(federalState|Schleswig-Holstein)", 
+      0.3353
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Dithmarschen)", 
+      0.3372
+    ], 
+    [
+      "Location[minimumElevation]>(department|Manche)>(arrondissement|Arrondissement_of_Cherbourg)", 
+      0.34
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Manche)>(arrondissement|Arrondissement_of_Cherbourg)", 
+      0.34
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Steinburg)", 
+      0.3462
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Nordfriesland)", 
+      0.3539
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Nebraska)", 
+      0.3627
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Kansas)", 
+      0.3669
+    ]
+  ], 
+  "values": [
+    1.0, 
+    16.0
+  ]
+}

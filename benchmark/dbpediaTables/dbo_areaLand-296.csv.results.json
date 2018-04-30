@@ -1,0 +1,188 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaLand"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.2458
+        ], 
+        [
+          "oclc", 
+          0.2474
+        ], 
+        [
+          "areaLand", 
+          0.259
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          6.0
+        ], 
+        [
+          "oclc", 
+          3.0
+        ], 
+        [
+          "areaLand", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          0.2421
+        ], 
+        [
+          "http://dbpedia.org/ontology/AcademicJournal (oclc)", 
+          0.2422
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.2448
+        ], 
+        [
+          "http://dbpedia.org/ontology/PeriodicalLiterature (oclc)", 
+          0.2474
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          0.2474
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          0.2474
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.2507
+        ], 
+        [
+          "http://dbpedia.org/ontology/WineRegion (areaTotal)", 
+          0.2529
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.259
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.259
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.259
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          0.259
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AcademicJournal (oclc)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PeriodicalLiterature (oclc)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WineRegion (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "ProtectedArea[areaTotal]>(location|Idaho)>(location|United_States)", 
+      0.2308
+    ], 
+    [
+      "AcademicJournal[oclc]>(publisher|John_Wiley_&_Sons)", 
+      0.2374
+    ], 
+    [
+      "ProtectedArea[areaTotal]>(location|Idaho)", 
+      0.2388
+    ], 
+    [
+      "ProtectedArea[areaTotal]>(location|Colorado)>(location|United_States)", 
+      0.2485
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)", 
+      0.2507
+    ], 
+    [
+      "AcademicJournal[oclc]", 
+      0.2517
+    ], 
+    [
+      "WineRegion[areaTotal]", 
+      0.2529
+    ], 
+    [
+      "ProtectedArea[areaTotal]>(location|Colorado)", 
+      0.2529
+    ], 
+    [
+      "PeriodicalLiterature[oclc]", 
+      0.2531
+    ], 
+    [
+      "City[areaLand]>(country|Canada)", 
+      0.259
+    ]
+  ], 
+  "values": [
+    7977160.0, 
+    8000000.0, 
+    128390000.0, 
+    129200000.0, 
+    24345900000.0
+  ]
+}

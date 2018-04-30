@@ -1,0 +1,278 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfSeasons"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "shipBeam", 
+          0.2342
+        ], 
+        [
+          "height", 
+          0.2597
+        ], 
+        [
+          "number", 
+          0.2607
+        ], 
+        [
+          "length", 
+          0.2613
+        ], 
+        [
+          "populationDensity", 
+          0.2659
+        ], 
+        [
+          "elevation", 
+          0.2809
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          5.0
+        ], 
+        [
+          "number", 
+          1.0
+        ], 
+        [
+          "length", 
+          1.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ], 
+        [
+          "height", 
+          1.0
+        ], 
+        [
+          "shipBeam", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          0.2342
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          0.2342
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2596
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.2597
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          0.2597
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.2597
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (height)", 
+          0.2597
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          0.2607
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.2607
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.2607
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.2607
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (length)", 
+          0.2613
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (length)", 
+          0.2613
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.2615
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.2688
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.2688
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.2719
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2809
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2809
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2809
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Ship[shipBeam]>(country|German_Empire)", 
+      0.2342
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Minnesota)>(type|Township_(United_States))>(isPartOf|Otter_Tail_County,_Minnesota)", 
+      0.2476
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Minnesota)>(isPartOf|Otter_Tail_County,_Minnesota)", 
+      0.2476
+    ], 
+    [
+      "RouteOfTransportation[height]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2597
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Scotland)", 
+      0.2607
+    ], 
+    [
+      "Weapon[length]>(type|Armoured_personnel_carrier)", 
+      0.2613
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Iowa)>(type|Township_(United_States))", 
+      0.2755
+    ], 
+    [
+      "Settlement[populationDensity]>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Bas-Saint-Laurent)", 
+      0.2765
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Nordfriesland)", 
+      0.2809
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Iowa)", 
+      0.2822
+    ]
+  ], 
+  "values": [
+    6.0, 
+    6.0, 
+    4.0, 
+    20.0, 
+    3.0, 
+    6.0, 
+    7.0
+  ]
+}

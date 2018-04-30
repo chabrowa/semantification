@@ -1,0 +1,143 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaCode", 
+    "+91-(01662)-275568/275131"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "runtime", 
+          0.1534
+        ], 
+        [
+          "populationTotal", 
+          0.1597
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          8.0
+        ], 
+        [
+          "runtime", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          0.1534
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (runtime)", 
+          0.1534
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (runtime)", 
+          0.1534
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1588
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1588
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1597
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1597
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          17.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          17.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (runtime)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (runtime)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationTotal]>(country|France)>(region|Rh%C3%B4ne-Alpes)>(arrondissement|Arrondissement_of_Villefranche-sur-Sa%C3%B4ne)", 
+      0.1429
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(region|Rh%C3%B4ne-Alpes)>(arrondissement|Arrondissement_of_Villefranche-sur-Sa%C3%B4ne)", 
+      0.1429
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(region|Rh%C3%B4ne-Alpes)>(arrondissement|Arrondissement_of_Villefranche-sur-Sa%C3%B4ne)>(department|Rh%C3%B4ne_(department))", 
+      0.1455
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(region|Rh%C3%B4ne-Alpes)>(arrondissement|Arrondissement_of_Villefranche-sur-Sa%C3%B4ne)>(department|Rh%C3%B4ne_(department))", 
+      0.1455
+    ], 
+    [
+      "Film[runtime]>(language|Silent_film)>(writer|D._W._Griffith)", 
+      0.1534
+    ], 
+    [
+      "Wikidata:Q11424[runtime]>(language|Silent_film)>(writer|D._W._Griffith)", 
+      0.1534
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(region|Rh%C3%B4ne-Alpes)>(arrondissement|Arrondissement_of_Annecy)", 
+      0.172
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(region|Rh%C3%B4ne-Alpes)>(arrondissement|Arrondissement_of_Annecy)", 
+      0.172
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(department|Seine-Maritime)>(arrondissement|Rouen)", 
+      0.1783
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(department|Seine-Maritime)>(arrondissement|Rouen)", 
+      0.1783
+    ]
+  ], 
+  "values": [
+    807.0, 
+    325.0, 
+    509.0, 
+    22230.0, 
+    618.0, 
+    1590.0, 
+    662.0
+  ]
+}

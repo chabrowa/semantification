@@ -1,0 +1,240 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfStudents"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.4921
+        ], 
+        [
+          "elevation", 
+          0.4952
+        ], 
+        [
+          "maximumElevation", 
+          0.4983
+        ], 
+        [
+          "populationDensity", 
+          0.5
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          4.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "maximumElevation", 
+          2.0
+        ], 
+        [
+          "populationTotal", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.4857
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.4921
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.4921
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.4921
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.4921
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          0.4977
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.4977
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          0.4977
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          0.4989
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.5
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Haryana)>(country|India)", 
+      0.4857
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kurdistan_Province)>(isPartOf|Saral_District)", 
+      0.4921
+    ], 
+    [
+      "Settlement[maximumElevation]>(department|Dordogne)", 
+      0.4977
+    ], 
+    [
+      "Location[maximumElevation]>(department|Dordogne)", 
+      0.4989
+    ], 
+    [
+      "Location[populationDensity]>(timeZone|Pacific_Time_Zone)>(country|Canada)", 
+      0.5
+    ], 
+    [
+      "Settlement[populationDensity]>(type|New_England_town)", 
+      0.5
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Indiana)", 
+      0.5
+    ], 
+    [
+      "City[populationDensity]>(isPartOf|Minnesota)>(timeZone|Central_Time_Zone)>(country|United_States)>(type|City)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5
+    ], 
+    [
+      "City[elevation]>(country|Spain)>(type|Municipalities_of_Spain)>(timeZone|Central_European_Time)", 
+      0.5
+    ], 
+    [
+      "Settlement[elevation]>(country|Spain)>(isPartOf|Province_of_Barcelona)>(type|Municipalities_of_Spain)", 
+      0.5
+    ]
+  ], 
+  "values": [
+    224.0
+  ]
+}

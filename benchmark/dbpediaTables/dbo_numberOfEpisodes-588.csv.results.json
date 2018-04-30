@@ -1,0 +1,178 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEpisodes"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "maximumElevation", 
+          0.3862
+        ], 
+        [
+          "areaCode", 
+          0.3914
+        ], 
+        [
+          "elevation", 
+          0.4143
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          5.0
+        ], 
+        [
+          "areaCode", 
+          3.0
+        ], 
+        [
+          "maximumElevation", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.3855
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          0.3855
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          0.3855
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          0.3869
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          0.3892
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.4087
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.4111
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.415
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.415
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.4155
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.4185
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaCode]>(timeZone|Indian_Standard_Time)>(isPartOf|West_Bengal)>(22-rdf-syntax-ns#type|_Feature)>(country|India)", 
+      0.381
+    ], 
+    [
+      "Settlement[maximumElevation]>(region|Pays_de_la_Loire)>(department|Maine-et-Loire)", 
+      0.3855
+    ], 
+    [
+      "Location[areaCode]>(timeZone|Indian_Standard_Time)>(isPartOf|West_Bengal)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3867
+    ], 
+    [
+      "Location[maximumElevation]>(region|Pays_de_la_Loire)>(department|Maine-et-Loire)", 
+      0.3869
+    ], 
+    [
+      "Location[areaCode]>(timeZone|Indian_Standard_Time)>(isPartOf|West_Bengal)", 
+      0.4065
+    ], 
+    [
+      "Town[elevation]>(isPartOf|Arkansas)", 
+      0.4087
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Fresno_County,_California)", 
+      0.4111
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Landes_(department))>(arrondissement|Arrondissement_of_Mont-de-Marsan)", 
+      0.413
+    ], 
+    [
+      "City[elevation]>(isPartOf|Arkansas)", 
+      0.4185
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Charente)", 
+      0.42
+    ]
+  ], 
+  "values": [
+    89.0, 
+    96.0, 
+    111.0
+  ]
+}

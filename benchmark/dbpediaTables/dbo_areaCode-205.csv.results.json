@@ -1,0 +1,155 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaCode", 
+    "+(90)284", 
+    "+91-80"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaCode", 
+          0.3082
+        ], 
+        [
+          "populationTotal", 
+          0.3121
+        ], 
+        [
+          "numberOfEmployees", 
+          0.3257
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          6.0
+        ], 
+        [
+          "numberOfEmployees", 
+          2.0
+        ], 
+        [
+          "areaCode", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.3051
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.3074
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          0.3082
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.3135
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.3135
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          0.3257
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          0.3257
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          0.3325
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[populationTotal]>(country|Canada)>(isPartOf|Alberta)", 
+      0.2703
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_European_Time)>(isPartOf|Kaunas_County)", 
+      0.3051
+    ], 
+    [
+      "Location[areaCode]>(timeZone|Eastern_European_Time)>(isPartOf|Blagoevgrad_Province)>(country|Bulgaria)", 
+      0.3082
+    ], 
+    [
+      "Location[areaCode]>(timeZone|Eastern_European_Time)>(isPartOf|Blagoevgrad_Province)>(country|Bulgaria)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3082
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|Suffolk)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3148
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|Suffolk)", 
+      0.3182
+    ], 
+    [
+      "Organisation[numberOfEmployees]", 
+      0.3257
+    ], 
+    [
+      "Agent[numberOfEmployees]", 
+      0.3257
+    ], 
+    [
+      "Town[populationTotal]>(timeZone|Mountain_Time_Zone)>(isPartOf|Arizona)", 
+      0.331
+    ], 
+    [
+      "Town[populationTotal]>(timeZone|Mountain_Time_Zone)>(isPartOf|Arizona)>(country|United_States)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3333
+    ]
+  ], 
+  "values": [
+    8357.0, 
+    118.0
+  ]
+}

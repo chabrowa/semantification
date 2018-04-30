@@ -1,0 +1,155 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfSeasons"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfSeasons", 
+          0.2301
+        ], 
+        [
+          "populationDensity", 
+          0.2462
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          6.0
+        ], 
+        [
+          "numberOfSeasons", 
+          4.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.2169
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.2169
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          0.2301
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.2437
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.2437
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2586
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          0.2727
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.2789
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.284
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Work[numberOfSeasons]", 
+      0.1737
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]", 
+      0.1737
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|North_Dakota)", 
+      0.1786
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Montana)", 
+      0.22
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|South_Dakota)", 
+      0.252
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Minnesota)>(type|Township_(United_States))>(isPartOf|Polk_County,_Minnesota)", 
+      0.2586
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Minnesota)>(isPartOf|Polk_County,_Minnesota)", 
+      0.2586
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]>(language|Hindi)>(format|480i)", 
+      0.2833
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]>(language|Hindi)>(format|480i)>(country|India)", 
+      0.2895
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Kansas)", 
+      0.3093
+    ]
+  ], 
+  "values": [
+    1.0, 
+    4.0, 
+    1.0, 
+    2.0
+  ]
+}

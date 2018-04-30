@@ -1,0 +1,200 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/oclc"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaLand", 
+          0.5009
+        ], 
+        [
+          "areaTotal", 
+          0.5062
+        ], 
+        [
+          "oclc", 
+          0.5084
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          7.0
+        ], 
+        [
+          "areaLand", 
+          2.0
+        ], 
+        [
+          "oclc", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          0.5018
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.5035
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.5039
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.5052
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.5074
+        ], 
+        [
+          "http://dbpedia.org/ontology/AcademicJournal (oclc)", 
+          0.5084
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          0.5084
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          0.5084
+        ], 
+        [
+          "http://dbpedia.org/ontology/PeriodicalLiterature (oclc)", 
+          0.5084
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.5099
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AcademicJournal (oclc)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PeriodicalLiterature (oclc)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "PopulatedPlace[areaTotal]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5
+    ], 
+    [
+      "City[areaLand]>(isPartOf|Alabama)", 
+      0.5
+    ], 
+    [
+      "Location[areaLand]>(isPartOf|Alabama)>(type|City)", 
+      0.5018
+    ], 
+    [
+      "City[areaTotal]>(country|Ukraine)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5035
+    ], 
+    [
+      "Location[areaTotal]>(country|Canada)", 
+      0.5038
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Soria)", 
+      0.504
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Uttar_Pradesh)>(country|India)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5079
+    ], 
+    [
+      "AcademicJournal[oclc]>(publisher|Elsevier)", 
+      0.5084
+    ], 
+    [
+      "Settlement[areaTotal]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Soria)", 
+      0.512
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Zaragoza)", 
+      0.5123
+    ]
+  ], 
+  "values": [
+    32150390.0
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/area"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "area", 
+          0.1023
+        ], 
+        [
+          "populationTotal", 
+          0.1557
+        ], 
+        [
+          "areaTotal", 
+          0.2126
+        ], 
+        [
+          "areaWater", 
+          0.229
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          5.0
+        ], 
+        [
+          "areaTotal", 
+          2.0
+        ], 
+        [
+          "area", 
+          2.0
+        ], 
+        [
+          "populationTotal", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          0.1023
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (area)", 
+          0.1023
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1557
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1557
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (populationTotal)", 
+          0.1557
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (areaTotal)", 
+          0.2121
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.2126
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.2126
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.2284
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          18.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (area)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[area]", 
+      0.1023
+    ], 
+    [
+      "Place[area]", 
+      0.1023
+    ], 
+    [
+      "Country[populationTotal]", 
+      0.1557
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Minnesota)>(isPartOf|Otter_Tail_County,_Minnesota)", 
+      0.2021
+    ], 
+    [
+      "Island[areaTotal]>(country|Australia)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.21
+    ], 
+    [
+      "Island[areaTotal]>(country|Australia)", 
+      0.2153
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Minnesota)>(isPartOf|Beltrami_County,_Minnesota)>(country|United_States)>(timeZone|Central_Time_Zone)", 
+      0.2246
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Minnesota)>(isPartOf|Beltrami_County,_Minnesota)>(country|United_States)", 
+      0.2267
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Minnesota)>(isPartOf|Beltrami_County,_Minnesota)", 
+      0.2286
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Minnesota)>(isPartOf|Itasca_County,_Minnesota)", 
+      0.263
+    ]
+  ], 
+  "values": [
+    407088.53703228926, 
+    11061032.349726116, 
+    15472570.65076771, 
+    9712344.24763994, 
+    24919630.444169596, 
+    13076009.555113535, 
+    20780.77903633046, 
+    24522963.881604668, 
+    3841043.566508556, 
+    4802.5790173459245, 
+    7969652.245709527, 
+    25935.299962292163, 
+    2979438.8326089582, 
+    1.0206328062558347, 
+    6555.9313894210045, 
+    10781463.871463295, 
+    6275871.495848746, 
+    152214907.56051388, 
+    35646079.35382486, 
+    187168.9557859085, 
+    5561464.67429387, 
+    7167099.1244624695, 
+    13559226.623282796, 
+    252020.89285809276, 
+    4002.8633464662976, 
+    5229614225.699132, 
+    40475.65961756459, 
+    4574376.927516269, 
+    12873556.569099272, 
+    87091.76172534039, 
+    19227551.29856968, 
+    93.69652618923594, 
+    11989878.287591273, 
+    196827.90998538327, 
+    28633.982484909626, 
+    5630.110157924284, 
+    1238.3449672655947, 
+    29292803163.050133, 
+    4808.089928351977, 
+    15018.231404339032, 
+    13039271.31580274, 
+    10149169.775666585, 
+    442937.02676811616, 
+    30676184.423315436, 
+    253636.28776529315, 
+    1571575.7162544697, 
+    47548.85994311597, 
+    22490516.401192468, 
+    6320.91080231984, 
+    88662.66443224259, 
+    20357589.806546073, 
+    39628.31116404035, 
+    97500.16444201506, 
+    2024.8643318240256, 
+    135181.77429907775, 
+    6910457.260628946, 
+    16535303.668116318, 
+    33102109.45579805, 
+    55927692.005492546, 
+    4337.195122822549, 
+    21579.757397263955, 
+    32491.30025295683, 
+    4069.8644208970645, 
+    5902.511320611497, 
+    29332158.837547258, 
+    20008574.152945686, 
+    16085179.644067347, 
+    151.89309243108167, 
+    1936.838390366444, 
+    26443715.236001536, 
+    90976.44051712591, 
+    34562695.87430049, 
+    5035975.6662122505, 
+    58286733.54012462, 
+    38996269.475042224, 
+    67625820.17307879, 
+    26060.807619619467, 
+    8357037.061620869, 
+    398.4425669044244, 
+    9441215.842210729, 
+    31607.31663542338, 
+    19931.343200941297, 
+    20045987.691966075, 
+    382.9175579930383, 
+    735481.2404037145, 
+    3872.97694621937, 
+    40247.32840039617, 
+    18648470.085071415, 
+    5889.525450176877, 
+    85732119.6786378, 
+    12089537.68820982, 
+    3909.007180786573, 
+    16693656.496164637, 
+    48867148.4139274, 
+    3978.9392893911536, 
+    17870323.420000415, 
+    23418145.518677343, 
+    95442.2909244981, 
+    27305383.66103403, 
+    33255577.762355443
+  ]
+}

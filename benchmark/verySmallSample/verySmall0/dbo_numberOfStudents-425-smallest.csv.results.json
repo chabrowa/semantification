@@ -1,0 +1,272 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfStudents"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "length", 
+          0.0754
+        ], 
+        [
+          "numberOfStudents", 
+          0.1015
+        ], 
+        [
+          "populationTotal", 
+          0.1037
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          7.0
+        ], 
+        [
+          "length", 
+          2.0
+        ], 
+        [
+          "numberOfStudents", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          0.0612
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.0896
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          0.0896
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          0.0896
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (length)", 
+          0.0896
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.1015
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.1015
+        ], 
+        [
+          "http://dbpedia.org/ontology/University (numberOfStudents)", 
+          0.1015
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.1015
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1031
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1031
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1035
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1076
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          19.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/University (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (length)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[length]>(22-rdf-syntax-ns#type|_Feature)>(country|France)", 
+      0.0612
+    ], 
+    [
+      "Lake[length]", 
+      0.0896
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Spain)>(isPartOf|Andalusia)", 
+      0.0915
+    ], 
+    [
+      "Settlement[populationTotal]>(type|Census-designated_place)>(isPartOf|Virginia)", 
+      0.0917
+    ], 
+    [
+      "University[numberOfStudents]", 
+      0.1015
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Spain)>(isPartOf|Province_of_Alicante)", 
+      0.1049
+    ], 
+    [
+      "Location[populationTotal]>(country|Spain)>(isPartOf|Province_of_Valencia)", 
+      0.1076
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Canada)>(timeZone|Pacific_Time_Zone)", 
+      0.109
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Spain)>(isPartOf|Province_of_Valencia)", 
+      0.11
+    ], 
+    [
+      "Settlement[populationTotal]>(type|Census-designated_place)>(isPartOf|Virginia)>(country|United_States)", 
+      0.1113
+    ]
+  ], 
+  "values": [
+    247.0, 
+    3707.0, 
+    2951.0, 
+    2508.0, 
+    800.0, 
+    4489.0, 
+    4669.0, 
+    385.0, 
+    935.0, 
+    0.0, 
+    240.0, 
+    10722.0, 
+    6706.0, 
+    13982.0, 
+    23418.0, 
+    8471.0, 
+    2899.0, 
+    3088.0, 
+    30.0, 
+    802.0, 
+    49761.0, 
+    19296.0, 
+    838.0, 
+    9013.0, 
+    10309.0, 
+    21289.0, 
+    1973.0, 
+    514530.0, 
+    923.0, 
+    1926.0, 
+    323.0, 
+    421.0, 
+    619.0, 
+    6322.0, 
+    4188.0, 
+    374.0, 
+    889.0, 
+    4013.0, 
+    858.0, 
+    2840.0, 
+    294.0, 
+    12477.0, 
+    9616.0, 
+    8120.0, 
+    1889.0, 
+    7367.0, 
+    29267.0, 
+    610.0, 
+    24863.0, 
+    3948.0, 
+    16362.0, 
+    2501.0, 
+    90402.0, 
+    2296.0, 
+    31451.0, 
+    3374.0, 
+    18860.0, 
+    27718.0, 
+    9.0, 
+    7214.0, 
+    18790.0, 
+    7540.0, 
+    27342.0, 
+    40.0, 
+    1014.0, 
+    211.0, 
+    21602.0, 
+    1962.0, 
+    419.0, 
+    17325.0, 
+    678.0, 
+    1628.0, 
+    698.0, 
+    1648.0, 
+    630.0, 
+    24161.0, 
+    29418.0, 
+    146.0, 
+    154.0, 
+    2447.0, 
+    23404.0
+  ]
+}

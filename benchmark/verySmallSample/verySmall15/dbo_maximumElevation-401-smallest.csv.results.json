@@ -1,0 +1,121 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/maximumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1703
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1671
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.17
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.17
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1714
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1719
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          17.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          7.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[populationTotal]>(isPartOf|East_Azerbaijan_Province)>(isPartOf|Khvajeh_District)", 
+      0.1538
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(department|Ardennes_(department))", 
+      0.1679
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(department|Ardennes_(department))", 
+      0.1679
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kermanshah_Province)>(isPartOf|Homeyl_District)", 
+      0.1714
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(department|Haute-Sa%C3%B4ne)", 
+      0.1719
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(department|Haute-Sa%C3%B4ne)", 
+      0.1719
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(region|Limousin)>(arrondissement|Aubusson,_Creuse)", 
+      0.1736
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(region|Limousin)>(arrondissement|Aubusson,_Creuse)", 
+      0.1736
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Hormozgan_Province)>(isPartOf|Bandar_Lengeh_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1739
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(department|Marne)>(arrondissement|Arrondissement_of_%C3%89pernay)", 
+      0.1772
+    ]
+  ], 
+  "values": [
+    404.5657700765072, 
+    156.59044386583523, 
+    861.8330361561127, 
+    400.2749924609571, 
+    879.4864150884437, 
+    165.7267511321966, 
+    159.74304163582485, 
+    43.388973506797974, 
+    141.52174775886274, 
+    108.01840573178137
+  ]
+}

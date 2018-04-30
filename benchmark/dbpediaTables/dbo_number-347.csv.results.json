@@ -1,0 +1,160 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/number"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.4871
+        ], 
+        [
+          "number", 
+          0.4871
+        ]
+      ], 
+      "maj": [
+        [
+          "number", 
+          8.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/GridironFootballPlayer (number)", 
+          0.4789
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmericanFootballPlayer (number)", 
+          0.4789
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          0.4832
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.4871
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.4871
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.4871
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.4871
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.4874
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.4885
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          0.5
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmericanFootballPlayer (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/GridironFootballPlayer (number)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Romania)", 
+      0.4667
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Bulgaria)", 
+      0.4776
+    ], 
+    [
+      "AmericanFootballPlayer[number]>(position|Quarterback)", 
+      0.4789
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Vorpommern-Greifswald)", 
+      0.4845
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|England)", 
+      0.4851
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))", 
+      0.4885
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Vorpommern-Greifswald)>(federalState|Mecklenburg-Vorpommern)", 
+      0.4896
+    ], 
+    [
+      "Athlete[number]>(position|Forward_(association_football))", 
+      0.5
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|United_States)", 
+      0.5
+    ], 
+    [
+      "BasketballPlayer[number]>(league|Eurocup_Basketball)", 
+      0.5
+    ]
+  ], 
+  "values": [
+    14.0
+  ]
+}

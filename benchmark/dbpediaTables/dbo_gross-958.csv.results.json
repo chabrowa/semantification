@@ -1,0 +1,224 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/gross"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaLand", 
+          0.5022
+        ], 
+        [
+          "areaTotal", 
+          0.5064
+        ], 
+        [
+          "oclc", 
+          0.5108
+        ], 
+        [
+          "areaWater", 
+          0.5114
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          6.0
+        ], 
+        [
+          "oclc", 
+          2.0
+        ], 
+        [
+          "areaWater", 
+          1.0
+        ], 
+        [
+          "areaLand", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.5022
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.5022
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.5022
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          0.5022
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.5052
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.5066
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.507
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.5104
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.5108
+        ], 
+        [
+          "http://dbpedia.org/ontology/Book (oclc)", 
+          0.5108
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          0.5108
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          0.5108
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaWater)", 
+          0.5114
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.5114
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaWater)", 
+          0.5114
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.5114
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          15.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Book (oclc)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Uttar_Pradesh)>(country|India)", 
+      0.5
+    ], 
+    [
+      "PopulatedPlace[areaTotal]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5
+    ], 
+    [
+      "City[areaLand]>(leaderName|Mayor)>(governmentType|Council%E2%80%93manager_government)>(timeZone|Central_Time_Zone)", 
+      0.5022
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Uttar_Pradesh)>(country|India)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5079
+    ], 
+    [
+      "City[areaTotal]>(leaderName|Mayor)>(country|United_States)", 
+      0.5079
+    ], 
+    [
+      "Book[oclc]>(publisher|Viking_Press)", 
+      0.5095
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Castell%C3%B3n)>(type|Municipalities_of_Spain)>(timeZone|Central_European_Time)>(isPartOf|Valencian_Community)", 
+      0.5098
+    ], 
+    [
+      "AdministrativeRegion[areaWater]>(state|Minnesota)", 
+      0.5114
+    ], 
+    [
+      "Book[oclc]>(publisher|Doubleday_(publisher))", 
+      0.5121
+    ], 
+    [
+      "City[areaTotal]>(leaderName|Mayor)>(country|United_States)>(timeZone|Central_Time_Zone)", 
+      0.513
+    ]
+  ], 
+  "values": [
+    39481714.0
+  ]
+}

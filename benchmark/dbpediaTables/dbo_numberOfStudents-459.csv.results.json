@@ -1,0 +1,113 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfStudents"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.2674
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.2602
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          0.2653
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2674
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2674
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.2715
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          25.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[populationTotal]>(country|United_Kingdom)>(country|Derbyshire)", 
+      0.2532
+    ], 
+    [
+      "Village[populationTotal]>(country|United_Kingdom)>(country|Leicestershire)", 
+      0.2532
+    ], 
+    [
+      "Village[populationTotal]>(country|United_Kingdom)>(country|Leicestershire)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.26
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|Cumbria)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2644
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|Minnesota)", 
+      0.2653
+    ], 
+    [
+      "Village[populationTotal]>(timeZone|Central_European_Time)>(country|Spain)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2708
+    ], 
+    [
+      "Settlement[populationTotal]>(type|Census-designated_place)>(isPartOf|Arizona)>(country|United_States)", 
+      0.2747
+    ], 
+    [
+      "Settlement[populationTotal]>(type|Census-designated_place)>(isPartOf|Maryland)>(country|United_States)", 
+      0.2759
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Spain)>(isPartOf|Province_of_Castell%C3%B3n)", 
+      0.2778
+    ], 
+    [
+      "Settlement[populationTotal]>(type|Census-designated_place)>(isPartOf|Arizona)>(country|United_States)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2784
+    ]
+  ], 
+  "values": [
+    3000.0, 
+    240.0
+  ]
+}
