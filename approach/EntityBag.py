@@ -32,7 +32,9 @@ class EntityBag(object):
         #sparql = SPARQLWrapper("http://localhost:3031/db-test/query")
 
         #sparql = SPARQLWrapper("http://uk.dbpedia.org/sparql")
-        sparql = SPARQLWrapper("http://ec2-34-241-15-85.eu-west-1.compute.amazonaws.com/sparql")
+        #sparql = SPARQLWrapper("http://ec2-34-241-15-85.eu-west-1.compute.amazonaws.com/sparql")
+        sparql = SPARQLWrapper("http://dbpedia.org/sparql")
+
 
         #sparql = SPARQLWrapper("http://kbox.kaist.ac.kr:5889/sparql")
         sparql.setReturnFormat(JSON)

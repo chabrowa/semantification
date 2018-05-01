@@ -4,6 +4,10 @@ from approach.config.paths import *
 from approach.config.imports import *
 
 
-sizes = ['verySmall', 'small', 'medium', 'large']
-deviations = [0, 5, 10, 15]
+#sizes = ['verySmall', 'small', 'medium', 'large']
+#sizes = ['small', 'medium', 'large']
+sizes = ['verySmall']
+#deviations = [0, 5, 10, 15]
+#deviations = [0, 5, 10, 15]
+deviations = [15]
 e = Evaluation(sizes, deviations)

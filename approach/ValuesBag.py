@@ -44,7 +44,9 @@ class ValuesBag(object):
 
         #sparql = SPARQLWrapper("http://kbox.kaist.ac.kr:5889/sparql")
 
-        sparql = SPARQLWrapper("http://ec2-34-241-15-85.eu-west-1.compute.amazonaws.com/sparql")
+        #sparql = SPARQLWrapper("http://ec2-34-241-15-85.eu-west-1.compute.amazonaws.com/sparql")
+        sparql = SPARQLWrapper("http://dbpedia.org/sparql")
+
 
         sparql.setReturnFormat(JSON)
 
