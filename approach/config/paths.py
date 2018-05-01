@@ -14,4 +14,4 @@ minPopularity = 5
 #evaluationPath = '/Users/emiliakacprzak/Code/papers/semantification/benchmark_labels/'
 #evaluationPath = '/Users/emiliakacprzak/Code/papers/semantification/benchmark_labels_new/'
 
-evaluationPath = '/Users/emiliakacprzak/Code/papers/semantification/benchmark/'
+evaluationPath = '/Users/emiliakacprzak/Code/papers/semantification/benchmark_new/'
