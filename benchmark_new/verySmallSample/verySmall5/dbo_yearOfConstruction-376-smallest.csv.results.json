@@ -1,0 +1,210 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/yearOfConstruction"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "serviceEndYear", 
+          0.2973
+        ], 
+        [
+          "openingYear", 
+          0.3138
+        ], 
+        [
+          "serviceStartYear", 
+          0.3176
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          8.0
+        ], 
+        [
+          "serviceEndYear", 
+          1.0
+        ], 
+        [
+          "serviceStartYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          0.2973
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceEndYear)", 
+          0.2973
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          0.2973
+        ], 
+        [
+          "http://dbpedia.org/ontology/Congressman (serviceEndYear)", 
+          0.2973
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          0.3115
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          0.312
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.3138
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.3138
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.3138
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceStartYear)", 
+          0.3176
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceStartYear)", 
+          0.3176
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceStartYear)", 
+          0.3176
+        ], 
+        [
+          "http://dbpedia.org/ontology/Congressman (serviceStartYear)", 
+          0.3176
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          0.3182
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.3182
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Congressman (serviceEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Congressman (serviceStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Station[openingYear]>(location|Germany)>(location|Baden-W%C3%BCrttemberg)", 
+      0.2958
+    ], 
+    [
+      "Location[openingYear]>(location|Germany)>(location|Baden-W%C3%BCrttemberg)", 
+      0.2958
+    ], 
+    [
+      "Congressman[serviceEndYear]>(country|United_States)", 
+      0.2973
+    ], 
+    [
+      "Station[openingYear]>(operatedBy|First_ScotRail)", 
+      0.3119
+    ], 
+    [
+      "Station[openingYear]>(location|Germany)>(location|North_Rhine-Westphalia)", 
+      0.3176
+    ], 
+    [
+      "Location[openingYear]>(location|Germany)>(location|North_Rhine-Westphalia)", 
+      0.3176
+    ], 
+    [
+      "Congressman[serviceStartYear]>(country|United_States)", 
+      0.3176
+    ], 
+    [
+      "Bridge[openingYear]>(crosses|River_Thames)", 
+      0.3182
+    ], 
+    [
+      "Station[openingYear]>(location|Germany)", 
+      0.3255
+    ], 
+    [
+      "Location[openingYear]>(location|Germany)", 
+      0.3277
+    ]
+  ], 
+  "values": [
+    1922.0, 
+    1861.0, 
+    1864.0
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/gross"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "budget", 
+          0.0764
+        ], 
+        [
+          "gross", 
+          0.0862
+        ], 
+        [
+          "areaTotal", 
+          0.1106
+        ], 
+        [
+          "areaWater", 
+          0.111
+        ]
+      ], 
+      "maj": [
+        [
+          "gross", 
+          4.0
+        ], 
+        [
+          "budget", 
+          3.0
+        ], 
+        [
+          "areaWater", 
+          2.0
+        ], 
+        [
+          "areaTotal", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Film (budget)", 
+          0.0764
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (budget)", 
+          0.0764
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (budget)", 
+          0.0764
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (gross)", 
+          0.0774
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (gross)", 
+          0.0774
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (gross)", 
+          0.101
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.1098
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1106
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          0.1106
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (areaTotal)", 
+          0.1106
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          0.1106
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.111
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.111
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.111
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          0.1122
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (gross)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (gross)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (budget)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (gross)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (budget)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Film[budget]", 
+      0.0764
+    ], 
+    [
+      "Wikidata:Q11424[budget]", 
+      0.0764
+    ], 
+    [
+      "Work[budget]", 
+      0.0764
+    ], 
+    [
+      "Film[gross]", 
+      0.0774
+    ], 
+    [
+      "Wikidata:Q11424[gross]", 
+      0.0774
+    ], 
+    [
+      "Work[gross]", 
+      0.0774
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Alaska)", 
+      0.1098
+    ], 
+    [
+      "Lake[areaTotal]>(country|New_Zealand)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1106
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Maine)", 
+      0.1122
+    ], 
+    [
+      "Wikidata:Q11424[gross]>(distributor|United_Artists)", 
+      0.1128
+    ]
+  ], 
+  "values": [
+    2578930.106744697, 
+    310906.8822873489, 
+    29152416.349484354, 
+    8382528.2791499905, 
+    5379490.316546072, 
+    48056070.213632226, 
+    1251262002.140612, 
+    149932936.33935297, 
+    44513.06442722483, 
+    47483155.01900061, 
+    7647257.920639782, 
+    2736554.4142970373, 
+    2530642.9115019506, 
+    13008225.881650243, 
+    7916696.377272178, 
+    11426881.472021881, 
+    56516436.69205821, 
+    20225.20659260347, 
+    61422408.303626746, 
+    1545241.7073344248, 
+    912863.4752900429, 
+    846598.2525218374, 
+    12322858.203259088, 
+    5030530.264200856, 
+    20047781.904470824, 
+    32979861.733528845, 
+    63995995.4635556, 
+    78389.21051321807, 
+    175744039.09084174, 
+    395550384.5100088, 
+    7204030.70328874, 
+    4810692.256544351, 
+    131212.33129105016, 
+    901994.743986153, 
+    499400.06678093504, 
+    2587607.0400051973, 
+    32432477.00728565, 
+    1677410.4283799531, 
+    255007896.44073305, 
+    106996797.03382127, 
+    7124391.164029727, 
+    25961293.656207185, 
+    12362.240270265094, 
+    45623123.40090988, 
+    13747411.22449746, 
+    10593727.77870536, 
+    32857783.73512456, 
+    927882.7227653945, 
+    26075133.24980013, 
+    1401026.1182047355, 
+    4195002.317979938, 
+    46686.670283532905, 
+    2546511.72295816, 
+    19652429.097684365, 
+    68187141.31810571, 
+    24359554.413122628, 
+    18217.614371937972, 
+    23982.065227253817, 
+    1096624.6918814306, 
+    98609772.01060769, 
+    1049987.5842227056, 
+    1997121.1250692504, 
+    45906988.13003802, 
+    12092262.5402383, 
+    20086831.032096904, 
+    6946798.676187165, 
+    38358996.39584608, 
+    9994843.515744358, 
+    2009801.0682272918, 
+    1824020.794862606, 
+    2502095.7586614946, 
+    23815.751088283065, 
+    446075.5836507391, 
+    2337129.8204595633, 
+    100339866.06218545, 
+    14152849.916245809, 
+    5087749.328540711, 
+    3441557.245550328, 
+    3457200.119543166, 
+    11076079.69406094, 
+    11003259.93249381, 
+    9058594.08451274, 
+    719006.7201069703, 
+    3082728.4792797756, 
+    848912.9091349752, 
+    1708909.4469320716, 
+    2083533.179452297, 
+    16853.596994573392, 
+    1217506.4428145937, 
+    13570526.853774372, 
+    3247791.7496911217, 
+    355484.3557070363, 
+    8268838.480500335, 
+    98595.15503366197, 
+    1560436.104828464, 
+    693006.4816870196, 
+    23865681.30727101, 
+    447935.2289451992, 
+    721411.8791088575, 
+    222408.61554891648
+  ]
+}

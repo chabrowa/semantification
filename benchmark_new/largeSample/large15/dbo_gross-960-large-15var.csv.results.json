@@ -1,0 +1,258 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/gross"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaWater", 
+          0.1229
+        ], 
+        [
+          "areaTotal", 
+          0.1408
+        ], 
+        [
+          "populationTotal", 
+          0.1563
+        ], 
+        [
+          "area", 
+          0.1693
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          6.0
+        ], 
+        [
+          "area", 
+          2.0
+        ], 
+        [
+          "populationTotal", 
+          1.0
+        ], 
+        [
+          "areaTotal", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.0955
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.0955
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.0955
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.0963
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1408
+        ], 
+        [
+          "http://dbpedia.org/ontology/SiteOfSpecialScientificInterest (areaTotal)", 
+          0.1408
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.1503
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1563
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1563
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1563
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (area)", 
+          0.1693
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          0.1693
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (area)", 
+          0.1693
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (area)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (area)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SiteOfSpecialScientificInterest (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "City[areaWater]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)", 
+      0.0886
+    ], 
+    [
+      "City[areaWater]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)>(type|City)>(timeZone|Pacific_Time_Zone)", 
+      0.0981
+    ], 
+    [
+      "City[areaWater]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)>(type|City)", 
+      0.0997
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|New_Jersey)>(type|Census-designated_place)", 
+      0.117
+    ], 
+    [
+      "SiteOfSpecialScientificInterest[areaTotal]>(areaOfSearch|Gloucestershire)", 
+      0.1408
+    ], 
+    [
+      "Settlement[populationTotal]>(country|India)", 
+      0.1563
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)", 
+      0.1618
+    ], 
+    [
+      "Building[area]>(location|New_York)", 
+      0.1691
+    ], 
+    [
+      "Building[area]>(location|New_York)>(architecturalStyle|Greek_Revival_architecture)", 
+      0.1695
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|New_Jersey)>(governmentType|Borough_(New_Jersey))", 
+      0.1719
+    ]
+  ], 
+  "values": [
+    3171.875916931393, 
+    2822.5307551423593, 
+    315941.547692567, 
+    1135612.232632257, 
+    405.1443994614438, 
+    554731.1451891786, 
+    1062031.6646060727, 
+    31092.01361732367, 
+    524948.4861180977, 
+    480.05782076310464, 
+    41074.66824042539, 
+    11744.567464455744, 
+    96337.36125623806, 
+    9326.631419785104, 
+    3252905.698013443, 
+    282167.9611589182, 
+    781546.5677657682, 
+    307727.8258000644, 
+    34820.30762274733, 
+    5266.560774163759, 
+    112907.0030278988, 
+    369716.3479082398, 
+    16146.447131281453, 
+    44315.90074319883, 
+    2771.410015332593, 
+    7979.110136575626, 
+    50363.05914055928, 
+    60541.938376911145, 
+    489059.975422479, 
+    4221.668236877093, 
+    1329738.8206906742, 
+    44649.53800229793, 
+    337388.1772919958, 
+    142419.18366118355, 
+    141111.3093714086, 
+    248083.17209744628, 
+    762570.3545951708, 
+    36641.91613493496, 
+    19670.176728500817, 
+    118066.49559863945, 
+    1333.867846860337, 
+    937.7955134948355, 
+    1767.93256596979, 
+    234717.24643346496, 
+    941050.0065336907, 
+    9924.616285924905, 
+    1545020.2529198483, 
+    23874.74499482321, 
+    259600.8514917945, 
+    1015.7333472321143, 
+    45980.8895707237, 
+    902.5153204560986, 
+    187719.6308311452, 
+    856483.3466188681, 
+    45848.01644744123, 
+    173943.54328169583, 
+    6519.95112475049, 
+    35529.571908451566, 
+    130121.62342874116
+  ]
+}

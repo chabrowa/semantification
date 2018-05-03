@@ -1,0 +1,335 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/capacity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "maximumElevation", 
+          0.0626
+        ], 
+        [
+          "populationTotal", 
+          0.0805
+        ], 
+        [
+          "populationDensity", 
+          0.0882
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          8.0
+        ], 
+        [
+          "maximumElevation", 
+          1.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Island (maximumElevation)", 
+          0.0626
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.0626
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          0.0626
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.0783
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0805
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0805
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.0859
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.0882
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (populationDensity)", 
+          0.0882
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.0882
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          16.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[populationTotal]>(country|Slovenia)>(isPartOf|Slovene_Littoral)", 
+      0.0552
+    ], 
+    [
+      "Island[maximumElevation]", 
+      0.0626
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Slovenia)>(isPartOf|Upper_Carniola)", 
+      0.0753
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)", 
+      0.0824
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|South_Khorasan_Province)", 
+      0.0829
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Slovenia)", 
+      0.0852
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Fars_Province)>(isPartOf|Central_District_(Fasa_County))", 
+      0.0873
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Slovenia)>(isPartOf|Slovene_Littoral)>(isPartOf|Gori%C5%A1ka_Statistical_Region)", 
+      0.0875
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Mazandaran_Province)>(isPartOf|Ramsar_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.088
+    ], 
+    [
+      "Country[populationDensity]", 
+      0.0882
+    ]
+  ], 
+  "values": [
+    31.0, 
+    1.0, 
+    349.0, 
+    50.0, 
+    19.0, 
+    246.0, 
+    427.0, 
+    530.0, 
+    14.0, 
+    26.0, 
+    137.0, 
+    4.0, 
+    160.0, 
+    111.0, 
+    2874.0, 
+    314.0, 
+    141.0, 
+    280.0, 
+    42.0, 
+    24.0, 
+    149.0, 
+    53.0, 
+    166.0, 
+    3.0, 
+    231.0, 
+    138.0, 
+    62.0, 
+    8.0, 
+    39.0, 
+    83.0, 
+    27.0, 
+    104.0, 
+    79.0, 
+    41.0, 
+    42.0, 
+    47.0, 
+    84.0, 
+    3.0, 
+    41.0, 
+    971.0, 
+    401.0, 
+    920.0, 
+    37.0, 
+    51.0, 
+    49.0, 
+    17.0, 
+    98.0, 
+    34.0, 
+    28.0, 
+    8.0, 
+    48.0, 
+    201.0, 
+    2006.0, 
+    202.0, 
+    61.0, 
+    209.0, 
+    44.0, 
+    47.0, 
+    527.0, 
+    12.0, 
+    58.0, 
+    50.0, 
+    599.0, 
+    960.0, 
+    23.0, 
+    1085.0, 
+    240.0, 
+    102.0, 
+    131.0, 
+    16.0, 
+    349.0, 
+    97.0, 
+    89.0, 
+    160.0, 
+    95.0, 
+    8.0, 
+    251.0, 
+    14.0, 
+    29.0, 
+    302.0, 
+    25.0, 
+    387.0, 
+    45.0, 
+    298.0, 
+    323.0, 
+    45.0, 
+    133.0, 
+    268.0, 
+    51.0, 
+    57.0, 
+    576.0, 
+    3.0, 
+    121.0, 
+    8.0, 
+    61.0, 
+    194.0, 
+    4.0, 
+    19.0, 
+    981.0, 
+    35.0, 
+    51.0, 
+    81.0, 
+    727.0, 
+    2.0, 
+    66.0, 
+    12.0, 
+    169.0, 
+    67.0, 
+    747.0, 
+    46.0, 
+    302.0, 
+    42.0, 
+    45.0, 
+    35.0, 
+    91.0, 
+    66.0, 
+    273.0, 
+    40.0, 
+    735.0, 
+    70.0, 
+    67.0, 
+    52.0, 
+    251.0, 
+    67.0, 
+    11.0, 
+    5.0, 
+    1.0, 
+    92.0, 
+    56.0, 
+    184.0, 
+    45.0, 
+    78.0, 
+    837.0, 
+    439.0, 
+    16.0, 
+    66.0, 
+    120.0, 
+    188.0, 
+    6.0, 
+    238.0, 
+    2.0, 
+    86.0, 
+    47.0, 
+    50.0, 
+    174.0, 
+    46.0, 
+    170.0, 
+    39.0, 
+    298.0, 
+    114.0, 
+    73.0, 
+    43.0, 
+    610.0, 
+    160.0, 
+    45.0, 
+    51.0, 
+    74.0, 
+    4147.0, 
+    269.0, 
+    432.0, 
+    117.0, 
+    352.0, 
+    83.0, 
+    16.0, 
+    121.0, 
+    94.0, 
+    21.0, 
+    544.0
+  ]
+}

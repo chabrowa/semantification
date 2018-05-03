@@ -1,0 +1,276 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/budget"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "budget", 
+          0.0513
+        ], 
+        [
+          "length", 
+          0.2363
+        ], 
+        [
+          "populationTotal", 
+          0.2529
+        ]
+      ], 
+      "maj": [
+        [
+          "budget", 
+          5.0
+        ], 
+        [
+          "populationTotal", 
+          4.0
+        ], 
+        [
+          "length", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/SocietalEvent (budget)", 
+          0.0513
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tournament (budget)", 
+          0.0513
+        ], 
+        [
+          "http://dbpedia.org/ontology/Event (budget)", 
+          0.0513
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsEvent (budget)", 
+          0.0513
+        ], 
+        [
+          "http://dbpedia.org/ontology/TennisTournament (budget)", 
+          0.0513
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.2363
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          0.2509
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2522
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2522
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.2529
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.255
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Event (budget)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SocietalEvent (budget)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsEvent (budget)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tournament (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TennisTournament (budget)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "TennisTournament[budget]", 
+      0.0513
+    ], 
+    [
+      "Tournament[budget]", 
+      0.0513
+    ], 
+    [
+      "SocietalEvent[budget]", 
+      0.0513
+    ], 
+    [
+      "Event[budget]", 
+      0.0513
+    ], 
+    [
+      "SportsEvent[budget]", 
+      0.0513
+    ], 
+    [
+      "Place[length]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2363
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Eastern_European_Time)>(country|Greece)", 
+      0.2507
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|California)>(governmentType|Council%E2%80%93manager_government)", 
+      0.2509
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_European_Time)>(type|Regional_units_of_Greece)", 
+      0.255
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Eastern_European_Time)>(country|Greece)>(type|Regional_units_of_Greece)", 
+      0.255
+    ]
+  ], 
+  "values": [
+    50000.0, 
+    64000.0, 
+    50000.0, 
+    750000.0, 
+    50000.0, 
+    1597155.0, 
+    75000.0, 
+    450000.0, 
+    75000.0, 
+    50000.0, 
+    825000.0, 
+    25000.0, 
+    100000.0, 
+    35000.0, 
+    35000.0, 
+    50000.0, 
+    175000.0, 
+    250000.0, 
+    50000.0, 
+    250000.0, 
+    50000.0, 
+    75000.0, 
+    150000.0, 
+    50000.0, 
+    50000.0, 
+    50000.0, 
+    100000.0, 
+    50000.0, 
+    50000.0, 
+    50000.0, 
+    5946740.0, 
+    50000.0, 
+    4625835.0, 
+    220000.0, 
+    50000.0, 
+    500000.0, 
+    50000.0, 
+    100000.0, 
+    50000.0, 
+    50000.0, 
+    50000.0, 
+    100000.0, 
+    250000.0, 
+    50000.0, 
+    35000.0, 
+    85000.0, 
+    50000.0, 
+    50000.0, 
+    125000.0, 
+    42500.0, 
+    170000.0, 
+    846000.0, 
+    50000.0, 
+    75000.0, 
+    50000.0, 
+    50000.0, 
+    50000.0, 
+    75000.0, 
+    50000.0, 
+    50000.0, 
+    75000.0, 
+    35000.0, 
+    50000.0, 
+    50000.0, 
+    30000.0, 
+    100400.0, 
+    50000.0, 
+    170000.0, 
+    50000.0, 
+    50000.0, 
+    22560000.0, 
+    250000.0, 
+    175000.0, 
+    50000.0, 
+    75000.0, 
+    50000.0, 
+    50000.0, 
+    7000000.0, 
+    115000.0, 
+    50000.0, 
+    50000.0, 
+    170000.0, 
+    50000.0, 
+    50000.0, 
+    50000.0, 
+    50000.0, 
+    125000.0, 
+    25000.0, 
+    50000.0, 
+    85000.0, 
+    900000.0, 
+    42500.0, 
+    6120968.0, 
+    50000.0, 
+    75000.0, 
+    250000.0, 
+    6844139.0, 
+    100000.0, 
+    50000.0, 
+    50000.0, 
+    50000.0
+  ]
+}

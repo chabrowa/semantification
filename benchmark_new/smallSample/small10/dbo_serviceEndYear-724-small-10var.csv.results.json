@@ -1,0 +1,277 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/serviceEndYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "activeYearsEndYear", 
+          0.2962
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.2962
+        ], 
+        [
+          "openingYear", 
+          0.2963
+        ], 
+        [
+          "serviceEndYear", 
+          0.2963
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          4.0
+        ], 
+        [
+          "serviceEndYear", 
+          4.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          1.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.2962
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.2962
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryUnit (activeYearsStartYear)", 
+          0.2962
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.2962
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsStartYear)", 
+          0.2962
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          0.2963
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.2963
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.2963
+        ], 
+        [
+          "http://dbpedia.org/ontology/OfficeHolder (serviceEndYear)", 
+          0.2963
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tunnel (openingYear)", 
+          0.2963
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.2963
+        ], 
+        [
+          "http://dbpedia.org/ontology/Hospital (openingYear)", 
+          0.2963
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryPerson (serviceEndYear)", 
+          0.2963
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          0.2963
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (openingYear)", 
+          0.2963
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.2963
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryUnit (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/OfficeHolder (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tunnel (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Hospital (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryPerson (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsStartYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Person[activeYearsEndYear]", 
+      0.2962
+    ], 
+    [
+      "MilitaryUnit[activeYearsStartYear]", 
+      0.2962
+    ], 
+    [
+      "Person[serviceEndYear]", 
+      0.2963
+    ], 
+    [
+      "Agent[serviceEndYear]", 
+      0.2963
+    ], 
+    [
+      "MilitaryPerson[serviceEndYear]", 
+      0.2963
+    ], 
+    [
+      "OfficeHolder[serviceEndYear]", 
+      0.2963
+    ], 
+    [
+      "Hospital[openingYear]", 
+      0.2963
+    ], 
+    [
+      "Building[openingYear]", 
+      0.2963
+    ], 
+    [
+      "Tunnel[openingYear]", 
+      0.2963
+    ], 
+    [
+      "RouteOfTransportation[openingYear]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2963
+    ]
+  ], 
+  "values": [
+    1758.0, 
+    2023.0, 
+    1935.0, 
+    2050.0, 
+    2134.0, 
+    1935.0, 
+    25.0, 
+    1970.0, 
+    1891.0, 
+    1839.0, 
+    1721.0, 
+    1976.0, 
+    2033.0, 
+    2018.0, 
+    1999.0, 
+    1907.0, 
+    1857.0, 
+    1790.0, 
+    1863.0, 
+    1714.0, 
+    1707.0, 
+    2134.0, 
+    1912.0, 
+    1755.0, 
+    2144.0, 
+    2006.0, 
+    2067.0, 
+    2019.0, 
+    2104.0, 
+    1730.0, 
+    1774.0, 
+    2082.0, 
+    2115.0, 
+    2138.0, 
+    2024.0, 
+    1942.0, 
+    1788.0, 
+    1951.0, 
+    1765.0, 
+    1781.0, 
+    2100.0, 
+    1832.0, 
+    1806.0, 
+    1949.0, 
+    1824.0, 
+    1931.0, 
+    1784.0, 
+    1882.0, 
+    2096.0, 
+    1980.0, 
+    1963.0, 
+    1815.0, 
+    1727.0, 
+    1857.0
+  ]
+}

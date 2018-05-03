@@ -1,0 +1,273 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/serviceStartYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "foundingYear", 
+          0.113
+        ], 
+        [
+          "serviceStartYear", 
+          0.1282
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.1395
+        ]
+      ], 
+      "maj": [
+        [
+          "activeYearsStartYear", 
+          5.0
+        ], 
+        [
+          "serviceStartYear", 
+          4.0
+        ], 
+        [
+          "foundingYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.113
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          0.113
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.113
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          0.113
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceStartYear)", 
+          0.1214
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceStartYear)", 
+          0.1282
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceStartYear)", 
+          0.1314
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryUnit (activeYearsStartYear)", 
+          0.1331
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.1368
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsStartYear)", 
+          0.1368
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (activeYearsStartYear)", 
+          0.1412
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (activeYearsStartYear)", 
+          0.1412
+        ], 
+        [
+          "http://dbpedia.org/ontology/Theatre (activeYearsStartYear)", 
+          0.1412
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (activeYearsStartYear)", 
+          0.1412
+        ], 
+        [
+          "http://dbpedia.org/ontology/Venue (activeYearsStartYear)", 
+          0.1412
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryPerson (serviceStartYear)", 
+          0.1541
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Agent (serviceStartYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryUnit (activeYearsStartYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceStartYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Venue (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryPerson (serviceStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Theatre (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "School[foundingYear]>(type|Single-sex_education)", 
+      0.113
+    ], 
+    [
+      "Person[serviceStartYear]", 
+      0.1186
+    ], 
+    [
+      "Agent[serviceStartYear]", 
+      0.1186
+    ], 
+    [
+      "Politician[serviceStartYear]", 
+      0.1214
+    ], 
+    [
+      "MilitaryUnit[activeYearsStartYear]>(country|Canada)", 
+      0.1257
+    ], 
+    [
+      "Venue[activeYearsStartYear]", 
+      0.1412
+    ], 
+    [
+      "Location[activeYearsStartYear]", 
+      0.1412
+    ], 
+    [
+      "Theatre[activeYearsStartYear]", 
+      0.1412
+    ], 
+    [
+      "MilitaryUnit[activeYearsStartYear]", 
+      0.1479
+    ], 
+    [
+      "MilitaryPerson[serviceStartYear]", 
+      0.1541
+    ]
+  ], 
+  "values": [
+    1892.0, 
+    1861.0, 
+    1861.0, 
+    1980.0, 
+    1917.0, 
+    1959.0, 
+    1944.0, 
+    1964.0, 
+    1961.0, 
+    1917.0, 
+    1900.0, 
+    1915.0, 
+    1918.0, 
+    1987.0, 
+    1822.0, 
+    1942.0, 
+    1914.0, 
+    1890.0, 
+    1937.0, 
+    1940.0, 
+    1914.0, 
+    1942.0, 
+    1942.0, 
+    1978.0, 
+    1940.0, 
+    1956.0, 
+    2001.0, 
+    1951.0, 
+    1914.0, 
+    1779.0, 
+    1885.0, 
+    1789.0, 
+    1874.0, 
+    1706.0, 
+    1960.0, 
+    1940.0, 
+    1860.0, 
+    1873.0, 
+    1941.0, 
+    1861.0, 
+    1911.0, 
+    1918.0, 
+    1919.0, 
+    1915.0, 
+    1943.0, 
+    1942.0, 
+    1862.0, 
+    1991.0, 
+    1861.0, 
+    1797.0, 
+    1811.0, 
+    1979.0, 
+    5.0, 
+    1942.0, 
+    1917.0, 
+    1917.0, 
+    1942.0, 
+    1942.0
+  ]
+}

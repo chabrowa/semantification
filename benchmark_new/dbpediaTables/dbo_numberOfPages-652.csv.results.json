@@ -1,0 +1,154 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfPages"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.2663
+        ], 
+        [
+          "populationTotal", 
+          0.2772
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          6.0
+        ], 
+        [
+          "populationTotal", 
+          4.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.2654
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.2656
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2662
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2664
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2664
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2772
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.2772
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2772
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.2774
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          15.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          4.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[elevation]>(country|Spain)>(isPartOf|Province_of_Tarragona)>(type|Municipalities_of_Spain)", 
+      0.2599
+    ], 
+    [
+      "Town[elevation]>(timeZone|Central_European_Time)>(country|Algeria)>(type|Communes_of_Algeria)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2619
+    ], 
+    [
+      "Town[elevation]>(timeZone|Central_European_Time)>(country|Algeria)", 
+      0.2644
+    ], 
+    [
+      "Location[elevation]>(country|Spain)>(isPartOf|Province_of_Tarragona)>(type|Municipalities_of_Spain)", 
+      0.2656
+    ], 
+    [
+      "Town[elevation]>(timeZone|Central_European_Time)>(country|Algeria)>(type|Communes_of_Algeria)", 
+      0.2706
+    ], 
+    [
+      "Village[populationTotal]>(timeZone|Central_European_Time)>(isPartOf|Zaje%C4%8Dar_District)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2754
+    ], 
+    [
+      "Settlement[elevation]>(country|Spain)>(isPartOf|Province_of_Tarragona)", 
+      0.2754
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Mazandaran_Province)>(isPartOf|Shirgah_District)", 
+      0.2756
+    ], 
+    [
+      "Village[populationTotal]>(timeZone|Central_European_Time)>(isPartOf|Zaje%C4%8Dar_District)", 
+      0.2785
+    ], 
+    [
+      "Village[populationTotal]>(timeZone|Central_European_Time)>(isPartOf|Zaje%C4%8Dar_District)>(22-rdf-syntax-ns#type|_Feature)>(country|Serbia)", 
+      0.2794
+    ]
+  ], 
+  "values": [
+    368.0, 
+    280.0, 
+    18.0
+  ]
+}

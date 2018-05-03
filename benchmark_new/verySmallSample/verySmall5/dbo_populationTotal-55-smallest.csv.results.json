@@ -1,0 +1,315 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfEmployees", 
+          0.0849
+        ], 
+        [
+          "length", 
+          0.1303
+        ], 
+        [
+          "populationTotal", 
+          0.1313
+        ], 
+        [
+          "width", 
+          0.136
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          4.0
+        ], 
+        [
+          "width", 
+          3.0
+        ], 
+        [
+          "length", 
+          2.0
+        ], 
+        [
+          "numberOfEmployees", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Company (numberOfEmployees)", 
+          0.0849
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          0.0849
+        ], 
+        [
+          "http://dbpedia.org/ontology/Airline (numberOfEmployees)", 
+          0.0849
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          0.0849
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1043
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          0.1151
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (width)", 
+          0.136
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.136
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (width)", 
+          0.1372
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1403
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1403
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1403
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.1455
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (length)", 
+          0.1455
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (length)", 
+          0.1455
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (width)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (width)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Airline (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Airline[numberOfEmployees]", 
+      0.0849
+    ], 
+    [
+      "Location[populationTotal]>(country|Spain)>(isPartOf|Province_of_Alicante)", 
+      0.1043
+    ], 
+    [
+      "Location[length]>(22-rdf-syntax-ns#type|_Feature)>(country|China)", 
+      0.1151
+    ], 
+    [
+      "PopulatedPlace[width]", 
+      0.1343
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Spain)>(isPartOf|Andalusia)", 
+      0.1343
+    ], 
+    [
+      "Island[width]", 
+      0.1356
+    ], 
+    [
+      "Island[width]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.138
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|Hampshire)", 
+      0.14
+    ], 
+    [
+      "Island[length]>(country|Antarctica)", 
+      0.1455
+    ], 
+    [
+      "Settlement[populationTotal]>(type|Census-designated_place)>(isPartOf|Maryland)", 
+      0.1465
+    ]
+  ], 
+  "values": [
+    16567.0, 
+    665.0, 
+    545.0, 
+    270.0, 
+    2453.0, 
+    46433.0, 
+    135.0, 
+    4021.0, 
+    23592.0, 
+    865.0, 
+    13449.0, 
+    473.0, 
+    10395.0, 
+    301.0, 
+    6701.0, 
+    221.0, 
+    4505.0, 
+    7381.0, 
+    49.0, 
+    152025.0, 
+    25283965.0, 
+    467.0, 
+    105442.0, 
+    242.0, 
+    10370.0, 
+    93554.0, 
+    1151.0, 
+    148556.0, 
+    11064.0, 
+    122.0, 
+    5621.0, 
+    14132.0, 
+    14532.0, 
+    33524.0, 
+    321.0, 
+    14124.0, 
+    718.0, 
+    5365.0, 
+    2896.0, 
+    76172.0, 
+    490.0, 
+    25486.0, 
+    11531.0, 
+    58.0, 
+    55048.0, 
+    34052.0, 
+    62279.0, 
+    3846147.0, 
+    45337.0, 
+    439.0, 
+    19429.0, 
+    300.0, 
+    70.0, 
+    217.0, 
+    237.0, 
+    459.0, 
+    1839.0, 
+    3749.0, 
+    686.0, 
+    519.0, 
+    36652.0, 
+    25836.0, 
+    41625.0, 
+    15612.0, 
+    1006.0, 
+    1241942.0, 
+    12278.0, 
+    97.0, 
+    663.0, 
+    3913.0, 
+    1617.0, 
+    10504.0, 
+    1229.0, 
+    28757.0, 
+    301.0, 
+    16913.0, 
+    3168.0, 
+    1600.0, 
+    28536.0, 
+    863.0, 
+    55834.0, 
+    1027.0, 
+    1021.0, 
+    808279.0, 
+    873.0, 
+    444.0, 
+    15435.0, 
+    27355.0, 
+    47490.0, 
+    5411.0, 
+    186.0, 
+    59231.0, 
+    16059.0, 
+    408.0, 
+    6521.0, 
+    115056.0, 
+    46917.0, 
+    22405.0, 
+    2817.0, 
+    1704.0
+  ]
+}

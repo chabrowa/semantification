@@ -1,0 +1,195 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/yearOfConstruction"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "activeYearsStartYear", 
+          0.2217
+        ], 
+        [
+          "openingYear", 
+          0.2438
+        ], 
+        [
+          "serviceEndYear", 
+          0.25
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          8.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          1.0
+        ], 
+        [
+          "serviceEndYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/MilitaryUnit (activeYearsStartYear)", 
+          0.2217
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.2217
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsStartYear)", 
+          0.2217
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          0.235
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.2361
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.2417
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.2417
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.2417
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          0.2478
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          0.25
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryPerson (serviceEndYear)", 
+          0.25
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          0.25
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          0.25
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryUnit (activeYearsStartYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryPerson (serviceEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "MilitaryUnit[activeYearsStartYear]>(country|Presidencies_and_provinces_of_British_India)>(battle|World_War_I)", 
+      0.2217
+    ], 
+    [
+      "RailwayLine[openingYear]>(owner|Network_Rail)>(type|Passenger_rail_terminology)>(isPartOf|National_Rail)", 
+      0.2325
+    ], 
+    [
+      "RailwayLine[openingYear]>(owner|Network_Rail)>(type|Passenger_rail_terminology)", 
+      0.2333
+    ], 
+    [
+      "RailwayLine[openingYear]>(owner|Network_Rail)", 
+      0.2424
+    ], 
+    [
+      "Station[openingYear]>(operatedBy|Northern_Rail)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2454
+    ], 
+    [
+      "Station[openingYear]>(operatedBy|Northern_Rail)", 
+      0.2468
+    ], 
+    [
+      "MilitaryPerson[serviceEndYear]>(battle|Mexican%E2%80%93American_War)", 
+      0.25
+    ], 
+    [
+      "Station[openingYear]>(location|Germany)>(location|Bavaria)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.25
+    ], 
+    [
+      "Location[openingYear]>(country|United_Kingdom)>(location|East_Riding_of_Yorkshire)", 
+      0.25
+    ], 
+    [
+      "Location[openingYear]>(country|United_Kingdom)>(operatedBy|First_Great_Western)", 
+      0.25
+    ]
+  ], 
+  "values": [
+    1850.0, 
+    1903.0, 
+    1805.0, 
+    1863.0
+  ]
+}

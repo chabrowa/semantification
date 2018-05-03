@@ -1,0 +1,267 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/width"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "width", 
+          0.0788
+        ], 
+        [
+          "elevation", 
+          0.0848
+        ], 
+        [
+          "populationTotal", 
+          0.0963
+        ]
+      ], 
+      "maj": [
+        [
+          "width", 
+          4.0
+        ], 
+        [
+          "elevation", 
+          4.0
+        ], 
+        [
+          "populationTotal", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          0.0788
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.0788
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          0.0802
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          0.0825
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.0832
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.0848
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.0848
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (width)", 
+          0.091
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0963
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.0963
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0963
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.0963
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          18.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "RouteOfTransportation[width]", 
+      0.0739
+    ], 
+    [
+      "ArchitecturalStructure[width]", 
+      0.0745
+    ], 
+    [
+      "Infrastructure[width]", 
+      0.0757
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|New_York)>(isPartOf|Suffolk_County,_New_York)>(country|United_States)>(type|Administrative_divisions_of_New_York)", 
+      0.0789
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|New_York)>(isPartOf|Suffolk_County,_New_York)>(country|United_States)>(type|Administrative_divisions_of_New_York)>(type|Census-designated_place)", 
+      0.0804
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|New_York)>(isPartOf|Suffolk_County,_New_York)>(country|United_States)", 
+      0.0815
+    ], 
+    [
+      "Bridge[width]", 
+      0.091
+    ], 
+    [
+      "Location[populationTotal]>(country|Poland)>(type|Human_settlement)>(isPartOf|Pomeranian_Voivodeship)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0963
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Poland)>(type|Human_settlement)>(isPartOf|Pomeranian_Voivodeship)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0963
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|New_York)>(isPartOf|Suffolk_County,_New_York)", 
+      0.0984
+    ]
+  ], 
+  "values": [
+    5.688003514623519, 
+    4.215711354488631, 
+    10.710261035412945, 
+    31.693621998578056, 
+    29.313224165139545, 
+    23.941430845953903, 
+    12.258721767179129, 
+    17.134164143443147, 
+    23.405161575783154, 
+    12.154703580415958, 
+    33.512105461366666, 
+    38.49335808041774, 
+    22.493294653995527, 
+    13.622881964457202, 
+    6.209325647585377, 
+    6.076319755859128, 
+    2.6312641503322776, 
+    18.21325124700069, 
+    8.85811203860303, 
+    2.5432110311920737, 
+    4.848350073284548, 
+    18.600455787116477, 
+    12.41483858684554, 
+    8.781714320194919, 
+    6.226799317757723, 
+    3.4460098534619514, 
+    19.832198228670975, 
+    23.683227937720236, 
+    13.125576518352618, 
+    9.08039037294561, 
+    4.0952564593277225, 
+    12.918719692343439, 
+    9.624013415656872, 
+    44.939070425816695, 
+    4.449996957976457, 
+    5.504486460463896, 
+    35.351945459479225, 
+    11.775224055588104, 
+    6.33175684462104, 
+    41.53254563094488, 
+    8.655149135079848, 
+    28.24655392502532, 
+    11.671477388658541, 
+    103225.87649305971, 
+    3.143460750935614, 
+    22.95636704577171, 
+    18.61695511338902, 
+    1.168586766981278, 
+    23.57429141790102, 
+    11.460776441720812, 
+    8.715566401959927, 
+    7.510262479091926, 
+    26.98532758195742, 
+    23319.331904555045, 
+    8.951618782582399, 
+    8.07583725942984, 
+    3.6834270138016296, 
+    48.237740951392595, 
+    33.41053171282894, 
+    26.65895469171126, 
+    8.738633036244957, 
+    13.95752849321914, 
+    4.329630601038619, 
+    3.030674829176382, 
+    5.665387599225534, 
+    36.88902107994186, 
+    8.2529500569262, 
+    20.328813983193587, 
+    10.140081753825521, 
+    4.544722362089239, 
+    17.01190791415269, 
+    32.97819655141863, 
+    25.241079690385387, 
+    11.826418122693381, 
+    32.77845852940418, 
+    12.590768566019186, 
+    12.276583895599344, 
+    9.416996979173792, 
+    30.61894891365393, 
+    27.67609370897304, 
+    13.417062333029218, 
+    30.20563503959754, 
+    12.677648920966782, 
+    2.57965576547047
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/maximumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "length", 
+          0.0856
+        ], 
+        [
+          "minimumElevation", 
+          0.0908
+        ], 
+        [
+          "maximumElevation", 
+          0.1004
+        ]
+      ], 
+      "maj": [
+        [
+          "maximumElevation", 
+          5.0
+        ], 
+        [
+          "length", 
+          4.0
+        ], 
+        [
+          "minimumElevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          0.0836
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (length)", 
+          0.0862
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.0862
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          0.0862
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          0.0862
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.0908
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (minimumElevation)", 
+          0.0908
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (minimumElevation)", 
+          0.0908
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (minimumElevation)", 
+          0.0908
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (maximumElevation)", 
+          0.0971
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (maximumElevation)", 
+          0.0972
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (maximumElevation)", 
+          0.0972
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.0991
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          0.1052
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          0.1052
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          0.1052
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Dam (length)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (minimumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[length]>(22-rdf-syntax-ns#type|_Feature)>(owner|India)", 
+      0.0836
+    ], 
+    [
+      "Dam[length]>(owner|Government_of_Maharashtra)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0849
+    ], 
+    [
+      "Dam[length]>(owner|Government_of_Maharashtra)>(22-rdf-syntax-ns#type|_Feature)>(owner|India)", 
+      0.0867
+    ], 
+    [
+      "Dam[length]>(owner|Government_of_Maharashtra)", 
+      0.0871
+    ], 
+    [
+      "SkiArea[minimumElevation]>(location|United_States)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0908
+    ], 
+    [
+      "ArchitecturalStructure[maximumElevation]", 
+      0.097
+    ], 
+    [
+      "SportFacility[maximumElevation]", 
+      0.0972
+    ], 
+    [
+      "SkiArea[maximumElevation]", 
+      0.0972
+    ], 
+    [
+      "Location[maximumElevation]>(region|Rh%C3%B4ne-Alpes)>(department|Savoie)", 
+      0.1052
+    ], 
+    [
+      "Settlement[maximumElevation]>(region|Rh%C3%B4ne-Alpes)>(department|Savoie)", 
+      0.1052
+    ]
+  ], 
+  "values": [
+    3032.8461204829323, 
+    2860.2067966479294, 
+    423.6601929287982, 
+    3464.8431999130516, 
+    994.2707747146187, 
+    756.8887980953699, 
+    2975.387091854598, 
+    3337.8751746880066, 
+    1039.6443060471224, 
+    2511.822334666719, 
+    1795.9910565563368, 
+    2711.7036690314817, 
+    299.6563206284238, 
+    539.5701079535789, 
+    229.75463958310607, 
+    1638.8320919172183, 
+    178.5866602311554, 
+    582.3286416953689, 
+    1525.4386719890988, 
+    2273.4506401078065, 
+    1883.0136566929332, 
+    2685.9919096001804, 
+    3213.0353962733743, 
+    867.4501960337633, 
+    1354.4609632225945, 
+    1863.0487088935479, 
+    2017.1614187256987, 
+    2750.6487201456493, 
+    268.97444789198295, 
+    319.853929551226, 
+    1997.313060649714, 
+    692.5746035159103, 
+    2883.436066872596, 
+    2512.891563944749, 
+    1038.7465165607941, 
+    473.6963371669983, 
+    2588.466983790895, 
+    1503.3628449237171, 
+    3352.0498160931697, 
+    848.5862906756117, 
+    1326.6041629684764, 
+    491.6082470031712, 
+    1416.590629300155, 
+    2917.442414509276, 
+    437.956102903338, 
+    1751.6269855656258, 
+    2824.3548188649684, 
+    2582.8501757867602, 
+    1120.157752740321, 
+    3537.193915784851, 
+    2168.3988549065284, 
+    2145.237881201945, 
+    1012.3487765982251, 
+    2091.554586178131, 
+    0.0, 
+    461.1403881655657, 
+    2458.041830396057, 
+    910.2084425851979, 
+    1294.211255179133, 
+    1644.0072176747885, 
+    1486.733081001907, 
+    1913.9043469631365, 
+    395.11933719022926, 
+    1607.8840808732084, 
+    1566.6785369145243, 
+    2061.1913867976155, 
+    394.8266729568705, 
+    2377.7719686002793, 
+    1584.8509173747473, 
+    1517.8925179566495, 
+    1838.0713968467871, 
+    1992.3059373795893, 
+    1181.0355194395831, 
+    3098.4189744850805, 
+    1889.8935896686116, 
+    1130.0510854117774, 
+    1484.4667692262342, 
+    331.9860799298801, 
+    2588.562282639395
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEpisodes"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.1529
+        ], 
+        [
+          "width", 
+          0.1646
+        ], 
+        [
+          "height", 
+          0.1695
+        ], 
+        [
+          "number", 
+          0.182
+        ], 
+        [
+          "squadNumber", 
+          0.1865
+        ]
+      ], 
+      "maj": [
+        [
+          "number", 
+          3.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ], 
+        [
+          "width", 
+          2.0
+        ], 
+        [
+          "height", 
+          2.0
+        ], 
+        [
+          "squadNumber", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1468
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1589
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.1589
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.1589
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1589
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          0.1646
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.1646
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          0.1646
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          0.1646
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (width)", 
+          0.1656
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.1695
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (height)", 
+          0.1695
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (height)", 
+          0.1695
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.1695
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          0.1818
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.182
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.182
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.182
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          0.1823
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (squadNumber)", 
+          0.1865
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (squadNumber)", 
+          0.1865
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Bridge (width)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (squadNumber)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (squadNumber)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationDensity]>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Centre-du-Qu%C3%A9bec)", 
+      0.1468
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Mississippi)", 
+      0.1589
+    ], 
+    [
+      "Bridge[width]>(type|Cantilever_bridge)", 
+      0.1597
+    ], 
+    [
+      "Lighthouse[height]", 
+      0.1695
+    ], 
+    [
+      "Tower[height]", 
+      0.1695
+    ], 
+    [
+      "Bridge[width]>(type|Arch_bridge)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1696
+    ], 
+    [
+      "BasketballPlayer[number]>(league|Eurocup_Basketball)", 
+      0.1779
+    ], 
+    [
+      "SoccerPlayer[number]", 
+      0.1823
+    ], 
+    [
+      "BasketballPlayer[number]>(league|Euroleague_Basketball)", 
+      0.1858
+    ], 
+    [
+      "Person[squadNumber]", 
+      0.1865
+    ]
+  ], 
+  "values": [
+    13.0, 
+    28.0, 
+    8.0, 
+    20.0, 
+    74.0, 
+    16.0, 
+    30.0, 
+    9.0, 
+    22.0, 
+    14.0, 
+    8.0, 
+    13.0, 
+    7.0, 
+    6.0, 
+    18.0, 
+    12.0, 
+    13.0, 
+    23.0, 
+    22.0, 
+    11.0, 
+    17.0, 
+    12.0, 
+    16.0, 
+    35.0, 
+    11.0, 
+    13.0, 
+    9.0, 
+    22.0, 
+    14.0, 
+    15.0, 
+    12.0
+  ]
+}

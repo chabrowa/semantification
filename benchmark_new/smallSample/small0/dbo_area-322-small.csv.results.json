@@ -1,0 +1,136 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/area"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "area", 
+          0.0
+        ]
+      ], 
+      "maj": [
+        [
+          "area", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          0.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          0.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (area)", 
+          0.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (area)", 
+          0.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (area)", 
+          0.0
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (area)", 
+          27.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (area)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (area)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          3.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[area]>(timeZone|Eastern_Time_Zone)>(isPartOf|Indiana)", 
+      0.0
+    ], 
+    [
+      "Location[area]>(timeZone|Eastern_Time_Zone)>(country|Canada)", 
+      0.0
+    ], 
+    [
+      "Location[area]>(timeZone|Eastern_Time_Zone)>(type|New_England_town)>(isPartOf|New_Hampshire)", 
+      0.0
+    ], 
+    [
+      "Location[area]>(timeZone|Eastern_Time_Zone)>(type|New_England_town)>(isPartOf|New_Hampshire)>(country|United_States)", 
+      0.0
+    ], 
+    [
+      "Location[area]>(timeZone|Eastern_Time_Zone)>(isPartOf|Indiana)>(type|Town)", 
+      0.0
+    ], 
+    [
+      "Location[area]>(timeZone|Eastern_Time_Zone)>(isPartOf|Indiana)>(type|City)", 
+      0.0
+    ], 
+    [
+      "Location[area]>(timeZone|Eastern_Time_Zone)>(country|Canada)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0
+    ], 
+    [
+      "Settlement[area]>(timeZone|Eastern_Time_Zone)", 
+      0.0
+    ], 
+    [
+      "Town[area]>(isPartOf|New_Hampshire)", 
+      0.0
+    ], 
+    [
+      "Town[area]>(isPartOf|Indiana)", 
+      0.0
+    ]
+  ], 
+  "values": [
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0
+  ]
+}

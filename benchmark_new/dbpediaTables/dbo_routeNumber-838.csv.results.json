@@ -1,0 +1,282 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/routeNumber"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "minimumElevation", 
+          0.0764
+        ], 
+        [
+          "elevation", 
+          0.1323
+        ], 
+        [
+          "populationDensity", 
+          0.1342
+        ], 
+        [
+          "populationTotal", 
+          0.1434
+        ], 
+        [
+          "height", 
+          0.1475
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "minimumElevation", 
+          2.0
+        ], 
+        [
+          "populationTotal", 
+          2.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ], 
+        [
+          "height", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.0758
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.0758
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.0758
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.0771
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1312
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (elevation)", 
+          0.1314
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (elevation)", 
+          0.1314
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          0.1314
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1323
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1342
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1342
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1342
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1342
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.1401
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1434
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1434
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1434
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1434
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1434
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (height)", 
+          0.1475
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[minimumElevation]>(region|Pays_de_la_Loire)>(department|Maine-et-Loire)", 
+      0.0758
+    ], 
+    [
+      "Location[minimumElevation]>(region|Pays_de_la_Loire)>(department|Maine-et-Loire)", 
+      0.0771
+    ], 
+    [
+      "Settlement[populationDensity]>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Mont%C3%A9r%C3%A9gie)", 
+      0.1282
+    ], 
+    [
+      "Lighthouse[elevation]", 
+      0.1314
+    ], 
+    [
+      "Tower[elevation]", 
+      0.1314
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Rostock_(district))", 
+      0.1342
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Ohio)", 
+      0.1401
+    ], 
+    [
+      "Location[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Chahar_Gonbad_Rural_District)", 
+      0.1434
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Chahar_Gonbad_Rural_District)", 
+      0.1434
+    ], 
+    [
+      "Location[height]>(location|South_Africa)", 
+      0.1475
+    ]
+  ], 
+  "values": [
+    23.0, 
+    10.0, 
+    13.0, 
+    15.0, 
+    19.0, 
+    20.0, 
+    25.0, 
+    30.0, 
+    31.0, 
+    35.0, 
+    40.0, 
+    5.0, 
+    50.0, 
+    55.0, 
+    70.0, 
+    73.0, 
+    85.0, 
+    33.0, 
+    20.0
+  ]
+}

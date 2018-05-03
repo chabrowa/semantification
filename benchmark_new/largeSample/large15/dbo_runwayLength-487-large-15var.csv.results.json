@@ -1,0 +1,298 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runwayLength"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "runwayLength", 
+          0.1812
+        ], 
+        [
+          "foundingYear", 
+          0.2198
+        ], 
+        [
+          "populationTotal", 
+          0.2404
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.2425
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.2474
+        ]
+      ], 
+      "maj": [
+        [
+          "runwayLength", 
+          4.0
+        ], 
+        [
+          "populationTotal", 
+          3.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          1.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          1.0
+        ], 
+        [
+          "foundingYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (runwayLength)", 
+          0.1812
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (runwayLength)", 
+          0.1812
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (runwayLength)", 
+          0.1812
+        ], 
+        [
+          "http://dbpedia.org/ontology/Airport (runwayLength)", 
+          0.1917
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (runwayLength)", 
+          0.1917
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.2174
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.2174
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (foundingYear)", 
+          0.2198
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2404
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2404
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.2425
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.2425
+        ], 
+        [
+          "http://dbpedia.org/ontology/Monarch (activeYearsEndYear)", 
+          0.2425
+        ], 
+        [
+          "http://dbpedia.org/ontology/Monarch (activeYearsStartYear)", 
+          0.2474
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.2474
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          0.2474
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (populationTotal)", 
+          0.2524
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Airport (runwayLength)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (runwayLength)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (runwayLength)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (runwayLength)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (runwayLength)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Monarch (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Monarch (activeYearsEndYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Airport[runwayLength]>(operator|Royal_Air_Force)", 
+      0.1288
+    ], 
+    [
+      "Location[runwayLength]>(operator|Royal_Air_Force)", 
+      0.1288
+    ], 
+    [
+      "Village[populationTotal]>(timeZone|Eastern_Time_Zone)>(type|Types_of_municipalities_in_Quebec)", 
+      0.2174
+    ], 
+    [
+      "Location[foundingYear]>(governmentType|Monarchy)", 
+      0.2198
+    ], 
+    [
+      "Airport[runwayLength]>(operator|Royal_Air_Force)>(owner|Air_Ministry)", 
+      0.2336
+    ], 
+    [
+      "Location[runwayLength]>(operator|Royal_Air_Force)>(owner|Air_Ministry)", 
+      0.2336
+    ], 
+    [
+      "Monarch[activeYearsEndYear]", 
+      0.2425
+    ], 
+    [
+      "Monarch[activeYearsStartYear]", 
+      0.2474
+    ], 
+    [
+      "Island[populationTotal]>(country|United_States)", 
+      0.2497
+    ], 
+    [
+      "Island[populationTotal]>(country|United_States)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2542
+    ]
+  ], 
+  "values": [
+    0.0, 
+    1480.2305172449433, 
+    2743.1924030732825, 
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    1257.81781990756, 
+    1780.5713948423167, 
+    0.0, 
+    0.0, 
+    0.0, 
+    2304.2917914434543, 
+    1193.1965363705135, 
+    1387.6224390755858, 
+    1560.4602541087038, 
+    1133.5580110264955, 
+    3205.0958150425913, 
+    724.3000675287745, 
+    0.0, 
+    1116.1776969132688, 
+    2045.1098454498174, 
+    805.2804868564343, 
+    1716.1075528047086, 
+    2318.965694364496, 
+    0.0, 
+    0.0, 
+    1640.7661660356614, 
+    1038.088006433223, 
+    667.8001658961406, 
+    984.975966684726, 
+    1184.987666529895, 
+    1453.4183808839803, 
+    1400.260714076848, 
+    431.59183383849216, 
+    873.5259264743553, 
+    0.0, 
+    0.0, 
+    752.8226527465891, 
+    0.0, 
+    0.0, 
+    890.2523834979809, 
+    2261.521078194085, 
+    1378.8191049522616, 
+    2841.913057097425, 
+    964.1393518016847, 
+    1879.7117577804747, 
+    1653.3585674194196, 
+    1070.1872326072337, 
+    2465.294904417891, 
+    0.0, 
+    0.0, 
+    1143.104205474795, 
+    1426.3916486102162, 
+    1572.8227516346985, 
+    0.0, 
+    1106.750724593917, 
+    599.8282871516066, 
+    0.0
+  ]
+}

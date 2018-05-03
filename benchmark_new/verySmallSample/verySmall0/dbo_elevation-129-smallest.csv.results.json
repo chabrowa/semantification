@@ -1,0 +1,283 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/elevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1036
+        ], 
+        [
+          "populationDensity", 
+          0.1065
+        ], 
+        [
+          "elevation", 
+          0.108
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          7.0
+        ], 
+        [
+          "populationTotal", 
+          2.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1036
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1036
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1036
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.104
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.1047
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1059
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1059
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1065
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.108
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.108
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.108
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1098
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          17.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[populationTotal]>(isPartOf|Fars_Province)>(isPartOf|Eqlid_County)", 
+      0.1012
+    ], 
+    [
+      "Town[populationDensity]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(country|United_States)>(type|Town)", 
+      0.103
+    ], 
+    [
+      "Town[populationDensity]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(country|United_States)", 
+      0.1033
+    ], 
+    [
+      "Town[populationDensity]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)", 
+      0.1037
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|North_Carolina)", 
+      0.1056
+    ], 
+    [
+      "Village[populationTotal]>(timeZone|Central_European_Time)>(country|Croatia)>(type|Village)", 
+      0.106
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(region|Provence-Alpes-C%C3%B4te_d'Azur)", 
+      0.108
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|North_Carolina)>(type|Town)", 
+      0.1097
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|North_Carolina)>(type|Town)", 
+      0.1098
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Georgia_(U.S._state))", 
+      0.11
+    ]
+  ], 
+  "values": [
+    40.0, 
+    273.101, 
+    267.005, 
+    274.0, 
+    224.028, 
+    264.0, 
+    544.068, 
+    481.889, 
+    2014.0, 
+    24.9936, 
+    1783.99, 
+    650.748, 
+    51.0, 
+    417.881, 
+    284.988, 
+    1688.0, 
+    1.0, 
+    341.07099999999997, 
+    340.0, 
+    342.9, 
+    1010.11, 
+    250.0, 
+    346.86199999999997, 
+    2.1336, 
+    576.0, 
+    306.0, 
+    204.0, 
+    4.0, 
+    666.9019999999999, 
+    858.0, 
+    352.958, 
+    139.0, 
+    42.0624, 
+    291.998, 
+    356.0, 
+    188.0, 
+    378.866, 
+    217.93200000000002, 
+    156.972, 
+    221.894, 
+    1267.97, 
+    285.0, 
+    197.669, 
+    321.0, 
+    366.065, 
+    406.0, 
+    2.0, 
+    83.0, 
+    289.865, 
+    421.0, 
+    287.0, 
+    37.0, 
+    110.03299999999999, 
+    33.0, 
+    90.0, 
+    14.0, 
+    1360.93, 
+    111.0, 
+    1812.04, 
+    106.0, 
+    303.0, 
+    262.128, 
+    155.143, 
+    15.0, 
+    880.0, 
+    297.0, 
+    523.951, 
+    213.97, 
+    463.906, 
+    274.93, 
+    166.11599999999999, 
+    497.129, 
+    167.0, 
+    1110.0, 
+    1342.95, 
+    302.0, 
+    455.981, 
+    331.92699999999996, 
+    266.09, 
+    295.046, 
+    310.89599999999996, 
+    520.0, 
+    141.0, 
+    266.0, 
+    432.0, 
+    310.0, 
+    373.075, 
+    262.0, 
+    7.0, 
+    3.0, 
+    398.983, 
+    360.0, 
+    1464.0, 
+    183.0, 
+    70.0, 
+    803.0, 
+    384.048, 
+    266.09, 
+    283.0, 
+    120.0
+  ]
+}

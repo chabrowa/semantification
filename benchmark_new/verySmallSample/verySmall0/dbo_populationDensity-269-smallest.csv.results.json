@@ -1,0 +1,298 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationDensity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "height", 
+          0.1206
+        ], 
+        [
+          "elevation", 
+          0.1242
+        ], 
+        [
+          "populationDensity", 
+          0.1329
+        ], 
+        [
+          "minimumElevation", 
+          0.1369
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "populationDensity", 
+          3.0
+        ], 
+        [
+          "minimumElevation", 
+          2.0
+        ], 
+        [
+          "height", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1205
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.1206
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          0.1206
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.1206
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (height)", 
+          0.1206
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.124
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.124
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1261
+        ], 
+        [
+          "http://dbpedia.org/ontology/Airport (elevation)", 
+          0.1283
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (elevation)", 
+          0.1283
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          0.1283
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1301
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.1301
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1301
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1301
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (height)", 
+          0.131
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.1369
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.1369
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1369
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.1369
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1384
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Airport (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (height)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "RouteOfTransportation[height]", 
+      0.1102
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Contra_Costa_County,_California)>(timeZone|Pacific_Time_Zone)", 
+      0.1205
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(federalState|Lower_Saxony)", 
+      0.124
+    ], 
+    [
+      "Airport[elevation]>(operator|Royal_Air_Force)", 
+      0.1283
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|New_York)>(type|Administrative_divisions_of_New_York)>(country|United_States)", 
+      0.1301
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|New_York)>(type|Administrative_divisions_of_New_York)>(country|United_States)>(timeZone|Eastern_Time_Zone)", 
+      0.1301
+    ], 
+    [
+      "Bridge[height]", 
+      0.131
+    ], 
+    [
+      "Location[minimumElevation]>(department|Calvados)", 
+      0.1369
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Calvados)", 
+      0.1369
+    ], 
+    [
+      "Location[populationDensity]>(type|New_England_town)", 
+      0.1384
+    ]
+  ], 
+  "values": [
+    23.9383, 
+    56.3709, 
+    35.9075, 
+    18.1468, 
+    6.949839999999999, 
+    83.3981, 
+    23.5522, 
+    803.865, 
+    0.810815, 
+    115.445, 
+    27.4133, 
+    0.772204, 
+    34.7492, 
+    13.5136, 
+    75.2899, 
+    145.561, 
+    1.4, 
+    163.7, 
+    77.6065, 
+    8.0, 
+    6.563739999999999, 
+    80.6954, 
+    11.9692, 
+    266.797, 
+    140.155, 
+    13.5136, 
+    7.72204, 
+    81.4676, 
+    6.177630000000001, 
+    49.4211, 
+    5.40543, 
+    38.2241, 
+    84.1703, 
+    4.24712, 
+    134.0
+  ]
+}

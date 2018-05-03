@@ -1,0 +1,211 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.0888
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.0869
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.0877
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0896
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0896
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          0.0915
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          7.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "City[populationTotal]>(isPartOf|Minnesota)", 
+      0.0794
+    ], 
+    [
+      "Settlement[populationTotal]>(type|Census-designated_place)>(isPartOf|Maryland)>(country|United_States)", 
+      0.08
+    ], 
+    [
+      "Location[populationTotal]>(country|Spain)", 
+      0.0819
+    ], 
+    [
+      "Settlement[populationTotal]", 
+      0.0875
+    ], 
+    [
+      "Location[populationTotal]>(country|Spain)>(isPartOf|Province_of_Castell%C3%B3n)", 
+      0.0877
+    ], 
+    [
+      "Location[populationTotal]>(country|England)", 
+      0.0906
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|Minnesota)>(timeZone|Central_Time_Zone)", 
+      0.092
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|Cumbria)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.094
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|Minnesota)>(timeZone|Central_Time_Zone)>(country|United_States)", 
+      0.0971
+    ], 
+    [
+      "PopulatedPlace[populationTotal]", 
+      0.0973
+    ]
+  ], 
+  "values": [
+    5214.0, 
+    92.0, 
+    23741.0, 
+    2153.0, 
+    3585.0, 
+    971.0, 
+    1334.0, 
+    361.0, 
+    66.0, 
+    1600.0, 
+    198.0, 
+    955.0, 
+    534.0, 
+    137689.0, 
+    17576.0, 
+    162.0, 
+    77.0, 
+    1504.0, 
+    1151.0, 
+    7712.0, 
+    264.0, 
+    87.0, 
+    136010.0, 
+    2314.0, 
+    164.0, 
+    6198.0, 
+    88.0, 
+    187.0, 
+    1080.0, 
+    717225.0, 
+    1158.0, 
+    265.0, 
+    18000.0, 
+    80.0, 
+    7365.0, 
+    18983.0, 
+    5234.0, 
+    645.0, 
+    711.0, 
+    1480.0, 
+    112.0, 
+    71.0, 
+    295.0, 
+    7802.0, 
+    529.0, 
+    27.0, 
+    898.0, 
+    155.0, 
+    70.0, 
+    2030.0, 
+    336600.0, 
+    61705.0, 
+    164.0, 
+    3131.0, 
+    673.0, 
+    357.0, 
+    417.0, 
+    769.0, 
+    434469.0, 
+    1690.0, 
+    326.0, 
+    2040.0, 
+    2853.0, 
+    1568.0, 
+    30.0, 
+    1777.0, 
+    275.0, 
+    5629.0, 
+    536.0, 
+    51.0, 
+    133.0, 
+    5501.0, 
+    135.0, 
+    735.0, 
+    480.0, 
+    1600000000.0, 
+    174860.0, 
+    168.0, 
+    2054.0, 
+    668.0, 
+    379.0, 
+    16.0, 
+    210.0, 
+    1156.0, 
+    120.0, 
+    1970.0, 
+    48110.0, 
+    418.0, 
+    232.0, 
+    1198.0, 
+    11135.0, 
+    1210.0, 
+    948.0, 
+    104500.0, 
+    386.0, 
+    404.0, 
+    487.0, 
+    91.0, 
+    258.0, 
+    58.0
+  ]
+}

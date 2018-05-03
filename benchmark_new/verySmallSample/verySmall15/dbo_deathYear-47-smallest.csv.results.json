@@ -1,0 +1,216 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/deathYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "yearOfConstruction", 
+          0.3301
+        ], 
+        [
+          "openingYear", 
+          0.3304
+        ], 
+        [
+          "year", 
+          0.3328
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.3332
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          4.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          2.0
+        ], 
+        [
+          "yearOfConstruction", 
+          2.0
+        ], 
+        [
+          "year", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          0.3242
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.3242
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.3281
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.3281
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.3281
+        ], 
+        [
+          "http://dbpedia.org/ontology/Train (yearOfConstruction)", 
+          0.3301
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (yearOfConstruction)", 
+          0.3301
+        ], 
+        [
+          "http://dbpedia.org/ontology/PowerStation (openingYear)", 
+          0.332
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          0.3325
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          0.3326
+        ], 
+        [
+          "http://dbpedia.org/ontology/Sales (year)", 
+          0.3328
+        ], 
+        [
+          "http://dbpedia.org/ontology/Activity (year)", 
+          0.3328
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          0.3331
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.3332
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Activity (year)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (yearOfConstruction)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Train (yearOfConstruction)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Sales (year)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PowerStation (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "RailwayLine[openingYear]>(type|Light_rail)", 
+      0.3242
+    ], 
+    [
+      "Train[yearOfConstruction]", 
+      0.3301
+    ], 
+    [
+      "MeanOfTransportation[yearOfConstruction]", 
+      0.3301
+    ], 
+    [
+      "PowerStation[openingYear]", 
+      0.332
+    ], 
+    [
+      "Organisation[openingYear]", 
+      0.3325
+    ], 
+    [
+      "Agent[openingYear]", 
+      0.3326
+    ], 
+    [
+      "Activity[year]", 
+      0.3328
+    ], 
+    [
+      "Sales[year]", 
+      0.3328
+    ], 
+    [
+      "Person[activeYearsStartYear]", 
+      0.3331
+    ], 
+    [
+      "Agent[activeYearsStartYear]", 
+      0.3332
+    ]
+  ], 
+  "values": [
+    1990.0, 
+    1929.0, 
+    2021.0, 
+    1827.0, 
+    2089.0, 
+    1798.0, 
+    2001.0, 
+    2075.0, 
+    2006.0
+  ]
+}

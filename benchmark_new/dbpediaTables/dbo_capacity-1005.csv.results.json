@@ -1,0 +1,227 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/capacity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.25
+        ], 
+        [
+          "elevation", 
+          0.2892
+        ], 
+        [
+          "populationTotal", 
+          0.2895
+        ], 
+        [
+          "minimumElevation", 
+          0.2903
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          5.0
+        ], 
+        [
+          "minimumElevation", 
+          2.0
+        ], 
+        [
+          "populationTotal", 
+          2.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.25
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.25
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.25
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.2826
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2892
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2892
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2892
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2895
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.2895
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2895
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.2895
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.2898
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.2907
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.2907
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.2907
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.2932
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[populationDensity]>(type|New_England_town)", 
+      0.25
+    ], 
+    [
+      "Town[elevation]>(country|Republic_of_Ireland)>(isPartOf|Connacht)>(timeZone|Time_in_Ireland)", 
+      0.2778
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Lorestan_Province)>(isPartOf|Kakavand-e_Sharqi_Rural_District)", 
+      0.2873
+    ], 
+    [
+      "Town[elevation]>(country|Republic_of_Ireland)>(isPartOf|Leinster)", 
+      0.289
+    ], 
+    [
+      "Location[minimumElevation]>(department|Aisne)", 
+      0.2898
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Aisne)", 
+      0.2907
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Khuzestan_Province)>(isPartOf|Central_District_(Ramshir_County))", 
+      0.2917
+    ], 
+    [
+      "Village[elevation]>(timeZone|Time_in_Ireland)>(isPartOf|Connacht)>(country|Republic_of_Ireland)", 
+      0.2917
+    ], 
+    [
+      "Village[elevation]>(timeZone|Time_in_Ireland)>(isPartOf|Leinster)", 
+      0.2921
+    ], 
+    [
+      "Village[elevation]>(timeZone|Time_in_Ireland)>(isPartOf|Leinster)>(country|Republic_of_Ireland)", 
+      0.2955
+    ]
+  ], 
+  "values": [
+    70.0, 
+    56.0, 
+    70.0, 
+    25189.0
+  ]
+}

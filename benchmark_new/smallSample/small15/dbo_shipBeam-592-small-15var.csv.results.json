@@ -1,0 +1,250 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/shipBeam"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfEpisodes", 
+          0.1676
+        ], 
+        [
+          "number", 
+          0.3129
+        ], 
+        [
+          "width", 
+          0.3147
+        ], 
+        [
+          "populationDensity", 
+          0.3318
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          4.0
+        ], 
+        [
+          "width", 
+          3.0
+        ], 
+        [
+          "number", 
+          2.0
+        ], 
+        [
+          "numberOfEpisodes", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          0.1676
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionSeason (numberOfEpisodes)", 
+          0.1676
+        ], 
+        [
+          "http://dbpedia.org/ontology/RoadTunnel (width)", 
+          0.2775
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          0.2775
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          0.2775
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.3054
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.3077
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.3129
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.3129
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          0.3147
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsManager (number)", 
+          0.3182
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerManager (number)", 
+          0.3182
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.3302
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.3302
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.3302
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.3302
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.3324
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (width)", 
+          0.3333
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerManager (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionSeason (numberOfEpisodes)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsManager (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RoadTunnel (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "TelevisionSeason[numberOfEpisodes]>(country|United_Kingdom)", 
+      0.1676
+    ], 
+    [
+      "RoadTunnel[width]", 
+      0.2775
+    ], 
+    [
+      "Athlete[number]>(position|Midfielder)", 
+      0.3077
+    ], 
+    [
+      "SoccerManager[number]>(position|Midfielder)", 
+      0.3182
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Missouri)>(type|Township_(United_States))", 
+      0.3302
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Missouri)>(type|Township_(United_States))", 
+      0.3302
+    ], 
+    [
+      "Location[width]>(type|Truss_bridge)", 
+      0.3333
+    ], 
+    [
+      "ArchitecturalStructure[width]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3333
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Zamora)", 
+      0.3333
+    ], 
+    [
+      "Location[populationDensity]>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Estrie)>(country|Canada)", 
+      0.3333
+    ]
+  ], 
+  "values": [
+    8.447996773264332, 
+    8.873198393060818, 
+    13.174401197165844, 
+    9.510268929862661, 
+    4.936847820590703, 
+    8.4032269638626, 
+    9.37291332922441, 
+    7.841770356923397, 
+    12.55610986039125, 
+    11.855690376868335, 
+    12.101490393859269
+  ]
+}

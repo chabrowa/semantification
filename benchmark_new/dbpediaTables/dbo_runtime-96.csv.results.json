@@ -1,0 +1,248 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "length", 
+          0.5
+        ], 
+        [
+          "postalCode", 
+          0.5
+        ], 
+        [
+          "width", 
+          0.5
+        ], 
+        [
+          "numberOfEmployees", 
+          0.5
+        ], 
+        [
+          "populationTotal", 
+          0.5003
+        ], 
+        [
+          "areaWater", 
+          0.503
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          4.0
+        ], 
+        [
+          "postalCode", 
+          2.0
+        ], 
+        [
+          "length", 
+          1.0
+        ], 
+        [
+          "width", 
+          1.0
+        ], 
+        [
+          "numberOfEmployees", 
+          1.0
+        ], 
+        [
+          "areaWater", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (numberOfEmployees)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.5006
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.5006
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.5006
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.5012
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.503
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (numberOfEmployees)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Infrastructure[width]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5
+    ], 
+    [
+      "Location[populationTotal]>(type|Village_development_committee)>(isPartOf|Mahottari_District)", 
+      0.5
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(region|Tuscany)", 
+      0.5
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|Missouri)>(isPartOf|St._Louis_County,_Missouri)", 
+      0.5
+    ], 
+    [
+      "Location[length]>(22-rdf-syntax-ns#type|_Feature)>(location|Antarctica)>(country|Antarctica)", 
+      0.5
+    ], 
+    [
+      "Company[numberOfEmployees]>(keyPerson|Chief_executive_officer)", 
+      0.5
+    ], 
+    [
+      "PopulatedPlace[postalCode]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5
+    ], 
+    [
+      "Settlement[postalCode]>(country|Austria)>(state|Salzburg_(state))", 
+      0.5
+    ], 
+    [
+      "Village[populationTotal]>(country|India)", 
+      0.5012
+    ], 
+    [
+      "Location[areaWater]>(type|Administrative_divisions_of_New_York)>(isPartOf|Nassau_County,_New_York)", 
+      0.503
+    ]
+  ], 
+  "values": [
+    5460.0
+  ]
+}

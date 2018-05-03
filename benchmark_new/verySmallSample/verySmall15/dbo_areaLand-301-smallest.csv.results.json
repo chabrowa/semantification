@@ -1,0 +1,241 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaLand"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaLand", 
+          0.1498
+        ], 
+        [
+          "area", 
+          0.1848
+        ], 
+        [
+          "areaTotal", 
+          0.2022
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          5.0
+        ], 
+        [
+          "areaLand", 
+          4.0
+        ], 
+        [
+          "area", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.1498
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaLand)", 
+          0.1498
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.1498
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaLand)", 
+          0.1709
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          0.1848
+        ], 
+        [
+          "http://dbpedia.org/ontology/ClericalAdministrativeRegion (area)", 
+          0.1848
+        ], 
+        [
+          "http://dbpedia.org/ontology/Diocese (area)", 
+          0.1848
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          0.1848
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (area)", 
+          0.1848
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (area)", 
+          0.1848
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaTotal)", 
+          0.1956
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaTotal)", 
+          0.2002
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.2022
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.2022
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.2098
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaLand)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaLand)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Diocese (area)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ClericalAdministrativeRegion (area)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (area)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (area)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Region[areaLand]", 
+      0.1145
+    ], 
+    [
+      "AdministrativeRegion[areaLand]", 
+      0.1145
+    ], 
+    [
+      "AdministrativeRegion[areaTotal]>(state|Illinois)", 
+      0.175
+    ], 
+    [
+      "Diocese[area]>(country|Italy)", 
+      0.1848
+    ], 
+    [
+      "AdministrativeRegion[areaLand]>(state|Illinois)", 
+      0.1849
+    ], 
+    [
+      "AdministrativeRegion[areaLand]>(state|Pennsylvania)", 
+      0.1852
+    ], 
+    [
+      "Region[areaTotal]", 
+      0.208
+    ], 
+    [
+      "AdministrativeRegion[areaTotal]", 
+      0.208
+    ], 
+    [
+      "Settlement[areaTotal]>(country|China)", 
+      0.2098
+    ], 
+    [
+      "AdministrativeRegion[areaTotal]>(state|North_Carolina)", 
+      0.21
+    ]
+  ], 
+  "values": [
+    1539928133.3161855, 
+    1107006203.698232, 
+    824537852.9374104, 
+    2304318321.347741, 
+    170439989.9627586, 
+    1328544445.5584118, 
+    102540336.4289397, 
+    17969618422.69987, 
+    2705473165.9564743, 
+    371811510002.4954, 
+    1779541874.8478458, 
+    885005595.7798318, 
+    3350137737.6719575, 
+    1572608985.5568087, 
+    1062921011.4848282, 
+    940429473.7160753, 
+    1391530821.9482212, 
+    1534364645.929973, 
+    2117100112.0118256, 
+    2354731869.9360123, 
+    2112835401.0253806, 
+    1074465904.1416323, 
+    1847241712.2507098, 
+    2366232687.3000016, 
+    1439366958.1872606, 
+    2237915968.192629, 
+    658716067.4224464, 
+    816904866.9366095, 
+    438261784.4385794, 
+    914194550.2683713, 
+    1358976027.8624976, 
+    459259749.08767474, 
+    1507539768.2615635, 
+    5380211982.70114
+  ]
+}

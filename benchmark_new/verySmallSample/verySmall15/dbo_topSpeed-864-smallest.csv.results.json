@@ -1,0 +1,283 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/topSpeed"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "topSpeed", 
+          0.0786
+        ], 
+        [
+          "height", 
+          0.0876
+        ], 
+        [
+          "populationDensity", 
+          0.0957
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          6.0
+        ], 
+        [
+          "topSpeed", 
+          2.0
+        ], 
+        [
+          "height", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (topSpeed)", 
+          0.0786
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (topSpeed)", 
+          0.0786
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.0875
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (height)", 
+          0.0875
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          0.0875
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.0875
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (height)", 
+          0.0877
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.0946
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.0946
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          0.0946
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.0946
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.0968
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          19.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (topSpeed)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (topSpeed)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "MeanOfTransportation[topSpeed]", 
+      0.0786
+    ], 
+    [
+      "Ship[topSpeed]", 
+      0.0786
+    ], 
+    [
+      "Location[populationDensity]>(country|Hungary)>(isPartOf|Somogy_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0859
+    ], 
+    [
+      "Dam[height]>(location|South_Africa)", 
+      0.0875
+    ], 
+    [
+      "Location[height]>(location|South_Africa)", 
+      0.0877
+    ], 
+    [
+      "Location[populationDensity]>(country|Hungary)>(isPartOf|Somogy_County)", 
+      0.0922
+    ], 
+    [
+      "Location[populationDensity]>(country|Hungary)>(isPartOf|Baranya_County)", 
+      0.0925
+    ], 
+    [
+      "Village[populationDensity]>(isPartOf|Baranya_County)", 
+      0.0946
+    ], 
+    [
+      "Location[populationDensity]>(country|Hungary)>(isPartOf|Baranya_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1033
+    ], 
+    [
+      "Location[populationDensity]>(country|Hungary)>(isPartOf|Baranya_County)>(22-rdf-syntax-ns#type|_Feature)>(timeZone|Central_European_Time)", 
+      0.1057
+    ]
+  ], 
+  "values": [
+    39.009675055515686, 
+    60.03543417975081, 
+    25.728729296895008, 
+    14.283111417975498, 
+    40.66030510474439, 
+    16.888790540053893, 
+    36.208626897216135, 
+    46.00341703390642, 
+    18.322217747147857, 
+    54.90504614906216, 
+    22.789502799237805, 
+    28.05722430417536, 
+    30.362225882860763, 
+    21.950708205614667, 
+    35.331793654819975, 
+    47.226475980958526, 
+    20.71869310709596, 
+    49.133057125922726, 
+    25.93659533520461, 
+    33.48011005393635, 
+    30.192426968685833, 
+    28.648599721651976, 
+    38.785059878699926, 
+    49.621791414203074, 
+    30.0084061502287, 
+    48.40258877344714, 
+    30.725345072185117, 
+    30.164374880948476, 
+    28.635565951299835, 
+    32.97713047571674, 
+    19.227232190905927, 
+    31.24626685584853, 
+    44.19255007958484, 
+    27.183530487807285, 
+    22.1262500348041, 
+    60.2790052009144, 
+    21.983817745477232, 
+    24.740073678283995, 
+    20.404164558518133, 
+    20.41095076257492, 
+    29.650359957863557, 
+    13.577790393364282, 
+    23.023520551295857, 
+    47.189601479970435, 
+    29.707287629891603, 
+    39.18367657187686, 
+    9.69861362036431, 
+    54.83772215983542, 
+    65.31717797871124, 
+    19.491158812856078, 
+    65.80611910658274, 
+    38.76789255844543, 
+    39.83288402796814, 
+    32.2127676559545, 
+    32.44906190659853, 
+    20.05595800903556, 
+    17.785296076404936, 
+    24.76431906224799, 
+    46.368683942819814, 
+    42.77071284986704, 
+    19.90257542382942, 
+    24.255204917131866, 
+    29.765610257806756, 
+    52.89839787911754, 
+    63.81811953898767, 
+    22.893195107556497, 
+    39.79737944978918, 
+    26.079632866487255, 
+    36.19211752853335, 
+    10.29677544383873, 
+    55.55824296782272, 
+    35.540145535624184, 
+    18.053289675779716, 
+    67.8814502200547, 
+    38.657907306830836, 
+    26.343180162694516, 
+    40.01479871164456, 
+    27.601772976985664, 
+    26.887272885670598, 
+    58.29483007880417, 
+    51.15160853856898, 
+    25.53827655204003, 
+    19.85884046433224, 
+    54.105608694307904, 
+    36.49702291432579, 
+    38.304581728375965, 
+    39.724360405005925, 
+    22.758423760518216, 
+    23.393482042944544, 
+    25.933347294186113, 
+    24.95520223593118, 
+    67.74930438681834, 
+    18.211684995218583, 
+    16.40877863385365, 
+    33.55234223736269, 
+    53.124571499306136, 
+    26.120121348955063, 
+    15.464159662209457, 
+    39.36209955370833, 
+    38.362033148457634
+  ]
+}

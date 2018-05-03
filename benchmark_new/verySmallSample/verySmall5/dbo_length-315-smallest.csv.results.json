@@ -1,0 +1,267 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/length"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "length", 
+          0.0897
+        ], 
+        [
+          "populationTotal", 
+          0.1177
+        ]
+      ], 
+      "maj": [
+        [
+          "length", 
+          7.0
+        ], 
+        [
+          "populationTotal", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          0.0567
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          0.0597
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (length)", 
+          0.0623
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.0878
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          0.0906
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          0.1004
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          0.1014
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          0.1175
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1177
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1177
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1177
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (length)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "BodyOfWater[length]", 
+      0.0567
+    ], 
+    [
+      "RouteOfTransportation[length]", 
+      0.0623
+    ], 
+    [
+      "NaturalPlace[length]", 
+      0.0627
+    ], 
+    [
+      "Location[length]", 
+      0.1014
+    ], 
+    [
+      "Place[length]", 
+      0.1061
+    ], 
+    [
+      "City[populationTotal]>(timeZone|Eastern_European_Time)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1165
+    ], 
+    [
+      "City[populationTotal]>(timeZone|Eastern_European_Time)", 
+      0.1169
+    ], 
+    [
+      "Infrastructure[length]", 
+      0.1189
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|California)", 
+      0.1197
+    ], 
+    [
+      "ArchitecturalStructure[length]", 
+      0.1202
+    ]
+  ], 
+  "values": [
+    4126.243023325206, 
+    62253.94843727721, 
+    31503.351296987574, 
+    2608.40186606806, 
+    11141.156280755376, 
+    24850.486786056084, 
+    161312.69364089673, 
+    200636.92877907163, 
+    6925.00787821408, 
+    15669.270701141453, 
+    12978.737150135632, 
+    45291.79404724658, 
+    11415.307663549314, 
+    2347.706557909703, 
+    309277.82893236924, 
+    140614.7330823405, 
+    24745.630713809496, 
+    25711.806567697506, 
+    61383.792594278486, 
+    14621.985468870973, 
+    520.2351515688056, 
+    3277.5387838483334, 
+    7494.8194219683, 
+    27817.466966618347, 
+    69664.2165705699, 
+    13286.036855298093, 
+    19898.232525191754, 
+    571245.2765723559, 
+    30787.318355349995, 
+    1913.631785844621, 
+    7848.064082637687, 
+    1156986.8804309224, 
+    328.05356463765446, 
+    3254.5734666875815, 
+    51277.15504165025, 
+    4139.524016003222, 
+    36729.49593026119, 
+    51178.96850885945, 
+    1022.5112309039863, 
+    291023.29082208034, 
+    184605.98036973743, 
+    35546.7377332617, 
+    13367.364440612877, 
+    289014.55777187925, 
+    12600.036079821306, 
+    153221.3116767341, 
+    152710.78514844843, 
+    212605.30974050867, 
+    147523.06415388017, 
+    115096.03427542109, 
+    14382.096664483573, 
+    103181.85786090481, 
+    13217.648694589408, 
+    4084.471761821675, 
+    25651.631422897917, 
+    134756.10663499733, 
+    14300.451567690134, 
+    11009.876958384353, 
+    277542.6972432411, 
+    3963.400254936388, 
+    38807.5937205683, 
+    1571.4553949024362, 
+    1255.1032241720357, 
+    24897.697710546145, 
+    400.0379668260669, 
+    11779.940346074216, 
+    37822.472291350714, 
+    778.2406261014492, 
+    112240.58571372909, 
+    1650.1059365875878, 
+    57019.59662321534, 
+    19481.404473531104, 
+    60379.66869314032, 
+    2011.693983554122, 
+    9091.200787790469, 
+    51416.1017540372, 
+    184715.35437492502, 
+    97786.92286778087, 
+    5216.142406811114, 
+    99471.82082408409, 
+    220698.73085386417, 
+    67288.31651593973, 
+    26665.449768023078, 
+    2963.77986347499, 
+    807.3532578940299, 
+    10196.027236109981, 
+    54999.212021090476, 
+    36386.10393611573, 
+    312001.3281307412, 
+    39157.72275907847, 
+    6769.639241622224, 
+    208663.30493496664, 
+    57799.006112649615, 
+    141158.01183759703, 
+    3119.395007621628, 
+    13008.959073468497, 
+    52451.5419943229, 
+    11315.22299805077, 
+    62056.65079091564, 
+    51412.66893849453
+  ]
+}

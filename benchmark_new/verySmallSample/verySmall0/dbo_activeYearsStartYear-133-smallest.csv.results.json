@@ -1,0 +1,230 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/activeYearsStartYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "openingYear", 
+          0.1295
+        ], 
+        [
+          "foundingYear", 
+          0.1429
+        ], 
+        [
+          "formationYear", 
+          0.1443
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.1477
+        ]
+      ], 
+      "maj": [
+        [
+          "formationYear", 
+          3.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          3.0
+        ], 
+        [
+          "openingYear", 
+          2.0
+        ], 
+        [
+          "foundingYear", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/RoadTunnel (openingYear)", 
+          0.1272
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.1295
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.1295
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.1295
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.1295
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerLeague (foundingYear)", 
+          0.1419
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsLeague (foundingYear)", 
+          0.1419
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.1429
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.1429
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          0.144
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (formationYear)", 
+          0.1443
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (formationYear)", 
+          0.1446
+        ], 
+        [
+          "http://dbpedia.org/ontology/GovernmentAgency (formationYear)", 
+          0.1458
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.1462
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.1477
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsEndYear)", 
+          0.1495
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Agent (formationYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RoadTunnel (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (formationYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/GovernmentAgency (formationYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerLeague (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsLeague (foundingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "RoadTunnel[openingYear]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1227
+    ], 
+    [
+      "RoadTunnel[openingYear]", 
+      0.1364
+    ], 
+    [
+      "SoccerLeague[foundingYear]", 
+      0.1419
+    ], 
+    [
+      "Organisation[formationYear]", 
+      0.1435
+    ], 
+    [
+      "Agent[formationYear]", 
+      0.1435
+    ], 
+    [
+      "Company[foundingYear]", 
+      0.144
+    ], 
+    [
+      "GovernmentAgency[formationYear]", 
+      0.1458
+    ], 
+    [
+      "Person[activeYearsEndYear]", 
+      0.1462
+    ], 
+    [
+      "Agent[activeYearsEndYear]", 
+      0.1474
+    ], 
+    [
+      "Organisation[activeYearsEndYear]", 
+      0.1495
+    ]
+  ], 
+  "values": [
+    1931.0, 
+    2002.0, 
+    2009.0, 
+    1968.0, 
+    197.0, 
+    1990.0, 
+    1992.0
+  ]
+}

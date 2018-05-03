@@ -1,0 +1,283 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/squadNumber"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "width", 
+          0.1136
+        ], 
+        [
+          "squadNumber", 
+          0.1244
+        ], 
+        [
+          "number", 
+          0.1286
+        ], 
+        [
+          "populationDensity", 
+          0.1313
+        ]
+      ], 
+      "maj": [
+        [
+          "number", 
+          4.0
+        ], 
+        [
+          "squadNumber", 
+          4.0
+        ], 
+        [
+          "width", 
+          1.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Bridge (width)", 
+          0.1136
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          0.1136
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          0.1136
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.1136
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          0.1136
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (squadNumber)", 
+          0.1244
+        ], 
+        [
+          "http://dbpedia.org/ontology/OrganisationMember (squadNumber)", 
+          0.1244
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (squadNumber)", 
+          0.1244
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeamMember (squadNumber)", 
+          0.1244
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.1286
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.1286
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.1286
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          0.1287
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1313
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.1313
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.1313
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1313
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          0.132
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (squadNumber)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (width)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (squadNumber)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/OrganisationMember (squadNumber)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeamMember (squadNumber)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Bridge[width]>(type|Arch_bridge)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1136
+    ], 
+    [
+      "SoccerPlayer[number]", 
+      0.1198
+    ], 
+    [
+      "Person[squadNumber]", 
+      0.1244
+    ], 
+    [
+      "SportsTeamMember[squadNumber]", 
+      0.1244
+    ], 
+    [
+      "OrganisationMember[squadNumber]", 
+      0.1244
+    ], 
+    [
+      "Agent[squadNumber]", 
+      0.1244
+    ], 
+    [
+      "BasketballPlayer[number]>(nationality|Philippines)", 
+      0.1288
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Mississippi)", 
+      0.1313
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Indonesia)", 
+      0.1316
+    ], 
+    [
+      "BasketballPlayer[number]>(nationality|Philippines)>(league|Philippine_Basketball_Association)", 
+      0.1342
+    ]
+  ], 
+  "values": [
+    11.0, 
+    17.0, 
+    27.0, 
+    2.0, 
+    22.0, 
+    18.0, 
+    4.0, 
+    22.0, 
+    23.0, 
+    20.0, 
+    8.0, 
+    7.0, 
+    6.0, 
+    16.0, 
+    6.0, 
+    3.0, 
+    26.0, 
+    11.0, 
+    6.0, 
+    19.0, 
+    10.0, 
+    1.0, 
+    23.0, 
+    12.0, 
+    26.0, 
+    10.0, 
+    19.0, 
+    7.0, 
+    21.0, 
+    3.0, 
+    18.0, 
+    38.0, 
+    22.0, 
+    36.0, 
+    25.0, 
+    1.0, 
+    21.0, 
+    12.0, 
+    18.0, 
+    24.0, 
+    18.0, 
+    33.0, 
+    35.0, 
+    20.0
+  ]
+}

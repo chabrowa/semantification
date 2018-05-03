@@ -1,0 +1,185 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/weight"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "weight", 
+          0.1812
+        ]
+      ], 
+      "maj": [
+        [
+          "weight", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (weight)", 
+          0.1156
+        ], 
+        [
+          "http://dbpedia.org/ontology/Skater (weight)", 
+          0.1156
+        ], 
+        [
+          "http://dbpedia.org/ontology/MartialArtist (weight)", 
+          0.1602
+        ], 
+        [
+          "http://dbpedia.org/ontology/BadmintonPlayer (weight)", 
+          0.1794
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (weight)", 
+          0.1812
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (weight)", 
+          0.1812
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (weight)", 
+          0.1812
+        ], 
+        [
+          "http://dbpedia.org/ontology/TableTennisPlayer (weight)", 
+          0.1845
+        ], 
+        [
+          "http://dbpedia.org/ontology/Swimmer (weight)", 
+          0.1939
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cyclist (weight)", 
+          0.2145
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Athlete (weight)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (weight)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (weight)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Swimmer (weight)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MartialArtist (weight)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cyclist (weight)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BadmintonPlayer (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Skater (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TableTennisPlayer (weight)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Skater[weight]", 
+      0.1156
+    ], 
+    [
+      "MartialArtist[weight]>(birthPlace|Japan)", 
+      0.1602
+    ], 
+    [
+      "Swimmer[weight]", 
+      0.1715
+    ], 
+    [
+      "Swimmer[weight]>(nationality|Canada)", 
+      0.1717
+    ], 
+    [
+      "BadmintonPlayer[weight]", 
+      0.1794
+    ], 
+    [
+      "TableTennisPlayer[weight]", 
+      0.1845
+    ], 
+    [
+      "Swimmer[weight]>(nationality|United_States)", 
+      0.1853
+    ], 
+    [
+      "Swimmer[weight]>(nationality|Australia)", 
+      0.2072
+    ], 
+    [
+      "Cyclist[weight]>(birthPlace|United_States)", 
+      0.2145
+    ], 
+    [
+      "Swimmer[weight]>(nationality|Japan)", 
+      0.2225
+    ]
+  ], 
+  "values": [
+    76298.40926438516, 
+    84618.96399819509, 
+    64077.29895462384, 
+    73195.05792292199, 
+    56328.5794518203, 
+    51998.70937820595, 
+    85015.82185848904, 
+    64632.093728985295, 
+    57889.72333982493, 
+    55038.100951998764, 
+    54877.10795401758, 
+    77571.41615312612, 
+    55574.146634611796, 
+    64427.67901675954, 
+    90391.00809316584, 
+    80181.87338031914, 
+    73924.12887297927, 
+    73544.2120050424, 
+    67165.39399446426, 
+    54982.46956647325, 
+    57590.4000582015, 
+    64765.44941023991, 
+    80185.73577416375, 
+    71556.65189346441, 
+    88165.08141207008, 
+    68210.0162099507, 
+    62887.861743380425, 
+    57485.363231440744, 
+    84823.84740605309, 
+    71764.26150957715, 
+    58581.10384339463, 
+    72351.75713125267, 
+    71190.99231499516, 
+    55734.84593719381
+  ]
+}

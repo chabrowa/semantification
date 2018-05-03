@@ -1,0 +1,283 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/budget"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "budget", 
+          0.0661
+        ], 
+        [
+          "populationTotal", 
+          0.0867
+        ], 
+        [
+          "areaWater", 
+          0.1084
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          5.0
+        ], 
+        [
+          "budget", 
+          3.0
+        ], 
+        [
+          "populationTotal", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Film (budget)", 
+          0.0661
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (budget)", 
+          0.0661
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (budget)", 
+          0.0661
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (populationTotal)", 
+          0.0861
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0867
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0867
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          0.099
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.1083
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.1083
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.1083
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.1098
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.1136
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (budget)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (budget)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Film[budget]", 
+      0.0661
+    ], 
+    [
+      "Wikidata:Q11424[budget]", 
+      0.0661
+    ], 
+    [
+      "Work[budget]", 
+      0.0661
+    ], 
+    [
+      "Country[populationTotal]>(governmentType|Unitary_state)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0833
+    ], 
+    [
+      "Country[populationTotal]>(governmentType|Unitary_state)", 
+      0.0902
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Maine)", 
+      0.099
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Maine)>(type|New_England_town)", 
+      0.0995
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Alaska)", 
+      0.1098
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Alaska)>(timeZone|Alaska_Time_Zone)", 
+      0.1162
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Minnesota)>(isPartOf|Cass_County,_Minnesota)>(country|United_States)", 
+      0.1175
+    ]
+  ], 
+  "values": [
+    167250.96998367808, 
+    6600104.71457453, 
+    1998512.755156927, 
+    10603438.730578588, 
+    2027395.66677752, 
+    11037176.860902434, 
+    145397472.92567047, 
+    239253.74063448227, 
+    7344.556827598955, 
+    953445.0727566925, 
+    951058.2990860143, 
+    62177734.97536622, 
+    182754.7141150694, 
+    344445.936667136, 
+    4911234.105858349, 
+    9543629.34263477, 
+    4555796.8885406945, 
+    2408533.8692103387, 
+    2099335.212038537, 
+    11160947.218435323, 
+    96406.4397646525, 
+    929341.9896187625, 
+    617946.4589654001, 
+    73187.55925387423, 
+    575524.3706492789, 
+    221803.31652166112, 
+    694485.6413006596, 
+    612423.5444093351, 
+    210522680.64739144, 
+    3318567.6243318957, 
+    28032816.436993036, 
+    291081.78308245173, 
+    38166616.52371651, 
+    2053744.900797627, 
+    147950853.99447143, 
+    11730849.26382899, 
+    411707.5416003661, 
+    4891077.347337267, 
+    1060318.729416119, 
+    20605489.237106957, 
+    24452360.35553435, 
+    144920.92168917836, 
+    34146235.39119697, 
+    12815576.651379518, 
+    19241897.585434422, 
+    4162509.39968485, 
+    524861181.17823035, 
+    1439454.041684606, 
+    1946482.5939874765, 
+    10174342.894032443, 
+    338147.25444723025, 
+    8426733.645485427, 
+    7.044753404131974, 
+    88519.22518665947, 
+    1428693.1003647393, 
+    524503.4211827877, 
+    62005318.58289602, 
+    8748197.402940726, 
+    11655530.687001627, 
+    8718329.60093185, 
+    0.4374424636057333, 
+    8139119.987626296, 
+    819130.7980509386, 
+    10806057.37613884, 
+    34675582.05511356, 
+    9582497.628917474, 
+    1226757.731277402, 
+    29777400.815069437, 
+    1539851.6670113623, 
+    1502300.2766541915, 
+    2609095.27724281, 
+    124519811.22500803, 
+    2779652.7002629098, 
+    38063631.19223098, 
+    2333628.460576157, 
+    19967021.789154377, 
+    18527332.964963336, 
+    8284385.7011745265, 
+    759344.6108772651, 
+    17328798.19416603, 
+    5224287.751216576, 
+    19098184.57764565, 
+    48043658.464156196, 
+    20.951987162373246, 
+    3656006.530170499, 
+    2412318.8213698003, 
+    12075.88567070366, 
+    19100459.36955531, 
+    794780.3834150417, 
+    36303295.13842709, 
+    614216.5491987957, 
+    199374.20175892967, 
+    10709093.791460408, 
+    1315089.567857515, 
+    2305891.088209472, 
+    1733161.8326701112, 
+    8065376.675185084, 
+    236152634.79451492, 
+    35364358.0679722, 
+    184.5929910051948
+  ]
+}

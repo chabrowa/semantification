@@ -1,0 +1,120 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/weight"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1136
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1133
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1138
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1138
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.114
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          19.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          6.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationTotal]>(country|France)>(department|Puy-de-D%C3%B4me)", 
+      0.1083
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(department|Puy-de-D%C3%B4me)", 
+      0.1098
+    ], 
+    [
+      "Settlement[populationTotal]>(type|Census-designated_place)>(isPartOf|West_Virginia)", 
+      0.1118
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(department|Moselle)", 
+      0.1137
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(department|Eure-et-Loir)", 
+      0.1144
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(department|Eure-et-Loir)", 
+      0.1144
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(department|Moselle)", 
+      0.1146
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(department|Oise)", 
+      0.116
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(department|Oise)", 
+      0.116
+    ], 
+    [
+      "Settlement[populationTotal]>(type|Census-designated_place)>(isPartOf|West_Virginia)>(timeZone|Eastern_Time_Zone)", 
+      0.1173
+    ]
+  ], 
+  "values": [
+    1250.0, 
+    227.0, 
+    12800.0, 
+    249.0, 
+    583.0, 
+    100.0, 
+    453.0, 
+    430920.0, 
+    415.0, 
+    491.0, 
+    317.52, 
+    496.125, 
+    680.4, 
+    36.0, 
+    118.0, 
+    1190.0, 
+    390.0
+  ]
+}

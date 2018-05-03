@@ -1,0 +1,259 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/deathYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.4353
+        ], 
+        [
+          "populationTotal", 
+          0.4507
+        ], 
+        [
+          "openingYear", 
+          0.4535
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          8.0
+        ], 
+        [
+          "populationTotal", 
+          1.0
+        ], 
+        [
+          "openingYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          0.3493
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.4293
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.4293
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.4461
+        ], 
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          0.4465
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.4507
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          0.4507
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.4507
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.4507
+        ], 
+        [
+          "http://dbpedia.org/ontology/MountainRange (elevation)", 
+          0.4528
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          0.4535
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.4535
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.4535
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.4535
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.4535
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MountainRange (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Mountain[elevation]>(locatedInArea|Norway)>(locatedInArea|Oppland)", 
+      0.3493
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.4345
+    ], 
+    [
+      "Volcano[elevation]>(locatedInArea|Indonesia)>(type|Stratovolcano)", 
+      0.4444
+    ], 
+    [
+      "Volcano[elevation]>(locatedInArea|Indonesia)", 
+      0.4457
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)", 
+      0.4458
+    ], 
+    [
+      "Town[populationTotal]>(timeZone|Mountain_Time_Zone)>(isPartOf|Arizona)", 
+      0.4507
+    ], 
+    [
+      "MountainRange[elevation]", 
+      0.4528
+    ], 
+    [
+      "RailwayLine[openingYear]>(type|Light_rail)", 
+      0.4535
+    ], 
+    [
+      "Volcano[elevation]", 
+      0.4544
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)>(country|United_States)", 
+      0.4557
+    ]
+  ], 
+  "values": [
+    2024.0, 
+    1872.0, 
+    2018.0, 
+    1853.0, 
+    2086.0, 
+    1821.0, 
+    2123.0, 
+    2161.0, 
+    1970.0, 
+    2056.0, 
+    2087.0, 
+    2149.0, 
+    2043.0, 
+    2085.0, 
+    2090.0, 
+    1804.0, 
+    2162.0, 
+    1947.0, 
+    1881.0, 
+    1811.0, 
+    2095.0, 
+    1902.0, 
+    2039.0, 
+    2025.0, 
+    1776.0, 
+    2148.0, 
+    1808.0, 
+    2037.0, 
+    2168.0, 
+    2094.0, 
+    1922.0, 
+    2176.0, 
+    2137.0, 
+    1849.0, 
+    2128.0, 
+    1796.0, 
+    1895.0, 
+    1970.0, 
+    1975.0, 
+    1781.0, 
+    2078.0, 
+    1978.0, 
+    1970.0, 
+    1938.0, 
+    2014.0, 
+    1938.0, 
+    2077.0, 
+    1989.0, 
+    1800.0, 
+    2019.0, 
+    1930.0, 
+    1969.0
+  ]
+}

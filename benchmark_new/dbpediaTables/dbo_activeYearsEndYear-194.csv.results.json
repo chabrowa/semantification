@@ -1,0 +1,491 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/activeYearsEndYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "activeYearsEndYear", 
+          0.1132
+        ], 
+        [
+          "deathYear", 
+          0.1159
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.1443
+        ], 
+        [
+          "serviceEndYear", 
+          0.1701
+        ], 
+        [
+          "openingYear", 
+          0.1715
+        ]
+      ], 
+      "maj": [
+        [
+          "activeYearsEndYear", 
+          4.0
+        ], 
+        [
+          "openingYear", 
+          2.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          2.0
+        ], 
+        [
+          "serviceEndYear", 
+          1.0
+        ], 
+        [
+          "deathYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsEndYear)", 
+          0.0547
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cardinal (activeYearsEndYear)", 
+          0.0547
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.0839
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.093
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsStartYear)", 
+          0.1114
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          0.1159
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          0.1159
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (deathYear)", 
+          0.1159
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsStartYear)", 
+          0.1443
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          0.1443
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.1443
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          0.1701
+        ], 
+        [
+          "http://dbpedia.org/ontology/MemberOfParliament (serviceEndYear)", 
+          0.1701
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          0.1701
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceEndYear)", 
+          0.1701
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tunnel (openingYear)", 
+          0.1707
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.1715
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.1715
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.1722
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.1722
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          0.1722
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (activeYearsEndYear)", 
+          0.1737
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cardinal (activeYearsStartYear)", 
+          0.1773
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cardinal (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MemberOfParliament (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tunnel (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (deathYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cardinal (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceEndYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Cardinal[activeYearsEndYear]", 
+      0.0547
+    ], 
+    [
+      "Agent[activeYearsEndYear]", 
+      0.1111
+    ], 
+    [
+      "ChristianBishop[activeYearsStartYear]>(religion|Catholic_Church)", 
+      0.1114
+    ], 
+    [
+      "Person[activeYearsEndYear]", 
+      0.1131
+    ], 
+    [
+      "Artist[deathYear]", 
+      0.1159
+    ], 
+    [
+      "MemberOfParliament[serviceEndYear]", 
+      0.1701
+    ], 
+    [
+      "Tunnel[openingYear]", 
+      0.1707
+    ], 
+    [
+      "Bridge[openingYear]", 
+      0.1722
+    ], 
+    [
+      "Place[activeYearsEndYear]", 
+      0.1737
+    ], 
+    [
+      "Cardinal[activeYearsStartYear]", 
+      0.1773
+    ]
+  ], 
+  "values": [
+    1997.0, 
+    1846.0, 
+    1944.0, 
+    2003.0, 
+    1951.0, 
+    1679.0, 
+    1631.0, 
+    1971.0, 
+    1657.0, 
+    2008.0, 
+    1961.0, 
+    1906.0, 
+    2001.0, 
+    1631.0, 
+    2010.0, 
+    1927.0, 
+    2011.0, 
+    1968.0, 
+    2011.0, 
+    2003.0, 
+    1979.0, 
+    2009.0, 
+    1954.0, 
+    1979.0, 
+    1999.0, 
+    1921.0, 
+    1987.0, 
+    2004.0, 
+    1810.0, 
+    1982.0, 
+    2005.0, 
+    1955.0, 
+    1988.0, 
+    1885.0, 
+    2008.0, 
+    1693.0, 
+    1983.0, 
+    1969.0, 
+    1973.0, 
+    1858.0, 
+    1929.0, 
+    1713.0, 
+    1985.0, 
+    1980.0, 
+    1990.0, 
+    1990.0, 
+    1970.0, 
+    1599.0, 
+    1968.0, 
+    1986.0, 
+    2014.0, 
+    2011.0, 
+    2000.0, 
+    2006.0, 
+    2000.0, 
+    2011.0, 
+    1924.0, 
+    2006.0, 
+    2006.0, 
+    2010.0, 
+    1990.0, 
+    1262.0, 
+    1967.0, 
+    2002.0, 
+    1970.0, 
+    2001.0, 
+    2007.0, 
+    1986.0, 
+    1975.0, 
+    1891.0, 
+    2006.0, 
+    1998.0, 
+    1742.0, 
+    1650.0, 
+    1736.0, 
+    1664.0, 
+    1706.0, 
+    1699.0, 
+    1983.0, 
+    2011.0, 
+    1878.0, 
+    2001.0, 
+    2002.0, 
+    1976.0, 
+    1801.0, 
+    1998.0, 
+    1943.0, 
+    1946.0, 
+    1969.0, 
+    1970.0, 
+    2010.0, 
+    1623.0, 
+    1619.0, 
+    2003.0, 
+    1921.0, 
+    2015.0, 
+    1612.0, 
+    1948.0, 
+    1558.0, 
+    1959.0, 
+    1102.0, 
+    1974.0, 
+    1911.0, 
+    1585.0, 
+    1641.0, 
+    1958.0, 
+    2009.0, 
+    1985.0, 
+    1615.0, 
+    1566.0, 
+    1944.0, 
+    2006.0, 
+    1465.0, 
+    1965.0, 
+    1998.0, 
+    2009.0, 
+    1967.0, 
+    2000.0, 
+    1938.0, 
+    1958.0, 
+    1983.0, 
+    2014.0, 
+    2010.0, 
+    2011.0, 
+    1960.0, 
+    2011.0, 
+    2002.0, 
+    1607.0, 
+    1984.0, 
+    2000.0, 
+    1918.0, 
+    1982.0, 
+    1996.0, 
+    2001.0, 
+    1959.0, 
+    2015.0, 
+    1945.0, 
+    1637.0, 
+    1974.0, 
+    2002.0, 
+    1532.0, 
+    1373.0, 
+    2002.0, 
+    1971.0, 
+    1977.0, 
+    1978.0, 
+    1975.0, 
+    1935.0, 
+    1979.0, 
+    1621.0, 
+    1909.0, 
+    1962.0, 
+    2007.0, 
+    1960.0, 
+    2014.0, 
+    1938.0, 
+    2014.0, 
+    1368.0, 
+    1891.0, 
+    2000.0, 
+    1831.0, 
+    1990.0, 
+    1707.0, 
+    1783.0, 
+    2012.0, 
+    1987.0, 
+    1839.0, 
+    2009.0, 
+    1878.0, 
+    2007.0, 
+    1889.0, 
+    1997.0, 
+    1463.0, 
+    2006.0, 
+    1999.0, 
+    1975.0, 
+    2014.0, 
+    2002.0, 
+    1996.0, 
+    24.0, 
+    2010.0, 
+    1973.0, 
+    1959.0, 
+    1514.0, 
+    2016.0, 
+    1192.0, 
+    1637.0, 
+    1804.0, 
+    1939.0, 
+    1946.0, 
+    2016.0, 
+    2008.0, 
+    1979.0, 
+    1712.0, 
+    1963.0, 
+    1898.0, 
+    1973.0, 
+    1979.0, 
+    1998.0, 
+    1950.0, 
+    1892.0, 
+    1472.0, 
+    1252.0, 
+    1663.0
+  ]
+}

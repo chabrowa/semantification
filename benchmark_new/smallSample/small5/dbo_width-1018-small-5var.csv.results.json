@@ -1,0 +1,235 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/width"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.0965
+        ], 
+        [
+          "elevation", 
+          0.0997
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          7.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.0965
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.097
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.097
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.0978
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.0978
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.0978
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.0985
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.0987
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1051
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          19.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationDensity]>(type|New_England_town)>(isPartOf|Vermont)", 
+      0.0837
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|New_York)>(isPartOf|Suffolk_County,_New_York)", 
+      0.0863
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Maine)", 
+      0.0933
+    ], 
+    [
+      "Location[populationDensity]>(type|New_England_town)>(isPartOf|Vermont)>(country|United_States)", 
+      0.0951
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Le%C3%B3n)>(country|Spain)", 
+      0.098
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Le%C3%B3n)>(country|Spain)>(timeZone|Central_European_Time)", 
+      0.1008
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Michigan)>(type|Township_(United_States))", 
+      0.1023
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Michigan)>(type|Township_(United_States))", 
+      0.1023
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Goa)", 
+      0.1051
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|New_York)>(isPartOf|Suffolk_County,_New_York)>(country|United_States)", 
+      0.1077
+    ]
+  ], 
+  "values": [
+    6.94880881090324, 
+    7.755005471580495, 
+    26.928844906146992, 
+    19.864845081909042, 
+    1.5619502891204107, 
+    5.930489902262786, 
+    7.2373291170780885, 
+    13.016816682842109, 
+    12.754242823434703, 
+    21.371908121575494, 
+    11.280529639397008, 
+    24.687395694415763, 
+    9.396502280166441, 
+    50.15899369964108, 
+    32.27541891986489, 
+    24903.17439707159, 
+    21.92466174450908, 
+    2.964357069109153, 
+    6.856014907715264, 
+    18.522784639147197, 
+    10.441731999336083, 
+    32.07706297286889, 
+    37.30669571251361, 
+    50.60344273674197, 
+    23.480048889734192, 
+    10.547419805858471, 
+    35.76615978237659, 
+    51.680636042965034, 
+    18.535713080442523, 
+    25.619921630419483, 
+    5.8719816029190515, 
+    130715.97125422023, 
+    7.626618314736325, 
+    4.814967381945459, 
+    29.857651720537465, 
+    10.536892658594292, 
+    9.31625781960966, 
+    21.69144447361256, 
+    17.653782001172683, 
+    10.484582299860724, 
+    36.78555427517048, 
+    5.476113247101965, 
+    32.891822541962625, 
+    45618.08859246027, 
+    7.186833741623606, 
+    7.309720704486866, 
+    4.351510721181912, 
+    59.36632405311894, 
+    14.12890168638401, 
+    38.2607808066751, 
+    6.773204075253339, 
+    22.57486494379616, 
+    31.749987539490945, 
+    9.68138569477585, 
+    23.335028411459124, 
+    5.863409952949453, 
+    36.15904592037296, 
+    4.285699782773972, 
+    7.996800262670991, 
+    19.607000647110965, 
+    7.0375922012001215, 
+    15.361224167616712, 
+    20.140275860522042, 
+    19.063960051307895, 
+    44.377357350797304, 
+    17.57440263307056, 
+    3.453982551021765, 
+    3.8709288567056244, 
+    7.169414878797748, 
+    20.564862782634506, 
+    14.735722067718939, 
+    23.0533701287822, 
+    8.13269422351162, 
+    4.970433398681988, 
+    24520.126332892778, 
+    38.52104986490633, 
+    24064.208701267864, 
+    4.197631870014523, 
+    4.252954316664843, 
+    35.61368542670731, 
+    2.1249788058865438, 
+    12.192661939025239, 
+    11.321757808139285, 
+    20.555562504752693
+  ]
+}

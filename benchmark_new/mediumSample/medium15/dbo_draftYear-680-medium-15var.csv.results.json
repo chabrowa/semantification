@@ -1,0 +1,182 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/draftYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.4099
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          0.2173
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.4011
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.4038
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.42
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.42
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.4248
+        ], 
+        [
+          "http://dbpedia.org/ontology/MountainRange (elevation)", 
+          0.438
+        ], 
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          0.4411
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MountainRange (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Mountain[elevation]>(locatedInArea|Norway)>(locatedInArea|Oppland)", 
+      0.2173
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.4132
+    ], 
+    [
+      "Volcano[elevation]", 
+      0.4185
+    ], 
+    [
+      "Settlement[elevation]>(country|Peru)>(isPartOf|Amazonas_Region)", 
+      0.42
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)", 
+      0.4245
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)>(country|United_States)", 
+      0.4344
+    ], 
+    [
+      "MountainRange[elevation]", 
+      0.438
+    ], 
+    [
+      "Volcano[elevation]>(locatedInArea|Russia)", 
+      0.4429
+    ], 
+    [
+      "Volcano[elevation]>(locatedInArea|Indonesia)>(type|Stratovolcano)", 
+      0.4444
+    ], 
+    [
+      "Volcano[elevation]>(locatedInArea|Indonesia)", 
+      0.4457
+    ]
+  ], 
+  "values": [
+    2043.0, 
+    2137.0, 
+    1934.0, 
+    2250.0, 
+    1868.0, 
+    1894.0, 
+    2053.0, 
+    1814.0, 
+    1920.0, 
+    2019.0, 
+    2209.0, 
+    1811.0, 
+    1846.0, 
+    2056.0, 
+    2139.0, 
+    1860.0, 
+    2132.0, 
+    2217.0, 
+    2088.0, 
+    2167.0, 
+    2218.0, 
+    1961.0, 
+    1920.0, 
+    1828.0, 
+    2138.0, 
+    1880.0, 
+    2265.0, 
+    1932.0, 
+    2293.0, 
+    1783.0, 
+    2196.0, 
+    1966.0, 
+    1914.0, 
+    1953.0, 
+    1775.0, 
+    1887.0, 
+    2051.0, 
+    1920.0, 
+    2138.0, 
+    2258.0, 
+    2066.0, 
+    2083.0, 
+    1739.0, 
+    2073.0, 
+    2260.0, 
+    2044.0, 
+    2193.0
+  ]
+}
