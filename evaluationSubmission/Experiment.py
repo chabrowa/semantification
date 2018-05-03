@@ -16,11 +16,40 @@ class Experiment(object):
         self.levelResults        = self.getLevelScore()
         self.results             = self.getScore()
         self.distribution        = self.getDistribution()
+        self.levleDistribution   = self.getLevelDistribution()
 
+
+    def getLevelDistribution(self):
+        print "column level distribution"
+        for datasetPrediction in self.datasetsPredictions:
+            correctMapping =  self.getPropertyName(datasetPrediction.columnMapping[2])
+            finalScores = datasetPrediction.scores['columnResults'][2]
+            correctPosition = -1
+            counter = 0
+            for prediction in enumerate(finalScores):
+                (p,d) = prediction[1]
+                if correctMapping == p:
+                    correctPosition = counter
+                counter += 1
+            print str(datasetPrediction.rowsNumber) + ", " + str(correctPosition)
+
+        print "row level distribution"
+        for datasetPrediction in self.datasetsPredictions:
+            correctMapping =  self.getPropertyName(datasetPrediction.columnMapping[2])
+            finalScores = datasetPrediction.scores['rowResults'][2]
+            correctPosition = -1
+            counter = 0
+            for prediction in enumerate(finalScores):
+                (p,d) = prediction[1]
+                if correctMapping == p:
+                    correctPosition = counter
+                counter += 1
+            print str(datasetPrediction.rowsNumber) + ", " + str(correctPosition)
+
+        return -1
 
     def getDistribution(self):
-        #distribution = []
-
+        print "overal level distribution"
         for datasetPrediction in self.datasetsPredictions:
             # calculating if any predictions
             correctMapping =  self.getPropertyName(datasetPrediction.columnMapping[2])
@@ -32,7 +61,6 @@ class Experiment(object):
                 if correctMapping == p:
                     correctPosition = counter
                 counter += 1
-            #distribution.append((datasetPrediction.rowsNumber, ))
             print str(datasetPrediction.rowsNumber) + ", " + str(correctPosition)
         return -1
 
@@ -42,7 +70,7 @@ class Experiment(object):
         count = 0
         for fn in os.listdir(self.dataPath):
             #if count < 5:
-            print str(count) + ":  " + str(fn)
+            #print str(count) + ":  " + str(fn)
             datasetPath = os.path.join(self.dataPath, fn)
             #if fn == "dbo_formationYear-817-smallest.csv":
             #if "dbo_formationYear" in fn:
@@ -91,10 +119,10 @@ class Experiment(object):
             if correctMapping == p:
                 correctlyLabelledTop1 = correctlyLabelledTop1 + 1
             else:
-                #pass
-                print "NOT correct mapping: " + str(correctMapping) + " - " + str(p)
-                print datasetPrediction.datasetPath
-                print finalScores
+                pass
+                #print "NOT correct mapping: " + str(correctMapping) + " - " + str(p)
+                #print datasetPrediction.datasetPath
+                #print finalScores
         #
         #
         #
