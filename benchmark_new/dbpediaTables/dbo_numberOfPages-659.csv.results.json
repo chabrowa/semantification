@@ -1,0 +1,144 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfPages"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.4983
+        ], 
+        [
+          "populationDensity", 
+          0.5
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          9.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.4978
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.4978
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.4978
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.498
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.5
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          25.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[populationTotal]>(isPartOf|Kermanshah_Province)>(isPartOf|Qalkhani_Rural_District)", 
+      0.4902
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kermanshah_Province)>(isPartOf|Central_District_(Gilan-e_Gharb_County))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.4946
+    ], 
+    [
+      "Location[populationTotal]>(country|Poland)>(type|Village)>(isPartOf|Sztum_County)", 
+      0.5
+    ], 
+    [
+      "Location[populationTotal]>(country|Poland)>(type|Village)>(isPartOf|Sztum_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kohgiluyeh_and_Boyer-Ahmad_Province)>(isPartOf|Sarrud-e_Jonubi_Rural_District)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Lorestan_Province)>(isPartOf|Chegeni_District)", 
+      0.5
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Isfahan_Province)>(isPartOf|Chadegan_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Gilan_Province)>(isPartOf|Kelachay_District)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Mazandaran_Province)>(isPartOf|Shirgah_District)", 
+      0.5
+    ], 
+    [
+      "Settlement[populationDensity]>(type|New_England_town)", 
+      0.5
+    ]
+  ], 
+  "values": [
+    156.0
+  ]
+}

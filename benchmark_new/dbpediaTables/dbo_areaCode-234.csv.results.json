@@ -1,0 +1,249 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaCode", 
+    "410, 443, and 667", 
+    "+598 437 (+5 digits)", 
+    "+598 4475 (+4 digits)", 
+    "+598 4475 (+4 digits)", 
+    "+598 4474 (+4 digits)", 
+    "+598 42 (+6 digits)", 
+    "+598 42 (+6 digits)", 
+    "+598 443 (+5 digits)", 
+    "+598 443 (+5 digits)", 
+    "+598 42 (+6 digits)", 
+    "+598 42 (+6 digits)", 
+    "+598 443 (+5 digits)", 
+    "+598 473 (+5 digits)", 
+    "+598 42 (+6 digits)", 
+    "+598 437 (+5 digits)", 
+    "+995 367", 
+    "(0090)+ 242+814xxxx", 
+    "+98-13 . . .", 
+    "+421-32", 
+    "56 + 71", 
+    "+598 443 (+5 digits)", 
+    "+598 4378 (+4 digits)", 
+    "+598 443 (+5 digits)", 
+    "+598 42 (+6 digits)", 
+    "+598 42 (+6 digits)", 
+    "+598 42 (+6 digits)", 
+    "+598 42 (+6 digits)", 
+    "+598 42 (+6 digits)", 
+    "+598 4345 (+4 digits)", 
+    "+598 437 (+5 digits)", 
+    "+598 4474 (+4 digits)", 
+    "+598 2 (+7 digits)", 
+    "+598 437 (+5 digits)", 
+    "(0090)+ 252", 
+    "+380 6566", 
+    "+598 2 (+7 digits)", 
+    "+598 2 (+7 digits)"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.1343
+        ], 
+        [
+          "length", 
+          0.1345
+        ], 
+        [
+          "populationTotal", 
+          0.1371
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          6.0
+        ], 
+        [
+          "length", 
+          2.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1341
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.1345
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          0.1345
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          0.1345
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (length)", 
+          0.1348
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          0.1356
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1366
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1366
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1373
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.138
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (length)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Town[populationTotal]>(isPartOf|Maine)>(isPartOf|Penobscot_County,_Maine)", 
+      0.1333
+    ], 
+    [
+      "Dam[length]>(owner|Government_of_Maharashtra)", 
+      0.1333
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Illinois)>(isPartOf|Cook_County,_Illinois)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1333
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Illinois)>(isPartOf|Cook_County,_Illinois)", 
+      0.1352
+    ], 
+    [
+      "Dam[length]>(owner|Government_of_Maharashtra)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1358
+    ], 
+    [
+      "Town[populationTotal]>(isPartOf|Maine)>(isPartOf|Penobscot_County,_Maine)>(type|New_England_town)", 
+      0.1373
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(province|Province_of_Cremona)>(region|Lombardy)", 
+      0.1377
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(province|Province_of_Cremona)>(region|Lombardy)", 
+      0.1379
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(province|Province_of_Cremona)", 
+      0.138
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(province|Province_of_Cremona)", 
+      0.1382
+    ]
+  ], 
+  "values": [
+    38393.0, 
+    971.0, 
+    4651.0, 
+    4721.0, 
+    151.0, 
+    1983.0, 
+    831.0, 
+    1271.0, 
+    38825.0, 
+    618.0, 
+    38354.0, 
+    1289.0, 
+    1273.0, 
+    508.0, 
+    23.0, 
+    1253.0, 
+    1472.0, 
+    1964.0, 
+    1271.0, 
+    1903.0, 
+    1492.0, 
+    1208.0, 
+    1745.0, 
+    1642.0, 
+    1492.0, 
+    1983.0, 
+    1983.0, 
+    381.0, 
+    843.0, 
+    1626.0, 
+    38203.0, 
+    38371.0, 
+    191.0, 
+    1287.0, 
+    191.0, 
+    1429.0, 
+    38371.0, 
+    71.0, 
+    1745.0, 
+    2626.0, 
+    256.0, 
+    931.0, 
+    1934.0, 
+    3537.0, 
+    924.0
+  ]
+}

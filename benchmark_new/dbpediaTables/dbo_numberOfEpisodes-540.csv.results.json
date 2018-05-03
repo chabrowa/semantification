@@ -1,0 +1,264 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEpisodes"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaCode", 
+          0.3356
+        ], 
+        [
+          "populationTotal", 
+          0.4934
+        ], 
+        [
+          "elevation", 
+          0.4941
+        ], 
+        [
+          "maximumElevation", 
+          0.4979
+        ], 
+        [
+          "number", 
+          0.5
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          4.0
+        ], 
+        [
+          "areaCode", 
+          2.0
+        ], 
+        [
+          "maximumElevation", 
+          2.0
+        ], 
+        [
+          "number", 
+          1.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          0.3103
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.3103
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          0.3103
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          0.3608
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.4795
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.4795
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.4795
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.4795
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.4941
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.4941
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.4941
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.4968
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          0.4968
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          0.4968
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.4985
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          0.499
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.5
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[areaCode]>(country|England)>(region|West_Midlands_(county))", 
+      0.3103
+    ], 
+    [
+      "Location[areaCode]>(country|England)>(region|West_Midlands_(county))", 
+      0.3608
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|East_Azerbaijan_Province)>(isPartOf|Minjavan_District)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.4795
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_European_Time)>(isPartOf|Bolu_Province)", 
+      0.4941
+    ], 
+    [
+      "Settlement[elevation]>(country|Italy)>(region|Apulia)", 
+      0.4941
+    ], 
+    [
+      "Settlement[maximumElevation]>(department|Manche)", 
+      0.4968
+    ], 
+    [
+      "Location[maximumElevation]>(department|Manche)", 
+      0.499
+    ], 
+    [
+      "BasketballPlayer[number]>(draftTeam|Golden_State_Warriors)", 
+      0.5
+    ], 
+    [
+      "Location[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Sarduiyeh_Rural_District)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(isPartOf|Perugia)>(type|Frazione)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5
+    ]
+  ], 
+  "values": [
+    121.0
+  ]
+}

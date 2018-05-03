@@ -1,0 +1,251 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaLand"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaLand", 
+          0.0791
+        ], 
+        [
+          "areaTotal", 
+          0.1354
+        ]
+      ], 
+      "maj": [
+        [
+          "areaLand", 
+          5.0
+        ], 
+        [
+          "areaTotal", 
+          5.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.074
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.0773
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.0872
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          0.0931
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.123
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.1348
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1352
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.1363
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (areaTotal)", 
+          0.1491
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaLand]", 
+      0.0673
+    ], 
+    [
+      "PopulatedPlace[areaLand]", 
+      0.0673
+    ], 
+    [
+      "Place[areaLand]", 
+      0.0673
+    ], 
+    [
+      "Settlement[areaLand]", 
+      0.0872
+    ], 
+    [
+      "Location[areaLand]>(type|Administrative_divisions_of_New_York)", 
+      0.106
+    ], 
+    [
+      "Settlement[areaTotal]", 
+      0.123
+    ], 
+    [
+      "PopulatedPlace[areaTotal]", 
+      0.1325
+    ], 
+    [
+      "Location[areaTotal]", 
+      0.1363
+    ], 
+    [
+      "Place[areaTotal]", 
+      0.1363
+    ], 
+    [
+      "Island[areaTotal]>(archipelago|Tuamotus)", 
+      0.1491
+    ]
+  ], 
+  "values": [
+    743327.0, 
+    148300000.0, 
+    90940000.0, 
+    336698.0, 
+    7251970.0, 
+    800000.0, 
+    2860000.0, 
+    93757600.0, 
+    32200000.0, 
+    2268830.0, 
+    1243190.0, 
+    26900000.0, 
+    105180000.0, 
+    3390000.0, 
+    1590250.0, 
+    2719490.0, 
+    261320000.0, 
+    16298800.0, 
+    95570600.0, 
+    91944600.0, 
+    27700000.0, 
+    18500000.0, 
+    39885800.0, 
+    2589990.0, 
+    80548600.0, 
+    1968390.0, 
+    258999.0, 
+    356000000.0, 
+    93032400.0, 
+    4020000.0, 
+    14762900.0, 
+    121320000.0, 
+    94094300.0, 
+    134000000.0, 
+    92860000.0, 
+    89000000.0, 
+    1790000.0, 
+    440000.0, 
+    6900000.0, 
+    1680000.0, 
+    5900000.0, 
+    1359740.0, 
+    17505700.0, 
+    66562700.0, 
+    185547000.0, 
+    1631690.0, 
+    486918.0, 
+    231156000.0, 
+    2280000.0, 
+    70700000.0, 
+    9770000.0, 
+    122247000.0, 
+    109920000.0, 
+    7600000.0, 
+    2800000.0, 
+    1631690.0, 
+    93498600.0, 
+    595697.0, 
+    88266800.0, 
+    92500000.0, 
+    15800000.0, 
+    1535000.0, 
+    75627700.0, 
+    8772290.0, 
+    2600000.0, 
+    129740000.0, 
+    3884980.0, 
+    83915600.0, 
+    89750900.0, 
+    68500000.0, 
+    88100000.0, 
+    12015000.0, 
+    4800000.0, 
+    25520000.0, 
+    114600000.0, 
+    90560000.0, 
+    776996.0, 
+    143718000.0, 
+    7380000.0, 
+    121630000.0, 
+    3366980.0, 
+    8676460.0, 
+    87400000.0, 
+    300000.0, 
+    372500000.0, 
+    96700000.0, 
+    14500000.0, 
+    8570000.0, 
+    2071990.0, 
+    76663600.0, 
+    800000.0, 
+    7510000.0, 
+    129073000.0, 
+    54389800.0, 
+    109600000.0, 
+    2950000.0, 
+    12431900.0, 
+    11395900.0, 
+    2165230.0, 
+    1140000.0
+  ]
+}

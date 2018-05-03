@@ -1,0 +1,234 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/foundingYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "activeYearsStartYear", 
+          0.3316
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.343
+        ], 
+        [
+          "draftYear", 
+          0.3487
+        ]
+      ], 
+      "maj": [
+        [
+          "activeYearsEndYear", 
+          5.0
+        ], 
+        [
+          "draftYear", 
+          3.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Band (activeYearsStartYear)", 
+          0.3242
+        ], 
+        [
+          "http://dbpedia.org/ontology/Group (activeYearsStartYear)", 
+          0.3242
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsStartYear)", 
+          0.3242
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.3316
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (activeYearsStartYear)", 
+          0.339
+        ], 
+        [
+          "http://dbpedia.org/ontology/GaelicGamesPlayer (activeYearsStartYear)", 
+          0.339
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          0.339
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (activeYearsEndYear)", 
+          0.3395
+        ], 
+        [
+          "http://dbpedia.org/ontology/IceHockeyPlayer (activeYearsEndYear)", 
+          0.3396
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.3414
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.343
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (activeYearsEndYear)", 
+          0.3454
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (draftYear)", 
+          0.3487
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (draftYear)", 
+          0.3487
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (draftYear)", 
+          0.3487
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (draftYear)", 
+          0.3487
+        ], 
+        [
+          "http://dbpedia.org/ontology/RugbyPlayer (activeYearsEndYear)", 
+          0.3495
+        ], 
+        [
+          "http://dbpedia.org/ontology/IceHockeyPlayer (draftYear)", 
+          0.3522
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/IceHockeyPlayer (draftYear)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/IceHockeyPlayer (activeYearsEndYear)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RugbyPlayer (activeYearsEndYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (activeYearsEndYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (draftYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (draftYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (draftYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (draftYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Band (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/GaelicGamesPlayer (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Group (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsStartYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Band[activeYearsStartYear]>(genre|Metalcore)", 
+      0.3242
+    ], 
+    [
+      "Person[activeYearsEndYear]>(occupation|Songwriter)", 
+      0.3333
+    ], 
+    [
+      "IceHockeyPlayer[draftYear]>(league|Deutsche_Eishockey_Liga)", 
+      0.3364
+    ], 
+    [
+      "IceHockeyPlayer[draftYear]>(league|Liiga)", 
+      0.3367
+    ], 
+    [
+      "GaelicGamesPlayer[activeYearsStartYear]>(sport|Camogie)", 
+      0.339
+    ], 
+    [
+      "IceHockeyPlayer[activeYearsEndYear]>(formerTeam|ECHL)>(formerTeam|International_Hockey_League_(1945%E2%80%932001))", 
+      0.339
+    ], 
+    [
+      "IceHockeyPlayer[activeYearsEndYear]>(formerTeam|ECHL)>(formerTeam|International_Hockey_League_(1945%E2%80%932001))>(formerTeam|American_Hockey_League)", 
+      0.34
+    ], 
+    [
+      "RugbyPlayer[activeYearsEndYear]>(position|Rugby_union_positions)>(birthPlace|England)", 
+      0.3425
+    ], 
+    [
+      "RugbyPlayer[activeYearsEndYear]>(position|Rugby_union_positions)", 
+      0.36
+    ], 
+    [
+      "IceHockeyPlayer[draftYear]>(league|Liiga)>(birthPlace|Finland)", 
+      0.3731
+    ]
+  ], 
+  "values": [
+    2000.0, 
+    2003.0, 
+    2004.0
+  ]
+}

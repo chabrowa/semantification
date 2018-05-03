@@ -1,0 +1,211 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/minimumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.1773
+        ], 
+        [
+          "populationDensity", 
+          0.1873
+        ], 
+        [
+          "maximumElevation", 
+          0.1879
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          5.0
+        ], 
+        [
+          "populationDensity", 
+          4.0
+        ], 
+        [
+          "maximumElevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Airport (elevation)", 
+          0.1692
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (elevation)", 
+          0.1697
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          0.1703
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1773
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1813
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1826
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1826
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1854
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1877
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.1879
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          0.1879
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          0.1879
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.1915
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1923
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Airport (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Airport[elevation]", 
+      0.1692
+    ], 
+    [
+      "Infrastructure[elevation]", 
+      0.1703
+    ], 
+    [
+      "ArchitecturalStructure[elevation]", 
+      0.1714
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Nebraska)", 
+      0.1786
+    ], 
+    [
+      "Settlement[elevation]>(country|Italy)>(region|Friuli-Venezia_Giulia)>(province|Province_of_Udine)", 
+      0.1839
+    ], 
+    [
+      "Settlement[populationDensity]", 
+      0.1867
+    ], 
+    [
+      "Settlement[maximumElevation]>(country|Greece)", 
+      0.1879
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Kansas)>(timeZone|Central_Time_Zone)", 
+      0.1905
+    ], 
+    [
+      "City[elevation]>(country|Spain)>(type|Municipalities_of_Spain)", 
+      0.1915
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Kansas)>(timeZone|Central_Time_Zone)>(country|United_States)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1935
+    ]
+  ], 
+  "values": [
+    5.064528805120498, 
+    144.26346394341624, 
+    436.2789794753472, 
+    0.0, 
+    699.1421029694798, 
+    824.8092277299057, 
+    178.3205940039338, 
+    412.58205188448653, 
+    167.49699524252415, 
+    0.0, 
+    60.660149085740684, 
+    177.45629754437195
+  ]
+}

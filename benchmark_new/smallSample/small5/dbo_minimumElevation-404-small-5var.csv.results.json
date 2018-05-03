@@ -1,0 +1,206 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/minimumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1432
+        ], 
+        [
+          "minimumElevation", 
+          0.1718
+        ], 
+        [
+          "populationDensity", 
+          0.2308
+        ]
+      ], 
+      "maj": [
+        [
+          "minimumElevation", 
+          8.0
+        ], 
+        [
+          "populationTotal", 
+          1.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1432
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (minimumElevation)", 
+          0.1488
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (minimumElevation)", 
+          0.1541
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.1585
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (minimumElevation)", 
+          0.1612
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.1737
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1737
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.18
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (minimumElevation)", 
+          0.1818
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2308
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationTotal]>(timeZone|Eastern_European_Time)>(isPartOf|Paphos_District)", 
+      0.1432
+    ], 
+    [
+      "AdministrativeRegion[minimumElevation]", 
+      0.1435
+    ], 
+    [
+      "Region[minimumElevation]", 
+      0.1435
+    ], 
+    [
+      "Location[minimumElevation]>(country|Greece)", 
+      0.1585
+    ], 
+    [
+      "AdministrativeRegion[minimumElevation]>(country|Greece)", 
+      0.1593
+    ], 
+    [
+      "Village[minimumElevation]>(country|France)", 
+      0.1612
+    ], 
+    [
+      "City[minimumElevation]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1667
+    ], 
+    [
+      "City[minimumElevation]", 
+      0.2121
+    ], 
+    [
+      "PopulatedPlace[minimumElevation]", 
+      0.2299
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Nebraska)", 
+      0.2308
+    ]
+  ], 
+  "values": [
+    579.6600255764859, 
+    56.51906781275274, 
+    34.97223757922542, 
+    571.1259265306122, 
+    0.0, 
+    0.0, 
+    0.0, 
+    663.6716975284487, 
+    65.57380377331556, 
+    599.984264940571, 
+    208.01468289206525, 
+    66.97625343588416, 
+    0.0, 
+    0.0, 
+    0.9954784414709226, 
+    0.0, 
+    258.3117739279614, 
+    187.5868311055464, 
+    71.10707023099839, 
+    82.94303231479356, 
+    0.0, 
+    40.17695783121002, 
+    1359.528049781495, 
+    45.91827165717534, 
+    69.56205997303276, 
+    72.4940065464724, 
+    676.8938427645475, 
+    427.2827676118099, 
+    970.6118725735531, 
+    31.363880260270424, 
+    87.96991007946072, 
+    442.3914482151929, 
+    544.6275975233251, 
+    0.0, 
+    1.0209786479056202, 
+    287.4554185501162, 
+    583.3730475408174, 
+    0.0, 
+    291.78812070615663
+  ]
+}

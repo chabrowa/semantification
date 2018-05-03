@@ -1,0 +1,216 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/yearOfConstruction"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.314
+        ], 
+        [
+          "areaCode", 
+          0.3284
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.3337
+        ], 
+        [
+          "openingYear", 
+          0.3529
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          7.0
+        ], 
+        [
+          "areaCode", 
+          1.0
+        ], 
+        [
+          "openingYear", 
+          1.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.3056
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          0.3284
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (elevation)", 
+          0.3306
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (elevation)", 
+          0.3312
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.3312
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.3312
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.3337
+        ], 
+        [
+          "http://dbpedia.org/ontology/Royalty (activeYearsEndYear)", 
+          0.3337
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.3337
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.3529
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.3529
+        ], 
+        [
+          "http://dbpedia.org/ontology/Hospital (openingYear)", 
+          0.3529
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (openingYear)", 
+          0.3529
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          20.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Royalty (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Hospital (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (openingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.2586
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Colorado)>(type|Census-designated_place)", 
+      0.2912
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)", 
+      0.3147
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)>(country|United_States)", 
+      0.3209
+    ], 
+    [
+      "Lake[elevation]>(location|Glacier_National_Park_(U.S.))>(location|Glacier_County,_Montana)>(location|United_States)", 
+      0.3269
+    ], 
+    [
+      "Location[areaCode]>(country|England)>(country|Cumbria)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3284
+    ], 
+    [
+      "Royalty[activeYearsEndYear]>(deathPlace|France)", 
+      0.3337
+    ], 
+    [
+      "Lake[elevation]>(location|Glacier_National_Park_(U.S.))>(location|Glacier_County,_Montana)", 
+      0.3355
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Colorado)", 
+      0.3499
+    ], 
+    [
+      "Hospital[openingYear]>(state|England)", 
+      0.3529
+    ]
+  ], 
+  "values": [
+    2049.0, 
+    1684.0, 
+    1589.0, 
+    1754.0, 
+    2020.0, 
+    2026.0, 
+    1653.0, 
+    1919.0, 
+    1699.0, 
+    2084.0, 
+    2019.0, 
+    1893.0, 
+    1802.0, 
+    1693.0, 
+    2099.0, 
+    1707.0, 
+    1900.0
+  ]
+}

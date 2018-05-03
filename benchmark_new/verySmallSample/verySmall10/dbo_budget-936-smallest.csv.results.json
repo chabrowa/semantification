@@ -1,0 +1,245 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/budget"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.1667
+        ], 
+        [
+          "populationTotal", 
+          0.2575
+        ], 
+        [
+          "length", 
+          0.2797
+        ], 
+        [
+          "weight", 
+          0.3075
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          5.0
+        ], 
+        [
+          "weight", 
+          2.0
+        ], 
+        [
+          "length", 
+          2.0
+        ], 
+        [
+          "areaTotal", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/SportFacility (areaTotal)", 
+          0.1667
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1667
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (areaTotal)", 
+          0.1667
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationTotal)", 
+          0.2449
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationTotal)", 
+          0.249
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2575
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2575
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.2586
+        ], 
+        [
+          "http://dbpedia.org/ontology/Stream (length)", 
+          0.2797
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.2797
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          0.2797
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          0.2797
+        ], 
+        [
+          "http://dbpedia.org/ontology/River (length)", 
+          0.2797
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wrestler (weight)", 
+          0.3058
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (weight)", 
+          0.3075
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (weight)", 
+          0.3075
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (weight)", 
+          0.3075
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bodybuilder (weight)", 
+          0.3092
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/River (length)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Stream (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (weight)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (weight)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (weight)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bodybuilder (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wrestler (weight)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "SportFacility[areaTotal]>(location|United_States)", 
+      0.1667
+    ], 
+    [
+      "AdministrativeRegion[populationTotal]>(timeZone|Iran_Standard_Time)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2284
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Iran_Standard_Time)>(22-rdf-syntax-ns#type|_Feature)>(type|Counties_of_Iran)", 
+      0.2305
+    ], 
+    [
+      "AdministrativeRegion[populationTotal]>(timeZone|Iran_Standard_Time)", 
+      0.2696
+    ], 
+    [
+      "River[length]>(state|Alaska)", 
+      0.2704
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Iran_Standard_Time)", 
+      0.2721
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Iran_Standard_Time)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.287
+    ], 
+    [
+      "River[length]>(sourceCountry|Australia)", 
+      0.2891
+    ], 
+    [
+      "Wrestler[weight]", 
+      0.3058
+    ], 
+    [
+      "Bodybuilder[weight]", 
+      0.3092
+    ]
+  ], 
+  "values": [
+    52336.26796702449, 
+    483522.3970404973, 
+    122217.27127830905, 
+    49310.34950570379, 
+    100826.7574813039, 
+    96588.22503895269
+  ]
+}

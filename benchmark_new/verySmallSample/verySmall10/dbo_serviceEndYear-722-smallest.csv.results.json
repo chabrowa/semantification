@@ -1,0 +1,209 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/serviceEndYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "runtime", 
+          0.4587
+        ], 
+        [
+          "elevation", 
+          0.4615
+        ], 
+        [
+          "populationTotal", 
+          0.465
+        ], 
+        [
+          "capacity", 
+          0.4668
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "runtime", 
+          3.0
+        ], 
+        [
+          "capacity", 
+          2.0
+        ], 
+        [
+          "populationTotal", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          0.4587
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.4593
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.4593
+        ], 
+        [
+          "http://dbpedia.org/ontology/MountainRange (elevation)", 
+          0.4593
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (runtime)", 
+          0.4595
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.4625
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.465
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.465
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.465
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          0.465
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (capacity)", 
+          0.4668
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (capacity)", 
+          0.4668
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (capacity)", 
+          0.4668
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerClub (capacity)", 
+          0.4673
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (runtime)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerClub (capacity)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (capacity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (capacity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (capacity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MountainRange (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.4552
+    ], 
+    [
+      "TelevisionShow[runtime]>(language|Tagalog_language)", 
+      0.4555
+    ], 
+    [
+      "TelevisionShow[runtime]>(language|Tagalog_language)>(network|ABS-CBN)", 
+      0.4576
+    ], 
+    [
+      "MountainRange[elevation]", 
+      0.4593
+    ], 
+    [
+      "SoccerClub[capacity]>(ground|Spain)>(league|Tercera_Divisi%C3%B3n_Groups_1%E2%80%939)", 
+      0.463
+    ], 
+    [
+      "TelevisionShow[runtime]>(language|Tagalog_language)>(network|ABS-CBN)>(country|Philippines)", 
+      0.463
+    ], 
+    [
+      "Town[populationTotal]>(timeZone|Mountain_Time_Zone)>(isPartOf|Arizona)", 
+      0.4648
+    ], 
+    [
+      "Town[populationTotal]>(isPartOf|New_York)>(type|Town)>(leaderName|Democratic_Party_(United_States))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.4651
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)", 
+      0.4699
+    ], 
+    [
+      "SoccerClub[capacity]>(ground|Spain)>(league|Tercera_Divisi%C3%B3n_Groups_1%E2%80%939)>(position|Tercera_Divisi%C3%B3n_Groups_1%E2%80%939)", 
+      0.4706
+    ]
+  ], 
+  "values": [
+    2036.0, 
+    1796.0
+  ]
+}

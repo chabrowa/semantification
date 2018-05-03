@@ -1,0 +1,274 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/shipBeam"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfEpisodes", 
+          0.3125
+        ], 
+        [
+          "width", 
+          0.3443
+        ], 
+        [
+          "height", 
+          0.3534
+        ], 
+        [
+          "length", 
+          0.3535
+        ], 
+        [
+          "populationDensity", 
+          0.3787
+        ], 
+        [
+          "number", 
+          0.3846
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          3.0
+        ], 
+        [
+          "width", 
+          3.0
+        ], 
+        [
+          "number", 
+          1.0
+        ], 
+        [
+          "length", 
+          1.0
+        ], 
+        [
+          "height", 
+          1.0
+        ], 
+        [
+          "numberOfEpisodes", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          0.3125
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionSeason (numberOfEpisodes)", 
+          0.3125
+        ], 
+        [
+          "http://dbpedia.org/ontology/RoadTunnel (width)", 
+          0.3158
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          0.3158
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          0.3158
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.3246
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          0.3275
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (height)", 
+          0.3534
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (height)", 
+          0.3534
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (length)", 
+          0.3535
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (length)", 
+          0.3535
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.3758
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.3758
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.3758
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.3808
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (width)", 
+          0.3838
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.3846
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.3846
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.3846
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionSeason (numberOfEpisodes)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RoadTunnel (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (height)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "TelevisionSeason[numberOfEpisodes]>(country|United_Kingdom)", 
+      0.3125
+    ], 
+    [
+      "RoadTunnel[width]", 
+      0.3158
+    ], 
+    [
+      "ArchitecturalStructure[width]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3333
+    ], 
+    [
+      "Ship[height]", 
+      0.3534
+    ], 
+    [
+      "Weapon[length]>(type|Self-propelled_artillery)", 
+      0.3535
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Zamora)", 
+      0.3758
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Zamora)", 
+      0.3758
+    ], 
+    [
+      "Location[width]>(type|Truss_bridge)", 
+      0.3838
+    ], 
+    [
+      "Athlete[number]>(position|Midfielder)", 
+      0.3846
+    ], 
+    [
+      "Location[populationDensity]>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Estrie)>(country|Canada)", 
+      0.3846
+    ]
+  ], 
+  "values": [
+    8.87976896914524, 
+    10.414164984873924, 
+    11.645768514423288, 
+    10.604422772994248, 
+    4.487080804245963, 
+    8.494218922909663, 
+    8.697103694186493, 
+    8.124332041475526, 
+    11.879036244274232, 
+    10.16431690341633, 
+    11.052138149762474
+  ]
+}

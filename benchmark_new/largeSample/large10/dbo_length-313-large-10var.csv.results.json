@@ -1,0 +1,179 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/length"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.113
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.11
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.116
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.1175
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.1175
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.118
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.118
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1183
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          0.1305
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationDensity]>(type|Types_of_municipalities_in_Quebec)", 
+      0.0825
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Illinois)", 
+      0.0842
+    ], 
+    [
+      "Town[populationDensity]>(timeZone|Central_European_Time)", 
+      0.1013
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Illinois)", 
+      0.1139
+    ], 
+    [
+      "Region[populationDensity]", 
+      0.1175
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]", 
+      0.1175
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Arkansas)>(type|Civil_township)", 
+      0.1273
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Arkansas)>(type|Civil_township)", 
+      0.1273
+    ], 
+    [
+      "Location[populationDensity]>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Laurentides)", 
+      0.1282
+    ], 
+    [
+      "Village[populationDensity]>(type|Types_of_municipalities_in_Quebec)", 
+      0.1305
+    ]
+  ], 
+  "values": [
+    3.7035610507312167, 
+    259.7875304252285, 
+    14.41707602049585, 
+    3.2006461048438655, 
+    5.3248542006688275, 
+    9.264967544813727, 
+    169.88549533210136, 
+    13059.804729616917, 
+    94.63559153282239, 
+    30.53100851126046, 
+    36.87703027269886, 
+    13.255910575802483, 
+    25583.37743122511, 
+    8.44137906493757, 
+    14.075085876964113, 
+    11.449424530528049, 
+    302.77708602744906, 
+    7.389656690188876, 
+    41.983721544180426, 
+    85.46626377565752, 
+    5.039681795156637, 
+    20.14332300658265, 
+    73.16840856507841, 
+    15.96657122080443, 
+    14.1003081489355, 
+    9.071438715190688, 
+    19.975145675263025, 
+    14.218518232771686, 
+    0.23193838145933407, 
+    2.7821104150179776, 
+    4.648963655144394, 
+    131.60728169760574, 
+    3806.444259510855, 
+    5.089265892952216, 
+    6.427286911425171, 
+    45.03261235065362, 
+    20.9248343443939, 
+    3.480001577796356, 
+    4.0913824043698375, 
+    84.47030711613874, 
+    142.2794042761902, 
+    3.025089604736745, 
+    0.13136458589065603, 
+    0.17273997602970514
+  ]
+}

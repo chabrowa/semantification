@@ -1,0 +1,187 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/minimumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.1788
+        ], 
+        [
+          "populationDensity", 
+          0.19
+        ], 
+        [
+          "minimumElevation", 
+          0.1963
+        ]
+      ], 
+      "maj": [
+        [
+          "minimumElevation", 
+          4.0
+        ], 
+        [
+          "populationDensity", 
+          3.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Airport (elevation)", 
+          0.1777
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (elevation)", 
+          0.1783
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          0.1788
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1788
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1889
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.19
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.19
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1954
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.1981
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.1981
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.1985
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Airport (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Airport[elevation]", 
+      0.1777
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Nebraska)", 
+      0.1786
+    ], 
+    [
+      "Infrastructure[elevation]", 
+      0.1788
+    ], 
+    [
+      "ArchitecturalStructure[elevation]", 
+      0.1798
+    ], 
+    [
+      "Location[minimumElevation]", 
+      0.1928
+    ], 
+    [
+      "Place[minimumElevation]", 
+      0.1928
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Maine)", 
+      0.1957
+    ], 
+    [
+      "Settlement[populationDensity]", 
+      0.1959
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Languedoc-Roussillon)", 
+      0.1981
+    ], 
+    [
+      "Location[minimumElevation]>(region|Languedoc-Roussillon)", 
+      0.2014
+    ]
+  ], 
+  "values": [
+    4.746532075194924, 
+    152.94797526204633, 
+    390.94501231487715, 
+    0.0, 
+    696.927369020848, 
+    770.6046038575383, 
+    174.82953556338407, 
+    414.3098541171071, 
+    157.23501670296352, 
+    0.0, 
+    62.5367599033035, 
+    171.94840153597102
+  ]
+}

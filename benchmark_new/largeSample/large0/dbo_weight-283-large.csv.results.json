@@ -1,0 +1,292 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/weight"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "weight", 
+          0.1572
+        ], 
+        [
+          "postalCode", 
+          0.2588
+        ]
+      ], 
+      "maj": [
+        [
+          "weight", 
+          8.0
+        ], 
+        [
+          "postalCode", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Artist (weight)", 
+          0.0622
+        ], 
+        [
+          "http://dbpedia.org/ontology/Actor (weight)", 
+          0.0636
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdultActor (weight)", 
+          0.0721
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (weight)", 
+          0.1572
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (weight)", 
+          0.1572
+        ], 
+        [
+          "http://dbpedia.org/ontology/Model (weight)", 
+          0.1715
+        ], 
+        [
+          "http://dbpedia.org/ontology/Gymnast (weight)", 
+          0.2497
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          0.2588
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          0.2588
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          0.2588
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (postalCode)", 
+          0.2667
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (weight)", 
+          0.2733
+        ], 
+        [
+          "http://dbpedia.org/ontology/PlayboyPlaymate (weight)", 
+          0.2908
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmateurBoxer (weight)", 
+          0.2969
+        ], 
+        [
+          "http://dbpedia.org/ontology/Boxer (weight)", 
+          0.2969
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Person (weight)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (weight)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (weight)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Actor (weight)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (postalCode)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdultActor (weight)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (weight)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmateurBoxer (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Model (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Gymnast (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Boxer (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PlayboyPlaymate (weight)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Actor[weight]", 
+      0.055
+    ], 
+    [
+      "AdultActor[weight]", 
+      0.055
+    ], 
+    [
+      "Artist[weight]", 
+      0.0582
+    ], 
+    [
+      "AdultActor[weight]>(birthPlace|United_States)", 
+      0.0806
+    ], 
+    [
+      "Model[weight]", 
+      0.1715
+    ], 
+    [
+      "City[postalCode]", 
+      0.235
+    ], 
+    [
+      "Gymnast[weight]", 
+      0.2497
+    ], 
+    [
+      "City[postalCode]>(country|Germany)", 
+      0.2826
+    ], 
+    [
+      "PlayboyPlaymate[weight]", 
+      0.2908
+    ], 
+    [
+      "AmateurBoxer[weight]", 
+      0.2969
+    ]
+  ], 
+  "values": [
+    49896.0, 
+    83916.0, 
+    49896.0, 
+    54885.6, 
+    55792.8, 
+    50803.2, 
+    81648.0, 
+    54885.6, 
+    54885.6, 
+    56000.0, 
+    51710.4, 
+    53524.8, 
+    58514.4, 
+    51710.4, 
+    68040.0, 
+    45360.0, 
+    51710.4, 
+    56700.0, 
+    76658.4, 
+    76658.4, 
+    47628.0, 
+    54885.6, 
+    63504.0, 
+    84823.2, 
+    56700.0, 
+    43092.0, 
+    63504.0, 
+    49896.0, 
+    45000.0, 
+    53524.8, 
+    52164.0, 
+    54885.6, 
+    74844.0, 
+    111132.0, 
+    83916.0, 
+    56700.0, 
+    65000.0, 
+    53524.8, 
+    94348.8, 
+    42638.4, 
+    47628.0, 
+    74844.0, 
+    43545.6, 
+    43545.6, 
+    45000.0, 
+    51710.4, 
+    52164.0, 
+    55792.8, 
+    79833.6, 
+    65772.0, 
+    81648.0, 
+    54885.6, 
+    80000.0, 
+    43000.0, 
+    52164.0, 
+    54885.6, 
+    47000.0, 
+    79380.0, 
+    63504.0, 
+    45813.6, 
+    56700.0, 
+    51710.4, 
+    70308.0, 
+    39916.8, 
+    56700.0, 
+    47628.0, 
+    48535.2, 
+    61236.0, 
+    51710.4, 
+    56700.0, 
+    50000.0, 
+    68493.6, 
+    49896.0, 
+    54432.0, 
+    58968.0, 
+    104328.0, 
+    44906.4, 
+    52617.6, 
+    49896.0, 
+    54885.6, 
+    54885.6, 
+    47000.0, 
+    73483.2, 
+    53524.8, 
+    43000.0, 
+    64864.8, 
+    51710.4, 
+    56000.0, 
+    70308.0, 
+    49896.0, 
+    51710.4, 
+    68040.0, 
+    74844.0
+  ]
+}

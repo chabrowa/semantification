@@ -1,0 +1,315 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runwayLength"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "runwayLength", 
+          0.0817
+        ], 
+        [
+          "maximumElevation", 
+          0.096
+        ], 
+        [
+          "elevation", 
+          0.1007
+        ], 
+        [
+          "length", 
+          0.1014
+        ]
+      ], 
+      "maj": [
+        [
+          "runwayLength", 
+          5.0
+        ], 
+        [
+          "length", 
+          2.0
+        ], 
+        [
+          "maximumElevation", 
+          2.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Airport (runwayLength)", 
+          0.0817
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (runwayLength)", 
+          0.0817
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (runwayLength)", 
+          0.0817
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (runwayLength)", 
+          0.0817
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (runwayLength)", 
+          0.0817
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          0.0952
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.0952
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (length)", 
+          0.0952
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          0.0952
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.096
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          0.096
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          0.096
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          0.096
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1007
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          0.1077
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Place (runwayLength)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (runwayLength)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (runwayLength)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Airport (runwayLength)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (runwayLength)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "ArchitecturalStructure[runwayLength]", 
+      0.0817
+    ], 
+    [
+      "Airport[runwayLength]", 
+      0.0817
+    ], 
+    [
+      "Infrastructure[runwayLength]", 
+      0.0817
+    ], 
+    [
+      "Place[runwayLength]", 
+      0.0817
+    ], 
+    [
+      "Location[runwayLength]", 
+      0.0817
+    ], 
+    [
+      "Dam[length]>(owner|Government_of_Maharashtra)", 
+      0.0952
+    ], 
+    [
+      "Location[maximumElevation]>(region|Rh%C3%B4ne-Alpes)>(department|Savoie)", 
+      0.096
+    ], 
+    [
+      "Settlement[maximumElevation]>(region|Rh%C3%B4ne-Alpes)>(department|Savoie)", 
+      0.096
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Himachal_Pradesh)", 
+      0.1007
+    ], 
+    [
+      "Location[length]>(22-rdf-syntax-ns#type|_Feature)>(owner|India)", 
+      0.1077
+    ]
+  ], 
+  "values": [
+    1335.02, 
+    4000.0, 
+    1280.0, 
+    616.001, 
+    1300.0, 
+    1372.0, 
+    594.36, 
+    1205.0, 
+    2500.0, 
+    1435.0, 
+    884.834, 
+    2400.0, 
+    1463.0, 
+    637.0319999999999, 
+    800.405, 
+    1188.72, 
+    2840.13, 
+    900.0, 
+    1164.0, 
+    2210.1, 
+    615.0, 
+    762.0, 
+    3052.0, 
+    3499.71, 
+    1038.0, 
+    1524.0, 
+    1066.19, 
+    799.795, 
+    2550.0, 
+    2999.84, 
+    1730.0, 
+    0.0, 
+    1830.63, 
+    2040.0, 
+    1043.03, 
+    1513.0, 
+    2790.14, 
+    2073.0, 
+    4115.1, 
+    885.1389999999999, 
+    992.0, 
+    3049.22, 
+    518.0, 
+    2.4999700000000002, 
+    944.88, 
+    3300.0, 
+    754.38, 
+    1676.4, 
+    1471.88, 
+    1250.0, 
+    2080.87, 
+    1290.0, 
+    3800.0, 
+    2185.72, 
+    1829.0, 
+    4099.86, 
+    559.918, 
+    1199.69, 
+    992.1239999999999, 
+    1226.21, 
+    1205.0, 
+    841.0, 
+    499.87199999999996, 
+    679.704, 
+    1066.8, 
+    3002.0, 
+    1529.0, 
+    952.0, 
+    1737.66, 
+    670.56, 
+    731.0, 
+    3353.0, 
+    792.48, 
+    3779.82, 
+    1527.0, 
+    1645.62, 
+    743.4069999999999, 
+    2121.0, 
+    3800.0, 
+    2000.0, 
+    918.058, 
+    715.67, 
+    3034.28, 
+    4000.0, 
+    1085.09, 
+    1223.0, 
+    2999.84, 
+    785.165, 
+    2654.0, 
+    1676.4, 
+    1065.89, 
+    1838.86, 
+    1403.0, 
+    2745.03, 
+    1798.32, 
+    1189.02, 
+    2429.87, 
+    2200.05, 
+    2745.03, 
+    1139.34
+  ]
+}

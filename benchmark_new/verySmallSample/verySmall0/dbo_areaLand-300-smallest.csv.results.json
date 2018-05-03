@@ -1,0 +1,215 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaLand"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaLand", 
+          0.0752
+        ], 
+        [
+          "areaTotal", 
+          0.0836
+        ]
+      ], 
+      "maj": [
+        [
+          "areaLand", 
+          5.0
+        ], 
+        [
+          "areaTotal", 
+          5.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          0.0669
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.0772
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.0772
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.0772
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaLand)", 
+          0.0788
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          0.0833
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.0836
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.0836
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.0836
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.0969
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaLand)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaLand]>(isPartOf|Oklahoma)>(type|Town)", 
+      0.0669
+    ], 
+    [
+      "Town[areaLand]>(isPartOf|Oklahoma)>(type|Town)", 
+      0.0673
+    ], 
+    [
+      "Town[areaTotal]>(isPartOf|Oklahoma)>(type|Town)", 
+      0.0694
+    ], 
+    [
+      "Town[areaLand]>(isPartOf|Oklahoma)", 
+      0.0697
+    ], 
+    [
+      "Town[areaTotal]>(isPartOf|Oklahoma)", 
+      0.0713
+    ], 
+    [
+      "Town[areaLand]>(isPartOf|Colorado)>(type|Town)", 
+      0.083
+    ], 
+    [
+      "Town[areaTotal]>(timeZone|Mountain_Time_Zone)>(governmentType|List_of_cities_and_towns_in_Colorado)>(type|Town)", 
+      0.0872
+    ], 
+    [
+      "Town[areaLand]>(isPartOf|Colorado)>(type|Town)>(country|United_States)", 
+      0.0889
+    ], 
+    [
+      "Town[areaTotal]>(timeZone|Mountain_Time_Zone)>(governmentType|List_of_cities_and_towns_in_Colorado)>(type|Town)>(country|United_States)", 
+      0.0934
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Kansas)", 
+      0.0969
+    ]
+  ], 
+  "values": [
+    440298.0, 
+    11939800.0, 
+    900000.0, 
+    1165490.0, 
+    9064960.0, 
+    3444680.0, 
+    1110000.0, 
+    1735290.0, 
+    910000.0, 
+    4843280.0, 
+    1040000.0, 
+    2800000.0, 
+    1243190.0, 
+    4428880.0, 
+    1838890.0, 
+    2667690.0, 
+    340000.0, 
+    699297.0, 
+    1200000.0, 
+    1500000.0, 
+    14570000.0, 
+    830000.0, 
+    233099.0, 
+    2080000.0, 
+    802896.0, 
+    1220000.0, 
+    1710000.0, 
+    27712900.0, 
+    89150000.0, 
+    4661980.0, 
+    410000.0, 
+    932396.0, 
+    2750000.0, 
+    500000.0, 
+    1476290.0, 
+    1060000.0, 
+    24200000.0, 
+    2071990.0, 
+    7251970.0, 
+    595697.0, 
+    2097890.0, 
+    500000.0, 
+    9970000.0, 
+    2870000.0, 
+    9323960.0, 
+    440298.0, 
+    4247580.0, 
+    310799.0, 
+    410000.0, 
+    906496.0, 
+    670000.0, 
+    2305090.0, 
+    600000.0, 
+    1170000.0, 
+    3600000.0, 
+    16057900.0
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/draftYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "openingYear", 
+          0.3804
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          0.3698
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          0.3768
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          0.377
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (openingYear)", 
+          0.3774
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.3802
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.3819
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.3819
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.3819
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (openingYear)", 
+          0.3831
+        ], 
+        [
+          "http://dbpedia.org/ontology/RoadTunnel (openingYear)", 
+          0.3833
+        ], 
+        [
+          "http://dbpedia.org/ontology/PowerStation (openingYear)", 
+          0.3894
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RoadTunnel (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PowerStation (openingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "RailwayLine[openingYear]>(type|Light_rail)", 
+      0.3683
+    ], 
+    [
+      "RailwayLine[openingYear]", 
+      0.3727
+    ], 
+    [
+      "Organisation[openingYear]", 
+      0.3766
+    ], 
+    [
+      "Agent[openingYear]", 
+      0.3766
+    ], 
+    [
+      "PublicTransitSystem[openingYear]", 
+      0.3774
+    ], 
+    [
+      "RoadTunnel[openingYear]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3825
+    ], 
+    [
+      "Dam[openingYear]", 
+      0.3831
+    ], 
+    [
+      "RoadTunnel[openingYear]", 
+      0.3848
+    ], 
+    [
+      "PowerStation[openingYear]", 
+      0.3894
+    ], 
+    [
+      "RouteOfTransportation[openingYear]", 
+      0.3925
+    ]
+  ], 
+  "values": [
+    2068.0, 
+    1942.0, 
+    1981.0, 
+    1938.0, 
+    1900.0, 
+    2085.0, 
+    1953.0, 
+    1993.0, 
+    1915.0, 
+    2036.0, 
+    2055.0, 
+    1967.0, 
+    2032.0, 
+    2016.0, 
+    2047.0, 
+    1922.0, 
+    2054.0, 
+    1960.0, 
+    2031.0, 
+    1977.0, 
+    1939.0, 
+    1925.0, 
+    1934.0, 
+    2066.0, 
+    2073.0, 
+    1918.0, 
+    1905.0, 
+    1964.0, 
+    2064.0, 
+    2030.0, 
+    2021.0, 
+    2039.0, 
+    1938.0, 
+    1997.0, 
+    2092.0, 
+    2012.0, 
+    2034.0, 
+    1974.0, 
+    2031.0, 
+    2004.0, 
+    2063.0, 
+    1906.0, 
+    2067.0, 
+    1910.0, 
+    1908.0, 
+    1949.0, 
+    1913.0, 
+    2014.0, 
+    1992.0, 
+    1896.0, 
+    1973.0, 
+    2095.0, 
+    1997.0
+  ]
+}

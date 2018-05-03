@@ -1,0 +1,266 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/area"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.418
+        ], 
+        [
+          "numberOfGoals", 
+          0.4493
+        ], 
+        [
+          "minimumElevation", 
+          0.4845
+        ], 
+        [
+          "areaWater", 
+          0.5036
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          4.0
+        ], 
+        [
+          "minimumElevation", 
+          2.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ], 
+        [
+          "numberOfGoals", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.418
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.418
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.418
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.418
+        ], 
+        [
+          "http://dbpedia.org/ontology/CareerStation (numberOfGoals)", 
+          0.4493
+        ], 
+        [
+          "http://dbpedia.org/ontology/TimePeriod (numberOfGoals)", 
+          0.4493
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.4845
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.4845
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.4845
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.4845
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.5023
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.503
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.5038
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.5038
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.5059
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TimePeriod (numberOfGoals)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/CareerStation (numberOfGoals)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "AdministrativeRegion[populationDensity]>(state|Montana)", 
+      0.3412
+    ], 
+    [
+      "TimePeriod[numberOfGoals]", 
+      0.4493
+    ], 
+    [
+      "CareerStation[numberOfGoals]", 
+      0.4493
+    ], 
+    [
+      "Location[minimumElevation]>(region|Pays_de_la_Loire)>(department|Loire-Atlantique)", 
+      0.4845
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Pays_de_la_Loire)>(department|Loire-Atlantique)", 
+      0.4845
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|North_Dakota)", 
+      0.4947
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Maryland)>(country|United_States)", 
+      0.5
+    ], 
+    [
+      "Location[areaWater]>(type|Administrative_divisions_of_New_York)>(isPartOf|Nassau_County,_New_York)", 
+      0.503
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Nebraska)", 
+      0.5052
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Idaho)>(timeZone|Pacific_Time_Zone)>(type|City)", 
+      0.5063
+    ]
+  ], 
+  "values": [
+    0.9795867207795784, 
+    1.004229017517094, 
+    1.0331406589504952, 
+    0.9945738877423653, 
+    0.9882786218158056, 
+    0.968348683056607, 
+    1.046776036193216, 
+    1.0431744245102432, 
+    1.0455379405904797, 
+    1.021878331834884, 
+    0.9833601540259737, 
+    1.0338807451325618, 
+    1.0244278971316523, 
+    0.9533816738694733, 
+    0.9611231843726137, 
+    0.9831287505478329, 
+    0.9891913957512543, 
+    0.9961680904138861, 
+    1.0082254922490181, 
+    0.9878261499842519, 
+    1.0427724439254027, 
+    0.9921529219822043, 
+    0.9727600584463947, 
+    8.813853363842524, 
+    0.9832491070299308, 
+    0.9700135094733073, 
+    1.033516498504754, 
+    0.9888542385048682, 
+    1.0349615975728816, 
+    1.0385487088268812, 
+    0.9946552880420795, 
+    0.9938066443218952, 
+    0.9611893598597565, 
+    1.018895650341862, 
+    1.0181860351983907, 
+    0.9744822031478673, 
+    1.0498769283241451, 
+    8.898742237132902, 
+    0.9889214591605032, 
+    1.038115993830192, 
+    0.9964888051598108, 
+    1.0111048339644877, 
+    0.9705973935093705, 
+    0.9908641594777579, 
+    1.034114613950705, 
+    1.044688689766573, 
+    0.9790051678460575, 
+    0.9645782598402851, 
+    0.9987946653063157, 
+    9.666730377790447, 
+    0.9517291769258543
+  ]
+}

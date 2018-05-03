@@ -1,0 +1,204 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/maximumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.1884
+        ], 
+        [
+          "populationTotal", 
+          0.2051
+        ], 
+        [
+          "runtime", 
+          0.2315
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          5.0
+        ], 
+        [
+          "populationTotal", 
+          4.0
+        ], 
+        [
+          "runtime", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          0.1827
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.1859
+        ], 
+        [
+          "http://dbpedia.org/ontology/MountainRange (elevation)", 
+          0.1875
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1884
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1921
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1923
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2023
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.2023
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2023
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.2063
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.2116
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          0.2315
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          0.2315
+        ], 
+        [
+          "http://dbpedia.org/ontology/Album (runtime)", 
+          0.2315
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MountainRange (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Album (runtime)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[populationTotal]>(type|Village_development_committee)>(isPartOf|Khotang_District)", 
+      0.1746
+    ], 
+    [
+      "Location[populationTotal]>(type|Village_development_committee)>(isPartOf|Khotang_District)", 
+      0.1818
+    ], 
+    [
+      "MountainRange[elevation]>(country|Austria)", 
+      0.1818
+    ], 
+    [
+      "Mountain[elevation]>(locatedInArea|France)", 
+      0.1827
+    ], 
+    [
+      "Settlement[elevation]>(country|Peru)>(isPartOf|Arequipa_Region)", 
+      0.191
+    ], 
+    [
+      "MountainRange[elevation]>(country|Canada)", 
+      0.1931
+    ], 
+    [
+      "Settlement[elevation]>(country|Peru)>(isPartOf|Arequipa_Region)>(timeZone|Time_in_Peru)", 
+      0.1932
+    ], 
+    [
+      "Village[populationTotal]>(type|Village_development_committee)>(isPartOf|Dhawalagiri_Zone)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2301
+    ], 
+    [
+      "Album[runtime]>(type|Soundtrack)", 
+      0.2315
+    ], 
+    [
+      "Location[populationTotal]>(type|Village_development_committee)>(isPartOf|Dhawalagiri_Zone)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2339
+    ]
+  ], 
+  "values": [
+    2240.28, 
+    2450.0, 
+    3630.0, 
+    1071.37, 
+    3276.6
+  ]
+}

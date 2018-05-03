@@ -1,0 +1,243 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaWater"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaWater", 
+          0.0818
+        ], 
+        [
+          "areaTotal", 
+          0.1139
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          9.0
+        ], 
+        [
+          "areaTotal", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.0704
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.0753
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.0753
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          0.0873
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.0943
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.1139
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1139
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.1139
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          17.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[areaWater]>(isPartOf|Michigan)>(type|Census-designated_place)>(timeZone|Eastern_Time_Zone)>(country|United_States)", 
+      0.0609
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Michigan)>(type|Census-designated_place)>(timeZone|Eastern_Time_Zone)", 
+      0.0644
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Michigan)", 
+      0.0676
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Michigan)>(type|Census-designated_place)", 
+      0.0684
+    ], 
+    [
+      "Town[areaWater]", 
+      0.0873
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Minnesota)>(isPartOf|Stearns_County,_Minnesota)", 
+      0.0903
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Minnesota)", 
+      0.0953
+    ], 
+    [
+      "Location[areaWater]>(type|Administrative_divisions_of_New_York)", 
+      0.0993
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Illinois)", 
+      0.1031
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Canada)>(isPartOf|Saskatchewan)", 
+      0.1139
+    ]
+  ], 
+  "values": [
+    2261979.775328438, 
+    0.0, 
+    15762.935936034328, 
+    286480.1555244633, 
+    12487565.921367997, 
+    779877.8998225025, 
+    0.0, 
+    520003.6080976784, 
+    2096828.466975295, 
+    0.0, 
+    1277945.598284036, 
+    0.0, 
+    1336453.748023229, 
+    1394242.64762472, 
+    286361.2164060394, 
+    0.0, 
+    4063026.2198152742, 
+    4290146.447202181, 
+    1626501.3199545888, 
+    306431.2245065568, 
+    0.0, 
+    41700.89679251143, 
+    0.0, 
+    0.0, 
+    25038.69475910163, 
+    101491.9086791843, 
+    12525252.408075972, 
+    15201765.696021648, 
+    0.0, 
+    1177693.0251108923, 
+    8097003.446564086, 
+    10414393.649911586, 
+    5275118.432616659, 
+    530800.1326330596, 
+    0.0, 
+    29118883.825044602, 
+    2169226.624875892, 
+    0.0, 
+    2690753.587474214, 
+    2681771.5743202316, 
+    0.0, 
+    100302.16884290942, 
+    2975100.7791636833, 
+    4932851.541594646, 
+    27154.133646600192, 
+    208847.83707995008, 
+    97843.51662340875, 
+    0.0, 
+    0.0, 
+    103475.53027888382, 
+    1085550.5014339383, 
+    1074235.2575698388, 
+    0.0, 
+    917182.9341220934, 
+    22366.110745770595, 
+    691480.3094296147, 
+    103174.33334737281, 
+    0.0, 
+    2283376.136175767, 
+    1165061.0191191533, 
+    2469272.750008324, 
+    124266293.47811814, 
+    3002458.130778844, 
+    37975428.67188437, 
+    0.0, 
+    1354704.1745805182, 
+    3343002.998567926, 
+    10348347.12830856, 
+    779898.5324888846, 
+    0.0, 
+    0.0, 
+    28227.377071533418, 
+    1142192.6922843247, 
+    2066939.344976001, 
+    2022747.0079341494, 
+    494041.4368351252, 
+    527820.3867836394, 
+    4002691.5017962963, 
+    3561767.2185426936, 
+    4401071.527996423, 
+    3346138.711835799, 
+    504546.85493958765, 
+    61847.73155419186, 
+    7657838.113321153, 
+    20874.839966563817, 
+    4491304.253075396, 
+    995961.5849692164, 
+    0.0, 
+    594405.1840915941, 
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    34166.26260119673, 
+    58696.645518655634, 
+    779901.445376407, 
+    20100.18907113793, 
+    73879.60146888994, 
+    0.0, 
+    269350.18689182535
+  ]
+}

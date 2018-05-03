@@ -1,0 +1,211 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaWater"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaWater", 
+          0.0853
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.0845
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.0845
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.0863
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.0866
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.0922
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          17.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "City[areaWater]>(isPartOf|Minnesota)", 
+      0.0664
+    ], 
+    [
+      "Settlement[areaWater]", 
+      0.0667
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Minnesota)>(timeZone|Central_Time_Zone)", 
+      0.0857
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Minnesota)>(timeZone|Central_Time_Zone)>(type|City)", 
+      0.088
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Washington_(state))", 
+      0.0892
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Wisconsin)", 
+      0.0908
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Wisconsin)>(type|Census-designated_place)", 
+      0.0911
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Minnesota)>(timeZone|Central_Time_Zone)>(type|City)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0913
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Oklahoma)>(type|City)", 
+      0.0913
+    ], 
+    [
+      "Location[areaWater]", 
+      0.0922
+    ]
+  ], 
+  "values": [
+    1920000.0, 
+    80000.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    30000.0, 
+    621597.0, 
+    0.0, 
+    680000.0, 
+    699297.0, 
+    0.0, 
+    5076380.0, 
+    0.0, 
+    2589.99, 
+    193000000.0, 
+    0.0, 
+    0.0, 
+    140000.0, 
+    2874890.0, 
+    50000.0, 
+    0.0, 
+    77699.6, 
+    0.0, 
+    25899.9, 
+    110618000.0, 
+    1812990.0, 
+    0.0, 
+    370000.0, 
+    3625980.0, 
+    100000.0, 
+    0.0, 
+    230000.0, 
+    200000.0, 
+    653000.0, 
+    30000.0, 
+    2000000.0, 
+    1901050.0, 
+    0.0, 
+    0.0, 
+    647497.0, 
+    3548280.0, 
+    2071990.0, 
+    77699.6, 
+    258999.0, 
+    8028960.0, 
+    210000.0, 
+    517998.0, 
+    621597.0, 
+    0.0, 
+    120000.0, 
+    14270000.0, 
+    2330990.0, 
+    700000.0, 
+    5780000.0, 
+    410000.0, 
+    36259.8, 
+    1036000.0, 
+    850000.0, 
+    50000.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    30000.0, 
+    0.0, 
+    26000.0, 
+    0.0, 
+    0.0, 
+    25666800.0, 
+    0.0, 
+    517998.0, 
+    0.0, 
+    60000.0, 
+    23309.9, 
+    125000.0, 
+    12431900.0, 
+    15300000.0, 
+    2745390.0, 
+    100000.0, 
+    0.0, 
+    51799.8, 
+    0.0, 
+    300000.0, 
+    0.0, 
+    80000.0, 
+    0.0, 
+    40000.0, 
+    0.0, 
+    0.0, 
+    10700000.0, 
+    5500000.0, 
+    0.0, 
+    3302230.0, 
+    1709390.0, 
+    0.0, 
+    1294990.0, 
+    414398.0, 
+    0.0
+  ]
+}

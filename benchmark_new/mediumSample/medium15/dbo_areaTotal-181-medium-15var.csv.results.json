@@ -1,0 +1,266 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "budget", 
+          0.0883
+        ], 
+        [
+          "areaTotal", 
+          0.2092
+        ], 
+        [
+          "area", 
+          0.3217
+        ]
+      ], 
+      "maj": [
+        [
+          "area", 
+          7.0
+        ], 
+        [
+          "areaTotal", 
+          2.0
+        ], 
+        [
+          "budget", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Agent (budget)", 
+          0.0883
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (budget)", 
+          0.0883
+        ], 
+        [
+          "http://dbpedia.org/ontology/GovernmentAgency (budget)", 
+          0.0883
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.1038
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (areaTotal)", 
+          0.1038
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.2092
+        ], 
+        [
+          "http://dbpedia.org/ontology/WineRegion (areaTotal)", 
+          0.3146
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (area)", 
+          0.3197
+        ], 
+        [
+          "http://dbpedia.org/ontology/Diocese (area)", 
+          0.322
+        ], 
+        [
+          "http://dbpedia.org/ontology/ClericalAdministrativeRegion (area)", 
+          0.3224
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (area)", 
+          0.3224
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          0.3224
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (area)", 
+          0.3224
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          0.3224
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Diocese (area)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (area)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ClericalAdministrativeRegion (area)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (area)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (area)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WineRegion (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/GovernmentAgency (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (budget)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (budget)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (areaTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "GovernmentAgency[budget]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0883
+    ], 
+    [
+      "Country[areaTotal]", 
+      0.1038
+    ], 
+    [
+      "Location[area]>(jurisdiction|Diocese)>(country|China)", 
+      0.3134
+    ], 
+    [
+      "Diocese[area]>(country|China)>(jurisdiction|Diocese)", 
+      0.3134
+    ], 
+    [
+      "Diocese[area]>(country|China)", 
+      0.3139
+    ], 
+    [
+      "WineRegion[areaTotal]>(growingGrape|Gew%C3%BCrztraminer)>(growingGrape|Riesling)", 
+      0.3146
+    ], 
+    [
+      "Diocese[area]>(country|United_States)", 
+      0.3225
+    ], 
+    [
+      "Location[area]>(jurisdiction|Diocese)>(country|United_States)", 
+      0.326
+    ], 
+    [
+      "Diocese[area]>(country|United_States)>(jurisdiction|Diocese)", 
+      0.326
+    ], 
+    [
+      "Diocese[area]>(country|Brazil)", 
+      0.3363
+    ]
+  ], 
+  "values": [
+    38420363692.81425, 
+    55723441346.030045, 
+    10532222020.958443, 
+    2623074395.267443, 
+    335498673.6395245, 
+    152002154.20574155, 
+    25115391887.202866, 
+    276988755.7258445, 
+    252830455708.95648, 
+    664705662811.9823, 
+    1808269.1334996645, 
+    1751758.077033759, 
+    370840113144.5625, 
+    97050541178.05446, 
+    193902297296.66873, 
+    345944494698.27563, 
+    67156606735.28253, 
+    8263319.408809381, 
+    50850812896.04203, 
+    26553789520.15453, 
+    78159814.71606375, 
+    322661866320.12537, 
+    1470005491839.5942, 
+    417641202.47482663, 
+    146873226281.304, 
+    102630066493.46365, 
+    5845503210215.903, 
+    458.9926564263461, 
+    305531008491.2312, 
+    533948347984.48267, 
+    11740971932.47621, 
+    40653829.8272294, 
+    61833952.77369355, 
+    377957531185.7437, 
+    26474866273.158306, 
+    692164019.7575468, 
+    16553775282.253153, 
+    74575045463.98395, 
+    1634715609386.6816, 
+    245637325359.6751, 
+    433711287825.91046, 
+    308486388.59515315, 
+    17056748.54628321, 
+    39267868149.68232, 
+    3901320879381.9775, 
+    78292240.31586206, 
+    2736581774.204959, 
+    42058699929.272514, 
+    26412380506456.707, 
+    3630134170.4334583, 
+    135261144597.14037, 
+    31107318396.505913, 
+    210344576842.36682, 
+    173234202469.50366, 
+    10767608757.276825, 
+    43059140587.126495, 
+    447192975231.90533, 
+    21294660043.133354, 
+    3831453791.360137, 
+    475375230.9594275, 
+    31349786182017.5, 
+    3315079034751.24, 
+    132851468.04625362, 
+    183597496.64225996, 
+    168369816991.22656, 
+    301939525750.6094, 
+    221603.75908666945
+  ]
+}

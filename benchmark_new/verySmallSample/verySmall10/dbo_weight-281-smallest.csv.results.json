@@ -1,0 +1,247 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/weight"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "weight", 
+          0.2031
+        ]
+      ], 
+      "maj": [
+        [
+          "weight", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/RugbyPlayer (weight)", 
+          0.1676
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (weight)", 
+          0.1982
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (weight)", 
+          0.2031
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (weight)", 
+          0.2031
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (weight)", 
+          0.2031
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wrestler (weight)", 
+          0.2127
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmericanFootballPlayer (weight)", 
+          0.2315
+        ], 
+        [
+          "http://dbpedia.org/ontology/GridironFootballPlayer (weight)", 
+          0.2315
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (weight)", 
+          0.2589
+        ], 
+        [
+          "http://dbpedia.org/ontology/IceHockeyPlayer (weight)", 
+          0.2589
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Person (weight)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (weight)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (weight)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (weight)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/IceHockeyPlayer (weight)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wrestler (weight)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RugbyPlayer (weight)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/GridironFootballPlayer (weight)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmericanFootballPlayer (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (weight)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "BasketballPlayer[weight]", 
+      0.0974
+    ], 
+    [
+      "RugbyPlayer[weight]", 
+      0.1002
+    ], 
+    [
+      "Wrestler[weight]", 
+      0.189
+    ], 
+    [
+      "RugbyPlayer[weight]>(formerTeam|Warrington_Wolves)", 
+      0.2013
+    ], 
+    [
+      "Wrestler[weight]>(birthPlace|Japan)", 
+      0.2246
+    ], 
+    [
+      "GridironFootballPlayer[weight]", 
+      0.2315
+    ], 
+    [
+      "AmericanFootballPlayer[weight]", 
+      0.2315
+    ], 
+    [
+      "BasketballPlayer[weight]>(position|Center_(basketball))>(position|Basketball_positions)", 
+      0.2318
+    ], 
+    [
+      "IceHockeyPlayer[weight]>(formerTeam|Atlanta_Thrashers)>(position|Defenceman)", 
+      0.2589
+    ], 
+    [
+      "Athlete[weight]", 
+      0.2643
+    ]
+  ], 
+  "values": [
+    97091.75586221517, 
+    93785.24361953264, 
+    105005.83007664366, 
+    86170.64002660433, 
+    100771.5584886901, 
+    110768.16950732614, 
+    80008.80727505562, 
+    93660.27255915325, 
+    91709.0579502088, 
+    82735.05839907848, 
+    108250.51759842162, 
+    82526.24064740738, 
+    93878.82691393488, 
+    93084.5569578083, 
+    83085.61107291958, 
+    70749.37057666376, 
+    106142.65641116125, 
+    80830.79009958949, 
+    83186.78217937412, 
+    71469.46258045489, 
+    87019.1023542345, 
+    108185.3405016292, 
+    95782.37142012476, 
+    104856.80767612749, 
+    100188.58418826031, 
+    109471.25851171209, 
+    113713.01640149539, 
+    97791.65829893664, 
+    86166.69234201536, 
+    84255.81180137025, 
+    90021.751951357, 
+    84484.22625668185, 
+    99490.20003382767, 
+    84027.98820191338, 
+    99131.59497603428, 
+    97757.20658729068, 
+    82727.6013384752, 
+    99960.23051281268, 
+    83972.8188193996, 
+    66324.30776471109, 
+    85541.40067022297, 
+    102522.5561381462, 
+    97207.8010961908, 
+    108355.64228132355, 
+    84847.13714459135, 
+    95084.60694245699, 
+    76654.69913730022, 
+    97950.44613569345, 
+    134864.34123300252, 
+    90085.09843780419, 
+    75307.94991416651, 
+    85819.4190301167, 
+    87566.29641971528, 
+    126041.22511936708, 
+    125860.01239135208, 
+    97957.0454522033, 
+    119754.02838925213, 
+    92774.43467687356, 
+    108739.63817359705, 
+    105716.15855278421, 
+    96938.00070602573, 
+    80953.23663247263, 
+    93002.12620704985, 
+    97409.87778481226, 
+    113420.17965819218, 
+    93443.11260199243, 
+    85652.28571063759, 
+    101762.67259325588, 
+    107103.23662044504, 
+    99828.92069739754, 
+    91695.54401098649, 
+    86687.42392747405, 
+    66122.02744306033, 
+    103883.29418922972, 
+    93309.89985009641, 
+    113602.7551831037, 
+    116367.92718208735, 
+    93646.59142714099, 
+    102481.47690309431, 
+    87199.20318216753, 
+    109533.17548418585, 
+    96559.57946104948, 
+    96602.71182982164, 
+    89748.9934596102, 
+    104857.81147134292, 
+    123934.89174034914, 
+    100430.00032233592, 
+    87389.72332608048, 
+    89118.07089622991, 
+    85788.54158836031, 
+    103510.91397868711, 
+    110487.75312897812, 
+    106315.48714280456, 
+    78395.02291995873, 
+    114548.02108866141, 
+    97706.54464820078
+  ]
+}

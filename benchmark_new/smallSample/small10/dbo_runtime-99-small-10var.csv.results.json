@@ -1,0 +1,159 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.151
+        ], 
+        [
+          "populationTotal", 
+          0.1605
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          9.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.151
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          0.151
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.151
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1513
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1591
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1591
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1626
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          0.1673
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          26.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          17.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[populationTotal]>(country|Italy)>(province|Province_of_Lecco)", 
+      0.1358
+    ], 
+    [
+      "Mountain[elevation]>(locatedInArea|United_States)", 
+      0.151
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(province|Province_of_Lecco)", 
+      0.1566
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_Time_Zone)>(governmentType|Town_council)>(type|Town)>(leaderName|Democratic_Party_(United_States))", 
+      0.1596
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_Time_Zone)>(daylightSavingTimeZone|Eastern_Time_Zone)>(region|Washington_County,_Pennsylvania)>(country|United_States)", 
+      0.161
+    ], 
+    [
+      "Town[populationTotal]>(isPartOf|New_York)>(type|Town)>(leaderName|Democratic_Party_(United_States))", 
+      0.1632
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_Time_Zone)>(governmentType|Town_council)>(type|Town)>(leaderName|Democratic_Party_(United_States))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1647
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_Time_Zone)>(governmentType|Town_council)>(type|Town)>(leaderName|Democratic_Party_(United_States))>(22-rdf-syntax-ns#type|_Feature)>(country|United_States)", 
+      0.1667
+    ], 
+    [
+      "Town[populationTotal]>(isPartOf|New_York)>(type|Town)>(leaderName|Democratic_Party_(United_States))>(22-rdf-syntax-ns#type|_Feature)>(country|United_States)>(governmentType|Town_council)", 
+      0.1667
+    ], 
+    [
+      "Town[populationTotal]>(isPartOf|New_York)>(type|Town)>(leaderName|Democratic_Party_(United_States))>(22-rdf-syntax-ns#type|_Feature)>(country|United_States)", 
+      0.1707
+    ]
+  ], 
+  "values": [
+    111.59036541896833, 
+    117.65206847541914, 
+    2720.1308763884817, 
+    4668.358814432266, 
+    1741.9764634237772, 
+    3089.151864915876, 
+    1541.6687521519134, 
+    3357.2252725360604, 
+    3253.3038774029806, 
+    1252.3237095073862, 
+    791.5124294874079, 
+    4208.857232207294, 
+    2712.685437928006, 
+    536.304964550737, 
+    1640.000003258336, 
+    4558.072572802383
+  ]
+}

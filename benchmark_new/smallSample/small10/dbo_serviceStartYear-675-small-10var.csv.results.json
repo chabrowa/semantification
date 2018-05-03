@@ -1,0 +1,393 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/serviceStartYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "deathYear", 
+          0.2609
+        ], 
+        [
+          "openingYear", 
+          0.2609
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.2609
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.2609
+        ]
+      ], 
+      "maj": [
+        [
+          "deathYear", 
+          3.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          3.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          3.0
+        ], 
+        [
+          "openingYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Philosopher (deathYear)", 
+          0.2609
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cardinal (activeYearsStartYear)", 
+          0.2609
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.2609
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.2609
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.2609
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsEndYear)", 
+          0.2609
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.2609
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (deathYear)", 
+          0.2609
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsStartYear)", 
+          0.2609
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.2609
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsStartYear)", 
+          0.2609
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryPerson (deathYear)", 
+          0.2609
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.2609
+        ], 
+        [
+          "http://dbpedia.org/ontology/Scientist (activeYearsEndYear)", 
+          0.2609
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.2609
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsEndYear)", 
+          0.2609
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          0.2609
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          0.2609
+        ], 
+        [
+          "http://dbpedia.org/ontology/Medician (activeYearsEndYear)", 
+          0.2609
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          0.2609
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsStartYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Scientist (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Philosopher (deathYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cardinal (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (deathYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryPerson (deathYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Medician (activeYearsEndYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "RouteOfTransportation[openingYear]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2609
+    ], 
+    [
+      "Cleric[activeYearsStartYear]", 
+      0.2609
+    ], 
+    [
+      "ChristianBishop[activeYearsStartYear]", 
+      0.2609
+    ], 
+    [
+      "Cardinal[activeYearsStartYear]", 
+      0.2609
+    ], 
+    [
+      "Scientist[activeYearsEndYear]", 
+      0.2609
+    ], 
+    [
+      "Medician[activeYearsEndYear]", 
+      0.2609
+    ], 
+    [
+      "ChristianBishop[activeYearsEndYear]>(religion|Catholic_Church)", 
+      0.2609
+    ], 
+    [
+      "MilitaryPerson[deathYear]", 
+      0.2609
+    ], 
+    [
+      "Artist[deathYear]", 
+      0.2609
+    ], 
+    [
+      "Philosopher[deathYear]", 
+      0.2609
+    ]
+  ], 
+  "values": [
+    2043.0, 
+    2111.0, 
+    2073.0, 
+    1928.0, 
+    1788.0, 
+    2136.0, 
+    1880.0, 
+    2038.0, 
+    1615.0, 
+    1862.0, 
+    1739.0, 
+    1912.0, 
+    1745.0, 
+    1875.0, 
+    2106.0, 
+    1811.0, 
+    1956.0, 
+    1831.0, 
+    2115.0, 
+    1792.0, 
+    2026.0, 
+    2071.0, 
+    1777.0, 
+    1815.0, 
+    1974.0, 
+    1732.0, 
+    2059.0, 
+    2034.0, 
+    1766.0, 
+    1910.0, 
+    1794.0, 
+    1831.0, 
+    1832.0, 
+    2011.0, 
+    1858.0, 
+    1869.0, 
+    2040.0, 
+    1831.0, 
+    2002.0, 
+    1881.0, 
+    1847.0, 
+    2021.0, 
+    2021.0, 
+    1941.0, 
+    2132.0, 
+    2012.0, 
+    1818.0, 
+    1853.0, 
+    1800.0, 
+    1995.0, 
+    1827.0, 
+    1669.0, 
+    1974.0, 
+    1981.0, 
+    2139.0, 
+    1829.0, 
+    1819.0, 
+    1978.0, 
+    1884.0, 
+    1833.0, 
+    2107.0, 
+    2038.0, 
+    1925.0, 
+    1815.0, 
+    1760.0, 
+    1805.0, 
+    1810.0, 
+    2048.0, 
+    2050.0, 
+    1916.0, 
+    1722.0, 
+    1868.0, 
+    1775.0, 
+    2103.0, 
+    2117.0, 
+    1968.0, 
+    2112.0, 
+    28.0, 
+    1973.0, 
+    1749.0, 
+    1914.0, 
+    1942.0, 
+    1785.0, 
+    1933.0, 
+    2109.0, 
+    1723.0, 
+    1781.0, 
+    1890.0, 
+    1745.0, 
+    1821.0, 
+    1808.0, 
+    1970.0, 
+    1856.0, 
+    1903.0, 
+    2061.0, 
+    2133.0, 
+    14.0, 
+    2071.0, 
+    2042.0, 
+    1801.0, 
+    1672.0, 
+    1934.0, 
+    2145.0, 
+    1954.0, 
+    1846.0, 
+    1943.0, 
+    2146.0, 
+    1782.0, 
+    1814.0, 
+    1787.0, 
+    1899.0, 
+    2135.0, 
+    1868.0, 
+    2085.0, 
+    1932.0, 
+    1960.0, 
+    1704.0, 
+    1760.0, 
+    1971.0, 
+    1777.0, 
+    2056.0, 
+    2169.0, 
+    2126.0, 
+    1835.0, 
+    2131.0, 
+    1876.0, 
+    1871.0, 
+    1794.0, 
+    22.0, 
+    1741.0, 
+    15.0, 
+    1815.0, 
+    1790.0, 
+    1816.0, 
+    1907.0, 
+    1860.0, 
+    1910.0, 
+    1781.0
+  ]
+}

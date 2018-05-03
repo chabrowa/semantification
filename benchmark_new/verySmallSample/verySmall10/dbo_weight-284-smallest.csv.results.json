@@ -1,0 +1,197 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/weight"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "weight", 
+          0.2873
+        ], 
+        [
+          "postalCode", 
+          0.2914
+        ]
+      ], 
+      "maj": [
+        [
+          "weight", 
+          8.0
+        ], 
+        [
+          "postalCode", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/TableTennisPlayer (weight)", 
+          0.2392
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmateurBoxer (weight)", 
+          0.2394
+        ], 
+        [
+          "http://dbpedia.org/ontology/Boxer (weight)", 
+          0.2434
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (weight)", 
+          0.2678
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (weight)", 
+          0.2873
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (weight)", 
+          0.2873
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          0.2909
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          0.2909
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          0.2909
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (postalCode)", 
+          0.2919
+        ], 
+        [
+          "http://dbpedia.org/ontology/Swimmer (weight)", 
+          0.3065
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdultActor (weight)", 
+          0.3159
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (weight)", 
+          0.3199
+        ], 
+        [
+          "http://dbpedia.org/ontology/Actor (weight)", 
+          0.3199
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Person (weight)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (weight)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (weight)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Swimmer (weight)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (weight)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Actor (weight)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdultActor (weight)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (postalCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Boxer (weight)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmateurBoxer (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TableTennisPlayer (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "TableTennisPlayer[weight]", 
+      0.2392
+    ], 
+    [
+      "AmateurBoxer[weight]", 
+      0.2394
+    ], 
+    [
+      "Boxer[weight]", 
+      0.2474
+    ], 
+    [
+      "Settlement[postalCode]>(region|Lorraine_(region))", 
+      0.2909
+    ], 
+    [
+      "Location[postalCode]>(region|Lorraine_(region))", 
+      0.2919
+    ], 
+    [
+      "Swimmer[weight]>(nationality|South_Korea)", 
+      0.2941
+    ], 
+    [
+      "AdultActor[weight]>(birthPlace|United_States)", 
+      0.3118
+    ], 
+    [
+      "Swimmer[weight]>(nationality|Japan)", 
+      0.3188
+    ], 
+    [
+      "Actor[weight]", 
+      0.3239
+    ], 
+    [
+      "AdultActor[weight]", 
+      0.3239
+    ]
+  ], 
+  "values": [
+    59880.83202609131, 
+    51542.00209677792, 
+    57573.58590883588, 
+    54382.05332642648, 
+    76738.97612708547, 
+    91102.87555699288
+  ]
+}

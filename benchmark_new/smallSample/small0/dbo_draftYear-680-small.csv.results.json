@@ -1,0 +1,214 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/draftYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "activeYearsEndYear", 
+          0.1352
+        ], 
+        [
+          "year", 
+          0.1432
+        ], 
+        [
+          "foundingYear", 
+          0.1449
+        ]
+      ], 
+      "maj": [
+        [
+          "year", 
+          7.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          2.0
+        ], 
+        [
+          "foundingYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/AmericanFootballPlayer (activeYearsEndYear)", 
+          0.1351
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.1352
+        ], 
+        [
+          "http://dbpedia.org/ontology/GridironFootballPlayer (activeYearsEndYear)", 
+          0.1352
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (activeYearsEndYear)", 
+          0.1352
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.1352
+        ], 
+        [
+          "http://dbpedia.org/ontology/FootballLeagueSeason (year)", 
+          0.1432
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsSeason (year)", 
+          0.1432
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeamSeason (year)", 
+          0.1432
+        ], 
+        [
+          "http://dbpedia.org/ontology/NationalFootballLeagueSeason (year)", 
+          0.1432
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bank (foundingYear)", 
+          0.1449
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.1449
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.1449
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          0.1449
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/NationalFootballLeagueSeason (year)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/FootballLeagueSeason (year)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsSeason (year)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeamSeason (year)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bank (foundingYear)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/GridironFootballPlayer (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmericanFootballPlayer (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "NationalFootballLeagueSeason[year]>(team|Minnesota_Vikings)", 
+      0.1321
+    ], 
+    [
+      "AmericanFootballPlayer[activeYearsEndYear]", 
+      0.1351
+    ], 
+    [
+      "GridironFootballPlayer[activeYearsEndYear]", 
+      0.1353
+    ], 
+    [
+      "NationalFootballLeagueSeason[year]>(team|San_Francisco_49ers)", 
+      0.1404
+    ], 
+    [
+      "Bank[foundingYear]>(product|Cheque)>(keyPerson|Chairman)>(product|Debit_card)>(product|Investment)>(keyPerson|Chief_executive_officer)>(industry|Financial_services)", 
+      0.1449
+    ], 
+    [
+      "NationalFootballLeagueSeason[year]>(team|Oakland_Raiders)", 
+      0.1455
+    ], 
+    [
+      "NationalFootballLeagueSeason[year]>(team|San_Diego_Chargers)", 
+      0.1455
+    ], 
+    [
+      "NationalFootballLeagueSeason[year]>(team|New_York_Jets)", 
+      0.1455
+    ], 
+    [
+      "NationalFootballLeagueSeason[year]>(team|Buffalo_Bills)", 
+      0.1455
+    ], 
+    [
+      "NationalFootballLeagueSeason[year]>(team|Kansas_City_Chiefs)", 
+      0.1481
+    ]
+  ], 
+  "values": [
+    1999.0, 
+    1959.0, 
+    1983.0, 
+    1997.0, 
+    1993.0, 
+    1995.0, 
+    1966.0, 
+    1996.0, 
+    1997.0, 
+    1979.0, 
+    1999.0, 
+    2006.0, 
+    1965.0, 
+    1955.0, 
+    1975.0, 
+    2005.0, 
+    2004.0, 
+    1983.0, 
+    2001.0, 
+    1954.0, 
+    1980.0, 
+    1983.0, 
+    1991.0
+  ]
+}

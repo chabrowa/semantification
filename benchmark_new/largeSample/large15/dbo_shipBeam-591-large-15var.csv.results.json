@@ -1,0 +1,230 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/shipBeam"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.2216
+        ], 
+        [
+          "shipBeam", 
+          0.2263
+        ], 
+        [
+          "elevation", 
+          0.2424
+        ], 
+        [
+          "width", 
+          0.254
+        ]
+      ], 
+      "maj": [
+        [
+          "shipBeam", 
+          4.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "width", 
+          2.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          0.2206
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.2216
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.2216
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.2216
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.2216
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          0.2263
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2424
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2424
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2427
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          0.2537
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          0.2537
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.254
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          0.254
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          15.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Ship[shipBeam]>(country|United_Kingdom)", 
+      0.2078
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Arkansas)", 
+      0.2216
+    ], 
+    [
+      "Ship[shipBeam]>(country|Kingdom_of_Great_Britain)", 
+      0.2258
+    ], 
+    [
+      "Ship[shipBeam]", 
+      0.2358
+    ], 
+    [
+      "MeanOfTransportation[shipBeam]", 
+      0.2358
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|New_York)>(isPartOf|Suffolk_County,_New_York)>(country|United_States)", 
+      0.2383
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|New_York)>(isPartOf|Suffolk_County,_New_York)>(country|United_States)>(type|Administrative_divisions_of_New_York)>(type|Census-designated_place)", 
+      0.2429
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|New_York)>(isPartOf|Suffolk_County,_New_York)>(country|United_States)>(type|Administrative_divisions_of_New_York)", 
+      0.246
+    ], 
+    [
+      "RouteOfTransportation[width]", 
+      0.2537
+    ], 
+    [
+      "ArchitecturalStructure[width]", 
+      0.2543
+    ]
+  ], 
+  "values": [
+    13.146628110600671, 
+    6.362625306841622, 
+    9.120237850707621, 
+    10.975262188652703, 
+    10.611835007713792, 
+    13.38822883182807, 
+    28.60684319630027, 
+    29.058890948910634, 
+    10.566156845595573, 
+    11.589343777993887, 
+    7.3835463589353685, 
+    26.27335612325834, 
+    9.209251085567907, 
+    25.60575634799757, 
+    20.92782017790765, 
+    12.998530534209651, 
+    11.557759884145476, 
+    13.374275120967152, 
+    8.916463282509566, 
+    10.79714584759096, 
+    12.624830827782489, 
+    11.155021132483999, 
+    13.767263880632942, 
+    21.902970665517074, 
+    12.403283059172841, 
+    13.118059061240352, 
+    3.3556570072651053, 
+    9.023711591903501, 
+    24.901074577654022, 
+    10.45888734074907, 
+    10.741749972335866
+  ]
+}

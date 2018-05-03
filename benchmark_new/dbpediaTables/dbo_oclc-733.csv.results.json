@@ -1,0 +1,131 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/oclc"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.2476
+        ], 
+        [
+          "oclc", 
+          0.2492
+        ]
+      ], 
+      "maj": [
+        [
+          "oclc", 
+          5.0
+        ], 
+        [
+          "areaTotal", 
+          5.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/AcademicJournal (oclc)", 
+          0.2459
+        ], 
+        [
+          "http://dbpedia.org/ontology/PeriodicalLiterature (oclc)", 
+          0.2459
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.2477
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          0.2492
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          0.2492
+        ], 
+        [
+          "http://dbpedia.org/ontology/Book (oclc)", 
+          0.25
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Book (oclc)", 
+          18.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          17.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AcademicJournal (oclc)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PeriodicalLiterature (oclc)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "AcademicJournal[oclc]>(publisher|Cambridge_University_Press)", 
+      0.2459
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_C%C3%A1ceres)", 
+      0.2459
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Toledo)>(isPartOf|Castilla-La_Mancha)", 
+      0.2461
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Toledo)", 
+      0.2462
+    ], 
+    [
+      "Book[oclc]>(publisher|Pocket_Books)>(literaryGenre|Horror_fiction)", 
+      0.25
+    ], 
+    [
+      "Book[oclc]>(publisher|Pocket_Books)>(literaryGenre|Horror_fiction)>(mediaType|Paperback)", 
+      0.25
+    ], 
+    [
+      "Book[oclc]>(publisher|Pocket_Books)>(literaryGenre|Horror_fiction)>(mediaType|Paperback)>(country|United_States)", 
+      0.25
+    ], 
+    [
+      "Book[oclc]>(publisher|Pocket_Books)>(literaryGenre|Horror_fiction)>(mediaType|Paperback)>(country|United_States)>(language|English_language)", 
+      0.25
+    ], 
+    [
+      "Location[areaTotal]>(country|Austria)>(state|Salzburg_(state))", 
+      0.25
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(region|Sardinia)>(province|Province_of_Cagliari)", 
+      0.25
+    ]
+  ], 
+  "values": [
+    706049038.0, 
+    47971712.0, 
+    49745855.0, 
+    9215110.0
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEpisodes"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.1502
+        ], 
+        [
+          "elevation", 
+          0.1608
+        ], 
+        [
+          "numberOfEpisodes", 
+          0.1617
+        ], 
+        [
+          "height", 
+          0.1623
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          7.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ], 
+        [
+          "height", 
+          1.0
+        ], 
+        [
+          "numberOfEpisodes", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1468
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.1479
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1494
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1494
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.152
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.152
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1549
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1608
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          0.1617
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          0.1617
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (height)", 
+          0.1623
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Town[populationDensity]>(isPartOf|Pennsylvania)", 
+      0.1383
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Louisiana)", 
+      0.1455
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Michigan)", 
+      0.1471
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Alabama)", 
+      0.1543
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|New_York)>(type|Town)", 
+      0.1549
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|New_York)>(type|Town)", 
+      0.1549
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Illinois)", 
+      0.1563
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Marin_County,_California)", 
+      0.1608
+    ], 
+    [
+      "TelevisionShow[numberOfEpisodes]>(channel|CBS)", 
+      0.1617
+    ], 
+    [
+      "Location[height]>(location|Australia)", 
+      0.1623
+    ]
+  ], 
+  "values": [
+    20.0, 
+    24.0, 
+    10.0, 
+    54.0, 
+    2.0, 
+    76.0, 
+    13.0
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/weight"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "weight", 
+          0.0927
+        ], 
+        [
+          "areaTotal", 
+          0.1179
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          9.0
+        ], 
+        [
+          "weight", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Train (weight)", 
+          0.0927
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (weight)", 
+          0.0927
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.1175
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.1271
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1271
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.1271
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          27.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Train (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (weight)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Train[weight]", 
+      0.0927
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_C%C3%A1ceres)", 
+      0.1005
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Huesca)", 
+      0.1013
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Canary_Islands)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1133
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Canary_Islands)", 
+      0.1162
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Almer%C3%ADa)", 
+      0.1228
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(region|Umbria)", 
+      0.1242
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_C%C3%A1ceres)>(type|List_of_municipalities_in_C%C3%A1ceres)", 
+      0.1251
+    ], 
+    [
+      "Settlement[areaTotal]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Le%C3%B3n)", 
+      0.1271
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Almer%C3%ADa)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.131
+    ]
+  ], 
+  "values": [
+    7505231.826730143, 
+    236306737.5036951, 
+    41067241.89833942, 
+    83043463.50050615, 
+    93580450.46840084, 
+    23581255.12735641, 
+    29763825.36697734, 
+    61599287.40683578, 
+    17755704.175341316, 
+    135757147.04754514, 
+    550799295.5893536, 
+    9372619.671929171, 
+    70268238.7034494, 
+    35600192.3145245, 
+    44509769.929427825, 
+    96412490.11811797, 
+    29160990.282329265, 
+    39985592.1699859, 
+    222188418.6407155, 
+    765460928.6340055, 
+    28334708.18642046, 
+    31118527.710054927, 
+    139140978.2003958, 
+    177339117.8462344, 
+    13415188.294818666, 
+    36486229.92041724, 
+    47110799.14183196, 
+    164348943.58282045, 
+    19481846.336426564, 
+    47563542.16749049, 
+    30585301.594431993, 
+    139913080.68735147, 
+    61475396.515106246, 
+    37819127.36393723, 
+    39428227.85204553, 
+    32299953.485387478, 
+    70946736.4376255, 
+    116578164.24059896, 
+    37025063.72290924, 
+    27293932.025832053, 
+    416812557.36593634, 
+    37246140.60859572, 
+    27201878.59868331, 
+    38229940.34496143, 
+    103450999.84918325, 
+    38936497.185009286, 
+    133338736.59939225, 
+    15780854.935482686, 
+    66928171.49579271, 
+    36713380.18516806, 
+    33693565.841268614, 
+    17605407.01052182, 
+    42858208.75412286, 
+    36285694.98973741, 
+    372516228.367782, 
+    125508145.77886173, 
+    132399.6513132653, 
+    41566221.83617128, 
+    176065143.86084187, 
+    505588.95496694866, 
+    225236421.22927123, 
+    203138382.26813927, 
+    79248923.85074417, 
+    47104953.04739532, 
+    26567265.946693163, 
+    47890608.20574755, 
+    35030911.12096765, 
+    34436184.91200793, 
+    31134715.40541433, 
+    26280644.25371653, 
+    49816896.31988376, 
+    66771245.25563427, 
+    181394837.750871, 
+    28454104.298131503, 
+    434875223.5912002, 
+    314427530.00024194, 
+    255321710.44301626, 
+    46478293.44158161, 
+    67034179.84019586, 
+    45272686.14946479, 
+    32786482.385417163, 
+    130364939.2610952, 
+    225304907.56747657, 
+    586252081.2447522
+  ]
+}

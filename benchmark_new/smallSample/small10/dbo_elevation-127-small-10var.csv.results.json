@@ -1,0 +1,291 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/elevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "minimumElevation", 
+          0.0748
+        ], 
+        [
+          "elevation", 
+          0.1014
+        ], 
+        [
+          "populationDensity", 
+          0.1029
+        ], 
+        [
+          "populationTotal", 
+          0.1071
+        ]
+      ], 
+      "maj": [
+        [
+          "minimumElevation", 
+          3.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "populationDensity", 
+          3.0
+        ], 
+        [
+          "populationTotal", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.0667
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.0748
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.0789
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.0789
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (minimumElevation)", 
+          0.091
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.0923
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (elevation)", 
+          0.0957
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1014
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1014
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1036
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1071
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1071
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1071
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1071
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1082
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1082
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1082
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[minimumElevation]>(region|Languedoc-Roussillon)", 
+      0.0667
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Languedoc-Roussillon)", 
+      0.0667
+    ], 
+    [
+      "Village[minimumElevation]", 
+      0.091
+    ], 
+    [
+      "Location[populationDensity]>(timeZone|Pacific_Time_Zone)>(country|Canada)", 
+      0.0923
+    ], 
+    [
+      "Island[elevation]", 
+      0.0957
+    ], 
+    [
+      "Settlement[elevation]>(country|Spain)>(isPartOf|Province_of_Barcelona)>(type|Municipalities_of_Spain)", 
+      0.1
+    ], 
+    [
+      "Village[populationTotal]>(timeZone|Central_European_Time)>(country|Macedonia)", 
+      0.1071
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Washington_(state))>(country|United_States)", 
+      0.1081
+    ], 
+    [
+      "Settlement[elevation]>(country|Spain)>(isPartOf|Province_of_Barcelona)", 
+      0.1083
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Indiana)", 
+      0.1083
+    ]
+  ], 
+  "values": [
+    2066.973025865892, 
+    441.42934175732864, 
+    2.8230074530977567, 
+    153.82024159346696, 
+    529.0832073658319, 
+    1103.8429809447355, 
+    141.590373783902, 
+    1.0276070278247986, 
+    1.060945169685112, 
+    696.8474062394799, 
+    427.1002295764165, 
+    287.46494916775976, 
+    907.8964441766428, 
+    144.62340825494357, 
+    2029.5620888527274, 
+    1930.864771438988, 
+    361.6236055037574, 
+    774.3879855312775, 
+    258.6697902495564, 
+    106.97067664637504, 
+    286.1778447770166, 
+    310.1168295529048, 
+    187.93089928664696, 
+    55.601044273364096, 
+    18.22797172488847, 
+    3693.07374034811, 
+    45.00080393584023, 
+    352.4639615262558, 
+    94.81172379033498, 
+    3.085724358639618, 
+    62.78564510301538, 
+    306.41190626435673, 
+    133.9088728639518, 
+    3.1050729156363817, 
+    800.7485504041023, 
+    13.568286857613645, 
+    156.896135117756, 
+    753.5995103854278, 
+    64.93393050520353, 
+    37.24192504297847, 
+    452.4288501159917, 
+    786.6241079324328, 
+    14.31025492488426, 
+    65.36680131084206, 
+    101.54340990773085, 
+    183.30396381594775, 
+    288.9676697992617, 
+    4.949516664868836, 
+    492.7908051338786, 
+    1083.0576799215132, 
+    360.58973333689624, 
+    0.0, 
+    142.724397515476, 
+    46.34655004268469, 
+    2.555775241990351, 
+    820.8813906407993, 
+    167.29257574808213, 
+    720.0700671337148, 
+    469.07701013383587, 
+    187.49543314665726
+  ]
+}

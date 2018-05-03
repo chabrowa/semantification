@@ -1,0 +1,315 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/minimumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "minimumElevation", 
+          0.0633
+        ], 
+        [
+          "populationTotal", 
+          0.0827
+        ], 
+        [
+          "elevation", 
+          0.0841
+        ], 
+        [
+          "numberOfEpisodes", 
+          0.09
+        ], 
+        [
+          "populationDensity", 
+          0.0901
+        ]
+      ], 
+      "maj": [
+        [
+          "minimumElevation", 
+          4.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "numberOfEpisodes", 
+          1.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ], 
+        [
+          "populationTotal", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.0579
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.0582
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.0615
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.0687
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.0827
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.0841
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.0841
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.0841
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.0841
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          0.09
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          0.09
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.0901
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.0901
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.0901
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "PopulatedPlace[minimumElevation]", 
+      0.0575
+    ], 
+    [
+      "Settlement[minimumElevation]", 
+      0.0582
+    ], 
+    [
+      "Location[minimumElevation]", 
+      0.0687
+    ], 
+    [
+      "Place[minimumElevation]", 
+      0.0687
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_European_Time)>(isPartOf|Kardzhali_Province)", 
+      0.0827
+    ], 
+    [
+      "Town[elevation]>(country|India)>(isPartOf|Tamil_Nadu)>(22-rdf-syntax-ns#type|_Feature)>(timeZone|Indian_Standard_Time)", 
+      0.084
+    ], 
+    [
+      "Town[elevation]>(country|India)>(isPartOf|Tamil_Nadu)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0841
+    ], 
+    [
+      "Town[elevation]>(country|India)>(isPartOf|Tamil_Nadu)", 
+      0.0842
+    ], 
+    [
+      "TelevisionShow[numberOfEpisodes]>(country|India)>(network|Zee_TV)", 
+      0.09
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Maine)", 
+      0.0901
+    ]
+  ], 
+  "values": [
+    20.0, 
+    137.0, 
+    293.0, 
+    121.0, 
+    98.0, 
+    293.0, 
+    165.0, 
+    69.0, 
+    206.0, 
+    634.0, 
+    170.0, 
+    188.0, 
+    52.0, 
+    0.0, 
+    82.0, 
+    83.0, 
+    60.0, 
+    235.0, 
+    172.0, 
+    791.0, 
+    307.0, 
+    127.0, 
+    3.0, 
+    135.0, 
+    49.0, 
+    107.0, 
+    12.0, 
+    181.0, 
+    1320.0, 
+    112.0, 
+    84.0, 
+    1025.0, 
+    291.0, 
+    137.0, 
+    218.0, 
+    100.0, 
+    0.0, 
+    340.0, 
+    355.0, 
+    239.0, 
+    160.0, 
+    78.0, 
+    650.0, 
+    82.0, 
+    108.0, 
+    259.0, 
+    250.0, 
+    56.0, 
+    198.0, 
+    83.0, 
+    224.0, 
+    1.0, 
+    263.0, 
+    90.0, 
+    30.0, 
+    25.0, 
+    358.0, 
+    54.0, 
+    185.0, 
+    215.0, 
+    267.0, 
+    11.0, 
+    202.0, 
+    294.0, 
+    72.0, 
+    109.0, 
+    422.0, 
+    0.0, 
+    40.0, 
+    157.0, 
+    32.0, 
+    16.0, 
+    388.0, 
+    65.0, 
+    0.0, 
+    256.0, 
+    846.0, 
+    120.0, 
+    0.0, 
+    191.0, 
+    49.0, 
+    176.0, 
+    227.0, 
+    175.0, 
+    477.0, 
+    45.0, 
+    141.0, 
+    58.0, 
+    68.0, 
+    104.0, 
+    123.0, 
+    66.0, 
+    119.0, 
+    43.0, 
+    0.0, 
+    0.0, 
+    415.0, 
+    1.0, 
+    493.0, 
+    167.0
+  ]
+}

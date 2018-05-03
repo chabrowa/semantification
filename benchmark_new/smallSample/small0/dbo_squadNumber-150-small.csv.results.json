@@ -1,0 +1,234 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/squadNumber"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "shipBeam", 
+          0.1245
+        ], 
+        [
+          "number", 
+          0.1342
+        ], 
+        [
+          "populationDensity", 
+          0.1435
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          5.0
+        ], 
+        [
+          "number", 
+          3.0
+        ], 
+        [
+          "shipBeam", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          0.1245
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          0.1245
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          0.1271
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.1271
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.1342
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.1342
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.1357
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.1357
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsManager (number)", 
+          0.1377
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerManager (number)", 
+          0.1377
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1409
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1409
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1461
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1541
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsManager (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerManager (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "AdministrativeRegion[populationDensity]>(state|Missouri)", 
+      0.1172
+    ], 
+    [
+      "Ship[shipBeam]", 
+      0.1245
+    ], 
+    [
+      "MeanOfTransportation[shipBeam]", 
+      0.1245
+    ], 
+    [
+      "BasketballPlayer[number]>(league|Euroleague_Basketball)", 
+      0.1271
+    ], 
+    [
+      "SoccerManager[number]", 
+      0.1377
+    ], 
+    [
+      "SportsManager[number]", 
+      0.1377
+    ], 
+    [
+      "Settlement[populationDensity]>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Chaudi%C3%A8re-Appalaches)", 
+      0.1381
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Zamora)", 
+      0.1541
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Zamora)", 
+      0.1541
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Iowa)", 
+      0.1542
+    ]
+  ], 
+  "values": [
+    7.0, 
+    14.0, 
+    21.0, 
+    12.0, 
+    26.0, 
+    6.0, 
+    17.0, 
+    8.0, 
+    14.0, 
+    3.0, 
+    17.0, 
+    20.0, 
+    24.0, 
+    17.0, 
+    99.0, 
+    6.0, 
+    6.0, 
+    5.0, 
+    24.0, 
+    15.0, 
+    10.0, 
+    15.0, 
+    1.0, 
+    12.0, 
+    7.0, 
+    16.0, 
+    4.0, 
+    10.0, 
+    10.0, 
+    6.0, 
+    9.0, 
+    9.0, 
+    14.0, 
+    19.0, 
+    1.0
+  ]
+}

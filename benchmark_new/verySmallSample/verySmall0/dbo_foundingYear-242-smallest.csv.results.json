@@ -1,0 +1,159 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/foundingYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "foundingYear", 
+          0.1282
+        ], 
+        [
+          "formationYear", 
+          0.1578
+        ]
+      ], 
+      "maj": [
+        [
+          "foundingYear", 
+          7.0
+        ], 
+        [
+          "formationYear", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Bank (foundingYear)", 
+          0.125
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.1282
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.1282
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          0.1282
+        ], 
+        [
+          "http://dbpedia.org/ontology/RecordLabel (foundingYear)", 
+          0.1472
+        ], 
+        [
+          "http://dbpedia.org/ontology/GovernmentAgency (formationYear)", 
+          0.157
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (formationYear)", 
+          0.1578
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (formationYear)", 
+          0.1578
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Bank (foundingYear)", 
+          33.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/GovernmentAgency (formationYear)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (formationYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (formationYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RecordLabel (foundingYear)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Bank[foundingYear]>(product|Cheque)>(keyPerson|Chairman)", 
+      0.125
+    ], 
+    [
+      "Bank[foundingYear]>(product|Cheque)>(keyPerson|Chairman)>(product|Debit_card)", 
+      0.125
+    ], 
+    [
+      "Bank[foundingYear]>(product|Cheque)>(keyPerson|Chairman)>(product|Debit_card)>(product|Investment)", 
+      0.125
+    ], 
+    [
+      "Bank[foundingYear]>(product|Cheque)>(keyPerson|Chairman)>(product|Debit_card)>(product|Investment)>(keyPerson|Chief_executive_officer)", 
+      0.125
+    ], 
+    [
+      "Bank[foundingYear]>(product|Cheque)>(keyPerson|Chairman)>(product|Debit_card)>(product|Investment)>(keyPerson|Chief_executive_officer)>(industry|Financial_services)", 
+      0.125
+    ], 
+    [
+      "Bank[foundingYear]>(product|Cheque)>(keyPerson|Chairman)>(product|Debit_card)>(product|Investment)>(keyPerson|Chief_executive_officer)>(industry|Financial_services)>(product|Loan)", 
+      0.125
+    ], 
+    [
+      "RecordLabel[foundingYear]>(parentCompany|Sony_Music_Entertainment)", 
+      0.1472
+    ], 
+    [
+      "GovernmentAgency[formationYear]>(headquarter|Canberra)>(jurisdiction|Government_of_Australia)>(type|Ministry_(government_department))", 
+      0.1523
+    ], 
+    [
+      "GovernmentAgency[formationYear]>(headquarter|Canberra)", 
+      0.16
+    ], 
+    [
+      "GovernmentAgency[formationYear]>(headquarter|Canberra)>(jurisdiction|Government_of_Australia)", 
+      0.1612
+    ]
+  ], 
+  "values": [
+    1881.0, 
+    1999.0, 
+    1968.0, 
+    1989.0, 
+    1973.0, 
+    1990.0, 
+    2001.0, 
+    2001.0, 
+    1981.0, 
+    1991.0, 
+    1829.0, 
+    1995.0, 
+    2003.0, 
+    1997.0, 
+    1994.0, 
+    2007.0
+  ]
+}

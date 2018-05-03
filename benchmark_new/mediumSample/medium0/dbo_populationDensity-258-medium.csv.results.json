@@ -1,0 +1,132 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationDensity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1001
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.0952
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1006
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1006
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1006
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.102
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          20.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          3.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[populationTotal]>(country|Slovenia)", 
+      0.0909
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Slovenia)>(isPartOf|Upper_Carniola)>(isPartOf|Upper_Carniola_Statistical_Region)", 
+      0.0935
+    ], 
+    [
+      "Location[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Sarduiyeh_Rural_District)", 
+      0.0952
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Sarduiyeh_Rural_District)", 
+      0.0952
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|East_Azerbaijan_Province)>(isPartOf|Central_District_(Kaleybar_County))", 
+      0.0987
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Fars_Province)>(isPartOf|Qatruyeh_District)", 
+      0.1039
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Slovenia)>(isPartOf|Slovene_Littoral)>(isPartOf|Gori%C5%A1ka_Statistical_Region)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1043
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Slovenia)>(isPartOf|Slovene_Littoral)>(isPartOf|Gori%C5%A1ka_Statistical_Region)", 
+      0.1058
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|South_Khorasan_Province)", 
+      0.1058
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Gilan_Province)>(isPartOf|Central_District_(Siahkal_County))", 
+      0.1075
+    ]
+  ], 
+  "values": [
+    78.0, 
+    124.66, 
+    11.6989, 
+    164.0, 
+    14.1313, 
+    260.851, 
+    53.5138, 
+    44.0156, 
+    198.3, 
+    105.02, 
+    123.4, 
+    1626.6, 
+    1102.48, 
+    132.96, 
+    34.83, 
+    68.6104, 
+    21.3514, 
+    68.7, 
+    18.1, 
+    118.34, 
+    340.156
+  ]
+}

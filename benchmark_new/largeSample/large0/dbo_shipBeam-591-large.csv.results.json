@@ -1,0 +1,246 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/shipBeam"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "shipBeam", 
+          0.2153
+        ], 
+        [
+          "number", 
+          0.2326
+        ], 
+        [
+          "width", 
+          0.2394
+        ], 
+        [
+          "elevation", 
+          0.249
+        ], 
+        [
+          "populationDensity", 
+          0.2492
+        ]
+      ], 
+      "maj": [
+        [
+          "shipBeam", 
+          3.0
+        ], 
+        [
+          "width", 
+          3.0
+        ], 
+        [
+          "number", 
+          2.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          0.1859
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          0.2153
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.2326
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.2326
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          0.2326
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.2326
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          0.2389
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.2394
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          0.2394
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          0.2395
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.249
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.249
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.249
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2492
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Ship[shipBeam]>(country|United_Kingdom)", 
+      0.1565
+    ], 
+    [
+      "BasketballPlayer[number]>(league|Eurocup_Basketball)", 
+      0.2171
+    ], 
+    [
+      "Infrastructure[width]", 
+      0.2383
+    ], 
+    [
+      "RouteOfTransportation[width]", 
+      0.2395
+    ], 
+    [
+      "ArchitecturalStructure[width]", 
+      0.2404
+    ], 
+    [
+      "Ship[shipBeam]", 
+      0.2448
+    ], 
+    [
+      "MeanOfTransportation[shipBeam]", 
+      0.2448
+    ], 
+    [
+      "BasketballPlayer[number]>(league|Euroleague_Basketball)", 
+      0.2481
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|New_York)>(isPartOf|Suffolk_County,_New_York)>(country|United_States)", 
+      0.249
+    ], 
+    [
+      "Location[populationDensity]>(type|New_England_town)>(isPartOf|Penobscot_County,_Maine)", 
+      0.2492
+    ]
+  ], 
+  "values": [
+    11.8, 
+    5.8, 
+    9.9, 
+    9.84, 
+    10.2, 
+    14.8, 
+    30.4, 
+    32.9794, 
+    9.75, 
+    10.15, 
+    6.5, 
+    28.0, 
+    9.1, 
+    26.0, 
+    18.2, 
+    12.0, 
+    12.2, 
+    14.6304, 
+    9.9, 
+    11.7, 
+    13.4112, 
+    10.15, 
+    13.7, 
+    22.5, 
+    12.4968, 
+    14.84, 
+    3.6, 
+    9.5, 
+    21.9456, 
+    10.8, 
+    10.0584
+  ]
+}

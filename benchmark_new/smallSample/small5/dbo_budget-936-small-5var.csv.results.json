@@ -1,0 +1,256 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/budget"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1812
+        ], 
+        [
+          "length", 
+          0.2093
+        ], 
+        [
+          "postalCode", 
+          0.2178
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          4.0
+        ], 
+        [
+          "length", 
+          4.0
+        ], 
+        [
+          "postalCode", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Region (populationTotal)", 
+          0.1393
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationTotal)", 
+          0.1393
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1812
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1812
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          0.1905
+        ], 
+        [
+          "http://dbpedia.org/ontology/River (length)", 
+          0.1905
+        ], 
+        [
+          "http://dbpedia.org/ontology/Stream (length)", 
+          0.1905
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1952
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          0.1966
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          0.2033
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          0.2114
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (postalCode)", 
+          0.2114
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          0.2114
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.2129
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          0.2178
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (postalCode)", 
+          0.2242
+        ], 
+        [
+          "http://dbpedia.org/ontology/Valley (length)", 
+          0.2291
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/River (length)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (postalCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Stream (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Valley (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "AdministrativeRegion[populationTotal]>(country|Peru)", 
+      0.1393
+    ], 
+    [
+      "River[length]>(sourceCountry|France)", 
+      0.1482
+    ], 
+    [
+      "City[populationTotal]>(type|Cities_of_Japan)>(country|Japan)", 
+      0.1832
+    ], 
+    [
+      "City[populationTotal]>(type|Cities_of_Japan)", 
+      0.1846
+    ], 
+    [
+      "City[postalCode]", 
+      0.2114
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|California)>(governmentType|Council%E2%80%93manager_government)", 
+      0.2179
+    ], 
+    [
+      "ArchitecturalStructure[postalCode]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2242
+    ], 
+    [
+      "Place[length]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2273
+    ], 
+    [
+      "Valley[length]", 
+      0.2291
+    ], 
+    [
+      "River[length]>(state|Washington_(state))", 
+      0.2328
+    ]
+  ], 
+  "values": [
+    48204.35571007428, 
+    52035.783330516395, 
+    24123.073732702072, 
+    110058.81330331705, 
+    48111.45317058, 
+    51124.82356618829, 
+    183566.80643336574, 
+    72650.39273185557, 
+    35348.83199126701, 
+    30272.51649099389, 
+    36241.39438338717, 
+    62009.74023882978, 
+    48893.908980911954, 
+    49091.23572395733, 
+    78681.84489771996, 
+    102516.26887745489, 
+    10390.978368521672, 
+    103134.36956294086, 
+    51437.534508906996, 
+    49307.25413187692, 
+    97708.0440467709, 
+    144843.11788853415, 
+    51553.9510273099, 
+    244328.8817022359, 
+    40735.01202234648, 
+    180902.4679140428, 
+    48574.20787453032, 
+    75595.03005430807, 
+    249202.20118564964, 
+    127462.97099723858, 
+    36690.0122179307, 
+    9540.823615808407, 
+    103277.23288447848
+  ]
+}

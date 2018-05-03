@@ -1,0 +1,243 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/maximumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "minimumElevation", 
+          0.1271
+        ], 
+        [
+          "populationTotal", 
+          0.1352
+        ], 
+        [
+          "length", 
+          0.1355
+        ], 
+        [
+          "elevation", 
+          0.1359
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          5.0
+        ], 
+        [
+          "minimumElevation", 
+          2.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ], 
+        [
+          "length", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1271
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (minimumElevation)", 
+          0.1271
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (minimumElevation)", 
+          0.1271
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (minimumElevation)", 
+          0.1304
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.131
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.132
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.132
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          0.1352
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          0.1355
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.1359
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1359
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1401
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (minimumElevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (minimumElevation)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "SkiArea[minimumElevation]>(location|United_States)", 
+      0.1105
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Canada)>(type|List_of_parishes_in_New_Brunswick)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1187
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(region|Pays_de_la_Loire)>(department|Vend%C3%A9e)", 
+      0.1331
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(region|Pays_de_la_Loire)>(department|Vend%C3%A9e)", 
+      0.1342
+    ], 
+    [
+      "Mountain[elevation]>(locatedInArea|Japan)", 
+      0.1352
+    ], 
+    [
+      "Location[length]>(22-rdf-syntax-ns#type|_Feature)>(type|Cable-stayed_bridge)", 
+      0.1355
+    ], 
+    [
+      "NaturalPlace[elevation]", 
+      0.1366
+    ], 
+    [
+      "Settlement[populationTotal]>(type|Census-designated_place)>(isPartOf|Tennessee)", 
+      0.1431
+    ], 
+    [
+      "SkiArea[minimumElevation]>(location|United_States)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1437
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_Time_Zone)>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Chaudi%C3%A8re-Appalaches)", 
+      0.1472
+    ]
+  ], 
+  "values": [
+    2067.221634950404, 
+    3102.7159473981255, 
+    2265.3578891372135, 
+    328.8587007626728, 
+    1516.7451305083648, 
+    403.36671113447187, 
+    1495.4849467788931, 
+    912.5190238192282, 
+    2809.7712733555422, 
+    403.7959861879694, 
+    342.6247492344662, 
+    2737.3331973511185, 
+    336.5481168751812, 
+    2147.141614970829, 
+    322.48885424408945, 
+    1011.032603898147, 
+    990.5404500146702, 
+    384.5185033497313, 
+    1233.7953316772844, 
+    223.76098931197615, 
+    2892.3500112486686, 
+    1772.2503719308138, 
+    648.4504749689626, 
+    1685.5339203687129, 
+    580.5555252970087, 
+    390.5699628959527, 
+    370.2492597546225, 
+    1431.268588793693, 
+    1913.6864399044666, 
+    1088.6204833918937, 
+    271.3503895471748, 
+    2229.6010092633696, 
+    1895.9843623048753, 
+    2109.3513537827343, 
+    4241.079032431018, 
+    2100.02318598283, 
+    431.1662808491302, 
+    2413.7922569196853, 
+    1914.3963820533152, 
+    569.2609135865832, 
+    1808.671465490373, 
+    1772.1650644851816, 
+    1732.2561111234807, 
+    2791.80199014941, 
+    4086.4418052525475, 
+    2671.7164557683923, 
+    672.4543746388606, 
+    2327.5573251417486, 
+    825.6133601273482, 
+    1547.378019824681, 
+    2624.107536469488, 
+    1240.796287981507
+  ]
+}

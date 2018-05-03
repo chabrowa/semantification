@@ -1,0 +1,227 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/width"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "height", 
+          0.142
+        ], 
+        [
+          "width", 
+          0.288
+        ], 
+        [
+          "populationDensity", 
+          0.3208
+        ], 
+        [
+          "shipBeam", 
+          0.4107
+        ]
+      ], 
+      "maj": [
+        [
+          "width", 
+          6.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ], 
+        [
+          "height", 
+          1.0
+        ], 
+        [
+          "shipBeam", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Weapon (height)", 
+          0.142
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (height)", 
+          0.142
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (width)", 
+          0.2313
+        ], 
+        [
+          "http://dbpedia.org/ontology/Locomotive (width)", 
+          0.2358
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (width)", 
+          0.2835
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (width)", 
+          0.3163
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.3208
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.3208
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.3208
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.3208
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          0.4107
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          0.4107
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Weapon (width)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (width)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Locomotive (width)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Weapon[height]>(type|Self-propelled_artillery)", 
+      0.142
+    ], 
+    [
+      "Weapon[width]>(type|Self-propelled_artillery)", 
+      0.1574
+    ], 
+    [
+      "Locomotive[width]", 
+      0.2176
+    ], 
+    [
+      "Locomotive[width]>(powerType|Diesel-electric_transmission)", 
+      0.245
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Soria)", 
+      0.3208
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Soria)", 
+      0.3208
+    ], 
+    [
+      "Weapon[width]>(type|Armoured_personnel_carrier)", 
+      0.3659
+    ], 
+    [
+      "Device[width]", 
+      0.371
+    ], 
+    [
+      "Weapon[width]", 
+      0.371
+    ], 
+    [
+      "Ship[shipBeam]>(type|Patrol_boat)>(builder|Massachusetts)", 
+      0.4107
+    ]
+  ], 
+  "values": [
+    2.664792564634474, 
+    2.8040333286670354, 
+    2.760181308287703, 
+    3.3084383127283594, 
+    2.915360951063065, 
+    2.7165483170775726, 
+    2.460916469561514, 
+    2.9817174164448916, 
+    2.902463019563934, 
+    2.362792116419666, 
+    1.9299005765913775, 
+    3.0803268360182083, 
+    3.198137896951194, 
+    2.7263462001293526, 
+    3.0091924574842746, 
+    2.327392985887309, 
+    2.860059572057796, 
+    2.0674863252130438, 
+    2.646934119251444, 
+    2.888075330005304, 
+    2.9573987202942313, 
+    2.2774793173191563, 
+    3.367274030577966, 
+    3.150559782492077, 
+    3.0528313765577484, 
+    2.400750377556568, 
+    3.3011643029816335, 
+    3.521093649499701, 
+    3.305212306341446, 
+    3.229425644393826, 
+    2.529974804073412, 
+    3.2056469687695874, 
+    2.7818370637775995, 
+    2.3182613229452533, 
+    3.3738539523671864, 
+    3.01386547141272
+  ]
+}

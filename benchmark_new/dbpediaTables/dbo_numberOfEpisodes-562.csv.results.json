@@ -1,0 +1,271 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEpisodes"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.1462
+        ], 
+        [
+          "populationTotal", 
+          0.1508
+        ], 
+        [
+          "height", 
+          0.152
+        ], 
+        [
+          "populationDensity", 
+          0.1538
+        ], 
+        [
+          "minimumElevation", 
+          0.1562
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          3.0
+        ], 
+        [
+          "populationDensity", 
+          3.0
+        ], 
+        [
+          "minimumElevation", 
+          2.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ], 
+        [
+          "height", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1462
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1462
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1462
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1507
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1508
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1508
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1508
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1508
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.152
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.152
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1536
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1536
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1536
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.1537
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1541
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.1562
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.1562
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1562
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.1562
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[elevation]>(country|France)>(department|Charente-Maritime)", 
+      0.1462
+    ], 
+    [
+      "Location[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Chahar_Gonbad_Rural_District)", 
+      0.1507
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Chahar_Gonbad_Rural_District)", 
+      0.1507
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Isfahan_Province)>(isPartOf|Kuhpayeh_District)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1508
+    ], 
+    [
+      "ArchitecturalStructure[height]", 
+      0.152
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Ohio)", 
+      0.1531
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Ohio)>(type|Civil_township)", 
+      0.1541
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Ohio)>(type|Civil_township)", 
+      0.1541
+    ], 
+    [
+      "Location[minimumElevation]>(department|Nord_(French_department))>(region|Nord-Pas-de-Calais)", 
+      0.1562
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Nord_(French_department))>(region|Nord-Pas-de-Calais)", 
+      0.1562
+    ]
+  ], 
+  "values": [
+    24.0, 
+    18.0, 
+    88.0, 
+    78.0, 
+    39.0, 
+    165.0, 
+    26.0, 
+    16.0, 
+    13.0, 
+    4.0, 
+    72.0, 
+    22.0, 
+    104.0, 
+    36.0, 
+    25.0, 
+    25.0
+  ]
+}

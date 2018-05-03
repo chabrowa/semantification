@@ -1,0 +1,256 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runwayLength"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1412
+        ], 
+        [
+          "elevation", 
+          0.1547
+        ], 
+        [
+          "maximumElevation", 
+          0.1653
+        ]
+      ], 
+      "maj": [
+        [
+          "maximumElevation", 
+          4.0
+        ], 
+        [
+          "populationTotal", 
+          3.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1411
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1412
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1412
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1413
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1413
+        ], 
+        [
+          "http://dbpedia.org/ontology/MountainRange (elevation)", 
+          0.1414
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.1478
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          0.1542
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1547
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (maximumElevation)", 
+          0.1555
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (maximumElevation)", 
+          0.162
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (maximumElevation)", 
+          0.1653
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.1653
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1686
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1686
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (maximumElevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (maximumElevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MountainRange (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[populationTotal]>(country|Canada)>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Mont%C3%A9r%C3%A9gie)", 
+      0.141
+    ], 
+    [
+      "Location[populationTotal]>(type|Village_development_committee)>(isPartOf|Karnali_Zone)", 
+      0.1413
+    ], 
+    [
+      "Village[populationTotal]>(type|Village_development_committee)>(isPartOf|Karnali_Zone)", 
+      0.1413
+    ], 
+    [
+      "MountainRange[elevation]", 
+      0.1414
+    ], 
+    [
+      "SkiArea[maximumElevation]>(location|United_States)", 
+      0.1469
+    ], 
+    [
+      "Mountain[elevation]", 
+      0.1542
+    ], 
+    [
+      "SkiArea[maximumElevation]>(location|United_States)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1612
+    ], 
+    [
+      "Settlement[elevation]>(country|Peru)>(isPartOf|Amazonas_Region)", 
+      0.1686
+    ], 
+    [
+      "ArchitecturalStructure[maximumElevation]", 
+      0.1752
+    ], 
+    [
+      "SportFacility[maximumElevation]", 
+      0.178
+    ]
+  ], 
+  "values": [
+    2286.0, 
+    2438.0, 
+    2438.4, 
+    1524.91, 
+    975.36, 
+    2601.0, 
+    2601.47, 
+    680.314, 
+    685.8, 
+    3230.88, 
+    3231.0, 
+    914.0, 
+    914.4, 
+    579.12, 
+    1220.11, 
+    1524.0, 
+    883.92, 
+    2499.97, 
+    2500.0, 
+    1251.51, 
+    1922.37, 
+    3169.92, 
+    3511.0, 
+    3511.3, 
+    762.0, 
+    1493.52, 
+    2264.66, 
+    2265.0, 
+    3101.0, 
+    3101.04, 
+    777.24, 
+    2000.0, 
+    2000.1, 
+    2499.97, 
+    2500.0, 
+    629.0, 
+    629.107, 
+    886.663, 
+    1650.49, 
+    1445.97, 
+    1599.9, 
+    1600.0, 
+    3500.0, 
+    3500.02, 
+    2713.94, 
+    2714.0, 
+    2804.0, 
+    2804.16, 
+    975.665
+  ]
+}

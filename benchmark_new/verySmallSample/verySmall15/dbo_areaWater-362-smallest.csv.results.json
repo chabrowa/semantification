@@ -1,0 +1,219 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaWater"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaWater", 
+          0.0822
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.0842
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.0851
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.0888
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.0946
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.0967
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          0.0989
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          3.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaWater]", 
+      0.0522
+    ], 
+    [
+      "PopulatedPlace[areaWater]", 
+      0.0522
+    ], 
+    [
+      "Place[areaWater]", 
+      0.0522
+    ], 
+    [
+      "Settlement[areaWater]", 
+      0.0869
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Illinois)>(22-rdf-syntax-ns#type|_Feature)>(country|United_States)", 
+      0.0927
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|California)>(isPartOf|San_Diego_County,_California)", 
+      0.0961
+    ], 
+    [
+      "Town[areaWater]", 
+      0.0963
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Texas)>(governmentType|Council%E2%80%93manager_government)>(leaderName|Mayor)>(country|United_States)>(timeZone|Central_Time_Zone)>(type|City)", 
+      0.0967
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Illinois)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0967
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Nebraska)", 
+      0.1002
+    ]
+  ], 
+  "values": [
+    0.0, 
+    1812153.9048960733, 
+    364397.32642473996, 
+    6707724.247512129, 
+    1032872.4919874955, 
+    1558829.2644836614, 
+    20269716.675642602, 
+    1409005.9875718998, 
+    1533252.7493255483, 
+    611846.4952252869, 
+    0.0, 
+    14923.310584776531, 
+    1167109.649985953, 
+    0.0, 
+    2380467.0931577785, 
+    633976.2333227511, 
+    1275295.3147019108, 
+    107608099.65646544, 
+    26338.489525142493, 
+    566545.2833501803, 
+    478175.7931746495, 
+    13488506.621701423, 
+    0.0, 
+    312895.4774077792, 
+    796490.6616651159, 
+    31430.527410845054, 
+    1353547.999218885, 
+    0.0, 
+    878648.8165290126, 
+    715118.7278015934, 
+    0.0, 
+    429827.4784067178, 
+    0.0, 
+    0.0, 
+    0.0, 
+    695551.927035314, 
+    180504.49079185422, 
+    49539.45143534643, 
+    270556.40410805354, 
+    0.0, 
+    0.0, 
+    10864.844581146297, 
+    0.0, 
+    162765.05175617154, 
+    385183.48766755714, 
+    0.0, 
+    271421.53731307015, 
+    0.0, 
+    0.0, 
+    31278.017059717902, 
+    253351.10643692987, 
+    18723884.12579859, 
+    555514.8181595211, 
+    1588170.9804310156, 
+    8313286.061975054, 
+    154740.99230338595, 
+    0.0, 
+    0.0, 
+    0.0, 
+    9603783.004134536, 
+    3430211.422994536, 
+    785674.6914412635, 
+    204676.56126435508, 
+    93760.04317639829, 
+    6219262.566194025, 
+    0.0, 
+    0.0, 
+    148612.38953381652, 
+    0.0, 
+    3195898862.717334, 
+    0.0, 
+    509840.60132882267, 
+    539831.9476918804, 
+    0.0, 
+    0.0, 
+    184688.08672863562, 
+    0.0, 
+    2620792.5020769746, 
+    70434.0685894064, 
+    0.0, 
+    0.0, 
+    1883472.9469763737, 
+    58513.216857324514, 
+    2701181.3438309976, 
+    0.0, 
+    1358744.067248243, 
+    0.0, 
+    0.0, 
+    3138779.119316404, 
+    107620.84995754146, 
+    102913.45008617235, 
+    52292.029053800965, 
+    409710.51389082114, 
+    24818.04624212019, 
+    526730.940077479, 
+    6071287.5231394805, 
+    3019434.809903992, 
+    11598123.270393277, 
+    26905.895468927174, 
+    0.0
+  ]
+}

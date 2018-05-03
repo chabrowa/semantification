@@ -1,0 +1,538 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/yearOfConstruction"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "serviceStartYear", 
+          0.1714
+        ], 
+        [
+          "foundingYear", 
+          0.1996
+        ], 
+        [
+          "serviceEndYear", 
+          0.2436
+        ], 
+        [
+          "openingYear", 
+          0.2482
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.268
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          5.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          2.0
+        ], 
+        [
+          "serviceStartYear", 
+          1.0
+        ], 
+        [
+          "serviceEndYear", 
+          1.0
+        ], 
+        [
+          "foundingYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Agent (serviceStartYear)", 
+          0.1714
+        ], 
+        [
+          "http://dbpedia.org/ontology/OfficeHolder (serviceStartYear)", 
+          0.1714
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceStartYear)", 
+          0.1714
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          0.1996
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          0.1996
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.1996
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.1996
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          0.2354
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryPerson (serviceEndYear)", 
+          0.2436
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          0.2436
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          0.2436
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          0.2456
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.2484
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.2484
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.2484
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.2538
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          0.2538
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (openingYear)", 
+          0.2604
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          0.2604
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          0.2604
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsStartYear)", 
+          0.268
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.268
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryUnit (activeYearsStartYear)", 
+          0.2694
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/MilitaryUnit (activeYearsStartYear)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryPerson (serviceEndYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/OfficeHolder (serviceStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "OfficeHolder[serviceStartYear]>(battle|World_War_I)", 
+      0.1714
+    ], 
+    [
+      "School[foundingYear]>(type|Single-sex_education)>(type|Boarding_school)", 
+      0.1996
+    ], 
+    [
+      "Station[openingYear]>(country|Japan)>(servingRailwayLine|%C5%8Cu_Main_Line)", 
+      0.2354
+    ], 
+    [
+      "Location[openingYear]>(operatedBy|East_Japan_Railway_Company)>(servingRailwayLine|%C5%8Cu_Main_Line)", 
+      0.2354
+    ], 
+    [
+      "MilitaryPerson[serviceEndYear]>(battle|Second_Boer_War)>(award|Victoria_Cross)", 
+      0.2436
+    ], 
+    [
+      "Bridge[openingYear]>(type|Swing_bridge)", 
+      0.2538
+    ], 
+    [
+      "Station[openingYear]>(country|Japan)>(operatedBy|Nankai_Electric_Railway)", 
+      0.2559
+    ], 
+    [
+      "MilitaryUnit[activeYearsStartYear]>(country|German_Empire)>(battle|Battle_of_the_Somme)", 
+      0.2583
+    ], 
+    [
+      "PublicTransitSystem[openingYear]>(location|England)", 
+      0.2604
+    ], 
+    [
+      "MilitaryUnit[activeYearsStartYear]>(country|German_Empire)>(battle|Battle_of_the_Somme)>(militaryBranch|German_Army_(German_Empire))", 
+      0.2778
+    ]
+  ], 
+  "values": [
+    1886.0, 
+    1913.0, 
+    1914.0, 
+    1911.0, 
+    1904.0, 
+    1904.0, 
+    1899.0, 
+    1904.0, 
+    1927.0, 
+    1854.0, 
+    1891.0, 
+    1900.0, 
+    1906.0, 
+    1823.0, 
+    1915.0, 
+    1845.0, 
+    1902.0, 
+    1909.0, 
+    1899.0, 
+    1910.0, 
+    1805.0, 
+    1918.0, 
+    1912.0, 
+    1902.0, 
+    1901.0, 
+    1903.0, 
+    1897.0, 
+    1903.0, 
+    1815.0, 
+    1911.0, 
+    1902.0, 
+    1906.0, 
+    1899.0, 
+    1918.0, 
+    1918.0, 
+    1913.0, 
+    1906.0, 
+    1923.0, 
+    1914.0, 
+    1916.0, 
+    1901.0, 
+    1872.0, 
+    15.0, 
+    1913.0, 
+    1912.0, 
+    1916.0, 
+    1913.0, 
+    1921.0, 
+    1903.0, 
+    8.0, 
+    1907.0, 
+    1905.0, 
+    1905.0, 
+    1917.0, 
+    1965.0, 
+    1938.0, 
+    1907.0, 
+    1929.0, 
+    1881.0, 
+    1922.0, 
+    1895.0, 
+    1912.0, 
+    1920.0, 
+    1889.0, 
+    1925.0, 
+    1922.0, 
+    1915.0, 
+    1913.0, 
+    1916.0, 
+    1931.0, 
+    1887.0, 
+    1914.0, 
+    1890.0, 
+    1901.0, 
+    1904.0, 
+    1917.0, 
+    1915.0, 
+    1915.0, 
+    1910.0, 
+    1889.0, 
+    1915.0, 
+    1906.0, 
+    1847.0, 
+    1907.0, 
+    1903.0, 
+    1913.0, 
+    1914.0, 
+    1917.0, 
+    1908.0, 
+    1901.0, 
+    1873.0, 
+    1930.0, 
+    1905.0, 
+    1903.0, 
+    1820.0, 
+    1901.0, 
+    1883.0, 
+    1850.0, 
+    1889.0, 
+    1884.0, 
+    1895.0, 
+    1910.0, 
+    1877.0, 
+    1898.0, 
+    1913.0, 
+    1917.0, 
+    1936.0, 
+    1853.0, 
+    1874.0, 
+    1896.0, 
+    1916.0, 
+    1904.0, 
+    1903.0, 
+    1912.0, 
+    1904.0, 
+    1909.0, 
+    1913.0, 
+    1893.0, 
+    1904.0, 
+    1904.0, 
+    1912.0, 
+    1883.0, 
+    1903.0, 
+    1904.0, 
+    1911.0, 
+    1914.0, 
+    1915.0, 
+    1912.0, 
+    1892.0, 
+    1904.0, 
+    1900.0, 
+    1913.0, 
+    1747.0, 
+    1909.0, 
+    1902.0, 
+    1924.0, 
+    1911.0, 
+    1910.0, 
+    1897.0, 
+    1894.0, 
+    1891.0, 
+    1926.0, 
+    1939.0, 
+    1927.0, 
+    1887.0, 
+    1903.0, 
+    1910.0, 
+    1911.0, 
+    1890.0, 
+    1912.0, 
+    1920.0, 
+    1906.0, 
+    1901.0, 
+    1909.0, 
+    1904.0, 
+    1911.0, 
+    1900.0, 
+    1937.0, 
+    1908.0, 
+    1841.0, 
+    1897.0, 
+    1916.0, 
+    1951.0, 
+    1889.0, 
+    1915.0, 
+    1914.0, 
+    1910.0, 
+    1912.0, 
+    1907.0, 
+    1901.0, 
+    1845.0, 
+    1927.0, 
+    1932.0, 
+    1921.0, 
+    1924.0, 
+    1915.0, 
+    1888.0, 
+    1897.0, 
+    1911.0, 
+    1913.0, 
+    1909.0, 
+    1902.0, 
+    1913.0, 
+    1888.0, 
+    1912.0, 
+    1912.0, 
+    1815.0, 
+    1901.0, 
+    1918.0, 
+    1907.0, 
+    1888.0, 
+    1889.0, 
+    1901.0, 
+    1895.0, 
+    1887.0, 
+    1904.0, 
+    1903.0, 
+    1912.0, 
+    1895.0, 
+    1916.0, 
+    1901.0, 
+    1912.0, 
+    1907.0, 
+    1903.0, 
+    1911.0, 
+    1916.0, 
+    1903.0, 
+    1899.0, 
+    1911.0, 
+    1908.0, 
+    1912.0, 
+    1895.0, 
+    1902.0, 
+    1884.0, 
+    1930.0, 
+    1927.0, 
+    1927.0, 
+    1922.0, 
+    1842.0, 
+    1922.0, 
+    1887.0, 
+    1911.0, 
+    1904.0, 
+    1884.0, 
+    1893.0, 
+    1929.0, 
+    1929.0, 
+    1890.0, 
+    1914.0, 
+    1899.0, 
+    1925.0, 
+    1874.0, 
+    1923.0, 
+    1927.0, 
+    1916.0, 
+    1898.0, 
+    1930.0, 
+    1893.0, 
+    1923.0, 
+    1926.0, 
+    1927.0, 
+    1903.0, 
+    1930.0, 
+    1913.0, 
+    1926.0, 
+    1909.0, 
+    1927.0, 
+    1926.0, 
+    1909.0, 
+    1889.0, 
+    1904.0
+  ]
+}

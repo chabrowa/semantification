@@ -1,0 +1,179 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/displacement"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "displacement", 
+          0.2283
+        ], 
+        [
+          "areaWater", 
+          0.5053
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          7.0
+        ], 
+        [
+          "displacement", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Engine (displacement)", 
+          0.2283
+        ], 
+        [
+          "http://dbpedia.org/ontology/AutomobileEngine (displacement)", 
+          0.2283
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (displacement)", 
+          0.2283
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.504
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.5049
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.5049
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.5059
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.5061
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (displacement)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Engine (displacement)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AutomobileEngine (displacement)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Device[displacement]", 
+      0.2283
+    ], 
+    [
+      "Engine[displacement]", 
+      0.2283
+    ], 
+    [
+      "AutomobileEngine[displacement]", 
+      0.2283
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Maryland)>(country|United_States)", 
+      0.5
+    ], 
+    [
+      "Location[areaWater]>(type|Administrative_divisions_of_New_York)>(isPartOf|Nassau_County,_New_York)", 
+      0.503
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Nebraska)", 
+      0.5052
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Idaho)>(timeZone|Pacific_Time_Zone)>(type|City)", 
+      0.5063
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|California)>(isPartOf|Riverside_County,_California)>(type|Census-designated_place)", 
+      0.507
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|California)>(isPartOf|Riverside_County,_California)>(type|Census-designated_place)>(country|United_States)", 
+      0.5072
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Indiana)", 
+      0.5082
+    ]
+  ], 
+  "values": [
+    0.003138713986072015, 
+    0.002021371576874567, 
+    0.0023992722021097977, 
+    0.0014073348305860256, 
+    0.0022418419352805115, 
+    0.00344159790940622, 
+    0.0039252558900401795, 
+    0.00235914321856525, 
+    0.0014731961181399824, 
+    0.00211779587581496, 
+    0.003562890411046366, 
+    0.001877016225023603, 
+    0.0031699691189404893, 
+    0.00132833155924135, 
+    0.003229495245413627, 
+    0.0005526874946247558, 
+    0.002174775703386656, 
+    0.0016949122450113875, 
+    0.00647345936884033, 
+    0.00435535214789291, 
+    0.007274121030213347, 
+    0.0023561858020313808, 
+    0.003241370739824282, 
+    0.0036174429656504765, 
+    0.009218943005504236, 
+    0.0018219280838104746, 
+    0.0034928822608609115, 
+    0.0023652525828049132, 
+    0.0019167274813525822, 
+    0.0024092563835599865, 
+    0.001957907140434635, 
+    0.0029457737704289867, 
+    0.0029727360816879465, 
+    0.005040328299100004, 
+    0.0033109740874981714, 
+    0.0015405104016054418
+  ]
+}

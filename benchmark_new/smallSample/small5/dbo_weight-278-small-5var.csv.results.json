@@ -1,0 +1,155 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/weight"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "weight", 
+          0.1319
+        ], 
+        [
+          "areaTotal", 
+          0.1365
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          9.0
+        ], 
+        [
+          "weight", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Train (weight)", 
+          0.1319
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (weight)", 
+          0.1319
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.1346
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.1429
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1429
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.1429
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          23.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Train (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (weight)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_C%C3%A1ceres)", 
+      0.1176
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Canary_Islands)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1318
+    ], 
+    [
+      "Train[weight]", 
+      0.1319
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Canary_Islands)", 
+      0.135
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_C%C3%A1ceres)>(type|List_of_municipalities_in_C%C3%A1ceres)", 
+      0.1354
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Huesca)", 
+      0.1401
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Cuenca)", 
+      0.1411
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Toledo)", 
+      0.142
+    ], 
+    [
+      "Settlement[areaTotal]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Le%C3%B3n)", 
+      0.1429
+    ], 
+    [
+      "Settlement[areaTotal]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Le%C3%B3n)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1429
+    ]
+  ], 
+  "values": [
+    131344063.13574964, 
+    424592803.0894398, 
+    112093765.61515747, 
+    107324753.24320558, 
+    22017446.80779531, 
+    242751117.6650062, 
+    38984036.48795597, 
+    22835283.091386303, 
+    52529815.630502865, 
+    20435635.663411967, 
+    55129949.76795384, 
+    18658522.578075368, 
+    32398501.192921028, 
+    440919962.60796136, 
+    45399996.040639445, 
+    52825342.265958816, 
+    30505476.39172286, 
+    37178919.43940826, 
+    31218037.486995403, 
+    112256859.47906524, 
+    58703795.06393052, 
+    33890102.77057126, 
+    168277011.31145185, 
+    421423654.22248334, 
+    48093086.71136135, 
+    38294807.792158626, 
+    39626450.899936974, 
+    14394959.467673441
+  ]
+}

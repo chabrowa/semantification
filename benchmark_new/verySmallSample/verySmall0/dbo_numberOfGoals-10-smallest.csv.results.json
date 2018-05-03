@@ -1,0 +1,207 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfGoals"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "number", 
+          0.1815
+        ], 
+        [
+          "minimumElevation", 
+          0.1817
+        ], 
+        [
+          "populationDensity", 
+          0.2209
+        ], 
+        [
+          "elevation", 
+          0.2257
+        ]
+      ], 
+      "maj": [
+        [
+          "minimumElevation", 
+          6.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ], 
+        [
+          "number", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.1815
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.1815
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.1815
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          0.1815
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.1822
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1822
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.1823
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.1834
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.2209
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.2209
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          0.2209
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.2209
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.226
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[minimumElevation]>(department|Manche)", 
+      0.1729
+    ], 
+    [
+      "Location[minimumElevation]>(department|Manche)", 
+      0.1733
+    ], 
+    [
+      "Location[minimumElevation]>(region|Pays_de_la_Loire)>(department|Vend%C3%A9e)", 
+      0.1786
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Goalkeeper_(association_football))>(birthPlace|Indonesia)", 
+      0.1815
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Pays_de_la_Loire)>(department|Vend%C3%A9e)", 
+      0.1819
+    ], 
+    [
+      "Location[minimumElevation]>(department|Manche)>(arrondissement|Arrondissement_of_Coutances)", 
+      0.1919
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Manche)>(arrondissement|Arrondissement_of_Coutances)", 
+      0.1919
+    ], 
+    [
+      "Village[populationDensity]>(type|Types_of_municipalities_in_Quebec)", 
+      0.2209
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Kerala)>(country|India)", 
+      0.2233
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Kerala)>(country|India)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2281
+    ]
+  ], 
+  "values": [
+    55.0, 
+    2.0, 
+    30.0, 
+    2.0, 
+    87.0, 
+    33.0, 
+    0.0, 
+    22.0
+  ]
+}

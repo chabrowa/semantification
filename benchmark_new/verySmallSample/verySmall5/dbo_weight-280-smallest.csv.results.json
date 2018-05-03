@@ -1,0 +1,242 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/weight"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "topSpeed", 
+          0.3291
+        ], 
+        [
+          "elevation", 
+          0.332
+        ], 
+        [
+          "populationTotal", 
+          0.3333
+        ], 
+        [
+          "populationDensity", 
+          0.3333
+        ], 
+        [
+          "minimumElevation", 
+          0.3339
+        ]
+      ], 
+      "maj": [
+        [
+          "topSpeed", 
+          3.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "minimumElevation", 
+          2.0
+        ], 
+        [
+          "populationTotal", 
+          1.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Device (topSpeed)", 
+          0.3291
+        ], 
+        [
+          "http://dbpedia.org/ontology/Engine (topSpeed)", 
+          0.3291
+        ], 
+        [
+          "http://dbpedia.org/ontology/AutomobileEngine (topSpeed)", 
+          0.3291
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.3312
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.332
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.332
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.3327
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.3345
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.3345
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.3345
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (topSpeed)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Engine (topSpeed)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AutomobileEngine (topSpeed)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "AutomobileEngine[topSpeed]", 
+      0.3291
+    ], 
+    [
+      "Device[topSpeed]", 
+      0.3291
+    ], 
+    [
+      "Engine[topSpeed]", 
+      0.3291
+    ], 
+    [
+      "Village[elevation]>(timeZone|Pakistan_Standard_Time)>(isPartOf|Punjab,_Pakistan)>(22-rdf-syntax-ns#type|_Feature)>(country|Pakistan)", 
+      0.3295
+    ], 
+    [
+      "Location[minimumElevation]>(region|Alsace)", 
+      0.3333
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Spain)>(isPartOf|Province_of_Salamanca)", 
+      0.3333
+    ], 
+    [
+      "Village[elevation]>(timeZone|Pakistan_Standard_Time)>(isPartOf|Punjab,_Pakistan)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3333
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Cher_(department))>(arrondissement|Bourges)", 
+      0.3333
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Minnesota)", 
+      0.3333
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Alsace)", 
+      0.3345
+    ]
+  ], 
+  "values": [
+    175.91027671194655, 
+    176.06381317589558, 
+    303.5763994076003
+  ]
+}

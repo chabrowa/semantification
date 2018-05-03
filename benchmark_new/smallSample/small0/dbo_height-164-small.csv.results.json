@@ -1,0 +1,247 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/height"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "height", 
+          0.1071
+        ], 
+        [
+          "minimumElevation", 
+          0.1199
+        ], 
+        [
+          "length", 
+          0.1266
+        ], 
+        [
+          "elevation", 
+          0.1294
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          6.0
+        ], 
+        [
+          "minimumElevation", 
+          2.0
+        ], 
+        [
+          "height", 
+          1.0
+        ], 
+        [
+          "length", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.1071
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (height)", 
+          0.1071
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          0.1071
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.1071
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (height)", 
+          0.1071
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.1194
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.1203
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.1203
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1203
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (length)", 
+          0.1266
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1267
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1289
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.13
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.13
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.1354
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (height)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Bridge[height]", 
+      0.1071
+    ], 
+    [
+      "Location[minimumElevation]>(region|Languedoc-Roussillon)>(department|H%C3%A9rault)", 
+      0.1194
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Languedoc-Roussillon)>(department|H%C3%A9rault)", 
+      0.1203
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Pas-de-Calais)>(arrondissement|Arrondissement_of_Saint-Omer)", 
+      0.1246
+    ], 
+    [
+      "MeanOfTransportation[length]", 
+      0.1266
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Gujarat)>(country|India)", 
+      0.1274
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Humboldt_County,_California)", 
+      0.128
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Gujarat)", 
+      0.1301
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Monterey_County,_California)", 
+      0.1307
+    ], 
+    [
+      "Town[elevation]>(country|Republic_of_Ireland)>(isPartOf|Munster)", 
+      0.1354
+    ]
+  ], 
+  "values": [
+    70.0, 
+    40.0, 
+    103.45, 
+    153.4, 
+    55.0, 
+    74.0, 
+    27.432, 
+    9.0, 
+    90.0, 
+    4.8768, 
+    169.7, 
+    36.2712, 
+    23.0, 
+    4.572, 
+    100.889, 
+    128.0, 
+    3.9624, 
+    42.0, 
+    138.0, 
+    82.6008, 
+    21.336, 
+    67.1, 
+    265.0, 
+    19.0, 
+    95.0, 
+    15.24, 
+    4.8768, 
+    102.0, 
+    200.0, 
+    4.0, 
+    204.5, 
+    6.7056
+  ]
+}
