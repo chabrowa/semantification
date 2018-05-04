@@ -7,7 +7,9 @@ from approach.config.paths import *
 class SubjectColumn(object):
 
     def __init__(self, columnValues):
-        self.columnValues    = columnValues
+	print columnValues	
+        print "SUBJECT COLUMN FUN"
+	self.columnValues    = columnValues
         self.cellPredictions = self.getCellPredictions()
         self.columnTypes     = self.getMostCommonTypes(self.cellPredictions)
 
@@ -16,6 +18,7 @@ class SubjectColumn(object):
         counter = 0
         for index, cell in enumerate(self.columnValues):
             if counter < noRowsToCheck:
+		print "WE ARE HERE WE ARE HERE WE ARE HERE"
                 predictions.append(self.getCellType(cell))
             counter += 1
         return predictions
@@ -25,6 +28,7 @@ class SubjectColumn(object):
           --data-urlencode "text=' + str(cell) + '" \
           --data "confidence=0.05" \
           -H "Accept:text/xml"'))
+	print response
         return response
 
     def getMostCommonTypes(self, predictions):

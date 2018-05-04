@@ -7,6 +7,7 @@ from approach.config.imports import *
 class ValuesBag(object):
 
     def __init__(self, prediction, popularity):
+	print "we are in the class"
         self.prediction    = prediction
         self.popularity    = popularity
         self.predictionUrl = self.getPredictionUrl()
@@ -26,7 +27,7 @@ class ValuesBag(object):
         return False
 
     def getValues(self):
-        #print "we are executing the query in values bags"
+        print "we are executing the query in values bags"
         query = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
              PREFIX owl: <http://www.w3.org/2002/07/owl#>\
              PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> select ?s ?p ?o where { \
@@ -37,6 +38,7 @@ class ValuesBag(object):
              filter (?p != <http://dbpedia.org/ontology/wikiPageRevisionID>) \
              } LIMIT 10000"
 
+	print query
         fileName = hashlib.md5(query)
         fileName = str(fileName.hexdigest())+".p"
         fileExists = self.testLocalFiles(fileName)
