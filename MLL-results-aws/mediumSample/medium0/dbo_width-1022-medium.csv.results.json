@@ -1,0 +1,375 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/width"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "width", 
+          0.0691
+        ], 
+        [
+          "squadNumber", 
+          0.073
+        ], 
+        [
+          "number", 
+          0.0847
+        ], 
+        [
+          "populationDensity", 
+          0.086
+        ]
+      ], 
+      "maj": [
+        [
+          "squadNumber", 
+          4.0
+        ], 
+        [
+          "width", 
+          4.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ], 
+        [
+          "number", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Bridge (width)", 
+          0.0619
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          0.0668
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          0.068
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          0.0691
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.0691
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (squadNumber)", 
+          0.073
+        ], 
+        [
+          "http://dbpedia.org/ontology/OrganisationMember (squadNumber)", 
+          0.073
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (squadNumber)", 
+          0.073
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeamMember (squadNumber)", 
+          0.073
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          0.0847
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.0847
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.0847
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.0847
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.086
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Agent (squadNumber)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (squadNumber)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/OrganisationMember (squadNumber)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeamMember (squadNumber)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Bridge[width]", 
+      0.0619
+    ], 
+    [
+      "Infrastructure[width]", 
+      0.0704
+    ], 
+    [
+      "RouteOfTransportation[width]", 
+      0.0718
+    ], 
+    [
+      "ArchitecturalStructure[width]", 
+      0.0722
+    ], 
+    [
+      "Person[squadNumber]", 
+      0.073
+    ], 
+    [
+      "SportsTeamMember[squadNumber]", 
+      0.073
+    ], 
+    [
+      "OrganisationMember[squadNumber]", 
+      0.073
+    ], 
+    [
+      "Agent[squadNumber]", 
+      0.073
+    ], 
+    [
+      "SoccerPlayer[number]", 
+      0.0847
+    ], 
+    [
+      "Location[populationDensity]>(type|New_England_town)>(isPartOf|Vermont)", 
+      0.086
+    ]
+  ], 
+  "values": [
+    7.0104, 
+    45061.6, 
+    37.2, 
+    26.2, 
+    8.0772, 
+    25749.5, 
+    13.1064, 
+    5.0, 
+    24.384, 
+    7.0, 
+    12.0, 
+    24.0, 
+    12.0, 
+    3.90144, 
+    7.3152, 
+    12.0, 
+    3.5, 
+    0.8, 
+    18.0, 
+    10.5, 
+    25.0, 
+    7.3152, 
+    5.5, 
+    19.5072, 
+    55.7784, 
+    2.5, 
+    17.5, 
+    14.5999, 
+    8.5344, 
+    28.0, 
+    20.0, 
+    45.0, 
+    39.8, 
+    7.2, 
+    14.5, 
+    32.0, 
+    15.8, 
+    24140.2, 
+    17.526, 
+    9.7536, 
+    20.1, 
+    8.5344, 
+    11.3, 
+    37.2, 
+    25.6032, 
+    16.764, 
+    42.0, 
+    3.5, 
+    35.0, 
+    18.5, 
+    15.3, 
+    11.0, 
+    25.908, 
+    30.0, 
+    6.7818, 
+    11.5824, 
+    18.288, 
+    15.0, 
+    9.144, 
+    5.1816, 
+    12.0, 
+    10.5, 
+    18.288, 
+    17.68, 
+    58.5, 
+    18.0, 
+    20.6045, 
+    6.1, 
+    20.7, 
+    16.45, 
+    26.2128, 
+    25749.5, 
+    13.716, 
+    10.3632, 
+    18.0, 
+    10.2108, 
+    7.0104, 
+    32.3088, 
+    32.004, 
+    15.2, 
+    13.1064, 
+    37.3, 
+    12.192, 
+    15.2, 
+    38.58, 
+    12.192, 
+    25749.5, 
+    9.1, 
+    18.0, 
+    23.7744, 
+    20.4216, 
+    2.4, 
+    14.7, 
+    6.7, 
+    17.9832, 
+    4.8768, 
+    20.5, 
+    15.0, 
+    15.8496, 
+    3.3, 
+    8.503919999999999, 
+    1.2192, 
+    24542.5, 
+    4.8768, 
+    6.096, 
+    15.8496, 
+    10.9, 
+    7.28472, 
+    17.0, 
+    32.6136, 
+    25749.5, 
+    29.1, 
+    19.5, 
+    8.5344, 
+    13.4112, 
+    13.5, 
+    16.4592, 
+    11.0, 
+    12.192, 
+    4.2672, 
+    7.77, 
+    3.3, 
+    33.4, 
+    100.0, 
+    16.2, 
+    11.58, 
+    28.0, 
+    4.0, 
+    19.2024, 
+    11.5, 
+    50.0, 
+    3.5, 
+    10.0, 
+    7.9248, 
+    26.33, 
+    37.7952, 
+    6.3, 
+    5.0, 
+    34.0, 
+    9.144, 
+    5.1816, 
+    12.192, 
+    27358.8, 
+    7.0104, 
+    1.2192, 
+    8.5344, 
+    16.4592, 
+    5.1816, 
+    6.096, 
+    28.3464, 
+    3.9624, 
+    19.6, 
+    22530.8, 
+    30.6, 
+    32.0, 
+    9.0, 
+    40.0, 
+    19.5, 
+    2.7, 
+    6.5, 
+    4.52, 
+    11.58, 
+    18.1, 
+    9.4, 
+    42.0, 
+    15.5, 
+    15.8, 
+    32.0
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/maximumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.0957
+        ], 
+        [
+          "elevation", 
+          0.0996
+        ], 
+        [
+          "numberOfEpisodes", 
+          0.112
+        ], 
+        [
+          "populationTotal", 
+          0.1139
+        ], 
+        [
+          "maximumElevation", 
+          0.118
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          3.0
+        ], 
+        [
+          "populationTotal", 
+          3.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ], 
+        [
+          "numberOfEpisodes", 
+          1.0
+        ], 
+        [
+          "maximumElevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.09
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (populationDensity)", 
+          0.0953
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.0957
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.0957
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.0996
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.0996
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.0996
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.1092
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          0.112
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          0.112
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1134
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1139
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1139
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1139
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.118
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (maximumElevation)", 
+          0.118
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          0.118
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Town[elevation]>(type|Towns_of_the_People's_Republic_of_China)", 
+      0.09
+    ], 
+    [
+      "Country[populationDensity]>(governmentType|Unitary_state)", 
+      0.0903
+    ], 
+    [
+      "Country[populationDensity]>(governmentType|Unitary_state)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0974
+    ], 
+    [
+      "Country[populationDensity]", 
+      0.0992
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Central_District_(Shahr-e_Babak_County))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1089
+    ], 
+    [
+      "City[elevation]>(isPartOf|California)", 
+      0.1092
+    ], 
+    [
+      "TelevisionShow[numberOfEpisodes]>(network|Broadcast_syndication)", 
+      0.112
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|South_Khorasan_Province)>(isPartOf|Baqeran_Rural_District)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1133
+    ], 
+    [
+      "Island[maximumElevation]", 
+      0.118
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Mashiz_Rural_District)", 
+      0.1195
+    ]
+  ], 
+  "values": [
+    53.255757098797766, 
+    266.9269316674141, 
+    164.41526546784564, 
+    113.22991249919957, 
+    8.126038917720894, 
+    2.7191289742262437, 
+    855.3228352373836, 
+    54.50559401188755, 
+    1092.3761289632903, 
+    32.66277893535468, 
+    81.17044937502591, 
+    45.39897829888295, 
+    126.6141773535401, 
+    5.064043876718195, 
+    45.15030100647402, 
+    41.96954463419933, 
+    127.80347679808729, 
+    25.731049104677343, 
+    79.14750379956791, 
+    30.694184083024673, 
+    55.42920679444441, 
+    852.2277767603772, 
+    880.0917727185982, 
+    41.314421920118846, 
+    28.72773824611287, 
+    855.5866992436829, 
+    10.199918936336703, 
+    468.7595607564714, 
+    69.56755788887784, 
+    567.8840643373039, 
+    9.556014332984468, 
+    91.03376346635604, 
+    65.31095726780676, 
+    26.338077108552348, 
+    227.0234190370271, 
+    85.76502144389062, 
+    89.90163104045598, 
+    75.94439243194695, 
+    9.438329908441906, 
+    409.1164230587867, 
+    21.70865359498928, 
+    53.19674259436366, 
+    49.52376969901683, 
+    18.113310129089925
+  ]
+}

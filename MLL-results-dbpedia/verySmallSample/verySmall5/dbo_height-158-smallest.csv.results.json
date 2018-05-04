@@ -1,0 +1,245 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/height"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.1071
+        ], 
+        [
+          "height", 
+          0.11
+        ], 
+        [
+          "populationTotal", 
+          0.124
+        ], 
+        [
+          "populationDensity", 
+          0.125
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          5.0
+        ], 
+        [
+          "populationTotal", 
+          3.0
+        ], 
+        [
+          "height", 
+          1.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1027
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.11
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          0.11
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.11
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1134
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1137
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1137
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.124
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.124
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.124
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.124
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.125
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.125
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.125
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.125
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Gujarat)", 
+      0.1007
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Gujarat)>(country|India)", 
+      0.1027
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Humboldt_County,_California)", 
+      0.1048
+    ], 
+    [
+      "Infrastructure[height]", 
+      0.11
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Pas-de-Calais)>(arrondissement|Arrondissement_of_Saint-Omer)", 
+      0.1119
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Nord_(French_department))", 
+      0.1154
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|South_Khorasan_Province)>(isPartOf|Baqeran_Rural_District)", 
+      0.1196
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|South_Khorasan_Province)>(isPartOf|Jolgeh-e_Mazhan_District)", 
+      0.125
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|New_York)", 
+      0.125
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Isfahan_Province)>(isPartOf|Central_District_(Ardestan_County))", 
+      0.1275
+    ]
+  ], 
+  "values": [
+    229.81028035450234, 
+    105.68902717036404, 
+    47.574411654633046, 
+    247.45365492338647, 
+    32.398362193052556, 
+    151.305871425091, 
+    95.56214932812557, 
+    8.80940640684128, 
+    89.06236298221975, 
+    22.097310146001035, 
+    30.43066072789436, 
+    66.90861527279247, 
+    19.86383579687095, 
+    8.508613818621903, 
+    116.02604058747092, 
+    25.22338686986171, 
+    27.56917939245012, 
+    63.850633327092126, 
+    113.89603086420357, 
+    57.168489690739015, 
+    59.324304842599645, 
+    179.66715616082237, 
+    89.90896789116931, 
+    10.099449859271841, 
+    29.80427689673077, 
+    48.215428228823946, 
+    3.820530573286616, 
+    22.389102488136132, 
+    162.80514326701643, 
+    4.815866344705264
+  ]
+}

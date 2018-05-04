@@ -1,0 +1,307 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/elevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.0705
+        ], 
+        [
+          "populationTotal", 
+          0.0856
+        ], 
+        [
+          "populationDensity", 
+          0.0865
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          5.0
+        ], 
+        [
+          "populationDensity", 
+          3.0
+        ], 
+        [
+          "populationTotal", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.0639
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.0685
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.0704
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.0705
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.0705
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.0785
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0856
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.0856
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0856
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.0861
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.0861
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.0861
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.0862
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          0.0863
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.0872
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Town[elevation]", 
+      0.0639
+    ], 
+    [
+      "City[elevation]", 
+      0.0685
+    ], 
+    [
+      "Settlement[elevation]", 
+      0.0705
+    ], 
+    [
+      "PopulatedPlace[elevation]", 
+      0.071
+    ], 
+    [
+      "Village[elevation]", 
+      0.0785
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|West_Azerbaijan_Province)>(isPartOf|Central_District_(Urmia_County))", 
+      0.0811
+    ], 
+    [
+      "Village[populationDensity]>(isPartOf|Wisconsin)", 
+      0.0849
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Wisconsin)>(type|Village_(United_States))", 
+      0.0872
+    ], 
+    [
+      "Village[populationDensity]>(isPartOf|Wisconsin)>(type|Village_(United_States))", 
+      0.0872
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|West_Azerbaijan_Province)>(isPartOf|Central_District_(Urmia_County))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.09
+    ]
+  ], 
+  "values": [
+    363.96244768121505, 
+    611.8347486975607, 
+    132.38427931192624, 
+    446.1644859758665, 
+    336.4177292223019, 
+    291.34982097085606, 
+    239.4809723555156, 
+    1079.904986723455, 
+    204.5302704977631, 
+    8.514290640964088, 
+    469.765731806407, 
+    330.84434217085277, 
+    60.80263826717325, 
+    52.4814977351969, 
+    10.24961572545898, 
+    247.59684179527082, 
+    296.87977006242966, 
+    212.4618757526235, 
+    166.53088953191266, 
+    360.86940336710524, 
+    163.66659585414595, 
+    293.78870455070637, 
+    140.77055350557202, 
+    370.36502515878624, 
+    316.1577208774629, 
+    7.544386805051111, 
+    366.69550933640585, 
+    20.18006074186258, 
+    87.14647331957775, 
+    0.0, 
+    357.30175552623086, 
+    171.39142275619338, 
+    74.29758346849529, 
+    208.55007743829466, 
+    45.21691489042717, 
+    224.0178274185572, 
+    330.98546121396834, 
+    645.5518362401644, 
+    165.89138579877368, 
+    297.77572502436516, 
+    301.36607587766264, 
+    215.00155118764746, 
+    331.22604809534147, 
+    306.5251410637327, 
+    9.981131326667498, 
+    98.98021048500046, 
+    3.079017701544244, 
+    238.12073882227043, 
+    1158.9625226216945, 
+    1508.499205658532, 
+    205.37199183872107, 
+    319.58710789056556, 
+    29.93228100890623, 
+    376.47756927684117, 
+    92.69918869118301, 
+    417.5967150903123, 
+    353.8181181320273, 
+    71.24729701278, 
+    326.5734613225411, 
+    371.68389982934184, 
+    268.03378020939124, 
+    435.9051472817874, 
+    2388.4878587179915, 
+    779.111084850467, 
+    386.5679656529083, 
+    1940.3879791541553, 
+    94.68469064509809, 
+    281.5284558031389, 
+    268.29302525133824, 
+    61.443039763074125, 
+    303.5564795379675, 
+    261.7583888841861, 
+    34.85938473008452, 
+    1709.203152380699, 
+    53.18214757402663, 
+    87.20994286771416, 
+    186.51275266545485, 
+    149.52530829881775, 
+    3230.5266339980944, 
+    311.70102836969875, 
+    221.67950822764155, 
+    0.9512621945345738, 
+    457.393811720853, 
+    371.95955667716805, 
+    1247.1647591750095, 
+    794.4953697523766, 
+    220.2233240969973, 
+    343.9944023721972, 
+    264.43196345296246, 
+    186.94238043402504, 
+    969.0665375816908, 
+    469.0839025866728, 
+    323.0017120846126, 
+    250.5599634999824, 
+    468.1993205092753, 
+    171.9418667904684, 
+    2187.355921557407, 
+    126.74966944346342, 
+    534.4473514365359, 
+    285.0983686092802
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/squadNumber"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "squadNumber", 
+          0.0703
+        ], 
+        [
+          "number", 
+          0.0941
+        ], 
+        [
+          "width", 
+          0.1084
+        ]
+      ], 
+      "maj": [
+        [
+          "squadNumber", 
+          4.0
+        ], 
+        [
+          "number", 
+          4.0
+        ], 
+        [
+          "width", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Agent (squadNumber)", 
+          0.0703
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (squadNumber)", 
+          0.0703
+        ], 
+        [
+          "http://dbpedia.org/ontology/OrganisationMember (squadNumber)", 
+          0.0703
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeamMember (squadNumber)", 
+          0.0703
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          0.0728
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.0941
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.0941
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.0941
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          0.1012
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (width)", 
+          0.1031
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          0.1031
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.1084
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          0.1084
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          0.1084
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (squadNumber)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (squadNumber)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/OrganisationMember (squadNumber)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeamMember (squadNumber)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Person[squadNumber]", 
+      0.0703
+    ], 
+    [
+      "SportsTeamMember[squadNumber]", 
+      0.0703
+    ], 
+    [
+      "OrganisationMember[squadNumber]", 
+      0.0703
+    ], 
+    [
+      "Agent[squadNumber]", 
+      0.0703
+    ], 
+    [
+      "SoccerPlayer[number]", 
+      0.0728
+    ], 
+    [
+      "BasketballPlayer[number]>(league|Euroleague_Basketball)", 
+      0.0873
+    ], 
+    [
+      "Bridge[width]", 
+      0.1031
+    ], 
+    [
+      "BasketballPlayer[number]>(league|Eurocup_Basketball)", 
+      0.1039
+    ], 
+    [
+      "BasketballPlayer[number]>(nationality|Philippines)", 
+      0.1125
+    ], 
+    [
+      "Infrastructure[width]", 
+      0.1137
+    ]
+  ], 
+  "values": [
+    25.0, 
+    18.0, 
+    10.0, 
+    16.0, 
+    5.0, 
+    18.0, 
+    2.0, 
+    30.0, 
+    17.0, 
+    11.0, 
+    52.0, 
+    16.0, 
+    15.0, 
+    19.0, 
+    22.0, 
+    9.0, 
+    15.0, 
+    12.0, 
+    10.0, 
+    17.0, 
+    22.0, 
+    14.0, 
+    11.0, 
+    6.0, 
+    35.0, 
+    22.0, 
+    6.0, 
+    14.0, 
+    23.0, 
+    5.0, 
+    4.0, 
+    19.0, 
+    1.0, 
+    16.0, 
+    5.0, 
+    26.0, 
+    16.0, 
+    2.0, 
+    12.0, 
+    15.0, 
+    26.0, 
+    62.0, 
+    20.0, 
+    24.0, 
+    8.0, 
+    30.0, 
+    19.0, 
+    3.0, 
+    31.0, 
+    13.0, 
+    25.0, 
+    35.0, 
+    13.0, 
+    9.0, 
+    7.0, 
+    2.0, 
+    16.0, 
+    9.0, 
+    31.0, 
+    10.0, 
+    26.0, 
+    11.0, 
+    20.0, 
+    11.0, 
+    4.0, 
+    6.0, 
+    31.0, 
+    18.0, 
+    18.0, 
+    22.0, 
+    31.0, 
+    29.0, 
+    12.0, 
+    27.0, 
+    6.0, 
+    12.0, 
+    19.0, 
+    6.0, 
+    18.0, 
+    36.0, 
+    16.0, 
+    6.0, 
+    3.0, 
+    8.0, 
+    2.0, 
+    15.0, 
+    10.0, 
+    26.0, 
+    14.0, 
+    10.0, 
+    5.0, 
+    17.0, 
+    13.0, 
+    17.0, 
+    24.0, 
+    12.0
+  ]
+}

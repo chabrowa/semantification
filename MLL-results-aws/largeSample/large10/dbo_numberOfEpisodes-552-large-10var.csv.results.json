@@ -1,0 +1,262 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEpisodes"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "height", 
+          0.1447
+        ], 
+        [
+          "number", 
+          0.1469
+        ], 
+        [
+          "populationDensity", 
+          0.1503
+        ], 
+        [
+          "elevation", 
+          0.1691
+        ]
+      ], 
+      "maj": [
+        [
+          "number", 
+          4.0
+        ], 
+        [
+          "populationDensity", 
+          4.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ], 
+        [
+          "height", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          0.1382
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.1447
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (height)", 
+          0.1447
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (height)", 
+          0.1447
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.1447
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1467
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.1469
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.1469
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.1469
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1657
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.1657
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.1657
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1657
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1691
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          0.173
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "BasketballPlayer[number]>(league|Eurocup_Basketball)", 
+      0.1161
+    ], 
+    [
+      "Location[populationDensity]>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Centre-du-Qu%C3%A9bec)", 
+      0.1343
+    ], 
+    [
+      "BasketballPlayer[number]>(league|Euroleague_Basketball)", 
+      0.1389
+    ], 
+    [
+      "Location[populationDensity]>(type|New_England_town)>(isPartOf|Vermont)", 
+      0.1411
+    ], 
+    [
+      "Lighthouse[height]>(location|Australia)", 
+      0.1447
+    ], 
+    [
+      "BasketballPlayer[number]>(nationality|Philippines)", 
+      0.1596
+    ], 
+    [
+      "Location[populationDensity]>(type|New_England_town)>(isPartOf|Vermont)>(country|United_States)", 
+      0.1602
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Mississippi)", 
+      0.1657
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Marin_County,_California)", 
+      0.1691
+    ], 
+    [
+      "SoccerPlayer[number]", 
+      0.173
+    ]
+  ], 
+  "values": [
+    8.0, 
+    12.0, 
+    12.0, 
+    10.0, 
+    22.0, 
+    12.0, 
+    6.0, 
+    73.0, 
+    37.0, 
+    23.0, 
+    14.0, 
+    76.0, 
+    34.0, 
+    30.0, 
+    8.0, 
+    72.0, 
+    11.0, 
+    15.0, 
+    18.0, 
+    12.0, 
+    14.0, 
+    8.0, 
+    14.0, 
+    6.0, 
+    30.0, 
+    8.0, 
+    6.0, 
+    8.0, 
+    17.0, 
+    7.0, 
+    8.0, 
+    51.0, 
+    21.0, 
+    13.0, 
+    11.0, 
+    12.0, 
+    15.0, 
+    12.0, 
+    10.0, 
+    12.0, 
+    13.0, 
+    14.0, 
+    18.0, 
+    12.0, 
+    12.0, 
+    30.0, 
+    42.0
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/minimumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "capacity", 
+          0.0578
+        ], 
+        [
+          "populationDensity", 
+          0.0776
+        ], 
+        [
+          "elevation", 
+          0.078
+        ], 
+        [
+          "populationTotal", 
+          0.09
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          4.0
+        ], 
+        [
+          "populationTotal", 
+          3.0
+        ], 
+        [
+          "capacity", 
+          2.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (capacity)", 
+          0.0578
+        ], 
+        [
+          "http://dbpedia.org/ontology/Train (capacity)", 
+          0.0578
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.0779
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.078
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.09
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          18.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (capacity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Train (capacity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Train[capacity]", 
+      0.0578
+    ], 
+    [
+      "MeanOfTransportation[capacity]", 
+      0.0578
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Texas)>(type|Census-designated_place)", 
+      0.0757
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Texas)>(type|Census-designated_place)>(timeZone|Central_Time_Zone)", 
+      0.0774
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Texas)>(type|Census-designated_place)>(timeZone|Central_Time_Zone)>(country|United_States)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.078
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)", 
+      0.078
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Texas)>(type|Census-designated_place)>(timeZone|Central_Time_Zone)>(country|United_States)", 
+      0.0794
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(isPartOf|Perugia)", 
+      0.09
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(isPartOf|Perugia)>(type|Frazione)", 
+      0.09
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(isPartOf|Perugia)>(type|Frazione)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.09
+    ]
+  ], 
+  "values": [
+    599.6738351138033, 
+    81.35490098677892, 
+    150.51641886358075, 
+    435.3531575178216, 
+    455.63311664300033, 
+    421.80895632765265, 
+    167.71261368282882, 
+    642.7727369700004, 
+    14.469419775166813, 
+    787.1710468934568, 
+    345.8810658037146, 
+    207.97192358856697, 
+    520.6833527981239, 
+    282.63120571464304, 
+    125.76762943548687, 
+    83.9980662380283, 
+    606.1290776073171, 
+    122.6409979301651, 
+    0.0, 
+    172.57901476819293, 
+    259.348325987566, 
+    55.39965153277722, 
+    25.290894428150928, 
+    84.00635279107749, 
+    104.57805362150668, 
+    0.0, 
+    94.6361309092297, 
+    237.43280815926283, 
+    154.1779609497648, 
+    60.2363092370632, 
+    10.058075689417528, 
+    13.826312572946145, 
+    732.7953721670017, 
+    6.700936550075028, 
+    8.382499489211368, 
+    88.30073888576317, 
+    276.05991724678324, 
+    0.0, 
+    60.89498989197814, 
+    247.35164353372346, 
+    68.43587447241738, 
+    209.0164055707492, 
+    97.03562288181682, 
+    21.447063076083595, 
+    21.428039483401236, 
+    6.831013834210889, 
+    4.938285431807295, 
+    715.4673083407426, 
+    87.54816653198517, 
+    329.4759264098948, 
+    427.48708225283315, 
+    58.04035359062517, 
+    123.14118661067042, 
+    77.78384264359978, 
+    483.83901553644864, 
+    108.67399229874157, 
+    286.76521964105547, 
+    764.4703351161494, 
+    52.92522966016843, 
+    297.9350707576342, 
+    1066.8865106380686, 
+    76.70467144935243, 
+    12.332172370605418, 
+    110.03653400038317, 
+    20.571911562991282, 
+    105.73117429522216, 
+    614.1907085576363, 
+    406.46943681422533, 
+    188.31394825145782, 
+    929.1018573324051, 
+    226.9091673091509, 
+    44.73147488334224, 
+    50.094128250819054, 
+    432.72081198149897, 
+    385.3972047812635, 
+    96.90483878507276, 
+    0.0, 
+    32.93867496973954, 
+    250.72036492880963, 
+    47.556254723563384, 
+    78.1081586368211, 
+    36.69521084546187, 
+    60.971780148278725, 
+    0.0, 
+    131.9073473661473, 
+    41.32157343016558, 
+    248.97584402106065, 
+    50.74207302240974, 
+    1.0326310631037021, 
+    669.0677662040812, 
+    488.14240374869956, 
+    36.2491773157954, 
+    102.44414004593675, 
+    738.834943364722, 
+    69.87155999128206, 
+    151.1565013618388, 
+    214.473683801393, 
+    43.41900609229707, 
+    851.360849908302, 
+    40.787294749209224
+  ]
+}

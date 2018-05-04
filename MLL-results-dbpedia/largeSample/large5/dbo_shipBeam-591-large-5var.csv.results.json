@@ -1,0 +1,294 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/shipBeam"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "shipBeam", 
+          0.153
+        ], 
+        [
+          "height", 
+          0.2213
+        ], 
+        [
+          "number", 
+          0.2276
+        ], 
+        [
+          "populationDensity", 
+          0.2419
+        ], 
+        [
+          "width", 
+          0.2425
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          4.0
+        ], 
+        [
+          "number", 
+          3.0
+        ], 
+        [
+          "shipBeam", 
+          1.0
+        ], 
+        [
+          "width", 
+          1.0
+        ], 
+        [
+          "height", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          0.153
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          0.153
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.2213
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (height)", 
+          0.2213
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (height)", 
+          0.2213
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.2213
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.2276
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.2276
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.2276
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          0.2302
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2417
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.2423
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.2423
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.2423
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.2423
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          0.2425
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.2425
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (width)", 
+          0.2425
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          0.2425
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          0.2425
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Ship[shipBeam]>(country|United_Kingdom)", 
+      0.153
+    ], 
+    [
+      "BasketballPlayer[number]>(league|Eurocup_Basketball)", 
+      0.1889
+    ], 
+    [
+      "Lighthouse[height]>(location|Australia)", 
+      0.2213
+    ], 
+    [
+      "Location[populationDensity]>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Centre-du-Qu%C3%A9bec)", 
+      0.2336
+    ], 
+    [
+      "Location[populationDensity]>(type|New_England_town)>(isPartOf|Penobscot_County,_Maine)", 
+      0.2423
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Maine)>(isPartOf|Penobscot_County,_Maine)>(type|New_England_town)", 
+      0.2423
+    ], 
+    [
+      "Bridge[width]", 
+      0.2425
+    ], 
+    [
+      "BasketballPlayer[number]>(nationality|Philippines)>(league|Philippine_Basketball_Association)", 
+      0.2459
+    ], 
+    [
+      "BasketballPlayer[number]>(league|Euroleague_Basketball)", 
+      0.2481
+    ], 
+    [
+      "Location[populationDensity]>(type|New_England_town)>(isPartOf|Vermont)", 
+      0.2493
+    ]
+  ], 
+  "values": [
+    12.035499430381726, 
+    5.689598918203294, 
+    9.658112983170417, 
+    9.678827135657963, 
+    10.056337332960728, 
+    14.5726635541815, 
+    30.58160724634789, 
+    33.09900292915517, 
+    9.741856365535389, 
+    10.472885424750926, 
+    6.806646388316236, 
+    28.975263266073227, 
+    9.414317419599698, 
+    25.22387842809381, 
+    18.31353069686471, 
+    12.397010155220125, 
+    12.009302714261938, 
+    14.952721454284848, 
+    10.270610234791645, 
+    11.672021605095516, 
+    13.51197144203884, 
+    10.616110742048834, 
+    14.286360451000844, 
+    23.419777234982732, 
+    12.75723762815257, 
+    15.207817925931428, 
+    3.57189310099992, 
+    9.211301775919267, 
+    22.144583862899943, 
+    10.793635285077489, 
+    10.353413026346066
+  ]
+}

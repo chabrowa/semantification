@@ -1,0 +1,257 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/maximumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1171
+        ], 
+        [
+          "elevation", 
+          0.1203
+        ], 
+        [
+          "width", 
+          0.1209
+        ], 
+        [
+          "maximumElevation", 
+          0.1516
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          4.0
+        ], 
+        [
+          "width", 
+          3.0
+        ], 
+        [
+          "populationTotal", 
+          2.0
+        ], 
+        [
+          "maximumElevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1059
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1171
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1171
+        ], 
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          0.1203
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.1203
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1203
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (width)", 
+          0.1209
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (width)", 
+          0.1209
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (width)", 
+          0.1209
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.1209
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (width)", 
+          0.1209
+        ], 
+        [
+          "http://dbpedia.org/ontology/MountainRange (elevation)", 
+          0.1219
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1237
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (maximumElevation)", 
+          0.1516
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (maximumElevation)", 
+          0.1516
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.1516
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (maximumElevation)", 
+          0.1516
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (width)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MountainRange (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[populationTotal]>(country|India)>(isPartOf|Orathanadu_Taluk)", 
+      0.1059
+    ], 
+    [
+      "Volcano[elevation]>(locatedInArea|Russia)", 
+      0.1176
+    ], 
+    [
+      "Volcano[elevation]>(locatedInArea|Indonesia)", 
+      0.1187
+    ], 
+    [
+      "Location[width]>(location|Nordland)", 
+      0.1209
+    ], 
+    [
+      "Location[width]>(location|Nordland)>(country|Norway)", 
+      0.1209
+    ], 
+    [
+      "Lake[width]>(location|Nordland)", 
+      0.1209
+    ], 
+    [
+      "MountainRange[elevation]", 
+      0.1219
+    ], 
+    [
+      "Volcano[elevation]>(locatedInArea|Indonesia)>(type|Stratovolcano)", 
+      0.1231
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Canada)>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Mont%C3%A9r%C3%A9gie)", 
+      0.1282
+    ], 
+    [
+      "SkiArea[maximumElevation]>(location|United_States)", 
+      0.1516
+    ]
+  ], 
+  "values": [
+    915.6369072389945, 
+    1971.637998476929, 
+    1631.5450906165609, 
+    2412.268614108841, 
+    1028.2190591322756, 
+    1175.7426858601627, 
+    2388.5141965963385, 
+    2525.5465768350923, 
+    1702.2760098280348, 
+    2145.099750207258, 
+    2299.741177358109, 
+    1907.1394365467875, 
+    398.3152489828596, 
+    960.5669131095348, 
+    1322.7977641163538, 
+    3595.887372325757, 
+    1541.0372849203357, 
+    3269.7578635325676, 
+    2473.9687611291256, 
+    3447.389588611165, 
+    974.1107091175104, 
+    1425.9688858213924, 
+    1458.1491531671984, 
+    3060.9741953579382, 
+    3170.405362647674, 
+    341.0722999949229
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaWater"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "budget", 
+          0.1463
+        ], 
+        [
+          "areaTotal", 
+          0.1542
+        ], 
+        [
+          "oclc", 
+          0.1545
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          7.0
+        ], 
+        [
+          "oclc", 
+          2.0
+        ], 
+        [
+          "budget", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Agent (budget)", 
+          0.1463
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (budget)", 
+          0.1463
+        ], 
+        [
+          "http://dbpedia.org/ontology/GovernmentAgency (budget)", 
+          0.1463
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.1515
+        ], 
+        [
+          "http://dbpedia.org/ontology/AcademicJournal (oclc)", 
+          0.1545
+        ], 
+        [
+          "http://dbpedia.org/ontology/PeriodicalLiterature (oclc)", 
+          0.1545
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          0.1545
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          0.1545
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.1552
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.1552
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1597
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          0.1642
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          21.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AcademicJournal (oclc)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PeriodicalLiterature (oclc)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/GovernmentAgency (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (budget)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (budget)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Maharashtra)>(22-rdf-syntax-ns#type|_Feature)>(country|India)", 
+      0.1265
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Maharashtra)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1437
+    ], 
+    [
+      "GovernmentAgency[budget]>(location|Oklahoma_City)", 
+      0.1463
+    ], 
+    [
+      "AcademicJournal[oclc]>(publisher|John_Wiley_&_Sons)", 
+      0.1471
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Maharashtra)", 
+      0.1522
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Canada)>(timeZone|Pacific_Time_Zone)", 
+      0.1552
+    ], 
+    [
+      "AcademicJournal[oclc]>(publisher|Informa)", 
+      0.162
+    ], 
+    [
+      "ProtectedArea[areaTotal]", 
+      0.1642
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Kerala)>(country|India)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1671
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Kerala)>(country|India)", 
+      0.1706
+    ]
+  ], 
+  "values": [
+    76784725.45925753, 
+    192062458.5616104, 
+    296318013.5561025, 
+    2989122.807018809, 
+    384527711.7695614, 
+    341946242.6192517, 
+    42521993.84258944, 
+    5787421.042882795, 
+    4886338.854883491, 
+    1220619950.395208, 
+    16263850.945357114, 
+    13429331.376897236, 
+    78403363.3979514, 
+    5549104.144689826, 
+    8952926.501645971, 
+    475263383.22959256, 
+    12402924.200014194, 
+    21192333.3172145, 
+    21410454.24755521, 
+    22238565.679862406, 
+    864063074.7083737, 
+    1370756721.4070992, 
+    16564395.412059208, 
+    35000660.687546775, 
+    23404998.17842752, 
+    1364263254.0950568, 
+    228783957.2427213, 
+    14645589.344053766, 
+    0.0, 
+    46316419.60507959, 
+    58830763.343196854, 
+    12614690.144447278, 
+    3074739046.987858, 
+    11392948.598633336
+  ]
+}

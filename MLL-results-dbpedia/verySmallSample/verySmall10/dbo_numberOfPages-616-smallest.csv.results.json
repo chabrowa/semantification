@@ -1,0 +1,233 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfPages"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "maximumElevation", 
+          0.266
+        ], 
+        [
+          "elevation", 
+          0.2923
+        ], 
+        [
+          "populationDensity", 
+          0.2988
+        ], 
+        [
+          "areaCode", 
+          0.2998
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          4.0
+        ], 
+        [
+          "populationDensity", 
+          3.0
+        ], 
+        [
+          "maximumElevation", 
+          2.0
+        ], 
+        [
+          "areaCode", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.2658
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          0.2658
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          0.2658
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          0.2663
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2891
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2913
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2913
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.2934
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.2941
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.2941
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.2941
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.2952
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaCode)", 
+          0.2998
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          0.2998
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          0.2998
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.2998
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.3083
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[maximumElevation]>(department|C%C3%B4te-d'Or)", 
+      0.2658
+    ], 
+    [
+      "Location[maximumElevation]>(department|C%C3%B4te-d'Or)", 
+      0.2663
+    ], 
+    [
+      "Settlement[elevation]>(country|Italy)>(region|Umbria)>(province|Province_of_Perugia)", 
+      0.2692
+    ], 
+    [
+      "Town[populationDensity]>(timeZone|Mountain_Time_Zone)>(isPartOf|Alberta)>(country|Canada)", 
+      0.2895
+    ], 
+    [
+      "Settlement[elevation]>(country|Italy)>(province|Province_of_Turin)", 
+      0.2947
+    ], 
+    [
+      "Location[elevation]>(country|Spain)>(isPartOf|Province_of_Badajoz)", 
+      0.2952
+    ], 
+    [
+      "Town[populationDensity]>(timeZone|Mountain_Time_Zone)>(isPartOf|Alberta)", 
+      0.2987
+    ], 
+    [
+      "City[areaCode]>(isPartOf|Minnesota)", 
+      0.2998
+    ], 
+    [
+      "Location[populationDensity]>(timeZone|Pacific_Time_Zone)>(isPartOf|Idaho)", 
+      0.3083
+    ], 
+    [
+      "Settlement[elevation]>(country|Spain)>(isPartOf|Province_of_Badajoz)", 
+      0.31
+    ]
+  ], 
+  "values": [
+    523.0, 
+    297.0
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/capacity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "maximumElevation", 
+          0.0665
+        ], 
+        [
+          "populationTotal", 
+          0.0813
+        ], 
+        [
+          "populationDensity", 
+          0.0884
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          8.0
+        ], 
+        [
+          "maximumElevation", 
+          1.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Island (maximumElevation)", 
+          0.0665
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.0665
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          0.0665
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.0791
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0813
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0813
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.0879
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.0884
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (populationDensity)", 
+          0.0884
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.0884
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          16.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[populationTotal]>(country|Slovenia)>(isPartOf|Slovene_Littoral)", 
+      0.0552
+    ], 
+    [
+      "Island[maximumElevation]", 
+      0.0665
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Slovenia)>(isPartOf|Upper_Carniola)", 
+      0.0753
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)", 
+      0.0824
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Slovenia)", 
+      0.0828
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|South_Khorasan_Province)", 
+      0.0829
+    ], 
+    [
+      "Country[populationDensity]", 
+      0.0884
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Mazandaran_Province)>(isPartOf|Ramsar_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0887
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Slovenia)>(isPartOf|Slovene_Littoral)>(isPartOf|Gori%C5%A1ka_Statistical_Region)", 
+      0.0907
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Central_District_(Shahr-e_Babak_County))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0923
+    ]
+  ], 
+  "values": [
+    31.0, 
+    1.0, 
+    358.0, 
+    45.0, 
+    21.0, 
+    217.0, 
+    370.0, 
+    580.0, 
+    15.0, 
+    27.0, 
+    143.0, 
+    4.0, 
+    154.0, 
+    115.0, 
+    2814.0, 
+    322.0, 
+    134.0, 
+    294.0, 
+    39.0, 
+    25.0, 
+    150.0, 
+    57.0, 
+    176.0, 
+    3.0, 
+    225.0, 
+    130.0, 
+    65.0, 
+    8.0, 
+    38.0, 
+    86.0, 
+    29.0, 
+    103.0, 
+    80.0, 
+    43.0, 
+    48.0, 
+    52.0, 
+    84.0, 
+    3.0, 
+    41.0, 
+    903.0, 
+    373.0, 
+    976.0, 
+    35.0, 
+    48.0, 
+    45.0, 
+    17.0, 
+    104.0, 
+    31.0, 
+    29.0, 
+    8.0, 
+    50.0, 
+    211.0, 
+    2021.0, 
+    191.0, 
+    56.0, 
+    186.0, 
+    46.0, 
+    47.0, 
+    560.0, 
+    11.0, 
+    55.0, 
+    55.0, 
+    580.0, 
+    993.0, 
+    23.0, 
+    1042.0, 
+    262.0, 
+    113.0, 
+    144.0, 
+    16.0, 
+    356.0, 
+    108.0, 
+    88.0, 
+    176.0, 
+    96.0, 
+    8.0, 
+    270.0, 
+    15.0, 
+    33.0, 
+    287.0, 
+    24.0, 
+    390.0, 
+    46.0, 
+    299.0, 
+    292.0, 
+    44.0, 
+    136.0, 
+    265.0, 
+    51.0, 
+    56.0, 
+    642.0, 
+    3.0, 
+    125.0, 
+    8.0, 
+    54.0, 
+    213.0, 
+    4.0, 
+    19.0, 
+    994.0, 
+    33.0, 
+    58.0, 
+    74.0, 
+    724.0, 
+    2.0, 
+    70.0, 
+    11.0, 
+    164.0, 
+    66.0, 
+    759.0, 
+    40.0, 
+    284.0, 
+    46.0, 
+    48.0, 
+    33.0, 
+    83.0, 
+    68.0, 
+    246.0, 
+    39.0, 
+    723.0, 
+    63.0, 
+    64.0, 
+    57.0, 
+    249.0, 
+    76.0, 
+    12.0, 
+    5.0, 
+    1.0, 
+    93.0, 
+    54.0, 
+    197.0, 
+    47.0, 
+    71.0, 
+    889.0, 
+    435.0, 
+    16.0, 
+    73.0, 
+    134.0, 
+    191.0, 
+    6.0, 
+    231.0, 
+    2.0, 
+    89.0, 
+    47.0, 
+    48.0, 
+    181.0, 
+    48.0, 
+    174.0, 
+    36.0, 
+    313.0, 
+    108.0, 
+    71.0, 
+    48.0, 
+    599.0, 
+    158.0, 
+    43.0, 
+    51.0, 
+    68.0, 
+    4012.0, 
+    246.0, 
+    466.0, 
+    104.0, 
+    331.0, 
+    87.0, 
+    15.0, 
+    111.0, 
+    87.0, 
+    20.0, 
+    613.0
+  ]
+}

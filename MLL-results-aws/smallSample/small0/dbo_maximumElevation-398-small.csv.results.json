@@ -1,0 +1,209 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/maximumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.1299
+        ], 
+        [
+          "maximumElevation", 
+          0.1395
+        ], 
+        [
+          "populationTotal", 
+          0.1412
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          4.0
+        ], 
+        [
+          "populationTotal", 
+          3.0
+        ], 
+        [
+          "maximumElevation", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/MountainRange (elevation)", 
+          0.1074
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.1299
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1299
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1347
+        ], 
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          0.1365
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.1395
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (maximumElevation)", 
+          0.1395
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (maximumElevation)", 
+          0.1396
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (maximumElevation)", 
+          0.1396
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1412
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1412
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1482
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MountainRange (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "MountainRange[elevation]", 
+      0.1074
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Canada)>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Mont%C3%A9r%C3%A9gie)", 
+      0.1282
+    ], 
+    [
+      "Volcano[elevation]>(locatedInArea|Indonesia)>(type|Stratovolcano)", 
+      0.1316
+    ], 
+    [
+      "Volcano[elevation]>(locatedInArea|Indonesia)", 
+      0.1321
+    ], 
+    [
+      "ArchitecturalStructure[maximumElevation]", 
+      0.1394
+    ], 
+    [
+      "SportFacility[maximumElevation]", 
+      0.1396
+    ], 
+    [
+      "SkiArea[maximumElevation]", 
+      0.1396
+    ], 
+    [
+      "Village[populationTotal]>(country|India)>(isPartOf|Pudukkottai_district)", 
+      0.1439
+    ], 
+    [
+      "Volcano[elevation]>(locatedInArea|Russia)", 
+      0.1484
+    ], 
+    [
+      "Village[populationTotal]>(country|India)>(isPartOf|Pudukkottai_district)>(timeZone|Indian_Standard_Time)", 
+      0.1515
+    ]
+  ], 
+  "values": [
+    2240.28, 
+    2438.4, 
+    1875.0, 
+    1981.2, 
+    531.0, 
+    1609.34, 
+    1045.2, 
+    3068.42, 
+    2602.99, 
+    1928.0, 
+    3965.45, 
+    369.11300000000006, 
+    2069.29, 
+    2300.0, 
+    2280.0, 
+    1780.03, 
+    612.0, 
+    1274.06, 
+    3753.0, 
+    1200.0, 
+    1244.5, 
+    4008.12, 
+    1800.0, 
+    3445.0, 
+    1921.76, 
+    457.0
+  ]
+}

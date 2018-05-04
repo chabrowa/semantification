@@ -1,0 +1,323 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaLand"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaLand", 
+          0.0796
+        ], 
+        [
+          "areaTotal", 
+          0.0895
+        ], 
+        [
+          "areaWater", 
+          0.0932
+        ], 
+        [
+          "gross", 
+          0.0988
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          4.0
+        ], 
+        [
+          "areaLand", 
+          3.0
+        ], 
+        [
+          "gross", 
+          2.0
+        ], 
+        [
+          "areaWater", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.0765
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.0796
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.0796
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaTotal)", 
+          0.0824
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          0.0861
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.0895
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.0895
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.0895
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.0932
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaWater)", 
+          0.0932
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaWater)", 
+          0.0932
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.0932
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.0933
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (gross)", 
+          0.0988
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (gross)", 
+          0.0988
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (gross)", 
+          0.0988
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (gross)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (gross)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (gross)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[areaLand]>(isPartOf|Maryland)>(country|United_States)", 
+      0.0717
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Missouri)>(isPartOf|St._Louis_County,_Missouri)", 
+      0.0786
+    ], 
+    [
+      "City[areaLand]", 
+      0.0786
+    ], 
+    [
+      "Village[areaTotal]", 
+      0.0824
+    ], 
+    [
+      "City[areaLand]>(isPartOf|Missouri)>(isPartOf|St._Louis_County,_Missouri)", 
+      0.0886
+    ], 
+    [
+      "AdministrativeRegion[areaWater]>(state|Kentucky)", 
+      0.0932
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Missouri)>(isPartOf|St._Louis_County,_Missouri)>(country|United_States)>(type|City)", 
+      0.0962
+    ], 
+    [
+      "Wikidata:Q11424[gross]>(distributor|United_Artists)", 
+      0.0988
+    ], 
+    [
+      "Film[gross]>(distributor|United_Artists)", 
+      0.0988
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Missouri)>(isPartOf|St._Louis_County,_Missouri)>(country|United_States)", 
+      0.1007
+    ]
+  ], 
+  "values": [
+    6133434.320028644, 
+    23655422.254275996, 
+    534562.2794123987, 
+    17882144.371508826, 
+    5585802.601278298, 
+    3990648.27936008, 
+    589673.8294674897, 
+    72487769.49243507, 
+    7626945.802887771, 
+    4345503.175429936, 
+    488211.70868488814, 
+    5005213.6227186145, 
+    66629671.5227927, 
+    12468161.663515814, 
+    626154.1827650515, 
+    8582543.61152941, 
+    1584861.6863844485, 
+    4755714.39998893, 
+    93702630.58038875, 
+    43362462.44766638, 
+    1342218.4527028129, 
+    5193691.543412888, 
+    1291585.1374881633, 
+    4413914.882647275, 
+    16641149.016348004, 
+    2621311.4938907283, 
+    404867156.36121565, 
+    10450572.89435589, 
+    31588346.35814939, 
+    70551273.1972274, 
+    6288329.5739777535, 
+    1420771.8147934317, 
+    6056260.308024683, 
+    2188395.4790098406, 
+    12767346.685175397, 
+    38765033.99178633, 
+    22719984.633053288, 
+    9178015.513333745, 
+    40824731.10819786, 
+    12779112.44143365, 
+    1241149.7981252084, 
+    2151620.3549127504, 
+    853702.4619711485, 
+    2252917.392675375, 
+    587238.7054265639, 
+    381835.0073569505, 
+    1250466.422662765, 
+    943634.2419209345, 
+    11593694.51571851, 
+    18244287.4715098, 
+    676725.3733516764, 
+    25957708.201069105, 
+    7196325.123562212, 
+    28105364.29889854, 
+    1909939.238028023, 
+    4699237.6842937805, 
+    61325160.07170136, 
+    30045180.697616756, 
+    951671.8079310168, 
+    28133690.908090893, 
+    2707576.3374264226, 
+    8123170.573954102, 
+    13324184.780675855, 
+    24298099.630369883, 
+    720211.5209954011, 
+    5503120.537208248, 
+    350654.9868245346, 
+    199821.4768954612, 
+    2673862.7095492687, 
+    11196632.917558726, 
+    2889101.379660197, 
+    18742432.18861036, 
+    16162008.626550015, 
+    8329028.809217087, 
+    2935551.1853554277, 
+    18195412.6472514, 
+    732343.2639635022, 
+    1293696.7149591034, 
+    41497923.016880654, 
+    6598228.018216125, 
+    2402098.060713758, 
+    1351136.8273323488, 
+    8252078.041494564, 
+    3587196.1741315927, 
+    6190923.418484662, 
+    15471854.582092885, 
+    11158862.588349408, 
+    969620.4617378318, 
+    2422782.0873350147, 
+    3913863.284468738, 
+    319945241.5306969, 
+    641128.4544767071, 
+    2321202.3984457953, 
+    79312804.6800377, 
+    3933422.303257415, 
+    1910268.7960305077, 
+    1385379.2415027942, 
+    673111.5064185701, 
+    13454271.613934187, 
+    10902142.72164188
+  ]
+}

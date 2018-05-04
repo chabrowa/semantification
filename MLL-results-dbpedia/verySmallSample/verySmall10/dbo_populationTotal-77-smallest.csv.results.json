@@ -1,0 +1,291 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "length", 
+          0.072
+        ], 
+        [
+          "numberOfStudents", 
+          0.0724
+        ], 
+        [
+          "populationTotal", 
+          0.0884
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          6.0
+        ], 
+        [
+          "numberOfStudents", 
+          2.0
+        ], 
+        [
+          "length", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          0.0707
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.0707
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          0.0707
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (length)", 
+          0.0707
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.0724
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.0724
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.0724
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          0.0732
+        ], 
+        [
+          "http://dbpedia.org/ontology/University (numberOfStudents)", 
+          0.0786
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          0.083
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0884
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0884
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.0886
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          15.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/University (numberOfStudents)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (length)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "University[numberOfStudents]", 
+      0.0536
+    ], 
+    [
+      "Lake[length]", 
+      0.0707
+    ], 
+    [
+      "Location[length]>(22-rdf-syntax-ns#type|_Feature)>(country|France)", 
+      0.0732
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Spain)>(isPartOf|Andalusia)", 
+      0.0786
+    ], 
+    [
+      "Settlement[populationTotal]>(type|Census-designated_place)>(isPartOf|Virginia)", 
+      0.0809
+    ], 
+    [
+      "Town[populationTotal]>(timeZone|Central_European_Time)", 
+      0.083
+    ], 
+    [
+      "University[numberOfStudents]>(country|Philippines)", 
+      0.0912
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|Kent)", 
+      0.0947
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)", 
+      0.0961
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Canada)>(timeZone|Pacific_Time_Zone)", 
+      0.0971
+    ]
+  ], 
+  "values": [
+    392.0, 
+    4171.0, 
+    3838.0, 
+    16387.0, 
+    2637.0, 
+    15990.0, 
+    50.0, 
+    6350.0, 
+    416.0, 
+    734.0, 
+    54234.0, 
+    578.0, 
+    1191.0, 
+    5555.0, 
+    5789.0, 
+    13382.0, 
+    6394.0, 
+    1524.0, 
+    2745.0, 
+    11587.0, 
+    5.0, 
+    3768.0, 
+    15794.0, 
+    420.0, 
+    109968.0, 
+    30318.0, 
+    35544.0, 
+    740.0, 
+    181.0, 
+    49665.0, 
+    2242.0, 
+    1236.0, 
+    2480.0, 
+    9741.0, 
+    22241.0, 
+    97.0, 
+    11437.0, 
+    2143.0, 
+    17284.0, 
+    10812.0, 
+    145.0, 
+    330.0, 
+    17167.0, 
+    5083.0, 
+    4781.0, 
+    213.0, 
+    1160.0, 
+    10354.0, 
+    262.0, 
+    6610.0, 
+    47461.0, 
+    5466.0, 
+    1540.0, 
+    87243.0, 
+    15617.0, 
+    116.0, 
+    9079.0, 
+    6402.0, 
+    1094.0, 
+    2494.0, 
+    207.0, 
+    2180.0, 
+    1744.0, 
+    19160.0, 
+    420.0, 
+    1804.0, 
+    31870.0, 
+    1987.0, 
+    4277.0, 
+    4535.0, 
+    20148.0, 
+    1901.0, 
+    137.0, 
+    28733.0, 
+    9215.0, 
+    1270.0, 
+    64104.0, 
+    40704.0, 
+    39905.0, 
+    1783.0, 
+    5248.0, 
+    1981.0, 
+    2966.0, 
+    1191.0, 
+    124.0, 
+    3134.0, 
+    98660.0, 
+    170.0, 
+    514.0, 
+    239770.0, 
+    726.0, 
+    1082.0, 
+    9708.0, 
+    8083.0, 
+    7125.0, 
+    6482.0, 
+    2739.0, 
+    210.0, 
+    604.0, 
+    19858.0
+  ]
+}

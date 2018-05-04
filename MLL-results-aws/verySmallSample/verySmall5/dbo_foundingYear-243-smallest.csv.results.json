@@ -1,0 +1,244 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/foundingYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "openingYear", 
+          0.2047
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.2069
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          7.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          0.2029
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.203
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          0.2031
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.2038
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.2047
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.2047
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          0.2067
+        ], 
+        [
+          "http://dbpedia.org/ontology/Theatre (openingYear)", 
+          0.2069
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (activeYearsStartYear)", 
+          0.2069
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (activeYearsStartYear)", 
+          0.2069
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          0.2069
+        ], 
+        [
+          "http://dbpedia.org/ontology/Theatre (activeYearsStartYear)", 
+          0.2069
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (activeYearsStartYear)", 
+          0.2069
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (openingYear)", 
+          0.2069
+        ], 
+        [
+          "http://dbpedia.org/ontology/Hospital (openingYear)", 
+          0.2069
+        ], 
+        [
+          "http://dbpedia.org/ontology/Venue (activeYearsStartYear)", 
+          0.2069
+        ], 
+        [
+          "http://dbpedia.org/ontology/Venue (openingYear)", 
+          0.2069
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Theatre (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Hospital (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Venue (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Theatre (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Venue (openingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "RailwayTunnel[openingYear]", 
+      0.1954
+    ], 
+    [
+      "RailwayLine[openingYear]", 
+      0.2029
+    ], 
+    [
+      "Station[openingYear]", 
+      0.2067
+    ], 
+    [
+      "Bridge[openingYear]>(type|Swing_bridge)", 
+      0.2069
+    ], 
+    [
+      "RailwayTunnel[openingYear]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2069
+    ], 
+    [
+      "Hospital[openingYear]>(country|United_States)", 
+      0.2069
+    ], 
+    [
+      "Theatre[openingYear]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2069
+    ], 
+    [
+      "Venue[activeYearsStartYear]", 
+      0.2069
+    ], 
+    [
+      "Location[activeYearsStartYear]", 
+      0.2069
+    ], 
+    [
+      "Theatre[activeYearsStartYear]", 
+      0.2069
+    ]
+  ], 
+  "values": [
+    1908.0, 
+    1806.0, 
+    1938.0, 
+    2007.0, 
+    2078.0, 
+    1933.0, 
+    1853.0, 
+    2091.0, 
+    1882.0, 
+    1884.0, 
+    1941.0, 
+    2023.0, 
+    2038.0, 
+    1934.0, 
+    1878.0, 
+    1914.0, 
+    1901.0, 
+    1902.0, 
+    1914.0, 
+    2055.0, 
+    2042.0, 
+    1926.0, 
+    1823.0, 
+    1854.0, 
+    1913.0, 
+    1938.0, 
+    1832.0, 
+    1847.0, 
+    1911.0
+  ]
+}

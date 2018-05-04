@@ -1,0 +1,145 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/budget"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.2
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (areaTotal)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.2
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaTotal]>(timeZone|Time_in_Peru)", 
+      0.2
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Time_in_Peru)>(isPartOf|Hu%C3%A1nuco_Region)", 
+      0.2
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Galicia_(Spain))", 
+      0.2
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Galicia_(Spain))>(timeZone|Central_European_Time)", 
+      0.2
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Peru)", 
+      0.2
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Peru)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Peru)>(isPartOf|Hu%C3%A1nuco_Region)", 
+      0.2
+    ], 
+    [
+      "Lake[areaTotal]>(country|Russia)", 
+      0.2
+    ], 
+    [
+      "Lake[areaTotal]>(country|Russia)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2
+    ], 
+    [
+      "ProtectedArea[areaTotal]>(location|India)", 
+      0.2
+    ]
+  ], 
+  "values": [
+    215270262.53397995, 
+    42663436.55221933, 
+    446.4841343897917, 
+    573932051.2636881, 
+    104376377.45472224, 
+    440962848.1348478, 
+    488247084.4075157, 
+    125894277.99341655, 
+    1318044140291.0078, 
+    81.96249698265422
+  ]
+}

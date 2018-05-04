@@ -1,0 +1,297 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1113
+        ], 
+        [
+          "length", 
+          0.125
+        ], 
+        [
+          "postalCode", 
+          0.132
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          7.0
+        ], 
+        [
+          "length", 
+          2.0
+        ], 
+        [
+          "postalCode", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          0.0808
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1031
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1107
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1107
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1144
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (length)", 
+          0.1244
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.125
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (length)", 
+          0.125
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationTotal)", 
+          0.1257
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationTotal)", 
+          0.1257
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          0.132
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (postalCode)", 
+          0.132
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          0.132
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          0.132
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (postalCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "City[populationTotal]", 
+      0.0808
+    ], 
+    [
+      "Location[populationTotal]>(country|Spain)>(isPartOf|Province_of_Barcelona)", 
+      0.0981
+    ], 
+    [
+      "Location[populationTotal]>(country|Spain)>(isPartOf|Community_of_Madrid)", 
+      0.1028
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Canada)>(isPartOf|Ontario)", 
+      0.1105
+    ], 
+    [
+      "Island[length]", 
+      0.1244
+    ], 
+    [
+      "PopulatedPlace[length]", 
+      0.1256
+    ], 
+    [
+      "Region[populationTotal]", 
+      0.1257
+    ], 
+    [
+      "AdministrativeRegion[populationTotal]", 
+      0.1257
+    ], 
+    [
+      "City[postalCode]>(timeZone|Central_European_Time)", 
+      0.132
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(region|Lazio)>(province|Province_of_Rome)", 
+      0.1352
+    ]
+  ], 
+  "values": [
+    2864.0, 
+    213179.0, 
+    23323.0, 
+    20657.0, 
+    359.0, 
+    2810.0, 
+    398.0, 
+    12002.0, 
+    676.0, 
+    254.0, 
+    54196.0, 
+    5198.0, 
+    3021.0, 
+    42876.0, 
+    10625.0, 
+    349.0, 
+    15982.0, 
+    148448.0, 
+    65759.0, 
+    25884.0, 
+    13467.0, 
+    20442.0, 
+    53.0, 
+    432.0, 
+    12510.0, 
+    1946.0, 
+    11566.0, 
+    3177.0, 
+    2190.0, 
+    359.0, 
+    622.0, 
+    23221.0, 
+    43114.0, 
+    10031.0, 
+    4652.0, 
+    621.0, 
+    65276.0, 
+    29256.0, 
+    350.0, 
+    9684.0, 
+    187.0, 
+    54702.0, 
+    719.0, 
+    10436.0, 
+    18958.0, 
+    220.0, 
+    93882.0, 
+    20825.0, 
+    84846.0, 
+    18531.0, 
+    42991.0, 
+    50447.0, 
+    41225.0, 
+    9147.0, 
+    2424.0, 
+    418.0, 
+    89.0, 
+    12211.0, 
+    213754.0, 
+    4248.0, 
+    21414.0, 
+    918.0, 
+    1411.0, 
+    2837.0, 
+    50259.0, 
+    4942.0, 
+    13689.0, 
+    117104.0, 
+    108476.0, 
+    10041.0, 
+    4655.0, 
+    410.0, 
+    1794366.0, 
+    43663.0, 
+    120.0, 
+    1840.0, 
+    15036.0, 
+    14153.0, 
+    2037.0, 
+    11277.0, 
+    45096.0, 
+    716.0, 
+    7132.0, 
+    18014.0, 
+    7829.0, 
+    147110.0, 
+    33927.0, 
+    133056.0, 
+    20083.0, 
+    290.0, 
+    121603.0, 
+    120827.0, 
+    42258.0, 
+    10088.0, 
+    78.0, 
+    18934.0, 
+    14930.0, 
+    12724.0
+  ]
+}

@@ -1,0 +1,345 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/year"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.428
+        ], 
+        [
+          "populationTotal", 
+          0.4545
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          7.0
+        ], 
+        [
+          "populationTotal", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          0.3262
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.419
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.4221
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.4341
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.4341
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.443
+        ], 
+        [
+          "http://dbpedia.org/ontology/MountainRange (elevation)", 
+          0.4469
+        ], 
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          0.4526
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          0.4529
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.4545
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.4545
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.4553
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MountainRange (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Mountain[elevation]>(locatedInArea|Norway)>(locatedInArea|Oppland)", 
+      0.3262
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.4337
+    ], 
+    [
+      "Settlement[elevation]>(country|Peru)>(isPartOf|Amazonas_Region)", 
+      0.4341
+    ], 
+    [
+      "MountainRange[elevation]", 
+      0.4469
+    ], 
+    [
+      "Volcano[elevation]", 
+      0.4484
+    ], 
+    [
+      "Town[populationTotal]>(timeZone|Mountain_Time_Zone)>(isPartOf|Arizona)", 
+      0.4507
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)", 
+      0.4522
+    ], 
+    [
+      "Volcano[elevation]>(locatedInArea|Russia)", 
+      0.4546
+    ], 
+    [
+      "Town[populationTotal]>(isPartOf|Michigan)", 
+      0.4563
+    ], 
+    [
+      "Settlement[populationTotal]>(type|Census-designated_place)>(isPartOf|Michigan)", 
+      0.4565
+    ]
+  ], 
+  "values": [
+    2088.0, 
+    1836.0, 
+    1981.0, 
+    1840.0, 
+    1800.0, 
+    1905.0, 
+    2154.0, 
+    2127.0, 
+    2038.0, 
+    2000.0, 
+    1973.0, 
+    1988.0, 
+    2152.0, 
+    2020.0, 
+    1831.0, 
+    2097.0, 
+    1962.0, 
+    1983.0, 
+    2080.0, 
+    2005.0, 
+    2137.0, 
+    1962.0, 
+    2079.0, 
+    2185.0, 
+    1838.0, 
+    2063.0, 
+    2173.0, 
+    1960.0, 
+    1834.0, 
+    2058.0, 
+    1818.0, 
+    2030.0, 
+    1895.0, 
+    1860.0, 
+    2117.0, 
+    1858.0, 
+    1867.0, 
+    2098.0, 
+    2115.0, 
+    1851.0, 
+    2183.0, 
+    2100.0, 
+    2130.0, 
+    2069.0, 
+    1868.0, 
+    1856.0, 
+    2051.0, 
+    1911.0, 
+    2111.0, 
+    1961.0, 
+    2012.0, 
+    1876.0, 
+    2085.0, 
+    1882.0, 
+    1865.0, 
+    2042.0, 
+    2188.0, 
+    2105.0, 
+    1948.0, 
+    2114.0, 
+    1861.0, 
+    1805.0, 
+    1831.0, 
+    2131.0, 
+    1775.0, 
+    2090.0, 
+    1848.0, 
+    2104.0, 
+    1935.0, 
+    1903.0, 
+    2146.0, 
+    2202.0, 
+    2167.0, 
+    1974.0, 
+    2183.0, 
+    1871.0, 
+    2073.0, 
+    1900.0, 
+    1797.0, 
+    1834.0, 
+    1866.0, 
+    2031.0, 
+    1774.0, 
+    1928.0, 
+    2062.0, 
+    2171.0, 
+    1846.0, 
+    2147.0, 
+    2058.0, 
+    2076.0, 
+    1962.0, 
+    2101.0, 
+    1890.0, 
+    1976.0, 
+    2079.0, 
+    2113.0, 
+    1793.0, 
+    2175.0, 
+    2149.0, 
+    2033.0, 
+    2113.0, 
+    1992.0, 
+    2126.0, 
+    1960.0, 
+    1881.0, 
+    1815.0, 
+    2008.0, 
+    2075.0, 
+    2133.0, 
+    1894.0, 
+    1819.0, 
+    2145.0, 
+    2089.0, 
+    1842.0, 
+    1873.0, 
+    2082.0, 
+    1889.0, 
+    2029.0, 
+    2041.0, 
+    1917.0, 
+    1978.0, 
+    2016.0, 
+    2023.0, 
+    2177.0, 
+    1876.0, 
+    2019.0, 
+    1835.0, 
+    2113.0, 
+    1935.0, 
+    2058.0, 
+    2034.0, 
+    1726.0, 
+    2113.0, 
+    2102.0, 
+    1807.0, 
+    1893.0, 
+    1942.0, 
+    2186.0, 
+    2175.0, 
+    1795.0, 
+    2037.0, 
+    2097.0, 
+    2114.0, 
+    2166.0, 
+    1866.0, 
+    2188.0, 
+    2102.0, 
+    2122.0, 
+    2050.0, 
+    2188.0, 
+    1897.0, 
+    2178.0, 
+    1992.0, 
+    1966.0, 
+    1820.0, 
+    1840.0, 
+    2033.0, 
+    2137.0, 
+    1907.0, 
+    1852.0, 
+    2088.0, 
+    1935.0, 
+    1953.0, 
+    2012.0, 
+    2054.0, 
+    2179.0, 
+    1814.0, 
+    2057.0, 
+    2011.0, 
+    1826.0
+  ]
+}

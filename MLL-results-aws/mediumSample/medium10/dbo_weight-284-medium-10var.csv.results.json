@@ -1,0 +1,260 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/weight"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "weight", 
+          0.1918
+        ], 
+        [
+          "postalCode", 
+          0.2392
+        ]
+      ], 
+      "maj": [
+        [
+          "weight", 
+          8.0
+        ], 
+        [
+          "postalCode", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Artist (weight)", 
+          0.1441
+        ], 
+        [
+          "http://dbpedia.org/ontology/Actor (weight)", 
+          0.149
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdultActor (weight)", 
+          0.1659
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (weight)", 
+          0.1918
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (weight)", 
+          0.1918
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (postalCode)", 
+          0.2078
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          0.2078
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          0.2078
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmateurBoxer (weight)", 
+          0.2245
+        ], 
+        [
+          "http://dbpedia.org/ontology/Model (weight)", 
+          0.2259
+        ], 
+        [
+          "http://dbpedia.org/ontology/Boxer (weight)", 
+          0.2301
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          0.2392
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (weight)", 
+          0.2442
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (postalCode)", 
+          0.2705
+        ], 
+        [
+          "http://dbpedia.org/ontology/TableTennisPlayer (weight)", 
+          0.2725
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Person (weight)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (weight)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (weight)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Actor (weight)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (weight)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdultActor (weight)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (postalCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Boxer (weight)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Model (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmateurBoxer (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TableTennisPlayer (weight)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Artist[weight]", 
+      0.1292
+    ], 
+    [
+      "Actor[weight]", 
+      0.1322
+    ], 
+    [
+      "AdultActor[weight]", 
+      0.1322
+    ], 
+    [
+      "AdultActor[weight]>(birthPlace|United_States)", 
+      0.1827
+    ], 
+    [
+      "City[postalCode]", 
+      0.2078
+    ], 
+    [
+      "AmateurBoxer[weight]", 
+      0.2245
+    ], 
+    [
+      "Model[weight]", 
+      0.2259
+    ], 
+    [
+      "Boxer[weight]", 
+      0.2356
+    ], 
+    [
+      "ArchitecturalStructure[postalCode]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2705
+    ], 
+    [
+      "TableTennisPlayer[weight]", 
+      0.2725
+    ]
+  ], 
+  "values": [
+    68094.23151633468, 
+    52243.44564252756, 
+    64531.92762559294, 
+    56658.105665730094, 
+    45940.71948003109, 
+    85121.03646612426, 
+    57363.594662365904, 
+    68397.04403844473, 
+    91890.96528171348, 
+    100547.3889015649, 
+    55290.75740414669, 
+    51451.42068169073, 
+    43851.363145420444, 
+    45753.93967588412, 
+    69777.55203966757, 
+    83289.93433800011, 
+    89813.00766057754, 
+    51673.343518642374, 
+    78354.65382879144, 
+    67526.32474768642, 
+    48620.661032033924, 
+    48384.96464208427, 
+    49587.14232422492, 
+    50054.94594101273, 
+    61040.28169830896, 
+    56679.13390199919, 
+    54603.679951988444, 
+    40786.40435533272, 
+    45180.940931957855, 
+    74003.91549998196, 
+    59008.98465215534, 
+    82242.59362863813, 
+    58400.25930475949, 
+    68356.29265554588, 
+    84743.2233850626, 
+    43625.579607143394, 
+    83608.71498601491, 
+    49877.20200321905, 
+    62868.674280195635, 
+    58407.93786542488, 
+    79128.43019485561, 
+    55039.04466936387, 
+    58813.33455548062, 
+    58618.80621531756, 
+    58990.71933333155, 
+    41723.979460872666, 
+    57331.379348442904, 
+    51368.11028920918, 
+    49247.57272640865, 
+    91601.89847260897, 
+    47745.33094550867, 
+    45819.25128618088, 
+    45205.20058009957, 
+    44222.3419780476, 
+    48078.380451060955, 
+    45587.852957026014, 
+    49072.61597537095, 
+    54916.6147557216, 
+    43367.26736377384, 
+    69368.28340510806, 
+    71966.0810672095
+  ]
+}

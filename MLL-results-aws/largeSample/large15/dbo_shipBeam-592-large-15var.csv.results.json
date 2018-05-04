@@ -1,0 +1,234 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/shipBeam"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "number", 
+          0.2703
+        ], 
+        [
+          "shipBeam", 
+          0.2708
+        ], 
+        [
+          "numberOfEpisodes", 
+          0.2719
+        ], 
+        [
+          "populationDensity", 
+          0.2889
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          5.0
+        ], 
+        [
+          "shipBeam", 
+          3.0
+        ], 
+        [
+          "number", 
+          1.0
+        ], 
+        [
+          "numberOfEpisodes", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.2703
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.2703
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.2703
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          0.2708
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          0.2719
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionSeason (numberOfEpisodes)", 
+          0.2719
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2727
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          0.2894
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.2899
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.2899
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.293
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.293
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.2961
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionSeason (numberOfEpisodes)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Ship[shipBeam]", 
+      0.256
+    ], 
+    [
+      "MeanOfTransportation[shipBeam]", 
+      0.256
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Iowa)", 
+      0.264
+    ], 
+    [
+      "Athlete[number]>(position|Midfielder)", 
+      0.2703
+    ], 
+    [
+      "TelevisionSeason[numberOfEpisodes]>(country|United_Kingdom)", 
+      0.2719
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Zamora)", 
+      0.2727
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Zamora)", 
+      0.2727
+    ], 
+    [
+      "Ship[shipBeam]>(country|Kingdom_of_Great_Britain)>(class|Fourth-rate)", 
+      0.3006
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Arkansas)", 
+      0.3158
+    ], 
+    [
+      "Settlement[populationDensity]>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Chaudi%C3%A8re-Appalaches)", 
+      0.3194
+    ]
+  ], 
+  "values": [
+    12.645465275601746, 
+    8.656240440425822, 
+    13.000135904880791, 
+    8.059744639849859, 
+    8.794863250307674, 
+    10.012562655130942, 
+    7.689702437187788, 
+    11.244497513759553, 
+    14.133207495477462, 
+    8.981371834457233, 
+    7.052487103969387, 
+    9.465310767485402, 
+    11.430804765226382, 
+    7.4782500170837185, 
+    9.875841942607021, 
+    9.964686068903589, 
+    10.462890526488328, 
+    9.793785747846636, 
+    7.96310318081237, 
+    11.649425746905388, 
+    14.23724103106662, 
+    11.145378972754337, 
+    12.358173185896618, 
+    10.668967241070646, 
+    10.777840617796343, 
+    10.807190811484485, 
+    8.760587601723415, 
+    10.665884355783755, 
+    15.759421573084815, 
+    15.566993276260622, 
+    9.511653914259307, 
+    10.726759991016223, 
+    11.36950358199042, 
+    10.419084883080847, 
+    15.325781176872464
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/gross"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.2283
+        ], 
+        [
+          "areaWater", 
+          0.2403
+        ], 
+        [
+          "populationTotal", 
+          0.2484
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          7.0
+        ], 
+        [
+          "populationTotal", 
+          2.0
+        ], 
+        [
+          "areaTotal", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          0.2234
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.2283
+        ], 
+        [
+          "http://dbpedia.org/ontology/SiteOfSpecialScientificInterest (areaTotal)", 
+          0.2283
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.2387
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.2387
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.2387
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.2407
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.2443
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.2467
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2467
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2489
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SiteOfSpecialScientificInterest (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Town[areaWater]>(isPartOf|Iowa)", 
+      0.2234
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|New_Jersey)>(governmentType|Borough_(New_Jersey))", 
+      0.226
+    ], 
+    [
+      "SiteOfSpecialScientificInterest[areaTotal]>(areaOfSearch|Gloucestershire)", 
+      0.2283
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Ohio)>(country|United_States)", 
+      0.2312
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Ohio)>(country|United_States)>(type|City)", 
+      0.2353
+    ], 
+    [
+      "Settlement[populationTotal]>(country|India)", 
+      0.2467
+    ], 
+    [
+      "City[areaWater]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)", 
+      0.2468
+    ], 
+    [
+      "Place[populationTotal]>(country|United_States)", 
+      0.25
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Ohio)", 
+      0.2568
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Iowa)>(type|Township_(United_States))", 
+      0.2626
+    ]
+  ], 
+  "values": [
+    285094.0, 
+    8168.0, 
+    515600.0, 
+    61867.0
+  ]
+}

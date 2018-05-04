@@ -1,0 +1,258 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/budget"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "budget", 
+          0.0915
+        ], 
+        [
+          "areaTotal", 
+          0.0989
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          6.0
+        ], 
+        [
+          "budget", 
+          4.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/School (budget)", 
+          0.089
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (budget)", 
+          0.089
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (budget)", 
+          0.089
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (budget)", 
+          0.089
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (budget)", 
+          0.094
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (budget)", 
+          0.094
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (budget)", 
+          0.094
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.0969
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.1017
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1017
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.1022
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (budget)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (budget)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "EducationalInstitution[budget]", 
+      0.089
+    ], 
+    [
+      "School[budget]", 
+      0.089
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(region|Sardinia)>(province|Province_of_Oristano)", 
+      0.0897
+    ], 
+    [
+      "Wikidata:Q11424[budget]>(distributor|Walt_Disney_Studios_Motion_Pictures)", 
+      0.094
+    ], 
+    [
+      "Film[budget]>(distributor|Walt_Disney_Studios_Motion_Pictures)", 
+      0.094
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(region|Lazio)>(province|Province_of_Frosinone)", 
+      0.097
+    ], 
+    [
+      "Settlement[areaTotal]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Zamora)", 
+      0.0985
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Zamora)", 
+      0.0996
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Valladolid)", 
+      0.1036
+    ], 
+    [
+      "Settlement[areaTotal]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Valladolid)>(country|Spain)", 
+      0.1049
+    ]
+  ], 
+  "values": [
+    12091450.74952078, 
+    35828646.53795703, 
+    22792186.30882094, 
+    10366572.664933324, 
+    31461244.747215245, 
+    234007900.70791152, 
+    14894144.257670159, 
+    110966640.03364749, 
+    39334624.44344537, 
+    39251335.848512486, 
+    11371449.050506983, 
+    8838343.214966612, 
+    41868373.919041365, 
+    15550557.730154846, 
+    11243367.026870392, 
+    18453756.048525296, 
+    217488948.39663988, 
+    34593007.244612426, 
+    20128666.014496207, 
+    15700432.333417917, 
+    24627674.67193221, 
+    15568076.405870318, 
+    23411181.64096245, 
+    10030401.787248934, 
+    157745058.2879847, 
+    14788561.322974436, 
+    69278759.36274719, 
+    18539.20056360109, 
+    31341454.536149953, 
+    33715676.851159036, 
+    116551405.21505277, 
+    88522190.20185782, 
+    27778642.40542907, 
+    41635857.74449722, 
+    122227409.74775378, 
+    36893589.82397562, 
+    40060552.279407546, 
+    14157539.780072177, 
+    25207751.745795105, 
+    56173333.68140813, 
+    20260672.6314051, 
+    9272391.289566593, 
+    17474.89169456627, 
+    35704583.74466799, 
+    1719525.4522607538, 
+    37361625.207667775, 
+    97827843.22897883, 
+    16397584.48316097, 
+    6520067.819079079, 
+    11708594.34348548, 
+    53039014.63530314, 
+    37854187.74975399, 
+    22388257.987625908, 
+    18718076.972245373, 
+    55483433.517768994, 
+    17195463.777639132, 
+    41127131.72191511, 
+    25548924.492660847, 
+    14143792.636642735, 
+    33085128.445021756, 
+    37106790.45179764, 
+    15669740.520558996, 
+    75698119.34104514, 
+    54836998.84724622, 
+    46988467.88079444, 
+    28062190.669848453, 
+    41077805.35361868, 
+    36089510.98221847, 
+    46002233.25120693, 
+    214551129.63895497, 
+    39744513.908426546, 
+    17023297.3799474, 
+    13282.371045445729, 
+    32643354.63531801, 
+    32012036.104000747, 
+    2065175.8402699474, 
+    29911872.475356564, 
+    14840141.372346396, 
+    29255247.940579783, 
+    40545637.363317914, 
+    15987364.941634925, 
+    180230058.15763766, 
+    15792512.304032464, 
+    16020992.861270798, 
+    70783545.94211644, 
+    10358134.096914247, 
+    72944406.74754913, 
+    41204327.81290449, 
+    10688.858382139904, 
+    63707355.896895535, 
+    25508782.04594793
+  ]
+}

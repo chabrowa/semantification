@@ -1,0 +1,331 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/topSpeed"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "topSpeed", 
+          0.1227
+        ], 
+        [
+          "height", 
+          0.1343
+        ], 
+        [
+          "populationDensity", 
+          0.1624
+        ], 
+        [
+          "postalCode", 
+          0.167
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          4.0
+        ], 
+        [
+          "height", 
+          3.0
+        ], 
+        [
+          "topSpeed", 
+          2.0
+        ], 
+        [
+          "postalCode", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (topSpeed)", 
+          0.1227
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (topSpeed)", 
+          0.1227
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.1318
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (height)", 
+          0.1318
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (height)", 
+          0.1318
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          0.1318
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.1318
+        ], 
+        [
+          "http://dbpedia.org/ontology/Rocket (height)", 
+          0.1393
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (height)", 
+          0.1393
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1564
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          0.167
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          0.167
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          0.167
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1824
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.1824
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.1824
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1824
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (topSpeed)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Rocket (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (topSpeed)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "MeanOfTransportation[topSpeed]", 
+      0.1227
+    ], 
+    [
+      "Ship[topSpeed]", 
+      0.1227
+    ], 
+    [
+      "Dam[height]>(owner|Department_of_Water_Affairs)", 
+      0.1318
+    ], 
+    [
+      "Location[height]>(owner|Department_of_Water_Affairs)", 
+      0.1318
+    ], 
+    [
+      "Rocket[height]", 
+      0.1393
+    ], 
+    [
+      "Location[populationDensity]>(country|Hungary)>(isPartOf|Vas_County)", 
+      0.1479
+    ], 
+    [
+      "Location[populationDensity]>(country|Hungary)>(isPartOf|Vas_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1507
+    ], 
+    [
+      "Settlement[postalCode]>(country|Italy)>(province|Province_of_Rome)>(region|Lazio)", 
+      0.167
+    ], 
+    [
+      "Location[populationDensity]>(country|Hungary)>(isPartOf|Veszpr%C3%A9m_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1686
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Indiana)", 
+      0.1824
+    ]
+  ], 
+  "values": [
+    30.722448907368694, 
+    66.76160734929138, 
+    26.04431785127961, 
+    38.701040875928044, 
+    47.1702674072445, 
+    32.850246098359136, 
+    38.71272532966706, 
+    22.465099144287205, 
+    65.74487963908862, 
+    38.33503090915474, 
+    33.42630788509887, 
+    17.98059028019906, 
+    31.678788639453074, 
+    27.19163899078698, 
+    23.136269968926758, 
+    39.20265514216744, 
+    55.33065674063974, 
+    30.786310680357968, 
+    27.402517863096143, 
+    29.467179494681822, 
+    40.33414800222763, 
+    43.315869048566896, 
+    33.60600189439381, 
+    39.39047861536285, 
+    64.16553740501575, 
+    20.47353103207478, 
+    25.458771041942317, 
+    58.65449763482624, 
+    46.684364503663694, 
+    67.65816446954506, 
+    31.615427305623136, 
+    40.81976401868782, 
+    26.878401101958683, 
+    41.83243884026656, 
+    65.65372705102737, 
+    21.10095501362633, 
+    29.91734026032827, 
+    63.28141086233643, 
+    38.35052232269149, 
+    50.22138619731605, 
+    32.50308522176767, 
+    63.00443364238828, 
+    25.166484137927036, 
+    23.85901175394151, 
+    18.388566267213584, 
+    59.0143160451938, 
+    20.101553881632682, 
+    29.791452634050703, 
+    32.11977040155354, 
+    36.102697328476374, 
+    72.2077853354501, 
+    31.58737811311066, 
+    31.86470090066448, 
+    61.34048486750381, 
+    27.855811441312603, 
+    31.799731786215123, 
+    29.57488701598911, 
+    17.805828559051523, 
+    24.278697651529132, 
+    61.021152397342, 
+    35.818900644062836, 
+    30.378101783914694, 
+    27.329817778393217, 
+    65.17366849863126, 
+    65.40979470628092, 
+    49.94877321294698, 
+    52.217299469299114, 
+    35.840495670691155, 
+    21.07564820301861, 
+    21.672299877376354, 
+    30.48091283704085, 
+    34.56082199492829, 
+    17.47055344260793, 
+    42.84912360390872, 
+    53.10331831054749, 
+    61.1488732177838, 
+    24.57536887843834, 
+    17.019966124139582, 
+    52.766161668080926, 
+    37.06082465433259, 
+    40.1179917617194, 
+    48.26801979287255, 
+    65.40521627878768, 
+    25.581643001375312, 
+    32.874313166400924, 
+    30.926025518547643, 
+    30.479928824035294, 
+    19.178438056982387, 
+    22.890802801582176, 
+    68.71955922934907, 
+    70.14469831178286, 
+    16.025295923626192, 
+    29.905783833012464, 
+    26.792550724504586, 
+    64.03995242057408, 
+    22.371395491545528, 
+    68.49679977212207, 
+    36.88876440303968, 
+    53.64825222755429, 
+    57.4269554146941
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationDensity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.0747
+        ], 
+        [
+          "elevation", 
+          0.0899
+        ], 
+        [
+          "populationTotal", 
+          0.1011
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          4.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "populationTotal", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.0747
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.0747
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.0759
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.0759
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (populationDensity)", 
+          0.0796
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.0884
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.0899
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.0899
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.0946
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.101
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1011
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1011
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1011
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Country[populationDensity]", 
+      0.0527
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Arkansas)", 
+      0.0759
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|New_York)", 
+      0.0839
+    ], 
+    [
+      "City[elevation]>(isPartOf|California)", 
+      0.0839
+    ], 
+    [
+      "Country[populationDensity]>(governmentType|Unitary_state)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0845
+    ], 
+    [
+      "Country[populationDensity]>(governmentType|Unitary_state)", 
+      0.0859
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Central_District_(Shahr-e_Babak_County))", 
+      0.0999
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Slovenia)>(isPartOf|Slovene_Littoral)", 
+      0.1012
+    ], 
+    [
+      "City[elevation]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)", 
+      0.1018
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Mazandaran_Province)>(isPartOf|Larijan_District)", 
+      0.1021
+    ]
+  ], 
+  "values": [
+    19.12323113342933, 
+    29.87892739629425, 
+    14.327197037749311, 
+    78.49083761260724, 
+    93.98983013072838, 
+    82.25249991739693, 
+    243.96095830114817, 
+    95.85205420376214, 
+    45.46938623119502, 
+    45.37853195801114, 
+    146.15224696765844, 
+    3.203571773860127, 
+    176.31230292944284, 
+    3.0818529822296488, 
+    62.09823562925058, 
+    497.3458296856248, 
+    301.1064665686546, 
+    98.90485183226615, 
+    3.046056930291373, 
+    63.56009545113434, 
+    13.457119753674645, 
+    10.153643027381804, 
+    594.8988180164174, 
+    100.63650059902605, 
+    148.66376625619466, 
+    126.2180415807394, 
+    53.89021833203279, 
+    22.878992832716293, 
+    83.00453291342109, 
+    16.166315175323774, 
+    33.327630548366784, 
+    126.8458618630576, 
+    129.76708152453884, 
+    815.4992726720827, 
+    126.57471480101606, 
+    14.792284207819481, 
+    35.716199946624975, 
+    11.30696959049235, 
+    135.12646235299087, 
+    42.11669340521462, 
+    41.16530886047643, 
+    118.25542767460608, 
+    300.33264564865055, 
+    122.74080440462463, 
+    15.76273534930556, 
+    1.2224056290894247, 
+    17.527195393240685, 
+    16.443994746958936, 
+    77.51554508202136, 
+    178.8105160046981, 
+    17803.1480812622, 
+    74.01985314176954, 
+    114.99225587352706, 
+    179.73177820067724, 
+    44.740772649056794, 
+    122.66518077332448, 
+    225.48744654190722, 
+    25.50093139499179, 
+    38.9115888432876, 
+    68.87831343510153, 
+    93.34741715510532, 
+    88.51288468234364, 
+    3.2153345547385364, 
+    52.31180786307272, 
+    359.0663316898345, 
+    13.07978221801939, 
+    2.66397048450942, 
+    21.190067493484918, 
+    1215.114510964977, 
+    196.87084301789702, 
+    290.76747791364, 
+    26.773024751547702, 
+    334.99753426211794, 
+    183.31635193229093, 
+    128.1306999820052, 
+    63.331706302530904, 
+    98.31208536490652, 
+    36.91616942321926, 
+    11.911526531992077, 
+    566.3622256541586, 
+    339.764958474723, 
+    73.2159742163469, 
+    202.0743337500759
+  ]
+}

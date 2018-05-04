@@ -1,0 +1,259 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.1097
+        ], 
+        [
+          "runtime", 
+          0.1224
+        ], 
+        [
+          "populationTotal", 
+          0.1314
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          8.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ], 
+        [
+          "runtime", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          0.1097
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.1097
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1097
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          0.1224
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (runtime)", 
+          0.1224
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1304
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.131
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.131
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1317
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (runtime)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Volcano[elevation]", 
+      0.1097
+    ], 
+    [
+      "TelevisionShow[runtime]", 
+      0.1224
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(province|South_Tyrol)>(region|S%C3%BCdtirol)", 
+      0.1229
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(province|Province_of_Lecco)", 
+      0.1292
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(region|Pays_de_la_Loire)>(department|Loire-Atlantique)", 
+      0.13
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(region|Pays_de_la_Loire)>(department|Loire-Atlantique)", 
+      0.1307
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(province|South_Tyrol)>(region|S%C3%BCdtirol)", 
+      0.1311
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(province|South_Tyrol)", 
+      0.135
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(province|South_Tyrol)", 
+      0.1363
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(province|Province_of_Lecco)", 
+      0.1363
+    ]
+  ], 
+  "values": [
+    573.6084485276965, 
+    3647.392582135218, 
+    1445.6899526642042, 
+    2768.828081602063, 
+    7216.48771764937, 
+    1821.053659823729, 
+    -1569.1422511034932, 
+    3013.594818672273, 
+    1771.5619999015335, 
+    1396.1844687619905, 
+    1875.6379392765193, 
+    1756.1094787842435, 
+    1846.0572600574787, 
+    1816.705887817397, 
+    1804.199098508818, 
+    3502.860895311851, 
+    2741.771003268717, 
+    2390.5821050563327, 
+    1856.2081876442817, 
+    1331.7578509559305, 
+    -3662.1549729926546, 
+    -1377.045574663464, 
+    1362.6487197767046, 
+    2754.8770970020814, 
+    3602.406032447051, 
+    1855.9464994350828, 
+    3568.3441732807246, 
+    1839.742354271816, 
+    2535.799711114822, 
+    1670.087211229782, 
+    -2648.0027829408164, 
+    118.89210966456426, 
+    10459.617756147716, 
+    292.6843361647936, 
+    1317.5434177608279, 
+    2587.595792116929, 
+    1863.7873526183948, 
+    1486.713598656318, 
+    1861.8032991994094, 
+    3561.7425700368294, 
+    -2640.443588711741, 
+    1716.398524298338, 
+    1456.7532560079858, 
+    2819.659707478757, 
+    1674.194700554548, 
+    4719.156204455219, 
+    294.90781037843254, 
+    2764.077517700435, 
+    3690.1226140496797, 
+    2042.9251895703671, 
+    2512.0326887525566, 
+    1444.9388210950751, 
+    3608.0245798365545, 
+    5129.701712939455, 
+    -1797.2301344993505, 
+    5308.116846079982, 
+    3533.242341407907, 
+    6276.4353423444045, 
+    1731.6752424910292, 
+    7025.029361057104, 
+    3569.122182233673, 
+    1556.5944632817066, 
+    3584.5301615899207, 
+    3171.4210301383873, 
+    7308.293050952511, 
+    6419.9085485376845, 
+    5017.402639786189, 
+    3534.166606553464, 
+    2816.417661606643, 
+    3555.0154609024476, 
+    1277.73365866381, 
+    2808.600642270322, 
+    3743.190891747717, 
+    2687.1253702276213, 
+    -1195.6017852485215, 
+    1397.9877946940144, 
+    1715.9831863907875, 
+    10472.540502066375, 
+    5276.785592865209, 
+    -2602.825647112137, 
+    1724.6988277969615, 
+    1835.6147552317736, 
+    1776.0763326706344, 
+    1843.6854234202847, 
+    7125.959231289133, 
+    3737.436290859016, 
+    3770.279934943348, 
+    1492.23809607225, 
+    2775.135884787324, 
+    -2639.2994723581764, 
+    1877.8910296315576, 
+    1710.665486131225, 
+    2982.487769189739, 
+    3707.0024945277623, 
+    1802.826230498944, 
+    3756.111665493944, 
+    7455.907984982403, 
+    2704.6429788732858, 
+    1782.2801566076068, 
+    -2662.7309158111393
+  ]
+}

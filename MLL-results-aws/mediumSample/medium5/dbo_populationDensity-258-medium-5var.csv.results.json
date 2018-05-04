@@ -1,0 +1,204 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationDensity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1028
+        ], 
+        [
+          "populationDensity", 
+          0.1084
+        ], 
+        [
+          "elevation", 
+          0.1104
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          7.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1018
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1028
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1028
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1037
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.1084
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1084
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1084
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1084
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.1102
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1104
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1104
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1104
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          16.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[populationTotal]>(isPartOf|South_Khorasan_Province)", 
+      0.0962
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|East_Azerbaijan_Province)>(isPartOf|Central_District_(Kaleybar_County))", 
+      0.0987
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Slovenia)", 
+      0.0999
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Slovenia)>(isPartOf|Upper_Carniola)>(isPartOf|Upper_Carniola_Statistical_Region)", 
+      0.1009
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Slovenia)>(isPartOf|Slovene_Littoral)>(isPartOf|Gori%C5%A1ka_Statistical_Region)", 
+      0.1058
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Arkansas)", 
+      0.1084
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Hormozgan_Province)>(isPartOf|Central_District_(Hajjiabad_County))", 
+      0.1086
+    ], 
+    [
+      "Town[elevation]>(isPartOf|Maine)>(country|United_States)", 
+      0.1094
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Slovenia)>(isPartOf|Slovene_Littoral)", 
+      0.1096
+    ], 
+    [
+      "Town[elevation]>(isPartOf|Maine)", 
+      0.1114
+    ]
+  ], 
+  "values": [
+    76.35941600052887, 
+    125.98570013035355, 
+    11.535777595991075, 
+    171.342498384465, 
+    14.532549237064437, 
+    263.1375810392305, 
+    54.89981071779743, 
+    45.02627540573713, 
+    193.51582786564887, 
+    103.80446542494391, 
+    128.4567875845812, 
+    1614.485045943341, 
+    1063.1907918740778, 
+    127.26544385301254, 
+    34.50656985237146, 
+    66.2711913856715, 
+    20.94414211157029, 
+    70.50346294151409, 
+    17.280536177042602, 
+    116.58456102654381, 
+    333.09770385730275
+  ]
+}

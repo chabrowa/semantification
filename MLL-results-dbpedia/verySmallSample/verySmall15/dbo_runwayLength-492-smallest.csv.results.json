@@ -1,0 +1,130 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runwayLength"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.2634
+        ], 
+        [
+          "width", 
+          0.2857
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          9.0
+        ], 
+        [
+          "width", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.26
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.2659
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2691
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2691
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2728
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (width)", 
+          0.2857
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          22.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (width)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Colorado)>(type|Town)", 
+      0.2468
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Colorado)", 
+      0.2497
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Colorado)>(type|Town)>(governmentType|List_of_cities_and_towns_in_Colorado)", 
+      0.2613
+    ], 
+    [
+      "Town[elevation]>(timeZone|Mountain_Time_Zone)>(governmentType|List_of_cities_and_towns_in_Colorado)", 
+      0.2638
+    ], 
+    [
+      "Town[elevation]>(timeZone|Mountain_Time_Zone)>(governmentType|List_of_cities_and_towns_in_Colorado)>(type|Town)", 
+      0.2642
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Colorado)>(type|Town)>(governmentType|List_of_cities_and_towns_in_Colorado)>(country|United_States)", 
+      0.2654
+    ], 
+    [
+      "Town[elevation]>(timeZone|Mountain_Time_Zone)>(governmentType|List_of_cities_and_towns_in_Colorado)>(type|Town)>(country|United_States)", 
+      0.2687
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Colorado)>(type|Census-designated_place)", 
+      0.2711
+    ], 
+    [
+      "Settlement[elevation]>(country|Peru)>(isPartOf|Amazonas_Region)", 
+      0.28
+    ], 
+    [
+      "Location[width]>(location|Nordland)", 
+      0.2857
+    ]
+  ], 
+  "values": [
+    2401.8646934562084, 
+    1941.0753176444466, 
+    1453.782168878519
+  ]
+}

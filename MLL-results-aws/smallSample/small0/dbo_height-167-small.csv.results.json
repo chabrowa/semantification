@@ -1,0 +1,254 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/height"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "shipBeam", 
+          0.2226
+        ], 
+        [
+          "populationDensity", 
+          0.2337
+        ], 
+        [
+          "elevation", 
+          0.2472
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          5.0
+        ], 
+        [
+          "populationDensity", 
+          3.0
+        ], 
+        [
+          "shipBeam", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          0.2226
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          0.2226
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.2337
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.2337
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.2337
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.2337
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.242
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2472
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2472
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.2614
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          19.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Ship[shipBeam]", 
+      0.2226
+    ], 
+    [
+      "MeanOfTransportation[shipBeam]", 
+      0.2226
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Arkansas)", 
+      0.224
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Iowa)", 
+      0.2273
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|New_York)>(isPartOf|Suffolk_County,_New_York)>(country|United_States)>(type|Administrative_divisions_of_New_York)", 
+      0.2318
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|New_York)>(isPartOf|Suffolk_County,_New_York)>(country|United_States)>(type|Administrative_divisions_of_New_York)>(type|Census-designated_place)", 
+      0.2346
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|New_York)>(isPartOf|Suffolk_County,_New_York)>(country|United_States)", 
+      0.2457
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Missouri)", 
+      0.2498
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Western_Norway)>(isPartOf|M%C3%B8re_og_Romsdal)", 
+      0.2614
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|New_York)>(isPartOf|Suffolk_County,_New_York)", 
+      0.2626
+    ]
+  ], 
+  "values": [
+    9.6, 
+    9.6, 
+    23.5, 
+    9.6, 
+    7.589519999999999, 
+    3.0, 
+    9.6, 
+    40.0, 
+    18.5, 
+    41.7576, 
+    9.6, 
+    2.51, 
+    8.25, 
+    56.0, 
+    62.483999999999995, 
+    24.7, 
+    8.25, 
+    9.6, 
+    9.6, 
+    5.1, 
+    0.0, 
+    11.3, 
+    10.36, 
+    8.25, 
+    10.16, 
+    8.6, 
+    9.6, 
+    130.0, 
+    11.3, 
+    26.2128, 
+    9.6, 
+    53.34, 
+    72.0, 
+    9.6, 
+    9.6, 
+    35.0, 
+    8.4, 
+    28.5, 
+    9.6, 
+    9.6, 
+    8.6, 
+    9.6, 
+    10.9, 
+    58.5216, 
+    8.6, 
+    42.672, 
+    11.3, 
+    38.4048, 
+    10.0, 
+    11.3, 
+    9.6, 
+    33.0, 
+    9.6, 
+    2.32, 
+    9.6, 
+    9.6, 
+    97.4, 
+    49.8, 
+    9.6, 
+    9.6, 
+    9.6, 
+    9.6, 
+    39.624, 
+    8.25, 
+    9.6, 
+    11.3, 
+    9.6, 
+    9.6, 
+    43.0, 
+    38.0, 
+    9.6, 
+    9.6, 
+    9.6, 
+    9.7, 
+    9.6, 
+    9.6, 
+    9.6, 
+    9.6, 
+    9.6, 
+    9.6, 
+    2.87, 
+    21.0, 
+    10.16, 
+    9.6, 
+    32.9184, 
+    9.6, 
+    2.385
+  ]
+}

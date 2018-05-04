@@ -1,0 +1,217 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/length"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "length", 
+          0.0838
+        ], 
+        [
+          "populationTotal", 
+          0.1094
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          5.0
+        ], 
+        [
+          "length", 
+          5.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.0838
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          0.0838
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          0.0838
+        ], 
+        [
+          "http://dbpedia.org/ontology/Stream (length)", 
+          0.0838
+        ], 
+        [
+          "http://dbpedia.org/ontology/River (length)", 
+          0.0858
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1094
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1094
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1094
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          0.1099
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          21.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/River (length)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Stream (length)", 
+          5.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "River[length]>(state|California)", 
+      0.0664
+    ], 
+    [
+      "River[length]>(state|California)>(country|United_States)", 
+      0.0729
+    ], 
+    [
+      "Stream[length]", 
+      0.075
+    ], 
+    [
+      "River[length]", 
+      0.0751
+    ], 
+    [
+      "City[populationTotal]>(country|Spain)>(type|Municipalities_of_Spain)>(timeZone|Central_European_Time)", 
+      0.0926
+    ], 
+    [
+      "City[populationTotal]>(country|Spain)>(type|Municipalities_of_Spain)>(timeZone|Central_European_Time)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.103
+    ], 
+    [
+      "City[populationTotal]>(country|Spain)>(type|Municipalities_of_Spain)", 
+      0.1061
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|California)>(governmentType|Council%E2%80%93manager_government)>(country|United_States)", 
+      0.1204
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|California)>(governmentType|Council%E2%80%93manager_government)>(country|United_States)>(timeZone|Pacific_Time_Zone)", 
+      0.1247
+    ], 
+    [
+      "River[length]>(state|Washington_(state))", 
+      0.1298
+    ]
+  ], 
+  "values": [
+    22234.343931092255, 
+    115465.95401307984, 
+    41703.36426605962, 
+    12694.512546624303, 
+    103113.49050491655, 
+    256928.4204843828, 
+    18634.726745284137, 
+    124407.21420727936, 
+    600022.7324813976, 
+    240215.923532322, 
+    654054.3318767158, 
+    3116.900086369527, 
+    60466.52047225933, 
+    7610.5404847709215, 
+    116881.33625566875, 
+    277822.38080093043, 
+    124528.38567767979, 
+    145645.36964434347, 
+    14089.525757753061, 
+    6904.936838049943, 
+    29057.823313508634, 
+    14257.367213563359, 
+    140697.98453652923, 
+    54352.94974256514, 
+    104299.8906098913, 
+    50742.66090544908, 
+    5369.2981233611035, 
+    75660.37845837991, 
+    73724.62014634584, 
+    261253.5608504348, 
+    72566.3407047752, 
+    32810.60549827392, 
+    39349.54782448611, 
+    20235.99104423888, 
+    712008.4509814993, 
+    116268.80645457077, 
+    32589.384291890747, 
+    6684.719887710152, 
+    220513.84854455694, 
+    8063.281933734359, 
+    20648.504659641992, 
+    5725.78841661649, 
+    19917.005923321987, 
+    432830.81642707123, 
+    97490.54832483074, 
+    26862.242211083532, 
+    31487.670496371207, 
+    22751.132944738547, 
+    26896.490465065526, 
+    37223.65797396475, 
+    87605.42967705202, 
+    53750.12780754752, 
+    24547.33844500179, 
+    19892.04490967552, 
+    50496.78349029036, 
+    13554.453738045397, 
+    141502.2676189282, 
+    105607.5879928436, 
+    34328.0743965744, 
+    89055.42372456951, 
+    16284.522457117777, 
+    14712.41833967223, 
+    130609.58140387072, 
+    319689.3213103978, 
+    42320.62053302763, 
+    38039.09591388725
+  ]
+}

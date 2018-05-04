@@ -1,0 +1,184 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "runtime", 
+          0.0992
+        ], 
+        [
+          "populationTotal", 
+          0.1609
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          9.0
+        ], 
+        [
+          "runtime", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          0.0992
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          0.0992
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1601
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1608
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1613
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1613
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1617
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "MusicalWork[runtime]", 
+      0.0992
+    ], 
+    [
+      "Village[populationTotal]>(country|United_Kingdom)>(country|Derbyshire)", 
+      0.1519
+    ], 
+    [
+      "Village[populationTotal]>(timeZone|Central_European_Time)>(country|Spain)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1565
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Spain)>(isPartOf|Province_of_Toledo)", 
+      0.1576
+    ], 
+    [
+      "Location[populationTotal]>(country|Spain)>(isPartOf|Province_of_Toledo)>(timeZone|Central_European_Time)>(isPartOf|Castilla-La_Mancha)", 
+      0.159
+    ], 
+    [
+      "Location[populationTotal]>(country|Spain)>(isPartOf|Province_of_Toledo)>(timeZone|Central_European_Time)", 
+      0.1603
+    ], 
+    [
+      "Location[populationTotal]>(country|Spain)>(isPartOf|Province_of_Toledo)", 
+      0.1616
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Spain)>(isPartOf|Province_of_Toledo)>(isPartOf|Castilla-La_Mancha)", 
+      0.1654
+    ], 
+    [
+      "Village[populationTotal]>(timeZone|Central_European_Time)>(country|Spain)", 
+      0.167
+    ], 
+    [
+      "Village[populationTotal]>(country|United_Kingdom)>(country|Kent)", 
+      0.1693
+    ]
+  ], 
+  "values": [
+    119.22571494295433, 
+    4464.027796649757, 
+    1066.047800447325, 
+    2763.402905148587, 
+    2927.5479615661975, 
+    4848.557224626978, 
+    1655.701491046543, 
+    1263.9684585547566, 
+    1088.0038541164963, 
+    4166.304973477712, 
+    209.07979296777526, 
+    2609.470157004754, 
+    2385.0855861164514, 
+    2420.1035833732726, 
+    5157.310179898269, 
+    3091.819701459658, 
+    166.35995774996198, 
+    1999.7762458941224, 
+    191.53080080455018, 
+    2271.063375031046, 
+    2527.974410469537, 
+    228.30135149049633, 
+    211.96212979946827, 
+    3490.8607300618273, 
+    2866.1871359869297, 
+    162.17689427839156, 
+    2401.3615993373237, 
+    205.53336005772823, 
+    2862.844546974538, 
+    752.8392833653295, 
+    2335.27622278348, 
+    131.13789242738252, 
+    117.65422056546343, 
+    2548.9212201262317, 
+    792.4963779273103, 
+    1626.131156098783, 
+    3442.5125007625074, 
+    3099.2475130113653, 
+    3133.265238000554, 
+    1985.7746669250942, 
+    1463.9159504263544, 
+    3052.731191300011, 
+    237.74180066939988, 
+    3006.933348519034, 
+    3361.575754784022, 
+    1831.0334004302586, 
+    269.68447917890586, 
+    191.0622374236014, 
+    713.8976797601889
+  ]
+}

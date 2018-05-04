@@ -1,0 +1,322 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/openingYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "openingYear", 
+          0.1117
+        ], 
+        [
+          "foundingYear", 
+          0.1247
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.1391
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          7.0
+        ], 
+        [
+          "foundingYear", 
+          2.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          0.1021
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.1057
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          0.1093
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.1099
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.1107
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.1113
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          0.1125
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          0.1142
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.1247
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          0.1247
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.1247
+        ], 
+        [
+          "http://dbpedia.org/ontology/LawFirm (foundingYear)", 
+          0.1251
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (activeYearsStartYear)", 
+          0.1391
+        ], 
+        [
+          "http://dbpedia.org/ontology/Venue (activeYearsStartYear)", 
+          0.1391
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (activeYearsStartYear)", 
+          0.1391
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/LawFirm (foundingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Venue (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "RailwayTunnel[openingYear]", 
+      0.1021
+    ], 
+    [
+      "RailwayLine[openingYear]", 
+      0.1093
+    ], 
+    [
+      "Station[openingYear]", 
+      0.1125
+    ], 
+    [
+      "ArchitecturalStructure[openingYear]", 
+      0.114
+    ], 
+    [
+      "Place[openingYear]", 
+      0.1141
+    ], 
+    [
+      "Location[openingYear]", 
+      0.1142
+    ], 
+    [
+      "Infrastructure[openingYear]", 
+      0.1157
+    ], 
+    [
+      "LawFirm[foundingYear]", 
+      0.1233
+    ], 
+    [
+      "LawFirm[foundingYear]>(type|Limited_liability_partnership)", 
+      0.1261
+    ], 
+    [
+      "Venue[activeYearsStartYear]", 
+      0.1391
+    ]
+  ], 
+  "values": [
+    1964.0, 
+    1858.0, 
+    1896.0, 
+    1779.0, 
+    1819.0, 
+    1962.0, 
+    1849.0, 
+    1991.0, 
+    1900.0, 
+    1877.0, 
+    2012.0, 
+    2025.0, 
+    1943.0, 
+    1946.0, 
+    1720.0, 
+    2014.0, 
+    1886.0, 
+    1886.0, 
+    1787.0, 
+    1928.0, 
+    2106.0, 
+    2025.0, 
+    1851.0, 
+    1925.0, 
+    1975.0, 
+    1979.0, 
+    2022.0, 
+    1795.0, 
+    1874.0, 
+    1860.0, 
+    2057.0, 
+    1983.0, 
+    1866.0, 
+    1989.0, 
+    1879.0, 
+    1935.0, 
+    1898.0, 
+    1907.0, 
+    2065.0, 
+    1961.0, 
+    1942.0, 
+    1940.0, 
+    1912.0, 
+    1999.0, 
+    1946.0, 
+    1860.0, 
+    1821.0, 
+    1982.0, 
+    1906.0, 
+    1931.0, 
+    1871.0, 
+    1933.0, 
+    1945.0, 
+    1936.0, 
+    2014.0, 
+    1960.0, 
+    1703.0, 
+    1866.0, 
+    1885.0, 
+    1838.0, 
+    1997.0, 
+    1902.0, 
+    1994.0, 
+    1946.0, 
+    1828.0, 
+    1778.0, 
+    1909.0, 
+    1856.0, 
+    1947.0, 
+    1734.0, 
+    1921.0, 
+    1906.0, 
+    2045.0, 
+    2042.0, 
+    1936.0, 
+    1854.0, 
+    1874.0, 
+    2010.0, 
+    1879.0, 
+    1879.0, 
+    1923.0, 
+    1807.0, 
+    1940.0, 
+    1998.0, 
+    1845.0, 
+    1888.0, 
+    1947.0, 
+    1923.0, 
+    1960.0, 
+    1940.0, 
+    2047.0, 
+    1893.0, 
+    1889.0, 
+    1773.0, 
+    2013.0, 
+    1999.0, 
+    1848.0, 
+    2063.0, 
+    1879.0, 
+    1928.0, 
+    1944.0, 
+    1811.0, 
+    1841.0, 
+    2007.0, 
+    1889.0, 
+    1837.0, 
+    1936.0, 
+    1972.0, 
+    1998.0, 
+    1996.0, 
+    2077.0, 
+    2034.0, 
+    1937.0, 
+    1944.0, 
+    1959.0
+  ]
+}

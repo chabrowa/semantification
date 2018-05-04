@@ -1,0 +1,190 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.1468
+        ], 
+        [
+          "budget", 
+          0.1613
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          8.0
+        ], 
+        [
+          "budget", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/WineRegion (areaTotal)", 
+          0.1387
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1457
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          0.1472
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.1518
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (budget)", 
+          0.1606
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (budget)", 
+          0.1613
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (budget)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WineRegion (areaTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "ProtectedArea[areaTotal]>(location|Canada)", 
+      0.1076
+    ], 
+    [
+      "WineRegion[areaTotal]", 
+      0.1387
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Uttar_Pradesh)", 
+      0.1397
+    ], 
+    [
+      "ProtectedArea[areaTotal]", 
+      0.153
+    ], 
+    [
+      "ProtectedArea[areaTotal]>(location|Colorado)>(location|United_States)", 
+      0.1544
+    ], 
+    [
+      "ProtectedArea[areaTotal]>(location|Colorado)", 
+      0.1583
+    ], 
+    [
+      "Organisation[budget]", 
+      0.1606
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Uttar_Pradesh)>(country|India)", 
+      0.1609
+    ], 
+    [
+      "ProtectedArea[areaTotal]>(location|Idaho)", 
+      0.1618
+    ], 
+    [
+      "Agent[budget]", 
+      0.162
+    ]
+  ], 
+  "values": [
+    1664327.721703082, 
+    4214289.318902242, 
+    2520035.739313543, 
+    719058968.3552855, 
+    639250.5343062168, 
+    56978671.612331495, 
+    2362588194.844456, 
+    223848495.85860583, 
+    2823187.186839169, 
+    2445229864.1159105, 
+    1525264.6612986622, 
+    37568868.972316094, 
+    1317280.276162549, 
+    391238085.1462408, 
+    33135406.924847953, 
+    6180165764.533942, 
+    2960530.895093239, 
+    4770018241.664455, 
+    4892611757.300886, 
+    6090425334.34874, 
+    805994.2309641651, 
+    22880446.119465753, 
+    8894841375.856579, 
+    69561759.45393458, 
+    661540419.3181597, 
+    126212510.40669197, 
+    611629572.0529528, 
+    18046286.024681106, 
+    3303703310.454563, 
+    462551.7309563081, 
+    148327201.97278467, 
+    29831213.16039753, 
+    158941805.7668179, 
+    402534210.95450664, 
+    2784038015.7396665, 
+    394714200.174982, 
+    24418150023.456455, 
+    1500386281.0719624, 
+    13152763.61850901, 
+    1436770.859668144, 
+    15984801.211604256, 
+    726891723.2829121, 
+    142209130.6313874, 
+    64757511.171249725, 
+    480902291.92181534, 
+    249965653.14286056, 
+    34555859.92015986, 
+    71907.88822087864, 
+    4340572009.651403, 
+    188449878.6962916, 
+    2176226914.7053623, 
+    13903423430.475666, 
+    1828201415.20848, 
+    48626375.12548548, 
+    1828128.1772831068, 
+    12755462479.38443, 
+    356695.76546528284, 
+    6958292405.362196, 
+    240912950.47666225, 
+    7719994.795560665, 
+    1774920.8872047446, 
+    15642105.681108784, 
+    1234781118.8354945
+  ]
+}

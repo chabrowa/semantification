@@ -1,0 +1,196 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "runtime", 
+          0.2143
+        ], 
+        [
+          "elevation", 
+          0.2145
+        ], 
+        [
+          "runwayLength", 
+          0.2558
+        ], 
+        [
+          "populationDensity", 
+          0.263
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          6.0
+        ], 
+        [
+          "runwayLength", 
+          2.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ], 
+        [
+          "runtime", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.2125
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          0.2143
+        ], 
+        [
+          "http://dbpedia.org/ontology/Album (runtime)", 
+          0.2143
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          0.2143
+        ], 
+        [
+          "http://dbpedia.org/ontology/Airport (runwayLength)", 
+          0.2558
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (runwayLength)", 
+          0.2558
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (runwayLength)", 
+          0.2558
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (runwayLength)", 
+          0.2558
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (runwayLength)", 
+          0.2558
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.263
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          23.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Album (runtime)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Airport (runwayLength)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (runwayLength)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (runwayLength)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (runwayLength)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (runwayLength)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(type|Unincorporated_area)", 
+      0.1905
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(type|Unincorporated_area)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1932
+    ], 
+    [
+      "Album[runtime]>(type|Extended_play)>(genre|Death_metal)", 
+      0.2143
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Nebraska)>(country|United_States)", 
+      0.2239
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)", 
+      0.2242
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(type|Census-designated_place)", 
+      0.2251
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Nebraska)", 
+      0.2302
+    ], 
+    [
+      "Airport[runwayLength]>(owner|Alaska_Department_of_Transportation_&_Public_Facilities)", 
+      0.2558
+    ], 
+    [
+      "Location[runwayLength]>(owner|Alaska_Department_of_Transportation_&_Public_Facilities)", 
+      0.2558
+    ], 
+    [
+      "Location[populationDensity]>(country|India)>(isPartOf|Kerala)", 
+      0.263
+    ]
+  ], 
+  "values": [
+    1020.1387480986025, 
+    868.6774508380201, 
+    1068.417928706809, 
+    910.6523804420339, 
+    884.6988553899245, 
+    5562.3554154239755, 
+    14449.581968798542, 
+    1200.6704693143754, 
+    930.564247927495, 
+    1141.744495697582, 
+    27348.599052790734, 
+    996.37413497428, 
+    26673.85193531827, 
+    1047.1370342951282, 
+    1030.6012753148893, 
+    1071.0188328810286, 
+    1229.0016311232416, 
+    880.710557378382, 
+    1012.26216587042, 
+    850.8325441538375, 
+    1093.1483467239657
+  ]
+}

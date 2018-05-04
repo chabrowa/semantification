@@ -1,0 +1,223 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/serviceEndYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "openingYear", 
+          0.1057
+        ], 
+        [
+          "foundingYear", 
+          0.1121
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          7.0
+        ], 
+        [
+          "foundingYear", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          0.0976
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bank (foundingYear)", 
+          0.1048
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          0.1068
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.107
+        ], 
+        [
+          "http://dbpedia.org/ontology/LawFirm (foundingYear)", 
+          0.1089
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.1089
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (openingYear)", 
+          0.1111
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.1121
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.1121
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.1126
+        ], 
+        [
+          "http://dbpedia.org/ontology/Hospital (openingYear)", 
+          0.1127
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          0.1193
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.1193
+        ], 
+        [
+          "http://dbpedia.org/ontology/RugbyClub (foundingYear)", 
+          0.1228
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (foundingYear)", 
+          0.1228
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bank (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RugbyClub (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/LawFirm (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Hospital (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "ArchitecturalStructure[openingYear]", 
+      0.0974
+    ], 
+    [
+      "Place[openingYear]", 
+      0.0975
+    ], 
+    [
+      "Location[openingYear]", 
+      0.0976
+    ], 
+    [
+      "Bank[foundingYear]>(product|Investment_management)", 
+      0.1048
+    ], 
+    [
+      "Infrastructure[openingYear]", 
+      0.1059
+    ], 
+    [
+      "LawFirm[foundingYear]", 
+      0.1089
+    ], 
+    [
+      "Building[openingYear]", 
+      0.1094
+    ], 
+    [
+      "Hospital[openingYear]", 
+      0.1127
+    ], 
+    [
+      "RailwayTunnel[openingYear]", 
+      0.1193
+    ], 
+    [
+      "RugbyClub[foundingYear]", 
+      0.1228
+    ]
+  ], 
+  "values": [
+    1779.0, 
+    1982.0, 
+    2002.0, 
+    2001.0, 
+    1953.0, 
+    1983.0, 
+    1978.0, 
+    1929.0, 
+    1903.0, 
+    1925.0, 
+    1928.0, 
+    1884.0, 
+    1912.0, 
+    1873.0, 
+    1913.0, 
+    2061.0, 
+    1952.0, 
+    1977.0, 
+    2025.0, 
+    1861.0, 
+    1904.0, 
+    4.0, 
+    1908.0, 
+    1881.0
+  ]
+}

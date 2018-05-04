@@ -1,0 +1,256 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/length"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "length", 
+          0.0803
+        ], 
+        [
+          "numberOfStudents", 
+          0.1028
+        ], 
+        [
+          "populationTotal", 
+          0.1163
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          7.0
+        ], 
+        [
+          "length", 
+          2.0
+        ], 
+        [
+          "numberOfStudents", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.0803
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (length)", 
+          0.0803
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (length)", 
+          0.0814
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.1028
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.1028
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.1028
+        ], 
+        [
+          "http://dbpedia.org/ontology/University (numberOfStudents)", 
+          0.1028
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1145
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1163
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1163
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1211
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          0.1219
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          18.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/University (numberOfStudents)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (length)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "PopulatedPlace[length]", 
+      0.0792
+    ], 
+    [
+      "Island[length]", 
+      0.0814
+    ], 
+    [
+      "University[numberOfStudents]>(country|India)>(affiliation|University_Grants_Commission_(India))", 
+      0.1028
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Spain)>(isPartOf|Community_of_Madrid)", 
+      0.109
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Canada)>(isPartOf|Ontario)>(timeZone|Eastern_Time_Zone)", 
+      0.1112
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Spain)>(isPartOf|Province_of_Barcelona)>(type|Municipalities_of_Spain)", 
+      0.1132
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Spain)>(isPartOf|Province_of_Barcelona)", 
+      0.1187
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Eastern_European_Time)", 
+      0.1188
+    ], 
+    [
+      "Village[populationTotal]>(country|India)>(isPartOf|Andhra_Pradesh)>(22-rdf-syntax-ns#type|_Feature)>(timeZone|Indian_Standard_Time)", 
+      0.1211
+    ], 
+    [
+      "City[populationTotal]", 
+      0.1219
+    ]
+  ], 
+  "values": [
+    8164.762285520818, 
+    79126.83386962936, 
+    4229.111722467537, 
+    4021.908105800956, 
+    30646.110624765734, 
+    17280.55081941119, 
+    1014.8775855366133, 
+    8089.795045086959, 
+    5935.7271669324555, 
+    2120.0771141591013, 
+    4030.6306513932996, 
+    217.5413274763766, 
+    753.0172497486118, 
+    3751.0784614466306, 
+    1994.7381839715088, 
+    82234.04638704333, 
+    218.41652924657245, 
+    3620.6956867801746, 
+    3293.3972417070217, 
+    596.8318268541557, 
+    9150.214787311143, 
+    6523.732841704868, 
+    77374.63703451252, 
+    218.8958210104203, 
+    7144.072815314026, 
+    17227.33385546737, 
+    4772.8281290465275, 
+    7313.443100918488, 
+    64788.624838134056, 
+    7517.44466821705, 
+    2160.821234567507, 
+    92915.1886533181, 
+    4190.926118232684, 
+    54307.462091219, 
+    26747.220129712576, 
+    3411.2587605312506, 
+    105956.860114776, 
+    31077.233980228815, 
+    1303.1922034556426, 
+    3338.198165409019, 
+    1388.2622819561211, 
+    83.1051465133433, 
+    63067.94598256289, 
+    15006.04316243647, 
+    1207918.9023844036, 
+    26087.79848558682, 
+    45901.580990540206, 
+    14885.46847906354, 
+    757.4401392694729, 
+    1566.8039876055325, 
+    48704.24484609126, 
+    2869.1926498959206, 
+    10104.0131148344, 
+    5289.36961496292, 
+    90673.45932104731, 
+    40555.86537418872, 
+    1475.8263562804727, 
+    2880.25923084699, 
+    2966.4452340240205, 
+    797.7029629078143, 
+    303.14780049522705, 
+    374.6332534474846, 
+    495.8142527899803, 
+    1876.7542744157681, 
+    5310.931288811115, 
+    26011.578516450278, 
+    9524.891766126566, 
+    2590.7888098577455, 
+    11336.449985300507, 
+    30073.410499373087, 
+    16425.34699355502, 
+    75607.02941587374, 
+    60259.944415752645
+  ]
+}

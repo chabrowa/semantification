@@ -1,0 +1,321 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/yearOfConstruction"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "yearOfConstruction", 
+          0.1
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.1765
+        ], 
+        [
+          "openingYear", 
+          0.1798
+        ], 
+        [
+          "deathYear", 
+          0.2235
+        ], 
+        [
+          "foundingYear", 
+          0.2424
+        ]
+      ], 
+      "maj": [
+        [
+          "yearOfConstruction", 
+          5.0
+        ], 
+        [
+          "foundingYear", 
+          2.0
+        ], 
+        [
+          "deathYear", 
+          1.0
+        ], 
+        [
+          "openingYear", 
+          1.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/HistoricPlace (yearOfConstruction)", 
+          0.0855
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (yearOfConstruction)", 
+          0.099
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (yearOfConstruction)", 
+          0.1034
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (yearOfConstruction)", 
+          0.1035
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (yearOfConstruction)", 
+          0.1036
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryUnit (activeYearsStartYear)", 
+          0.1765
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsStartYear)", 
+          0.1765
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.1765
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.1798
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.1798
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          0.1798
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.1798
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.1798
+        ], 
+        [
+          "http://dbpedia.org/ontology/Scientist (deathYear)", 
+          0.2235
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          0.2235
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          0.2235
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (foundingYear)", 
+          0.2409
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (foundingYear)", 
+          0.2409
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (foundingYear)", 
+          0.2409
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          0.2439
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          0.2439
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.2439
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.2439
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Place (yearOfConstruction)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryUnit (activeYearsStartYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (yearOfConstruction)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Scientist (deathYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/HistoricPlace (yearOfConstruction)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (yearOfConstruction)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (yearOfConstruction)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "HistoricPlace[yearOfConstruction]", 
+      0.0855
+    ], 
+    [
+      "Building[yearOfConstruction]", 
+      0.1034
+    ], 
+    [
+      "Location[yearOfConstruction]", 
+      0.1036
+    ], 
+    [
+      "ArchitecturalStructure[yearOfConstruction]", 
+      0.1036
+    ], 
+    [
+      "Place[yearOfConstruction]", 
+      0.1036
+    ], 
+    [
+      "MilitaryUnit[activeYearsStartYear]>(country|Presidencies_and_provinces_of_British_India)>(battle|World_War_I)", 
+      0.1765
+    ], 
+    [
+      "Bridge[openingYear]>(crosses|River_Thames)", 
+      0.1798
+    ], 
+    [
+      "Scientist[deathYear]", 
+      0.2235
+    ], 
+    [
+      "Country[foundingYear]>(governmentType|Constitutional_monarchy)", 
+      0.2409
+    ], 
+    [
+      "School[foundingYear]>(type|Independent_school_(United_Kingdom))", 
+      0.2439
+    ]
+  ], 
+  "values": [
+    1931.0, 
+    1765.0, 
+    1929.0, 
+    1871.0, 
+    1819.0, 
+    1868.0, 
+    1836.0, 
+    1888.0, 
+    1927.0, 
+    1901.0, 
+    1881.0, 
+    1857.0, 
+    1650.0, 
+    1825.0, 
+    1763.0, 
+    1700.0, 
+    1893.0, 
+    1852.0, 
+    1871.0, 
+    1915.0, 
+    1782.0, 
+    1893.0, 
+    1814.0, 
+    1932.0, 
+    1941.0, 
+    1914.0, 
+    1875.0, 
+    1939.0, 
+    1835.0, 
+    1833.0, 
+    1908.0, 
+    1841.0, 
+    1901.0, 
+    1904.0
+  ]
+}

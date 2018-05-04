@@ -1,0 +1,283 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/length"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "length", 
+          0.0865
+        ], 
+        [
+          "numberOfEmployees", 
+          0.1098
+        ], 
+        [
+          "area", 
+          0.1227
+        ]
+      ], 
+      "maj": [
+        [
+          "length", 
+          7.0
+        ], 
+        [
+          "numberOfEmployees", 
+          2.0
+        ], 
+        [
+          "area", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          0.0817
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          0.084
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          0.0869
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.0873
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          0.0949
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          0.0963
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (length)", 
+          0.0963
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bank (numberOfEmployees)", 
+          0.1083
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (numberOfEmployees)", 
+          0.1098
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          0.1098
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          0.1098
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (area)", 
+          0.1227
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bank (numberOfEmployees)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (numberOfEmployees)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (area)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (length)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Infrastructure[length]", 
+      0.0776
+    ], 
+    [
+      "ArchitecturalStructure[length]", 
+      0.0781
+    ], 
+    [
+      "Location[length]", 
+      0.0817
+    ], 
+    [
+      "Place[length]", 
+      0.0821
+    ], 
+    [
+      "NaturalPlace[length]", 
+      0.0934
+    ], 
+    [
+      "BodyOfWater[length]", 
+      0.0963
+    ], 
+    [
+      "RouteOfTransportation[length]", 
+      0.0963
+    ], 
+    [
+      "Bank[numberOfEmployees]>(product|Private_equity)>(industry|Financial_services)", 
+      0.1022
+    ], 
+    [
+      "Bank[numberOfEmployees]>(product|Private_equity)", 
+      0.1174
+    ], 
+    [
+      "Location[area]>(architecturalStyle|Italianate_architecture)", 
+      0.1227
+    ]
+  ], 
+  "values": [
+    66323.31696309528, 
+    88235.04151769986, 
+    3689.4281236752886, 
+    12194.640864155437, 
+    36175.390949270346, 
+    83054.0522616202, 
+    184895.55643749982, 
+    81.43824229494119, 
+    863.6817748886004, 
+    82040.28747609806, 
+    304363.3722055633, 
+    76114.02590258008, 
+    34603.171525672464, 
+    5605.595368631756, 
+    119470.48229152814, 
+    38791.057862208036, 
+    5566.62853419557, 
+    69874.27786063551, 
+    472.6017519772365, 
+    31409.39416097848, 
+    578329.9613725545, 
+    533.4260286230433, 
+    54704.3721933412, 
+    289065.7892710378, 
+    13420.377890007201, 
+    46952.77870911799, 
+    5569.982250118694, 
+    56015.58000679979, 
+    381.15022474133326, 
+    1402.8856370051835, 
+    1884565.8183316956, 
+    29102.98898840912, 
+    3633.6102125754105, 
+    2497.6209643979605, 
+    92664.27137215355, 
+    25903.795996962057, 
+    581.9419853787412, 
+    47121.86758208237, 
+    219.9661400149306, 
+    334.333261459319, 
+    3063.1410532649243, 
+    635857.8122124893, 
+    12888.332375982394, 
+    260257.42501859702, 
+    371115.2961640546, 
+    483740.71250866435, 
+    451.4908308682163, 
+    2230.52186309946, 
+    942.5087243717186, 
+    193.76033300121395, 
+    71855.92726385029, 
+    2648.2495869671184, 
+    26624.797008766625, 
+    87227.86739333844, 
+    10953.457990813225, 
+    412596.2791579482, 
+    896669.0260549907, 
+    35277.526702853305, 
+    648192.3582589644, 
+    83735.8282202986, 
+    19855.238215874408, 
+    7463.352331770845, 
+    655.9756250847092, 
+    743.5442873090628, 
+    3220.2778182461, 
+    16533.65596685077, 
+    45520.93342606882, 
+    211.0468727764472, 
+    9569.075038765248, 
+    118.35900355826153, 
+    19304.272966190925, 
+    309081.5667335837, 
+    35924.97574434348, 
+    150697.8622975503, 
+    190591.60903721832, 
+    471713.27501989197, 
+    9540.927159669127, 
+    17067.799375236675, 
+    844.1591278020959, 
+    0.36343872136281336, 
+    1124.4330294187916, 
+    479.25467711506525, 
+    679708.2493442238, 
+    14297.454019058543, 
+    13600.561446879357, 
+    65935.75873318595, 
+    13419.533556206961, 
+    12330.053370032967, 
+    40675.99493737675, 
+    66905.06320447563, 
+    24440.78838569905, 
+    357260.77702086675, 
+    5077.335982053543, 
+    183687.50824825373, 
+    863783.9037575758, 
+    5609.402508934392, 
+    19640.239718737375, 
+    350.4150055948148, 
+    8716.894736591012, 
+    68703.70864995939
+  ]
+}

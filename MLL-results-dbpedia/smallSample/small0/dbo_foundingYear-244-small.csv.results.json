@@ -1,0 +1,238 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/foundingYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "foundingYear", 
+          0.2079
+        ]
+      ], 
+      "maj": [
+        [
+          "foundingYear", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Region (foundingYear)", 
+          0.1641
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (foundingYear)", 
+          0.1826
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (foundingYear)", 
+          0.1826
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (foundingYear)", 
+          0.2033
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (foundingYear)", 
+          0.2161
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (foundingYear)", 
+          0.2357
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          0.2409
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.2409
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.2409
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          0.2413
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (foundingYear)", 
+          0.2507
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (foundingYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (foundingYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (foundingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (foundingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (foundingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "AdministrativeRegion[foundingYear]", 
+      0.0775
+    ], 
+    [
+      "Region[foundingYear]", 
+      0.0775
+    ], 
+    [
+      "Country[foundingYear]>(governmentType|Constitutional_monarchy)", 
+      0.2033
+    ], 
+    [
+      "Settlement[foundingYear]>(state|Louisiana)", 
+      0.2357
+    ], 
+    [
+      "School[foundingYear]>(type|Independent_school_(United_Kingdom))", 
+      0.2395
+    ], 
+    [
+      "AdministrativeRegion[foundingYear]>(state|Louisiana)", 
+      0.2403
+    ], 
+    [
+      "Location[foundingYear]>(state|Louisiana)", 
+      0.2403
+    ], 
+    [
+      "School[foundingYear]>(type|Independent_school_(United_Kingdom))>(religion|Church_of_England)>(country|England)", 
+      0.2423
+    ], 
+    [
+      "AdministrativeRegion[foundingYear]>(state|Georgia_(U.S._state))", 
+      0.2612
+    ], 
+    [
+      "Location[foundingYear]>(state|Georgia_(U.S._state))", 
+      0.2612
+    ]
+  ], 
+  "values": [
+    1845.0, 
+    1800.0, 
+    1784.0, 
+    1843.0, 
+    1837.0, 
+    1818.0, 
+    1870.0, 
+    1843.0, 
+    1654.0, 
+    1787.0, 
+    1855.0, 
+    1842.0, 
+    1921.0, 
+    1729.0, 
+    1882.0, 
+    1915.0, 
+    1912.0, 
+    1869.0, 
+    1877.0, 
+    1858.0, 
+    1875.0, 
+    1962.0, 
+    1883.0, 
+    1913.0, 
+    1851.0, 
+    1850.0, 
+    1860.0, 
+    1913.0, 
+    1833.0, 
+    1850.0, 
+    1682.0, 
+    1885.0, 
+    1851.0, 
+    1883.0, 
+    1829.0, 
+    1814.0, 
+    1743.0, 
+    1836.0, 
+    1823.0, 
+    1828.0, 
+    1807.0, 
+    1777.0, 
+    1892.0, 
+    1830.0, 
+    1838.0, 
+    1879.0, 
+    1964.0, 
+    1855.0, 
+    1825.0, 
+    1817.0, 
+    1838.0, 
+    1777.0, 
+    1858.0, 
+    1866.0, 
+    1825.0, 
+    1853.0, 
+    1803.0, 
+    1884.0, 
+    1810.0, 
+    1914.0, 
+    1854.0, 
+    1887.0, 
+    1778.0, 
+    1917.0, 
+    1807.0, 
+    1882.0, 
+    1808.0, 
+    1919.0, 
+    1913.0, 
+    1642.0, 
+    1836.0, 
+    1839.0, 
+    1846.0, 
+    1850.0, 
+    1820.0, 
+    1850.0, 
+    1901.0, 
+    1879.0, 
+    1886.0
+  ]
+}

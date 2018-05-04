@@ -1,0 +1,197 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/height"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "minimumElevation", 
+          0.2355
+        ], 
+        [
+          "elevation", 
+          0.2445
+        ], 
+        [
+          "height", 
+          0.2452
+        ]
+      ], 
+      "maj": [
+        [
+          "minimumElevation", 
+          6.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "height", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.2328
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.2358
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.2367
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.2367
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2443
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2443
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2443
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.2447
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (height)", 
+          0.2452
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.2452
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          0.2452
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.2452
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (height)", 
+          0.2452
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (height)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[minimumElevation]>(department|Manche)>(arrondissement|Arrondissement_of_Saint-L%C3%B4)", 
+      0.224
+    ], 
+    [
+      "Location[minimumElevation]>(department|Pas-de-Calais)", 
+      0.2243
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Pas-de-Calais)", 
+      0.2254
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Manche)>(arrondissement|Arrondissement_of_Saint-L%C3%B4)", 
+      0.2302
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Alameda_County,_California)", 
+      0.243
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Pas-de-Calais)>(arrondissement|Arrondissement_of_Saint-Omer)", 
+      0.2443
+    ], 
+    [
+      "Bridge[height]", 
+      0.2452
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Humboldt_County,_California)", 
+      0.2464
+    ], 
+    [
+      "Location[minimumElevation]>(department|Calvados)", 
+      0.2546
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Calvados)", 
+      0.2546
+    ]
+  ], 
+  "values": [
+    54.864, 
+    4.38, 
+    180.0, 
+    3.048, 
+    68.2, 
+    63.7
+  ]
+}

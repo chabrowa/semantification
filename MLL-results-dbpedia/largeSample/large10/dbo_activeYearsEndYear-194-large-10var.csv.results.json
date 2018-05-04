@@ -1,0 +1,253 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/activeYearsEndYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.2659
+        ], 
+        [
+          "yearOfConstruction", 
+          0.3
+        ], 
+        [
+          "openingYear", 
+          0.3
+        ], 
+        [
+          "serviceEndYear", 
+          0.3
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          4.0
+        ], 
+        [
+          "openingYear", 
+          3.0
+        ], 
+        [
+          "serviceEndYear", 
+          2.0
+        ], 
+        [
+          "yearOfConstruction", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.2671
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (yearOfConstruction)", 
+          0.3
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (yearOfConstruction)", 
+          0.3
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.3
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          0.3
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.3
+        ], 
+        [
+          "http://dbpedia.org/ontology/Congressman (serviceEndYear)", 
+          0.3
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (yearOfConstruction)", 
+          0.3
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          0.3
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceEndYear)", 
+          0.3
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (openingYear)", 
+          0.3
+        ], 
+        [
+          "http://dbpedia.org/ontology/Hospital (openingYear)", 
+          0.3
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.3
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          0.3
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.3
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (yearOfConstruction)", 
+          0.3
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          17.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Congressman (serviceEndYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (yearOfConstruction)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Hospital (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (yearOfConstruction)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (yearOfConstruction)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (yearOfConstruction)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.2207
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Colorado)>(type|Census-designated_place)", 
+      0.2773
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)", 
+      0.2795
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)>(country|United_States)", 
+      0.2861
+    ], 
+    [
+      "Congressman[serviceEndYear]", 
+      0.3
+    ], 
+    [
+      "Congressman[serviceEndYear]>(country|United_States)", 
+      0.3
+    ], 
+    [
+      "RouteOfTransportation[openingYear]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3
+    ], 
+    [
+      "Bridge[openingYear]>(crosses|River_Thames)", 
+      0.3
+    ], 
+    [
+      "Hospital[openingYear]>(state|England)", 
+      0.3
+    ], 
+    [
+      "RouteOfTransportation[yearOfConstruction]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3
+    ]
+  ], 
+  "values": [
+    1811.0, 
+    1703.0, 
+    1337.0, 
+    1790.0, 
+    2141.0, 
+    1849.0, 
+    1825.0, 
+    1870.0, 
+    1762.0, 
+    1705.0, 
+    1456.0, 
+    1973.0, 
+    2205.0, 
+    2106.0, 
+    2041.0, 
+    1847.0, 
+    1819.0, 
+    1872.0, 
+    1928.0, 
+    2157.0, 
+    1477.0, 
+    2154.0, 
+    2082.0, 
+    1975.0, 
+    1884.0, 
+    1674.0, 
+    1892.0, 
+    1919.0, 
+    2048.0, 
+    2024.0
+  ]
+}

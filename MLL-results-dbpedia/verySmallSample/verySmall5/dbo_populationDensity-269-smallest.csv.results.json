@@ -1,0 +1,298 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationDensity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "height", 
+          0.1119
+        ], 
+        [
+          "elevation", 
+          0.1331
+        ], 
+        [
+          "minimumElevation", 
+          0.1362
+        ], 
+        [
+          "numberOfEmployees", 
+          0.1429
+        ], 
+        [
+          "populationDensity", 
+          0.1436
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "minimumElevation", 
+          3.0
+        ], 
+        [
+          "height", 
+          2.0
+        ], 
+        [
+          "numberOfEmployees", 
+          1.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.1119
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          0.1119
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.1119
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (height)", 
+          0.1119
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1236
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (height)", 
+          0.1238
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.124
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.124
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.1283
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.1283
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1283
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1379
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.1425
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          0.1429
+        ], 
+        [
+          "http://dbpedia.org/ontology/Non-ProfitOrganisation (numberOfEmployees)", 
+          0.1429
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          0.1429
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1436
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (elevation)", 
+          0.1518
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          0.1518
+        ], 
+        [
+          "http://dbpedia.org/ontology/Airport (elevation)", 
+          0.1518
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Airport (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Non-ProfitOrganisation (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "RouteOfTransportation[height]", 
+      0.1
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Contra_Costa_County,_California)>(timeZone|Pacific_Time_Zone)", 
+      0.1236
+    ], 
+    [
+      "Bridge[height]", 
+      0.1238
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(federalState|Lower_Saxony)", 
+      0.124
+    ], 
+    [
+      "Location[minimumElevation]>(department|Calvados)", 
+      0.1283
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Calvados)", 
+      0.1283
+    ], 
+    [
+      "Non-ProfitOrganisation[numberOfEmployees]", 
+      0.1429
+    ], 
+    [
+      "Location[populationDensity]>(type|New_England_town)", 
+      0.1436
+    ], 
+    [
+      "Airport[elevation]>(owner|Alaska_Department_of_Transportation_&_Public_Facilities)", 
+      0.1518
+    ], 
+    [
+      "Location[minimumElevation]>(department|Manche)>(arrondissement|Arrondissement_of_Avranches)", 
+      0.1519
+    ]
+  ], 
+  "values": [
+    24.927310584106493, 
+    58.58370572974065, 
+    35.87628136640048, 
+    17.88318244322074, 
+    7.08437468190445, 
+    85.8827601783199, 
+    23.670505873436188, 
+    765.8291854882596, 
+    0.7908991857697784, 
+    118.18986442954392, 
+    27.389855041346866, 
+    0.7649102054355166, 
+    35.25954133542945, 
+    13.216860863565696, 
+    77.06656230572442, 
+    141.9671567591874, 
+    1.4095630081514279, 
+    170.97502962433487, 
+    81.45625820935463, 
+    7.852347635246336, 
+    6.549173600170847, 
+    77.15296734218435, 
+    11.476545682397605, 
+    278.27925184554243, 
+    145.6125791085311, 
+    14.147832086957713, 
+    7.455934831993141, 
+    81.41590573927982, 
+    6.041620106633982, 
+    47.54869883451318, 
+    5.361838749533564, 
+    38.24286767939261, 
+    85.43248208165353, 
+    4.20479075307588, 
+    137.06400122651024
+  ]
+}

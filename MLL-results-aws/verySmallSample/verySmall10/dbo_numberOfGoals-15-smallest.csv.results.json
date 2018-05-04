@@ -1,0 +1,215 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfGoals"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.1496
+        ], 
+        [
+          "numberOfMatches", 
+          0.1612
+        ], 
+        [
+          "populationDensity", 
+          0.1718
+        ], 
+        [
+          "number", 
+          0.1746
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          3.0
+        ], 
+        [
+          "number", 
+          3.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ], 
+        [
+          "numberOfMatches", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1496
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1496
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1496
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.1533
+        ], 
+        [
+          "http://dbpedia.org/ontology/CareerStation (numberOfMatches)", 
+          0.1612
+        ], 
+        [
+          "http://dbpedia.org/ontology/TimePeriod (numberOfMatches)", 
+          0.1612
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1707
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1707
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1707
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.1718
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1742
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.1746
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.1746
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.1746
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TimePeriod (numberOfMatches)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/CareerStation (numberOfMatches)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[elevation]>(isPartOf|Western_Norway)", 
+      0.1306
+    ], 
+    [
+      "TimePeriod[numberOfMatches]", 
+      0.1612
+    ], 
+    [
+      "CareerStation[numberOfMatches]", 
+      0.1612
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Michigan)", 
+      0.1672
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Western_Norway)>(isPartOf|M%C3%B8re_og_Romsdal)", 
+      0.1685
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Michigan)>(type|Township_(United_States))>(timeZone|Eastern_Time_Zone)", 
+      0.1742
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Michigan)>(type|Township_(United_States))>(timeZone|Eastern_Time_Zone)", 
+      0.1742
+    ], 
+    [
+      "Person[number]", 
+      0.1746
+    ], 
+    [
+      "Agent[number]", 
+      0.1746
+    ], 
+    [
+      "Athlete[number]", 
+      0.1746
+    ]
+  ], 
+  "values": [
+    25.0, 
+    2.0, 
+    20.0, 
+    64.0, 
+    10.0, 
+    79.0, 
+    3.0, 
+    22.0
+  ]
+}

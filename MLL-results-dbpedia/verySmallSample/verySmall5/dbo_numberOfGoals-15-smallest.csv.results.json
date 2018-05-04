@@ -1,0 +1,207 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfGoals"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "number", 
+          0.1746
+        ], 
+        [
+          "populationDensity", 
+          0.1755
+        ], 
+        [
+          "numberOfMatches", 
+          0.1757
+        ], 
+        [
+          "minimumElevation", 
+          0.1837
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          4.0
+        ], 
+        [
+          "number", 
+          3.0
+        ], 
+        [
+          "numberOfMatches", 
+          2.0
+        ], 
+        [
+          "minimumElevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.1746
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.1746
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.1746
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1746
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1746
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1746
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.1755
+        ], 
+        [
+          "http://dbpedia.org/ontology/TimePeriod (numberOfMatches)", 
+          0.1757
+        ], 
+        [
+          "http://dbpedia.org/ontology/CareerStation (numberOfMatches)", 
+          0.1757
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1783
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.1837
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.1837
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1837
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TimePeriod (numberOfMatches)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/CareerStation (numberOfMatches)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Town[populationDensity]>(isPartOf|Michigan)", 
+      0.1672
+    ], 
+    [
+      "Person[number]", 
+      0.1746
+    ], 
+    [
+      "Agent[number]", 
+      0.1746
+    ], 
+    [
+      "Athlete[number]", 
+      0.1746
+    ], 
+    [
+      "TimePeriod[numberOfMatches]", 
+      0.1757
+    ], 
+    [
+      "CareerStation[numberOfMatches]", 
+      0.1757
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Michigan)>(type|Township_(United_States))>(timeZone|Eastern_Time_Zone)", 
+      0.1783
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Michigan)>(type|Township_(United_States))>(timeZone|Eastern_Time_Zone)", 
+      0.1783
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Pennsylvania)", 
+      0.1784
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Manche)", 
+      0.1837
+    ]
+  ], 
+  "values": [
+    25.0, 
+    2.0, 
+    21.0, 
+    66.0, 
+    10.0, 
+    82.0, 
+    3.0, 
+    22.0
+  ]
+}

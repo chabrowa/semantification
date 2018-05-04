@@ -1,0 +1,250 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/maximumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "maximumElevation", 
+          0.0812
+        ], 
+        [
+          "populationDensity", 
+          0.0914
+        ], 
+        [
+          "populationTotal", 
+          0.095
+        ], 
+        [
+          "elevation", 
+          0.1014
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          6.0
+        ], 
+        [
+          "maximumElevation", 
+          2.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/City (maximumElevation)", 
+          0.0789
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.0812
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          0.0812
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          0.0812
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.0914
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.0914
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.0914
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.0935
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0938
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.0938
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0938
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1001
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          0.1014
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (elevation)", 
+          0.1014
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1014
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (elevation)", 
+          0.1014
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "City[maximumElevation]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0743
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Hormozgan_Province)>(isPartOf|Bastak_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0838
+    ], 
+    [
+      "Location[populationTotal]>(isPartOf|Razavi_Khorasan_Province)", 
+      0.0852
+    ], 
+    [
+      "City[maximumElevation]", 
+      0.0882
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Fars_Province)>(isPartOf|Larestan_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0885
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|New_York)", 
+      0.0914
+    ], 
+    [
+      "Village[populationTotal]", 
+      0.0949
+    ], 
+    [
+      "RouteOfTransportation[elevation]", 
+      0.1014
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|West_Azerbaijan_Province)>(isPartOf|Khoy_County)>(isPartOf|Central_District_(Khoy_County))", 
+      0.1079
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(department|Haute-Garonne)", 
+      0.1099
+    ]
+  ], 
+  "values": [
+    170.0, 
+    10.0, 
+    1300.0, 
+    340.0, 
+    324.0, 
+    140.0, 
+    128.016, 
+    42.0, 
+    87.0, 
+    920.0, 
+    815.0, 
+    57.0, 
+    1390.0, 
+    3100.0, 
+    400.0, 
+    220.0, 
+    2550.0, 
+    441.0, 
+    130.0, 
+    800.0, 
+    2507.0, 
+    223.418, 
+    64.0, 
+    2149.0, 
+    12.8016, 
+    347.0, 
+    480.0
+  ]
+}

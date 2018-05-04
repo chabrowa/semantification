@@ -1,0 +1,203 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/length"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1378
+        ], 
+        [
+          "elevation", 
+          0.1405
+        ], 
+        [
+          "populationDensity", 
+          0.1406
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          7.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1338
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          0.1373
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1405
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1406
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1441
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1447
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1447
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1447
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (elevation)", 
+          0.15
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (elevation)", 
+          0.15
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (elevation)", 
+          0.15
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          18.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationTotal]>(timeZone|Eastern_European_Time)>(isPartOf|Kaunas_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1164
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_European_Time)>(country|Estonia)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1221
+    ], 
+    [
+      "ArchitecturalStructure[elevation]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.131
+    ], 
+    [
+      "Location[populationDensity]>(timeZone|Pacific_Time_Zone)>(isPartOf|California)>(country|United_States)", 
+      0.1406
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Hormozgan_Province)>(isPartOf|Central_District_(Bandar_Abbas_County))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1406
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_European_Time)>(isPartOf|Nicosia_District)", 
+      0.141
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_European_Time)>(isPartOf|Blagoevgrad_Province)>(country|Bulgaria)", 
+      0.1437
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Fars_Province)>(isPartOf|Central_District_(Shiraz_County))", 
+      0.1487
+    ], 
+    [
+      "RailwayLine[elevation]", 
+      0.15
+    ], 
+    [
+      "Location[populationTotal]>(country|England)>(ceremonialCounty|Cheshire)", 
+      0.1521
+    ]
+  ], 
+  "values": [
+    98.0, 
+    1295.0, 
+    1388.06, 
+    1171.7, 
+    177.394, 
+    92.6897, 
+    1340.0, 
+    224.0, 
+    581.558, 
+    795.0, 
+    1670.0, 
+    27.1272, 
+    33.0, 
+    30.0, 
+    3218.69, 
+    23.77, 
+    987.0, 
+    880.0, 
+    36.576, 
+    300.0, 
+    500.0, 
+    4430.0, 
+    2250.0, 
+    251.46, 
+    7402.98, 
+    19.2024, 
+    203582.0, 
+    1024.0
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "maximumElevation", 
+          0.0433
+        ], 
+        [
+          "populationTotal", 
+          0.0747
+        ], 
+        [
+          "populationDensity", 
+          0.0784
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          8.0
+        ], 
+        [
+          "maximumElevation", 
+          1.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.0433
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (maximumElevation)", 
+          0.0433
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          0.0433
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          0.0433
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.0719
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.074
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0757
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0757
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.0769
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.0784
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.0784
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.0784
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.0784
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "City[maximumElevation]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0433
+    ], 
+    [
+      "Location[populationTotal]>(isPartOf|Razavi_Khorasan_Province)", 
+      0.066
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Hormozgan_Province)>(isPartOf|Bastak_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0669
+    ], 
+    [
+      "Location[populationTotal]>(country|Spain)>(isPartOf|Province_of_Zaragoza)", 
+      0.0742
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Razavi_Khorasan_Province)>(isPartOf|Razaviyeh_District)", 
+      0.0761
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(department|Meurthe-et-Moselle)", 
+      0.0779
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|New_Jersey)", 
+      0.0784
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Spain)>(isPartOf|Province_of_Zaragoza)", 
+      0.0788
+    ], 
+    [
+      "Village[populationTotal]", 
+      0.0789
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(department|Meurthe-et-Moselle)", 
+      0.079
+    ]
+  ], 
+  "values": [
+    80.0, 
+    18.0, 
+    314.0, 
+    561.0, 
+    115.0, 
+    151.0, 
+    47.0, 
+    7462.0, 
+    33.0, 
+    61.0, 
+    588.0, 
+    540.0, 
+    642.0, 
+    277.0, 
+    1137.0, 
+    839.0, 
+    2398.0, 
+    226.0, 
+    789.0, 
+    45.0, 
+    1020.0, 
+    704.0, 
+    350.0, 
+    228.0, 
+    10.0, 
+    2062.0, 
+    3888.0, 
+    1088.0, 
+    188.0, 
+    36.0, 
+    166.0, 
+    181.0, 
+    1097.0, 
+    168.0, 
+    86.0, 
+    97.0, 
+    1368.0, 
+    73.0, 
+    229.0, 
+    378.0, 
+    2793.0, 
+    911.0, 
+    181.0, 
+    311.0, 
+    709.0, 
+    88.0, 
+    1263.0, 
+    304.0, 
+    91.0, 
+    124.0, 
+    2181.0, 
+    89.0, 
+    234.0, 
+    170.0, 
+    480.0, 
+    1286.0, 
+    51.0, 
+    787.0, 
+    100.0, 
+    83.0, 
+    75.0, 
+    319.0, 
+    138.0, 
+    419.0, 
+    1941.0, 
+    110.0, 
+    78.0, 
+    389.0, 
+    120.0, 
+    1247.0, 
+    832.0, 
+    90.0, 
+    320.0, 
+    191.0, 
+    363.0, 
+    838.0, 
+    1952.0, 
+    1196.0, 
+    2517.0, 
+    31.0, 
+    261.0, 
+    526.0, 
+    1074.0, 
+    177.0, 
+    405.0, 
+    467.0, 
+    159.0, 
+    6728.0, 
+    754.0, 
+    120.0, 
+    112.0, 
+    1803.0, 
+    4327.0, 
+    13.0, 
+    760.0, 
+    612.0, 
+    481.0, 
+    259.0, 
+    137.0, 
+    230.0
+  ]
+}

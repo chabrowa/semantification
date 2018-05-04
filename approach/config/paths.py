@@ -1,6 +1,6 @@
-subjectFile = '/Users/emiliakacprzak/Code/papers/semantification/data/subject_column.csv'
+#subjectFile = '/Users/emiliakacprzak/Code/papers/semantification/data/subject_column.csv'
 #datasetsPath = '/Users/emiliakacprzak/Code/papers/semantification/data/testdata/tables/'
-mappingsPath = '/Users/emiliakacprzak/Code/papers/semantification/data/testdata/mappings/'
+#mappingsPath = '/Users/emiliakacprzak/Code/papers/semantification/data/testdata/mappings/'
 
 
 noRowsToCheck = 10
@@ -14,4 +14,10 @@ minPopularity = 5
 #evaluationPath = '/Users/emiliakacprzak/Code/papers/semantification/benchmark_labels/'
 #evaluationPath = '/Users/emiliakacprzak/Code/papers/semantification/benchmark_labels_new/'
 
-evaluationPath = '/Users/emiliakacprzak/Code/papers/semantification/benchmark_new/'
+
+
+#evaluationPath = '/Users/emiliakacprzak/Code/papers/semantification/benchmark_new/'
+#localdatabasePath = '/Users/emiliakacprzak/Code/papers/semantification/localdatabase/'
+
+evaluationPath = '/data/mll/semantification/benchmark_new/'
+locadatabasePath = '/data/mll/semantification/localdatabase/'

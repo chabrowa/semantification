@@ -1,0 +1,270 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/activeYearsStartYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "year", 
+          0.299
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.3019
+        ], 
+        [
+          "openingYear", 
+          0.3029
+        ], 
+        [
+          "yearOfConstruction", 
+          0.3089
+        ]
+      ], 
+      "maj": [
+        [
+          "year", 
+          5.0
+        ], 
+        [
+          "openingYear", 
+          2.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          2.0
+        ], 
+        [
+          "yearOfConstruction", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/NCAATeamSeason (year)", 
+          0.2894
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeamSeason (year)", 
+          0.2976
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          0.2982
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          0.2982
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (openingYear)", 
+          0.2982
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsSeason (year)", 
+          0.299
+        ], 
+        [
+          "http://dbpedia.org/ontology/SnookerPlayer (activeYearsEndYear)", 
+          0.3013
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (activeYearsEndYear)", 
+          0.3013
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.3019
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.3019
+        ], 
+        [
+          "http://dbpedia.org/ontology/Actor (activeYearsEndYear)", 
+          0.3026
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (activeYearsEndYear)", 
+          0.3026
+        ], 
+        [
+          "http://dbpedia.org/ontology/MotorsportSeason (year)", 
+          0.3043
+        ], 
+        [
+          "http://dbpedia.org/ontology/FootballLeagueSeason (year)", 
+          0.3071
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.3076
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.3076
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.3076
+        ], 
+        [
+          "http://dbpedia.org/ontology/PowerStation (openingYear)", 
+          0.3076
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (yearOfConstruction)", 
+          0.3089
+        ], 
+        [
+          "http://dbpedia.org/ontology/Train (yearOfConstruction)", 
+          0.3089
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/SportsSeason (year)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Actor (activeYearsEndYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeamSeason (year)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Train (yearOfConstruction)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/FootballLeagueSeason (year)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NCAATeamSeason (year)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MotorsportSeason (year)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SnookerPlayer (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (yearOfConstruction)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PowerStation (openingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "NCAATeamSeason[year]", 
+      0.2894
+    ], 
+    [
+      "SportsTeamSeason[year]", 
+      0.2964
+    ], 
+    [
+      "SportsSeason[year]", 
+      0.298
+    ], 
+    [
+      "PublicTransitSystem[openingYear]>(type|Commuter_rail)", 
+      0.2982
+    ], 
+    [
+      "SnookerPlayer[activeYearsEndYear]", 
+      0.3013
+    ], 
+    [
+      "Actor[activeYearsEndYear]>(country|China)>(occupation|Actor)", 
+      0.3026
+    ], 
+    [
+      "MotorsportSeason[year]", 
+      0.3043
+    ], 
+    [
+      "FootballLeagueSeason[year]", 
+      0.3071
+    ], 
+    [
+      "PowerStation[openingYear]", 
+      0.3076
+    ], 
+    [
+      "Train[yearOfConstruction]>(manufacturer|Japan_Transport_Engineering_Company)", 
+      0.3089
+    ]
+  ], 
+  "values": [
+    2014.0, 
+    1974.0, 
+    1995.0, 
+    2031.0, 
+    2002.0, 
+    2000.0, 
+    2007.0, 
+    1952.0, 
+    1922.0, 
+    2037.0, 
+    2069.0, 
+    189.0, 
+    2030.0, 
+    1993.0, 
+    1944.0
+  ]
+}

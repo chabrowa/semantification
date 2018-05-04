@@ -1,0 +1,267 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.0805
+        ], 
+        [
+          "areaLand", 
+          0.0837
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          5.0
+        ], 
+        [
+          "areaLand", 
+          5.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.0747
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.0794
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.0794
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.0806
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.0821
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          0.0823
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaLand)", 
+          0.084
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.0841
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.0841
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.0841
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          0.0863
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Town (areaLand)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "City[areaTotal]>(isPartOf|Oregon)", 
+      0.0747
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Slovenia)>(isPartOf|Gori%C5%A1ka_Statistical_Region)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.08
+    ], 
+    [
+      "Town[areaLand]>(isPartOf|Virginia)", 
+      0.0805
+    ], 
+    [
+      "Location[areaTotal]>(country|Slovenia)>(isPartOf|Gori%C5%A1ka_Statistical_Region)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0812
+    ], 
+    [
+      "Location[areaLand]>(isPartOf|Kentucky)>(timeZone|Central_Time_Zone)", 
+      0.0823
+    ], 
+    [
+      "Town[areaLand]>(isPartOf|Virginia)>(country|United_States)", 
+      0.0829
+    ], 
+    [
+      "Location[areaTotal]>(country|Slovenia)>(isPartOf|Gori%C5%A1ka_Statistical_Region)", 
+      0.0833
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Slovenia)>(isPartOf|Gori%C5%A1ka_Statistical_Region)", 
+      0.0835
+    ], 
+    [
+      "City[areaLand]>(isPartOf|Oregon)", 
+      0.0863
+    ], 
+    [
+      "Town[areaLand]>(isPartOf|Virginia)>(country|United_States)>(type|Town)", 
+      0.0865
+    ]
+  ], 
+  "values": [
+    1550718.4004327115, 
+    11905613345.46097, 
+    514597.0212219707, 
+    11013191.553570533, 
+    5376414.840989023, 
+    4320399.5938648395, 
+    858607.0726162754, 
+    6968973.054195536, 
+    5156599.966098415, 
+    1651469.1795697133, 
+    581649.7078011298, 
+    21658986.22420689, 
+    11098199.309527032, 
+    8205041.232087529, 
+    10536214.599917375, 
+    1177856.7511862598, 
+    3428413.094511832, 
+    3772608.8813209096, 
+    12097717.053790983, 
+    1498190.4621748496, 
+    749278.5523656211, 
+    928621.8024561281, 
+    1469474.6913866217, 
+    18939491.842688993, 
+    17841390.670584157, 
+    11589670.550221918, 
+    267914.7640490249, 
+    15142244.19944439, 
+    2749454.5189682273, 
+    54401010.2302488, 
+    8713647.54498049, 
+    4293176.813689529, 
+    11946107.861089509, 
+    2803918.844388434, 
+    3614236.71290328, 
+    767768.4810969016, 
+    4309785.158169636, 
+    33428621.936116286, 
+    2111763.68753466, 
+    6091432.240149308, 
+    101218759.46911122, 
+    2790952.5326432604, 
+    215792.6909048672, 
+    1370408.2769850101, 
+    6823337.761132573, 
+    1285182.1602020334, 
+    163044.57655558156, 
+    553151.9752453353, 
+    2682291.4713489804, 
+    2255326.779650314, 
+    252595.1181879121, 
+    5462263.371234403, 
+    29522768.783568654, 
+    1624690.174948266, 
+    2835023.1010829946, 
+    37388061.5886581, 
+    5448230.3748723995, 
+    3718349.845354052, 
+    7612223636.180542, 
+    1459023338.7387543, 
+    3928793.229561464, 
+    7517350.841243385, 
+    2274299.259168088, 
+    7394197.97215319, 
+    8647893.022561608, 
+    474178.86125562113, 
+    8932728.60586801, 
+    2676403.755635131, 
+    3026096.7388982233, 
+    2505708.897653913, 
+    2219727.708857922, 
+    11933509511.999327, 
+    1511171.664821323, 
+    6428927.362095705, 
+    2341255.6580888736, 
+    395769.13594223047, 
+    942302.0180394849, 
+    4128217.5676770634, 
+    3984493.712995843, 
+    3315739.386833242, 
+    3769445.381909082, 
+    4319930.611132824, 
+    3757119.7201726977, 
+    5564873.889541002, 
+    4823121.635229017, 
+    7492400.873612912, 
+    650990.4123112316, 
+    1935757.461414071, 
+    18168121.04712999, 
+    100505.48555457561, 
+    8346514.53267909, 
+    15563348.395749837, 
+    21191620.620086104, 
+    7424980.727501832, 
+    6063340.250525178, 
+    1280714.0652339575, 
+    60344609.60038613, 
+    633629.1292669629, 
+    723465.6596661569, 
+    1523428.8314773177
+  ]
+}

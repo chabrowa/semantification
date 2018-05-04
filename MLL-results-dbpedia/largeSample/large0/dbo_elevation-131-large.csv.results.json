@@ -1,0 +1,394 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/elevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "minimumElevation", 
+          0.0977
+        ], 
+        [
+          "elevation", 
+          0.0978
+        ], 
+        [
+          "populationDensity", 
+          0.0994
+        ], 
+        [
+          "maximumElevation", 
+          0.107
+        ]
+      ], 
+      "maj": [
+        [
+          "minimumElevation", 
+          4.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "maximumElevation", 
+          2.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.0915
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.0915
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.0916
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.0923
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (elevation)", 
+          0.0923
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (elevation)", 
+          0.0935
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          0.0935
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.0978
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.0994
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.0997
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (minimumElevation)", 
+          0.1028
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          0.1069
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (maximumElevation)", 
+          0.107
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (maximumElevation)", 
+          0.107
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.107
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          0.107
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[minimumElevation]>(region|Languedoc-Roussillon)>(department|Pyr%C3%A9n%C3%A9es-Orientales)", 
+      0.0915
+    ], 
+    [
+      "Location[minimumElevation]>(region|Languedoc-Roussillon)>(department|Pyr%C3%A9n%C3%A9es-Orientales)", 
+      0.0916
+    ], 
+    [
+      "Island[elevation]", 
+      0.0923
+    ], 
+    [
+      "Building[elevation]", 
+      0.0935
+    ], 
+    [
+      "Location[populationDensity]>(timeZone|Pacific_Time_Zone)>(country|Canada)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0994
+    ], 
+    [
+      "ProtectedArea[minimumElevation]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1009
+    ], 
+    [
+      "ProtectedArea[minimumElevation]", 
+      0.1067
+    ], 
+    [
+      "Location[maximumElevation]>(country|Greece)", 
+      0.1069
+    ], 
+    [
+      "AdministrativeRegion[maximumElevation]>(country|Greece)", 
+      0.107
+    ], 
+    [
+      "Place[elevation]", 
+      0.1076
+    ]
+  ], 
+  "values": [
+    189.58599999999998, 
+    243.84, 
+    422.148, 
+    175.565, 
+    177.08900000000003, 
+    569.062, 
+    818.0830000000001, 
+    1743.0, 
+    459.029, 
+    175.87, 
+    474.87800000000004, 
+    697.078, 
+    32.9184, 
+    78.9432, 
+    442.874, 
+    1190.85, 
+    170.078, 
+    477.5, 
+    472.135, 
+    11.8872, 
+    419.1, 
+    56.9976, 
+    73.152, 
+    409.95599999999996, 
+    989.076, 
+    299.009, 
+    232.0, 
+    1260.04, 
+    3250.0, 
+    1438.96, 
+    1470.66, 
+    2125.98, 
+    223.114, 
+    22.86, 
+    141.122, 
+    1432.56, 
+    3.9624, 
+    277.368, 
+    299.923, 
+    152.4, 
+    13.1064, 
+    12.0, 
+    337.10900000000004, 
+    253.898, 
+    2103.12, 
+    1218.9, 
+    2438.4, 
+    106.07, 
+    320.04, 
+    1676.4, 
+    599.846, 
+    35.9664, 
+    757.123, 
+    284.988, 
+    99.9744, 
+    181.051, 
+    223.114, 
+    460.0, 
+    0.0, 
+    832.1039999999999, 
+    380.0, 
+    1036.32, 
+    10.0584, 
+    72.8472, 
+    3.9624, 
+    128.016, 
+    427.939, 
+    220.98, 
+    641.909, 
+    110.03299999999999, 
+    597.1030000000001, 
+    54.864, 
+    42.9768, 
+    576.072, 
+    298.094, 
+    590.0930000000001, 
+    86.868, 
+    227.99, 
+    4.8768, 
+    1947.67, 
+    600.0, 
+    3.048, 
+    10.0584, 
+    10.9728, 
+    34.1376, 
+    498.043, 
+    238.049, 
+    802.0, 
+    96.012, 
+    188.976, 
+    1750.0, 
+    1036.32, 
+    732.13, 
+    1036.32, 
+    100.889, 
+    341.986, 
+    1371.6, 
+    2315.87, 
+    231.03799999999998, 
+    10.0584, 
+    17.0688, 
+    877.0, 
+    324.91700000000003, 
+    84.1248, 
+    20.0, 
+    491.94699999999995, 
+    512.0, 
+    6.096, 
+    1334.11, 
+    472.44, 
+    3.9624, 
+    1207.0, 
+    975.36, 
+    3.048, 
+    490.11800000000005, 
+    1592.88, 
+    326.13599999999997, 
+    128.93, 
+    644.957, 
+    954.0239999999999, 
+    3.048, 
+    2.1336, 
+    412.09, 
+    0.0, 
+    3.9624, 
+    1828.8, 
+    434.035, 
+    423.977, 
+    67.056, 
+    107.899, 
+    2089.1, 
+    7.0104, 
+    3.048, 
+    214.88400000000001, 
+    291.084, 
+    333.14599999999996, 
+    95.0976, 
+    2.1336, 
+    3.048, 
+    387.0, 
+    1524.0, 
+    47.8536, 
+    46.9392, 
+    0.9144, 
+    609.0, 
+    1554.48, 
+    1534.06, 
+    1380.74, 
+    264.871, 
+    175.26, 
+    3.048, 
+    281.026, 
+    573.938, 
+    1329.84, 
+    188.976, 
+    369.11300000000006, 
+    2042.16, 
+    56.9976, 
+    157.886, 
+    2118.36, 
+    527.914, 
+    145.085, 
+    409.042, 
+    3.9624, 
+    9.144, 
+    324.002, 
+    0.9144, 
+    232.86700000000002, 
+    786.079, 
+    38.1, 
+    2.1336
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/activeYearsEndYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "activeYearsStartYear", 
+          0.0743
+        ], 
+        [
+          "draftYear", 
+          0.0803
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.0927
+        ]
+      ], 
+      "maj": [
+        [
+          "draftYear", 
+          6.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          3.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Athlete (activeYearsStartYear)", 
+          0.0743
+        ], 
+        [
+          "http://dbpedia.org/ontology/IceHockeyPlayer (activeYearsStartYear)", 
+          0.0743
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (activeYearsStartYear)", 
+          0.0743
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          0.0743
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.0743
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (draftYear)", 
+          0.0803
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (draftYear)", 
+          0.0835
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (draftYear)", 
+          0.0882
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (draftYear)", 
+          0.0898
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.0904
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (activeYearsEndYear)", 
+          0.0904
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wrestler (activeYearsEndYear)", 
+          0.0904
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.0927
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsEndYear)", 
+          0.0939
+        ], 
+        [
+          "http://dbpedia.org/ontology/Group (activeYearsEndYear)", 
+          0.0939
+        ], 
+        [
+          "http://dbpedia.org/ontology/Band (activeYearsEndYear)", 
+          0.0939
+        ], 
+        [
+          "http://dbpedia.org/ontology/IceHockeyPlayer (draftYear)", 
+          0.0994
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (draftYear)", 
+          0.0994
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Agent (draftYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (draftYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (draftYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/IceHockeyPlayer (activeYearsStartYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Group (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (draftYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Band (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (draftYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/IceHockeyPlayer (draftYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wrestler (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Athlete[draftYear]", 
+      0.0644
+    ], 
+    [
+      "Person[draftYear]", 
+      0.0644
+    ], 
+    [
+      "Agent[draftYear]", 
+      0.0644
+    ], 
+    [
+      "IceHockeyPlayer[activeYearsStartYear]>(league|National_League_A)>(birthPlace|Switzerland)", 
+      0.0743
+    ], 
+    [
+      "BasketballPlayer[draftYear]", 
+      0.0898
+    ], 
+    [
+      "Wrestler[activeYearsEndYear]", 
+      0.0904
+    ], 
+    [
+      "Band[activeYearsEndYear]", 
+      0.0939
+    ], 
+    [
+      "Group[activeYearsEndYear]", 
+      0.0939
+    ], 
+    [
+      "WinterSportPlayer[draftYear]", 
+      0.0994
+    ], 
+    [
+      "IceHockeyPlayer[draftYear]", 
+      0.0994
+    ]
+  ], 
+  "values": [
+    1989.0, 
+    2001.0, 
+    2004.0, 
+    1972.0, 
+    1974.0, 
+    1971.0, 
+    2011.0, 
+    2009.0, 
+    1995.0, 
+    1969.0, 
+    1981.0, 
+    2004.0, 
+    2012.0, 
+    2002.0, 
+    2009.0, 
+    1997.0, 
+    1987.0, 
+    2004.0, 
+    1976.0, 
+    2012.0, 
+    1949.0, 
+    1997.0, 
+    1984.0, 
+    2009.0, 
+    1991.0, 
+    1996.0, 
+    1994.0, 
+    2007.0, 
+    1992.0, 
+    1966.0, 
+    2005.0, 
+    2002.0
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/draftYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "openingYear", 
+          0.1998
+        ], 
+        [
+          "foundingYear", 
+          0.1999
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.2
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          4.0
+        ], 
+        [
+          "foundingYear", 
+          4.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          0.1991
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.1991
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.1997
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.1997
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.1997
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.1999
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.1999
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsEndYear)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bank (foundingYear)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayStation (openingYear)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (foundingYear)", 
+          0.2
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayStation (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bank (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Bridge[openingYear]", 
+      0.1991
+    ], 
+    [
+      "Organisation[foundingYear]", 
+      0.1998
+    ], 
+    [
+      "Agent[foundingYear]", 
+      0.1998
+    ], 
+    [
+      "Agent[activeYearsEndYear]", 
+      0.1999
+    ], 
+    [
+      "RailwayStation[openingYear]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2
+    ], 
+    [
+      "Station[openingYear]>(location|China)>(operatedBy|Ministry_of_Railways_(China))", 
+      0.2
+    ], 
+    [
+      "Location[openingYear]>(location|China)>(operatedBy|Ministry_of_Railways_(China))", 
+      0.2
+    ], 
+    [
+      "Organisation[activeYearsEndYear]", 
+      0.2
+    ], 
+    [
+      "SportsTeam[foundingYear]", 
+      0.2
+    ], 
+    [
+      "Bank[foundingYear]", 
+      0.2
+    ]
+  ], 
+  "values": [
+    1911.0, 
+    2050.0, 
+    1935.0, 
+    1924.0, 
+    1920.0, 
+    1922.0, 
+    2001.0, 
+    1944.0, 
+    2020.0, 
+    2058.0, 
+    1961.0, 
+    1919.0, 
+    1978.0, 
+    2007.0, 
+    1944.0, 
+    1916.0, 
+    1999.0, 
+    1906.0, 
+    1941.0, 
+    1964.0, 
+    1903.0, 
+    1914.0, 
+    2051.0, 
+    2057.0, 
+    1984.0, 
+    2043.0, 
+    2029.0, 
+    1953.0, 
+    1944.0, 
+    1987.0, 
+    1969.0, 
+    1965.0, 
+    1930.0, 
+    1961.0, 
+    2010.0, 
+    2024.0, 
+    2068.0, 
+    2092.0, 
+    1953.0, 
+    1928.0, 
+    1924.0, 
+    1910.0, 
+    1911.0, 
+    1994.0, 
+    1898.0, 
+    1946.0, 
+    2002.0, 
+    2079.0, 
+    1992.0, 
+    1952.0, 
+    1905.0, 
+    2052.0, 
+    2004.0, 
+    1978.0, 
+    1978.0, 
+    1925.0, 
+    2010.0, 
+    2079.0, 
+    1977.0, 
+    1910.0, 
+    1933.0, 
+    1991.0, 
+    1975.0, 
+    2066.0, 
+    1940.0, 
+    1997.0, 
+    1915.0, 
+    2009.0, 
+    1938.0, 
+    1950.0
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/activeYearsStartYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.2965
+        ], 
+        [
+          "foundingYear", 
+          0.3014
+        ], 
+        [
+          "areaCode", 
+          0.3143
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.3269
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          6.0
+        ], 
+        [
+          "areaCode", 
+          2.0
+        ], 
+        [
+          "foundingYear", 
+          1.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (elevation)", 
+          0.2762
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (elevation)", 
+          0.2762
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.2762
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2931
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.2986
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (foundingYear)", 
+          0.3014
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (foundingYear)", 
+          0.3014
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (foundingYear)", 
+          0.3014
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.31
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.31
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.31
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          0.3152
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.3269
+        ], 
+        [
+          "http://dbpedia.org/ontology/Royalty (activeYearsEndYear)", 
+          0.3269
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.3269
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          17.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Royalty (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Lake[elevation]>(location|Glacier_National_Park_(U.S.))", 
+      0.2762
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Jammu_and_Kashmir)>(country|India)", 
+      0.2903
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Jammu_and_Kashmir)>(country|India)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2935
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Jammu_and_Kashmir)", 
+      0.299
+    ], 
+    [
+      "Settlement[foundingYear]", 
+      0.3014
+    ], 
+    [
+      "Location[areaCode]>(country|England)>(country|Cumbria)", 
+      0.3077
+    ], 
+    [
+      "Town[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Utah)", 
+      0.31
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)>(country|United_States)", 
+      0.3101
+    ], 
+    [
+      "Location[areaCode]>(country|England)>(country|Cumbria)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3209
+    ], 
+    [
+      "Royalty[activeYearsEndYear]>(deathPlace|France)", 
+      0.3269
+    ]
+  ], 
+  "values": [
+    1504.0, 
+    1943.0
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/weight"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.091
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.0903
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.0908
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0911
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0911
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          18.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          6.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[populationTotal]>(country|France)>(department|Moselle)", 
+      0.0822
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(department|Moselle)", 
+      0.0831
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(department|Puy-de-D%C3%B4me)", 
+      0.0895
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(department|Puy-de-D%C3%B4me)", 
+      0.0896
+    ], 
+    [
+      "Settlement[populationTotal]>(type|Census-designated_place)>(isPartOf|West_Virginia)>(timeZone|Eastern_Time_Zone)", 
+      0.0916
+    ], 
+    [
+      "Settlement[populationTotal]>(type|Census-designated_place)>(isPartOf|West_Virginia)", 
+      0.0919
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(region|Limousin)", 
+      0.0938
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(region|Limousin)", 
+      0.0938
+    ], 
+    [
+      "Location[populationTotal]>(country|France)", 
+      0.097
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)", 
+      0.0979
+    ]
+  ], 
+  "values": [
+    412.32620964626125, 
+    666.3360837891937, 
+    480.95780518028494, 
+    107.36907831432373, 
+    187.23116398929545, 
+    20769.587107823503, 
+    663.1010872052788, 
+    355.03477745419036, 
+    2069.332342345114, 
+    5753.350812137706, 
+    364.96455450359974, 
+    286.51218231949576, 
+    345.56654327513064, 
+    448.3168066749615, 
+    605.7001945913605, 
+    203.6669317890154, 
+    98.96764447828961, 
+    8909.421692170346, 
+    600.6338999669564, 
+    687.9828353124085, 
+    1354.39580481726, 
+    420.3078139656695, 
+    59.84349578121292, 
+    134.35822040245236, 
+    715.1165631271991, 
+    508.5203002409055, 
+    487.9245715565682, 
+    412.2259415569916, 
+    218.02843846284713, 
+    355.7988131174914, 
+    468.800786273929, 
+    6724.2937094214585, 
+    727.8810456253232, 
+    3.1154410040994662, 
+    178.01555093910483, 
+    459.1704467497382, 
+    1197.416042690261, 
+    12.552969869757298, 
+    110.24877149886754, 
+    12201.989013044198, 
+    7052.385772102274, 
+    50.15589327228041, 
+    2211.021893160155, 
+    326.58275431093017, 
+    1102.3297707654249, 
+    240.4069835568823, 
+    169.08487884930454, 
+    12.89106341329302, 
+    191.08291879489838, 
+    1457.899414598262, 
+    459.9068090551176, 
+    1344.43492886656
+  ]
+}
