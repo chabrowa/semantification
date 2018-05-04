@@ -1,0 +1,260 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/formationYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "activeYearsEndYear", 
+          0.2
+        ], 
+        [
+          "deathYear", 
+          0.2073
+        ], 
+        [
+          "openingYear", 
+          0.2098
+        ], 
+        [
+          "year", 
+          0.2142
+        ], 
+        [
+          "foundingYear", 
+          0.2169
+        ]
+      ], 
+      "maj": [
+        [
+          "foundingYear", 
+          3.0
+        ], 
+        [
+          "year", 
+          3.0
+        ], 
+        [
+          "deathYear", 
+          2.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          1.0
+        ], 
+        [
+          "openingYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/RecordLabel (foundingYear)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/ScreenWriter (deathYear)", 
+          0.205
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          0.2073
+        ], 
+        [
+          "http://dbpedia.org/ontology/Writer (deathYear)", 
+          0.2073
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          0.2073
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.2098
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.2098
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.2098
+        ], 
+        [
+          "http://dbpedia.org/ontology/PowerStation (openingYear)", 
+          0.2098
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeamSeason (year)", 
+          0.2142
+        ], 
+        [
+          "http://dbpedia.org/ontology/FootballLeagueSeason (year)", 
+          0.2142
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsSeason (year)", 
+          0.2142
+        ], 
+        [
+          "http://dbpedia.org/ontology/NationalFootballLeagueSeason (year)", 
+          0.2142
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.2169
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.2169
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          0.2169
+        ], 
+        [
+          "http://dbpedia.org/ontology/Publisher (foundingYear)", 
+          0.227
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/NationalFootballLeagueSeason (year)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeamSeason (year)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/FootballLeagueSeason (year)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsSeason (year)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Publisher (foundingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RecordLabel (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Writer (deathYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PowerStation (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ScreenWriter (deathYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "RecordLabel[foundingYear]>(genre|Blues)", 
+      0.2
+    ], 
+    [
+      "NationalFootballLeagueSeason[year]>(team|Green_Bay_Packers)", 
+      0.2
+    ], 
+    [
+      "Person[activeYearsEndYear]>(deathPlace|United_States)", 
+      0.2
+    ], 
+    [
+      "ScreenWriter[deathYear]", 
+      0.205
+    ], 
+    [
+      "Writer[deathYear]", 
+      0.2097
+    ], 
+    [
+      "PowerStation[openingYear]>(primaryFuelType|Bituminous_coal)", 
+      0.2098
+    ], 
+    [
+      "Publisher[foundingYear]", 
+      0.2203
+    ], 
+    [
+      "NationalFootballLeagueSeason[year]>(team|Chicago_Bears)", 
+      0.2211
+    ], 
+    [
+      "NationalFootballLeagueSeason[year]>(team|Philadelphia_Eagles)", 
+      0.2216
+    ], 
+    [
+      "Publisher[foundingYear]>(country|United_Kingdom)", 
+      0.2304
+    ]
+  ], 
+  "values": [
+    1929.0, 
+    1960.0, 
+    2042.0, 
+    1985.0, 
+    1961.0
+  ]
+}

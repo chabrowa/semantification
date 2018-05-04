@@ -1,0 +1,423 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/openingYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "openingYear", 
+          0.1388
+        ], 
+        [
+          "yearOfConstruction", 
+          0.1523
+        ], 
+        [
+          "foundingYear", 
+          0.1531
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.1535
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          6.0
+        ], 
+        [
+          "yearOfConstruction", 
+          2.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          1.0
+        ], 
+        [
+          "foundingYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.1249
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.1249
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          0.1269
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.1284
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.1284
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tunnel (openingYear)", 
+          0.1354
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          0.1493
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          0.1493
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (openingYear)", 
+          0.1493
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (yearOfConstruction)", 
+          0.1523
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (yearOfConstruction)", 
+          0.1523
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (yearOfConstruction)", 
+          0.1523
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (yearOfConstruction)", 
+          0.1523
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.1531
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.1531
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (foundingYear)", 
+          0.1531
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.1535
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.1535
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cardinal (activeYearsEndYear)", 
+          0.1535
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsEndYear)", 
+          0.1535
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (yearOfConstruction)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (yearOfConstruction)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (yearOfConstruction)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cardinal (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tunnel (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (yearOfConstruction)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (openingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "RouteOfTransportation[openingYear]", 
+      0.1229
+    ], 
+    [
+      "Bridge[openingYear]", 
+      0.1269
+    ], 
+    [
+      "Tunnel[openingYear]", 
+      0.1354
+    ], 
+    [
+      "Agent[openingYear]", 
+      0.1493
+    ], 
+    [
+      "PublicTransitSystem[openingYear]", 
+      0.1493
+    ], 
+    [
+      "Organisation[openingYear]", 
+      0.1493
+    ], 
+    [
+      "RouteOfTransportation[yearOfConstruction]", 
+      0.1523
+    ], 
+    [
+      "Infrastructure[yearOfConstruction]", 
+      0.1523
+    ], 
+    [
+      "SportsTeam[foundingYear]", 
+      0.1531
+    ], 
+    [
+      "Cardinal[activeYearsEndYear]", 
+      0.1535
+    ]
+  ], 
+  "values": [
+    1989.0, 
+    2013.0, 
+    2007.0, 
+    1922.0, 
+    1854.0, 
+    1992.0, 
+    2015.0, 
+    2000.0, 
+    1969.0, 
+    1898.0, 
+    2006.0, 
+    1919.0, 
+    2017.0, 
+    1995.0, 
+    1987.0, 
+    1873.0, 
+    1815.0, 
+    1924.0, 
+    2002.0, 
+    1891.0, 
+    2015.0, 
+    1902.0, 
+    2004.0, 
+    1970.0, 
+    1909.0, 
+    1908.0, 
+    1989.0, 
+    1927.0, 
+    1885.0, 
+    1866.0, 
+    1876.0, 
+    1920.0, 
+    1913.0, 
+    1871.0, 
+    1986.0, 
+    2000.0, 
+    1865.0, 
+    1863.0, 
+    1999.0, 
+    1974.0, 
+    2017.0, 
+    2010.0, 
+    1871.0, 
+    1992.0, 
+    1997.0, 
+    1864.0, 
+    1897.0, 
+    2003.0, 
+    1865.0, 
+    1987.0, 
+    2020.0, 
+    1857.0, 
+    1866.0, 
+    1987.0, 
+    1869.0, 
+    2010.0, 
+    1860.0, 
+    1919.0, 
+    1870.0, 
+    1939.0, 
+    1993.0, 
+    2007.0, 
+    2010.0, 
+    1910.0, 
+    1998.0, 
+    2014.0, 
+    1982.0, 
+    2016.0, 
+    1960.0, 
+    1988.0, 
+    2019.0, 
+    2014.0, 
+    1886.0, 
+    2019.0, 
+    1995.0, 
+    1924.0, 
+    1965.0, 
+    1824.0, 
+    1876.0, 
+    1984.0, 
+    1883.0, 
+    1895.0, 
+    1934.0, 
+    1995.0, 
+    1968.0, 
+    1978.0, 
+    2011.0, 
+    1922.0, 
+    2001.0, 
+    2020.0, 
+    1997.0, 
+    1897.0, 
+    1982.0, 
+    1923.0, 
+    1945.0, 
+    1989.0, 
+    1863.0, 
+    1994.0, 
+    2014.0, 
+    1992.0, 
+    2018.0, 
+    1877.0, 
+    1964.0, 
+    1867.0, 
+    1884.0, 
+    1847.0, 
+    1881.0, 
+    2013.0, 
+    2003.0, 
+    1876.0, 
+    2008.0, 
+    1964.0, 
+    1999.0, 
+    2008.0, 
+    2002.0, 
+    2007.0, 
+    2019.0, 
+    1993.0, 
+    1879.0, 
+    1988.0, 
+    2017.0, 
+    2012.0, 
+    1971.0, 
+    1947.0, 
+    1871.0, 
+    1979.0, 
+    1995.0, 
+    2018.0, 
+    1878.0, 
+    1868.0, 
+    1848.0, 
+    1889.0, 
+    2003.0, 
+    1938.0, 
+    1882.0, 
+    1991.0, 
+    1920.0, 
+    2010.0, 
+    1983.0, 
+    1872.0, 
+    1848.0, 
+    2004.0, 
+    1909.0, 
+    2003.0, 
+    1900.0, 
+    1888.0, 
+    2003.0, 
+    1977.0, 
+    2008.0, 
+    1896.0, 
+    17.0, 
+    2015.0, 
+    1908.0, 
+    2010.0, 
+    1892.0, 
+    1898.0, 
+    1993.0, 
+    1975.0, 
+    1879.0, 
+    1899.0, 
+    1972.0, 
+    1846.0, 
+    2010.0, 
+    2002.0, 
+    2011.0, 
+    1978.0, 
+    1891.0, 
+    1895.0
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfGoals"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.1755
+        ], 
+        [
+          "number", 
+          0.1755
+        ], 
+        [
+          "numberOfMatches", 
+          0.176
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          4.0
+        ], 
+        [
+          "number", 
+          4.0
+        ], 
+        [
+          "numberOfMatches", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1746
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1746
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1746
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.1755
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.1755
+        ], 
+        [
+          "http://dbpedia.org/ontology/TimePeriod (numberOfMatches)", 
+          0.176
+        ], 
+        [
+          "http://dbpedia.org/ontology/CareerStation (numberOfMatches)", 
+          0.176
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.1765
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.1783
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1783
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          0.1833
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TimePeriod (numberOfMatches)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/CareerStation (numberOfMatches)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Town[populationDensity]>(isPartOf|Michigan)", 
+      0.1671
+    ], 
+    [
+      "Person[number]", 
+      0.1728
+    ], 
+    [
+      "Agent[number]", 
+      0.1728
+    ], 
+    [
+      "Athlete[number]", 
+      0.1732
+    ], 
+    [
+      "TimePeriod[numberOfMatches]", 
+      0.176
+    ], 
+    [
+      "CareerStation[numberOfMatches]", 
+      0.176
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Michigan)>(type|Township_(United_States))>(timeZone|Eastern_Time_Zone)", 
+      0.1783
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Michigan)>(type|Township_(United_States))>(timeZone|Eastern_Time_Zone)", 
+      0.1783
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Pennsylvania)", 
+      0.1784
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Goalkeeper_(association_football))>(birthPlace|Indonesia)", 
+      0.1833
+    ]
+  ], 
+  "values": [
+    25.0, 
+    2.0, 
+    21.0, 
+    66.0, 
+    10.0, 
+    82.0, 
+    3.0, 
+    22.0
+  ]
+}

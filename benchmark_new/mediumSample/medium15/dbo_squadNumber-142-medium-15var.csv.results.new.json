@@ -1,0 +1,222 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/squadNumber"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "number", 
+          0.1216
+        ], 
+        [
+          "populationDensity", 
+          0.1364
+        ]
+      ], 
+      "maj": [
+        [
+          "number", 
+          5.0
+        ], 
+        [
+          "populationDensity", 
+          5.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/SportsManager (number)", 
+          0.1176
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.1216
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.1216
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          0.1275
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.1275
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerManager (number)", 
+          0.1304
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1332
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1353
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1371
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1371
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.1423
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsManager (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerManager (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "SoccerManager[number]", 
+      0.1049
+    ], 
+    [
+      "SportsManager[number]", 
+      0.1049
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Australia)", 
+      0.1251
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Zamora)", 
+      0.1273
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Zamora)", 
+      0.1273
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Malaysia)", 
+      0.1299
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Wisconsin)", 
+      0.1409
+    ], 
+    [
+      "SoccerManager[number]>(position|Midfielder)", 
+      0.1431
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Wisconsin)>(type|Town)", 
+      0.1432
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Wisconsin)>(type|Town)", 
+      0.1432
+    ]
+  ], 
+  "values": [
+    6.0, 
+    8.0, 
+    23.0, 
+    4.0, 
+    16.0, 
+    2.0, 
+    23.0, 
+    4.0, 
+    17.0, 
+    20.0, 
+    23.0, 
+    6.0, 
+    11.0, 
+    10.0, 
+    6.0, 
+    23.0, 
+    6.0, 
+    2.0, 
+    12.0, 
+    21.0, 
+    14.0, 
+    20.0, 
+    5.0, 
+    16.0, 
+    5.0, 
+    15.0, 
+    10.0, 
+    1.0, 
+    8.0, 
+    1.0, 
+    9.0, 
+    2.0, 
+    23.0, 
+    14.0, 
+    7.0, 
+    8.0, 
+    4.0, 
+    22.0, 
+    63.0, 
+    10.0, 
+    12.0, 
+    7.0, 
+    14.0, 
+    25.0, 
+    1.0, 
+    3.0, 
+    14.0, 
+    7.0, 
+    31.0, 
+    96.0, 
+    11.0, 
+    22.0, 
+    7.0, 
+    2.0, 
+    24.0
+  ]
+}

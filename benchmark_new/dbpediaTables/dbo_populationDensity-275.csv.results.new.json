@@ -1,0 +1,269 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationDensity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "length", 
+          0.1987
+        ], 
+        [
+          "elevation", 
+          0.2308
+        ], 
+        [
+          "number", 
+          0.2333
+        ], 
+        [
+          "height", 
+          0.2533
+        ], 
+        [
+          "populationDensity", 
+          0.2539
+        ]
+      ], 
+      "maj": [
+        [
+          "height", 
+          4.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ], 
+        [
+          "number", 
+          1.0
+        ], 
+        [
+          "length", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (length)", 
+          0.1987
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (length)", 
+          0.1987
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (elevation)", 
+          0.2308
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          0.2308
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2308
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (elevation)", 
+          0.2308
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          0.2333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.2333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.2333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.2333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (height)", 
+          0.2532
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (height)", 
+          0.2532
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.2533
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          0.2533
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.2533
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.2539
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.2539
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.2539
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.2539
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2539
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (height)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (height)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Ship[length]>(type|Patrol_boat)", 
+      0.1987
+    ], 
+    [
+      "Lighthouse[elevation]", 
+      0.2308
+    ], 
+    [
+      "Tower[elevation]", 
+      0.2308
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Goalkeeper_(association_football))>(birthPlace|Indonesia)", 
+      0.2333
+    ], 
+    [
+      "Dam[height]>(owner|Government_of_Maharashtra)>(22-rdf-syntax-ns#type|_Feature)>(owner|India)", 
+      0.2525
+    ], 
+    [
+      "Location[height]>(owner|Government_of_Maharashtra)>(22-rdf-syntax-ns#type|_Feature)>(owner|India)", 
+      0.2525
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|New_York)>(type|Town)>(governmentType|Town_council)", 
+      0.2539
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|New_York)>(type|Town)>(governmentType|Town_council)", 
+      0.2539
+    ], 
+    [
+      "Dam[height]>(owner|Government_of_Maharashtra)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2542
+    ], 
+    [
+      "Location[height]>(owner|Government_of_Maharashtra)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2542
+    ]
+  ], 
+  "values": [
+    120.0, 
+    21.6217, 
+    14.9, 
+    14.9422, 
+    28.9577, 
+    29.0
+  ]
+}

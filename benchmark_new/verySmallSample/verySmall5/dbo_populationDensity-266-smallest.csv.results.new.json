@@ -1,0 +1,267 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationDensity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.0838
+        ], 
+        [
+          "elevation", 
+          0.0931
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          6.0
+        ], 
+        [
+          "elevation", 
+          4.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.0836
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.0845
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.0853
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.0865
+        ], 
+        [
+          "http://dbpedia.org/ontology/Airport (elevation)", 
+          0.0882
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          0.0885
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (elevation)", 
+          0.0888
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.0931
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.0952
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1067
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (elevation)", 
+          0.1067
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Airport (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[populationDensity]", 
+      0.0777
+    ], 
+    [
+      "Location[populationDensity]", 
+      0.0807
+    ], 
+    [
+      "PopulatedPlace[populationDensity]", 
+      0.0807
+    ], 
+    [
+      "Place[populationDensity]", 
+      0.0807
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|New_York)", 
+      0.0877
+    ], 
+    [
+      "ArchitecturalStructure[elevation]", 
+      0.0879
+    ], 
+    [
+      "Airport[elevation]", 
+      0.0882
+    ], 
+    [
+      "Infrastructure[elevation]", 
+      0.0895
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Indiana)", 
+      0.0952
+    ], 
+    [
+      "Island[elevation]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1067
+    ]
+  ], 
+  "values": [
+    115.01831226227502, 
+    1.4649394875227482, 
+    27.727913602991496, 
+    699.7524034284739, 
+    233.62619005569923, 
+    11.444682856850797, 
+    0.8326630914951788, 
+    408.239015206888, 
+    32.044190418362426, 
+    12.164303256808287, 
+    535.5753453073058, 
+    385.91322805189907, 
+    463.1054181430989, 
+    2.1488760477100075, 
+    10.261254039695379, 
+    975.4682892221755, 
+    450.46889954219466, 
+    60.71491369208082, 
+    646.0936657115265, 
+    835.9917989442113, 
+    295.7382780156336, 
+    166.26235881460042, 
+    1.3373802365241938, 
+    728.1311689421066, 
+    71.65096972097568, 
+    4216.984734752723, 
+    16.97146600924085, 
+    852.847953653436, 
+    1193.9520479828025, 
+    383.0656112972457, 
+    0.698428075427426, 
+    55.516190480708644, 
+    54.34844240540347, 
+    186.53179845045943, 
+    8.559625640378712, 
+    53.186227964308806, 
+    308.57738855507057, 
+    34.82767254748475, 
+    1061.9765825567483, 
+    31.130460529213927, 
+    15.314006075859401, 
+    58.719969473794016, 
+    4.616844099683194, 
+    296.7010018348773, 
+    239.22539067054652, 
+    558.4714185511955, 
+    922.044595671679, 
+    128.24755163885396, 
+    43.98545634828446, 
+    1234.4771071951332, 
+    126.2093608765286, 
+    27.85787743100016, 
+    11.126809061602847, 
+    259.2204318277889, 
+    0.19269457252747624, 
+    1030.953579194925, 
+    1.72720061364534, 
+    14.485151658770588, 
+    244.645060799546, 
+    12.502190774905447, 
+    331.6827676198604, 
+    806.6548617086133, 
+    3.537662242460496, 
+    1686.2004971062656, 
+    74.7381051169369, 
+    1153.43138341175, 
+    141.15947823046616, 
+    181.9150618979624, 
+    1873.4927942445293, 
+    14.751131906570583, 
+    753.8430318194125, 
+    690.8302696650563, 
+    10.29998152889667, 
+    118.58716893501163, 
+    10.221893691540565, 
+    512.7519504944794, 
+    516.1270786155956, 
+    139.70493767382794, 
+    8.316841295698659, 
+    387.55442493730794, 
+    14.64744789491702, 
+    36.13394399840905, 
+    43.797096334417766, 
+    103.80213918096787, 
+    1484.1045514758632, 
+    459.4457746070248, 
+    21.20624629832065, 
+    378.9946158407355, 
+    24.042279849666198, 
+    315.7858173627678, 
+    4.500165175181115, 
+    753.1534464091148, 
+    817.404184765969, 
+    7.393750643891094, 
+    10.166057198542113, 
+    468.1330921216901, 
+    13797.574054428418, 
+    350.22375910784115, 
+    32.02600228535902, 
+    1780.3894231196289
+  ]
+}

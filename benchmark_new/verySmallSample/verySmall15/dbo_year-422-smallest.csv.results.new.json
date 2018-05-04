@@ -1,0 +1,251 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/year"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "openingYear", 
+          0.1542
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.1553
+        ], 
+        [
+          "foundingYear", 
+          0.1667
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.1685
+        ]
+      ], 
+      "maj": [
+        [
+          "activeYearsEndYear", 
+          4.0
+        ], 
+        [
+          "foundingYear", 
+          3.0
+        ], 
+        [
+          "openingYear", 
+          2.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Dam (openingYear)", 
+          0.1542
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.1542
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.1542
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.1542
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryUnit (activeYearsStartYear)", 
+          0.1553
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.1553
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsStartYear)", 
+          0.1553
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.1667
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          0.1667
+        ], 
+        [
+          "http://dbpedia.org/ontology/Writer (activeYearsEndYear)", 
+          0.1667
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bank (foundingYear)", 
+          0.1667
+        ], 
+        [
+          "http://dbpedia.org/ontology/ScreenWriter (activeYearsEndYear)", 
+          0.1667
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.1667
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.1685
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.1685
+        ], 
+        [
+          "http://dbpedia.org/ontology/GridironFootballPlayer (activeYearsEndYear)", 
+          0.1738
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (activeYearsEndYear)", 
+          0.1738
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmericanFootballPlayer (activeYearsEndYear)", 
+          0.1738
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Bank (foundingYear)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Writer (activeYearsEndYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ScreenWriter (activeYearsEndYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryUnit (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmericanFootballPlayer (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/GridironFootballPlayer (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsStartYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Dam[openingYear]>(country|United_States)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1538
+    ], 
+    [
+      "Dam[openingYear]>(country|United_States)", 
+      0.1546
+    ], 
+    [
+      "MilitaryUnit[activeYearsStartYear]>(militaryBranch|Air_National_Guard)", 
+      0.1553
+    ], 
+    [
+      "Bank[foundingYear]>(product|Savings_account)>(type|Credit_union)", 
+      0.1667
+    ], 
+    [
+      "Bank[foundingYear]>(product|Savings_account)>(type|Credit_union)>(location|United_States)", 
+      0.1667
+    ], 
+    [
+      "Bank[foundingYear]>(product|Savings_account)>(type|Credit_union)>(location|United_States)>(product|Credit_card)", 
+      0.1667
+    ], 
+    [
+      "Writer[activeYearsEndYear]", 
+      0.1667
+    ], 
+    [
+      "ScreenWriter[activeYearsEndYear]", 
+      0.1667
+    ], 
+    [
+      "ScreenWriter[activeYearsEndYear]>(occupation|Screenwriter)", 
+      0.1667
+    ], 
+    [
+      "AmericanFootballPlayer[activeYearsEndYear]>(position|Halfback_(American_football))", 
+      0.1738
+    ]
+  ], 
+  "values": [
+    1877.0, 
+    1942.0, 
+    2020.0, 
+    1987.0, 
+    1943.0, 
+    1962.0, 
+    1961.0, 
+    1946.0, 
+    1878.0, 
+    1948.0, 
+    1957.0, 
+    1937.0
+  ]
+}

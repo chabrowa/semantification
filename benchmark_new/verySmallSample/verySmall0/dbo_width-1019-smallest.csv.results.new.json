@@ -1,0 +1,197 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/width"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.3466
+        ], 
+        [
+          "height", 
+          0.3556
+        ], 
+        [
+          "numberOfSeasons", 
+          0.357
+        ], 
+        [
+          "width", 
+          0.3571
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          5.0
+        ], 
+        [
+          "numberOfSeasons", 
+          2.0
+        ], 
+        [
+          "height", 
+          2.0
+        ], 
+        [
+          "width", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.3434
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.3434
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.3434
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.3453
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.3522
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (height)", 
+          0.3556
+        ], 
+        [
+          "http://dbpedia.org/ontology/Automobile (height)", 
+          0.3558
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          0.357
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          0.357
+        ], 
+        [
+          "http://dbpedia.org/ontology/Automobile (width)", 
+          0.3571
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (width)", 
+          0.3571
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Automobile (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Automobile (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (width)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Town[populationDensity]>(isPartOf|Kansas)", 
+      0.3273
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Nebraska)>(type|Civil_township)", 
+      0.3457
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Nebraska)", 
+      0.3457
+    ], 
+    [
+      "MeanOfTransportation[height]", 
+      0.3553
+    ], 
+    [
+      "Automobile[height]", 
+      0.3558
+    ], 
+    [
+      "Work[numberOfSeasons]", 
+      0.357
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]", 
+      0.357
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Minnesota)>(type|Township_(United_States))>(isPartOf|Polk_County,_Minnesota)", 
+      0.3571
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Minnesota)>(isPartOf|Polk_County,_Minnesota)", 
+      0.3571
+    ], 
+    [
+      "Automobile[width]>(layout|Rear-engine,_rear-wheel-drive_layout)", 
+      0.3571
+    ]
+  ], 
+  "values": [
+    0.0255, 
+    0.2, 
+    2.72, 
+    3.3, 
+    2.33, 
+    3.75, 
+    1.524, 
+    0.0388874, 
+    0.016891, 
+    1.63, 
+    1.4, 
+    0.1391, 
+    1.786, 
+    2.87
+  ]
+}

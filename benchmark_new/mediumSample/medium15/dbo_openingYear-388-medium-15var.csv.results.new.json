@@ -1,0 +1,209 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/openingYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.3197
+        ], 
+        [
+          "numberOfStudents", 
+          0.3439
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          7.0
+        ], 
+        [
+          "numberOfStudents", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          0.2389
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.3092
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.3162
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.3269
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.328
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.3285
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          0.3426
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.3439
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.3439
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.3439
+        ], 
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          0.344
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Mountain[elevation]>(locatedInArea|Norway)>(locatedInArea|Oppland)", 
+      0.2389
+    ], 
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)", 
+      0.3191
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Colorado)>(type|Census-designated_place)", 
+      0.3223
+    ], 
+    [
+      "School[numberOfStudents]>(state|Florida)>(type|State_school)>(country|United_States)", 
+      0.331
+    ], 
+    [
+      "School[numberOfStudents]>(state|Florida)>(type|State_school)", 
+      0.3333
+    ], 
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.3346
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.3346
+    ], 
+    [
+      "Volcano[elevation]>(locatedInArea|Indonesia)>(type|Stratovolcano)", 
+      0.3429
+    ], 
+    [
+      "Volcano[elevation]>(locatedInArea|Indonesia)", 
+      0.3458
+    ], 
+    [
+      "School[numberOfStudents]>(state|California)>(type|State_school)", 
+      0.3673
+    ]
+  ], 
+  "values": [
+    2283.0, 
+    1910.0, 
+    1962.0, 
+    2016.0, 
+    2068.0, 
+    2202.0, 
+    2236.0, 
+    2119.0, 
+    1934.0, 
+    2157.0, 
+    1696.0, 
+    2153.0, 
+    1663.0, 
+    2264.0, 
+    1999.0, 
+    1996.0, 
+    1772.0, 
+    2215.0, 
+    2225.0, 
+    1716.0, 
+    2105.0, 
+    1922.0, 
+    1981.0, 
+    3.0, 
+    2168.0, 
+    1741.0, 
+    2005.0, 
+    1779.0, 
+    2023.0, 
+    2042.0, 
+    2067.0, 
+    1747.0, 
+    2077.0, 
+    1852.0, 
+    2255.0, 
+    1701.0, 
+    2017.0, 
+    1992.0, 
+    1734.0, 
+    2013.0, 
+    2021.0, 
+    2032.0
+  ]
+}

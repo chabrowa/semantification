@@ -1,0 +1,257 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/width"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "height", 
+          0.1525
+        ], 
+        [
+          "width", 
+          0.1819
+        ], 
+        [
+          "populationDensity", 
+          0.2539
+        ], 
+        [
+          "numberOfSeasons", 
+          0.2769
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          4.0
+        ], 
+        [
+          "numberOfSeasons", 
+          2.0
+        ], 
+        [
+          "height", 
+          2.0
+        ], 
+        [
+          "width", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Weapon (height)", 
+          0.1525
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (height)", 
+          0.1525
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (width)", 
+          0.1819
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (width)", 
+          0.1819
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.2434
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.2539
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.2539
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2539
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.2591
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          0.2769
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          0.2769
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (width)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Device[height]", 
+      0.1525
+    ], 
+    [
+      "Weapon[height]", 
+      0.1525
+    ], 
+    [
+      "Device[width]", 
+      0.1819
+    ], 
+    [
+      "Weapon[width]", 
+      0.1819
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Nebraska)>(type|Civil_township)", 
+      0.2434
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Nebraska)", 
+      0.2434
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Soria)", 
+      0.2644
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Soria)", 
+      0.2644
+    ], 
+    [
+      "Work[numberOfSeasons]", 
+      0.2769
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]", 
+      0.2769
+    ]
+  ], 
+  "values": [
+    3.3528, 
+    0.0405, 
+    0.044704, 
+    2.0, 
+    1.9812, 
+    0.060325, 
+    2.4, 
+    0.039, 
+    3.4, 
+    2070.0, 
+    1.92, 
+    2.1, 
+    1.8288, 
+    3.0, 
+    2.53, 
+    2.2769999999999997, 
+    1.905, 
+    1.575, 
+    2.36, 
+    3.6576, 
+    1.9, 
+    3.25, 
+    2.3, 
+    2.02, 
+    1.7399, 
+    0.162, 
+    2.28, 
+    2.5, 
+    2.88, 
+    0.156, 
+    2.1336, 
+    0.251, 
+    3.0, 
+    3.15, 
+    2.35, 
+    2.1844, 
+    3.2, 
+    1.8288, 
+    2.1, 
+    2.134, 
+    2.63, 
+    2.99, 
+    3.27, 
+    3.755, 
+    2.23, 
+    2.78, 
+    1.93, 
+    2.94, 
+    0.027939999999999996, 
+    3.9, 
+    2.29, 
+    2.0, 
+    1.91, 
+    1.5748, 
+    2.4, 
+    1.8288, 
+    0.22, 
+    2.4384, 
+    0.20199999999999999, 
+    0.03, 
+    3.12, 
+    1.56, 
+    4.48, 
+    0.036000000000000004, 
+    3.2, 
+    3.32, 
+    2.06, 
+    2.72, 
+    2.4384, 
+    0.02286, 
+    0.0326, 
+    2.53, 
+    2.9, 
+    2.51
+  ]
+}

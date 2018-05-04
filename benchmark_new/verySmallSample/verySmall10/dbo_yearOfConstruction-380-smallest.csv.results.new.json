@@ -1,0 +1,185 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/yearOfConstruction"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "yearOfConstruction", 
+          0.3448
+        ], 
+        [
+          "foundingYear", 
+          0.3503
+        ]
+      ], 
+      "maj": [
+        [
+          "yearOfConstruction", 
+          6.0
+        ], 
+        [
+          "foundingYear", 
+          4.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          0.3361
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.3374
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          0.3374
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.3374
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (yearOfConstruction)", 
+          0.3405
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (yearOfConstruction)", 
+          0.3414
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (yearOfConstruction)", 
+          0.342
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (yearOfConstruction)", 
+          0.3457
+        ], 
+        [
+          "http://dbpedia.org/ontology/HistoricPlace (yearOfConstruction)", 
+          0.3601
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (foundingYear)", 
+          0.3632
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (foundingYear)", 
+          0.3632
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (foundingYear)", 
+          0.3632
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (foundingYear)", 
+          0.3632
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (yearOfConstruction)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/HistoricPlace (yearOfConstruction)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (yearOfConstruction)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (yearOfConstruction)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (yearOfConstruction)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (foundingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "HistoricPlace[yearOfConstruction]", 
+      0.328
+    ], 
+    [
+      "School[foundingYear]>(type|Independent_school_(United_Kingdom))>(religion|Church_of_England)>(country|England)", 
+      0.3333
+    ], 
+    [
+      "Location[yearOfConstruction]", 
+      0.3405
+    ], 
+    [
+      "Place[yearOfConstruction]", 
+      0.3405
+    ], 
+    [
+      "Building[yearOfConstruction]", 
+      0.3414
+    ], 
+    [
+      "School[foundingYear]>(type|Independent_school_(United_Kingdom))", 
+      0.3415
+    ], 
+    [
+      "ArchitecturalStructure[yearOfConstruction]", 
+      0.3425
+    ], 
+    [
+      "AdministrativeRegion[foundingYear]", 
+      0.3632
+    ], 
+    [
+      "Region[foundingYear]", 
+      0.3632
+    ], 
+    [
+      "HistoricPlace[yearOfConstruction]>(location|Baltimore)", 
+      0.3761
+    ]
+  ], 
+  "values": [
+    1839.0, 
+    1901.0
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/serviceEndYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "activeYearsEndYear", 
+          0.2537
+        ]
+      ], 
+      "maj": [
+        [
+          "activeYearsEndYear", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/MilitaryUnit (activeYearsEndYear)", 
+          0.2251
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsEndYear)", 
+          0.2537
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.2537
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/MilitaryUnit (activeYearsEndYear)", 
+          30.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsEndYear)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          10.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "MilitaryUnit[activeYearsEndYear]>(country|Empire_of_Japan)>(militaryBranch|Imperial_Japanese_Army)", 
+      0.101
+    ], 
+    [
+      "MilitaryUnit[activeYearsEndYear]>(country|Empire_of_Japan)>(militaryBranch|Imperial_Japanese_Army)>(type|Infantry)", 
+      0.1064
+    ], 
+    [
+      "MilitaryUnit[activeYearsEndYear]>(country|Empire_of_Japan)", 
+      0.1333
+    ], 
+    [
+      "MilitaryUnit[activeYearsEndYear]>(country|Nazi_Germany)>(type|Division_(military))>(militaryBranch|German_Army)>(battle|World_War_II)", 
+      0.1481
+    ], 
+    [
+      "MilitaryUnit[activeYearsEndYear]>(country|Nazi_Germany)>(type|Division_(military))>(militaryBranch|German_Army)", 
+      0.15
+    ], 
+    [
+      "MilitaryUnit[activeYearsEndYear]>(country|Nazi_Germany)>(type|Division_(military))", 
+      0.1618
+    ], 
+    [
+      "MilitaryUnit[activeYearsEndYear]>(country|Nazi_Germany)", 
+      0.3658
+    ], 
+    [
+      "MilitaryUnit[activeYearsEndYear]>(militaryBranch|United_States_Army_Air_Forces)", 
+      0.4453
+    ], 
+    [
+      "MilitaryUnit[activeYearsEndYear]>(country|Australia)>(battle|World_War_II)", 
+      0.46
+    ], 
+    [
+      "MilitaryUnit[activeYearsEndYear]>(country|Australia)", 
+      0.4649
+    ]
+  ], 
+  "values": [
+    1945.0, 
+    1945.0, 
+    1945.0, 
+    1945.0, 
+    1945.0, 
+    1945.0
+  ]
+}

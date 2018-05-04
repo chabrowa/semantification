@@ -1,0 +1,108 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfStudents"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.2187
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1859
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1869
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1869
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.2318
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          28.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          3.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(region|West_Midlands_(county))>(country|England)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1811
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(region|West_Midlands_(county))>(country|England)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1811
+    ], 
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(region|West_Midlands_(county))>(country|England)", 
+      0.1867
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(region|West_Midlands_(county))>(country|England)", 
+      0.1867
+    ], 
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(region|West_Midlands_(county))", 
+      0.1929
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(region|West_Midlands_(county))", 
+      0.1929
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Uttar_Pradesh)>(22-rdf-syntax-ns#type|_Feature)>(country|India)", 
+      0.2639
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Uttar_Pradesh)", 
+      0.2658
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Uttar_Pradesh)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2667
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Assam)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2692
+    ]
+  ], 
+  "values": [
+    2014.0, 
+    27942.0, 
+    6350.0, 
+    24876.0, 
+    21904.0
+  ]
+}

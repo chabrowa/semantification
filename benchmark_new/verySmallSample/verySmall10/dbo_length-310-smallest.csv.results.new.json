@@ -1,0 +1,227 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/length"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.143
+        ], 
+        [
+          "maximumElevation", 
+          0.1471
+        ], 
+        [
+          "elevation", 
+          0.15
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          7.0
+        ], 
+        [
+          "maximumElevation", 
+          2.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.136
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.1471
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (maximumElevation)", 
+          0.1471
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          0.1471
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          0.1471
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (elevation)", 
+          0.15
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          0.15
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (elevation)", 
+          0.15
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (elevation)", 
+          0.15
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.15
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1522
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1523
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1523
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.153
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          16.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationTotal]>(timeZone|Eastern_European_Time)>(isPartOf|Kaunas_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1164
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_European_Time)>(country|Estonia)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.132
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_European_Time)>(isPartOf|Blagoevgrad_Province)>(country|Bulgaria)", 
+      0.1437
+    ], 
+    [
+      "City[maximumElevation]", 
+      0.1471
+    ], 
+    [
+      "City[maximumElevation]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1471
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Hormozgan_Province)>(isPartOf|Central_District_(Bandar_Abbas_County))", 
+      0.1486
+    ], 
+    [
+      "RailwayLine[elevation]", 
+      0.15
+    ], 
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(ceremonialCounty|Cheshire)>(country|England)", 
+      0.1521
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(ceremonialCounty|Cheshire)>(country|England)", 
+      0.1521
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Hormozgan_Province)>(isPartOf|Central_District_(Bandar_Abbas_County))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1563
+    ]
+  ], 
+  "values": [
+    98.03412656722523, 
+    1290.0440959613811, 
+    1450.6408475494986, 
+    1200.8586990047706, 
+    173.94650040283642, 
+    91.13788297455432, 
+    1366.4802034887825, 
+    220.2920393529991, 
+    573.616332181996, 
+    822.1339544842075, 
+    1682.3977155380044, 
+    25.948975206836298, 
+    32.344436083391855, 
+    29.31758669936184, 
+    3132.0380905821457, 
+    24.144780186386953, 
+    1013.1353373874916, 
+    902.5150258812188, 
+    37.662612967372226, 
+    286.90627372597197, 
+    511.01918490147125, 
+    4417.943597433381, 
+    2273.5776055974384, 
+    257.4863634832272, 
+    7599.887784513217, 
+    19.701083871420348, 
+    211590.01200630105, 
+    1031.8807057660702
+  ]
+}

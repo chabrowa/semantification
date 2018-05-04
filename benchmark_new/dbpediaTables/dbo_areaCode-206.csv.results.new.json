@@ -1,0 +1,243 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaCode"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaCode", 
+          0.2083
+        ], 
+        [
+          "populationTotal", 
+          0.2315
+        ], 
+        [
+          "weight", 
+          0.2388
+        ], 
+        [
+          "width", 
+          0.25
+        ], 
+        [
+          "length", 
+          0.25
+        ]
+      ], 
+      "maj": [
+        [
+          "areaCode", 
+          3.0
+        ], 
+        [
+          "populationTotal", 
+          3.0
+        ], 
+        [
+          "width", 
+          2.0
+        ], 
+        [
+          "length", 
+          1.0
+        ], 
+        [
+          "weight", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Village (areaCode)", 
+          0.2071
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          0.2083
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.2083
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          0.2083
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          0.2233
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.2233
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2315
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2315
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationTotal)", 
+          0.2355
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationTotal)", 
+          0.2355
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (weight)", 
+          0.2388
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          0.25
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (length)", 
+          0.25
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.25
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          0.25
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.25
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (length)", 
+          0.25
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (areaCode)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[areaCode]>(isPartOf|Rajasthan)>(22-rdf-syntax-ns#type|_Feature)>(country|India)", 
+      0.203
+    ], 
+    [
+      "Village[areaCode]>(isPartOf|Rajasthan)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2087
+    ], 
+    [
+      "Village[areaCode]>(isPartOf|Rajasthan)", 
+      0.213
+    ], 
+    [
+      "City[populationTotal]", 
+      0.2233
+    ], 
+    [
+      "Region[populationTotal]", 
+      0.2355
+    ], 
+    [
+      "AdministrativeRegion[populationTotal]", 
+      0.2355
+    ], 
+    [
+      "Device[weight]", 
+      0.2388
+    ], 
+    [
+      "Place[width]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.25
+    ], 
+    [
+      "Infrastructure[width]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.25
+    ], 
+    [
+      "Island[length]>(country|Antarctica)", 
+      0.25
+    ]
+  ], 
+  "values": [
+    911568.0, 
+    114.0, 
+    22710.0, 
+    1663.0
+  ]
+}

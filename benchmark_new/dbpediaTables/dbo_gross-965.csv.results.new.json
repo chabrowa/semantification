@@ -1,0 +1,208 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/gross"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaWater", 
+          0.5
+        ], 
+        [
+          "areaTotal", 
+          0.5032
+        ], 
+        [
+          "areaLand", 
+          0.5056
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          7.0
+        ], 
+        [
+          "areaLand", 
+          2.0
+        ], 
+        [
+          "areaWater", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.5027
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          0.5028
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaTotal)", 
+          0.5029
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.5032
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.5032
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.5038
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          0.5051
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.5056
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.5056
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.5056
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaLand)", 
+          0.5061
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.5066
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaWater]>(isPartOf|Minnesota)>(isPartOf|Beltrami_County,_Minnesota)", 
+      0.5
+    ], 
+    [
+      "Town[areaTotal]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Town)>(country|United_States)", 
+      0.5
+    ], 
+    [
+      "BodyOfWater[areaTotal]>(type|Trophic_state_index)", 
+      0.5
+    ], 
+    [
+      "Town[areaTotal]>(timeZone|Mountain_Time_Zone)>(isPartOf|Utah)", 
+      0.5028
+    ], 
+    [
+      "Village[areaTotal]", 
+      0.5029
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Kentucky)", 
+      0.5038
+    ], 
+    [
+      "City[areaLand]>(isPartOf|Kentucky)", 
+      0.5051
+    ], 
+    [
+      "Village[areaLand]>(isPartOf|Michigan)>(timeZone|Eastern_Time_Zone)", 
+      0.5061
+    ], 
+    [
+      "Town[areaTotal]>(timeZone|Mountain_Time_Zone)>(isPartOf|Utah)>(type|Town)", 
+      0.5064
+    ], 
+    [
+      "Location[areaTotal]>(country|Slovenia)>(isPartOf|Inner_Carniola)>(isPartOf|Inner_Carniola%E2%80%93Karst_Statistical_Region)", 
+      0.5066
+    ]
+  ], 
+  "values": [
+    2649000.0
+  ]
+}

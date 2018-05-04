@@ -1,0 +1,260 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/year"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "yearOfConstruction", 
+          0.1044
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.11
+        ], 
+        [
+          "foundingYear", 
+          0.1149
+        ], 
+        [
+          "openingYear", 
+          0.1207
+        ]
+      ], 
+      "maj": [
+        [
+          "activeYearsEndYear", 
+          5.0
+        ], 
+        [
+          "foundingYear", 
+          2.0
+        ], 
+        [
+          "yearOfConstruction", 
+          2.0
+        ], 
+        [
+          "openingYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/IceHockeyPlayer (activeYearsEndYear)", 
+          0.1033
+        ], 
+        [
+          "http://dbpedia.org/ontology/Non-ProfitOrganisation (foundingYear)", 
+          0.1034
+        ], 
+        [
+          "http://dbpedia.org/ontology/Train (yearOfConstruction)", 
+          0.1044
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (yearOfConstruction)", 
+          0.1044
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (activeYearsEndYear)", 
+          0.1094
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.11
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.11
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (activeYearsEndYear)", 
+          0.1108
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (activeYearsEndYear)", 
+          0.111
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.1149
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.1149
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalArtist (activeYearsEndYear)", 
+          0.1185
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          0.1207
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          0.1207
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (openingYear)", 
+          0.1207
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballLeague (foundingYear)", 
+          0.1264
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsLeague (foundingYear)", 
+          0.1264
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (activeYearsEndYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (yearOfConstruction)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalArtist (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballLeague (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Train (yearOfConstruction)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/IceHockeyPlayer (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Non-ProfitOrganisation (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsLeague (foundingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "IceHockeyPlayer[activeYearsEndYear]", 
+      0.1033
+    ], 
+    [
+      "Non-ProfitOrganisation[foundingYear]", 
+      0.1034
+    ], 
+    [
+      "Artist[activeYearsEndYear]", 
+      0.1034
+    ], 
+    [
+      "MeanOfTransportation[yearOfConstruction]", 
+      0.1044
+    ], 
+    [
+      "Train[yearOfConstruction]", 
+      0.1044
+    ], 
+    [
+      "Athlete[activeYearsEndYear]", 
+      0.1065
+    ], 
+    [
+      "WinterSportPlayer[activeYearsEndYear]", 
+      0.1184
+    ], 
+    [
+      "MusicalArtist[activeYearsEndYear]", 
+      0.1185
+    ], 
+    [
+      "PublicTransitSystem[openingYear]>(type|Rapid_transit)", 
+      0.1207
+    ], 
+    [
+      "BasketballLeague[foundingYear]", 
+      0.1264
+    ]
+  ], 
+  "values": [
+    2004.0, 
+    2016.0, 
+    1977.0, 
+    2009.0, 
+    2008.0, 
+    2000.0, 
+    1986.0, 
+    1954.0, 
+    2002.0, 
+    1983.0, 
+    2011.0, 
+    1959.0, 
+    1987.0, 
+    1975.0, 
+    1995.0, 
+    2015.0, 
+    2015.0, 
+    1956.0, 
+    1905.0, 
+    1983.0, 
+    2010.0, 
+    1977.0, 
+    1991.0, 
+    1950.0, 
+    2006.0, 
+    1991.0, 
+    1990.0, 
+    1954.0, 
+    1986.0
+  ]
+}

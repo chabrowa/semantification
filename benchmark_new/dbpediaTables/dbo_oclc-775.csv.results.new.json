@@ -1,0 +1,209 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/oclc"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaLand", 
+          0.4083
+        ], 
+        [
+          "areaTotal", 
+          0.4192
+        ], 
+        [
+          "oclc", 
+          0.4218
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          4.0
+        ], 
+        [
+          "oclc", 
+          4.0
+        ], 
+        [
+          "areaLand", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Town (areaLand)", 
+          0.4059
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.4059
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.4059
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.4059
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          0.4085
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          0.4107
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.4169
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.4169
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.4214
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          0.4218
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          0.4218
+        ], 
+        [
+          "http://dbpedia.org/ontology/Book (oclc)", 
+          0.423
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.4259
+        ], 
+        [
+          "http://dbpedia.org/ontology/AcademicJournal (oclc)", 
+          0.4364
+        ], 
+        [
+          "http://dbpedia.org/ontology/PeriodicalLiterature (oclc)", 
+          0.4364
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Book (oclc)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AcademicJournal (oclc)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PeriodicalLiterature (oclc)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Book[oclc]>(publisher|HarperCollins)", 
+      0.3679
+    ], 
+    [
+      "Town[areaTotal]>(country|Germany)>(federalState|Hesse)", 
+      0.3929
+    ], 
+    [
+      "Town[areaLand]>(isPartOf|Massachusetts)", 
+      0.4059
+    ], 
+    [
+      "Location[areaLand]>(type|New_England_town)>(isPartOf|Massachusetts)", 
+      0.4107
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Teruel)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.4259
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Spain)>(isPartOf|Province_of_Teruel)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.4259
+    ], 
+    [
+      "Town[areaTotal]>(isPartOf|New_Jersey)", 
+      0.4319
+    ], 
+    [
+      "AcademicJournal[oclc]>(publisher|Cambridge_University_Press)", 
+      0.4364
+    ], 
+    [
+      "Book[oclc]>(publisher|HarperCollins)>(literaryGenre|Young-adult_fiction)", 
+      0.4412
+    ], 
+    [
+      "Book[oclc]>(publisher|Pocket_Books)>(literaryGenre|Horror_fiction)", 
+      0.4416
+    ]
+  ], 
+  "values": [
+    46984194.0, 
+    62265716.0
+  ]
+}

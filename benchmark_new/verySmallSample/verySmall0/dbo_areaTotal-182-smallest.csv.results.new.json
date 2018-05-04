@@ -1,0 +1,243 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaLand", 
+          0.0949
+        ], 
+        [
+          "areaTotal", 
+          0.1009
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          9.0
+        ], 
+        [
+          "areaLand", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.0893
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.0902
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaLand)", 
+          0.0949
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.0949
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.0949
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.0949
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.0967
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.1113
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "PopulatedPlace[areaTotal]", 
+      0.0821
+    ], 
+    [
+      "Settlement[areaTotal]", 
+      0.0852
+    ], 
+    [
+      "Location[areaTotal]", 
+      0.0931
+    ], 
+    [
+      "Place[areaTotal]", 
+      0.0931
+    ], 
+    [
+      "Village[areaLand]>(type|Types_of_municipalities_in_Quebec)", 
+      0.0949
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Spain)>(isPartOf|Province_of_Valencia)", 
+      0.1006
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Valencia)", 
+      0.1009
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Andhra_Pradesh)>(country|India)", 
+      0.1031
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Gujarat)", 
+      0.125
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Andhra_Pradesh)", 
+      0.1251
+    ]
+  ], 
+  "values": [
+    57008100.0, 
+    19000000.0, 
+    4360000.0, 
+    712473000.0, 
+    106000000.0, 
+    1015100000.0, 
+    3770000.0, 
+    3750000.0, 
+    70700000.0, 
+    6760000.0, 
+    9600000.0, 
+    5120000.0, 
+    2750000.0, 
+    37000000.0, 
+    92436700.0, 
+    69618900.0, 
+    5770000.0, 
+    39040000.0, 
+    30390000.0, 
+    11300.0, 
+    99720000.0, 
+    2580000.0, 
+    16830000.0, 
+    80000000.0, 
+    18000000.0, 
+    371000000.0, 
+    39270000.0, 
+    4696000000.0, 
+    5190000.0, 
+    3600000.0, 
+    100932000.0, 
+    2700000.0, 
+    160000.0, 
+    93783500.0, 
+    246910000.0, 
+    8000000.0, 
+    33600000.0, 
+    40110000.0, 
+    102820000.0, 
+    7760000.0, 
+    169800000.0, 
+    7730000.0, 
+    8040000.0, 
+    50000000.0, 
+    8000000.0, 
+    484000000.0, 
+    33020000.0, 
+    37740000.0, 
+    37000000.0, 
+    240330000.0, 
+    12790000.0, 
+    453248.0, 
+    2210000.0, 
+    48000000.0, 
+    31740000.0, 
+    31983700000.0, 
+    12070000.0, 
+    7920000.0, 
+    21000000.0, 
+    5030000.0, 
+    373000000.0, 
+    48500000.0, 
+    94612300.0, 
+    40040000.0, 
+    5150000.0, 
+    1500000.0, 
+    9290000.0, 
+    53000000.0, 
+    172400000.0, 
+    173000000.0, 
+    69000000.0, 
+    627263.0, 
+    81160000.0, 
+    72571500.0, 
+    51592600.0, 
+    4590000.0, 
+    6280000.0, 
+    393400000.0, 
+    1548810.0, 
+    4240000.0, 
+    7440000.0, 
+    1450000000.0, 
+    50200000.0, 
+    5420000.0, 
+    1239400000.0, 
+    20700000.0, 
+    3660000.0, 
+    1062620000.0, 
+    11700000.0, 
+    5910000.0, 
+    6047620.0, 
+    3764650000.0, 
+    8010000.0, 
+    2500000.0, 
+    1961000000.0, 
+    10640000.0, 
+    1150000.0, 
+    27960000.0, 
+    40000000.0, 
+    2823090.0
+  ]
+}

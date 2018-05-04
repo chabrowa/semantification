@@ -1,0 +1,197 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/weight"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "weight", 
+          0.2263
+        ], 
+        [
+          "postalCode", 
+          0.2837
+        ]
+      ], 
+      "maj": [
+        [
+          "weight", 
+          8.0
+        ], 
+        [
+          "postalCode", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/AdultActor (weight)", 
+          0.1822
+        ], 
+        [
+          "http://dbpedia.org/ontology/Actor (weight)", 
+          0.1849
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (weight)", 
+          0.1856
+        ], 
+        [
+          "http://dbpedia.org/ontology/Model (weight)", 
+          0.1924
+        ], 
+        [
+          "http://dbpedia.org/ontology/BeautyQueen (weight)", 
+          0.2121
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (weight)", 
+          0.2263
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (weight)", 
+          0.2263
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          0.2434
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          0.2837
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          0.2837
+        ], 
+        [
+          "http://dbpedia.org/ontology/PlayboyPlaymate (weight)", 
+          0.3056
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (weight)", 
+          0.3583
+        ], 
+        [
+          "http://dbpedia.org/ontology/Gymnast (weight)", 
+          0.3583
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (postalCode)", 
+          0.3643
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Person (weight)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (weight)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (weight)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Actor (weight)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdultActor (weight)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (postalCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BeautyQueen (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Model (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Gymnast (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PlayboyPlaymate (weight)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "AdultActor[weight]>(birthPlace|United_States)", 
+      0.1795
+    ], 
+    [
+      "Actor[weight]", 
+      0.1876
+    ], 
+    [
+      "Artist[weight]", 
+      0.1876
+    ], 
+    [
+      "AdultActor[weight]", 
+      0.1876
+    ], 
+    [
+      "Model[weight]", 
+      0.1924
+    ], 
+    [
+      "Settlement[postalCode]>(country|Italy)>(region|Tuscany)", 
+      0.2031
+    ], 
+    [
+      "BeautyQueen[weight]", 
+      0.2121
+    ], 
+    [
+      "PlayboyPlaymate[weight]", 
+      0.3056
+    ], 
+    [
+      "Gymnast[weight]", 
+      0.3583
+    ], 
+    [
+      "Village[postalCode]>(timeZone|Nepal_Time)", 
+      0.3643
+    ]
+  ], 
+  "values": [
+    48280.74928330397, 
+    77965.9369424753, 
+    57715.9453606793, 
+    53972.8939563233, 
+    53782.86289772937, 
+    50711.72658067629
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/deathYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "openingYear", 
+          0.3606
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.3749
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          8.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          0.3233
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          0.3233
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (openingYear)", 
+          0.3233
+        ], 
+        [
+          "http://dbpedia.org/ontology/RoadJunction (openingYear)", 
+          0.3533
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          0.3569
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.3653
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.3659
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.3659
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.3659
+        ], 
+        [
+          "http://dbpedia.org/ontology/PowerStation (openingYear)", 
+          0.3699
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          0.3727
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          0.3741
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.3749
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          0.3749
+        ], 
+        [
+          "http://dbpedia.org/ontology/IceHockeyPlayer (activeYearsStartYear)", 
+          0.3749
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (activeYearsStartYear)", 
+          0.3749
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (activeYearsStartYear)", 
+          0.3749
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/IceHockeyPlayer (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RoadJunction (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PowerStation (openingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "PublicTransitSystem[openingYear]>(type|Rapid_transit)", 
+      0.3233
+    ], 
+    [
+      "RailwayLine[openingYear]>(type|Light_rail)", 
+      0.3491
+    ], 
+    [
+      "RoadJunction[openingYear]", 
+      0.3533
+    ], 
+    [
+      "RouteOfTransportation[openingYear]", 
+      0.3698
+    ], 
+    [
+      "PowerStation[openingYear]", 
+      0.3699
+    ], 
+    [
+      "RailwayLine[openingYear]", 
+      0.3726
+    ], 
+    [
+      "RailwayTunnel[openingYear]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3727
+    ], 
+    [
+      "Bridge[openingYear]", 
+      0.3741
+    ], 
+    [
+      "Person[activeYearsStartYear]", 
+      0.3748
+    ], 
+    [
+      "IceHockeyPlayer[activeYearsStartYear]", 
+      0.3749
+    ]
+  ], 
+  "values": [
+    2051.0, 
+    1909.0, 
+    2114.0, 
+    2018.0, 
+    2008.0, 
+    1919.0, 
+    1967.0, 
+    1877.0
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/draftYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "activeYearsStartYear", 
+          0.3333
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.3333
+        ], 
+        [
+          "draftYear", 
+          0.3333
+        ], 
+        [
+          "yearOfConstruction", 
+          0.3333
+        ]
+      ], 
+      "maj": [
+        [
+          "activeYearsStartYear", 
+          3.0
+        ], 
+        [
+          "draftYear", 
+          3.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          2.0
+        ], 
+        [
+          "yearOfConstruction", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          0.3332
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsStartYear)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (draftYear)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (draftYear)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Train (yearOfConstruction)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (draftYear)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (yearOfConstruction)", 
+          0.3333
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Agent (draftYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (draftYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (yearOfConstruction)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Train (yearOfConstruction)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (draftYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsStartYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Person[activeYearsStartYear]", 
+      0.3332
+    ], 
+    [
+      "Agent[activeYearsStartYear]", 
+      0.3333
+    ], 
+    [
+      "Person[activeYearsEndYear]", 
+      0.3333
+    ], 
+    [
+      "Organisation[activeYearsStartYear]", 
+      0.3333
+    ], 
+    [
+      "Agent[activeYearsEndYear]", 
+      0.3333
+    ], 
+    [
+      "MeanOfTransportation[yearOfConstruction]", 
+      0.3333
+    ], 
+    [
+      "Train[yearOfConstruction]", 
+      0.3333
+    ], 
+    [
+      "Athlete[draftYear]", 
+      0.3333
+    ], 
+    [
+      "Person[draftYear]", 
+      0.3333
+    ], 
+    [
+      "Agent[draftYear]", 
+      0.3333
+    ]
+  ], 
+  "values": [
+    1990.0, 
+    2074.0, 
+    1925.0
+  ]
+}

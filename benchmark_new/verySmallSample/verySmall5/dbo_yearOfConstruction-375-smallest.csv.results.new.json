@@ -1,0 +1,267 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/yearOfConstruction"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "openingYear", 
+          0.2663
+        ], 
+        [
+          "serviceStartYear", 
+          0.2679
+        ], 
+        [
+          "deathYear", 
+          0.2762
+        ], 
+        [
+          "foundingYear", 
+          0.2772
+        ]
+      ], 
+      "maj": [
+        [
+          "foundingYear", 
+          4.0
+        ], 
+        [
+          "openingYear", 
+          3.0
+        ], 
+        [
+          "deathYear", 
+          2.0
+        ], 
+        [
+          "serviceStartYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          0.2615
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          0.2615
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (openingYear)", 
+          0.2615
+        ], 
+        [
+          "http://dbpedia.org/ontology/Governor (serviceStartYear)", 
+          0.2679
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceStartYear)", 
+          0.2679
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceStartYear)", 
+          0.2679
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceStartYear)", 
+          0.2679
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          0.2685
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.2687
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.2687
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.2687
+        ], 
+        [
+          "http://dbpedia.org/ontology/RugbyClub (foundingYear)", 
+          0.2688
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (foundingYear)", 
+          0.2688
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (deathYear)", 
+          0.2762
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          0.2762
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          0.2762
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.2772
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.2772
+        ], 
+        [
+          "http://dbpedia.org/ontology/Saint (deathYear)", 
+          0.2775
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          0.2828
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          0.2855
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Saint (deathYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RugbyClub (foundingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (deathYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Governor (serviceStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceStartYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "RugbyClub[foundingYear]>(location|Wales)", 
+      0.244
+    ], 
+    [
+      "PublicTransitSystem[openingYear]>(location|England)", 
+      0.2615
+    ], 
+    [
+      "Governor[serviceStartYear]", 
+      0.2679
+    ], 
+    [
+      "Station[openingYear]>(owner|VicTrack)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2679
+    ], 
+    [
+      "Station[openingYear]>(owner|VicTrack)", 
+      0.2696
+    ], 
+    [
+      "Saint[deathYear]>(beatifiedBy|Pope_John_Paul_II)", 
+      0.2696
+    ], 
+    [
+      "School[foundingYear]>(type|Single-sex_education)>(type|Boarding_school)", 
+      0.2719
+    ], 
+    [
+      "Saint[deathYear]>(beatifiedBy|Pope_John_Paul_II)>(veneratedIn|Catholic_Church)", 
+      0.2828
+    ], 
+    [
+      "RugbyClub[foundingYear]>(location|England)", 
+      0.2936
+    ], 
+    [
+      "School[foundingYear]>(type|Single-sex_education)", 
+      0.2991
+    ]
+  ], 
+  "values": [
+    1938.0, 
+    1922.0, 
+    1814.0, 
+    1889.0
+  ]
+}

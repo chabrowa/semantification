@@ -1,0 +1,219 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/width"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "width", 
+          0.3305
+        ], 
+        [
+          "populationDensity", 
+          0.3918
+        ], 
+        [
+          "height", 
+          0.4366
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          4.0
+        ], 
+        [
+          "width", 
+          4.0
+        ], 
+        [
+          "height", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (width)", 
+          0.2921
+        ], 
+        [
+          "http://dbpedia.org/ontology/Locomotive (width)", 
+          0.3206
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.3545
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.3545
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (width)", 
+          0.3689
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (width)", 
+          0.3689
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.4043
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.4043
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.4292
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.4292
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (height)", 
+          0.4366
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (height)", 
+          0.4366
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Locomotive (width)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (width)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Locomotive[width]", 
+      0.2068
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Soria)", 
+      0.3545
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Soria)", 
+      0.3545
+    ], 
+    [
+      "Device[width]", 
+      0.3689
+    ], 
+    [
+      "Weapon[width]", 
+      0.3689
+    ], 
+    [
+      "Locomotive[width]>(powerType|Diesel-electric_transmission)", 
+      0.3775
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Nebraska)", 
+      0.4242
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Kansas)", 
+      0.4341
+    ], 
+    [
+      "Device[height]", 
+      0.4366
+    ], 
+    [
+      "Weapon[height]", 
+      0.4366
+    ]
+  ], 
+  "values": [
+    2.82043587803761, 
+    2.653164902973077, 
+    3.3779905738809504, 
+    2.3526704887855368, 
+    3.4629920997566646, 
+    3.0069597742720497, 
+    2.9486000576827562, 
+    2.4581207119006656, 
+    2.23991237729869, 
+    2.78421560086555, 
+    2.59377831393092, 
+    2.6370086582266192, 
+    2.246264706148865, 
+    2.8419622978767647, 
+    2.63117198292084, 
+    2.7408693344592607, 
+    2.617785970181882, 
+    2.2779768604497592, 
+    2.63899739026629, 
+    2.9659737304069935, 
+    3.466157198213175, 
+    2.8773677554524135, 
+    3.075870601225638, 
+    2.164976838620309, 
+    2.8399416898480823, 
+    2.6716513840622467, 
+    2.9797386305550653, 
+    2.8270884624614965, 
+    2.7425060280255367, 
+    3.4428149309565574, 
+    2.8485211385484543, 
+    2.8094517882455197, 
+    3.3642730459591035, 
+    3.399548970103227, 
+    2.935388766322296, 
+    3.154486223189775
+  ]
+}

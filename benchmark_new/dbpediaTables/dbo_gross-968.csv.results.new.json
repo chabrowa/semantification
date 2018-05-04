@@ -1,0 +1,151 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/gross"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.1715
+        ], 
+        [
+          "areaLand", 
+          0.1785
+        ]
+      ], 
+      "maj": [
+        [
+          "areaLand", 
+          6.0
+        ], 
+        [
+          "areaTotal", 
+          4.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1715
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.1715
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.1715
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.1741
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.1785
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.1785
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.1785
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          0.1798
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          21.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          4.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "City[areaLand]>(isPartOf|Nebraska)>(timeZone|Central_Time_Zone)>(type|City)", 
+      0.162
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Nebraska)>(timeZone|Central_Time_Zone)>(type|City)", 
+      0.162
+    ], 
+    [
+      "City[areaLand]>(isPartOf|Nebraska)>(timeZone|Central_Time_Zone)", 
+      0.1634
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Nebraska)>(timeZone|Central_Time_Zone)", 
+      0.1634
+    ], 
+    [
+      "City[areaLand]>(isPartOf|Nebraska)", 
+      0.1678
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Nebraska)", 
+      0.1678
+    ], 
+    [
+      "City[areaLand]>(isPartOf|Oregon)>(type|City)>(timeZone|Pacific_Time_Zone)>(country|United_States)", 
+      0.1893
+    ], 
+    [
+      "City[areaLand]>(isPartOf|Oregon)>(type|City)>(timeZone|Pacific_Time_Zone)", 
+      0.19
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Oregon)>(type|City)>(timeZone|Pacific_Time_Zone)>(country|United_States)", 
+      0.1929
+    ], 
+    [
+      "City[areaLand]>(isPartOf|Oregon)>(type|City)", 
+      0.1987
+    ]
+  ], 
+  "values": [
+    258845.0, 
+    3000000.0, 
+    1800000.0, 
+    31800000.0, 
+    2500000.0, 
+    3788000.0, 
+    17300000.0, 
+    2432000.0
+  ]
+}

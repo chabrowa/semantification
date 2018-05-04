@@ -1,0 +1,161 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/weight"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.1855
+        ], 
+        [
+          "areaLand", 
+          0.1978
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          8.0
+        ], 
+        [
+          "areaLand", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.1846
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.1863
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.1872
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1872
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.1976
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.1978
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.1978
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaLand)", 
+          0.1984
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaTotal]>(country|Slovenia)>(isPartOf|White_Carniola)", 
+      0.1617
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Slovenia)>(isPartOf|White_Carniola)", 
+      0.1617
+    ], 
+    [
+      "Location[areaTotal]>(type|Census-designated_place)>(isPartOf|California)>(isPartOf|Tulare_County,_California)", 
+      0.1863
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Slovenia)>(isPartOf|Litija)", 
+      0.1924
+    ], 
+    [
+      "Location[areaTotal]>(country|Slovenia)>(isPartOf|Litija)", 
+      0.1928
+    ], 
+    [
+      "Location[areaTotal]>(country|Slovenia)>(isPartOf|Upper_Carniola)>(isPartOf|Upper_Carniola_Statistical_Region)", 
+      0.194
+    ], 
+    [
+      "Settlement[areaLand]>(isPartOf|Iowa)", 
+      0.1972
+    ], 
+    [
+      "Settlement[areaTotal]>(isPartOf|Iowa)", 
+      0.1972
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Canada)>(isPartOf|Calgary)", 
+      0.1976
+    ], 
+    [
+      "Town[areaLand]>(isPartOf|Arkansas)>(type|Town)", 
+      0.1984
+    ]
+  ], 
+  "values": [
+    1217244.2318920633, 
+    1441961.635401039, 
+    1367547.168502529, 
+    6269528.529167086, 
+    1316823.3243554442, 
+    1687157.2135268892, 
+    1509961.9451437232, 
+    590364.3621781671, 
+    5559755.363746552, 
+    1817831.2255330004, 
+    2872310.689271848, 
+    1149172.3436892924, 
+    7630074.388058642, 
+    594620.7008125461, 
+    596130.3784947742, 
+    9650026.479260592, 
+    1399322.8625603134, 
+    1465920.3042929182
+  ]
+}

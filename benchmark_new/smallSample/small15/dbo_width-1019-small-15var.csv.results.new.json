@@ -1,0 +1,257 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/width"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "height", 
+          0.2222
+        ], 
+        [
+          "width", 
+          0.2256
+        ], 
+        [
+          "populationDensity", 
+          0.2549
+        ], 
+        [
+          "numberOfSeasons", 
+          0.2769
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          4.0
+        ], 
+        [
+          "numberOfSeasons", 
+          2.0
+        ], 
+        [
+          "height", 
+          2.0
+        ], 
+        [
+          "width", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Weapon (height)", 
+          0.2222
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (height)", 
+          0.2222
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (width)", 
+          0.2256
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (width)", 
+          0.2256
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.2503
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.2549
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.2549
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2549
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.2572
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          0.2769
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          0.2769
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (width)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Device[height]", 
+      0.2222
+    ], 
+    [
+      "Weapon[height]", 
+      0.2222
+    ], 
+    [
+      "Device[width]", 
+      0.2256
+    ], 
+    [
+      "Weapon[width]", 
+      0.2256
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Nebraska)>(type|Civil_township)", 
+      0.2503
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Nebraska)", 
+      0.2503
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Soria)", 
+      0.2595
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Soria)", 
+      0.2595
+    ], 
+    [
+      "Work[numberOfSeasons]", 
+      0.2769
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]", 
+      0.2769
+    ]
+  ], 
+  "values": [
+    3.584966289982626, 
+    0.04614646939282994, 
+    0.04579570597658643, 
+    2.2629476006307376, 
+    2.026546974185842, 
+    0.06925263770728861, 
+    2.27259611399534, 
+    0.0337416409745693, 
+    3.5565193102473383, 
+    2009.857355564571, 
+    2.059830645627623, 
+    1.9838901197406016, 
+    1.8549083183588688, 
+    2.6222495125409684, 
+    2.351904513284584, 
+    2.015166992723269, 
+    1.7308587524811843, 
+    1.4321962758548334, 
+    2.0170208298558485, 
+    3.6049007536834474, 
+    2.0980970219850525, 
+    2.7881567838446926, 
+    2.4820553253267432, 
+    1.7492466538695512, 
+    1.7310264067314418, 
+    0.16187179026595602, 
+    2.2011433697076974, 
+    2.7617182601016648, 
+    2.749279245602301, 
+    0.14463308546697098, 
+    1.8650781072133773, 
+    0.23610792592957774, 
+    2.9981590172139327, 
+    3.6148218385573783, 
+    2.2052072967164076, 
+    1.921261799758154, 
+    2.8560951789409352, 
+    1.9313142820115328, 
+    2.0702443009176696, 
+    1.8393712454932514, 
+    2.815328130838286, 
+    3.414890488904871, 
+    3.626188797142045, 
+    3.694699124544658, 
+    2.2448249105536693, 
+    2.7179244785878773, 
+    1.745549565419058, 
+    2.8909620143303085, 
+    0.028238559087410527, 
+    4.189139530605399, 
+    2.1181240380752264, 
+    1.8869425074912047, 
+    1.7284377310538532, 
+    1.5448000777087634, 
+    2.241375409494317, 
+    1.7601642736318255, 
+    0.23332831793185085, 
+    2.7521252946428785, 
+    0.2187347108805389, 
+    0.030857969467897164, 
+    3.5670368676912485, 
+    1.6801495322208115, 
+    4.990070225869001, 
+    0.03186245295112059, 
+    3.0275644399779917, 
+    3.394001972452832, 
+    1.9659524735326015, 
+    2.4657004838056196, 
+    2.262306127718409, 
+    0.02074395711785286, 
+    0.032977340370567335, 
+    2.855552560009201, 
+    3.197207386628622, 
+    2.668488577934996
+  ]
+}

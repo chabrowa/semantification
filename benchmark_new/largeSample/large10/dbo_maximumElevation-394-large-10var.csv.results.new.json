@@ -1,0 +1,167 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/maximumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1021
+        ], 
+        [
+          "elevation", 
+          0.1066
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          9.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1012
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1019
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1026
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1026
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1028
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1066
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          4.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Central_District_(Rudbar-e_Jonubi_County))", 
+      0.1
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Gilan_Province)>(isPartOf|Astara_County)", 
+      0.1
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(department|Aude)", 
+      0.1
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(department|Aude)", 
+      0.1
+    ], 
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(district|Hambleton)>(country|England)", 
+      0.1017
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(district|Hambleton)>(country|England)", 
+      0.1017
+    ], 
+    [
+      "Location[populationTotal]>(isPartOf|Fars_Province)", 
+      0.1018
+    ], 
+    [
+      "Village[populationTotal]", 
+      0.1066
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|San_Diego_County,_California)>(country|United_States)", 
+      0.1066
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Rud_Ab_District_(Kerman_Province))", 
+      0.1071
+    ]
+  ], 
+  "values": [
+    1033.6386204993682, 
+    93.58087232051292, 
+    1302.7771529675342, 
+    372.9414293420037, 
+    80.11425675399006, 
+    1085.6023624449135, 
+    395.0409348176043, 
+    121.01640542521372, 
+    278.1397739351127, 
+    8.33212102436169, 
+    11.028587497506143, 
+    91.12119151609208, 
+    102.0414730063331, 
+    1151.6402002971054, 
+    990.0734372581211, 
+    281.09529756643684, 
+    784.8476619363681, 
+    46.35166009275798, 
+    12.019724348592131, 
+    1061.9785291585433, 
+    84.0776056675337, 
+    332.9886530517063, 
+    828.9607977597371, 
+    370.5709633179839, 
+    345.23068654162614, 
+    198.19772161372344, 
+    2450.921220665521, 
+    2143.1970522468882, 
+    119.91764238509927, 
+    150.9228274708128, 
+    49.19695196370688, 
+    358.6801912355926, 
+    34.975502077255115, 
+    185.68793663938538, 
+    75.51385607778961, 
+    2268.300841655371, 
+    116.57624744936645, 
+    460.07525476477036, 
+    5.382635499630101, 
+    2252.9059299527075
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.074
+        ], 
+        [
+          "populationDensity", 
+          0.0811
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          9.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.0702
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.0742
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0743
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0743
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.0754
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          0.0801
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.0811
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.0811
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.0811
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.0811
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[populationTotal]>(timeZone|Central_Time_Zone)", 
+      0.0656
+    ], 
+    [
+      "Location[populationTotal]>(isPartOf|Razavi_Khorasan_Province)", 
+      0.0666
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Hormozgan_Province)>(isPartOf|Bastak_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0669
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Ardabil_Province)>(isPartOf|Central_District_(Meshgin_Shahr_County))", 
+      0.0729
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Razavi_Khorasan_Province)>(isPartOf|Razaviyeh_District)", 
+      0.0751
+    ], 
+    [
+      "Town[populationTotal]>(isPartOf|Kansas)", 
+      0.0787
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(department|Meurthe-et-Moselle)", 
+      0.0794
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(department|Meurthe-et-Moselle)", 
+      0.0794
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|New_Jersey)", 
+      0.0811
+    ], 
+    [
+      "Town[populationTotal]>(isPartOf|Oklahoma)", 
+      0.0816
+    ]
+  ], 
+  "values": [
+    80.0, 
+    18.0, 
+    309.0, 
+    545.0, 
+    117.0, 
+    154.0, 
+    46.0, 
+    7497.0, 
+    34.0, 
+    64.0, 
+    577.0, 
+    557.0, 
+    635.0, 
+    283.0, 
+    1173.0, 
+    832.0, 
+    2400.0, 
+    231.0, 
+    793.0, 
+    44.0, 
+    990.0, 
+    741.0, 
+    346.0, 
+    228.0, 
+    10.0, 
+    2092.0, 
+    3921.0, 
+    1126.0, 
+    181.0, 
+    36.0, 
+    174.0, 
+    185.0, 
+    1114.0, 
+    171.0, 
+    88.0, 
+    96.0, 
+    1400.0, 
+    74.0, 
+    224.0, 
+    388.0, 
+    2700.0, 
+    895.0, 
+    190.0, 
+    320.0, 
+    690.0, 
+    88.0, 
+    1236.0, 
+    315.0, 
+    88.0, 
+    120.0, 
+    2178.0, 
+    91.0, 
+    225.0, 
+    172.0, 
+    476.0, 
+    1255.0, 
+    49.0, 
+    785.0, 
+    102.0, 
+    84.0, 
+    74.0, 
+    335.0, 
+    132.0, 
+    425.0, 
+    2007.0, 
+    109.0, 
+    77.0, 
+    399.0, 
+    126.0, 
+    1226.0, 
+    850.0, 
+    94.0, 
+    330.0, 
+    195.0, 
+    378.0, 
+    829.0, 
+    2022.0, 
+    1177.0, 
+    2572.0, 
+    30.0, 
+    272.0, 
+    514.0, 
+    1078.0, 
+    185.0, 
+    397.0, 
+    460.0, 
+    158.0, 
+    6932.0, 
+    733.0, 
+    119.0, 
+    112.0, 
+    1752.0, 
+    4526.0, 
+    13.0, 
+    734.0, 
+    616.0, 
+    463.0, 
+    251.0, 
+    140.0, 
+    220.0
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/squadNumber"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "number", 
+          0.1036
+        ], 
+        [
+          "height", 
+          0.1169
+        ], 
+        [
+          "elevation", 
+          0.1186
+        ], 
+        [
+          "width", 
+          0.1239
+        ]
+      ], 
+      "maj": [
+        [
+          "number", 
+          5.0
+        ], 
+        [
+          "width", 
+          3.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ], 
+        [
+          "height", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          0.0667
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.1036
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.1036
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.1036
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          0.1136
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.1169
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (height)", 
+          0.1169
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (height)", 
+          0.1169
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.1169
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1186
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1186
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1186
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          0.1211
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          0.1233
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          0.1239
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.1239
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "SoccerPlayer[number]", 
+      0.0667
+    ], 
+    [
+      "BasketballPlayer[number]>(league|Eurocup_Basketball)", 
+      0.1077
+    ], 
+    [
+      "BasketballPlayer[number]>(nationality|Philippines)", 
+      0.1088
+    ], 
+    [
+      "BasketballPlayer[number]>(league|Euroleague_Basketball)", 
+      0.1145
+    ], 
+    [
+      "Lighthouse[height]>(location|Australia)", 
+      0.1169
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Vorpommern-Greifswald)", 
+      0.1186
+    ], 
+    [
+      "BasketballPlayer[number]>(nationality|Philippines)>(league|Philippine_Basketball_Association)", 
+      0.1201
+    ], 
+    [
+      "RouteOfTransportation[width]", 
+      0.1211
+    ], 
+    [
+      "ArchitecturalStructure[width]", 
+      0.1251
+    ], 
+    [
+      "Infrastructure[width]", 
+      0.1256
+    ]
+  ], 
+  "values": [
+    22.0, 
+    18.0, 
+    10.0, 
+    18.0, 
+    5.0, 
+    21.0, 
+    2.0, 
+    34.0, 
+    17.0, 
+    11.0, 
+    46.0, 
+    18.0, 
+    17.0, 
+    22.0, 
+    23.0, 
+    8.0, 
+    14.0, 
+    12.0, 
+    10.0, 
+    16.0, 
+    21.0, 
+    14.0, 
+    11.0, 
+    6.0, 
+    32.0, 
+    26.0, 
+    6.0, 
+    14.0, 
+    25.0, 
+    5.0, 
+    4.0, 
+    17.0, 
+    1.0, 
+    17.0, 
+    5.0, 
+    25.0, 
+    15.0, 
+    2.0, 
+    12.0, 
+    17.0, 
+    24.0, 
+    67.0, 
+    20.0, 
+    25.0, 
+    8.0, 
+    28.0, 
+    19.0, 
+    3.0, 
+    31.0, 
+    14.0, 
+    24.0, 
+    33.0, 
+    13.0, 
+    9.0, 
+    8.0, 
+    2.0, 
+    17.0, 
+    9.0, 
+    35.0, 
+    11.0, 
+    22.0, 
+    12.0, 
+    19.0, 
+    10.0, 
+    4.0, 
+    6.0, 
+    32.0, 
+    16.0, 
+    17.0, 
+    25.0, 
+    27.0, 
+    28.0, 
+    12.0, 
+    23.0, 
+    6.0, 
+    12.0, 
+    18.0, 
+    7.0, 
+    17.0, 
+    34.0, 
+    18.0, 
+    6.0, 
+    3.0, 
+    8.0, 
+    2.0, 
+    14.0, 
+    9.0, 
+    24.0, 
+    14.0, 
+    10.0, 
+    5.0, 
+    18.0, 
+    15.0, 
+    19.0, 
+    24.0, 
+    12.0
+  ]
+}

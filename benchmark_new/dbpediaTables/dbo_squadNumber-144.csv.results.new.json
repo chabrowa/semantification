@@ -1,0 +1,148 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/squadNumber"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfSeasons", 
+          0.1659
+        ], 
+        [
+          "populationDensity", 
+          0.1931
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          9.0
+        ], 
+        [
+          "numberOfSeasons", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          0.1659
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          0.1659
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.1907
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1915
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1915
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1915
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1944
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          19.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "TelevisionShow[numberOfSeasons]>(format|Aspect_ratio_(image))", 
+      0.1659
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Iowa)>(timeZone|Central_Time_Zone)", 
+      0.1793
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Iowa)>(type|Civil_township)>(timeZone|Central_Time_Zone)", 
+      0.1813
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Iowa)>(timeZone|Central_Time_Zone)>(type|Civil_township)", 
+      0.1813
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Iowa)>(type|Civil_township)", 
+      0.1852
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Minnesota)>(type|Township_(United_States))>(isPartOf|Otter_Tail_County,_Minnesota)", 
+      0.1974
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Minnesota)>(isPartOf|Otter_Tail_County,_Minnesota)", 
+      0.1974
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Burgos)>(type|Municipalities_of_Spain)>(timeZone|Central_European_Time)", 
+      0.2
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Missouri)>(type|Civil_township)", 
+      0.208
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Missouri)>(type|Civil_township)", 
+      0.208
+    ]
+  ], 
+  "values": [
+    0.0, 
+    1.0, 
+    2.0, 
+    3.0, 
+    4.0, 
+    5.0, 
+    6.0, 
+    7.0, 
+    8.0, 
+    9.0, 
+    10.0, 
+    11.0, 
+    12.0
+  ]
+}

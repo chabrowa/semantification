@@ -1,0 +1,162 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/height"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "height", 
+          0.3272
+        ]
+      ], 
+      "maj": [
+        [
+          "height", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Gymnast (height)", 
+          0.1863
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bodybuilder (height)", 
+          0.2837
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (height)", 
+          0.2975
+        ], 
+        [
+          "http://dbpedia.org/ontology/FigureSkater (height)", 
+          0.3242
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (height)", 
+          0.3272
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (height)", 
+          0.3305
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (height)", 
+          0.3391
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (height)", 
+          0.3552
+        ], 
+        [
+          "http://dbpedia.org/ontology/Actor (height)", 
+          0.3602
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdultActor (height)", 
+          0.3802
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Person (height)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (height)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (height)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/FigureSkater (height)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (height)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdultActor (height)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Actor (height)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (height)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bodybuilder (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Gymnast (height)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Gymnast[height]", 
+      0.1863
+    ], 
+    [
+      "FigureSkater[height]>(country|Japan)", 
+      0.2766
+    ], 
+    [
+      "Bodybuilder[height]", 
+      0.2837
+    ], 
+    [
+      "FigureSkater[height]>(country|China)", 
+      0.3273
+    ], 
+    [
+      "AdultActor[height]", 
+      0.3399
+    ], 
+    [
+      "Actor[height]", 
+      0.3404
+    ], 
+    [
+      "Artist[height]", 
+      0.3404
+    ], 
+    [
+      "Person[height]>(birthPlace|Japan)", 
+      0.3636
+    ], 
+    [
+      "AdultActor[height]>(birthPlace|Tokyo)", 
+      0.4003
+    ], 
+    [
+      "FigureSkater[height]", 
+      0.4136
+    ]
+  ], 
+  "values": [
+    1.722130857109857, 
+    1.5246128129766512, 
+    1.619834627563745, 
+    1.776946470173829, 
+    1.5976476371066357, 
+    1.5141202433404959, 
+    1.6036510035599325, 
+    1.5002393588417589, 
+    1.7032860945148327, 
+    1.6265136444467843, 
+    1.6016788092975918
+  ]
+}

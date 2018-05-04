@@ -1,0 +1,161 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationDensity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1606
+        ], 
+        [
+          "elevation", 
+          0.1632
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          9.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1568
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1613
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1615
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1615
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1628
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1632
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1632
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1632
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          24.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationTotal]>(country|Poland)>(type|Village)>(isPartOf|Silesian_Voivodeship)>(isPartOf|Cz%C4%99stochowa_County)", 
+      0.1496
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Hamadan_Province)>(isPartOf|Central_District_(Nahavand_County))", 
+      0.15
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Hamadan_Province)>(isPartOf|Central_District_(Nahavand_County))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1538
+    ], 
+    [
+      "Village[populationTotal]>(timeZone|Central_European_Time)>(isPartOf|Jablanica_District)>(isPartOf|Leskovac)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1616
+    ], 
+    [
+      "Settlement[elevation]>(country|Slovenia)>(isPartOf|Gori%C5%A1ka_Statistical_Region)", 
+      0.1632
+    ], 
+    [
+      "Village[populationTotal]>(timeZone|Central_European_Time)>(isPartOf|Rasina_District)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1643
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(region|Pays_de_la_Loire)>(arrondissement|Arrondissement_of_Mamers)", 
+      0.1657
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(region|Pays_de_la_Loire)>(arrondissement|Arrondissement_of_Mamers)", 
+      0.1657
+    ], 
+    [
+      "Village[populationTotal]>(timeZone|Central_European_Time)>(isPartOf|Jablanica_District)>(isPartOf|Leskovac)", 
+      0.1674
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|West_Azerbaijan_Province)>(isPartOf|Silvaneh_District)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1678
+    ]
+  ], 
+  "values": [
+    934.753, 
+    934.8, 
+    723.4, 
+    723.401, 
+    153.9, 
+    153.9, 
+    497.493, 
+    497.5, 
+    82.1625, 
+    82.2, 
+    249.3, 
+    249.345, 
+    570.0, 
+    570.041, 
+    664.791, 
+    664.8, 
+    116.3, 
+    116.333
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/year"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "foundingYear", 
+          0.2979
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.3045
+        ], 
+        [
+          "deathYear", 
+          0.3154
+        ], 
+        [
+          "areaCode", 
+          0.3408
+        ]
+      ], 
+      "maj": [
+        [
+          "areaCode", 
+          4.0
+        ], 
+        [
+          "deathYear", 
+          2.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          2.0
+        ], 
+        [
+          "foundingYear", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsStartYear)", 
+          0.2798
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.2979
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          0.2979
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.2979
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          0.3004
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.3045
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsStartYear)", 
+          0.3045
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          0.3045
+        ], 
+        [
+          "http://dbpedia.org/ontology/Philosopher (deathYear)", 
+          0.3114
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          0.3154
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          0.3154
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (deathYear)", 
+          0.3194
+        ], 
+        [
+          "http://dbpedia.org/ontology/Saint (deathYear)", 
+          0.3194
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          0.3408
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.3408
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          0.3411
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          0.3411
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Saint (deathYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Philosopher (deathYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (deathYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsStartYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "ChristianBishop[activeYearsStartYear]", 
+      0.2798
+    ], 
+    [
+      "School[foundingYear]>(type|Independent_school_(United_Kingdom))", 
+      0.2902
+    ], 
+    [
+      "School[foundingYear]>(type|Independent_school_(United_Kingdom))>(religion|Church_of_England)>(country|England)", 
+      0.3056
+    ], 
+    [
+      "Philosopher[deathYear]", 
+      0.3114
+    ], 
+    [
+      "Saint[deathYear]>(beatifiedBy|Pope_John_Paul_II)", 
+      0.3194
+    ], 
+    [
+      "Cleric[activeYearsStartYear]", 
+      0.3293
+    ], 
+    [
+      "Location[areaCode]>(country|England)>(country|Oxfordshire)", 
+      0.3383
+    ], 
+    [
+      "Settlement[areaCode]>(country|England)>(country|Oxfordshire)", 
+      0.3383
+    ], 
+    [
+      "Location[areaCode]>(country|England)>(country|Cumbria)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3433
+    ], 
+    [
+      "Settlement[areaCode]>(country|England)>(country|Cumbria)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3433
+    ]
+  ], 
+  "values": [
+    1806.0, 
+    1803.0, 
+    1753.0, 
+    2286.0, 
+    1904.0, 
+    1765.0, 
+    1800.0, 
+    1752.0, 
+    1963.0, 
+    1903.0, 
+    2145.0
+  ]
+}

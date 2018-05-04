@@ -1,0 +1,217 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/serviceEndYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "openingYear", 
+          0.199
+        ], 
+        [
+          "foundingYear", 
+          0.2129
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          7.0
+        ], 
+        [
+          "foundingYear", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          0.1685
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          0.1872
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          0.1872
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (openingYear)", 
+          0.1872
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          0.1914
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.2078
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.2078
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.2078
+        ], 
+        [
+          "http://dbpedia.org/ontology/RugbyClub (foundingYear)", 
+          0.2099
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (foundingYear)", 
+          0.2099
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.2129
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.2129
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.2133
+        ], 
+        [
+          "http://dbpedia.org/ontology/LawFirm (foundingYear)", 
+          0.219
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          0.219
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          0.2329
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RugbyClub (foundingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/LawFirm (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (openingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Bridge[openingYear]>(type|Arch_bridge)", 
+      0.1685
+    ], 
+    [
+      "RugbyClub[foundingYear]>(location|Scotland)", 
+      0.1849
+    ], 
+    [
+      "Agent[openingYear]", 
+      0.1872
+    ], 
+    [
+      "PublicTransitSystem[openingYear]", 
+      0.1872
+    ], 
+    [
+      "Organisation[openingYear]", 
+      0.1872
+    ], 
+    [
+      "Station[openingYear]", 
+      0.1914
+    ], 
+    [
+      "LawFirm[foundingYear]", 
+      0.219
+    ], 
+    [
+      "RailwayTunnel[openingYear]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2273
+    ], 
+    [
+      "RugbyClub[foundingYear]>(location|England)", 
+      0.2349
+    ], 
+    [
+      "RailwayTunnel[openingYear]", 
+      0.2442
+    ]
+  ], 
+  "values": [
+    1887.0, 
+    1885.0, 
+    1978.0, 
+    1997.0, 
+    2043.0, 
+    1858.0, 
+    1789.0, 
+    1885.0, 
+    1904.0, 
+    1976.0
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaLand"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.5
+        ], 
+        [
+          "areaLand", 
+          0.5012
+        ], 
+        [
+          "area", 
+          0.5013
+        ]
+      ], 
+      "maj": [
+        [
+          "area", 
+          6.0
+        ], 
+        [
+          "areaLand", 
+          3.0
+        ], 
+        [
+          "areaTotal", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          0.5007
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          0.5007
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (area)", 
+          0.5008
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.5012
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.5012
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.5013
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (area)", 
+          0.502
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (area)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (area)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[areaLand]>(isPartOf|Florida)>(timeZone|Eastern_Time_Zone)", 
+      0.5
+    ], 
+    [
+      "Settlement[area]>(department|Nord_(French_department))", 
+      0.5
+    ], 
+    [
+      "Settlement[area]>(department|Manche)>(arrondissement|Arrondissement_of_Cherbourg)", 
+      0.5
+    ], 
+    [
+      "BodyOfWater[areaTotal]>(type|Trophic_state_index)", 
+      0.5
+    ], 
+    [
+      "Settlement[areaLand]>(isPartOf|Florida)>(timeZone|Eastern_Time_Zone)>(type|Census-designated_place)>(country|United_States)", 
+      0.5007
+    ], 
+    [
+      "Location[area]>(region|Franche-Comt%C3%A9)", 
+      0.5019
+    ], 
+    [
+      "Location[area]>(region|Picardy)", 
+      0.5019
+    ], 
+    [
+      "Location[area]>(region|Upper_Normandy)>(arrondissement|Dieppe)", 
+      0.502
+    ], 
+    [
+      "Settlement[area]>(department|Seine-Maritime)>(arrondissement|Dieppe)", 
+      0.502
+    ], 
+    [
+      "Settlement[areaLand]>(isPartOf|Florida)>(timeZone|Eastern_Time_Zone)>(type|Census-designated_place)", 
+      0.5031
+    ]
+  ], 
+  "values": [
+    7070000.0, 
+    7070670.0
+  ]
+}

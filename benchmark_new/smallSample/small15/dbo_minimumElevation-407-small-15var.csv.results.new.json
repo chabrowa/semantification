@@ -1,0 +1,185 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/minimumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "minimumElevation", 
+          0.1332
+        ], 
+        [
+          "populationTotal", 
+          0.1463
+        ], 
+        [
+          "numberOfStudents", 
+          0.1576
+        ]
+      ], 
+      "maj": [
+        [
+          "minimumElevation", 
+          4.0
+        ], 
+        [
+          "numberOfStudents", 
+          4.0
+        ], 
+        [
+          "populationTotal", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1332
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (minimumElevation)", 
+          0.1332
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (minimumElevation)", 
+          0.1368
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1454
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (minimumElevation)", 
+          0.1513
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          0.1574
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.1576
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.1576
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.1576
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (minimumElevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "ArchitecturalStructure[minimumElevation]", 
+      0.1223
+    ], 
+    [
+      "SportFacility[minimumElevation]", 
+      0.1223
+    ], 
+    [
+      "SkiArea[minimumElevation]", 
+      0.1223
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_Time_Zone)>(daylightSavingTimeZone|Eastern_Time_Zone)>(region|Crawford_County,_Pennsylvania)>(country|United_States)", 
+      0.1387
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_Time_Zone)>(daylightSavingTimeZone|Eastern_Time_Zone)>(region|Crawford_County,_Pennsylvania)", 
+      0.1538
+    ], 
+    [
+      "School[numberOfStudents]>(state|Virginia)", 
+      0.1574
+    ], 
+    [
+      "Organisation[numberOfStudents]", 
+      0.1577
+    ], 
+    [
+      "EducationalInstitution[numberOfStudents]", 
+      0.1577
+    ], 
+    [
+      "Agent[numberOfStudents]", 
+      0.1577
+    ], 
+    [
+      "SkiArea[minimumElevation]>(location|United_States)", 
+      0.1658
+    ]
+  ], 
+  "values": [
+    235.0561134981707, 
+    241.19435592159854, 
+    2105.5998926752222, 
+    2759.7199051063817, 
+    1401.8697218666891, 
+    1982.8889156478256, 
+    522.7257725029343, 
+    1889.653091184406, 
+    244.87029692671334, 
+    312.02814587247025, 
+    2086.164610522361, 
+    1291.760392277558, 
+    835.5995080510552, 
+    1448.285542215998, 
+    2780.2970178694864, 
+    140.06598542741463, 
+    1144.3597035521875, 
+    2020.7734247336386, 
+    189.21315058691812, 
+    194.68672058824015, 
+    295.19165975089044, 
+    1354.9274183513955, 
+    2203.4793147259234, 
+    1824.8683082928026, 
+    1933.5463757519176, 
+    1190.2887830301408
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/area"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfGoals", 
+          0.4494
+        ], 
+        [
+          "minimumElevation", 
+          0.4914
+        ], 
+        [
+          "areaWater", 
+          0.4973
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          6.0
+        ], 
+        [
+          "minimumElevation", 
+          2.0
+        ], 
+        [
+          "numberOfGoals", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/CareerStation (numberOfGoals)", 
+          0.4494
+        ], 
+        [
+          "http://dbpedia.org/ontology/TimePeriod (numberOfGoals)", 
+          0.4494
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.4914
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.4914
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.4914
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.4914
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.4953
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.4978
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.4981
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.4981
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.4987
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TimePeriod (numberOfGoals)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/CareerStation (numberOfGoals)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "TimePeriod[numberOfGoals]", 
+      0.4494
+    ], 
+    [
+      "CareerStation[numberOfGoals]", 
+      0.4494
+    ], 
+    [
+      "Location[minimumElevation]>(region|Pays_de_la_Loire)>(department|Loire-Atlantique)", 
+      0.4914
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Pays_de_la_Loire)>(department|Loire-Atlantique)", 
+      0.4914
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Idaho)>(timeZone|Pacific_Time_Zone)", 
+      0.4937
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|California)>(isPartOf|Riverside_County,_California)>(type|Census-designated_place)", 
+      0.4941
+    ], 
+    [
+      "Location[areaWater]>(type|Administrative_divisions_of_New_York)>(isPartOf|Nassau_County,_New_York)", 
+      0.497
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Nebraska)>(timeZone|Central_Time_Zone)>(type|City)", 
+      0.4989
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Idaho)>(timeZone|Pacific_Time_Zone)>(country|United_States)", 
+      0.4998
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Maryland)>(country|United_States)", 
+      0.5
+    ]
+  ], 
+  "values": [
+    1.008552667298403, 
+    0.9531155717020776, 
+    1.0108831128364784, 
+    1.0465558805087873, 
+    1.0270963669209257, 
+    1.0149111097368295, 
+    0.9853132659809611, 
+    53198643.15052441, 
+    0.9759590064028959, 
+    0.9585260521081466, 
+    1.0039467767494556, 
+    1.0282342556929431, 
+    0.973745335496992, 
+    0.9806646604361025, 
+    1.0441926413471774, 
+    0.9848593247997399, 
+    1.0320581265212676, 
+    0.9998368514384173, 
+    0.9867128250572241, 
+    0.9637394791811105, 
+    1.0418257084814888, 
+    0.99199561351159, 
+    1.0440118398069536, 
+    0.9643575104121542, 
+    1.0214759659565777, 
+    0.9945945932610728, 
+    0.9566322985171306, 
+    0.9621275703175541, 
+    0.9800633170870009, 
+    0.9980599619595522, 
+    1.046766597183974, 
+    0.9549841039768034, 
+    0.9684850271086658, 
+    0.9553391889740607, 
+    1.0037674143010433, 
+    0.9763997785944548, 
+    1.007043869593552, 
+    9.19083790216411, 
+    0.9959590913350264, 
+    1.0019385440375557, 
+    9.393670687295764, 
+    0.9913350050078084, 
+    1.0368028364935877, 
+    0.9647712590003168, 
+    1.0269334833478627, 
+    1.0468475768109613, 
+    1.0187747100464557, 
+    0.956081316959952, 
+    1.0094493189195775, 
+    1.0134598606921, 
+    1.0354494219869705, 
+    0.9565641867002894, 
+    0.9975638698884437, 
+    1.0118858174529224, 
+    0.9880601903790726, 
+    1.031950544364084, 
+    1.0249560364050383, 
+    0.9593179824673569, 
+    0.9610891393285044, 
+    1.0382271295906695, 
+    0.955193404677674, 
+    0.9911002746946246, 
+    0.9737881663199741, 
+    8.930703622715086, 
+    0.9981430419636584, 
+    0.9971529479341208, 
+    1.0406233842318648, 
+    0.9616971625790265, 
+    0.9508991605020553, 
+    0.9851378564169657, 
+    1.0263228003711988, 
+    0.9845930203628763, 
+    0.99014262204525, 
+    1.0386858792583529, 
+    1.017655489346783, 
+    1.0482146768421996, 
+    0.9556755224539938
+  ]
+}

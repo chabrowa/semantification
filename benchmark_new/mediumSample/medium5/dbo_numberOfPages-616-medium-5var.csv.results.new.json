@@ -1,0 +1,259 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfPages"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "length", 
+          0.1332
+        ], 
+        [
+          "populationTotal", 
+          0.1348
+        ], 
+        [
+          "populationDensity", 
+          0.1458
+        ], 
+        [
+          "elevation", 
+          0.1462
+        ]
+      ], 
+      "maj": [
+        [
+          "length", 
+          4.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ], 
+        [
+          "populationTotal", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          0.1261
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1283
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1348
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1348
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (length)", 
+          0.14
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.1409
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          0.1409
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          0.1409
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1447
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          0.1447
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1447
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1447
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1456
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1462
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1462
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1462
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.1462
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1469
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (length)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[length]>(22-rdf-syntax-ns#type|_Feature)>(location|Custer_County,_Idaho)", 
+      0.1208
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Germany)>(district|Rhein-Hunsr%C3%BCck-Kreis)>(type|Verbandsgemeinde)", 
+      0.1239
+    ], 
+    [
+      "Location[length]>(22-rdf-syntax-ns#type|_Feature)>(location|Custer_County,_Idaho)>(type|Glacial_lake)", 
+      0.1301
+    ], 
+    [
+      "Lake[length]>(location|Custer_County,_Idaho)>(type|Glacial_lake)", 
+      0.1367
+    ], 
+    [
+      "City[populationDensity]>(isPartOf|Oklahoma)>(type|City)", 
+      0.1447
+    ], 
+    [
+      "Lake[length]>(location|Custer_County,_Idaho)", 
+      0.1451
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Gilan_Province)>(isPartOf|Sowme'eh_Sara_County)>(isPartOf|Central_District_(Sowme'eh_Sara_County))", 
+      0.1456
+    ], 
+    [
+      "Town[elevation]>(isPartOf|New_York)>(type|Town)>(leaderName|Democratic_Party_(United_States))>(country|United_States)>(governmentType|Town_council)", 
+      0.1462
+    ], 
+    [
+      "Town[elevation]>(isPartOf|New_York)>(type|Town)>(leaderName|Democratic_Party_(United_States))>(country|United_States)>(governmentType|Town_council)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1462
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Oklahoma)>(type|City)", 
+      0.1469
+    ]
+  ], 
+  "values": [
+    286.0, 
+    537.0, 
+    138.0, 
+    111.0, 
+    384.0, 
+    115.0, 
+    136.0, 
+    450.0, 
+    375.0, 
+    158.0, 
+    178.0, 
+    324.0, 
+    874.0, 
+    198.0, 
+    381.0, 
+    348.0, 
+    571.0, 
+    499.0, 
+    363.0, 
+    355.0
+  ]
+}

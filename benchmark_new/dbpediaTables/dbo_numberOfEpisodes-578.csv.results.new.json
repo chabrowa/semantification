@@ -1,0 +1,263 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEpisodes"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1559
+        ], 
+        [
+          "numberOfEpisodes", 
+          0.1734
+        ], 
+        [
+          "elevation", 
+          0.1808
+        ], 
+        [
+          "populationDensity", 
+          0.1938
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          4.0
+        ], 
+        [
+          "populationDensity", 
+          3.0
+        ], 
+        [
+          "populationTotal", 
+          2.0
+        ], 
+        [
+          "numberOfEpisodes", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1559
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1559
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1559
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1565
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.168
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          0.1734
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          0.1734
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1757
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1757
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1757
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.1875
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.1937
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1937
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1937
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1939
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1939
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.194
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.194
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1959
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[populationTotal]>(isPartOf|Isfahan_Province)>(isPartOf|Kuhpayeh_District)", 
+      0.1513
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Isfahan_Province)>(isPartOf|Kuhpayeh_District)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1605
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Tr%C3%B8ndelag)>(isPartOf|S%C3%B8r-Tr%C3%B8ndelag)", 
+      0.1607
+    ], 
+    [
+      "TelevisionShow[numberOfEpisodes]>(network|Broadcast_syndication)>(language|English_language)", 
+      0.1734
+    ], 
+    [
+      "Village[elevation]>(type|Administrative_divisions_of_New_York)", 
+      0.179
+    ], 
+    [
+      "Town[elevation]>(type|Township_(New_Jersey))", 
+      0.1875
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Ohio)>(type|Civil_township)", 
+      0.1937
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Ohio)>(type|Civil_township)", 
+      0.1937
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Georgia_(U.S._state))", 
+      0.194
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Contra_Costa_County,_California)>(timeZone|Pacific_Time_Zone)", 
+      0.1959
+    ]
+  ], 
+  "values": [
+    8.0, 
+    1270.0, 
+    28.0, 
+    30.0, 
+    20.0, 
+    24.0, 
+    97.0, 
+    494.0, 
+    26.0, 
+    13.0, 
+    30.0, 
+    2.0, 
+    11.0, 
+    100.0, 
+    231.0, 
+    780.0
+  ]
+}

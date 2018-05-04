@@ -1,0 +1,294 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfGoals"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "minimumElevation", 
+          0.1195
+        ], 
+        [
+          "numberOfEpisodes", 
+          0.1562
+        ], 
+        [
+          "populationDensity", 
+          0.1567
+        ]
+      ], 
+      "maj": [
+        [
+          "minimumElevation", 
+          8.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ], 
+        [
+          "numberOfEpisodes", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.1194
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.1194
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.1195
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1195
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          0.1562
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          0.1562
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.1567
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1567
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1567
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1567
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[minimumElevation]>(department|Somme)>(arrondissement|Abbeville)", 
+      0.0963
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Somme)>(arrondissement|Abbeville)", 
+      0.0963
+    ], 
+    [
+      "Location[minimumElevation]>(department|Pas-de-Calais)>(arrondissement|Arrondissement_of_Montreuil)", 
+      0.1147
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Pas-de-Calais)>(arrondissement|Arrondissement_of_Montreuil)", 
+      0.1147
+    ], 
+    [
+      "Location[minimumElevation]>(region|Pays_de_la_Loire)", 
+      0.1205
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Pays_de_la_Loire)", 
+      0.1205
+    ], 
+    [
+      "Location[minimumElevation]>(department|Pas-de-Calais)>(arrondissement|Arrondissement_of_Saint-Omer)", 
+      0.1466
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Pas-de-Calais)>(arrondissement|Arrondissement_of_Saint-Omer)", 
+      0.1466
+    ], 
+    [
+      "TelevisionShow[numberOfEpisodes]", 
+      0.1562
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Pennsylvania)>(type|Township_(Pennsylvania))>(timeZone|Eastern_Time_Zone)", 
+      0.1567
+    ]
+  ], 
+  "values": [
+    58.0, 
+    46.0, 
+    26.0, 
+    3.0, 
+    3.0, 
+    49.0, 
+    92.0, 
+    64.0, 
+    1.0, 
+    25.0, 
+    25.0, 
+    48.0, 
+    55.0, 
+    22.0, 
+    44.0, 
+    3.0, 
+    49.0, 
+    10.0, 
+    50.0, 
+    60.0, 
+    4.0, 
+    83.0, 
+    93.0, 
+    89.0, 
+    2.0, 
+    2.0, 
+    43.0, 
+    50.0, 
+    108.0, 
+    19.0, 
+    49.0, 
+    46.0, 
+    2.0, 
+    8.0, 
+    28.0, 
+    15.0, 
+    13.0, 
+    67.0, 
+    57.0, 
+    26.0, 
+    47.0, 
+    46.0, 
+    68.0, 
+    51.0, 
+    51.0, 
+    76.0, 
+    11.0, 
+    57.0, 
+    46.0, 
+    37.0, 
+    23.0, 
+    3.0, 
+    75.0, 
+    16.0, 
+    10.0, 
+    58.0, 
+    18.0, 
+    52.0, 
+    83.0, 
+    6.0, 
+    14.0, 
+    13.0, 
+    29.0, 
+    35.0, 
+    1.0, 
+    56.0, 
+    7.0, 
+    2.0, 
+    23.0, 
+    39.0, 
+    38.0, 
+    27.0, 
+    22.0, 
+    84.0, 
+    74.0, 
+    74.0, 
+    38.0, 
+    61.0, 
+    43.0, 
+    25.0, 
+    80.0, 
+    3.0, 
+    2.0, 
+    33.0, 
+    4.0, 
+    95.0, 
+    2.0, 
+    69.0, 
+    78.0, 
+    88.0, 
+    56.0, 
+    18.0, 
+    66.0, 
+    59.0, 
+    88.0, 
+    73.0, 
+    34.0, 
+    5.0, 
+    2.0, 
+    9.0, 
+    45.0, 
+    11.0, 
+    5.0, 
+    9.0, 
+    68.0, 
+    68.0, 
+    88.0, 
+    71.0, 
+    7.0, 
+    12.0, 
+    1.0, 
+    63.0, 
+    3.0, 
+    9.0, 
+    61.0, 
+    2.0, 
+    52.0, 
+    22.0, 
+    22.0, 
+    2.0, 
+    30.0, 
+    3.0, 
+    1.0, 
+    21.0, 
+    52.0, 
+    19.0, 
+    8.0
+  ]
+}

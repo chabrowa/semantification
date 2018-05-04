@@ -1,0 +1,289 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/openingYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "activeYearsEndYear", 
+          0.1638
+        ], 
+        [
+          "openingYear", 
+          0.165
+        ], 
+        [
+          "foundingYear", 
+          0.17
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          6.0
+        ], 
+        [
+          "foundingYear", 
+          3.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          0.1518
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.1587
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.1634
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.1638
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cardinal (activeYearsEndYear)", 
+          0.1638
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsEndYear)", 
+          0.1638
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.1638
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.165
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.165
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayStation (openingYear)", 
+          0.1652
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bank (foundingYear)", 
+          0.1696
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          0.1696
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.1699
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.17
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          0.1703
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tunnel (openingYear)", 
+          0.1733
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          0.1758
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayStation (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cardinal (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tunnel (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bank (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "RailwayLine[openingYear]>(type|Light_rail)", 
+      0.1424
+    ], 
+    [
+      "RailwayStation[openingYear]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.155
+    ], 
+    [
+      "RailwayLine[openingYear]>(type|Light_rail)>(typeOfElectrification|Overhead_line)", 
+      0.158
+    ], 
+    [
+      "Cardinal[activeYearsEndYear]", 
+      0.1638
+    ], 
+    [
+      "Bank[foundingYear]", 
+      0.1696
+    ], 
+    [
+      "Agent[foundingYear]", 
+      0.1703
+    ], 
+    [
+      "Organisation[foundingYear]", 
+      0.1703
+    ], 
+    [
+      "Tunnel[openingYear]", 
+      0.1733
+    ], 
+    [
+      "Bridge[openingYear]", 
+      0.1758
+    ], 
+    [
+      "RailwayStation[openingYear]", 
+      0.1856
+    ]
+  ], 
+  "values": [
+    1971.0, 
+    1994.0, 
+    2005.0, 
+    1903.0, 
+    2007.0, 
+    1909.0, 
+    2012.0, 
+    1896.0, 
+    1912.0, 
+    1985.0, 
+    2011.0, 
+    1889.0, 
+    1889.0, 
+    2011.0, 
+    1929.0, 
+    1927.0, 
+    1986.0, 
+    2011.0, 
+    1903.0, 
+    1911.0, 
+    2004.0, 
+    1930.0, 
+    1911.0, 
+    1896.0, 
+    2015.0, 
+    2001.0, 
+    1938.0, 
+    2009.0, 
+    1896.0, 
+    19.0, 
+    1985.0, 
+    1911.0, 
+    2005.0, 
+    1890.0, 
+    1987.0, 
+    2015.0, 
+    1992.0, 
+    1908.0, 
+    2002.0, 
+    2002.0, 
+    1896.0, 
+    1994.0, 
+    1856.0, 
+    1894.0, 
+    2004.0, 
+    2007.0, 
+    1895.0, 
+    2007.0, 
+    1988.0, 
+    81.0, 
+    1928.0, 
+    1997.0, 
+    1889.0, 
+    2005.0, 
+    1911.0, 
+    1988.0, 
+    1880.0, 
+    1999.0, 
+    1999.0, 
+    1994.0, 
+    1999.0, 
+    1997.0, 
+    1885.0, 
+    1935.0, 
+    1999.0, 
+    1951.0
+  ]
+}

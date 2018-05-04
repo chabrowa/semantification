@@ -1,0 +1,197 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfPages"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.1482
+        ], 
+        [
+          "numberOfEmployees", 
+          0.1486
+        ], 
+        [
+          "populationDensity", 
+          0.1574
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          5.0
+        ], 
+        [
+          "populationDensity", 
+          4.0
+        ], 
+        [
+          "numberOfEmployees", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1454
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (numberOfEmployees)", 
+          0.1486
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          0.1486
+        ], 
+        [
+          "http://dbpedia.org/ontology/Publisher (numberOfEmployees)", 
+          0.1486
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          0.1486
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1558
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1563
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1563
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1563
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1579
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.159
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1622
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          15.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Publisher (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Andhra_Pradesh)", 
+      0.1417
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Andhra_Pradesh)>(country|India)", 
+      0.1423
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Andhra_Pradesh)>(country|India)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1429
+    ], 
+    [
+      "Publisher[numberOfEmployees]", 
+      0.1486
+    ], 
+    [
+      "Location[populationDensity]", 
+      0.1558
+    ], 
+    [
+      "PopulatedPlace[populationDensity]", 
+      0.1558
+    ], 
+    [
+      "Place[populationDensity]", 
+      0.1558
+    ], 
+    [
+      "Settlement[elevation]>(country|Spain)>(isPartOf|Province_of_Valencia)", 
+      0.1563
+    ], 
+    [
+      "Location[elevation]>(country|Spain)>(isPartOf|Province_of_Valencia)", 
+      0.1576
+    ], 
+    [
+      "Settlement[populationDensity]", 
+      0.1622
+    ]
+  ], 
+  "values": [
+    888.0, 
+    27.0, 
+    6.0, 
+    20.0, 
+    16.0, 
+    96.0, 
+    6.0, 
+    32.0, 
+    352.0, 
+    190.0, 
+    299.0, 
+    725.0, 
+    342.0, 
+    341.0
+  ]
+}

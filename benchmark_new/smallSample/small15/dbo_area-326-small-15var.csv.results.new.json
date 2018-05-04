@@ -1,0 +1,248 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/area"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfGoals", 
+          0.4494
+        ], 
+        [
+          "area", 
+          0.4626
+        ], 
+        [
+          "areaWater", 
+          0.4715
+        ], 
+        [
+          "runwayLength", 
+          0.4737
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          6.0
+        ], 
+        [
+          "numberOfGoals", 
+          2.0
+        ], 
+        [
+          "runwayLength", 
+          1.0
+        ], 
+        [
+          "area", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/CareerStation (numberOfGoals)", 
+          0.4494
+        ], 
+        [
+          "http://dbpedia.org/ontology/TimePeriod (numberOfGoals)", 
+          0.4494
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          0.4626
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (area)", 
+          0.4626
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          0.4626
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (area)", 
+          0.4626
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.4706
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.4713
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.4715
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.4715
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.4718
+        ], 
+        [
+          "http://dbpedia.org/ontology/Airport (runwayLength)", 
+          0.4737
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (runwayLength)", 
+          0.4737
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (runwayLength)", 
+          0.4737
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (runwayLength)", 
+          0.4737
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Airport (runwayLength)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TimePeriod (numberOfGoals)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/CareerStation (numberOfGoals)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (area)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (runwayLength)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (runwayLength)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (runwayLength)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (area)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "TimePeriod[numberOfGoals]", 
+      0.4494
+    ], 
+    [
+      "CareerStation[numberOfGoals]", 
+      0.4494
+    ], 
+    [
+      "Village[area]", 
+      0.4626
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Tennessee)>(type|City)>(timeZone|Eastern_Time_Zone)>(country|United_States)", 
+      0.4706
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Tennessee)>(timeZone|Eastern_Time_Zone)>(type|City)", 
+      0.4706
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Maryland)", 
+      0.4712
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Georgia_(U.S._state))", 
+      0.4713
+    ], 
+    [
+      "Location[areaWater]>(type|Village_(United_States))>(isPartOf|Ohio)", 
+      0.4724
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Georgia_(U.S._state))>(type|Census-designated_place)", 
+      0.473
+    ], 
+    [
+      "Airport[runwayLength]>(owner|Air_Ministry)", 
+      0.4737
+    ]
+  ], 
+  "values": [
+    0.9707502228710533, 
+    0.8551212645326733, 
+    1.0646453085321146, 
+    1.0664023378545875, 
+    0.8509690177898858, 
+    1.1453560177034636, 
+    0.9529838333529876, 
+    1.0553608241166097, 
+    0.9292589779911613, 
+    1.0091893127227651, 
+    1.0662407712713848, 
+    0.8752523995860864, 
+    1.0130193293056513, 
+    1.1326533233513492, 
+    0.9007258646413302, 
+    25226124.434487246, 
+    1.1396976792344495, 
+    1.0882043313331564, 
+    0.8831666284610391, 
+    0.9781810627824491, 
+    1.1072640581134805, 
+    0.9786104358485208, 
+    1.1435683819592481, 
+    1.1101344743441484, 
+    0.9249268537325108, 
+    59191758.26444942, 
+    1.0989576013907052, 
+    0.9751386574371805, 
+    0.8823420133144769, 
+    0.8957032924620687, 
+    0.8503065476890653, 
+    1.071769962985941, 
+    0.9510766034800273
+  ]
+}

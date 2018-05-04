@@ -1,0 +1,160 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "runtime", 
+          0.7007
+        ], 
+        [
+          "elevation", 
+          0.9223
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.9279
+        ]
+      ], 
+      "maj": [
+        [
+          "runtime", 
+          6.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          0.7007
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (runtime)", 
+          0.7175
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.9216
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.9227
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.9227
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.9237
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.9279
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.9279
+        ], 
+        [
+          "http://dbpedia.org/ontology/Monarch (activeYearsEndYear)", 
+          0.9279
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (runtime)", 
+          21.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Monarch (activeYearsEndYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "TelevisionShow[runtime]>(language|Tagalog_language)>(network|ABS-CBN)>(country|Philippines)", 
+      0.5741
+    ], 
+    [
+      "TelevisionShow[runtime]>(language|Tagalog_language)>(network|ABS-CBN)", 
+      0.5763
+    ], 
+    [
+      "TelevisionShow[runtime]>(language|Tagalog_language)", 
+      0.5919
+    ], 
+    [
+      "TelevisionShow[runtime]>(language|Tagalog_language)>(creativeDirector|Jun_Lana)", 
+      0.8113
+    ], 
+    [
+      "TelevisionShow[runtime]>(language|Tagalog_language)>(creativeDirector|Jun_Lana)>(format|480i)>(country|Philippines)", 
+      0.8235
+    ], 
+    [
+      "TelevisionShow[runtime]>(language|Tagalog_language)>(creativeDirector|Jun_Lana)>(format|480i)", 
+      0.8269
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|California)>(isPartOf|Imperial_County,_California)", 
+      0.9155
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Imperial_County,_California)", 
+      0.9216
+    ], 
+    [
+      "Monarch[activeYearsEndYear]", 
+      0.9279
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|California)>(isPartOf|Imperial_County,_California)>(type|Unincorporated_area)", 
+      0.9298
+    ]
+  ], 
+  "values": [
+    -60.0
+  ]
+}

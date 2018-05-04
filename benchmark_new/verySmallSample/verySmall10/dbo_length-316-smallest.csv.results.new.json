@@ -1,0 +1,243 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/length"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.0749
+        ], 
+        [
+          "length", 
+          0.0838
+        ]
+      ], 
+      "maj": [
+        [
+          "length", 
+          6.0
+        ], 
+        [
+          "populationTotal", 
+          4.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.0743
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          0.0793
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          0.0814
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (length)", 
+          0.0829
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.0837
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          0.0841
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          0.0879
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          0.0879
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          15.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (length)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Gujarat)", 
+      0.068
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Gujarat)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.07
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Gujarat)>(22-rdf-syntax-ns#type|_Feature)>(country|India)", 
+      0.0729
+    ], 
+    [
+      "NaturalPlace[length]", 
+      0.0771
+    ], 
+    [
+      "BodyOfWater[length]", 
+      0.0814
+    ], 
+    [
+      "RouteOfTransportation[length]", 
+      0.0829
+    ], 
+    [
+      "Place[length]", 
+      0.0841
+    ], 
+    [
+      "Location[length]", 
+      0.0841
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Maharashtra)", 
+      0.0886
+    ], 
+    [
+      "Infrastructure[length]", 
+      0.093
+    ]
+  ], 
+  "values": [
+    100722.55756935988, 
+    10187.012011795972, 
+    8837.395998037286, 
+    41504.78821452371, 
+    177.99404618849596, 
+    31759.58693952184, 
+    33666.39781124243, 
+    12236.608786654444, 
+    50363.27126876658, 
+    13609.05687684417, 
+    46198.155301006664, 
+    27549.686910260745, 
+    5553.55149312286, 
+    232945.14392215264, 
+    684.3775333142356, 
+    3334.724511220624, 
+    35744.737301266214, 
+    18302.664611217468, 
+    42053.06898160397, 
+    215.57551956910737, 
+    20145.54973379254, 
+    18861.881310716293, 
+    15709.987453681204, 
+    31421.441229668042, 
+    2726.950354014279, 
+    30795.552348503417, 
+    2294.8684922132966, 
+    7827.123185477553, 
+    17451.298460023558, 
+    153040.70302162954, 
+    15266.750561990159, 
+    2362.732219238363, 
+    26505.424524009704, 
+    93424.9262929419, 
+    14741.290523172554, 
+    381.10932217639527, 
+    74180.50661575483, 
+    240.3788384997749, 
+    10961.018641415196, 
+    48266.10880447125, 
+    560.7937608232215, 
+    44657.40228910351, 
+    158482.2985239333, 
+    66029.34093499671, 
+    6278.496644075724, 
+    98395.19318372272, 
+    4512.655360582171, 
+    236.88390831816156, 
+    273622.782703634, 
+    2072.685484507088, 
+    15782.149561171927, 
+    237894.67233519608, 
+    13482.895420664918, 
+    987103.6826653911, 
+    12902.832871469072, 
+    32111.91412968026, 
+    39646.15794906972, 
+    349238.54554206633, 
+    7765.297300747529, 
+    23003.622112934554, 
+    228.52271373760283, 
+    208723.5507665284, 
+    11989.814531985789, 
+    6027.022490370569, 
+    213923.1562250235, 
+    59034.32603579615, 
+    141372.1005528399, 
+    2899.4308898374825, 
+    3439.351513882087, 
+    213843.33331574427, 
+    184799.4907030998, 
+    56144.66990908498, 
+    1326.4340911100408, 
+    21690.317983646906, 
+    167747.95894773054, 
+    82489.36511427743, 
+    85405.65664266325, 
+    206689.63625101137, 
+    3925.746709613527, 
+    66684.13090577857, 
+    57630.00187054189, 
+    7101.657858512161, 
+    54982.04555010749, 
+    11100.735764052943, 
+    126454.64305029278, 
+    29323.991325987732, 
+    18185.412712745427, 
+    12136.938678178705, 
+    20199.714368882305, 
+    6550.910865429489, 
+    11039.595109398004, 
+    6003.336093054328, 
+    8962.099644619215, 
+    46013.29864578393, 
+    82026.76450780599, 
+    3296.5601405057355, 
+    24449.420146392305, 
+    350861.5270428096, 
+    14714.12939405347, 
+    12373.985798532189
+  ]
+}

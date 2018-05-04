@@ -1,0 +1,235 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/gross"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.107
+        ], 
+        [
+          "areaWater", 
+          0.1293
+        ], 
+        [
+          "area", 
+          0.163
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          8.0
+        ], 
+        [
+          "area", 
+          1.0
+        ], 
+        [
+          "populationTotal", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.107
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.107
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.107
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.108
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.1109
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.1148
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.1148
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.1547
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          0.163
+        ], 
+        [
+          "http://dbpedia.org/ontology/HistoricPlace (area)", 
+          0.163
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          0.1637
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/HistoricPlace (area)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "City[areaWater]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)", 
+      0.0897
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|New_Jersey)", 
+      0.0916
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Indian_Standard_Time)", 
+      0.107
+    ], 
+    [
+      "City[areaWater]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)>(type|City)>(timeZone|Pacific_Time_Zone)", 
+      0.1123
+    ], 
+    [
+      "City[areaWater]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)>(type|City)", 
+      0.1164
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|New_Jersey)>(governmentType|Borough_(New_Jersey))", 
+      0.1383
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|New_Jersey)>(type|Census-designated_place)", 
+      0.1589
+    ], 
+    [
+      "HistoricPlace[area]", 
+      0.163
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Iowa)>(type|Township_(United_States))>(timeZone|Central_Time_Zone)", 
+      0.1637
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Iowa)>(type|Township_(United_States))>(timeZone|Central_Time_Zone)", 
+      0.1637
+    ]
+  ], 
+  "values": [
+    56870.38676114685, 
+    133739.86524708467, 
+    35694.99357579316, 
+    16490.390436896625, 
+    14678.497217393911, 
+    68443.56071258697, 
+    11321.814390441199, 
+    34415.88239495012, 
+    2815.5948186475707, 
+    39600.63750039377, 
+    1479.8672137025314, 
+    4648.49268699482, 
+    7603.79410115973, 
+    110470.28513198592, 
+    317299.2292817073, 
+    233987.64387650066, 
+    4022866.5369233037, 
+    1208511.3028984945, 
+    55727.46495148367, 
+    224256.6374601137, 
+    305079.3959735045, 
+    12966.584309667938, 
+    6999.3981774130725, 
+    6345.842593247019, 
+    1940770.3652251349, 
+    20896.300812164485, 
+    234818.87801605914, 
+    16853.602765884534, 
+    238498.14061375102, 
+    1135.650296041056, 
+    3760606.4404745693, 
+    1893590.47376996, 
+    202183.26875813986, 
+    129471.62391551839, 
+    151.58833038801978, 
+    90529.81971963191, 
+    248345.0230825728, 
+    287811.8771945266, 
+    5496.49214369419, 
+    33780.24232843359, 
+    443676.7896903154, 
+    2672.573337144715, 
+    18688.95964276569, 
+    741871.9634459015, 
+    14312.254456921506, 
+    448694.56986002956, 
+    730565.8655804594, 
+    799158.067276882, 
+    106696.2284844263, 
+    432772.3127734494, 
+    369612.2997804902, 
+    324354.9383727936, 
+    11307.11951986445, 
+    106899.66727039203, 
+    10269.057774909794, 
+    31995.647468855575, 
+    7546.1082851822885, 
+    1902.928598685684, 
+    225563.90871017062, 
+    727545.7967588502
+  ]
+}

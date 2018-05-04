@@ -1,0 +1,225 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/yearOfConstruction"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "activeYearsEndYear", 
+          0.1971
+        ], 
+        [
+          "areaCode", 
+          0.2087
+        ], 
+        [
+          "elevation", 
+          0.2286
+        ]
+      ], 
+      "maj": [
+        [
+          "areaCode", 
+          6.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.1971
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.1971
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsEndYear)", 
+          0.1971
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsEndYear)", 
+          0.1971
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          0.2005
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaCode)", 
+          0.2185
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          0.2219
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.2219
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          0.2219
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.2241
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2298
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2308
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2308
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          15.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaCode)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsEndYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaCode]>(timeZone|Indian_Standard_Time)>(isPartOf|Punjab,_India)", 
+      0.1894
+    ], 
+    [
+      "Location[areaCode]>(timeZone|Indian_Standard_Time)>(isPartOf|Punjab,_India)>(22-rdf-syntax-ns#type|_Feature)>(country|India)", 
+      0.193
+    ], 
+    [
+      "Location[areaCode]>(timeZone|Indian_Standard_Time)>(isPartOf|Punjab,_India)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1966
+    ], 
+    [
+      "ChristianBishop[activeYearsEndYear]>(religion|Anglicanism)", 
+      0.1971
+    ], 
+    [
+      "Village[areaCode]>(isPartOf|Punjab,_India)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2047
+    ], 
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.2241
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.2241
+    ], 
+    [
+      "Location[areaCode]>(country|England)>(ceremonialCounty|Shropshire)", 
+      0.2296
+    ], 
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)", 
+      0.2374
+    ], 
+    [
+      "Village[areaCode]>(isPartOf|Punjab,_India)", 
+      0.2392
+    ]
+  ], 
+  "values": [
+    1664.0, 
+    1885.0, 
+    1731.0, 
+    1716.0, 
+    1548.0, 
+    2116.0, 
+    1668.0, 
+    1640.0, 
+    2000.0, 
+    1712.0, 
+    1770.0, 
+    1856.0, 
+    1606.0, 
+    1637.0, 
+    1877.0, 
+    1835.0, 
+    1642.0, 
+    1760.0, 
+    1701.0, 
+    2119.0, 
+    1998.0, 
+    1677.0, 
+    1553.0, 
+    1725.0, 
+    1766.0, 
+    1648.0, 
+    2118.0, 
+    2044.0, 
+    2108.0, 
+    1708.0, 
+    1630.0, 
+    1752.0, 
+    1625.0, 
+    1909.0
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/shipBeam"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "height", 
+          0.1824
+        ], 
+        [
+          "shipBeam", 
+          0.2004
+        ], 
+        [
+          "number", 
+          0.202
+        ], 
+        [
+          "populationDensity", 
+          0.2063
+        ], 
+        [
+          "elevation", 
+          0.2407
+        ]
+      ], 
+      "maj": [
+        [
+          "number", 
+          3.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "shipBeam", 
+          2.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ], 
+        [
+          "height", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          0.1811
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.1824
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (height)", 
+          0.1824
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (height)", 
+          0.1824
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.1824
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          0.2004
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          0.2004
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.202
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.202
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.202
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.2063
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.2063
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.2063
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.2063
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.2364
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2407
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2407
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2435
+        ], 
+        [
+          "http://dbpedia.org/ontology/GridironFootballPlayer (number)", 
+          0.2438
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmericanFootballPlayer (number)", 
+          0.2438
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmericanFootballPlayer (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/GridironFootballPlayer (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "BasketballPlayer[number]>(league|Euroleague_Basketball)", 
+      0.1765
+    ], 
+    [
+      "Lighthouse[height]>(location|Australia)", 
+      0.1824
+    ], 
+    [
+      "BasketballPlayer[number]>(league|Eurocup_Basketball)", 
+      0.1857
+    ], 
+    [
+      "Ship[shipBeam]", 
+      0.2004
+    ], 
+    [
+      "MeanOfTransportation[shipBeam]", 
+      0.2004
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Arkansas)", 
+      0.2063
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Northern_Norway)>(isPartOf|Nordland)>(timeZone|Central_European_Time)", 
+      0.2321
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Northern_Norway)>(isPartOf|Nordland)", 
+      0.2421
+    ], 
+    [
+      "AmericanFootballPlayer[number]>(position|Quarterback)", 
+      0.2438
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Vorpommern-Greifswald)", 
+      0.2478
+    ]
+  ], 
+  "values": [
+    19.317989023271796, 
+    8.163241948717664, 
+    11.15375542164605, 
+    12.47401353916981, 
+    6.916502907249026, 
+    14.05348815308275, 
+    7.07050565603127, 
+    22.73392038393134, 
+    23.953757851853148, 
+    7.614595606718263
+  ]
+}

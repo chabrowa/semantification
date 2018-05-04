@@ -1,0 +1,233 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/openingYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfStudents", 
+          0.4482
+        ], 
+        [
+          "populationTotal", 
+          0.4596
+        ], 
+        [
+          "capacity", 
+          0.463
+        ], 
+        [
+          "elevation", 
+          0.4697
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          5.0
+        ], 
+        [
+          "numberOfStudents", 
+          2.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ], 
+        [
+          "capacity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.4482
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.4482
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.4482
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          0.451
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.4594
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.4595
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.4595
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.46
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (capacity)", 
+          0.463
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (capacity)", 
+          0.463
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (capacity)", 
+          0.463
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerClub (capacity)", 
+          0.463
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.4695
+        ], 
+        [
+          "http://dbpedia.org/ontology/MountainRange (elevation)", 
+          0.4695
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.4697
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.4699
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.4699
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          19.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerClub (capacity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (capacity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (capacity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (capacity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MountainRange (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "School[numberOfStudents]>(state|Florida)>(type|State_school)", 
+      0.4286
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Eastern_Time_Zone)>(isPartOf|Pennsylvania)>(isPartOf|York_County,_Pennsylvania)>(country|United_States)", 
+      0.4528
+    ], 
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(country|Wales)>(ceremonialCounty|Gwynedd)", 
+      0.46
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|Wales)>(ceremonialCounty|Gwynedd)", 
+      0.46
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Eastern_Time_Zone)>(isPartOf|Pennsylvania)>(isPartOf|York_County,_Pennsylvania)>(country|United_States)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.4615
+    ], 
+    [
+      "SoccerClub[capacity]>(ground|Spain)>(league|Tercera_Divisi%C3%B3n_Groups_1%E2%80%939)", 
+      0.463
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Eastern_Time_Zone)>(isPartOf|Florida)>(type|Neighborhoods_in_Tampa,_Florida)", 
+      0.4638
+    ], 
+    [
+      "School[numberOfStudents]>(state|Florida)>(type|State_school)>(country|United_States)", 
+      0.4677
+    ], 
+    [
+      "MountainRange[elevation]", 
+      0.4695
+    ], 
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)", 
+      0.4699
+    ]
+  ], 
+  "values": [
+    2057.0, 
+    1833.0
+  ]
+}

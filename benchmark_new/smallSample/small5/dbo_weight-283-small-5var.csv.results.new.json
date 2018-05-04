@@ -1,0 +1,230 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/weight"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "weight", 
+          0.195
+        ], 
+        [
+          "postalCode", 
+          0.2392
+        ]
+      ], 
+      "maj": [
+        [
+          "weight", 
+          9.0
+        ], 
+        [
+          "postalCode", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Artist (weight)", 
+          0.1099
+        ], 
+        [
+          "http://dbpedia.org/ontology/Actor (weight)", 
+          0.1151
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdultActor (weight)", 
+          0.1361
+        ], 
+        [
+          "http://dbpedia.org/ontology/Model (weight)", 
+          0.1937
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (weight)", 
+          0.195
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (weight)", 
+          0.195
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          0.2392
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (postalCode)", 
+          0.2392
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          0.2392
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          0.2392
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmateurBoxer (weight)", 
+          0.2661
+        ], 
+        [
+          "http://dbpedia.org/ontology/Boxer (weight)", 
+          0.2665
+        ], 
+        [
+          "http://dbpedia.org/ontology/Gymnast (weight)", 
+          0.2737
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (weight)", 
+          0.2803
+        ], 
+        [
+          "http://dbpedia.org/ontology/TableTennisPlayer (weight)", 
+          0.3145
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Person (weight)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (weight)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (weight)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (weight)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Actor (weight)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdultActor (weight)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Boxer (weight)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmateurBoxer (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Model (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Gymnast (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TableTennisPlayer (weight)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Actor[weight]", 
+      0.0942
+    ], 
+    [
+      "Artist[weight]", 
+      0.0942
+    ], 
+    [
+      "AdultActor[weight]", 
+      0.0942
+    ], 
+    [
+      "AdultActor[weight]>(birthPlace|United_States)", 
+      0.157
+    ], 
+    [
+      "Model[weight]", 
+      0.1937
+    ], 
+    [
+      "City[postalCode]", 
+      0.2392
+    ], 
+    [
+      "AmateurBoxer[weight]", 
+      0.2661
+    ], 
+    [
+      "Boxer[weight]", 
+      0.267
+    ], 
+    [
+      "Gymnast[weight]", 
+      0.2737
+    ], 
+    [
+      "TableTennisPlayer[weight]", 
+      0.3145
+    ]
+  ], 
+  "values": [
+    70871.67780654419, 
+    46883.139839085314, 
+    56240.51428169047, 
+    50255.71897044606, 
+    49006.42389898245, 
+    53950.336090456585, 
+    86793.86781487882, 
+    47056.8920950116, 
+    77437.2055009089, 
+    55920.63498002598, 
+    57060.91844606357, 
+    76230.78953920736, 
+    54313.42577092398, 
+    44161.05010313927, 
+    76254.12431221014, 
+    48530.69919030318, 
+    50230.76773451587, 
+    47215.34525880989, 
+    49744.469899674696, 
+    70582.89512338256, 
+    79728.75652081038, 
+    75861.80562679614, 
+    48085.99486324551, 
+    81921.30707623063, 
+    59673.5810467481, 
+    47998.0241364705, 
+    63416.4200633787, 
+    54884.79834527773, 
+    50096.55995097015, 
+    56374.79243341089, 
+    53691.27275028728
+  ]
+}

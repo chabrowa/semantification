@@ -1,0 +1,227 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/openingYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.3103
+        ], 
+        [
+          "areaCode", 
+          0.3284
+        ], 
+        [
+          "numberOfStudents", 
+          0.3387
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          7.0
+        ], 
+        [
+          "areaCode", 
+          2.0
+        ], 
+        [
+          "numberOfStudents", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.3006
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.3176
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.3176
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.3201
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          0.3284
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          0.3284
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.3284
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          0.3284
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.3387
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          0.3387
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.3387
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.3387
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          16.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Colorado)>(type|Census-designated_place)", 
+      0.2747
+    ], 
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.2897
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.2897
+    ], 
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)", 
+      0.3017
+    ], 
+    [
+      "Location[areaCode]>(country|England)>(country|Cumbria)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3284
+    ], 
+    [
+      "Settlement[areaCode]>(country|England)>(country|Cumbria)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3284
+    ], 
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)", 
+      0.3373
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)", 
+      0.3373
+    ], 
+    [
+      "School[numberOfStudents]>(state|Florida)>(type|State_school)>(country|United_States)", 
+      0.3387
+    ], 
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)>(country|United_States)", 
+      0.3418
+    ]
+  ], 
+  "values": [
+    1798.0, 
+    1788.0, 
+    1626.0, 
+    1814.0, 
+    1868.0, 
+    2231.0, 
+    1674.0, 
+    2249.0, 
+    2168.0, 
+    1829.0, 
+    2022.0, 
+    1748.0, 
+    2078.0, 
+    1684.0, 
+    1664.0, 
+    2087.0, 
+    1815.0, 
+    1810.0, 
+    1715.0, 
+    1988.0, 
+    1756.0, 
+    2022.0, 
+    1735.0, 
+    1613.0, 
+    2117.0, 
+    2056.0, 
+    1709.0, 
+    1844.0, 
+    1679.0, 
+    1836.0, 
+    1996.0, 
+    1716.0, 
+    2003.0, 
+    2135.0, 
+    1687.0, 
+    1970.0, 
+    2133.0, 
+    2185.0, 
+    1849.0, 
+    1810.0, 
+    2027.0, 
+    2093.0, 
+    2046.0, 
+    2019.0
+  ]
+}

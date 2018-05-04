@@ -1,0 +1,251 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaLand"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaLand", 
+          0.0877
+        ], 
+        [
+          "areaTotal", 
+          0.088
+        ]
+      ], 
+      "maj": [
+        [
+          "areaLand", 
+          5.0
+        ], 
+        [
+          "areaTotal", 
+          5.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Village (areaTotal)", 
+          0.0809
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.084
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.0877
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.0877
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.088
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.088
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.088
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.0936
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          0.0951
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          5.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[areaLand]>(isPartOf|Maryland)>(country|United_States)", 
+      0.0745
+    ], 
+    [
+      "City[areaLand]", 
+      0.0758
+    ], 
+    [
+      "Village[areaTotal]>(isPartOf|Illinois)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0808
+    ], 
+    [
+      "Village[areaTotal]>(isPartOf|Illinois)", 
+      0.0812
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Missouri)>(isPartOf|St._Louis_County,_Missouri)>(type|City)", 
+      0.0854
+    ], 
+    [
+      "City[areaLand]>(isPartOf|Missouri)>(isPartOf|St._Louis_County,_Missouri)>(type|City)", 
+      0.0908
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Missouri)>(isPartOf|St._Louis_County,_Missouri)", 
+      0.0909
+    ], 
+    [
+      "City[areaLand]>(isPartOf|Missouri)>(isPartOf|St._Louis_County,_Missouri)", 
+      0.0958
+    ], 
+    [
+      "City[areaLand]>(isPartOf|Missouri)>(isPartOf|St._Louis_County,_Missouri)>(type|City)>(country|United_States)", 
+      0.1019
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Missouri)>(isPartOf|St._Louis_County,_Missouri)>(type|City)>(country|United_States)", 
+      0.1019
+    ]
+  ], 
+  "values": [
+    5754610.178421953, 
+    24773221.287466213, 
+    541530.5402079327, 
+    18845057.25646065, 
+    5578800.351655706, 
+    4087403.443316311, 
+    584860.8640627243, 
+    71852359.15175197, 
+    7733885.740510619, 
+    4707413.425321186, 
+    476156.45083589293, 
+    5002714.929582502, 
+    67118588.71124117, 
+    11702976.772269383, 
+    610818.5280984127, 
+    8202988.027196424, 
+    1663288.466717156, 
+    4821869.470585197, 
+    91208325.95237578, 
+    43968849.17279193, 
+    1366549.0256068616, 
+    5091074.009386036, 
+    1256325.3641848941, 
+    4422898.724716107, 
+    16423758.866387393, 
+    2847568.071859356, 
+    385316880.06812954, 
+    9734833.852887513, 
+    32321633.335480407, 
+    73426121.23298372, 
+    6169060.76567316, 
+    1309497.3505956996, 
+    5983298.301496042, 
+    2102390.131090975, 
+    13075530.540266825, 
+    37780807.91419939, 
+    21572711.28234016, 
+    9305384.872018386, 
+    39182460.273016736, 
+    12402015.841407543, 
+    1241005.8891132474, 
+    2268916.9408126976, 
+    849177.9429628402, 
+    2218996.4386103665, 
+    609310.2117098914, 
+    405087.8454696184, 
+    1262151.0955060127, 
+    932766.1096044418, 
+    11564790.48707536, 
+    16646947.54601555, 
+    699922.0800316643, 
+    27747370.402618688, 
+    7212827.786997981, 
+    28651312.415513396, 
+    2013781.1781616388, 
+    4393808.313159212, 
+    59852286.1353534, 
+    30261905.202096775, 
+    875255.9769873838, 
+    26985189.88696399, 
+    2659347.953521941, 
+    8175892.752289954, 
+    13205348.464054914, 
+    23111056.859243758, 
+    730742.8050974532, 
+    5318674.045293923, 
+    364970.1992344672, 
+    207081.05029654453, 
+    2609833.607823781, 
+    11298912.974290028, 
+    3035735.1950718206, 
+    17717881.772582304, 
+    15959119.952238228, 
+    8365351.087467553, 
+    2822754.943499516, 
+    18055873.242255565, 
+    676188.1519514434, 
+    1300226.9187657658, 
+    44641452.39146946, 
+    6548105.604642808, 
+    2603178.7391451797, 
+    1270948.4612093088, 
+    8871033.104040071, 
+    3580754.3074248824, 
+    6342732.242467644, 
+    15496259.135093192, 
+    11066774.12914447, 
+    948610.6369497902, 
+    2625235.6389516895, 
+    3984566.8401724524, 
+    315500093.87618667, 
+    679039.8912008124, 
+    2480964.816118868, 
+    75750978.68570897, 
+    4041354.231611082, 
+    2029121.0952407108, 
+    1441768.290137775, 
+    641456.9062640438, 
+    14000318.069386493, 
+    11716542.248055268
+  ]
+}

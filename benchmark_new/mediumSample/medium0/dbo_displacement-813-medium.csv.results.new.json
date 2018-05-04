@@ -1,0 +1,167 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/displacement"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "displacement", 
+          0.2216
+        ], 
+        [
+          "areaWater", 
+          0.5058
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          7.0
+        ], 
+        [
+          "displacement", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Device (displacement)", 
+          0.2216
+        ], 
+        [
+          "http://dbpedia.org/ontology/Engine (displacement)", 
+          0.2216
+        ], 
+        [
+          "http://dbpedia.org/ontology/AutomobileEngine (displacement)", 
+          0.2216
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.5039
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.5058
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.5058
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.5061
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.5085
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (displacement)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Engine (displacement)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AutomobileEngine (displacement)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Device[displacement]", 
+      0.2216
+    ], 
+    [
+      "Engine[displacement]", 
+      0.2216
+    ], 
+    [
+      "AutomobileEngine[displacement]", 
+      0.2216
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Maryland)>(country|United_States)", 
+      0.5
+    ], 
+    [
+      "Location[areaWater]>(type|Administrative_divisions_of_New_York)>(isPartOf|Nassau_County,_New_York)", 
+      0.503
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Nebraska)", 
+      0.5052
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Idaho)>(timeZone|Pacific_Time_Zone)", 
+      0.5063
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|California)>(isPartOf|Riverside_County,_California)>(type|Census-designated_place)", 
+      0.507
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|California)>(isPartOf|Riverside_County,_California)>(type|Census-designated_place)>(country|United_States)", 
+      0.5072
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Nebraska)>(timeZone|Central_Time_Zone)>(type|City)", 
+      0.5119
+    ]
+  ], 
+  "values": [
+    0.004414, 
+    0.002494, 
+    0.003261, 
+    0.002287, 
+    0.003, 
+    0.003396, 
+    0.001598, 
+    0.001796, 
+    0.0071400000000000005, 
+    0.002287, 
+    0.0014, 
+    0.0016, 
+    0.002986, 
+    0.00354024, 
+    0.0012980000000000001, 
+    0.005, 
+    0.00112, 
+    0.003189, 
+    0.002231, 
+    0.001596, 
+    0.00565455, 
+    0.003386, 
+    0.002993, 
+    0.002781
+  ]
+}

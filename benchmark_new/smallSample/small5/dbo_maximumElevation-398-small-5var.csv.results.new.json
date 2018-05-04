@@ -1,0 +1,241 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/maximumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.1107
+        ], 
+        [
+          "populationTotal", 
+          0.1258
+        ], 
+        [
+          "numberOfStudents", 
+          0.1269
+        ], 
+        [
+          "maximumElevation", 
+          0.1411
+        ]
+      ], 
+      "maj": [
+        [
+          "numberOfStudents", 
+          3.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "maximumElevation", 
+          2.0
+        ], 
+        [
+          "populationTotal", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/MountainRange (elevation)", 
+          0.0904
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.1107
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1107
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1187
+        ], 
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          0.1208
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1258
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1258
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.1269
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.1269
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.1269
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          0.1277
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1377
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (maximumElevation)", 
+          0.1411
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.1411
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (maximumElevation)", 
+          0.1411
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MountainRange (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "MountainRange[elevation]", 
+      0.0904
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Eastern_Time_Zone)>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Mont%C3%A9r%C3%A9gie)", 
+      0.1139
+    ], 
+    [
+      "School[numberOfStudents]>(state|California)>(type|State_school)", 
+      0.1168
+    ], 
+    [
+      "Volcano[elevation]>(locatedInArea|Indonesia)>(type|Stratovolcano)", 
+      0.1205
+    ], 
+    [
+      "Volcano[elevation]>(locatedInArea|Indonesia)", 
+      0.1212
+    ], 
+    [
+      "School[numberOfStudents]>(state|Florida)>(type|State_school)", 
+      0.1291
+    ], 
+    [
+      "School[numberOfStudents]>(state|California)>(type|State_school)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1348
+    ], 
+    [
+      "Village[populationTotal]>(country|India)>(isPartOf|Pudukkottai_district)", 
+      0.1377
+    ], 
+    [
+      "ArchitecturalStructure[maximumElevation]", 
+      0.1411
+    ], 
+    [
+      "SportFacility[maximumElevation]", 
+      0.1411
+    ]
+  ], 
+  "values": [
+    2262.234941662123, 
+    2552.979094502329, 
+    1898.550996375746, 
+    1975.4782808000584, 
+    515.5929669605695, 
+    1576.0564697937862, 
+    1068.9757178767816, 
+    3158.387826789121, 
+    2498.567025100283, 
+    1886.3921703885085, 
+    4133.181579467171, 
+    363.69382197718176, 
+    2027.6407529782277, 
+    2279.5524465511803, 
+    2367.3588331268716, 
+    1736.7225421613293, 
+    639.7120216969857, 
+    1292.028140372047, 
+    3593.1206766784467, 
+    1141.2255421141758, 
+    1277.4521406570343, 
+    3863.8290304407606, 
+    1741.2684858311093, 
+    3399.7564781135384, 
+    1910.612671821864, 
+    476.585572863602
+  ]
+}

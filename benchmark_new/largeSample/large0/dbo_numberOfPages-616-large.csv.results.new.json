@@ -1,0 +1,189 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfPages"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfPages", 
+          0.1331
+        ], 
+        [
+          "elevation", 
+          0.1453
+        ], 
+        [
+          "populationDensity", 
+          0.148
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          6.0
+        ], 
+        [
+          "numberOfPages", 
+          3.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/WrittenWork (numberOfPages)", 
+          0.1331
+        ], 
+        [
+          "http://dbpedia.org/ontology/Book (numberOfPages)", 
+          0.1331
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfPages)", 
+          0.1331
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.1435
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1453
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1453
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.1457
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1459
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.148
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfPages)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (numberOfPages)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Book (numberOfPages)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Work[numberOfPages]", 
+      0.1331
+    ], 
+    [
+      "WrittenWork[numberOfPages]", 
+      0.1331
+    ], 
+    [
+      "Book[numberOfPages]", 
+      0.1331
+    ], 
+    [
+      "City[elevation]>(isPartOf|Rajasthan)>(country|India)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1421
+    ], 
+    [
+      "City[elevation]>(isPartOf|Rajasthan)>(country|India)", 
+      0.1433
+    ], 
+    [
+      "Town[elevation]>(isPartOf|Oklahoma)>(type|Town)", 
+      0.1452
+    ], 
+    [
+      "Town[elevation]>(isPartOf|Oklahoma)", 
+      0.1463
+    ], 
+    [
+      "City[elevation]>(isPartOf|Rajasthan)", 
+      0.1467
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Trier-Saarburg)", 
+      0.1479
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Michigan)>(type|Village_(United_States))>(timeZone|Eastern_Time_Zone)", 
+      0.148
+    ]
+  ], 
+  "values": [
+    358.0, 
+    464.0, 
+    258.0, 
+    362.0, 
+    148.0, 
+    80.0, 
+    458.0, 
+    313.0, 
+    355.0, 
+    378.0, 
+    295.0, 
+    271.0, 
+    512.0, 
+    347.0, 
+    314.0, 
+    182.0, 
+    368.0, 
+    182.0, 
+    183.0, 
+    131.0, 
+    304.0, 
+    336.0, 
+    663.0, 
+    544.0, 
+    154.0, 
+    304.0, 
+    369.0, 
+    352.0, 
+    192.0, 
+    173.0
+  ]
+}

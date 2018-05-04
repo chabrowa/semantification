@@ -1,0 +1,183 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/squadNumber"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.0999
+        ], 
+        [
+          "number", 
+          0.1022
+        ]
+      ], 
+      "maj": [
+        [
+          "number", 
+          9.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.0999
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.0999
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.0999
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.1022
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.1022
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.1022
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          0.1037
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          25.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Czechoslovakia)", 
+      0.083
+    ], 
+    [
+      "SoccerPlayer[number]", 
+      0.0839
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Spain)", 
+      0.0887
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Iran)", 
+      0.0976
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Vorpommern-Greifswald)", 
+      0.0999
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|United_States)", 
+      0.1001
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|France)", 
+      0.1147
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Bulgaria)", 
+      0.1155
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|India)", 
+      0.1172
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Romania)", 
+      0.119
+    ]
+  ], 
+  "values": [
+    25.0, 
+    31.0, 
+    10.0, 
+    162.0, 
+    11.0, 
+    29.0, 
+    17.0, 
+    13.0, 
+    36.0, 
+    1.0, 
+    3.0, 
+    4.0, 
+    14.0, 
+    13.0, 
+    18.0, 
+    20.0, 
+    5.0, 
+    15.0, 
+    17.0, 
+    22.0, 
+    3.0, 
+    33.0, 
+    8.0, 
+    25.0, 
+    18.0, 
+    1.0, 
+    3.0, 
+    2.0, 
+    24.0, 
+    16.0, 
+    5.0, 
+    3.0, 
+    10.0, 
+    16.0, 
+    3.0, 
+    8.0, 
+    19.0, 
+    25.0, 
+    9.0, 
+    24.0, 
+    20.0, 
+    6.0, 
+    11.0, 
+    15.0, 
+    2.0, 
+    33.0, 
+    19.0, 
+    28.0
+  ]
+}

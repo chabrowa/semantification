@@ -1,0 +1,170 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runwayLength"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfStudents", 
+          0.2648
+        ], 
+        [
+          "elevation", 
+          0.3148
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          8.0
+        ], 
+        [
+          "numberOfStudents", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.2648
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.2648
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.2648
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          0.2669
+        ], 
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          0.3017
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.3022
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.3109
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.3193
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.3195
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.3196
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.3196
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          18.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "School[numberOfStudents]>(state|Florida)>(type|State_school)", 
+      0.25
+    ], 
+    [
+      "School[numberOfStudents]>(state|Florida)>(type|State_school)>(country|United_States)", 
+      0.2796
+    ], 
+    [
+      "Volcano[elevation]>(locatedInArea|Indonesia)>(type|Stratovolcano)", 
+      0.3
+    ], 
+    [
+      "Volcano[elevation]>(locatedInArea|Indonesia)", 
+      0.3043
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Colorado)>(type|Town)", 
+      0.3064
+    ], 
+    [
+      "Town[elevation]>(timeZone|Mountain_Time_Zone)>(governmentType|List_of_cities_and_towns_in_Colorado)>(type|Town)>(country|United_States)", 
+      0.3184
+    ], 
+    [
+      "Town[elevation]>(timeZone|Mountain_Time_Zone)>(governmentType|List_of_cities_and_towns_in_Colorado)>(type|Town)", 
+      0.3208
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Colorado)", 
+      0.3219
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Colorado)>(type|Town)>(governmentType|List_of_cities_and_towns_in_Colorado)>(country|United_States)", 
+      0.3223
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Colorado)>(type|Town)>(governmentType|List_of_cities_and_towns_in_Colorado)", 
+      0.3243
+    ]
+  ], 
+  "values": [
+    2486.6298681777807, 
+    2066.1020819390856, 
+    1518.9663653392427
+  ]
+}

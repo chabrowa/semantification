@@ -1,0 +1,206 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/width"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.1678
+        ], 
+        [
+          "numberOfMatches", 
+          0.1746
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          9.0
+        ], 
+        [
+          "numberOfMatches", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1637
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.169
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.169
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.1698
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1698
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1698
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1704
+        ], 
+        [
+          "http://dbpedia.org/ontology/TimePeriod (numberOfMatches)", 
+          0.1746
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TimePeriod (numberOfMatches)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationDensity]>(type|Types_of_municipalities_in_Quebec)", 
+      0.1591
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Illinois)", 
+      0.16
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Illinois)", 
+      0.1687
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Illinois)>(type|Civil_township)", 
+      0.1689
+    ], 
+    [
+      "Region[populationDensity]", 
+      0.169
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]", 
+      0.169
+    ], 
+    [
+      "Settlement[populationDensity]>(type|Types_of_municipalities_in_Quebec)", 
+      0.1711
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Minnesota)", 
+      0.1721
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Missouri)", 
+      0.1721
+    ], 
+    [
+      "TimePeriod[numberOfMatches]", 
+      0.1746
+    ]
+  ], 
+  "values": [
+    25749.5, 
+    7.0, 
+    8.6, 
+    4.8768, 
+    107826.0, 
+    1.778, 
+    5.5, 
+    31.4, 
+    11.8, 
+    3.2, 
+    22530.8, 
+    1.524, 
+    1.939, 
+    0.7112, 
+    1.7018, 
+    13.1064, 
+    7.9248, 
+    8.5344, 
+    9.144, 
+    5.4864, 
+    14.9352, 
+    19.5072, 
+    9.144, 
+    7.0104, 
+    0.637, 
+    24.384, 
+    41.0, 
+    10.9728, 
+    16.4592, 
+    15.8496, 
+    22.5, 
+    7.0104, 
+    25749.5, 
+    24140.2, 
+    25749.5, 
+    2.0, 
+    2.5, 
+    17.526, 
+    2.55, 
+    2.7432, 
+    150000.0, 
+    22.86, 
+    29.8704, 
+    13.5, 
+    4.1, 
+    21.9, 
+    7.2, 
+    3.9624, 
+    4.60248, 
+    8.5344, 
+    32.5, 
+    5.0, 
+    13.1064, 
+    6.0, 
+    2000.0, 
+    24623.0, 
+    1.89992, 
+    18.288, 
+    289682.0, 
+    230136.0, 
+    19.2024, 
+    2.55, 
+    3.0
+  ]
+}

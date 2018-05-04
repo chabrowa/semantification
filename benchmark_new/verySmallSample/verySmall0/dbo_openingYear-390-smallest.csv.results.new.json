@@ -1,0 +1,230 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/openingYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "openingYear", 
+          0.118
+        ], 
+        [
+          "yearOfConstruction", 
+          0.1304
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.1365
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          7.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          2.0
+        ], 
+        [
+          "yearOfConstruction", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.1082
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          0.1091
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.1107
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.1195
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.1216
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (yearOfConstruction)", 
+          0.1304
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (yearOfConstruction)", 
+          0.1304
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (yearOfConstruction)", 
+          0.1304
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (yearOfConstruction)", 
+          0.1304
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.1365
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.1365
+        ], 
+        [
+          "http://dbpedia.org/ontology/Scientist (activeYearsEndYear)", 
+          0.1365
+        ], 
+        [
+          "http://dbpedia.org/ontology/Medician (activeYearsEndYear)", 
+          0.1365
+        ], 
+        [
+          "http://dbpedia.org/ontology/Theatre (openingYear)", 
+          0.1388
+        ], 
+        [
+          "http://dbpedia.org/ontology/Venue (openingYear)", 
+          0.1388
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Scientist (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (yearOfConstruction)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Venue (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (yearOfConstruction)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Theatre (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (yearOfConstruction)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Medician (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (yearOfConstruction)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "RouteOfTransportation[openingYear]", 
+      0.1082
+    ], 
+    [
+      "ArchitecturalStructure[openingYear]", 
+      0.1091
+    ], 
+    [
+      "Place[openingYear]", 
+      0.1091
+    ], 
+    [
+      "Location[openingYear]", 
+      0.1091
+    ], 
+    [
+      "Infrastructure[openingYear]", 
+      0.1132
+    ], 
+    [
+      "RouteOfTransportation[yearOfConstruction]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1304
+    ], 
+    [
+      "Scientist[activeYearsEndYear]", 
+      0.1365
+    ], 
+    [
+      "Medician[activeYearsEndYear]", 
+      0.1365
+    ], 
+    [
+      "Theatre[openingYear]", 
+      0.1388
+    ], 
+    [
+      "Venue[openingYear]", 
+      0.1388
+    ]
+  ], 
+  "values": [
+    1930.0, 
+    2013.0, 
+    1953.0, 
+    2014.0, 
+    1828.0, 
+    2012.0, 
+    1870.0, 
+    1938.0, 
+    1955.0, 
+    3.0, 
+    2005.0, 
+    1913.0, 
+    1903.0, 
+    1980.0, 
+    1870.0, 
+    1933.0, 
+    1986.0, 
+    1823.0, 
+    1909.0, 
+    1968.0, 
+    1964.0, 
+    2002.0, 
+    1913.0
+  ]
+}

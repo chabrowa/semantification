@@ -1,0 +1,267 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/minimumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "minimumElevation", 
+          0.0701
+        ], 
+        [
+          "populationDensity", 
+          0.077
+        ], 
+        [
+          "routeNumber", 
+          0.0799
+        ]
+      ], 
+      "maj": [
+        [
+          "minimumElevation", 
+          4.0
+        ], 
+        [
+          "routeNumber", 
+          4.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.0695
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.0699
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.0708
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.0718
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.0772
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (routeNumber)", 
+          0.0799
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (routeNumber)", 
+          0.0799
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (routeNumber)", 
+          0.0799
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (routeNumber)", 
+          0.0799
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (routeNumber)", 
+          0.0799
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (routeNumber)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (routeNumber)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (routeNumber)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (routeNumber)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (routeNumber)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "PopulatedPlace[minimumElevation]", 
+      0.0671
+    ], 
+    [
+      "Location[minimumElevation]", 
+      0.0708
+    ], 
+    [
+      "Place[minimumElevation]", 
+      0.0708
+    ], 
+    [
+      "Settlement[minimumElevation]", 
+      0.0718
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Texas)>(type|Census-designated_place)>(timeZone|Central_Time_Zone)", 
+      0.0755
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Texas)>(type|Census-designated_place)>(timeZone|Central_Time_Zone)>(country|United_States)", 
+      0.0785
+    ], 
+    [
+      "Location[routeNumber]", 
+      0.0799
+    ], 
+    [
+      "RouteOfTransportation[routeNumber]", 
+      0.0799
+    ], 
+    [
+      "Infrastructure[routeNumber]", 
+      0.0799
+    ], 
+    [
+      "ArchitecturalStructure[routeNumber]", 
+      0.0799
+    ]
+  ], 
+  "values": [
+    514.8282491444664, 
+    270.3412007487797, 
+    496.8673021196643, 
+    94.27356568787222, 
+    58.788497832921024, 
+    169.3793560606085, 
+    17.931989462701175, 
+    129.6246241137607, 
+    1062.6258540537422, 
+    0.0, 
+    658.1809616928383, 
+    29.2322199231834, 
+    0.0, 
+    224.02318662388745, 
+    132.3185285885363, 
+    382.56612165958273, 
+    184.03692499112333, 
+    0.0, 
+    98.79457431162707, 
+    0.0, 
+    242.85274700823834, 
+    314.56560331275773, 
+    160.71819026748264, 
+    20.971634826978864, 
+    0.9954247705816328, 
+    2.015216119353856, 
+    20.42870062586956, 
+    231.6923417443602, 
+    55.28566366438807, 
+    1572.0044782305463, 
+    647.18880983576, 
+    23.9260138373506, 
+    522.5579528394387, 
+    53.41173870231349, 
+    1021.0350260750198, 
+    493.16472201811587, 
+    254.58347816948702, 
+    154.56584977749446, 
+    209.38717445376471, 
+    126.26480386772026, 
+    221.89488232113797, 
+    412.31190638681056, 
+    9.183432369978352, 
+    214.42751819307398, 
+    161.91900583963204, 
+    371.4786010789749, 
+    198.3128870802846, 
+    76.5148186433664, 
+    759.9778301988923, 
+    88.80824341655764, 
+    205.8504802478253, 
+    591.662068354627, 
+    45.48660932681037, 
+    44.921664372348516, 
+    144.3665546168802, 
+    314.34537721967314, 
+    292.8117483304448, 
+    209.0014463533236, 
+    203.49853370635927, 
+    144.94108846614668, 
+    255.56973476428684, 
+    381.30388068625564, 
+    31.545870379338318, 
+    638.352219517168, 
+    114.41156450391193, 
+    159.26148184720168, 
+    276.72207618159246, 
+    147.2987143737021, 
+    541.4742966187803, 
+    0.0, 
+    66.26234984999836, 
+    48.59121867231364, 
+    45.54294652738125, 
+    5.773243788284655, 
+    157.30225021659257, 
+    316.62998114144233, 
+    53.36709159267205, 
+    529.7828323535052, 
+    204.5699182399584, 
+    27.204735766377663, 
+    53.71123119193986, 
+    187.86547704434173, 
+    16.673042164635763, 
+    10.578801400777936, 
+    0.0, 
+    107.65943989628373, 
+    15.726237480664356, 
+    61.727869317641996, 
+    80.42735056771903, 
+    79.69757640358415, 
+    349.33639126909543, 
+    174.53120664061683, 
+    336.21522268634175, 
+    200.86926390781196, 
+    1102.7551101480176, 
+    0.0, 
+    208.87549576569268, 
+    10.403588650330098, 
+    68.10125860642052, 
+    35.55261866805868
+  ]
+}

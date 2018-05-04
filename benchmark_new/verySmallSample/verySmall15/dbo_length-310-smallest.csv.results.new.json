@@ -1,0 +1,139 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/length"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1342
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1319
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.135
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1366
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1366
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1387
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          20.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          5.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationTotal]>(timeZone|Eastern_European_Time)>(isPartOf|Kaunas_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1164
+    ], 
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(country|Scotland)>(councilArea|Highland_(council_area))", 
+      0.1218
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|Scotland)>(councilArea|Highland_(council_area))", 
+      0.1218
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_European_Time)>(country|Estonia)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.132
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Hormozgan_Province)>(isPartOf|Central_District_(Bandar_Abbas_County))", 
+      0.1351
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Fars_Province)>(isPartOf|Central_District_(Marvdasht_County))", 
+      0.1396
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Hormozgan_Province)>(isPartOf|Central_District_(Bandar_Abbas_County))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1406
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_European_Time)>(isPartOf|Blagoevgrad_Province)>(country|Bulgaria)", 
+      0.1437
+    ], 
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(ceremonialCounty|Cheshire)>(country|England)", 
+      0.1456
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(ceremonialCounty|Cheshire)>(country|England)", 
+      0.1456
+    ]
+  ], 
+  "values": [
+    93.49140748839719, 
+    1341.1885730277177, 
+    1369.5920939999373, 
+    1114.2141230802467, 
+    178.9348950349319, 
+    92.47991238425374, 
+    1307.7840012922766, 
+    213.94842515316535, 
+    556.6140255226568, 
+    787.5446615455234, 
+    1677.434619740281, 
+    26.234951042840024, 
+    34.21841968739418, 
+    30.803891537971005, 
+    3362.062712460123, 
+    23.303604364424718, 
+    985.5319546552067, 
+    886.8528951071295, 
+    38.16483188353844, 
+    295.0517639439719, 
+    487.17634804086333, 
+    4436.380345906828, 
+    2272.5253816935083, 
+    259.76090884990623, 
+    7306.65484594973, 
+    18.959431306724092, 
+    204090.1028471502, 
+    990.6505209565103
+  ]
+}

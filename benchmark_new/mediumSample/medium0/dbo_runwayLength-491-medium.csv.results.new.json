@@ -1,0 +1,247 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runwayLength"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "foundingYear", 
+          0.1575
+        ], 
+        [
+          "areaCode", 
+          0.1854
+        ], 
+        [
+          "elevation", 
+          0.2012
+        ], 
+        [
+          "runtime", 
+          0.2229
+        ]
+      ], 
+      "maj": [
+        [
+          "areaCode", 
+          4.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "foundingYear", 
+          2.0
+        ], 
+        [
+          "runtime", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (foundingYear)", 
+          0.1575
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (foundingYear)", 
+          0.1575
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (foundingYear)", 
+          0.1575
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (foundingYear)", 
+          0.1575
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          0.1816
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          0.1817
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          0.1854
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.1854
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.1946
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          0.195
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2012
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.2143
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2143
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2143
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          0.2229
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (runtime)", 
+          0.2229
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (runtime)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (foundingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[foundingYear]", 
+      0.1575
+    ], 
+    [
+      "Location[foundingYear]>(country|Germany)", 
+      0.1575
+    ], 
+    [
+      "Location[areaCode]>(country|England)>(country|Dorset)", 
+      0.1667
+    ], 
+    [
+      "Settlement[areaCode]>(country|England)>(country|Dorset)", 
+      0.1667
+    ], 
+    [
+      "Mountain[elevation]>(locatedInArea|Japan)>(type|Fold_(geology))", 
+      0.1917
+    ], 
+    [
+      "Mountain[elevation]>(locatedInArea|Japan)>(type|Fold_(geology))>(mountainRange|Hidaka_Mountains)", 
+      0.1975
+    ], 
+    [
+      "Settlement[areaCode]>(country|England)", 
+      0.2041
+    ], 
+    [
+      "Location[areaCode]>(country|England)", 
+      0.2042
+    ], 
+    [
+      "City[elevation]>(isPartOf|Idaho)>(timeZone|Mountain_Time_Zone)>(country|United_States)", 
+      0.2143
+    ], 
+    [
+      "TelevisionShow[runtime]>(format|Animated_series)", 
+      0.2229
+    ]
+  ], 
+  "values": [
+    2590.8, 
+    1554.78, 
+    1525.52, 
+    1219.0, 
+    1351.79, 
+    1280.16, 
+    2073.25, 
+    1219.2, 
+    1865.99, 
+    1399.03, 
+    1525.52, 
+    1524.3, 
+    1219.2, 
+    1554.18, 
+    1220.42, 
+    1828.5, 
+    1280.16, 
+    1523.7, 
+    1209.14, 
+    1309.42, 
+    694.03, 
+    1981.5, 
+    1220.11, 
+    536.448
+  ]
+}

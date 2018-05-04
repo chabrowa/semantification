@@ -1,0 +1,211 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/budget"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "budget", 
+          0.1824
+        ], 
+        [
+          "areaTotal", 
+          0.1884
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          7.0
+        ], 
+        [
+          "budget", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/GovernmentAgency (budget)", 
+          0.1465
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (areaTotal)", 
+          0.1637
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (budget)", 
+          0.1734
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.1805
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (budget)", 
+          0.1824
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaTotal)", 
+          0.1829
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.1885
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1885
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.1948
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          0.227
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (areaTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (budget)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/GovernmentAgency (budget)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "GovernmentAgency[budget]", 
+      0.1465
+    ], 
+    [
+      "Location[areaTotal]>(location|United_States)>(growingGrape|Cabernet_Franc)", 
+      0.1507
+    ], 
+    [
+      "Country[areaTotal]>(officialLanguage|English_language)", 
+      0.1637
+    ], 
+    [
+      "Village[areaTotal]>(isPartOf|Blagoevgrad_Province)>(country|Bulgaria)", 
+      0.1764
+    ], 
+    [
+      "Village[areaTotal]>(isPartOf|Blagoevgrad_Province)>(country|Bulgaria)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.183
+    ], 
+    [
+      "Village[areaTotal]>(isPartOf|Blagoevgrad_Province)", 
+      0.1926
+    ], 
+    [
+      "Organisation[budget]", 
+      0.2003
+    ], 
+    [
+      "Agent[budget]", 
+      0.2003
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Time_in_China)", 
+      0.2251
+    ], 
+    [
+      "Town[areaTotal]>(timeZone|Central_European_Time)>(type|Communes_of_Algeria)>(22-rdf-syntax-ns#type|_Feature)>(country|Algeria)", 
+      0.227
+    ]
+  ], 
+  "values": [
+    22799961331.411335, 
+    299658199.099783, 
+    105.83197618971664, 
+    387665615.12216616, 
+    7540825.411564472, 
+    5575765377.933657, 
+    246938344.87060317, 
+    13997914.50235993, 
+    18006.654270153645, 
+    767477905376.6682, 
+    30038380.044735346, 
+    99621593834.54413, 
+    33252656.79704135, 
+    78075684.06252383, 
+    7726028674.471949, 
+    19481061557486.652, 
+    10465531853.71413, 
+    543524121941.6811, 
+    125707042.13337812, 
+    805742789.6193602, 
+    34.867728628328734, 
+    87824581.05223228, 
+    7833830391.409237, 
+    539871617.280472, 
+    17.14025616298691, 
+    2564.8583219548746, 
+    1092270709.833461, 
+    49043450.7230208, 
+    4232162227.1443524, 
+    17178832493.76165, 
+    284930490.15019447, 
+    99781107754.64162, 
+    4031337153.920945, 
+    29808966.460225485, 
+    18462235542.44069, 
+    14826279.235745978, 
+    32653740210.091488, 
+    306163250.6790464, 
+    77779145319.07199, 
+    18517529.031559672, 
+    666908232700.1863, 
+    23585566.988892797, 
+    39034655.44311035, 
+    1211630285.9641497, 
+    2424.388262534665, 
+    156168704821.67648, 
+    320079942.5653344, 
+    1624783.5201452235, 
+    1475952884.7494662, 
+    11854715657.95588, 
+    981532272158.6221, 
+    568514219391.8787
+  ]
+}

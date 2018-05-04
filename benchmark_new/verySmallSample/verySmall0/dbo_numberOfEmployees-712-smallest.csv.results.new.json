@@ -1,0 +1,243 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEmployees"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfEmployees", 
+          0.0824
+        ], 
+        [
+          "populationTotal", 
+          0.0892
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          6.0
+        ], 
+        [
+          "numberOfEmployees", 
+          4.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/GovernmentAgency (numberOfEmployees)", 
+          0.0768
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          0.0824
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          0.0838
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0879
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0894
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.0943
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.0952
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (numberOfEmployees)", 
+          0.096
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/GovernmentAgency (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (numberOfEmployees)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "GovernmentAgency[numberOfEmployees]", 
+      0.0768
+    ], 
+    [
+      "Organisation[numberOfEmployees]", 
+      0.0785
+    ], 
+    [
+      "Agent[numberOfEmployees]", 
+      0.0785
+    ], 
+    [
+      "PopulatedPlace[populationTotal]", 
+      0.0834
+    ], 
+    [
+      "Location[populationTotal]", 
+      0.0834
+    ], 
+    [
+      "Place[populationTotal]", 
+      0.0834
+    ], 
+    [
+      "Settlement[populationTotal]", 
+      0.0842
+    ], 
+    [
+      "Company[numberOfEmployees]", 
+      0.096
+    ], 
+    [
+      "Location[populationTotal]>(country|Spain)", 
+      0.0997
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Spain)", 
+      0.1007
+    ]
+  ], 
+  "values": [
+    18528.0, 
+    9797.0, 
+    89027.0, 
+    734.0, 
+    500.0, 
+    25.0, 
+    50152.0, 
+    18400.0, 
+    6400.0, 
+    600.0, 
+    1446.0, 
+    1020.0, 
+    1200.0, 
+    170.0, 
+    12072.0, 
+    40646.0, 
+    60.0, 
+    1000.0, 
+    3850.0, 
+    1389.0, 
+    5.0, 
+    12000.0, 
+    25.0, 
+    78.0, 
+    109.0, 
+    8.0, 
+    3675.0, 
+    150.0, 
+    20.0, 
+    1350.0, 
+    1950.0, 
+    140.0, 
+    100000.0, 
+    90.0, 
+    3470.0, 
+    15.0, 
+    200.0, 
+    10000.0, 
+    600.0, 
+    1100.0, 
+    3000.0, 
+    6343.0, 
+    2.0, 
+    100.0, 
+    10500.0, 
+    15610.0, 
+    3400.0, 
+    1400.0, 
+    200.0, 
+    17.0, 
+    100.0, 
+    122258.0, 
+    44000.0, 
+    1200.0, 
+    2500.0, 
+    500.0, 
+    1600.0, 
+    160.0, 
+    28.0, 
+    70.0, 
+    5017.0, 
+    254084.0, 
+    5050.0, 
+    157300.0, 
+    1050.0, 
+    500.0, 
+    85000.0, 
+    600.0, 
+    3000.0, 
+    182.0, 
+    210.0, 
+    60.0, 
+    3250.0, 
+    260.0, 
+    1500.0, 
+    150.0, 
+    500.0, 
+    3000.0, 
+    1000.0, 
+    21455.0, 
+    1912.0, 
+    283.0, 
+    17500.0, 
+    350.0, 
+    30.0, 
+    7100.0, 
+    200.0, 
+    50.0, 
+    60.0, 
+    4980.0, 
+    9100.0, 
+    5.0, 
+    336670.0, 
+    525.0, 
+    22000.0, 
+    2170.0, 
+    8.0, 
+    750.0, 
+    33200.0, 
+    800.0
+  ]
+}

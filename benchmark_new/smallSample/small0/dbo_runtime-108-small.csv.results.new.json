@@ -1,0 +1,193 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.2819
+        ], 
+        [
+          "elevation", 
+          0.3024
+        ], 
+        [
+          "runtime", 
+          0.3042
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          6.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "runtime", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2796
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.2979
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.2979
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.2979
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.3
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          0.3042
+        ], 
+        [
+          "http://dbpedia.org/ontology/Album (runtime)", 
+          0.3042
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          0.3042
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.3071
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.3071
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.3071
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.3071
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          21.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Album (runtime)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationDensity]>(timeZone|Indian_Standard_Time)>(isPartOf|Kerala)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2561
+    ], 
+    [
+      "Location[populationDensity]>(timeZone|Indian_Standard_Time)>(isPartOf|Kerala)>(22-rdf-syntax-ns#type|_Feature)>(country|India)", 
+      0.2593
+    ], 
+    [
+      "Location[populationDensity]>(timeZone|Indian_Standard_Time)>(isPartOf|Kerala)", 
+      0.2706
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|New_Jersey)>(governmentType|Borough_(New_Jersey))>(isPartOf|Bergen_County,_New_Jersey)", 
+      0.2979
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|New_Jersey)>(isPartOf|Bergen_County,_New_Jersey)>(governmentType|Borough_(New_Jersey))", 
+      0.2979
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Nebraska)", 
+      0.3
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Nebraska)>(country|United_States)", 
+      0.3
+    ], 
+    [
+      "Album[runtime]>(type|Extended_play)", 
+      0.3042
+    ], 
+    [
+      "Village[elevation]>(timeZone|Mountain_Time_Zone)", 
+      0.3071
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Missouri)>(isPartOf|St._Louis_County,_Missouri)>(type|City)>(country|United_States)", 
+      0.3095
+    ]
+  ], 
+  "values": [
+    3960.0, 
+    993.0, 
+    4436.0, 
+    1061.0, 
+    937.0, 
+    1071.0, 
+    6660.0, 
+    957.0, 
+    1080.0, 
+    954.0
+  ]
+}

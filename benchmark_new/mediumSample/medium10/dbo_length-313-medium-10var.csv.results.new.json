@@ -1,0 +1,292 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/length"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.1021
+        ], 
+        [
+          "numberOfEmployees", 
+          0.124
+        ], 
+        [
+          "populationDensity", 
+          0.1283
+        ], 
+        [
+          "minimumElevation", 
+          0.1399
+        ], 
+        [
+          "number", 
+          0.145
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ], 
+        [
+          "minimumElevation", 
+          2.0
+        ], 
+        [
+          "number", 
+          2.0
+        ], 
+        [
+          "numberOfEmployees", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.0952
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.0972
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1055
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1055
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1114
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.1222
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          0.124
+        ], 
+        [
+          "http://dbpedia.org/ontology/Non-ProfitOrganisation (numberOfEmployees)", 
+          0.124
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          0.124
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.1399
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.1399
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.1399
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1399
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.1446
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.145
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.145
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.1452
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1452
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1452
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1452
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Non-ProfitOrganisation (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[elevation]>(isPartOf|California)>(isPartOf|Contra_Costa_County,_California)", 
+      0.0889
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Contra_Costa_County,_California)", 
+      0.0952
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Maine)", 
+      0.1114
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Western_Norway)>(isPartOf|Sogn_og_Fjordane)", 
+      0.1222
+    ], 
+    [
+      "Non-ProfitOrganisation[numberOfEmployees]", 
+      0.124
+    ], 
+    [
+      "Location[minimumElevation]>(region|Pays_de_la_Loire)", 
+      0.1399
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Pays_de_la_Loire)", 
+      0.1399
+    ], 
+    [
+      "Athlete[number]", 
+      0.1446
+    ], 
+    [
+      "Town[populationDensity]", 
+      0.1452
+    ], 
+    [
+      "Person[number]", 
+      0.1454
+    ]
+  ], 
+  "values": [
+    21.436155916119905, 
+    17.549653259968085, 
+    9.733055107243228, 
+    23.11879525772394, 
+    108.39229986077108, 
+    4.447024642173675, 
+    44.57115515449527, 
+    19.264255636446073, 
+    112.0466426213813, 
+    3.6950720913748696, 
+    1.0418135041780314, 
+    252.3206185598413, 
+    56.17127299508901, 
+    13.438195622561611, 
+    27.040429299261554, 
+    4.724414898521497, 
+    5.103395732118532, 
+    48.2757273958503, 
+    3.486278202918482, 
+    78.42300544107152, 
+    122.78413899761605, 
+    11.131900116602505, 
+    17.89327636720194, 
+    32.29040093142428, 
+    17.503484140998918, 
+    78.94623205417565, 
+    28410.71531465297, 
+    0.7550109554523695, 
+    362429.4524620205
+  ]
+}

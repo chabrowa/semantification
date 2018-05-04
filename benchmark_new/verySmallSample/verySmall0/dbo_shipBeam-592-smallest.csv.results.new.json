@@ -1,0 +1,185 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/shipBeam"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "shipBeam", 
+          0.464
+        ], 
+        [
+          "populationDensity", 
+          0.4677
+        ], 
+        [
+          "elevation", 
+          0.4738
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          5.0
+        ], 
+        [
+          "shipBeam", 
+          3.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.4603
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.4603
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          0.464
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.4677
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.4677
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          0.4704
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.4704
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.4719
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.475
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.4757
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.4757
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.4808
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Ship[shipBeam]", 
+      0.4577
+    ], 
+    [
+      "MeanOfTransportation[shipBeam]", 
+      0.4577
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Arkansas)", 
+      0.4603
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|California)>(isPartOf|Yolo_County,_California)", 
+      0.4662
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Yolo_County,_California)>(country|United_States)", 
+      0.4672
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Yolo_County,_California)", 
+      0.4748
+    ], 
+    [
+      "Settlement[populationDensity]>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Chaudi%C3%A8re-Appalaches)", 
+      0.475
+    ], 
+    [
+      "Ship[shipBeam]>(country|Kingdom_of_Great_Britain)", 
+      0.4767
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Northern_Norway)", 
+      0.4788
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Northern_Norway)>(isPartOf|Finnmark)", 
+      0.4821
+    ]
+  ], 
+  "values": [
+    10.668, 
+    12.192
+  ]
+}

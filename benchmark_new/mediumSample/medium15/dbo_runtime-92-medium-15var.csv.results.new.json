@@ -1,0 +1,169 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1192
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1111
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1186
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1211
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1211
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1231
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          25.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          3.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationTotal]>(timeZone|Eastern_Time_Zone)>(daylightSavingTimeZone|Eastern_Time_Zone)>(region|Berks_County,_Pennsylvania)", 
+      0.1069
+    ], 
+    [
+      "Village[populationTotal]>(type|Village_development_committee)>(isPartOf|Gorkha_District)", 
+      0.1111
+    ], 
+    [
+      "Location[populationTotal]>(type|Village_development_committee)>(isPartOf|Gorkha_District)", 
+      0.1135
+    ], 
+    [
+      "Location[populationTotal]>(type|Village_development_committee)>(isPartOf|Gorkha_District)>(22-rdf-syntax-ns#type|_Feature)>(country|Nepal)", 
+      0.1156
+    ], 
+    [
+      "Location[populationTotal]>(type|Village_development_committee)>(isPartOf|Gorkha_District)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1169
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Germany)>(federalState|Baden-W%C3%BCrttemberg)", 
+      0.1227
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_European_Time)>(isPartOf|Communes_of_Romania)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1236
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Eastern_European_Time)>(isPartOf|Communes_of_Romania)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1236
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Eastern_Time_Zone)>(region|Berks_County,_Pennsylvania)", 
+      0.1269
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_Time_Zone)>(daylightSavingTimeZone|Eastern_Time_Zone)>(region|Berks_County,_Pennsylvania)>(country|United_States)", 
+      0.1313
+    ]
+  ], 
+  "values": [
+    3968.1361329929555, 
+    3567.690742076423, 
+    1483.5390720635328, 
+    266.92855132817, 
+    3528.7837068786166, 
+    2946.2560392593327, 
+    1747.988434463275, 
+    4125.658695177383, 
+    -4088.744566236759, 
+    3834.67223870277, 
+    471.86809042921993, 
+    1539.965625552948, 
+    -2940.794294712621, 
+    2780.1405286524546, 
+    3241.6839145901085, 
+    4937.140674115299, 
+    4376.205707046212, 
+    249.74011859801385, 
+    3689.015439696117, 
+    6636.768790856672, 
+    5778.795466650827, 
+    7229.010528718276, 
+    1957.1727754031574, 
+    4348.694293232316, 
+    1664.7260752476, 
+    3815.707838753329, 
+    5462.1115270343425, 
+    4476.0724712923975, 
+    2601.208169690243, 
+    2832.717996489862, 
+    4254.407709105039, 
+    4473.0363180001095, 
+    3850.077433914913, 
+    4845.228611673967, 
+    20179.162003711706, 
+    2886.0603494788925, 
+    689.4346964715301, 
+    1932.1346832913705, 
+    1552.0358177996911, 
+    6772.090188795332, 
+    4779.064249491618, 
+    4904.768982181399, 
+    6349.753042875683, 
+    10071.53399746529, 
+    20835.935244340544, 
+    5481.532295602505, 
+    2787.9252125256767, 
+    3179.4301232073567, 
+    2443.7223911832284, 
+    2811.0564899646934, 
+    2906.450204931974, 
+    7022.06924652452, 
+    2036.7265262989902, 
+    1341.644655020428, 
+    6659.394211304315, 
+    2856.423999587974, 
+    3887.583965523367, 
+    3794.434612172948
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/height"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "height", 
+          0.1671
+        ], 
+        [
+          "width", 
+          0.1841
+        ]
+      ], 
+      "maj": [
+        [
+          "height", 
+          9.0
+        ], 
+        [
+          "width", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/RugbyPlayer (height)", 
+          0.1446
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wrestler (height)", 
+          0.1532
+        ], 
+        [
+          "http://dbpedia.org/ontology/MartialArtist (height)", 
+          0.1652
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (height)", 
+          0.1671
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (height)", 
+          0.1673
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (height)", 
+          0.1676
+        ], 
+        [
+          "http://dbpedia.org/ontology/Swimmer (height)", 
+          0.1822
+        ], 
+        [
+          "http://dbpedia.org/ontology/Automobile (width)", 
+          0.1841
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (width)", 
+          0.1841
+        ], 
+        [
+          "http://dbpedia.org/ontology/TennisPlayer (height)", 
+          0.1857
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Agent (height)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (height)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (height)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TennisPlayer (height)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MartialArtist (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Automobile (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wrestler (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Swimmer (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RugbyPlayer (height)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "RugbyPlayer[height]", 
+      0.1446
+    ], 
+    [
+      "Wrestler[height]>(birthPlace|United_States)", 
+      0.1532
+    ], 
+    [
+      "Athlete[height]", 
+      0.1556
+    ], 
+    [
+      "MartialArtist[height]>(birthPlace|Soviet_Union)", 
+      0.1652
+    ], 
+    [
+      "Person[height]", 
+      0.1657
+    ], 
+    [
+      "Agent[height]", 
+      0.1657
+    ], 
+    [
+      "Swimmer[height]>(nationality|Brazil)", 
+      0.1822
+    ], 
+    [
+      "Automobile[width]>(class|Grand_tourer)", 
+      0.1841
+    ], 
+    [
+      "TennisPlayer[height]>(birthPlace|United_States)>(country|United_States)", 
+      0.1845
+    ], 
+    [
+      "TennisPlayer[height]>(birthPlace|United_States)", 
+      0.1876
+    ]
+  ], 
+  "values": [
+    2.01, 
+    1.9, 
+    1.75, 
+    1.81, 
+    1.77, 
+    1.89, 
+    1.79, 
+    1.84, 
+    1.77, 
+    176.0, 
+    1.89, 
+    1.78, 
+    1.87, 
+    1.85, 
+    1.98, 
+    1.77, 
+    1.83, 
+    1.75, 
+    1.68, 
+    1.79, 
+    1.98, 
+    1.99, 
+    1.83, 
+    1.78, 
+    1.97, 
+    2.0, 
+    1.83, 
+    1.8, 
+    2.02, 
+    1.74, 
+    1.524, 
+    1.78, 
+    1.99, 
+    1.65, 
+    1.8, 
+    1.81, 
+    1.72, 
+    1.9, 
+    1.78, 
+    1.85, 
+    1.76, 
+    1.77, 
+    1.9, 
+    1.8, 
+    1.86, 
+    1.72, 
+    1.84, 
+    183.0, 
+    1.7, 
+    1.99, 
+    1.81, 
+    1.89, 
+    1.8134, 
+    1.88
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/openingYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "openingYear", 
+          0.2413
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.2424
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.2424
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          8.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          1.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          0.2358
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.239
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.241
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.2412
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.2412
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          0.2424
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsEndYear)", 
+          0.2424
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.2424
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryUnit (activeYearsEndYear)", 
+          0.2424
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tunnel (openingYear)", 
+          0.2424
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsStartYear)", 
+          0.2424
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          0.2424
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsStartYear)", 
+          0.2424
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.2424
+        ], 
+        [
+          "http://dbpedia.org/ontology/RoadTunnel (openingYear)", 
+          0.2424
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          0.2424
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryUnit (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RoadTunnel (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tunnel (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "RailwayLine[openingYear]>(type|Light_rail)", 
+      0.233
+    ], 
+    [
+      "RouteOfTransportation[openingYear]", 
+      0.2393
+    ], 
+    [
+      "RailwayLine[openingYear]", 
+      0.2415
+    ], 
+    [
+      "Tunnel[openingYear]", 
+      0.2424
+    ], 
+    [
+      "Station[openingYear]>(location|China)>(operatedBy|Ministry_of_Railways_(China))", 
+      0.2424
+    ], 
+    [
+      "RoadTunnel[openingYear]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2424
+    ], 
+    [
+      "Location[openingYear]>(location|China)>(operatedBy|Ministry_of_Railways_(China))", 
+      0.2424
+    ], 
+    [
+      "ChristianBishop[activeYearsStartYear]>(religion|Catholic_Church)", 
+      0.2424
+    ], 
+    [
+      "MilitaryUnit[activeYearsEndYear]>(battle|Gulf_War)", 
+      0.2424
+    ], 
+    [
+      "Infrastructure[openingYear]", 
+      0.2473
+    ]
+  ], 
+  "values": [
+    2013.0, 
+    1904.0, 
+    1934.0, 
+    1957.0, 
+    2102.0, 
+    1968.0, 
+    2005.0, 
+    2094.0, 
+    1877.0, 
+    2094.0, 
+    1858.0, 
+    1938.0, 
+    1964.0, 
+    1916.0, 
+    1938.0, 
+    1903.0, 
+    2029.0, 
+    1960.0, 
+    2101.0, 
+    1895.0, 
+    2011.0, 
+    1811.0, 
+    2101.0, 
+    1932.0, 
+    1890.0, 
+    2022.0, 
+    1835.0, 
+    1944.0, 
+    1972.0, 
+    1956.0, 
+    2096.0, 
+    2006.0, 
+    1851.0
+  ]
+}

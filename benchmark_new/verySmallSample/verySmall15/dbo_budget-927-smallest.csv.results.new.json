@@ -1,0 +1,168 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/budget"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.1674
+        ], 
+        [
+          "areaLand", 
+          0.1706
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          6.0
+        ], 
+        [
+          "areaLand", 
+          4.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.1532
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          0.1661
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.1722
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.1722
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.1722
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1737
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.1737
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.1737
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.1737
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          0.1737
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          3.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaTotal]>(country|Italy)>(region|Molise)>(province|Province_of_Campobasso)", 
+      0.1421
+    ], 
+    [
+      "City[areaLand]>(isPartOf|Alabama)", 
+      0.165
+    ], 
+    [
+      "Location[areaLand]>(isPartOf|Alabama)>(type|City)", 
+      0.1661
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(region|Molise)", 
+      0.168
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Alabama)", 
+      0.1715
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Alabama)>(country|United_States)>(type|City)>(timeZone|Central_Time_Zone)", 
+      0.1729
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Alabama)>(country|United_States)>(type|City)", 
+      0.174
+    ], 
+    [
+      "City[areaLand]>(isPartOf|Alabama)>(country|United_States)>(type|City)>(timeZone|Central_Time_Zone)", 
+      0.1752
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Alabama)>(country|United_States)", 
+      0.1762
+    ], 
+    [
+      "City[areaLand]>(isPartOf|Alabama)>(country|United_States)>(type|City)", 
+      0.1763
+    ]
+  ], 
+  "values": [
+    61145456.92300174, 
+    75511729.6358365, 
+    13315034.134757841, 
+    26731876.135712825, 
+    32393392.788197078, 
+    30348560.81678821, 
+    22691261.5646331, 
+    20101424.19538698, 
+    41625707.359645404
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationDensity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1079
+        ], 
+        [
+          "populationDensity", 
+          0.1089
+        ], 
+        [
+          "numberOfEpisodes", 
+          0.1105
+        ], 
+        [
+          "elevation", 
+          0.111
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          5.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ], 
+        [
+          "numberOfEpisodes", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1079
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1079
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1079
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1087
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.1089
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1089
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1089
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1089
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          0.1105
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          0.1105
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.111
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.111
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.111
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.111
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[populationTotal]>(isPartOf|South_Khorasan_Province)", 
+      0.0962
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|East_Azerbaijan_Province)>(isPartOf|Central_District_(Kaleybar_County))", 
+      0.1048
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Hormozgan_Province)>(isPartOf|Central_District_(Hajjiabad_County))", 
+      0.1086
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Arkansas)", 
+      0.1089
+    ], 
+    [
+      "Town[elevation]>(isPartOf|Maine)>(country|United_States)", 
+      0.1094
+    ], 
+    [
+      "TelevisionShow[numberOfEpisodes]>(country|India)>(network|Sony_Entertainment_Television_(India))", 
+      0.1105
+    ], 
+    [
+      "Town[elevation]>(isPartOf|Maine)", 
+      0.1114
+    ], 
+    [
+      "Town[elevation]>(isPartOf|Maine)>(country|United_States)>(type|New_England_town)", 
+      0.1121
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Fars_Province)>(isPartOf|Qatruyeh_District)", 
+      0.1147
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Gilan_Province)>(isPartOf|Central_District_(Siahkal_County))", 
+      0.1151
+    ]
+  ], 
+  "values": [
+    76.35941600052887, 
+    125.98570013035355, 
+    11.535777595991075, 
+    171.342498384465, 
+    14.532549237064437, 
+    263.1375810392305, 
+    54.89981071779743, 
+    45.02627540573713, 
+    193.51582786564887, 
+    103.80446542494391, 
+    128.4567875845812, 
+    1614.485045943341, 
+    1063.1907918740778, 
+    127.26544385301254, 
+    34.50656985237146, 
+    66.2711913856715, 
+    20.94414211157029, 
+    70.50346294151409, 
+    17.280536177042602, 
+    116.58456102654381, 
+    333.09770385730275
+  ]
+}

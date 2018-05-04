@@ -1,0 +1,194 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfPages"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "maximumElevation", 
+          0.1411
+        ], 
+        [
+          "elevation", 
+          0.1528
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          8.0
+        ], 
+        [
+          "maximumElevation", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.1411
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          0.1411
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          0.1411
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          0.1411
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.1442
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1459
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1488
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1507
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (elevation)", 
+          0.1616
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.1616
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (elevation)", 
+          0.1616
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.1616
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.168
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[elevation]>(country|France)>(department|Haute-Marne)", 
+      0.1274
+    ], 
+    [
+      "Location[maximumElevation]>(department|Moselle)", 
+      0.1411
+    ], 
+    [
+      "Settlement[maximumElevation]>(department|Moselle)", 
+      0.1411
+    ], 
+    [
+      "Town[elevation]>(isPartOf|Iowa)>(type|Civil_township)", 
+      0.1442
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Haute-Marne)>(arrondissement|Arrondissement_of_Chaumont)", 
+      0.1473
+    ], 
+    [
+      "City[elevation]>(isPartOf|Iowa)", 
+      0.1532
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Haut-Rhin)", 
+      0.1537
+    ], 
+    [
+      "Lake[elevation]>(location|Ontario)", 
+      0.1616
+    ], 
+    [
+      "City[elevation]>(isPartOf|Iowa)>(country|United_States)", 
+      0.1673
+    ], 
+    [
+      "Location[elevation]>(isPartOf|Wisconsin)>(isPartOf|Bayfield_County,_Wisconsin)", 
+      0.168
+    ]
+  ], 
+  "values": [
+    336.0, 
+    275.0, 
+    180.0, 
+    311.0, 
+    270.0, 
+    451.0, 
+    324.0, 
+    334.0, 
+    223.0, 
+    380.0, 
+    370.0
+  ]
+}

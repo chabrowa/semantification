@@ -1,0 +1,275 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/elevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "minimumElevation", 
+          0.0667
+        ], 
+        [
+          "elevation", 
+          0.1058
+        ], 
+        [
+          "populationDensity", 
+          0.1101
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          6.0
+        ], 
+        [
+          "minimumElevation", 
+          2.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.0667
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.0667
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.0667
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.0667
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.097
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1028
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1047
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1091
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1101
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1101
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1113
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.1118
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          0.1121
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          0.1123
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (elevation)", 
+          0.1123
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.1127
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[minimumElevation]>(region|Languedoc-Roussillon)", 
+      0.0667
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Languedoc-Roussillon)", 
+      0.0667
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)", 
+      0.0813
+    ], 
+    [
+      "Settlement[elevation]>(country|India)", 
+      0.1054
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Washington_(state))>(country|United_States)", 
+      0.1081
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)", 
+      0.1113
+    ], 
+    [
+      "Town[elevation]>(country|India)", 
+      0.1118
+    ], 
+    [
+      "City[populationDensity]>(type|Types_of_municipalities_in_Quebec)", 
+      0.1121
+    ], 
+    [
+      "Infrastructure[elevation]", 
+      0.1123
+    ], 
+    [
+      "City[elevation]>(timeZone|Central_European_Time)", 
+      0.1127
+    ]
+  ], 
+  "values": [
+    2066.5750827651564, 
+    473.62060825773335, 
+    3.014354128174214, 
+    145.93719411020473, 
+    500.8104400724905, 
+    1189.6991826767098, 
+    129.26184936902524, 
+    1.022170334895136, 
+    1.0207601032701172, 
+    690.0965253521904, 
+    413.03440081058636, 
+    303.04854589203114, 
+    931.5865643724381, 
+    151.241610863947, 
+    1910.2893478545204, 
+    1811.5107617884062, 
+    337.4194239030278, 
+    793.0716979102966, 
+    233.95871721104962, 
+    103.04779969255446, 
+    289.04553889949864, 
+    298.10931355285175, 
+    198.96067871924276, 
+    63.395365517122954, 
+    18.698862959059912, 
+    3384.9583820480048, 
+    48.037438498830255, 
+    342.7526220360836, 
+    99.72082871283799, 
+    3.119730487100631, 
+    63.72106498331872, 
+    329.69632812911686, 
+    132.6598609859893, 
+    3.080715746736522, 
+    739.3190989737064, 
+    13.695673999622635, 
+    169.891490772542, 
+    794.0966038325038, 
+    60.94774481073132, 
+    40.22432985741267, 
+    511.7561350674917, 
+    825.9543574924954, 
+    15.646791569046133, 
+    70.93013937309534, 
+    101.56151844253517, 
+    197.07511140471632, 
+    279.8144032009731, 
+    5.225657440796331, 
+    536.1925762917293, 
+    978.3054318347909, 
+    396.3649718698363, 
+    0.0, 
+    137.27715772367966, 
+    45.889413531156606, 
+    2.3654169543509007, 
+    743.211738981288, 
+    159.91052435562773, 
+    762.490462569959, 
+    518.7874041136365, 
+    199.63479044883405
+  ]
+}

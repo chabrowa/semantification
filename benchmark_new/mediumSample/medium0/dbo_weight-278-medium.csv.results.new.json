@@ -1,0 +1,183 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/weight"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "weight", 
+          0.1242
+        ], 
+        [
+          "areaTotal", 
+          0.1328
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          9.0
+        ], 
+        [
+          "weight", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.116
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.116
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.116
+        ], 
+        [
+          "http://dbpedia.org/ontology/Train (weight)", 
+          0.1242
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (weight)", 
+          0.1242
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.138
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          23.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Train (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (weight)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Teruel)", 
+      0.1105
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Spain)>(isPartOf|Province_of_Teruel)", 
+      0.1105
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_C%C3%A1ceres)", 
+      0.1215
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Spain)>(isPartOf|Province_of_C%C3%A1ceres)", 
+      0.1215
+    ], 
+    [
+      "Train[weight]", 
+      0.1242
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(region|Umbria)>(province|Province_of_Perugia)", 
+      0.1267
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Seville)", 
+      0.1477
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(region|Tuscany)", 
+      0.1503
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(region|Umbria)", 
+      0.1515
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Teruel)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1554
+    ]
+  ], 
+  "values": [
+    42500000.0, 
+    447000000.0, 
+    133100000.0, 
+    151620000.0, 
+    33919300.0, 
+    66271000.0, 
+    384000000.0, 
+    37013800.0, 
+    76900000.0, 
+    91100000.0, 
+    97070400.0, 
+    7900000.0, 
+    503000000.0, 
+    14200000.0, 
+    72500000.0, 
+    42500000.0, 
+    168500000.0, 
+    206000000.0, 
+    48200000.0, 
+    36256200.0, 
+    132000000.0, 
+    9300000.0, 
+    45995000.0, 
+    4535550.0, 
+    23300000.0, 
+    19000000.0, 
+    41277600.0, 
+    123000000.0, 
+    33974600.0, 
+    178000000.0, 
+    39600000.0, 
+    46500000.0, 
+    63000000.0, 
+    63504000.0, 
+    43690800.0, 
+    598000000.0, 
+    156600000.0, 
+    32500000.0, 
+    38000000.0, 
+    16964600.0, 
+    43200000.0, 
+    32659200.0, 
+    103000000.0, 
+    296000000.0, 
+    265000000.0, 
+    37966300.0, 
+    52000000.0, 
+    16964600.0, 
+    170000000.0, 
+    155000000.0, 
+    409000000.0, 
+    26000000.0, 
+    35000000.0, 
+    48700000.0, 
+    117800000.0, 
+    238000000.0
+  ]
+}

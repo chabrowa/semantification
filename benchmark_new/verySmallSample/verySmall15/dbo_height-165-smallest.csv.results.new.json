@@ -1,0 +1,248 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/height"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "length", 
+          0.1558
+        ], 
+        [
+          "height", 
+          0.1723
+        ], 
+        [
+          "numberOfEpisodes", 
+          0.1736
+        ], 
+        [
+          "elevation", 
+          0.2026
+        ], 
+        [
+          "populationDensity", 
+          0.2394
+        ]
+      ], 
+      "maj": [
+        [
+          "height", 
+          3.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ], 
+        [
+          "length", 
+          1.0
+        ], 
+        [
+          "numberOfEpisodes", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (length)", 
+          0.1558
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (length)", 
+          0.1558
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (height)", 
+          0.1624
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.1723
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (height)", 
+          0.1723
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.1723
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          0.1736
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionSeason (numberOfEpisodes)", 
+          0.1736
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2026
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2026
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2036
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.2394
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.2394
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.2394
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.2394
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2394
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (height)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (height)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionSeason (numberOfEpisodes)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Lighthouse[height]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1525
+    ], 
+    [
+      "Ship[length]>(type|Patrol_boat)>(builder|Massachusetts)", 
+      0.1558
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Rendsburg-Eckernf%C3%B6rde)", 
+      0.1669
+    ], 
+    [
+      "TelevisionSeason[numberOfEpisodes]", 
+      0.1736
+    ], 
+    [
+      "Lighthouse[height]", 
+      0.1822
+    ], 
+    [
+      "Tower[height]", 
+      0.1822
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Schleswig-Flensburg)>(federalState|Schleswig-Holstein)", 
+      0.2124
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Schleswig-Flensburg)", 
+      0.2285
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|New_York)>(type|Town)>(governmentType|Town_council)>(leaderName|Republican_Party_(United_States))>(22-rdf-syntax-ns#type|_Feature)>(country|United_States)", 
+      0.2394
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|New_York)>(type|Town)>(governmentType|Town_council)>(leaderName|Republican_Party_(United_States))>(22-rdf-syntax-ns#type|_Feature)>(country|United_States)", 
+      0.2394
+    ]
+  ], 
+  "values": [
+    11.582895169970788, 
+    12.656446350060433, 
+    24.0370898758753, 
+    12.74152019064589, 
+    22.47723312282821, 
+    38.319651547459074, 
+    12.307824642626677, 
+    34.69059015201299, 
+    8.944787952856336, 
+    27.48622770041309, 
+    13.265303288071049, 
+    19.490503831291072, 
+    11.95220002547581, 
+    23.191338088246336, 
+    15.175957173130918, 
+    27.561459434055788, 
+    16.01591529120386
+  ]
+}

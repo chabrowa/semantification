@@ -1,0 +1,184 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/minimumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "minimumElevation", 
+          0.1825
+        ], 
+        [
+          "elevation", 
+          0.1909
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          6.0
+        ], 
+        [
+          "minimumElevation", 
+          4.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.1814
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.1814
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.1825
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1825
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1851
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1887
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1907
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1912
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.1956
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (elevation)", 
+          0.197
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.197
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (elevation)", 
+          0.197
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[elevation]>(country|Italy)>(region|Liguria)>(province|Province_of_Genoa)", 
+      0.1737
+    ], 
+    [
+      "Location[minimumElevation]>(region|Languedoc-Roussillon)>(department|Pyr%C3%A9n%C3%A9es-Orientales)", 
+      0.1771
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Languedoc-Roussillon)>(department|Pyr%C3%A9n%C3%A9es-Orientales)", 
+      0.1771
+    ], 
+    [
+      "Location[elevation]>(country|Spain)>(isPartOf|Province_of_Alicante)", 
+      0.1828
+    ], 
+    [
+      "Location[minimumElevation]>(region|Languedoc-Roussillon)", 
+      0.1879
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Languedoc-Roussillon)", 
+      0.1879
+    ], 
+    [
+      "City[elevation]>(timeZone|Central_European_Time)", 
+      0.1956
+    ], 
+    [
+      "Settlement[elevation]>(country|Spain)>(isPartOf|Province_of_Alicante)", 
+      0.1967
+    ], 
+    [
+      "Lake[elevation]>(location|Nordland)", 
+      0.197
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Riverside_County,_California)", 
+      0.1995
+    ]
+  ], 
+  "values": [
+    5.223915639055466, 
+    399.448746687194, 
+    29.74151006920762, 
+    0.0, 
+    833.47542808975, 
+    372.0397436443993, 
+    360.96938188328454, 
+    709.3595023275634, 
+    196.79687603048907
+  ]
+}

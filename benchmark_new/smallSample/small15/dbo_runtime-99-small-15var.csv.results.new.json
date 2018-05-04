@@ -1,0 +1,127 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1739
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1726
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1726
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.173
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1731
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1761
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          17.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          3.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationTotal]>(country|Italy)>(province|Province_of_Lecco)", 
+      0.1446
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(province|Province_of_Lecco)", 
+      0.1446
+    ], 
+    [
+      "Village[populationTotal]>(country|India)>(isPartOf|Tiruchirappalli_district)", 
+      0.1731
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(province|South_Tyrol)>(region|S%C3%BCdtirol)", 
+      0.1789
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(province|South_Tyrol)>(region|S%C3%BCdtirol)", 
+      0.1789
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(province|South_Tyrol)", 
+      0.1818
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(province|South_Tyrol)", 
+      0.1818
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(province|Province_of_Como)", 
+      0.1846
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(province|Province_of_Como)", 
+      0.1846
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(region|Liguria)>(province|Province_of_Genoa)", 
+      0.1864
+    ]
+  ], 
+  "values": [
+    120.29460797981731, 
+    120.99361696247834, 
+    3123.6001611382876, 
+    4921.145449485891, 
+    1910.0003180408012, 
+    3327.644690529067, 
+    1387.4593943882273, 
+    3381.5373607712204, 
+    3070.2977058745882, 
+    1303.3167535768519, 
+    754.4721307225557, 
+    3951.8887423017836, 
+    3317.0148266225515, 
+    508.1148516581842, 
+    1486.340051085498, 
+    4831.342530081825
+  ]
+}

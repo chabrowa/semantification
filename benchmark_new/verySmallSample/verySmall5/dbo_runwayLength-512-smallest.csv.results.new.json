@@ -1,0 +1,347 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runwayLength"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "runwayLength", 
+          0.0798
+        ], 
+        [
+          "elevation", 
+          0.1095
+        ], 
+        [
+          "numberOfStudents", 
+          0.1133
+        ], 
+        [
+          "maximumElevation", 
+          0.116
+        ], 
+        [
+          "length", 
+          0.1162
+        ]
+      ], 
+      "maj": [
+        [
+          "runwayLength", 
+          5.0
+        ], 
+        [
+          "maximumElevation", 
+          2.0
+        ], 
+        [
+          "numberOfStudents", 
+          1.0
+        ], 
+        [
+          "length", 
+          1.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Airport (runwayLength)", 
+          0.0798
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (runwayLength)", 
+          0.0798
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (runwayLength)", 
+          0.0798
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (runwayLength)", 
+          0.0798
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (runwayLength)", 
+          0.0798
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1095
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.1133
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.1133
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          0.1133
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.1133
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          0.116
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.116
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          0.116
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          0.116
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.1162
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          0.1162
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (length)", 
+          0.1162
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          0.1162
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Place (runwayLength)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (runwayLength)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (runwayLength)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Airport (runwayLength)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (runwayLength)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "ArchitecturalStructure[runwayLength]", 
+      0.0798
+    ], 
+    [
+      "Airport[runwayLength]", 
+      0.0798
+    ], 
+    [
+      "Infrastructure[runwayLength]", 
+      0.0798
+    ], 
+    [
+      "Place[runwayLength]", 
+      0.0798
+    ], 
+    [
+      "Location[runwayLength]", 
+      0.0798
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Himachal_Pradesh)", 
+      0.1095
+    ], 
+    [
+      "School[numberOfStudents]>(state|Pennsylvania)>(type|State_school)", 
+      0.1133
+    ], 
+    [
+      "Location[maximumElevation]>(region|Rh%C3%B4ne-Alpes)>(department|Savoie)", 
+      0.116
+    ], 
+    [
+      "Settlement[maximumElevation]>(region|Rh%C3%B4ne-Alpes)>(department|Savoie)", 
+      0.116
+    ], 
+    [
+      "Dam[length]>(owner|Government_of_Maharashtra)", 
+      0.1162
+    ]
+  ], 
+  "values": [
+    1751.80583787759, 
+    962.4702385346958, 
+    802.5831316845017, 
+    642.1950177262275, 
+    1366.6835763273968, 
+    3532.6001918951993, 
+    1354.3374422139927, 
+    2871.2255955869973, 
+    2568.710026235603, 
+    860.2060975829921, 
+    3519.0518188231513, 
+    2351.2625409545335, 
+    631.4633375277898, 
+    1205.2966038768336, 
+    2997.2969602267576, 
+    1846.905788139004, 
+    3652.0803825522253, 
+    766.7065767992275, 
+    2091.668800777835, 
+    220.0260989445242, 
+    2538.8880209326107, 
+    1069.7255152124637, 
+    1464.728209416005, 
+    1334.0395505758609, 
+    1255.4379839834558, 
+    2786.7688433228423, 
+    2277.346693870456, 
+    3054.656499340918, 
+    1562.78409041523, 
+    675.9561699284889, 
+    2333.2385530207152, 
+    3060.4821132814723, 
+    1478.857728551592, 
+    3192.5441763066, 
+    3126.575332288316, 
+    0.0, 
+    1084.4630642114469, 
+    2334.1846264303545, 
+    768.4836405106354, 
+    272.6708041166952, 
+    1116.9853068704201, 
+    2318.048607663275, 
+    997.9181971975132, 
+    1486.437264692125, 
+    1253.9233397042935, 
+    1100.434231235335, 
+    903.4269327731979, 
+    1154.3493770836415, 
+    0.0, 
+    831.095684674076, 
+    1571.7566014840158, 
+    2217.797638334847, 
+    656.5705762796891, 
+    1093.3200854690667, 
+    888.4902469432735, 
+    903.8371945960712, 
+    3595.665657501229, 
+    1417.9749200669232, 
+    1312.6302182947657, 
+    3847.090974860747, 
+    1330.3951004371045, 
+    1786.5868361966018, 
+    1760.790106717461, 
+    900.9254537179486, 
+    2693.904665540548, 
+    1999.077240087029, 
+    2106.4815188111124, 
+    898.6490713694844, 
+    908.7158700126031, 
+    1259.6700519107096, 
+    460.472268237078, 
+    703.9583326728379, 
+    972.2436423628526, 
+    1519.072119191344, 
+    3896.89952000937, 
+    2884.8234841486696, 
+    813.3255411438449, 
+    2084.3786335899586, 
+    988.2868472939774, 
+    1401.3979815920165, 
+    775.8963145137197, 
+    1067.4426407592057, 
+    1562.4069680470266, 
+    1036.0608636037412, 
+    1349.3566083432238, 
+    665.8851861133926, 
+    3012.829305790172, 
+    2489.371678452744, 
+    3107.266753853904, 
+    1488.1695334747917, 
+    1196.2374409189204, 
+    1808.4176335418647, 
+    1815.1783262205572, 
+    553.8356175014183, 
+    1142.2567350076094, 
+    628.9212106332955, 
+    1818.5464347077875, 
+    1261.0391795675114, 
+    1940.8291744855123, 
+    494.11578414589053
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/yearOfConstruction"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "openingYear", 
+          0.2358
+        ], 
+        [
+          "foundingYear", 
+          0.2538
+        ], 
+        [
+          "deathYear", 
+          0.2625
+        ], 
+        [
+          "yearOfConstruction", 
+          0.2891
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          7.0
+        ], 
+        [
+          "yearOfConstruction", 
+          1.0
+        ], 
+        [
+          "foundingYear", 
+          1.0
+        ], 
+        [
+          "deathYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          0.1905
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          0.229
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.2377
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.2377
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.2377
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.2538
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.2538
+        ], 
+        [
+          "http://dbpedia.org/ontology/RugbyClub (foundingYear)", 
+          0.2538
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (foundingYear)", 
+          0.2538
+        ], 
+        [
+          "http://dbpedia.org/ontology/Philosopher (deathYear)", 
+          0.2625
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          0.2625
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          0.2625
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (yearOfConstruction)", 
+          0.2891
+        ], 
+        [
+          "http://dbpedia.org/ontology/HistoricPlace (yearOfConstruction)", 
+          0.2891
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          0.3128
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          0.3128
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (openingYear)", 
+          0.3128
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Philosopher (deathYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/HistoricPlace (yearOfConstruction)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RugbyClub (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (yearOfConstruction)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (foundingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Station[openingYear]>(country|United_Kingdom)>(district|Glasgow)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1727
+    ], 
+    [
+      "Location[openingYear]>(country|United_Kingdom)>(district|Glasgow)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1727
+    ], 
+    [
+      "Station[openingYear]>(country|United_Kingdom)>(district|Glasgow)", 
+      0.2143
+    ], 
+    [
+      "Location[openingYear]>(country|United_Kingdom)>(district|Glasgow)", 
+      0.2143
+    ], 
+    [
+      "RugbyClub[foundingYear]>(location|England)", 
+      0.2538
+    ], 
+    [
+      "Philosopher[deathYear]>(era|19th-century_philosophy)", 
+      0.2625
+    ], 
+    [
+      "Station[openingYear]>(owner|VicTrack)", 
+      0.2783
+    ], 
+    [
+      "Station[openingYear]>(owner|VicTrack)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2857
+    ], 
+    [
+      "HistoricPlace[yearOfConstruction]>(location|Baltimore)", 
+      0.2891
+    ], 
+    [
+      "PublicTransitSystem[openingYear]>(location|England)", 
+      0.3128
+    ]
+  ], 
+  "values": [
+    1877.0, 
+    1887.0, 
+    1928.0, 
+    1875.0, 
+    1958.0, 
+    1868.0
+  ]
+}

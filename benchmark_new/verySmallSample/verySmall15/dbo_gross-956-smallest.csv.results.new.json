@@ -1,0 +1,163 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/gross"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "postalCode", 
+          0.2217
+        ], 
+        [
+          "areaWater", 
+          0.2338
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          9.0
+        ], 
+        [
+          "postalCode", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.2212
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          0.2217
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (postalCode)", 
+          0.2217
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          0.2217
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          0.2217
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          0.2234
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.2309
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.2354
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.2354
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.2393
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "City[areaWater]>(isPartOf|Ohio)>(country|United_States)", 
+      0.2211
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|New_Jersey)>(governmentType|Borough_(New_Jersey))", 
+      0.2212
+    ], 
+    [
+      "Village[postalCode]", 
+      0.2217
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Iowa)", 
+      0.2234
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Ohio)>(country|United_States)>(type|City)", 
+      0.2251
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|New_Jersey)", 
+      0.2336
+    ], 
+    [
+      "City[areaWater]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)", 
+      0.2372
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|New_Jersey)>(isPartOf|Bergen_County,_New_Jersey)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.243
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Ohio)", 
+      0.2477
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|New_Jersey)>(isPartOf|Bergen_County,_New_Jersey)", 
+      0.2523
+    ]
+  ], 
+  "values": [
+    290212.11299628334, 
+    8291.17201830134, 
+    538889.046790124, 
+    60447.737389786365
+  ]
+}

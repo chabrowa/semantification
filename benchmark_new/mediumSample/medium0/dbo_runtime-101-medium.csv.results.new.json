@@ -1,0 +1,183 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1823
+        ], 
+        [
+          "populationDensity", 
+          0.1921
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          7.0
+        ], 
+        [
+          "populationDensity", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          0.1618
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1798
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1798
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1849
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.187
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1921
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1921
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1921
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          0.1921
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          0.1935
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          3.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Town[populationTotal]>(isPartOf|Kansas)>(timeZone|Central_Time_Zone)>(type|Civil_township)", 
+      0.1618
+    ], 
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(country|Suffolk)", 
+      0.1726
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|Suffolk)", 
+      0.1726
+    ], 
+    [
+      "Village[populationDensity]>(timeZone|Indian_Standard_Time)", 
+      0.1875
+    ], 
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(country|Oxfordshire)>(district|Vale_of_White_Horse)", 
+      0.1878
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|Oxfordshire)>(district|Vale_of_White_Horse)", 
+      0.1878
+    ], 
+    [
+      "City[populationDensity]>(country|Japan)>(type|Cities_of_Japan)", 
+      0.1935
+    ], 
+    [
+      "Village[populationDensity]>(timeZone|Indian_Standard_Time)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1952
+    ], 
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(country|Cumbria)>(district|South_Lakeland)", 
+      0.1968
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|Cumbria)>(district|South_Lakeland)", 
+      0.1968
+    ]
+  ], 
+  "values": [
+    2300.0, 
+    1567.0, 
+    3315.0, 
+    223.0, 
+    134.0, 
+    143.0, 
+    405.0, 
+    4758.0, 
+    2806.0, 
+    804.0, 
+    2281.0, 
+    2494.0, 
+    147.0, 
+    150.0, 
+    235.0, 
+    635.0, 
+    174.0, 
+    241.0, 
+    129.0, 
+    252.0, 
+    15043.0, 
+    244.0, 
+    174.0, 
+    161.0
+  ]
+}

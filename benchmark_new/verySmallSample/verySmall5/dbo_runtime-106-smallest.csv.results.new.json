@@ -1,0 +1,209 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "postalCode", 
+          0.375
+        ], 
+        [
+          "populationTotal", 
+          0.4675
+        ], 
+        [
+          "areaCode", 
+          0.471
+        ], 
+        [
+          "runtime", 
+          0.4744
+        ], 
+        [
+          "length", 
+          0.48
+        ]
+      ], 
+      "maj": [
+        [
+          "areaCode", 
+          4.0
+        ], 
+        [
+          "postalCode", 
+          3.0
+        ], 
+        [
+          "runtime", 
+          1.0
+        ], 
+        [
+          "length", 
+          1.0
+        ], 
+        [
+          "populationTotal", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          0.3286
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          0.3286
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          0.3286
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (postalCode)", 
+          0.3982
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.4675
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          0.4705
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          0.4706
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.4706
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          0.4713
+        ], 
+        [
+          "http://dbpedia.org/ontology/Album (runtime)", 
+          0.4744
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          0.4744
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          0.4744
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          0.48
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (postalCode)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Album (runtime)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[postalCode]>(type|Municipalities_of_Switzerland)>(canton|Canton_of_Solothurn)", 
+      0.3286
+    ], 
+    [
+      "Settlement[postalCode]>(type|Municipalities_of_Switzerland)>(canton|Canton_of_Solothurn)", 
+      0.3286
+    ], 
+    [
+      "Location[populationTotal]>(type|Village_development_committee)>(isPartOf|Dhanusa_District)", 
+      0.4675
+    ], 
+    [
+      "Location[postalCode]>(timeZone|Central_European_Time)>(isPartOf|Szabolcs-Szatm%C3%A1r-Bereg_County)", 
+      0.4677
+    ], 
+    [
+      "Settlement[areaCode]>(country|Germany)>(district|Schleswig-Flensburg)>(federalState|Schleswig-Holstein)", 
+      0.47
+    ], 
+    [
+      "Location[areaCode]>(country|Germany)>(district|Schleswig-Flensburg)>(federalState|Schleswig-Holstein)", 
+      0.4709
+    ], 
+    [
+      "Settlement[areaCode]>(country|Germany)>(district|Schleswig-Flensburg)", 
+      0.4712
+    ], 
+    [
+      "Location[areaCode]>(country|Germany)>(district|Schleswig-Flensburg)", 
+      0.472
+    ], 
+    [
+      "Album[runtime]>(type|Live_album)>(genre|Heavy_metal_music)", 
+      0.4744
+    ], 
+    [
+      "Location[length]>(22-rdf-syntax-ns#type|_Feature)>(location|Nordland)", 
+      0.48
+    ]
+  ], 
+  "values": [
+    4372.31515415297, 
+    4672.158830150824
+  ]
+}

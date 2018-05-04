@@ -1,0 +1,179 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/displacement"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "displacement", 
+          0.1557
+        ], 
+        [
+          "areaWater", 
+          0.5058
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          7.0
+        ], 
+        [
+          "displacement", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Engine (displacement)", 
+          0.1557
+        ], 
+        [
+          "http://dbpedia.org/ontology/AutomobileEngine (displacement)", 
+          0.1557
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (displacement)", 
+          0.1557
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.5039
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.5058
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.5058
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.5061
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.5085
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (displacement)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Engine (displacement)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AutomobileEngine (displacement)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Device[displacement]", 
+      0.1557
+    ], 
+    [
+      "Engine[displacement]", 
+      0.1557
+    ], 
+    [
+      "AutomobileEngine[displacement]", 
+      0.1557
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Maryland)>(country|United_States)", 
+      0.5
+    ], 
+    [
+      "Location[areaWater]>(type|Administrative_divisions_of_New_York)>(isPartOf|Nassau_County,_New_York)", 
+      0.503
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Nebraska)", 
+      0.5052
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Idaho)>(timeZone|Pacific_Time_Zone)", 
+      0.5063
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|California)>(isPartOf|Riverside_County,_California)>(type|Census-designated_place)", 
+      0.507
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|California)>(isPartOf|Riverside_County,_California)>(type|Census-designated_place)>(country|United_States)", 
+      0.5072
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Nebraska)>(timeZone|Central_Time_Zone)>(type|City)", 
+      0.5119
+    ]
+  ], 
+  "values": [
+    0.0019390504435680975, 
+    0.002169543560264139, 
+    0.001794857955453534, 
+    0.0009996131080694246, 
+    0.003419247135723687, 
+    0.0023788571655562105, 
+    0.0030868168969799973, 
+    0.0033504078623599765, 
+    0.003087097540247233, 
+    0.001995638196311691, 
+    0.001767549880259084, 
+    0.0038931152294936072, 
+    0.0013968097320519993, 
+    0.0033443534137564995, 
+    0.00224971276360102, 
+    0.0009605982433407993, 
+    0.0027080815286112817, 
+    0.0021067036809257755, 
+    0.0010253539624872972, 
+    0.0029983052015060485, 
+    0.0028613982032767164, 
+    0.0019639495353756735, 
+    0.0033039241519067543, 
+    0.004312306478877064, 
+    0.0015492791261017512, 
+    0.002902984331320279, 
+    0.0071386149528628534, 
+    0.004047257176631351, 
+    0.0017672469261575344, 
+    0.0026555110235227516, 
+    0.0012531321428437686, 
+    0.001647932199024697, 
+    0.002728121947982346, 
+    0.001504812105273364, 
+    0.0017068724139280573, 
+    0.006880310253795003
+  ]
+}

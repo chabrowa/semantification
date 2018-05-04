@@ -1,0 +1,164 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationDensity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.1759
+        ], 
+        [
+          "areaCode", 
+          0.1769
+        ], 
+        [
+          "elevation", 
+          0.1952
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          8.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ], 
+        [
+          "areaCode", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1759
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaCode)", 
+          0.1769
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.1769
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          0.1769
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          0.1769
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1943
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1943
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1952
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1956
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          17.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[elevation]>(country|Germany)", 
+      0.174
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Oklahoma)", 
+      0.1759
+    ], 
+    [
+      "City[areaCode]>(timeZone|Central_European_Time)", 
+      0.1769
+    ], 
+    [
+      "Settlement[elevation]>(country|Spain)>(isPartOf|Province_of_Tarragona)>(type|Municipalities_of_Spain)>(timeZone|Central_European_Time)", 
+      0.1903
+    ], 
+    [
+      "Location[elevation]>(country|Spain)>(isPartOf|Province_of_Tarragona)>(type|Municipalities_of_Spain)>(timeZone|Central_European_Time)", 
+      0.1903
+    ], 
+    [
+      "Settlement[elevation]>(country|Spain)>(isPartOf|Province_of_Tarragona)>(type|Municipalities_of_Spain)", 
+      0.1969
+    ], 
+    [
+      "Location[elevation]>(country|Spain)>(isPartOf|Province_of_Tarragona)>(type|Municipalities_of_Spain)", 
+      0.1969
+    ], 
+    [
+      "Location[elevation]>(country|Spain)>(isPartOf|Province_of_Barcelona)", 
+      0.2027
+    ], 
+    [
+      "Settlement[elevation]>(country|Italy)>(region|Liguria)", 
+      0.2047
+    ], 
+    [
+      "Settlement[elevation]>(country|Spain)>(isPartOf|Province_of_Barcelona)", 
+      0.2055
+    ]
+  ], 
+  "values": [
+    46.029901204266686, 
+    493.26806940573925, 
+    258.42530681099555, 
+    7.589875148086946, 
+    375.75793087981515
+  ]
+}

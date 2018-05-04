@@ -1,0 +1,275 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runwayLength"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "runwayLength", 
+          0.0858
+        ], 
+        [
+          "length", 
+          0.1088
+        ], 
+        [
+          "maximumElevation", 
+          0.12
+        ]
+      ], 
+      "maj": [
+        [
+          "runwayLength", 
+          5.0
+        ], 
+        [
+          "length", 
+          4.0
+        ], 
+        [
+          "maximumElevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Airport (runwayLength)", 
+          0.0858
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (runwayLength)", 
+          0.0858
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (runwayLength)", 
+          0.0858
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (runwayLength)", 
+          0.0858
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (runwayLength)", 
+          0.0858
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          0.108
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.108
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          0.108
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (length)", 
+          0.1094
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          0.1113
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          0.12
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Dam (length)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (runwayLength)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (runwayLength)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (runwayLength)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Airport (runwayLength)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (runwayLength)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "ArchitecturalStructure[runwayLength]", 
+      0.0858
+    ], 
+    [
+      "Airport[runwayLength]", 
+      0.0858
+    ], 
+    [
+      "Infrastructure[runwayLength]", 
+      0.0858
+    ], 
+    [
+      "Place[runwayLength]", 
+      0.0858
+    ], 
+    [
+      "Location[runwayLength]", 
+      0.0858
+    ], 
+    [
+      "Dam[length]>(owner|Government_of_Maharashtra)", 
+      0.0998
+    ], 
+    [
+      "Location[length]>(22-rdf-syntax-ns#type|_Feature)>(owner|India)", 
+      0.1113
+    ], 
+    [
+      "Dam[length]>(owner|Government_of_Maharashtra)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1118
+    ], 
+    [
+      "Dam[length]>(owner|Government_of_Maharashtra)>(22-rdf-syntax-ns#type|_Feature)>(owner|India)", 
+      0.1123
+    ], 
+    [
+      "Location[maximumElevation]>(region|Rh%C3%B4ne-Alpes)>(department|Savoie)", 
+      0.12
+    ]
+  ], 
+  "values": [
+    810.8616400081804, 
+    1754.8281884198134, 
+    2393.667496146616, 
+    1033.3492977372132, 
+    537.0073599275639, 
+    415.42835357909956, 
+    616.152160346662, 
+    1646.43225797633, 
+    1025.3875577833314, 
+    933.6382839289504, 
+    1548.5232949798858, 
+    1166.8584778216546, 
+    2027.9615676279748, 
+    2430.0331553370015, 
+    3039.82534047593, 
+    856.8730753487688, 
+    1561.6555663992026, 
+    1235.5139796656092, 
+    1170.7881331538383, 
+    1020.2848166873234, 
+    2851.0605442871633, 
+    1640.5978344676364, 
+    1238.909681023297, 
+    2351.9420807424094, 
+    3740.2545763838184, 
+    959.8421500403763, 
+    1137.166418302097, 
+    1862.892504292637, 
+    1842.1610963519363, 
+    818.9202276588314, 
+    612.8526248717642, 
+    3349.4293486615866, 
+    1110.3800454574837, 
+    2802.4354691534013, 
+    704.4608915671264, 
+    1830.9005690705242, 
+    2924.7392514535823, 
+    1756.794035564391, 
+    2918.3028174456717, 
+    1090.1185467747587, 
+    420.86911431465694, 
+    965.4475186329094, 
+    1685.8361696621625, 
+    1056.7347686773833, 
+    1245.948348945098, 
+    525.0139749104118, 
+    1093.3885912197868, 
+    45.50946319300794, 
+    1021.2053107474622, 
+    1076.115673350768, 
+    3510.3006266568846, 
+    2110.5682718573325, 
+    1759.2163836039892, 
+    1607.7573580152937, 
+    1468.4410357788213, 
+    1363.3542674904834, 
+    3756.778095417215, 
+    567.6581669165462, 
+    586.6958108515131, 
+    485.15888988234025, 
+    1540.12325045747, 
+    833.2794949583946, 
+    2357.9848203674687, 
+    3560.391981862974, 
+    1101.1665574175213, 
+    1140.7105445276452, 
+    917.0429211200573, 
+    853.7130675134155, 
+    701.8896987660365, 
+    3127.5169243916116, 
+    2386.049447132975, 
+    2920.6696261648503, 
+    2747.951548058809, 
+    2621.9537448859687, 
+    1159.9027197624987, 
+    1001.7856305339897, 
+    2477.2556745690435, 
+    1226.8255044937416, 
+    2257.7799996981294, 
+    3006.9923993668103, 
+    2067.807629367233, 
+    3105.2894301769916, 
+    1195.2028747901256, 
+    1458.956067522773, 
+    2499.437548004311, 
+    659.1688479762674, 
+    1168.8149829546567, 
+    1588.250076897298, 
+    3079.5049998550603, 
+    335.10008418096925, 
+    2327.636651732079, 
+    1115.5897331221568, 
+    1642.5052965670025, 
+    1668.4096412669874, 
+    643.2448384455254, 
+    951.6529098249957, 
+    2946.3143928601094, 
+    795.6500729327502, 
+    1583.4135006723147, 
+    2783.2130135994016
+  ]
+}

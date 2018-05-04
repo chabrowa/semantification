@@ -1,0 +1,171 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1714
+        ], 
+        [
+          "capacity", 
+          0.1785
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          7.0
+        ], 
+        [
+          "capacity", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1682
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1696
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1698
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1698
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1763
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerClub (capacity)", 
+          0.1781
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          0.1782
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (capacity)", 
+          0.1785
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (capacity)", 
+          0.1785
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (capacity)", 
+          0.1785
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerClub (capacity)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (capacity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (capacity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (capacity)", 
+          3.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[populationTotal]>(country|India)>(isPartOf|Punjab,_India)", 
+      0.16
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(province|Province_of_Bergamo)", 
+      0.1689
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(province|Province_of_Bergamo)", 
+      0.1689
+    ], 
+    [
+      "Village[populationTotal]>(country|India)>(isPartOf|Punjab,_India)>(22-rdf-syntax-ns#type|_Feature)>(timeZone|Indian_Standard_Time)", 
+      0.1696
+    ], 
+    [
+      "Village[populationTotal]>(country|India)>(isPartOf|Punjab,_India)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1725
+    ], 
+    [
+      "SoccerClub[capacity]>(league|Serie_D)>(season|2012%E2%80%9313_Serie_D)>(position|Serie_D)>(ground|Italy)", 
+      0.1757
+    ], 
+    [
+      "Town[populationTotal]>(governmentType|Town_council)>(type|Town)", 
+      0.1782
+    ], 
+    [
+      "SoccerClub[capacity]>(league|Serie_D)>(season|2012%E2%80%9313_Serie_D)>(position|Serie_D)", 
+      0.1786
+    ], 
+    [
+      "SoccerClub[capacity]>(league|Serie_D)>(season|2012%E2%80%9313_Serie_D)", 
+      0.1814
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(region|Calabria)>(province|Province_of_Reggio_Calabria)", 
+      0.1818
+    ]
+  ], 
+  "values": [
+    5634.440185475031, 
+    1481.2556553254392, 
+    1359.4350174773645, 
+    1481.2357330158195, 
+    5008.079093676778, 
+    5067.154372593233, 
+    933.2242542192671, 
+    1692.366744220033, 
+    689.6913625250264, 
+    6527.932950286701, 
+    4821.0007155705525, 
+    2257.285387480951
+  ]
+}

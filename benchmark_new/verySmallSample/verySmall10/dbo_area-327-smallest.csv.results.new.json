@@ -1,0 +1,187 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/area"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "area", 
+          0.2132
+        ], 
+        [
+          "budget", 
+          0.2494
+        ]
+      ], 
+      "maj": [
+        [
+          "area", 
+          9.0
+        ], 
+        [
+          "budget", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          0.2007
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          0.2007
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (area)", 
+          0.2007
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (area)", 
+          0.2055
+        ], 
+        [
+          "http://dbpedia.org/ontology/ClericalAdministrativeRegion (area)", 
+          0.2128
+        ], 
+        [
+          "http://dbpedia.org/ontology/Diocese (area)", 
+          0.2373
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (area)", 
+          0.2415
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (budget)", 
+          0.2494
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (budget)", 
+          0.2494
+        ], 
+        [
+          "http://dbpedia.org/ontology/GovernmentAgency (budget)", 
+          0.2494
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (area)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Diocese (area)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (area)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (area)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ClericalAdministrativeRegion (area)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (budget)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (budget)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/GovernmentAgency (budget)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "AdministrativeRegion[area]", 
+      0.1763
+    ], 
+    [
+      "Region[area]", 
+      0.1763
+    ], 
+    [
+      "ClericalAdministrativeRegion[area]", 
+      0.1763
+    ], 
+    [
+      "Diocese[area]", 
+      0.1763
+    ], 
+    [
+      "Location[area]>(jurisdiction|Diocese)", 
+      0.2132
+    ], 
+    [
+      "Diocese[area]>(country|India)", 
+      0.2484
+    ], 
+    [
+      "GovernmentAgency[budget]", 
+      0.2494
+    ], 
+    [
+      "Location[area]>(jurisdiction|Diocese)>(country|Brazil)", 
+      0.2503
+    ], 
+    [
+      "Diocese[area]>(country|Brazil)>(jurisdiction|Diocese)", 
+      0.2503
+    ], 
+    [
+      "Location[area]>(jurisdiction|Diocese)>(country|India)", 
+      0.2515
+    ]
+  ], 
+  "values": [
+    911143630.6146753, 
+    30562492970.083447, 
+    1591483513.5719876, 
+    10045831225.28263, 
+    917951271.6631855, 
+    23906018049.46804, 
+    49778126394.97957, 
+    3220532522.132024, 
+    74986.73084600155, 
+    3959348207.56207, 
+    178690850.54320964, 
+    1339530804490.68, 
+    8958041.32212063, 
+    94211858135.56035, 
+    34268361269.530743, 
+    11622824663.240211, 
+    232365327.27993602, 
+    14898231127.58691, 
+    82502415103.4349, 
+    5199111090.385123, 
+    18561172172.716312, 
+    22533044212.280544, 
+    10827587482.359774, 
+    8713844807.419132, 
+    14296552630.983067, 
+    16117703913.118242, 
+    11438796072.305511, 
+    225940.59725992588
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/draftYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "openingYear", 
+          0.4011
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          0.38
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          0.38
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (openingYear)", 
+          0.38
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          0.387
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.4028
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (openingYear)", 
+          0.403
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.4035
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.4035
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.4035
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          0.4067
+        ], 
+        [
+          "http://dbpedia.org/ontology/RoadJunction (openingYear)", 
+          0.4083
+        ], 
+        [
+          "http://dbpedia.org/ontology/PowerStation (openingYear)", 
+          0.4091
+        ], 
+        [
+          "http://dbpedia.org/ontology/RoadTunnel (openingYear)", 
+          0.41
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          0.41
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RoadJunction (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RoadTunnel (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PowerStation (openingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "PublicTransitSystem[openingYear]>(type|Rapid_transit)", 
+      0.38
+    ], 
+    [
+      "RailwayLine[openingYear]>(type|Light_rail)", 
+      0.3823
+    ], 
+    [
+      "RailwayLine[openingYear]", 
+      0.3965
+    ], 
+    [
+      "Dam[openingYear]", 
+      0.403
+    ], 
+    [
+      "RouteOfTransportation[openingYear]", 
+      0.4056
+    ], 
+    [
+      "RailwayTunnel[openingYear]", 
+      0.4067
+    ], 
+    [
+      "RoadJunction[openingYear]", 
+      0.4083
+    ], 
+    [
+      "PowerStation[openingYear]", 
+      0.4091
+    ], 
+    [
+      "RoadTunnel[openingYear]", 
+      0.41
+    ], 
+    [
+      "Bridge[openingYear]>(type|Cable-stayed_bridge)", 
+      0.41
+    ]
+  ], 
+  "values": [
+    1863.0, 
+    2053.0, 
+    1931.0, 
+    2009.0, 
+    2080.0, 
+    2048.0, 
+    2088.0, 
+    1945.0, 
+    2105.0, 
+    2029.0, 
+    2049.0, 
+    1957.0, 
+    2082.0, 
+    2011.0, 
+    1986.0, 
+    2024.0, 
+    1933.0, 
+    1912.0, 
+    1946.0, 
+    1980.0, 
+    1951.0, 
+    2021.0, 
+    1981.0, 
+    1997.0, 
+    2043.0, 
+    1934.0, 
+    1938.0, 
+    1918.0, 
+    1939.0, 
+    1887.0, 
+    2024.0, 
+    1932.0, 
+    1983.0, 
+    2041.0, 
+    1995.0, 
+    2062.0, 
+    2093.0, 
+    1885.0, 
+    2068.0, 
+    2017.0, 
+    1941.0, 
+    1934.0, 
+    2021.0, 
+    2031.0, 
+    1920.0, 
+    1891.0, 
+    2034.0, 
+    2035.0, 
+    1879.0, 
+    1918.0, 
+    1902.0, 
+    2066.0, 
+    1987.0, 
+    2056.0, 
+    1963.0, 
+    2031.0, 
+    1976.0, 
+    1980.0, 
+    2027.0, 
+    1950.0, 
+    2060.0, 
+    2043.0, 
+    2049.0, 
+    2047.0, 
+    2083.0, 
+    1975.0, 
+    2029.0, 
+    2064.0, 
+    1979.0, 
+    2101.0, 
+    1946.0, 
+    1872.0, 
+    2061.0, 
+    1877.0, 
+    1964.0, 
+    1857.0, 
+    1965.0, 
+    1925.0, 
+    2039.0, 
+    1898.0, 
+    2013.0, 
+    1977.0, 
+    2073.0, 
+    1929.0, 
+    1992.0, 
+    1943.0, 
+    1953.0, 
+    2020.0, 
+    1982.0, 
+    2044.0, 
+    1993.0, 
+    1947.0, 
+    2017.0, 
+    2052.0, 
+    1920.0, 
+    2014.0, 
+    1969.0, 
+    1874.0, 
+    2016.0, 
+    2043.0
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/activeYearsStartYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "foundingYear", 
+          0.1137
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.1392
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.1522
+        ], 
+        [
+          "deathYear", 
+          0.1661
+        ]
+      ], 
+      "maj": [
+        [
+          "activeYearsStartYear", 
+          4.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          3.0
+        ], 
+        [
+          "deathYear", 
+          2.0
+        ], 
+        [
+          "foundingYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Cardinal (activeYearsStartYear)", 
+          0.0492
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsStartYear)", 
+          0.1123
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.1137
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          0.1137
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.1137
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          0.1137
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.1392
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          0.1392
+        ], 
+        [
+          "http://dbpedia.org/ontology/Scientist (activeYearsEndYear)", 
+          0.148
+        ], 
+        [
+          "http://dbpedia.org/ontology/Medician (activeYearsEndYear)", 
+          0.148
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.1522
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.1522
+        ], 
+        [
+          "http://dbpedia.org/ontology/Philosopher (deathYear)", 
+          0.1596
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsEndYear)", 
+          0.1605
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cardinal (activeYearsEndYear)", 
+          0.1605
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          0.1661
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          0.1661
+        ], 
+        [
+          "http://dbpedia.org/ontology/Medician (activeYearsStartYear)", 
+          0.1661
+        ], 
+        [
+          "http://dbpedia.org/ontology/Scientist (activeYearsStartYear)", 
+          0.1661
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (deathYear)", 
+          0.1725
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsStartYear)", 
+          0.1754
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Scientist (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Scientist (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Philosopher (deathYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cardinal (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Medician (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cardinal (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (deathYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Medician (activeYearsEndYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Cardinal[activeYearsStartYear]", 
+      0.0492
+    ], 
+    [
+      "School[foundingYear]>(type|Academy_(English_school))", 
+      0.1137
+    ], 
+    [
+      "Scientist[activeYearsEndYear]", 
+      0.148
+    ], 
+    [
+      "Medician[activeYearsEndYear]", 
+      0.148
+    ], 
+    [
+      "Philosopher[deathYear]", 
+      0.1596
+    ], 
+    [
+      "Cardinal[activeYearsEndYear]", 
+      0.1605
+    ], 
+    [
+      "Scientist[activeYearsStartYear]", 
+      0.1661
+    ], 
+    [
+      "Medician[activeYearsStartYear]", 
+      0.1661
+    ], 
+    [
+      "Artist[deathYear]", 
+      0.1725
+    ], 
+    [
+      "ChristianBishop[activeYearsStartYear]", 
+      0.1754
+    ]
+  ], 
+  "values": [
+    1621.0, 
+    2012.0, 
+    1907.0, 
+    1988.0, 
+    1918.0, 
+    2007.0, 
+    2013.0, 
+    1940.0, 
+    1896.0, 
+    2004.0, 
+    1983.0, 
+    1924.0, 
+    1985.0, 
+    1929.0, 
+    1985.0, 
+    1985.0, 
+    1931.0, 
+    1947.0, 
+    1956.0, 
+    1961.0, 
+    1898.0, 
+    1925.0, 
+    1795.0, 
+    1990.0, 
+    1969.0, 
+    2011.0, 
+    1965.0, 
+    2003.0, 
+    1966.0, 
+    1988.0, 
+    1977.0, 
+    1981.0, 
+    1936.0, 
+    1961.0, 
+    1864.0, 
+    1950.0, 
+    2006.0, 
+    1550.0, 
+    1975.0, 
+    1942.0, 
+    1623.0, 
+    1841.0, 
+    1948.0, 
+    1967.0, 
+    1712.0, 
+    1951.0, 
+    1958.0, 
+    1975.0, 
+    1968.0, 
+    1948.0, 
+    1589.0, 
+    2003.0, 
+    2008.0, 
+    1979.0, 
+    1974.0, 
+    1950.0, 
+    1887.0, 
+    1987.0, 
+    1991.0, 
+    2003.0, 
+    1978.0, 
+    1261.0, 
+    1987.0, 
+    1946.0, 
+    1981.0, 
+    1944.0, 
+    1983.0, 
+    1989.0, 
+    1876.0, 
+    1674.0, 
+    1703.0, 
+    1883.0, 
+    1996.0, 
+    2010.0, 
+    1687.0, 
+    1970.0, 
+    1852.0, 
+    2002.0, 
+    1998.0, 
+    1961.0, 
+    1760.0, 
+    1949.0, 
+    1990.0, 
+    2006.0, 
+    1965.0, 
+    1998.0, 
+    1940.0, 
+    1945.0, 
+    1941.0, 
+    1963.0, 
+    1937.0, 
+    2003.0, 
+    1619.0, 
+    1608.0, 
+    1941.0, 
+    1968.0, 
+    1974.0, 
+    1877.0, 
+    2007.0, 
+    1610.0, 
+    1926.0, 
+    1556.0, 
+    1935.0, 
+    1102.0, 
+    2002.0, 
+    1961.0, 
+    1884.0, 
+    2006.0, 
+    2011.0, 
+    1584.0, 
+    1619.0, 
+    1937.0, 
+    2003.0, 
+    1970.0, 
+    2012.0, 
+    1607.0, 
+    1556.0, 
+    1932.0, 
+    1969.0, 
+    1537.0, 
+    2004.0, 
+    1440.0, 
+    1958.0, 
+    1984.0, 
+    2000.0, 
+    1939.0, 
+    1984.0, 
+    1919.0, 
+    1940.0, 
+    1968.0, 
+    2011.0, 
+    2004.0, 
+    2006.0, 
+    1997.0, 
+    1998.0, 
+    2003.0, 
+    1965.0, 
+    1982.0, 
+    1983.0, 
+    1971.0, 
+    1591.0, 
+    1592.0, 
+    2003.0, 
+    1932.0, 
+    2004.0, 
+    1928.0, 
+    1968.0, 
+    1980.0, 
+    1523.0, 
+    1354.0, 
+    1985.0, 
+    1982.0, 
+    2005.0, 
+    1929.0, 
+    1938.0, 
+    1941.0, 
+    1959.0, 
+    1802.0, 
+    1804.0, 
+    1604.0, 
+    1898.0, 
+    1912.0, 
+    1925.0, 
+    1935.0, 
+    1990.0, 
+    1938.0, 
+    1906.0, 
+    2009.0, 
+    1996.0, 
+    1741.0, 
+    1777.0, 
+    1891.0, 
+    1877.0, 
+    1729.0, 
+    1800.0, 
+    1887.0, 
+    1980.0, 
+    1968.0, 
+    1695.0, 
+    1946.0, 
+    1802.0, 
+    2002.0, 
+    1983.0, 
+    1985.0, 
+    1524.0, 
+    1549.0, 
+    1795.0, 
+    1714.0, 
+    1732.0, 
+    1947.0, 
+    1458.0, 
+    1934.0, 
+    1971.0, 
+    2001.0, 
+    2005.0, 
+    1976.0, 
+    1955.0, 
+    1989.0, 
+    1975.0, 
+    1991.0, 
+    17.0, 
+    1994.0, 
+    1953.0, 
+    2009.0, 
+    1958.0, 
+    1971.0, 
+    1508.0, 
+    1897.0, 
+    1654.0, 
+    1986.0, 
+    2003.0, 
+    1623.0, 
+    1629.0, 
+    1615.0, 
+    1621.0, 
+    2007.0, 
+    1964.0, 
+    1657.0, 
+    1659.0, 
+    1653.0, 
+    1668.0, 
+    1192.0, 
+    1633.0, 
+    1758.0, 
+    2011.0, 
+    1916.0, 
+    1903.0, 
+    2009.0, 
+    1995.0, 
+    1983.0, 
+    1991.0, 
+    1734.0, 
+    1752.0, 
+    1968.0, 
+    1998.0, 
+    1881.0, 
+    1889.0, 
+    1946.0, 
+    2006.0, 
+    1885.0, 
+    2005.0, 
+    2014.0, 
+    1961.0, 
+    1994.0, 
+    1648.0, 
+    1685.0, 
+    1889.0, 
+    1465.0, 
+    1243.0, 
+    2009.0
+  ]
+}

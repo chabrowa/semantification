@@ -1,0 +1,184 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/openingYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "openingYear", 
+          0.3837
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (openingYear)", 
+          0.3712
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          0.3766
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          0.3767
+        ], 
+        [
+          "http://dbpedia.org/ontology/RoadJunction (openingYear)", 
+          0.3783
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.381
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          0.3824
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.3828
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.3828
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.3828
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          0.3852
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (openingYear)", 
+          0.3915
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RoadJunction (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "PublicTransitSystem[openingYear]>(type|Rapid_transit)", 
+      0.36
+    ], 
+    [
+      "RailwayLine[openingYear]>(type|Light_rail)", 
+      0.3717
+    ], 
+    [
+      "RailwayTunnel[openingYear]", 
+      0.3767
+    ], 
+    [
+      "RoadJunction[openingYear]", 
+      0.3783
+    ], 
+    [
+      "RailwayLine[openingYear]", 
+      0.3865
+    ], 
+    [
+      "Dam[openingYear]", 
+      0.3915
+    ], 
+    [
+      "RouteOfTransportation[openingYear]", 
+      0.3919
+    ], 
+    [
+      "Agent[openingYear]", 
+      0.3936
+    ], 
+    [
+      "PublicTransitSystem[openingYear]", 
+      0.3936
+    ], 
+    [
+      "Organisation[openingYear]", 
+      0.3936
+    ]
+  ], 
+  "values": [
+    1918.0, 
+    2060.0, 
+    2002.0, 
+    1975.0, 
+    1944.0, 
+    2042.0, 
+    1944.0, 
+    2002.0, 
+    2059.0, 
+    1907.0, 
+    2045.0, 
+    2065.0, 
+    1920.0, 
+    1943.0, 
+    2077.0, 
+    2036.0, 
+    1894.0, 
+    1864.0, 
+    2018.0, 
+    1949.0, 
+    2057.0, 
+    2004.0, 
+    1874.0, 
+    1933.0, 
+    2027.0
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runwayLength"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "activeYearsEndYear", 
+          0.1081
+        ], 
+        [
+          "runtime", 
+          0.1208
+        ], 
+        [
+          "elevation", 
+          0.1512
+        ], 
+        [
+          "populationDensity", 
+          0.1654
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          5.0
+        ], 
+        [
+          "populationDensity", 
+          3.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          1.0
+        ], 
+        [
+          "runtime", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.1081
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsEndYear)", 
+          0.1081
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.1081
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsEndYear)", 
+          0.1081
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          0.1208
+        ], 
+        [
+          "http://dbpedia.org/ontology/Album (runtime)", 
+          0.1208
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          0.1208
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1299
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.1519
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1565
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1565
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1579
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.158
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          0.1617
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.165
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.165
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.165
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1661
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          0.1684
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Album (runtime)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsEndYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "ChristianBishop[activeYearsEndYear]", 
+      0.1081
+    ], 
+    [
+      "Album[runtime]>(type|Extended_play)", 
+      0.1208
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)", 
+      0.1299
+    ], 
+    [
+      "Village[elevation]>(timeZone|Mountain_Time_Zone)>(type|Village_(United_States))>(country|United_States)", 
+      0.1493
+    ], 
+    [
+      "Village[elevation]>(timeZone|Mountain_Time_Zone)>(type|Village_(United_States))", 
+      0.1554
+    ], 
+    [
+      "Town[elevation]>(timeZone|Mountain_Time_Zone)", 
+      0.158
+    ], 
+    [
+      "Village[populationDensity]>(isPartOf|Cook_County,_Illinois)", 
+      0.1617
+    ], 
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)", 
+      0.1634
+    ], 
+    [
+      "Location[populationDensity]>(timeZone|Indian_Standard_Time)>(isPartOf|Kerala)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1661
+    ], 
+    [
+      "City[populationDensity]>(type|List_of_cities_in_Kentucky)>(isPartOf|Jefferson_County,_Kentucky)", 
+      0.1684
+    ]
+  ], 
+  "values": [
+    1329.9213852318946, 
+    956.6525843496973, 
+    1901.101171787103, 
+    622.7666124444751, 
+    2116.595545820946, 
+    1477.5410534538382, 
+    2778.2734153845213, 
+    1071.5282369914466, 
+    1937.6555172522758, 
+    1563.4905895838106, 
+    1585.9684729760907, 
+    389.0599304881222, 
+    1591.4295102702215, 
+    1313.6196732861347, 
+    2270.7831119216594, 
+    1437.7463781231243, 
+    949.8087632855306, 
+    1126.6699353406648, 
+    1203.8724968012941, 
+    1132.5092312154088, 
+    2054.172418816831, 
+    904.5252315856538, 
+    1727.6470168910503, 
+    1321.5862691980005, 
+    1735.5629993425696, 
+    1037.588521979254, 
+    1160.527110669088, 
+    1689.091173277928, 
+    1520.714290305267, 
+    796.8605980141299, 
+    716.2517400794866, 
+    979.8461345634219, 
+    1557.1429571482047, 
+    825.4986405848183, 
+    1011.6766301589452, 
+    1094.9904316905215, 
+    1164.3998800487084
+  ]
+}

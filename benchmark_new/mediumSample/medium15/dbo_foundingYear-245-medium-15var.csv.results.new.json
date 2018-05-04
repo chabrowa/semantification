@@ -1,0 +1,285 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/foundingYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfStudents", 
+          0.3441
+        ], 
+        [
+          "elevation", 
+          0.3554
+        ], 
+        [
+          "populationTotal", 
+          0.3867
+        ], 
+        [
+          "openingYear", 
+          0.3895
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          4.0
+        ], 
+        [
+          "numberOfStudents", 
+          2.0
+        ], 
+        [
+          "openingYear", 
+          2.0
+        ], 
+        [
+          "populationTotal", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.2929
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          0.2929
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.3441
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.3441
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.3441
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          0.3456
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.3481
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.3757
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.3759
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.377
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.3867
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.3867
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.3867
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.3867
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          0.3884
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.3895
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.3895
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.3895
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.3895
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          0.3906
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Mountain[elevation]>(locatedInArea|Norway)>(locatedInArea|Oppland)", 
+      0.2929
+    ], 
+    [
+      "School[numberOfStudents]>(state|Florida)>(type|State_school)", 
+      0.3333
+    ], 
+    [
+      "School[numberOfStudents]>(state|Florida)>(type|State_school)>(country|United_States)", 
+      0.3548
+    ], 
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)", 
+      0.3745
+    ], 
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.377
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.377
+    ], 
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(country|Wales)>(ceremonialCounty|Gwynedd)", 
+      0.3867
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|Wales)>(ceremonialCounty|Gwynedd)", 
+      0.3867
+    ], 
+    [
+      "RailwayTunnel[openingYear]", 
+      0.3884
+    ], 
+    [
+      "RailwayLine[openingYear]>(type|Light_rail)", 
+      0.3906
+    ]
+  ], 
+  "values": [
+    1857.0, 
+    1798.0, 
+    2309.0, 
+    1678.0, 
+    1822.0, 
+    2003.0, 
+    1890.0, 
+    1925.0, 
+    1953.0, 
+    1969.0, 
+    2002.0, 
+    2206.0, 
+    1952.0, 
+    1807.0, 
+    2059.0, 
+    1997.0, 
+    2023.0, 
+    2067.0, 
+    2103.0, 
+    2121.0, 
+    2151.0, 
+    2245.0, 
+    1942.0, 
+    1763.0, 
+    2148.0, 
+    2116.0, 
+    1956.0, 
+    2238.0, 
+    1936.0, 
+    1748.0
+  ]
+}

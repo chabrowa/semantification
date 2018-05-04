@@ -1,0 +1,184 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfStudents"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfEmployees", 
+          0.5
+        ], 
+        [
+          "areaWater", 
+          0.509
+        ], 
+        [
+          "populationTotal", 
+          0.5091
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          8.0
+        ], 
+        [
+          "numberOfEmployees", 
+          1.0
+        ], 
+        [
+          "populationTotal", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Company (numberOfEmployees)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          0.502
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.5068
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.5083
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.5083
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.5088
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.5091
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.5091
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.5091
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.5095
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (numberOfEmployees)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Company[numberOfEmployees]>(keyPerson|Chief_executive_officer)", 
+      0.5
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Illinois)", 
+      0.502
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Washington_(state))>(type|City_government_in_Washington_(state))", 
+      0.5032
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Washington_(state))>(type|City_government_in_Washington_(state))", 
+      0.5032
+    ], 
+    [
+      "City[areaWater]>(isPartOf|California)", 
+      0.5088
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Maharashtra)", 
+      0.5091
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Washington_(state))>(type|City_government_in_Washington_(state))>(country|United_States)", 
+      0.513
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Washington_(state))>(type|City_government_in_Washington_(state))>(country|United_States)", 
+      0.513
+    ], 
+    [
+      "Location[areaWater]", 
+      0.5141
+    ], 
+    [
+      "PopulatedPlace[areaWater]", 
+      0.5141
+    ]
+  ], 
+  "values": [
+    150000.0
+  ]
+}

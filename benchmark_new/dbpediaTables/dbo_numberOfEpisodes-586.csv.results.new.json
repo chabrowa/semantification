@@ -1,0 +1,156 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEpisodes"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "capacity", 
+          0.1847
+        ], 
+        [
+          "populationTotal", 
+          0.197
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          8.0
+        ], 
+        [
+          "capacity", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/SoccerClub (capacity)", 
+          0.1847
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (capacity)", 
+          0.1847
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (capacity)", 
+          0.1847
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (capacity)", 
+          0.1847
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1964
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.197
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1976
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1976
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.2
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerClub (capacity)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (capacity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (capacity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (capacity)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "SoccerClub[capacity]>(ground|Spain)>(league|Tercera_Divisi%C3%B3n_Groups_1%E2%80%939)>(position|Tercera_Divisi%C3%B3n_Groups_1%E2%80%939)", 
+      0.1843
+    ], 
+    [
+      "SoccerClub[capacity]>(ground|Spain)>(league|Tercera_Divisi%C3%B3n_Groups_1%E2%80%939)", 
+      0.1852
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(province|Province_of_Lecco)", 
+      0.188
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(province|Province_of_Lecco)", 
+      0.188
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(province|South_Tyrol)", 
+      0.2
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(province|South_Tyrol)>(region|S%C3%BCdtirol)", 
+      0.2
+    ], 
+    [
+      "Village[populationTotal]>(type|Village_development_committee)>(isPartOf|Dhawalagiri_Zone)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2
+    ], 
+    [
+      "Village[populationTotal]>(country|India)>(isPartOf|Tiruchirappalli_district)", 
+      0.2
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(province|South_Tyrol)", 
+      0.2
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(province|South_Tyrol)>(region|S%C3%BCdtirol)", 
+      0.2
+    ]
+  ], 
+  "values": [
+    3876.0, 
+    2501.0, 
+    4500.0, 
+    1500.0, 
+    80.0
+  ]
+}

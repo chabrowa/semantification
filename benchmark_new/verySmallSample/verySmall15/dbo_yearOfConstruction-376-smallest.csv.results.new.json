@@ -1,0 +1,226 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/yearOfConstruction"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "openingYear", 
+          0.3327
+        ], 
+        [
+          "foundingYear", 
+          0.3332
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.3333
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.3333
+        ], 
+        [
+          "serviceStartYear", 
+          0.3333
+        ]
+      ], 
+      "maj": [
+        [
+          "activeYearsStartYear", 
+          3.0
+        ], 
+        [
+          "openingYear", 
+          2.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          2.0
+        ], 
+        [
+          "foundingYear", 
+          2.0
+        ], 
+        [
+          "serviceStartYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          0.3325
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.3327
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.3327
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.3327
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.3327
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.3332
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.3332
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          0.3332
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsStartYear)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceStartYear)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryPerson (serviceStartYear)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceStartYear)", 
+          0.3333
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryPerson (serviceStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Bridge[openingYear]", 
+      0.3325
+    ], 
+    [
+      "RouteOfTransportation[openingYear]", 
+      0.333
+    ], 
+    [
+      "Agent[foundingYear]", 
+      0.3332
+    ], 
+    [
+      "Organisation[foundingYear]", 
+      0.3332
+    ], 
+    [
+      "Person[activeYearsStartYear]", 
+      0.3332
+    ], 
+    [
+      "Agent[activeYearsStartYear]", 
+      0.3333
+    ], 
+    [
+      "Person[activeYearsEndYear]", 
+      0.3333
+    ], 
+    [
+      "Organisation[activeYearsStartYear]", 
+      0.3333
+    ], 
+    [
+      "Agent[activeYearsEndYear]", 
+      0.3333
+    ], 
+    [
+      "MilitaryPerson[serviceStartYear]>(battle|Iraq_War)", 
+      0.3333
+    ]
+  ], 
+  "values": [
+    2052.0, 
+    1982.0, 
+    1855.0
+  ]
+}

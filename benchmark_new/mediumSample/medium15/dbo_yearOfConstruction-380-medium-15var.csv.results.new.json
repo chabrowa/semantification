@@ -1,0 +1,280 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/yearOfConstruction"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "deathYear", 
+          0.2072
+        ], 
+        [
+          "openingYear", 
+          0.227
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.24
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.2423
+        ]
+      ], 
+      "maj": [
+        [
+          "activeYearsStartYear", 
+          5.0
+        ], 
+        [
+          "deathYear", 
+          2.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          2.0
+        ], 
+        [
+          "openingYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Artist (deathYear)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cardinal (activeYearsStartYear)", 
+          0.2047
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          0.2072
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          0.2072
+        ], 
+        [
+          "http://dbpedia.org/ontology/Philosopher (deathYear)", 
+          0.2144
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.227
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.227
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.227
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          0.227
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.227
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsStartYear)", 
+          0.2333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Scientist (activeYearsEndYear)", 
+          0.24
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.24
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.24
+        ], 
+        [
+          "http://dbpedia.org/ontology/Medician (activeYearsEndYear)", 
+          0.24
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.2423
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          0.2423
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsStartYear)", 
+          0.2477
+        ], 
+        [
+          "http://dbpedia.org/ontology/Medician (activeYearsStartYear)", 
+          0.2558
+        ], 
+        [
+          "http://dbpedia.org/ontology/Scientist (activeYearsStartYear)", 
+          0.2558
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsStartYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsStartYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Scientist (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Scientist (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Philosopher (deathYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cardinal (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Medician (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (deathYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Medician (activeYearsEndYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Artist[deathYear]", 
+      0.2
+    ], 
+    [
+      "Cardinal[activeYearsStartYear]", 
+      0.2047
+    ], 
+    [
+      "Philosopher[deathYear]", 
+      0.2144
+    ], 
+    [
+      "Bridge[openingYear]>(type|Arch_bridge)", 
+      0.227
+    ], 
+    [
+      "Scientist[activeYearsEndYear]", 
+      0.24
+    ], 
+    [
+      "Medician[activeYearsEndYear]", 
+      0.24
+    ], 
+    [
+      "ChristianBishop[activeYearsStartYear]", 
+      0.247
+    ], 
+    [
+      "ChristianBishop[activeYearsStartYear]>(religion|Catholic_Church)", 
+      0.2481
+    ], 
+    [
+      "Scientist[activeYearsStartYear]", 
+      0.2558
+    ], 
+    [
+      "Medician[activeYearsStartYear]", 
+      0.2558
+    ]
+  ], 
+  "values": [
+    1638.0, 
+    1944.0, 
+    1979.0, 
+    1794.0, 
+    1840.0, 
+    1802.0, 
+    1785.0, 
+    2064.0, 
+    1719.0, 
+    2066.0, 
+    1711.0, 
+    1984.0, 
+    1977.0, 
+    1831.0, 
+    1981.0, 
+    1744.0, 
+    1650.0, 
+    1959.0, 
+    2053.0, 
+    1905.0, 
+    1761.0, 
+    1997.0, 
+    2090.0, 
+    2155.0, 
+    1947.0
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/foundingYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "openingYear", 
+          0.2511
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.2616
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          8.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          0.2395
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          0.2399
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.2439
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.2467
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.2487
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.2501
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          0.2585
+        ], 
+        [
+          "http://dbpedia.org/ontology/Locomotive (activeYearsStartYear)", 
+          0.2616
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (activeYearsStartYear)", 
+          0.2616
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Locomotive (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "RailwayLine[openingYear]>(type|Light_rail)", 
+      0.2362
+    ], 
+    [
+      "RailwayTunnel[openingYear]", 
+      0.2399
+    ], 
+    [
+      "RailwayLine[openingYear]", 
+      0.2461
+    ], 
+    [
+      "RouteOfTransportation[openingYear]", 
+      0.2533
+    ], 
+    [
+      "Infrastructure[openingYear]", 
+      0.2581
+    ], 
+    [
+      "ArchitecturalStructure[openingYear]", 
+      0.2585
+    ], 
+    [
+      "Place[openingYear]", 
+      0.2585
+    ], 
+    [
+      "Location[openingYear]", 
+      0.2585
+    ], 
+    [
+      "MeanOfTransportation[activeYearsStartYear]", 
+      0.2616
+    ], 
+    [
+      "Locomotive[activeYearsStartYear]", 
+      0.2616
+    ]
+  ], 
+  "values": [
+    1940.0, 
+    1963.0, 
+    1938.0, 
+    2017.0, 
+    1942.0, 
+    1958.0, 
+    2071.0, 
+    1916.0, 
+    1907.0, 
+    2075.0, 
+    2067.0, 
+    1969.0, 
+    1953.0, 
+    1882.0, 
+    1938.0, 
+    1986.0, 
+    1921.0, 
+    2025.0, 
+    1835.0, 
+    1896.0, 
+    1983.0, 
+    1929.0, 
+    1892.0, 
+    2030.0, 
+    1908.0, 
+    2039.0, 
+    1914.0, 
+    1836.0, 
+    2032.0, 
+    2066.0, 
+    1911.0, 
+    1973.0, 
+    1866.0, 
+    1910.0, 
+    2007.0, 
+    1953.0, 
+    1816.0, 
+    1899.0, 
+    1934.0, 
+    1842.0, 
+    2055.0, 
+    1940.0, 
+    1907.0, 
+    2075.0, 
+    1907.0, 
+    1941.0, 
+    1942.0, 
+    2028.0, 
+    2049.0, 
+    1927.0, 
+    1975.0, 
+    1999.0, 
+    25.0, 
+    2038.0, 
+    1945.0, 
+    2024.0, 
+    1951.0
+  ]
+}

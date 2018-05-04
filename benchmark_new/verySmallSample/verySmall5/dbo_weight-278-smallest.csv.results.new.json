@@ -1,0 +1,204 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/weight"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "oclc", 
+          0.2727
+        ], 
+        [
+          "areaTotal", 
+          0.2836
+        ], 
+        [
+          "areaLand", 
+          0.2937
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          8.0
+        ], 
+        [
+          "oclc", 
+          1.0
+        ], 
+        [
+          "areaLand", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/AcademicJournal (oclc)", 
+          0.2727
+        ], 
+        [
+          "http://dbpedia.org/ontology/PeriodicalLiterature (oclc)", 
+          0.2727
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          0.2727
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          0.2727
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.2778
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.2807
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.2822
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.2865
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.2867
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.2937
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.2937
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.2937
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          0.2937
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          0.3036
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AcademicJournal (oclc)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PeriodicalLiterature (oclc)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Castell%C3%B3n)>(isPartOf|Valencian_Community)", 
+      0.2679
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Spain)>(isPartOf|Province_of_Castell%C3%B3n)", 
+      0.2692
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Castell%C3%B3n)", 
+      0.2704
+    ], 
+    [
+      "AcademicJournal[oclc]>(publisher|Cambridge_University_Press)", 
+      0.2727
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Spain)>(isPartOf|Province_of_Castell%C3%B3n)>(isPartOf|Valencian_Community)", 
+      0.2745
+    ], 
+    [
+      "City[areaTotal]>(type|Types_of_municipalities_in_Quebec)", 
+      0.2867
+    ], 
+    [
+      "City[areaLand]>(country|Canada)", 
+      0.2937
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Teruel)", 
+      0.2983
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Spain)>(isPartOf|Province_of_Teruel)", 
+      0.2983
+    ], 
+    [
+      "ProtectedArea[areaTotal]>(location|Florida)", 
+      0.3036
+    ]
+  ], 
+  "values": [
+    387248068.0197954, 
+    406672563.7924676, 
+    34976290.331851475, 
+    27785932.470303718, 
+    37381681.49267954
+  ]
+}

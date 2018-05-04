@@ -1,0 +1,177 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/activeYearsEndYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "activeYearsStartYear", 
+          0.2999
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.3
+        ], 
+        [
+          "yearOfConstruction", 
+          0.3
+        ]
+      ], 
+      "maj": [
+        [
+          "activeYearsStartYear", 
+          6.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          2.0
+        ], 
+        [
+          "yearOfConstruction", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          0.2999
+        ], 
+        [
+          "http://dbpedia.org/ontology/IceHockeyPlayer (activeYearsStartYear)", 
+          0.2999
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (activeYearsStartYear)", 
+          0.2999
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.2999
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (activeYearsStartYear)", 
+          0.2999
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.3
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.3
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsStartYear)", 
+          0.3
+        ], 
+        [
+          "http://dbpedia.org/ontology/Train (yearOfConstruction)", 
+          0.3
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (yearOfConstruction)", 
+          0.3
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (activeYearsStartYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (yearOfConstruction)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/IceHockeyPlayer (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Train (yearOfConstruction)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsStartYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Person[activeYearsStartYear]", 
+      0.2998
+    ], 
+    [
+      "IceHockeyPlayer[activeYearsStartYear]", 
+      0.2999
+    ], 
+    [
+      "WinterSportPlayer[activeYearsStartYear]", 
+      0.2999
+    ], 
+    [
+      "Agent[activeYearsStartYear]", 
+      0.2999
+    ], 
+    [
+      "Athlete[activeYearsStartYear]", 
+      0.3
+    ], 
+    [
+      "Person[activeYearsEndYear]", 
+      0.3
+    ], 
+    [
+      "Organisation[activeYearsStartYear]", 
+      0.3
+    ], 
+    [
+      "Agent[activeYearsEndYear]", 
+      0.3
+    ], 
+    [
+      "MeanOfTransportation[yearOfConstruction]", 
+      0.3
+    ], 
+    [
+      "Train[yearOfConstruction]", 
+      0.3
+    ]
+  ], 
+  "values": [
+    2064.0, 
+    2088.0, 
+    1986.0, 
+    1938.0, 
+    2031.0, 
+    1953.0, 
+    1991.0, 
+    1909.0, 
+    1993.0, 
+    1982.0
+  ]
+}

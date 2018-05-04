@@ -1,0 +1,211 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/elevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.0917
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.0822
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0898
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0898
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.0966
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          0.103
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          21.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          7.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[populationTotal]>(timeZone|Eastern_Time_Zone)>(isPartOf|Pennsylvania)>(isPartOf|York_County,_Pennsylvania)>(country|United_States)", 
+      0.0749
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Eastern_Time_Zone)>(isPartOf|Pennsylvania)>(isPartOf|York_County,_Pennsylvania)>(country|United_States)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0762
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Eastern_Time_Zone)>(isPartOf|Pennsylvania)>(isPartOf|York_County,_Pennsylvania)", 
+      0.08
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(province|Province_of_Como)", 
+      0.0882
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(province|Province_of_Como)", 
+      0.0882
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_Time_Zone)>(type|Township_(United_States))", 
+      0.0979
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_Time_Zone)>(type|Township_(United_States))>(isPartOf|Ohio)", 
+      0.1019
+    ], 
+    [
+      "Town[populationTotal]>(isPartOf|Ohio)>(type|Township_(United_States))", 
+      0.1019
+    ], 
+    [
+      "Town[populationTotal]>(isPartOf|Michigan)", 
+      0.1038
+    ], 
+    [
+      "Town[populationTotal]>(isPartOf|Pennsylvania)", 
+      0.1039
+    ]
+  ], 
+  "values": [
+    1368.748791562732, 
+    2565.5007396670385, 
+    6031.65674342628, 
+    5270.265699063321, 
+    835.4142964611888, 
+    1101.148068871137, 
+    2613.1516248229536, 
+    5428.494944752914, 
+    2054.8713857687508, 
+    980.0868847167978, 
+    413.70495730964484, 
+    1047.9297705646084, 
+    2244.872534421491, 
+    2131.803891478253, 
+    3890.0168457533896, 
+    1744.3425426627643, 
+    474.96087907818486, 
+    2972.337832680422, 
+    2204.8600266629583, 
+    2215.198848261991, 
+    2820.1332944034784, 
+    747.3984196262448, 
+    841.9008197885157, 
+    2440.1564221281637, 
+    340.81244288026534, 
+    324.25345554352134, 
+    1607.0017897663552, 
+    1497.8155450942381, 
+    2391.4394370602736, 
+    3379.397327368919, 
+    860.1053693409862, 
+    664.7850719870299, 
+    3710.8114773712305, 
+    380.2967441890783, 
+    107.46177040808786, 
+    435.9314022546844, 
+    3997.5961748643326, 
+    76.50978785213599, 
+    1324.9498288169675, 
+    4900.913330327523, 
+    3586.3052756652432, 
+    600.0659509167622, 
+    8185.040818546996, 
+    2324.3606969047823, 
+    334.3280753420308, 
+    1435.2646829497332, 
+    467.23610317615515, 
+    1158.0347113569228, 
+    3713.9330690912157, 
+    1063.9362360885466, 
+    2923.168229093199, 
+    726.9854197401812, 
+    904.9098103704091, 
+    1246.5226756708487, 
+    612.9455728246651, 
+    206.36272144934784, 
+    1812.7331930253524, 
+    4173.581255519905, 
+    4686.017066954003, 
+    3596.938295259267, 
+    1719.7598017294788, 
+    2809.5087367947813, 
+    3657.52179377564, 
+    2845.5648808550513, 
+    1252.3762375007911, 
+    7254.599987265234, 
+    503.9407430512866, 
+    6463.381350235577, 
+    1369.8427771231968, 
+    1791.506418240959, 
+    2331.6661557724624, 
+    598.0949372577953, 
+    1074.6382915829488, 
+    3497.9703671341836, 
+    749.9110773114414, 
+    2515.926899001441, 
+    5576.590441163596, 
+    5187.691356723792, 
+    234.8231271799668, 
+    3678.889146532645, 
+    3386.368815089402, 
+    1082.7095638436308, 
+    3194.329267110074, 
+    634.466229855333, 
+    5790.577784933828, 
+    2842.679400269568, 
+    4213.729507180999, 
+    1980.2469236235067, 
+    1075.2555882220602, 
+    360.88841235423416, 
+    2200.678449966288, 
+    4071.805326697241, 
+    4693.570670956416, 
+    4643.212600313718, 
+    2530.4150304683317, 
+    3755.5284026606287, 
+    773.5926397334422, 
+    3690.951532343379, 
+    679.1869130983239, 
+    5278.869504490097
+  ]
+}

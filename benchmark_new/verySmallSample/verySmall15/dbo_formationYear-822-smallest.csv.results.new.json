@@ -1,0 +1,252 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/formationYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "year", 
+          0.2068
+        ], 
+        [
+          "openingYear", 
+          0.2276
+        ], 
+        [
+          "foundingYear", 
+          0.2292
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.243
+        ], 
+        [
+          "formationYear", 
+          0.2444
+        ]
+      ], 
+      "maj": [
+        [
+          "activeYearsStartYear", 
+          3.0
+        ], 
+        [
+          "year", 
+          3.0
+        ], 
+        [
+          "foundingYear", 
+          2.0
+        ], 
+        [
+          "openingYear", 
+          1.0
+        ], 
+        [
+          "formationYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/NCAATeamSeason (year)", 
+          0.1848
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeamSeason (year)", 
+          0.2036
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsSeason (year)", 
+          0.2068
+        ], 
+        [
+          "http://dbpedia.org/ontology/IceHockeyLeague (foundingYear)", 
+          0.225
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          0.2276
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          0.2276
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (openingYear)", 
+          0.2276
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsLeague (foundingYear)", 
+          0.2292
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.2292
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.2292
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmericanFootballLeague (foundingYear)", 
+          0.2333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          0.2348
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsStartYear)", 
+          0.2424
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsStartYear)", 
+          0.2424
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.243
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (formationYear)", 
+          0.2444
+        ], 
+        [
+          "http://dbpedia.org/ontology/PoliticalParty (formationYear)", 
+          0.2444
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (formationYear)", 
+          0.2444
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsSeason (year)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsLeague (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeamSeason (year)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NCAATeamSeason (year)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/IceHockeyLeague (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmericanFootballLeague (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (formationYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PoliticalParty (formationYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (formationYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "NCAATeamSeason[year]", 
+      0.1848
+    ], 
+    [
+      "SportsSeason[year]", 
+      0.2133
+    ], 
+    [
+      "SportsTeamSeason[year]", 
+      0.2224
+    ], 
+    [
+      "IceHockeyLeague[foundingYear]", 
+      0.225
+    ], 
+    [
+      "Person[activeYearsStartYear]", 
+      0.2272
+    ], 
+    [
+      "PublicTransitSystem[openingYear]>(type|Rapid_transit)", 
+      0.2276
+    ], 
+    [
+      "AmericanFootballLeague[foundingYear]", 
+      0.2333
+    ], 
+    [
+      "ChristianBishop[activeYearsStartYear]>(religion|Anglicanism)", 
+      0.2424
+    ], 
+    [
+      "PoliticalParty[formationYear]", 
+      0.2444
+    ], 
+    [
+      "Agent[activeYearsStartYear]", 
+      0.2594
+    ]
+  ], 
+  "values": [
+    1951.0, 
+    1941.0, 
+    2000.0, 
+    2012.0, 
+    2006.0
+  ]
+}

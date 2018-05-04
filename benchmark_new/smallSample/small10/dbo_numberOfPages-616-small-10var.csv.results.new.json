@@ -1,0 +1,201 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfPages"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.1635
+        ], 
+        [
+          "length", 
+          0.1663
+        ], 
+        [
+          "populationDensity", 
+          0.1744
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          6.0
+        ], 
+        [
+          "length", 
+          3.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1551
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1635
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1635
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          0.1638
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.1728
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          0.1728
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          0.1728
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (length)", 
+          0.1728
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1744
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          0.1744
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1744
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1744
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.1791
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[elevation]>(country|Italy)>(region|Marche)", 
+      0.1395
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Lot_(department))>(arrondissement|Arrondissement_of_Figeac)", 
+      0.1458
+    ], 
+    [
+      "Location[length]>(22-rdf-syntax-ns#type|_Feature)>(location|Custer_County,_Idaho)", 
+      0.1573
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Ain)", 
+      0.1599
+    ], 
+    [
+      "Location[length]>(22-rdf-syntax-ns#type|_Feature)>(location|Custer_County,_Idaho)>(type|Glacial_lake)", 
+      0.1687
+    ], 
+    [
+      "Lake[length]>(location|Custer_County,_Idaho)", 
+      0.1728
+    ], 
+    [
+      "City[populationDensity]>(type|List_of_cities_in_Kentucky)>(timeZone|Central_Time_Zone)", 
+      0.1744
+    ], 
+    [
+      "City[elevation]>(isPartOf|Oklahoma)", 
+      0.1752
+    ], 
+    [
+      "City[elevation]>(isPartOf|Oklahoma)>(country|United_States)", 
+      0.1801
+    ], 
+    [
+      "City[elevation]>(isPartOf|Oklahoma)>(country|United_States)>(timeZone|Central_Time_Zone)", 
+      0.1803
+    ]
+  ], 
+  "values": [
+    294.0, 
+    216.0, 
+    593.0, 
+    368.0, 
+    403.0, 
+    181.0, 
+    549.0, 
+    354.0, 
+    158.0, 
+    226.0
+  ]
+}

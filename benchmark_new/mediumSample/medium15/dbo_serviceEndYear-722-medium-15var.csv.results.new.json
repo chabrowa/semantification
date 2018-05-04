@@ -1,0 +1,243 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/serviceEndYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "activeYearsStartYear", 
+          0.2328
+        ], 
+        [
+          "deathYear", 
+          0.2452
+        ], 
+        [
+          "openingYear", 
+          0.248
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          6.0
+        ], 
+        [
+          "deathYear", 
+          2.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsStartYear)", 
+          0.2281
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.2328
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsStartYear)", 
+          0.2328
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          0.2328
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (deathYear)", 
+          0.2381
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          0.2452
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          0.2452
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.2462
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.2462
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.2462
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.2462
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          0.2498
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          0.2498
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (openingYear)", 
+          0.2498
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          0.2498
+        ], 
+        [
+          "http://dbpedia.org/ontology/Philosopher (deathYear)", 
+          0.2523
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsStartYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Philosopher (deathYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (deathYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (openingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "ChristianBishop[activeYearsStartYear]>(religion|Catholic_Church)", 
+      0.2186
+    ], 
+    [
+      "Artist[deathYear]", 
+      0.2381
+    ], 
+    [
+      "RouteOfTransportation[openingYear]", 
+      0.2385
+    ], 
+    [
+      "ChristianBishop[activeYearsStartYear]", 
+      0.247
+    ], 
+    [
+      "RailwayTunnel[openingYear]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2494
+    ], 
+    [
+      "Agent[openingYear]", 
+      0.2498
+    ], 
+    [
+      "PublicTransitSystem[openingYear]", 
+      0.2498
+    ], 
+    [
+      "Organisation[openingYear]", 
+      0.2498
+    ], 
+    [
+      "RailwayTunnel[openingYear]", 
+      0.2508
+    ], 
+    [
+      "Philosopher[deathYear]", 
+      0.2523
+    ]
+  ], 
+  "values": [
+    2137.0, 
+    1806.0, 
+    1988.0, 
+    2012.0, 
+    2109.0, 
+    1881.0, 
+    1908.0, 
+    1918.0, 
+    1791.0, 
+    1772.0, 
+    1856.0, 
+    2013.0, 
+    1796.0, 
+    1983.0, 
+    1820.0, 
+    1943.0, 
+    2195.0, 
+    1839.0, 
+    2073.0, 
+    1872.0, 
+    2184.0, 
+    1686.0, 
+    1898.0, 
+    1887.0, 
+    2102.0, 
+    1926.0, 
+    1634.0, 
+    1944.0
+  ]
+}

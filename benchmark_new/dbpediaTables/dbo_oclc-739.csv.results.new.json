@@ -1,0 +1,205 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/oclc"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.2062
+        ], 
+        [
+          "areaLand", 
+          0.232
+        ], 
+        [
+          "oclc", 
+          0.24
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          7.0
+        ], 
+        [
+          "areaLand", 
+          2.0
+        ], 
+        [
+          "oclc", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.1954
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          0.2139
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.2159
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.2171
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.2171
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.2251
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          0.2317
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.232
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.232
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.232
+        ], 
+        [
+          "http://dbpedia.org/ontology/AcademicJournal (oclc)", 
+          0.24
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          0.24
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          0.24
+        ], 
+        [
+          "http://dbpedia.org/ontology/PeriodicalLiterature (oclc)", 
+          0.24
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AcademicJournal (oclc)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PeriodicalLiterature (oclc)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Granada)", 
+      0.1711
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Granada)>(timeZone|Central_European_Time)", 
+      0.1757
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)", 
+      0.2075
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Spain)", 
+      0.2123
+    ], 
+    [
+      "Town[areaTotal]>(timeZone|Central_European_Time)", 
+      0.2139
+    ], 
+    [
+      "City[areaTotal]>(leaderName|Mayor)>(country|United_States)", 
+      0.2251
+    ], 
+    [
+      "City[areaLand]>(country|Canada)>(type|Types_of_municipalities_in_Quebec)", 
+      0.2303
+    ], 
+    [
+      "City[areaLand]>(leaderName|Mayor)", 
+      0.2337
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(region|Sicily)", 
+      0.2381
+    ], 
+    [
+      "AcademicJournal[oclc]>(publisher|Informa)", 
+      0.24
+    ]
+  ], 
+  "values": [
+    191090459.0, 
+    70060186.0, 
+    124038162.0, 
+    10988104.0, 
+    21507483.0, 
+    21507555.0
+  ]
+}

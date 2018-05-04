@@ -1,0 +1,217 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/openingYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "openingYear", 
+          0.2366
+        ], 
+        [
+          "foundingYear", 
+          0.2381
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          9.0
+        ], 
+        [
+          "foundingYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          0.2287
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.232
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.2349
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.2359
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.2362
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          0.2381
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          0.2381
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tunnel (openingYear)", 
+          0.2381
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerLeague (foundingYear)", 
+          0.2381
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.2381
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.2381
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsLeague (foundingYear)", 
+          0.2381
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tunnel (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerLeague (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsLeague (foundingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "RailwayLine[openingYear]>(type|Light_rail)", 
+      0.2287
+    ], 
+    [
+      "RouteOfTransportation[openingYear]", 
+      0.2353
+    ], 
+    [
+      "Infrastructure[openingYear]", 
+      0.2375
+    ], 
+    [
+      "ArchitecturalStructure[openingYear]", 
+      0.2379
+    ], 
+    [
+      "Place[openingYear]", 
+      0.2379
+    ], 
+    [
+      "Location[openingYear]", 
+      0.2379
+    ], 
+    [
+      "Tunnel[openingYear]", 
+      0.2381
+    ], 
+    [
+      "Station[openingYear]>(location|China)>(operatedBy|Ministry_of_Railways_(China))", 
+      0.2381
+    ], 
+    [
+      "Location[openingYear]>(location|China)>(operatedBy|Ministry_of_Railways_(China))", 
+      0.2381
+    ], 
+    [
+      "SoccerLeague[foundingYear]", 
+      0.2381
+    ]
+  ], 
+  "values": [
+    1934.0, 
+    1893.0, 
+    1934.0, 
+    1877.0, 
+    2090.0, 
+    2002.0, 
+    1959.0, 
+    1962.0, 
+    1941.0, 
+    1966.0, 
+    1983.0, 
+    1956.0, 
+    1847.0, 
+    1927.0, 
+    2061.0, 
+    1920.0, 
+    1980.0, 
+    2087.0, 
+    1903.0, 
+    1930.0, 
+    1943.0, 
+    2034.0, 
+    1933.0, 
+    3.0, 
+    2055.0, 
+    2032.0, 
+    1960.0, 
+    1954.0, 
+    1906.0, 
+    1922.0, 
+    2074.0, 
+    2030.0, 
+    1968.0, 
+    2009.0, 
+    1981.0, 
+    1915.0, 
+    2006.0, 
+    2023.0, 
+    2013.0, 
+    2043.0, 
+    1905.0, 
+    1878.0
+  ]
+}

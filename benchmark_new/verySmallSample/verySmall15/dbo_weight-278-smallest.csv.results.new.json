@@ -1,0 +1,164 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/weight"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.2833
+        ], 
+        [
+          "areaLand", 
+          0.2937
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          9.0
+        ], 
+        [
+          "areaLand", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.2756
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.2805
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.2814
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.2851
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.2937
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          0.2937
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.2937
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.2937
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.2988
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          0.3036
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[areaTotal]>(country|Spain)>(isPartOf|Province_of_Castell%C3%B3n)>(isPartOf|Valencian_Community)", 
+      0.2627
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Spain)>(isPartOf|Province_of_Castell%C3%B3n)", 
+      0.2654
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Castell%C3%B3n)>(isPartOf|Valencian_Community)", 
+      0.2679
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Castell%C3%B3n)", 
+      0.2704
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Zaragoza)", 
+      0.2857
+    ], 
+    [
+      "City[areaLand]>(country|Canada)", 
+      0.2937
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Spain)>(isPartOf|Province_of_Zaragoza)", 
+      0.2951
+    ], 
+    [
+      "City[areaTotal]>(type|Types_of_municipalities_in_Quebec)", 
+      0.2988
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Zaragoza)>(timeZone|Central_European_Time)", 
+      0.3
+    ], 
+    [
+      "ProtectedArea[areaTotal]>(location|Florida)", 
+      0.3036
+    ]
+  ], 
+  "values": [
+    374417655.83423436, 
+    413292014.8525852, 
+    34243073.11990298, 
+    26246585.8527522, 
+    35563123.5606661
+  ]
+}

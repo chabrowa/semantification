@@ -1,0 +1,226 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfSeasons"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfSeasons", 
+          0.2347
+        ], 
+        [
+          "area", 
+          0.2444
+        ], 
+        [
+          "populationDensity", 
+          0.2887
+        ], 
+        [
+          "length", 
+          0.3393
+        ]
+      ], 
+      "maj": [
+        [
+          "numberOfSeasons", 
+          5.0
+        ], 
+        [
+          "populationDensity", 
+          3.0
+        ], 
+        [
+          "length", 
+          1.0
+        ], 
+        [
+          "area", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          0.2347
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          0.2444
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (area)", 
+          0.2444
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          0.2444
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (area)", 
+          0.2444
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          0.2659
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2771
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.291
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.2945
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.2945
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.2945
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (length)", 
+          0.3393
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (length)", 
+          0.3393
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (area)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (area)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Work[numberOfSeasons]", 
+      0.1648
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]", 
+      0.1648
+    ], 
+    [
+      "Village[area]", 
+      0.2444
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]>(language|Hindi)>(format|480i)", 
+      0.2648
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]>(language|Hindi)>(format|480i)>(country|India)", 
+      0.271
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Minnesota)>(type|Township_(United_States))>(isPartOf|Polk_County,_Minnesota)", 
+      0.2771
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Minnesota)>(isPartOf|Polk_County,_Minnesota)", 
+      0.2771
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]>(language|Hindi)", 
+      0.3082
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Kansas)", 
+      0.3119
+    ], 
+    [
+      "Weapon[length]>(usedInWar|World_War_II)", 
+      0.3393
+    ]
+  ], 
+  "values": [
+    2.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    3.0, 
+    1.0, 
+    5.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    2.0, 
+    2.0, 
+    2.0, 
+    2.0, 
+    3.0, 
+    1.0, 
+    1.0, 
+    2.0, 
+    4.0, 
+    3.0, 
+    2.0, 
+    1.0, 
+    3.0, 
+    1.0
+  ]
+}

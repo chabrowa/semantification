@@ -1,0 +1,257 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/year"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "activeYearsEndYear", 
+          0.3077
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.3175
+        ], 
+        [
+          "foundingYear", 
+          0.3189
+        ], 
+        [
+          "openingYear", 
+          0.3192
+        ], 
+        [
+          "formationYear", 
+          0.3243
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          5.0
+        ], 
+        [
+          "foundingYear", 
+          2.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          1.0
+        ], 
+        [
+          "formationYear", 
+          1.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.3077
+        ], 
+        [
+          "http://dbpedia.org/ontology/Actor (activeYearsEndYear)", 
+          0.3077
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (activeYearsEndYear)", 
+          0.3077
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.3077
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (openingYear)", 
+          0.3147
+        ], 
+        [
+          "http://dbpedia.org/ontology/Locomotive (activeYearsStartYear)", 
+          0.3175
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (activeYearsStartYear)", 
+          0.3175
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          0.3189
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.3189
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.3189
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.3192
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.3192
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.3192
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          0.3192
+        ], 
+        [
+          "http://dbpedia.org/ontology/PowerStation (openingYear)", 
+          0.3228
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          0.3231
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (formationYear)", 
+          0.3243
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (formationYear)", 
+          0.3243
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (formationYear)", 
+          0.3243
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PowerStation (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (openingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Locomotive (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Actor (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (formationYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (formationYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (formationYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Dam[openingYear]>(owner|Department_of_Water_Affairs)", 
+      0.3043
+    ], 
+    [
+      "Actor[activeYearsEndYear]>(country|France)", 
+      0.3077
+    ], 
+    [
+      "School[foundingYear]>(language|American_English)", 
+      0.317
+    ], 
+    [
+      "PowerStation[openingYear]>(primaryFuelType|Bituminous_coal)", 
+      0.3171
+    ], 
+    [
+      "Locomotive[activeYearsStartYear]>(builder|Clyde_Engineering)", 
+      0.3175
+    ], 
+    [
+      "School[foundingYear]>(language|American_English)>(state|Virginia)", 
+      0.3208
+    ], 
+    [
+      "Station[openingYear]>(country|Japan)>(operatedBy|Tokyo_Metropolitan_Bureau_of_Transportation)", 
+      0.3231
+    ], 
+    [
+      "SportsTeam[formationYear]", 
+      0.3243
+    ], 
+    [
+      "Dam[openingYear]>(location|South_Africa)", 
+      0.325
+    ], 
+    [
+      "PowerStation[openingYear]>(primaryFuelType|Coal)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3267
+    ]
+  ], 
+  "values": [
+    1959.0, 
+    1981.0
+  ]
+}

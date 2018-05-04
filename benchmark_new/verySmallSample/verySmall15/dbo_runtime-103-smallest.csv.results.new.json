@@ -1,0 +1,243 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.1204
+        ], 
+        [
+          "populationTotal", 
+          0.1336
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          9.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          0.1204
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.1204
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1204
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1327
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1336
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1336
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1338
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1355
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Volcano[elevation]", 
+      0.1204
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(province|Province_of_Lecco)", 
+      0.1292
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(province|Province_of_Lecco)", 
+      0.1292
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(province|South_Tyrol)>(region|S%C3%BCdtirol)", 
+      0.1311
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(province|South_Tyrol)>(region|S%C3%BCdtirol)", 
+      0.1311
+    ], 
+    [
+      "Village[populationTotal]>(country|India)>(isPartOf|Punjab,_India)>(22-rdf-syntax-ns#type|_Feature)>(timeZone|Indian_Standard_Time)", 
+      0.1335
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(province|South_Tyrol)", 
+      0.1363
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(province|South_Tyrol)", 
+      0.1363
+    ], 
+    [
+      "Village[populationTotal]>(country|India)>(isPartOf|Punjab,_India)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1379
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(region|Pays_de_la_Loire)>(department|Loire-Atlantique)", 
+      0.1382
+    ]
+  ], 
+  "values": [
+    598.6049460099379, 
+    3458.0671635994872, 
+    1503.4738333896098, 
+    2565.6284734383034, 
+    7454.537078472444, 
+    1751.8509879329365, 
+    -1610.0479759483958, 
+    2962.8931832250655, 
+    1801.2906580613142, 
+    1486.2132361287288, 
+    1746.0811140369374, 
+    1883.9678555380954, 
+    1868.464144917713, 
+    1726.3275792557438, 
+    1882.6798866617155, 
+    3635.086860118889, 
+    3005.6368417787635, 
+    2485.4931433406346, 
+    1839.0601226245485, 
+    1387.5522020945357, 
+    -3565.5515385336207, 
+    -1384.3232665498176, 
+    1295.7147242355234, 
+    2744.441534811037, 
+    3490.57668695479, 
+    1877.4022381594327, 
+    3461.8252901122305, 
+    1726.8408736087476, 
+    2556.776592253765, 
+    1661.644313785424, 
+    -2700.888066062216, 
+    122.15533979132817, 
+    10918.545987094114, 
+    314.0463598151951, 
+    1269.6256251735213, 
+    2622.8551007252554, 
+    1840.2602284384348, 
+    1530.766667156792, 
+    1866.5837744468743, 
+    3626.2340010927232, 
+    -2630.942015795057, 
+    1873.3293149626043, 
+    1400.7866798321008, 
+    2580.8202809445133, 
+    1644.06391534878, 
+    4369.977281844057, 
+    296.03089088540474, 
+    2604.052092597249, 
+    3677.117373046978, 
+    2184.127057530665, 
+    2625.2945816934653, 
+    1454.9951120118749, 
+    3515.2100076461866, 
+    5218.210986376592, 
+    -1874.241420761556, 
+    5448.721292053721, 
+    3451.633792921608, 
+    6099.743686286538, 
+    1855.7932703628228, 
+    7267.441303850219, 
+    3469.112411096919, 
+    1550.1117981248212, 
+    3670.7770174480793, 
+    3404.9453697640647, 
+    7343.183971076631, 
+    6286.357310745993, 
+    5081.3704810790705, 
+    3521.8979891069716, 
+    2814.300757556193, 
+    3442.977278377092, 
+    1380.8316631133184, 
+    2786.7262021061306, 
+    3706.0840362658505, 
+    2681.067263510389, 
+    -1170.3607621852493, 
+    1368.8444464407464, 
+    1757.6057214598477, 
+    9554.989285273463, 
+    5576.8205489230895, 
+    -2546.980528428538, 
+    1820.3141972527092, 
+    1850.8017658117053, 
+    1835.222978314111, 
+    1745.7293912751043, 
+    7162.477956907371, 
+    3661.6116105348265, 
+    3442.5331230407473, 
+    1413.71276870575, 
+    2773.9178443281344, 
+    -2606.816595623414, 
+    1847.171697471199, 
+    1744.1370425454359, 
+    3036.417530046521, 
+    3717.2703653338585, 
+    1815.3555490747212, 
+    3559.710748050443, 
+    7539.016787710411, 
+    2774.833771074367, 
+    1746.0589043751647, 
+    -2714.9483943561418
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/draftYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "yearOfConstruction", 
+          0.1156
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.1292
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.1312
+        ], 
+        [
+          "draftYear", 
+          0.148
+        ]
+      ], 
+      "maj": [
+        [
+          "activeYearsEndYear", 
+          6.0
+        ], 
+        [
+          "draftYear", 
+          2.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          1.0
+        ], 
+        [
+          "yearOfConstruction", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Train (yearOfConstruction)", 
+          0.1156
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (yearOfConstruction)", 
+          0.1156
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (activeYearsEndYear)", 
+          0.1249
+        ], 
+        [
+          "http://dbpedia.org/ontology/Actor (activeYearsEndYear)", 
+          0.1292
+        ], 
+        [
+          "http://dbpedia.org/ontology/TimePeriod (activeYearsStartYear)", 
+          0.1292
+        ], 
+        [
+          "http://dbpedia.org/ontology/TimePeriod (activeYearsEndYear)", 
+          0.1303
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsEndYear)", 
+          0.1308
+        ], 
+        [
+          "http://dbpedia.org/ontology/Group (activeYearsEndYear)", 
+          0.1308
+        ], 
+        [
+          "http://dbpedia.org/ontology/Band (activeYearsEndYear)", 
+          0.1308
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.1314
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.1318
+        ], 
+        [
+          "http://dbpedia.org/ontology/FigureSkater (activeYearsEndYear)", 
+          0.1456
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (activeYearsEndYear)", 
+          0.1456
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (activeYearsEndYear)", 
+          0.1456
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (draftYear)", 
+          0.148
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (draftYear)", 
+          0.148
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (draftYear)", 
+          0.148
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Actor (activeYearsEndYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Group (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (draftYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Train (yearOfConstruction)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (draftYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/FigureSkater (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Band (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TimePeriod (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TimePeriod (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (draftYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (yearOfConstruction)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Actor[activeYearsEndYear]>(country|China)", 
+      0.1037
+    ], 
+    [
+      "Train[yearOfConstruction]>(manufacturer|Japan_Transport_Engineering_Company)", 
+      0.1156
+    ], 
+    [
+      "TimePeriod[activeYearsStartYear]", 
+      0.1292
+    ], 
+    [
+      "TimePeriod[activeYearsEndYear]", 
+      0.1303
+    ], 
+    [
+      "Band[activeYearsEndYear]", 
+      0.1308
+    ], 
+    [
+      "Group[activeYearsEndYear]", 
+      0.1308
+    ], 
+    [
+      "FigureSkater[activeYearsEndYear]", 
+      0.1456
+    ], 
+    [
+      "Actor[activeYearsEndYear]>(country|China)>(occupation|Actor)", 
+      0.1462
+    ], 
+    [
+      "Athlete[draftYear]", 
+      0.148
+    ], 
+    [
+      "Person[draftYear]", 
+      0.148
+    ]
+  ], 
+  "values": [
+    2015.0, 
+    2007.0, 
+    1998.0, 
+    2006.0, 
+    2009.0, 
+    1975.0, 
+    1990.0, 
+    1980.0, 
+    1975.0, 
+    2013.0, 
+    2002.0, 
+    2012.0, 
+    1995.0, 
+    1998.0, 
+    1986.0, 
+    1980.0, 
+    2004.0, 
+    2007.0, 
+    1987.0, 
+    1978.0, 
+    2001.0, 
+    2000.0, 
+    1992.0, 
+    2014.0, 
+    1986.0, 
+    1988.0, 
+    2013.0, 
+    1988.0, 
+    2015.0, 
+    2003.0, 
+    2012.0, 
+    2001.0, 
+    2007.0, 
+    1994.0, 
+    2001.0, 
+    2010.0, 
+    1975.0, 
+    2000.0, 
+    2007.0, 
+    2010.0, 
+    2003.0, 
+    2004.0, 
+    1991.0, 
+    2000.0, 
+    1995.0, 
+    2011.0, 
+    1983.0, 
+    1981.0, 
+    2010.0, 
+    2010.0, 
+    2001.0, 
+    2001.0, 
+    1986.0, 
+    1986.0, 
+    2014.0, 
+    1966.0, 
+    1975.0, 
+    1982.0, 
+    1993.0, 
+    2016.0
+  ]
+}

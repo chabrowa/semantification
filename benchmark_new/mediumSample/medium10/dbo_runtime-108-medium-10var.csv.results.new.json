@@ -1,0 +1,212 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.2741
+        ], 
+        [
+          "elevation", 
+          0.2845
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.3005
+        ], 
+        [
+          "runtime", 
+          0.3043
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          5.0
+        ], 
+        [
+          "populationDensity", 
+          3.0
+        ], 
+        [
+          "runtime", 
+          1.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.2687
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2732
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.3005
+        ], 
+        [
+          "http://dbpedia.org/ontology/Noble (activeYearsStartYear)", 
+          0.3005
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          0.3005
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          0.3043
+        ], 
+        [
+          "http://dbpedia.org/ontology/Album (runtime)", 
+          0.3043
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          0.3043
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.3071
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.3111
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.3111
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.3135
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Album (runtime)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Noble (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Nebraska)>(country|United_States)", 
+      0.2392
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Nebraska)", 
+      0.246
+    ], 
+    [
+      "Location[populationDensity]>(timeZone|Indian_Standard_Time)>(isPartOf|Kerala)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2683
+    ], 
+    [
+      "Location[populationDensity]>(timeZone|Indian_Standard_Time)>(isPartOf|Kerala)>(22-rdf-syntax-ns#type|_Feature)>(country|India)", 
+      0.2716
+    ], 
+    [
+      "Location[populationDensity]>(timeZone|Indian_Standard_Time)>(isPartOf|Kerala)", 
+      0.2824
+    ], 
+    [
+      "Noble[activeYearsStartYear]", 
+      0.3005
+    ], 
+    [
+      "Album[runtime]>(type|Extended_play)", 
+      0.3043
+    ], 
+    [
+      "Village[elevation]>(timeZone|Mountain_Time_Zone)", 
+      0.3071
+    ], 
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(type|Unincorporated_area)", 
+      0.3151
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(type|Unincorporated_area)", 
+      0.3151
+    ]
+  ], 
+  "values": [
+    952.7136763174132, 
+    978.4265957842982, 
+    1035.5031566649702, 
+    968.5290853063369, 
+    942.8046003126145, 
+    6911.253352204043, 
+    13322.524149802079, 
+    1345.599098510275, 
+    982.4714090768526, 
+    996.8701560206817, 
+    28260.869374727543, 
+    995.5221383079463, 
+    27494.805188359875, 
+    1010.5306355104744, 
+    1119.2680710230957, 
+    1044.4077683233213, 
+    1049.9432012196276, 
+    964.1370906573168, 
+    1158.8142851805683, 
+    969.0864897323181, 
+    1090.981341320868
+  ]
+}

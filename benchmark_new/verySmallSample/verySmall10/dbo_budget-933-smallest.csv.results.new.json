@@ -1,0 +1,207 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/budget"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaLand", 
+          0.1914
+        ], 
+        [
+          "areaTotal", 
+          0.2057
+        ], 
+        [
+          "oclc", 
+          0.212
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          8.0
+        ], 
+        [
+          "areaLand", 
+          1.0
+        ], 
+        [
+          "oclc", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.1914
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          0.1914
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.1914
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.1914
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.1951
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.2043
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.2047
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.206
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.206
+        ], 
+        [
+          "http://dbpedia.org/ontology/AcademicJournal (oclc)", 
+          0.212
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          0.212
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          0.212
+        ], 
+        [
+          "http://dbpedia.org/ontology/PeriodicalLiterature (oclc)", 
+          0.212
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          0.2237
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AcademicJournal (oclc)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PeriodicalLiterature (oclc)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "City[areaLand]>(country|Canada)", 
+      0.1914
+    ], 
+    [
+      "City[areaTotal]>(timeZone|Central_European_Time)", 
+      0.1951
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Teruel)", 
+      0.197
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Spain)>(isPartOf|Province_of_Teruel)", 
+      0.197
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Spain)>(isPartOf|Andalusia)", 
+      0.1977
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Asturias)", 
+      0.2059
+    ], 
+    [
+      "AcademicJournal[oclc]>(publisher|Routledge)", 
+      0.212
+    ], 
+    [
+      "Location[areaTotal]>(country|Poland)", 
+      0.2127
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Spain)>(isPartOf|Asturias)", 
+      0.2164
+    ], 
+    [
+      "Town[areaTotal]>(country|Mexico)>(isPartOf|Oaxaca)>(timeZone|Central_Time_Zone)", 
+      0.2237
+    ]
+  ], 
+  "values": [
+    40041487.1603364, 
+    819110072.8505216, 
+    53513400.54550238, 
+    17421866.332416445, 
+    83045368.31999288, 
+    40667548.68678155, 
+    8462630851.184886, 
+    124954884.96971251
+  ]
+}

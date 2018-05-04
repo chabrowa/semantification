@@ -1,0 +1,286 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/height"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "height", 
+          0.1414
+        ], 
+        [
+          "shipBeam", 
+          0.2313
+        ], 
+        [
+          "populationDensity", 
+          0.2461
+        ], 
+        [
+          "elevation", 
+          0.2522
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          4.0
+        ], 
+        [
+          "populationDensity", 
+          3.0
+        ], 
+        [
+          "shipBeam", 
+          2.0
+        ], 
+        [
+          "height", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Ship (height)", 
+          0.1414
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (height)", 
+          0.1414
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.2211
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.2211
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          0.2313
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          0.2313
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.2333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.2333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.2455
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2501
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2522
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2522
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2717
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          18.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (height)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Ship[height]", 
+      0.1414
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Arkansas)", 
+      0.2211
+    ], 
+    [
+      "Ship[shipBeam]", 
+      0.2313
+    ], 
+    [
+      "MeanOfTransportation[shipBeam]", 
+      0.2313
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|New_York)>(isPartOf|Suffolk_County,_New_York)>(country|United_States)>(type|Administrative_divisions_of_New_York)>(type|Census-designated_place)", 
+      0.2416
+    ], 
+    [
+      "Settlement[populationDensity]>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Chaudi%C3%A8re-Appalaches)", 
+      0.2455
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|New_York)>(isPartOf|Suffolk_County,_New_York)>(country|United_States)>(type|Administrative_divisions_of_New_York)", 
+      0.2476
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|New_York)>(isPartOf|Suffolk_County,_New_York)>(country|United_States)", 
+      0.2542
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|New_York)>(isPartOf|Suffolk_County,_New_York)", 
+      0.2657
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Zamora)", 
+      0.2717
+    ]
+  ], 
+  "values": [
+    9.524197174666755, 
+    9.727249968707625, 
+    23.18898223052685, 
+    9.792605248704932, 
+    7.950838046094938, 
+    3.075765876207525, 
+    9.916364015053562, 
+    41.37127735961311, 
+    18.35253550532852, 
+    39.873439144191465, 
+    9.47323128285169, 
+    2.633819881051256, 
+    8.364870240704683, 
+    56.803980172759324, 
+    59.810763772129754, 
+    24.41805046781831, 
+    8.641178019755777, 
+    9.82506162623488, 
+    9.391477456537597, 
+    5.295552976480215, 
+    0.0, 
+    10.759627145568913, 
+    10.251713185085576, 
+    8.643658348649751, 
+    10.158511613707413, 
+    9.021107365764692, 
+    9.414274214431126, 
+    132.18157114734214, 
+    11.500449713655923, 
+    25.698550578029636, 
+    9.87822477423165, 
+    53.15501520860358, 
+    69.23529044869954, 
+    9.698492421227282, 
+    9.634809131738725, 
+    35.31674353854894, 
+    8.169697128208648, 
+    28.513039113096372, 
+    9.5838642464032, 
+    9.64720591177953, 
+    8.805339395451, 
+    9.702207892877093, 
+    10.945997618351345, 
+    56.88292277074195, 
+    8.32623007371283, 
+    41.26556954565304, 
+    11.59767557803748, 
+    39.343609655304796, 
+    9.79827742066625, 
+    10.93075804045602, 
+    9.779691644994662, 
+    33.68033757929171, 
+    9.447644389825227, 
+    2.345958043582781, 
+    9.481089181755957, 
+    9.837802615871786, 
+    95.39587367499061, 
+    50.01671847631253, 
+    9.629966198609319, 
+    9.3322307361013, 
+    9.4530396051672, 
+    9.34362592580499, 
+    37.938724238589415, 
+    8.10489271896557, 
+    9.345558888886595, 
+    11.205159639427395, 
+    9.682639678829872, 
+    9.224028042631614, 
+    44.22658275364026, 
+    37.313924140822365, 
+    9.348665175012819, 
+    9.687649370605138, 
+    9.916782755508097, 
+    9.845082486085632, 
+    9.447659492358385, 
+    9.68386112581354, 
+    9.582430450262242, 
+    9.98198218842772, 
+    9.55501608604679, 
+    9.992454748223118, 
+    2.9402642103928476, 
+    20.256165560287464, 
+    9.921772582799465, 
+    9.383327116342041, 
+    34.01583685249111, 
+    9.221533938923535, 
+    2.4649135142896244
+  ]
+}

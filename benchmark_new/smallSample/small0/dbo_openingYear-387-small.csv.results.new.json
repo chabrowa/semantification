@@ -1,0 +1,288 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/openingYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "activeYearsEndYear", 
+          0.1476
+        ], 
+        [
+          "openingYear", 
+          0.1508
+        ], 
+        [
+          "foundingYear", 
+          0.1707
+        ], 
+        [
+          "formationYear", 
+          0.1724
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.1777
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          3.0
+        ], 
+        [
+          "formationYear", 
+          2.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          2.0
+        ], 
+        [
+          "foundingYear", 
+          2.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/RailwayStation (openingYear)", 
+          0.1317
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          0.1334
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.1476
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.1508
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.1508
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.1508
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          0.1665
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsLeague (foundingYear)", 
+          0.1699
+        ], 
+        [
+          "http://dbpedia.org/ontology/BaseballLeague (foundingYear)", 
+          0.1699
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.1707
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.1707
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bank (foundingYear)", 
+          0.1715
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          0.1715
+        ], 
+        [
+          "http://dbpedia.org/ontology/GovernmentAgency (formationYear)", 
+          0.1718
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (formationYear)", 
+          0.1724
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (formationYear)", 
+          0.1724
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.1777
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          0.1855
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.1855
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/GovernmentAgency (formationYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayStation (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (formationYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (formationYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsLeague (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BaseballLeague (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bank (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "RailwayStation[openingYear]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1282
+    ], 
+    [
+      "RailwayStation[openingYear]", 
+      0.1386
+    ], 
+    [
+      "Agent[activeYearsEndYear]", 
+      0.1476
+    ], 
+    [
+      "Person[activeYearsStartYear]", 
+      0.1665
+    ], 
+    [
+      "BaseballLeague[foundingYear]", 
+      0.1699
+    ], 
+    [
+      "GovernmentAgency[formationYear]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1706
+    ], 
+    [
+      "Bank[foundingYear]", 
+      0.1715
+    ], 
+    [
+      "GovernmentAgency[formationYear]", 
+      0.1743
+    ], 
+    [
+      "RailwayLine[openingYear]>(type|Light_rail)", 
+      0.1855
+    ], 
+    [
+      "Agent[activeYearsStartYear]", 
+      0.1889
+    ]
+  ], 
+  "values": [
+    1999.0, 
+    1911.0, 
+    1844.0, 
+    1889.0, 
+    2011.0, 
+    1910.0, 
+    1985.0, 
+    2005.0, 
+    1864.0, 
+    1997.0, 
+    1903.0, 
+    2005.0, 
+    1990.0, 
+    1987.0, 
+    1919.0, 
+    1971.0, 
+    1999.0, 
+    1999.0, 
+    2005.0, 
+    1905.0, 
+    1971.0, 
+    1859.0, 
+    2005.0, 
+    1988.0, 
+    1985.0, 
+    1986.0, 
+    1909.0, 
+    1999.0, 
+    2002.0, 
+    2005.0, 
+    2006.0, 
+    2004.0, 
+    1876.0
+  ]
+}

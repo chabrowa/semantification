@@ -1,0 +1,189 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/height"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "minimumElevation", 
+          0.2241
+        ], 
+        [
+          "elevation", 
+          0.2326
+        ], 
+        [
+          "height", 
+          0.2451
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          5.0
+        ], 
+        [
+          "minimumElevation", 
+          4.0
+        ], 
+        [
+          "height", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.2183
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.2241
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.2241
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.2241
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.2241
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2326
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2326
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2379
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.2451
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          0.2451
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.2451
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (height)", 
+          0.2451
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (height)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[elevation]>(country|Republic_of_Ireland)>(isPartOf|Connacht)", 
+      0.2131
+    ], 
+    [
+      "Location[minimumElevation]>(department|Manche)>(arrondissement|Arrondissement_of_Saint-L%C3%B4)", 
+      0.224
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Manche)>(arrondissement|Arrondissement_of_Saint-L%C3%B4)", 
+      0.224
+    ], 
+    [
+      "Location[minimumElevation]>(department|Pas-de-Calais)", 
+      0.2243
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Pas-de-Calais)", 
+      0.2243
+    ], 
+    [
+      "Village[elevation]>(country|Republic_of_Ireland)", 
+      0.2262
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|California)>(isPartOf|Humboldt_County,_California)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2391
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|California)>(isPartOf|Humboldt_County,_California)", 
+      0.2401
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Pas-de-Calais)>(arrondissement|Arrondissement_of_Saint-Omer)", 
+      0.2443
+    ], 
+    [
+      "RouteOfTransportation[height]", 
+      0.2451
+    ]
+  ], 
+  "values": [
+    54.552028181622546, 
+    4.439554343291931, 
+    172.97145409460373, 
+    3.108188409986255, 
+    67.35371751758636, 
+    63.518099863781785
+  ]
+}

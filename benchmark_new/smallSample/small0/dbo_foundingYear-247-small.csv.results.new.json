@@ -1,0 +1,286 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/foundingYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "foundingYear", 
+          0.1115
+        ], 
+        [
+          "serviceEndYear", 
+          0.1264
+        ], 
+        [
+          "openingYear", 
+          0.1513
+        ]
+      ], 
+      "maj": [
+        [
+          "foundingYear", 
+          6.0
+        ], 
+        [
+          "serviceEndYear", 
+          2.0
+        ], 
+        [
+          "openingYear", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/SportsTeam (foundingYear)", 
+          0.0919
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          0.1045
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          0.1045
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.1115
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.1121
+        ], 
+        [
+          "http://dbpedia.org/ontology/OfficeHolder (serviceEndYear)", 
+          0.1254
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          0.1264
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          0.1264
+        ], 
+        [
+          "http://dbpedia.org/ontology/President (serviceEndYear)", 
+          0.1273
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceEndYear)", 
+          0.1273
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          0.1486
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.1486
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          0.1504
+        ], 
+        [
+          "http://dbpedia.org/ontology/Publisher (foundingYear)", 
+          0.1504
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.1513
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.1513
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.1513
+        ], 
+        [
+          "http://dbpedia.org/ontology/PowerStation (openingYear)", 
+          0.1539
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PowerStation (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/President (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Publisher (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/OfficeHolder (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (foundingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "SportsTeam[foundingYear]", 
+      0.0919
+    ], 
+    [
+      "School[foundingYear]", 
+      0.1045
+    ], 
+    [
+      "EducationalInstitution[foundingYear]", 
+      0.1045
+    ], 
+    [
+      "Agent[foundingYear]", 
+      0.109
+    ], 
+    [
+      "Organisation[foundingYear]", 
+      0.109
+    ], 
+    [
+      "OfficeHolder[serviceEndYear]", 
+      0.1254
+    ], 
+    [
+      "President[serviceEndYear]", 
+      0.1273
+    ], 
+    [
+      "Bridge[openingYear]", 
+      0.1486
+    ], 
+    [
+      "Publisher[foundingYear]", 
+      0.1504
+    ], 
+    [
+      "PowerStation[openingYear]>(primaryFuelType|Coal)", 
+      0.1539
+    ]
+  ], 
+  "values": [
+    1984.0, 
+    1948.0, 
+    1909.0, 
+    1904.0, 
+    1906.0, 
+    1875.0, 
+    1982.0, 
+    2009.0, 
+    1973.0, 
+    1961.0, 
+    1969.0, 
+    1927.0, 
+    1969.0, 
+    1862.0, 
+    1974.0, 
+    1532.0, 
+    1904.0, 
+    1989.0, 
+    1964.0, 
+    1929.0, 
+    1978.0, 
+    1999.0, 
+    1958.0, 
+    1914.0, 
+    2015.0, 
+    1992.0, 
+    11.0, 
+    1923.0, 
+    1959.0, 
+    1964.0, 
+    1964.0, 
+    1953.0, 
+    1899.0, 
+    1988.0, 
+    2011.0, 
+    2003.0, 
+    1964.0, 
+    1988.0, 
+    1946.0, 
+    1926.0, 
+    1991.0, 
+    1999.0, 
+    1935.0, 
+    1958.0, 
+    1988.0, 
+    1974.0, 
+    1999.0, 
+    1846.0, 
+    1935.0, 
+    1922.0, 
+    1988.0, 
+    1988.0, 
+    1995.0, 
+    1964.0, 
+    1995.0
+  ]
+}

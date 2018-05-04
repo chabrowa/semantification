@@ -1,0 +1,149 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEpisodes"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfSeasons", 
+          0.2037
+        ], 
+        [
+          "area", 
+          0.2551
+        ]
+      ], 
+      "maj": [
+        [
+          "numberOfSeasons", 
+          7.0
+        ], 
+        [
+          "area", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Village (area)", 
+          0.1444
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          0.2037
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          0.208
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          0.2551
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (area)", 
+          0.2551
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          0.2551
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (area)", 
+          0.3026
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (area)", 
+          0.3181
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          17.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (area)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (area)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (area)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (area)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[area]", 
+      0.1444
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]>(language|Hindi)", 
+      0.1667
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]>(language|Hindi)>(format|480i)", 
+      0.1667
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]>(language|Hindi)>(format|480i)>(country|India)", 
+      0.1667
+    ], 
+    [
+      "Work[numberOfSeasons]", 
+      0.2006
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]", 
+      0.2006
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]>(language|Hindi)>(format|720p)>(country|India)", 
+      0.2609
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]>(language|Hindi)>(format|720p)", 
+      0.2639
+    ], 
+    [
+      "Town[area]", 
+      0.3026
+    ], 
+    [
+      "City[area]", 
+      0.3181
+    ]
+  ], 
+  "values": [
+    1.0, 
+    1.0, 
+    51.0, 
+    2.0, 
+    1.0, 
+    1.0
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/length"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "length", 
+          0.0806
+        ], 
+        [
+          "populationTotal", 
+          0.1146
+        ]
+      ], 
+      "maj": [
+        [
+          "length", 
+          8.0
+        ], 
+        [
+          "populationTotal", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          0.0533
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          0.057
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (length)", 
+          0.0692
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.0752
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          0.081
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          0.085
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          0.1038
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1115
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1146
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1146
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          0.1208
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (length)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "BodyOfWater[length]", 
+      0.0533
+    ], 
+    [
+      "NaturalPlace[length]", 
+      0.0607
+    ], 
+    [
+      "RouteOfTransportation[length]", 
+      0.0692
+    ], 
+    [
+      "Place[length]", 
+      0.0823
+    ], 
+    [
+      "Location[length]", 
+      0.0823
+    ], 
+    [
+      "Infrastructure[length]", 
+      0.0928
+    ], 
+    [
+      "ArchitecturalStructure[length]", 
+      0.0931
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Andhra_Pradesh)", 
+      0.1084
+    ], 
+    [
+      "Location[length]>(22-rdf-syntax-ns#type|_Feature)>(country|Russia)", 
+      0.1109
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|California)", 
+      0.1208
+    ]
+  ], 
+  "values": [
+    4300.0, 
+    65000.0, 
+    32400.0, 
+    2700.0, 
+    11587.3, 
+    24000.0, 
+    163000.0, 
+    192000.0, 
+    7200.0, 
+    16200.0, 
+    13000.0, 
+    46671.0, 
+    12000.0, 
+    2300.0, 
+    321869.0, 
+    147000.0, 
+    24000.0, 
+    27000.0, 
+    61200.0, 
+    15000.0, 
+    510.0, 
+    3379.62, 
+    7563.92, 
+    28000.0, 
+    70811.1, 
+    13000.0, 
+    19000.0, 
+    550000.0, 
+    32186.9, 
+    1870.0, 
+    8000.0, 
+    1130000.0, 
+    321.869, 
+    3218.69, 
+    53108.4, 
+    4000.0, 
+    36371.2, 
+    49889.7, 
+    1062.17, 
+    281635.0, 
+    192000.0, 
+    36400.0, 
+    12800.0, 
+    295000.0, 
+    13000.0, 
+    160000.0, 
+    150000.0, 
+    204000.0, 
+    150000.0, 
+    113000.0, 
+    14000.0, 
+    102000.0, 
+    13679.4, 
+    4023.36, 
+    27000.0, 
+    131000.0, 
+    13860.0, 
+    11265.4, 
+    286000.0, 
+    4000.0, 
+    40000.0, 
+    1500.0, 
+    1300.0, 
+    26000.0, 
+    396.0, 
+    12200.0, 
+    37000.0, 
+    789.432, 
+    112500.0, 
+    1609.34, 
+    55000.0, 
+    20000.0, 
+    60350.4, 
+    2011.68, 
+    9000.0, 
+    50200.0, 
+    190000.0, 
+    95000.0, 
+    5000.0, 
+    95000.0, 
+    226000.0, 
+    65000.0, 
+    27358.8, 
+    3057.75, 
+    800.0, 
+    10000.0, 
+    57700.0, 
+    35405.6, 
+    298000.0, 
+    39428.9, 
+    7000.0, 
+    213000.0, 
+    56000.0, 
+    143232.0, 
+    3000.0, 
+    12874.8, 
+    52625.5, 
+    11200.0, 
+    64000.0, 
+    53000.0
+  ]
+}

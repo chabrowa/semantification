@@ -1,0 +1,162 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaLand"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.3259
+        ], 
+        [
+          "areaLand", 
+          0.3322
+        ], 
+        [
+          "oclc", 
+          0.3332
+        ]
+      ], 
+      "maj": [
+        [
+          "oclc", 
+          5.0
+        ], 
+        [
+          "areaTotal", 
+          4.0
+        ], 
+        [
+          "areaLand", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          0.3209
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.3236
+        ], 
+        [
+          "http://dbpedia.org/ontology/WineRegion (areaTotal)", 
+          0.3288
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          0.3322
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.3326
+        ], 
+        [
+          "http://dbpedia.org/ontology/PeriodicalLiterature (oclc)", 
+          0.3332
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          0.3332
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          0.3332
+        ], 
+        [
+          "http://dbpedia.org/ontology/AcademicJournal (oclc)", 
+          0.3333
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/AcademicJournal (oclc)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PeriodicalLiterature (oclc)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WineRegion (areaTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "ProtectedArea[areaTotal]>(location|India)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3207
+    ], 
+    [
+      "ProtectedArea[areaTotal]>(location|India)", 
+      0.3213
+    ], 
+    [
+      "WineRegion[areaTotal]", 
+      0.3288
+    ], 
+    [
+      "Location[areaLand]>(country|Canada)", 
+      0.3322
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)", 
+      0.3326
+    ], 
+    [
+      "AcademicJournal[oclc]", 
+      0.333
+    ], 
+    [
+      "PeriodicalLiterature[oclc]", 
+      0.333
+    ], 
+    [
+      "AcademicJournal[oclc]>(license|Creative_Commons_license)", 
+      0.3333
+    ], 
+    [
+      "AcademicJournal[oclc]>(publisher|Routledge)", 
+      0.3333
+    ], 
+    [
+      "AcademicJournal[oclc]>(publisher|John_Wiley_&_Sons)", 
+      0.3333
+    ]
+  ], 
+  "values": [
+    215200000.0, 
+    77000.0, 
+    576800000.0
+  ]
+}

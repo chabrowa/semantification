@@ -1,0 +1,206 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEpisodes"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "number", 
+          0.14
+        ], 
+        [
+          "populationDensity", 
+          0.1427
+        ], 
+        [
+          "elevation", 
+          0.1466
+        ], 
+        [
+          "numberOfEpisodes", 
+          0.1515
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          5.0
+        ], 
+        [
+          "number", 
+          3.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ], 
+        [
+          "numberOfEpisodes", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1359
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1359
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1359
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.138
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.14
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.1401
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.1404
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1466
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1466
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1466
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          0.1515
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          0.1515
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.153
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Town[populationDensity]>(isPartOf|Pennsylvania)", 
+      0.1256
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Michigan)", 
+      0.131
+    ], 
+    [
+      "Person[number]", 
+      0.1398
+    ], 
+    [
+      "Agent[number]", 
+      0.1398
+    ], 
+    [
+      "Athlete[number]", 
+      0.1404
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|New_York)>(isPartOf|Nassau_County,_New_York)", 
+      0.1466
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|New_York)>(type|Town)", 
+      0.1511
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|New_York)>(type|Town)", 
+      0.1511
+    ], 
+    [
+      "TelevisionShow[numberOfEpisodes]>(channel|CBS)", 
+      0.1515
+    ], 
+    [
+      "Location[populationDensity]>(governmentType|Indiana_Township_Trustee)>(type|Civil_township)", 
+      0.1548
+    ]
+  ], 
+  "values": [
+    21.0, 
+    25.0, 
+    10.0, 
+    52.0, 
+    2.0, 
+    82.0, 
+    13.0
+  ]
+}

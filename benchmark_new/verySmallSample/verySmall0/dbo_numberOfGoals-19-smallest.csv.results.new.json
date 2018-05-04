@@ -1,0 +1,239 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfGoals"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "maximumElevation", 
+          0.1703
+        ], 
+        [
+          "minimumElevation", 
+          0.1788
+        ], 
+        [
+          "height", 
+          0.1958
+        ], 
+        [
+          "elevation", 
+          0.2041
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "height", 
+          3.0
+        ], 
+        [
+          "minimumElevation", 
+          2.0
+        ], 
+        [
+          "maximumElevation", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.1703
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          0.1703
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          0.1703
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          0.1703
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.1788
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.1788
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.1788
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1788
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (height)", 
+          0.1827
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2005
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2005
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.2023
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          0.2023
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.2023
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (height)", 
+          0.2038
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.2113
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (height)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[maximumElevation]>(region|Pays_de_la_Loire)>(department|Loire-Atlantique)", 
+      0.1703
+    ], 
+    [
+      "Settlement[maximumElevation]>(region|Pays_de_la_Loire)>(department|Loire-Atlantique)", 
+      0.1703
+    ], 
+    [
+      "Location[minimumElevation]>(department|Somme)", 
+      0.1788
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Somme)", 
+      0.1788
+    ], 
+    [
+      "Location[height]>(country|Australia)", 
+      0.1827
+    ], 
+    [
+      "Dam[height]>(country|Australia)", 
+      0.195
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(federalState|Brandenburg)>(division|Quarter_(urban_subdivision))", 
+      0.1972
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(federalState|Brandenburg)", 
+      0.2037
+    ], 
+    [
+      "Dam[height]>(location|Japan)>(country|Japan)", 
+      0.2097
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Bihar)", 
+      0.2113
+    ]
+  ], 
+  "values": [
+    38.0, 
+    88.0, 
+    86.0, 
+    2.0, 
+    64.0, 
+    41.0, 
+    47.0, 
+    91.0
+  ]
+}

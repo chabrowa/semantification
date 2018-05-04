@@ -1,0 +1,259 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/gross"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaWater", 
+          0.1021
+        ], 
+        [
+          "areaTotal", 
+          0.1112
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          7.0
+        ], 
+        [
+          "areaTotal", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          0.0861
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.1017
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.1021
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.1021
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.1021
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (areaTotal)", 
+          0.1111
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          0.1112
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          0.1112
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1112
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.1198
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (areaTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Town[areaWater]>(type|Administrative_divisions_of_New_York)", 
+      0.0779
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Minnesota)>(isPartOf|St._Louis_County,_Minnesota)>(type|Township_(United_States))", 
+      0.0915
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Minnesota)>(isPartOf|St._Louis_County,_Minnesota)", 
+      0.0915
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Maine)", 
+      0.0958
+    ], 
+    [
+      "Lake[areaTotal]", 
+      0.1111
+    ], 
+    [
+      "BodyOfWater[areaTotal]", 
+      0.1112
+    ], 
+    [
+      "NaturalPlace[areaTotal]", 
+      0.1112
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Alaska)>(timeZone|Alaska_Time_Zone)", 
+      0.1172
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Minnesota)>(isPartOf|St._Louis_County,_Minnesota)", 
+      0.1193
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Alaska)>(timeZone|Alaska_Time_Zone)>(type|Alaska)", 
+      0.1217
+    ]
+  ], 
+  "values": [
+    2453014.1505910195, 
+    3054640.935323977, 
+    963189.6499369042, 
+    628011.1329022696, 
+    49173202.34062751, 
+    57168766.19863677, 
+    3114360.316602776, 
+    22940360.137898825, 
+    3855208.352024316, 
+    1815301.9981003238, 
+    1439722.2562725272, 
+    15044074.029691959, 
+    101270.65729622114, 
+    12657.442039465635, 
+    76330064.5015876, 
+    9939181.67703689, 
+    162812.63350791103, 
+    1812179.4140229337, 
+    37218724.249709725, 
+    4348726.545108556, 
+    81488.82791529418, 
+    8470624.220608665, 
+    2512996.0346706687, 
+    196913.54953931426, 
+    21121782.540021315, 
+    29606541.418654647, 
+    2515626.1903244862, 
+    5749217.729970936, 
+    2401780.7997133858, 
+    95868859.84036899, 
+    123661487.63636263, 
+    123837.30284270878, 
+    311288.84617966216, 
+    638414.1736690388, 
+    1690941.312939409, 
+    941178.0026730098, 
+    4563386.850030085, 
+    192734.5130949399, 
+    385124.44224133005, 
+    1722688.1143384387, 
+    37871896.28573348, 
+    118223135.32839777, 
+    1168487.4953236068, 
+    9452608.026055686, 
+    13137.536535265204, 
+    56785002.01485718, 
+    118693.7591792573, 
+    103541.77444953786, 
+    1379422.444266277, 
+    6112.935896362131, 
+    4479539.440384977, 
+    378414.0507466427, 
+    282624.38163453277, 
+    10212577.78687677, 
+    1362200.4183947092, 
+    999600.1284111366, 
+    13199858.071127739, 
+    11559146.104652934, 
+    2884024.3652712614, 
+    9316647.485537874, 
+    314439.05004558805, 
+    3412684.339126203, 
+    5194528.6212106515, 
+    212944290.96460336, 
+    5262364.907438166, 
+    7677646.432222557, 
+    1999196.9186440802, 
+    272825.62353765307, 
+    1290931.195683609, 
+    177675858.43537188, 
+    2287502.9669381822, 
+    21532184.90625492, 
+    127986.39407876397, 
+    538607.6906555839, 
+    2402124.2667102637, 
+    1346049.711273784, 
+    4576258.643393757, 
+    1.0226038169195664, 
+    1450230.991029166, 
+    132450962.10919239, 
+    10365664.992667468, 
+    15173993.419257239, 
+    35759873.06436808, 
+    167498.11302408262, 
+    64180.32749915945, 
+    5016939.375437984, 
+    1504852.1708673316, 
+    978687.0432015414, 
+    41315920.82686403, 
+    4923963.873853817, 
+    1382522.4467691917, 
+    19197207.768540382, 
+    326940611.48498374, 
+    25126.16680435911, 
+    189094158.9171093, 
+    1048268.1992216024, 
+    156.00841145141413, 
+    2280198.471212942, 
+    147168.32709345885, 
+    319785.4096933891
+  ]
+}

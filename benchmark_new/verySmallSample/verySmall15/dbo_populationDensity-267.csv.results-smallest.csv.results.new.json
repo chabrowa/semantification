@@ -1,0 +1,174 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/width"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "width", 
+          0.3362
+        ], 
+        [
+          "populationDensity", 
+          0.4202
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          6.0
+        ], 
+        [
+          "width", 
+          4.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (width)", 
+          0.2415
+        ], 
+        [
+          "http://dbpedia.org/ontology/Locomotive (width)", 
+          0.2749
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.3921
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.4157
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.4157
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.4214
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.4242
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.4242
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (width)", 
+          0.4309
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (width)", 
+          0.4309
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.4503
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Locomotive (width)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (width)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Locomotive[width]", 
+      0.1412
+    ], 
+    [
+      "Locomotive[width]>(powerType|Diesel-electric_transmission)", 
+      0.3417
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Soria)", 
+      0.3727
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Soria)", 
+      0.3727
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Nebraska)", 
+      0.4242
+    ], 
+    [
+      "Device[width]", 
+      0.4309
+    ], 
+    [
+      "Weapon[width]", 
+      0.4309
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Nebraska)>(type|Civil_township)", 
+      0.4503
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Nebraska)", 
+      0.4503
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Kansas)", 
+      0.4512
+    ]
+  ], 
+  "values": [
+    2.789017274827392, 
+    3.1973308771923254, 
+    2.9215170101704238, 
+    2.7029682267895763, 
+    1.8846381470712128, 
+    3.0747211062711637, 
+    2.8894745283219136
+  ]
+}

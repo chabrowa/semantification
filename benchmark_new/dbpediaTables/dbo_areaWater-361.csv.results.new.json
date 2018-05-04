@@ -1,0 +1,200 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaWater"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaLand", 
+          0.5
+        ], 
+        [
+          "areaTotal", 
+          0.5
+        ], 
+        [
+          "areaWater", 
+          0.5026
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          7.0
+        ], 
+        [
+          "areaTotal", 
+          2.0
+        ], 
+        [
+          "areaLand", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.5013
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.5018
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.5027
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.5027
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.5027
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          0.5029
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          16.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[areaLand]>(type|Village_(United_States))", 
+      0.5
+    ], 
+    [
+      "Settlement[areaTotal]>(type|Village_(United_States))", 
+      0.5
+    ], 
+    [
+      "BodyOfWater[areaTotal]>(type|Trophic_state_index)", 
+      0.5
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Florida)", 
+      0.5013
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Massachusetts)", 
+      0.5018
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Michigan)>(type|Charter_township)", 
+      0.5022
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Michigan)>(type|Charter_township)>(timeZone|Eastern_Time_Zone)>(country|United_States)", 
+      0.5023
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Michigan)>(type|Township_(United_States))", 
+      0.5034
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Michigan)", 
+      0.5035
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Wisconsin)>(type|Town)", 
+      0.5036
+    ]
+  ], 
+  "values": [
+    1191390.0
+  ]
+}

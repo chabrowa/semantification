@@ -1,0 +1,219 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfStudents"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.0951
+        ], 
+        [
+          "populationDensity", 
+          0.0995
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          9.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.0948
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0963
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.0963
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0963
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.0995
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          20.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationTotal]>(timeZone|Eastern_Time_Zone)>(isPartOf|Vermont)", 
+      0.0842
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(region|Pays_de_la_Loire)", 
+      0.0938
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(region|Pays_de_la_Loire)", 
+      0.0938
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_Time_Zone)>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Chaudi%C3%A8re-Appalaches)", 
+      0.0952
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(province|Province_of_Pavia)", 
+      0.0959
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(province|Province_of_Pavia)", 
+      0.0959
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_Time_Zone)>(isPartOf|Vermont)>(type|New_England_town)", 
+      0.099
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(region|Molise)", 
+      0.0992
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(region|Molise)", 
+      0.0992
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|New_Jersey)>(governmentType|Faulkner_Act_(mayor%E2%80%93council))", 
+      0.0995
+    ]
+  ], 
+  "values": [
+    860.0, 
+    814.0, 
+    1148.0, 
+    433.0, 
+    20735.0, 
+    1259.0, 
+    2750.0, 
+    1001.0, 
+    1937.0, 
+    2286.0, 
+    1526.0, 
+    1005.0, 
+    1050.0, 
+    1062.0, 
+    670.0, 
+    1221.0, 
+    1210.0, 
+    1929.0, 
+    62361.0, 
+    4240.0, 
+    812.0, 
+    1292.0, 
+    613.0, 
+    1385.0, 
+    472.0, 
+    1140.0, 
+    35698.0, 
+    1438.0, 
+    134.0, 
+    538.0, 
+    1448.0, 
+    901.0, 
+    1946.0, 
+    1589.0, 
+    12323.0, 
+    4279.0, 
+    96.0, 
+    658.0, 
+    504.0, 
+    538.0, 
+    137289.0, 
+    40241.0, 
+    772.0, 
+    153.0, 
+    13763.0, 
+    951.0, 
+    4301.0, 
+    485.0, 
+    39958.0, 
+    2044.0, 
+    1274.0, 
+    1160.0, 
+    4.0, 
+    217.0, 
+    375.0, 
+    405.0, 
+    668.0, 
+    318.0, 
+    248.0, 
+    1301.0, 
+    1305.0, 
+    2542.0, 
+    491.0, 
+    1274.0, 
+    1799.0, 
+    1545.0, 
+    286.0, 
+    646.0, 
+    1718.0, 
+    852.0, 
+    1639.0, 
+    16957.0, 
+    803.0, 
+    199.0, 
+    1482.0, 
+    1543.0, 
+    362.0, 
+    593.0, 
+    4889.0, 
+    27141.0, 
+    449.0, 
+    1678.0, 
+    3706.0, 
+    130.0, 
+    316.0, 
+    649.0, 
+    1302.0, 
+    61.0, 
+    1576.0, 
+    821.0, 
+    2155.0, 
+    5085.0, 
+    218.0, 
+    1953.0, 
+    1576.0, 
+    1414.0, 
+    2870.0, 
+    1388.0, 
+    1587.0, 
+    7924.0
+  ]
+}

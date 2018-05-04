@@ -1,0 +1,115 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/yearOfConstruction"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "openingYear", 
+          0.2229
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.2231
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.2231
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.2231
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          0.2232
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          0.2236
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          5.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Station[openingYear]>(country|Germany)>(location|Hesse)", 
+      0.2151
+    ], 
+    [
+      "Location[openingYear]>(location|Germany)>(location|Hesse)", 
+      0.2151
+    ], 
+    [
+      "Station[openingYear]>(country|United_Kingdom)>(district|Ayrshire)", 
+      0.2192
+    ], 
+    [
+      "Location[openingYear]>(country|United_Kingdom)>(district|Ayrshire)", 
+      0.2192
+    ], 
+    [
+      "Location[openingYear]>(country|United_Kingdom)", 
+      0.2203
+    ], 
+    [
+      "Station[openingYear]>(country|United_Kingdom)", 
+      0.2212
+    ], 
+    [
+      "Location[openingYear]>(location|Germany)", 
+      0.2265
+    ], 
+    [
+      "Station[openingYear]>(country|Germany)", 
+      0.2281
+    ], 
+    [
+      "Station[openingYear]>(country|Germany)>(location|Bavaria)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2321
+    ], 
+    [
+      "Location[openingYear]>(location|Germany)>(location|Bavaria)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2321
+    ]
+  ], 
+  "values": [
+    1877.0, 
+    1910.0, 
+    1862.0, 
+    1822.0
+  ]
+}

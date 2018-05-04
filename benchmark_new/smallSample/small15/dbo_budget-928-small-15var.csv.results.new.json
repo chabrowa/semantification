@@ -1,0 +1,220 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/budget"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.1089
+        ], 
+        [
+          "area", 
+          0.1144
+        ], 
+        [
+          "budget", 
+          0.1267
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          6.0
+        ], 
+        [
+          "area", 
+          2.0
+        ], 
+        [
+          "budget", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.1025
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1025
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.1025
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          0.1111
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (area)", 
+          0.1111
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          0.1111
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.1112
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (area)", 
+          0.1178
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (budget)", 
+          0.1267
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (budget)", 
+          0.1267
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (budget)", 
+          0.1267
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          19.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (area)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (budget)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (budget)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (area)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (budget)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaTotal]>(type|Municipalities_of_Switzerland)>(canton|Valais)", 
+      0.1025
+    ], 
+    [
+      "Settlement[areaTotal]>(type|Municipalities_of_Switzerland)>(canton|Valais)", 
+      0.1025
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Burgos)", 
+      0.1032
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Burgos)>(type|Municipalities_of_Spain)", 
+      0.1051
+    ], 
+    [
+      "Settlement[area]>(region|Centre_(French_region))>(arrondissement|Arrondissement_of_Orl%C3%A9ans)", 
+      0.1111
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Burgos)>(type|Municipalities_of_Spain)>(timeZone|Central_European_Time)", 
+      0.1151
+    ], 
+    [
+      "Location[area]>(region|Aquitaine)>(arrondissement|Arrondissement_of_Mont-de-Marsan)", 
+      0.1178
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(region|Sardinia)>(province|Province_of_Oristano)", 
+      0.1249
+    ], 
+    [
+      "Wikidata:Q11424[budget]>(distributor|Walt_Disney_Studios_Motion_Pictures)>(country|United_States)", 
+      0.1267
+    ], 
+    [
+      "Film[budget]>(distributor|Walt_Disney_Studios_Motion_Pictures)>(country|United_States)", 
+      0.1267
+    ]
+  ], 
+  "values": [
+    30856549.75233117, 
+    30597040.680074584, 
+    12013216.923447585, 
+    18469408.502613213, 
+    10743159.385073718, 
+    28083138.85016796, 
+    37883914.65355393, 
+    17605.123339738362, 
+    6958909.740026958, 
+    54325646.3817742, 
+    10050105.17332578, 
+    31372463.202059355, 
+    10116186.639092099, 
+    41480991.2511487, 
+    41322811.06981787, 
+    11277213.185411965, 
+    9089290.899678249, 
+    44719639.374561206, 
+    6802319.416307835, 
+    27549734.28302862, 
+    34343879.96003544, 
+    21988195.925642483, 
+    30984448.729082443, 
+    34340408.29287324, 
+    42529450.58493506, 
+    127388559.19146326, 
+    31909334.569170717, 
+    154448359.57717636, 
+    54220342.80713327, 
+    9951176.626323778, 
+    25251454.129353423, 
+    12557582.234071575, 
+    18145386.984662034, 
+    92557580.00998639, 
+    24574636.42780546, 
+    21062431.69503509, 
+    7260412.533400391, 
+    103218370.85593274, 
+    16511511.346765554, 
+    30658170.94990905, 
+    75847019.49468312, 
+    7169019.267190913, 
+    34141113.42466021, 
+    25750295.527458668, 
+    10350648.860385016
+  ]
+}

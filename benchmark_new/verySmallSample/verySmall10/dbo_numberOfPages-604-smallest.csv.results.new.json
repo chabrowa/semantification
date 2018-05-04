@@ -1,0 +1,267 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfPages"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfPages", 
+          0.115
+        ], 
+        [
+          "elevation", 
+          0.1233
+        ], 
+        [
+          "runtime", 
+          0.1319
+        ]
+      ], 
+      "maj": [
+        [
+          "numberOfPages", 
+          4.0
+        ], 
+        [
+          "elevation", 
+          4.0
+        ], 
+        [
+          "runtime", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Work (numberOfPages)", 
+          0.115
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (numberOfPages)", 
+          0.1173
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1196
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1233
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1233
+        ], 
+        [
+          "http://dbpedia.org/ontology/Book (numberOfPages)", 
+          0.1286
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.1308
+        ], 
+        [
+          "http://dbpedia.org/ontology/Song (runtime)", 
+          0.1319
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          0.1319
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          0.1319
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Song (runtime)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Book (numberOfPages)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfPages)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (numberOfPages)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Work[numberOfPages]", 
+      0.1082
+    ], 
+    [
+      "WrittenWork[numberOfPages]", 
+      0.1082
+    ], 
+    [
+      "Book[numberOfPages]", 
+      0.1082
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Haute-Garonne)", 
+      0.1151
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Lot_(department))", 
+      0.1164
+    ], 
+    [
+      "Town[elevation]>(isPartOf|Oklahoma)>(type|Town)", 
+      0.1308
+    ], 
+    [
+      "Town[elevation]>(isPartOf|Oklahoma)", 
+      0.131
+    ], 
+    [
+      "Song[runtime]>(artist|Bob_Dylan)>(writer|Bob_Dylan)>(recordLabel|Columbia_Records)", 
+      0.1317
+    ], 
+    [
+      "Song[runtime]>(artist|Bob_Dylan)>(writer|Bob_Dylan)", 
+      0.1321
+    ], 
+    [
+      "Book[numberOfPages]>(literaryGenre|Children's_literature)>(publisher|HarperCollins)", 
+      0.1354
+    ]
+  ], 
+  "values": [
+    125.0, 
+    333.0, 
+    344.0, 
+    482.0, 
+    331.0, 
+    350.0, 
+    319.0, 
+    367.0, 
+    149.0, 
+    273.0, 
+    385.0, 
+    161.0, 
+    150.0, 
+    294.0, 
+    479.0, 
+    161.0, 
+    248.0, 
+    92.0, 
+    339.0, 
+    289.0, 
+    171.0, 
+    339.0, 
+    327.0, 
+    316.0, 
+    1.0, 
+    180.0, 
+    344.0, 
+    284.0, 
+    822.0, 
+    358.0, 
+    245.0, 
+    351.0, 
+    218.0, 
+    392.0, 
+    292.0, 
+    372.0, 
+    156.0, 
+    235.0, 
+    647.0, 
+    321.0, 
+    386.0, 
+    166.0, 
+    235.0, 
+    161.0, 
+    268.0, 
+    142.0, 
+    322.0, 
+    156.0, 
+    170.0, 
+    282.0, 
+    284.0, 
+    339.0, 
+    164.0, 
+    407.0, 
+    436.0, 
+    777.0, 
+    296.0, 
+    451.0, 
+    516.0, 
+    196.0, 
+    362.0, 
+    322.0, 
+    303.0, 
+    336.0, 
+    319.0, 
+    163.0, 
+    276.0, 
+    310.0, 
+    313.0, 
+    395.0, 
+    171.0, 
+    256.0, 
+    294.0, 
+    192.0, 
+    213.0, 
+    165.0, 
+    98.0, 
+    215.0, 
+    296.0, 
+    332.0, 
+    257.0, 
+    718.0, 
+    365.0, 
+    250.0, 
+    90.0, 
+    263.0, 
+    41.0, 
+    352.0, 
+    370.0, 
+    271.0, 
+    269.0, 
+    365.0, 
+    308.0, 
+    306.0, 
+    415.0, 
+    450.0, 
+    431.0, 
+    123.0, 
+    321.0, 
+    237.0
+  ]
+}

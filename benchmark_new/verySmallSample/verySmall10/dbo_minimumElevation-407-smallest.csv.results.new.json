@@ -1,0 +1,260 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/minimumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "maximumElevation", 
+          0.2
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.2095
+        ], 
+        [
+          "elevation", 
+          0.2191
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.2207
+        ], 
+        [
+          "runtime", 
+          0.2267
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          4.0
+        ], 
+        [
+          "runtime", 
+          2.0
+        ], 
+        [
+          "maximumElevation", 
+          2.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          1.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2077
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.2095
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.2095
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsEndYear)", 
+          0.2095
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsEndYear)", 
+          0.2095
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.2163
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2193
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2193
+        ], 
+        [
+          "http://dbpedia.org/ontology/Noble (activeYearsStartYear)", 
+          0.2207
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          0.2207
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.2207
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          0.2267
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          0.2267
+        ], 
+        [
+          "http://dbpedia.org/ontology/Album (runtime)", 
+          0.2275
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.2385
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Album (runtime)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Noble (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[elevation]>(isPartOf|California)>(isPartOf|Inyo_County,_California)>(type|Unincorporated_area)", 
+      0.2
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Inyo_County,_California)>(type|Unincorporated_area)", 
+      0.2
+    ], 
+    [
+      "Location[maximumElevation]>(region|Languedoc-Roussillon)>(department|Loz%C3%A8re)", 
+      0.2
+    ], 
+    [
+      "Settlement[maximumElevation]>(region|Languedoc-Roussillon)>(department|Loz%C3%A8re)", 
+      0.2
+    ], 
+    [
+      "ChristianBishop[activeYearsEndYear]", 
+      0.2095
+    ], 
+    [
+      "Noble[activeYearsStartYear]", 
+      0.2207
+    ], 
+    [
+      "Album[runtime]>(type|Extended_play)", 
+      0.2226
+    ], 
+    [
+      "Album[runtime]>(type|Extended_play)>(genre|Black_metal)", 
+      0.2308
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Inyo_County,_California)", 
+      0.2379
+    ], 
+    [
+      "City[elevation]>(isPartOf|Idaho)", 
+      0.2385
+    ]
+  ], 
+  "values": [
+    1112.208643138507, 
+    1252.5990962316296, 
+    3294.1460064501043, 
+    276.0971979495077, 
+    1315.146535374797
+  ]
+}

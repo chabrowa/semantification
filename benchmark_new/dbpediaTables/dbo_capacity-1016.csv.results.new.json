@@ -1,0 +1,177 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/capacity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfEpisodes", 
+          0.2622
+        ], 
+        [
+          "populationTotal", 
+          0.2622
+        ], 
+        [
+          "minimumElevation", 
+          0.2648
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          4.0
+        ], 
+        [
+          "minimumElevation", 
+          4.0
+        ], 
+        [
+          "numberOfEpisodes", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.2613
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2614
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2614
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.2615
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          0.2617
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          0.2622
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.2647
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.2648
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.2648
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.2649
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.2649
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[populationTotal]>(isPartOf|Ardabil_Province)>(isPartOf|Qeshlaq-e_Jonubi_Rural_District)", 
+      0.259
+    ], 
+    [
+      "TelevisionShow[numberOfEpisodes]>(channel|CBS)>(format|Black-and-white)>(format|Monaural)", 
+      0.2593
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Slovenia)>(isPartOf|Municipality_of_Kr%C5%A1ko)", 
+      0.2612
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Central_District_(Kerman_County))", 
+      0.264
+    ], 
+    [
+      "Location[minimumElevation]>(department|Seine-Maritime)", 
+      0.2644
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Seine-Maritime)", 
+      0.2644
+    ], 
+    [
+      "Location[populationTotal]>(country|Slovenia)>(isPartOf|Municipality_of_Kr%C5%A1ko)", 
+      0.2647
+    ], 
+    [
+      "TelevisionShow[numberOfEpisodes]>(channel|CBS)>(format|Black-and-white)", 
+      0.2651
+    ], 
+    [
+      "Location[minimumElevation]>(department|Seine-Maritime)>(arrondissement|Dieppe)", 
+      0.2652
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Seine-Maritime)>(arrondissement|Dieppe)", 
+      0.2652
+    ]
+  ], 
+  "values": [
+    26.0, 
+    105.0
+  ]
+}

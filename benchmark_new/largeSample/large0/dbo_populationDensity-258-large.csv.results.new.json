@@ -1,0 +1,207 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationDensity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.1033
+        ], 
+        [
+          "populationDensity", 
+          0.1142
+        ], 
+        [
+          "populationTotal", 
+          0.1154
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          8.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ], 
+        [
+          "populationTotal", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.0926
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1025
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1048
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1048
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.1079
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.1142
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1142
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1142
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1142
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.1146
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1154
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[elevation]>(country|Italy)>(region|Friuli-Venezia_Giulia)", 
+      0.0921
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Odisha)", 
+      0.0926
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|New_York)", 
+      0.1011
+    ], 
+    [
+      "Town[elevation]>(isPartOf|North_Carolina)", 
+      0.1012
+    ], 
+    [
+      "Settlement[elevation]>(country|Italy)>(region|Emilia-Romagna)", 
+      0.1055
+    ], 
+    [
+      "Town[elevation]>(isPartOf|North_Carolina)>(type|Town)", 
+      0.1079
+    ], 
+    [
+      "Town[elevation]>(isPartOf|North_Carolina)>(type|Town)>(country|United_States)", 
+      0.1113
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Arkansas)", 
+      0.1142
+    ], 
+    [
+      "City[elevation]>(isPartOf|Washington_(state))>(type|City)", 
+      0.1146
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_European_Time)>(isPartOf|Kardzhali_Province)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1154
+    ]
+  ], 
+  "values": [
+    259.461, 
+    53.5138, 
+    37.2, 
+    6.49, 
+    68.1, 
+    200.155, 
+    2.8, 
+    1102.5, 
+    180.0, 
+    3.41, 
+    184.325, 
+    94.8, 
+    2.54, 
+    254.4, 
+    68.6104, 
+    64.9, 
+    1626.6, 
+    318.623, 
+    5.36682, 
+    401.6, 
+    115.0, 
+    21.3, 
+    336.6, 
+    40.8187, 
+    125.48299999999999, 
+    124.661, 
+    79.3826, 
+    479.925, 
+    11.7, 
+    28.9577, 
+    23.5522, 
+    134.0
+  ]
+}

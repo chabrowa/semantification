@@ -1,0 +1,259 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/yearOfConstruction"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "yearOfConstruction", 
+          0.1083
+        ], 
+        [
+          "openingYear", 
+          0.2273
+        ]
+      ], 
+      "maj": [
+        [
+          "yearOfConstruction", 
+          6.0
+        ], 
+        [
+          "openingYear", 
+          4.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (yearOfConstruction)", 
+          0.0907
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (yearOfConstruction)", 
+          0.0916
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (yearOfConstruction)", 
+          0.0922
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (yearOfConstruction)", 
+          0.1118
+        ], 
+        [
+          "http://dbpedia.org/ontology/HistoricPlace (yearOfConstruction)", 
+          0.1634
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          0.2264
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          0.2268
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.2275
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.2275
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.2275
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (yearOfConstruction)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/HistoricPlace (yearOfConstruction)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (yearOfConstruction)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (yearOfConstruction)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (yearOfConstruction)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "HistoricPlace[yearOfConstruction]", 
+      0.0779
+    ], 
+    [
+      "Location[yearOfConstruction]", 
+      0.0907
+    ], 
+    [
+      "Place[yearOfConstruction]", 
+      0.0907
+    ], 
+    [
+      "Building[yearOfConstruction]", 
+      0.0916
+    ], 
+    [
+      "ArchitecturalStructure[yearOfConstruction]", 
+      0.0927
+    ], 
+    [
+      "HistoricPlace[yearOfConstruction]>(location|Baltimore)", 
+      0.2061
+    ], 
+    [
+      "Station[openingYear]>(country|United_Kingdom)>(district|Ayrshire)", 
+      0.2238
+    ], 
+    [
+      "Location[openingYear]>(country|United_Kingdom)>(district|Ayrshire)", 
+      0.2238
+    ], 
+    [
+      "Location[openingYear]>(country|United_Kingdom)", 
+      0.2302
+    ], 
+    [
+      "Station[openingYear]>(country|United_Kingdom)", 
+      0.2312
+    ]
+  ], 
+  "values": [
+    1787.0, 
+    1891.0, 
+    1853.0, 
+    1900.0, 
+    1835.0, 
+    1680.0, 
+    1934.0, 
+    1908.0, 
+    1890.0, 
+    1851.0, 
+    1932.0, 
+    1871.0, 
+    1927.0, 
+    1835.0, 
+    1859.0, 
+    1900.0, 
+    1776.0, 
+    1791.0, 
+    1850.0, 
+    1750.0, 
+    1874.0, 
+    1898.0, 
+    1836.0, 
+    1946.0, 
+    1858.0, 
+    1911.0, 
+    1817.0, 
+    1925.0, 
+    1788.0, 
+    1893.0, 
+    1900.0, 
+    1874.0, 
+    1857.0, 
+    1893.0, 
+    1901.0, 
+    1880.0, 
+    1880.0, 
+    1819.0, 
+    1814.0, 
+    32.0, 
+    1881.0, 
+    1750.0, 
+    1844.0, 
+    1928.0, 
+    1896.0, 
+    1891.0, 
+    1889.0, 
+    1842.0, 
+    1880.0, 
+    1926.0, 
+    1932.0, 
+    1955.0, 
+    1820.0, 
+    1834.0, 
+    1870.0, 
+    1845.0, 
+    1927.0, 
+    1930.0, 
+    1939.0, 
+    1902.0, 
+    1894.0, 
+    1900.0, 
+    1882.0, 
+    1873.0, 
+    1842.0, 
+    2000.0, 
+    1812.0, 
+    1923.0, 
+    1839.0, 
+    1900.0, 
+    1871.0, 
+    1799.0, 
+    1633.0, 
+    1665.0, 
+    1909.0, 
+    1914.0, 
+    1842.0, 
+    1911.0, 
+    1893.0, 
+    1810.0, 
+    1824.0, 
+    1867.0, 
+    1895.0, 
+    19.0, 
+    1843.0, 
+    1914.0, 
+    1809.0, 
+    1902.0, 
+    1916.0, 
+    1860.0, 
+    1754.0, 
+    1933.0, 
+    1950.0, 
+    1859.0, 
+    1770.0, 
+    1790.0, 
+    1889.0, 
+    1870.0, 
+    1885.0, 
+    1932.0
+  ]
+}

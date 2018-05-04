@@ -1,0 +1,229 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/openingYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "yearOfConstruction", 
+          0.1189
+        ], 
+        [
+          "openingYear", 
+          0.1223
+        ], 
+        [
+          "foundingYear", 
+          0.1386
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          6.0
+        ], 
+        [
+          "yearOfConstruction", 
+          3.0
+        ], 
+        [
+          "foundingYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Infrastructure (yearOfConstruction)", 
+          0.1189
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (yearOfConstruction)", 
+          0.1189
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (yearOfConstruction)", 
+          0.1189
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          0.1209
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (yearOfConstruction)", 
+          0.121
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.1225
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.1229
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.1236
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.1283
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          0.1377
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.1386
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.1386
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bank (foundingYear)", 
+          0.1386
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          0.1386
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (yearOfConstruction)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (yearOfConstruction)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (yearOfConstruction)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bank (foundingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (yearOfConstruction)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Infrastructure[openingYear]", 
+      0.1142
+    ], 
+    [
+      "RouteOfTransportation[yearOfConstruction]", 
+      0.1169
+    ], 
+    [
+      "Infrastructure[yearOfConstruction]", 
+      0.1169
+    ], 
+    [
+      "RouteOfTransportation[openingYear]", 
+      0.1189
+    ], 
+    [
+      "ArchitecturalStructure[openingYear]", 
+      0.1209
+    ], 
+    [
+      "Place[openingYear]", 
+      0.1209
+    ], 
+    [
+      "Location[openingYear]", 
+      0.1209
+    ], 
+    [
+      "RouteOfTransportation[yearOfConstruction]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1231
+    ], 
+    [
+      "Bridge[openingYear]", 
+      0.1377
+    ], 
+    [
+      "Bank[foundingYear]>(product|Investment_management)>(product|Investment_banking)", 
+      0.1386
+    ]
+  ], 
+  "values": [
+    2017.0, 
+    1910.0, 
+    1852.0, 
+    1978.0, 
+    1910.0, 
+    1855.0, 
+    2011.0, 
+    1999.0, 
+    1949.0, 
+    1902.0, 
+    1990.0, 
+    9.0, 
+    2003.0, 
+    1930.0, 
+    1865.0, 
+    1849.0, 
+    1964.0, 
+    1997.0, 
+    1966.0, 
+    1943.0, 
+    2002.0, 
+    1987.0, 
+    1864.0, 
+    1913.0, 
+    1957.0, 
+    16.0, 
+    1926.0, 
+    2012.0, 
+    1995.0, 
+    1988.0
+  ]
+}

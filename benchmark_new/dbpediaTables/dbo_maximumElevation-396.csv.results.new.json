@@ -1,0 +1,170 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/maximumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.3265
+        ], 
+        [
+          "minimumElevation", 
+          0.3331
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          6.0
+        ], 
+        [
+          "minimumElevation", 
+          4.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.3156
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.324
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.324
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.3287
+        ], 
+        [
+          "http://dbpedia.org/ontology/Airport (elevation)", 
+          0.3318
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (elevation)", 
+          0.3318
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          0.3318
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.3331
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.3331
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.3332
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.3332
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Airport (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[elevation]>(isPartOf|California)", 
+      0.3149
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)", 
+      0.3156
+    ], 
+    [
+      "Airport[elevation]", 
+      0.3318
+    ], 
+    [
+      "Infrastructure[elevation]", 
+      0.3318
+    ], 
+    [
+      "ArchitecturalStructure[elevation]", 
+      0.3318
+    ], 
+    [
+      "PopulatedPlace[minimumElevation]", 
+      0.3331
+    ], 
+    [
+      "Location[minimumElevation]", 
+      0.3331
+    ], 
+    [
+      "Place[minimumElevation]", 
+      0.3331
+    ], 
+    [
+      "Settlement[minimumElevation]", 
+      0.3332
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)", 
+      0.3332
+    ]
+  ], 
+  "values": [
+    -3.0, 
+    137.16, 
+    1874.52
+  ]
+}

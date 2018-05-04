@@ -1,0 +1,256 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/deathYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "openingYear", 
+          0.1596
+        ], 
+        [
+          "year", 
+          0.1604
+        ], 
+        [
+          "foundingYear", 
+          0.1724
+        ], 
+        [
+          "formationYear", 
+          0.1752
+        ]
+      ], 
+      "maj": [
+        [
+          "year", 
+          4.0
+        ], 
+        [
+          "openingYear", 
+          3.0
+        ], 
+        [
+          "formationYear", 
+          2.0
+        ], 
+        [
+          "foundingYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/RoadJunction (openingYear)", 
+          0.1496
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.1557
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.1596
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.1596
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.1596
+        ], 
+        [
+          "http://dbpedia.org/ontology/FootballLeagueSeason (year)", 
+          0.16
+        ], 
+        [
+          "http://dbpedia.org/ontology/NationalFootballLeagueSeason (year)", 
+          0.16
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeamSeason (year)", 
+          0.16
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsSeason (year)", 
+          0.1604
+        ], 
+        [
+          "http://dbpedia.org/ontology/RoadTunnel (openingYear)", 
+          0.1618
+        ], 
+        [
+          "http://dbpedia.org/ontology/PowerStation (openingYear)", 
+          0.1675
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerLeague (foundingYear)", 
+          0.1724
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.1724
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.1724
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsLeague (foundingYear)", 
+          0.1724
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (formationYear)", 
+          0.1752
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (formationYear)", 
+          0.1752
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/SportsSeason (year)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeamSeason (year)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/FootballLeagueSeason (year)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (formationYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NationalFootballLeagueSeason (year)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (formationYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerLeague (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RoadTunnel (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RoadJunction (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsLeague (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PowerStation (openingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "RoadJunction[openingYear]", 
+      0.1496
+    ], 
+    [
+      "SportsTeamSeason[year]", 
+      0.16
+    ], 
+    [
+      "FootballLeagueSeason[year]", 
+      0.16
+    ], 
+    [
+      "NationalFootballLeagueSeason[year]", 
+      0.16
+    ], 
+    [
+      "SportsSeason[year]", 
+      0.1618
+    ], 
+    [
+      "RoadTunnel[openingYear]", 
+      0.1618
+    ], 
+    [
+      "PowerStation[openingYear]", 
+      0.1675
+    ], 
+    [
+      "SoccerLeague[foundingYear]", 
+      0.1724
+    ], 
+    [
+      "Organisation[formationYear]", 
+      0.1752
+    ], 
+    [
+      "Agent[formationYear]", 
+      0.1752
+    ]
+  ], 
+  "values": [
+    2015.0, 
+    1967.0, 
+    2013.0, 
+    1978.0, 
+    1982.0, 
+    1993.0, 
+    1983.0, 
+    1981.0, 
+    2015.0, 
+    2011.0, 
+    1971.0, 
+    1943.0, 
+    1976.0, 
+    2006.0, 
+    1985.0, 
+    2003.0, 
+    2015.0, 
+    2006.0, 
+    1880.0, 
+    1904.0, 
+    1940.0, 
+    2016.0, 
+    1933.0, 
+    1908.0, 
+    20.0
+  ]
+}

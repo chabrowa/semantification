@@ -1,0 +1,239 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/elevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.0828
+        ], 
+        [
+          "elevation", 
+          0.0855
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          8.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.0735
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          0.0771
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0791
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0791
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          0.083
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.0851
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.0855
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.0855
+        ], 
+        [
+          "http://dbpedia.org/ontology/MountainRange (elevation)", 
+          0.088
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.0887
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MountainRange (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[populationTotal]>(country|India)>(isPartOf|Pudukkottai_district)>(timeZone|Indian_Standard_Time)", 
+      0.0735
+    ], 
+    [
+      "Village[populationTotal]>(country|India)>(isPartOf|Pudukkottai_district)", 
+      0.0736
+    ], 
+    [
+      "Town[populationTotal]>(isPartOf|Michigan)>(type|Township_(United_States))", 
+      0.0737
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_Time_Zone)>(type|Township_(United_States))>(isPartOf|Michigan)", 
+      0.0797
+    ], 
+    [
+      "Town[populationTotal]>(isPartOf|Michigan)>(type|Township_(United_States))>(timeZone|Eastern_Time_Zone)", 
+      0.0797
+    ], 
+    [
+      "Mountain[elevation]", 
+      0.083
+    ], 
+    [
+      "MountainRange[elevation]", 
+      0.088
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_Time_Zone)>(type|Township_(United_States))", 
+      0.0921
+    ], 
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(country|Wales)>(ceremonialCounty|Gwynedd)", 
+      0.095
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|Wales)>(ceremonialCounty|Gwynedd)", 
+      0.095
+    ]
+  ], 
+  "values": [
+    2034.0, 
+    829.0, 
+    859.0, 
+    516.0, 
+    1700.0, 
+    2210.0, 
+    299.0, 
+    1053.0, 
+    5959.0, 
+    314.0, 
+    2004.0, 
+    2655.0, 
+    317.0, 
+    3418.0, 
+    1083.0, 
+    496.0, 
+    408.0, 
+    2616.0, 
+    6044.0, 
+    2157.0, 
+    496.0, 
+    4049.0, 
+    4048.0, 
+    3221.0, 
+    2627.0, 
+    596.0, 
+    1389.0, 
+    1945.0, 
+    354.0, 
+    4771.0, 
+    1834.0, 
+    1973.0, 
+    2029.0, 
+    441.0, 
+    1161.0, 
+    2161.0, 
+    1685.0, 
+    2070.0, 
+    419.2, 
+    430.0, 
+    1602.0, 
+    2588.0, 
+    564.7, 
+    1889.0, 
+    2393.0, 
+    927.0, 
+    1244.0, 
+    2401.0, 
+    2648.0, 
+    1618.0, 
+    392.2, 
+    2075.0, 
+    6083.0, 
+    1862.0, 
+    3135.0, 
+    252.0, 
+    839.0, 
+    2572.0, 
+    3090.0, 
+    4019.0, 
+    2191.0, 
+    1396.0, 
+    965.0, 
+    4825.0, 
+    761.0, 
+    3284.0, 
+    3343.0, 
+    5109.0, 
+    747.0, 
+    1750.0, 
+    1726.0, 
+    1720.0, 
+    3050.0, 
+    1452.0, 
+    1157.0, 
+    1270.0, 
+    752.0, 
+    3369.0, 
+    5750.0, 
+    260.0
+  ]
+}

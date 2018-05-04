@@ -1,0 +1,205 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/height"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "height", 
+          0.1065
+        ], 
+        [
+          "elevation", 
+          0.1098
+        ], 
+        [
+          "minimumElevation", 
+          0.1194
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          7.0
+        ], 
+        [
+          "minimumElevation", 
+          2.0
+        ], 
+        [
+          "height", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1002
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.1065
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          0.1065
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.1065
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1166
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1166
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1168
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.1194
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.1194
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.1194
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1194
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Gujarat)", 
+      0.0944
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Gujarat)>(country|India)", 
+      0.0963
+    ], 
+    [
+      "Infrastructure[height]", 
+      0.1065
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Nord_(French_department))", 
+      0.1082
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Humboldt_County,_California)", 
+      0.1114
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Pas-de-Calais)>(arrondissement|Arrondissement_of_Saint-Omer)", 
+      0.1119
+    ], 
+    [
+      "Location[minimumElevation]>(region|Languedoc-Roussillon)>(department|H%C3%A9rault)", 
+      0.1194
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Languedoc-Roussillon)>(department|H%C3%A9rault)", 
+      0.1194
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|California)>(isPartOf|Humboldt_County,_California)", 
+      0.1225
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Nord_(French_department))>(region|Nord-Pas-de-Calais)", 
+      0.1239
+    ]
+  ], 
+  "values": [
+    241.91009184615618, 
+    115.30264441536471, 
+    45.47030469632833, 
+    245.02268158208136, 
+    32.390164892574475, 
+    158.43662696148155, 
+    89.28468641791709, 
+    8.278545686484902, 
+    86.83343975585022, 
+    22.706865409073192, 
+    30.39914226597518, 
+    64.62852045120343, 
+    18.70109891596163, 
+    8.319172550658848, 
+    122.29034406957604, 
+    26.361352524498002, 
+    26.89226576339461, 
+    64.56400884064789, 
+    117.51068991057187, 
+    53.30205464812103, 
+    59.142909453073116, 
+    189.2608282198813, 
+    91.73915104676979, 
+    9.853059399429812, 
+    29.640850197363996, 
+    48.88420858637078, 
+    3.6505152063465705, 
+    20.63646945969148, 
+    157.75500085851564, 
+    5.077926147355837
+  ]
+}

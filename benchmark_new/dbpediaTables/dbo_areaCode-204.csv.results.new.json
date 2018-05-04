@@ -1,0 +1,211 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaCode", 
+    "780,587 and 825", 
+    "418 and 581"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.2151
+        ], 
+        [
+          "areaCode", 
+          0.2226
+        ], 
+        [
+          "maximumElevation", 
+          0.2237
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          7.0
+        ], 
+        [
+          "maximumElevation", 
+          2.0
+        ], 
+        [
+          "areaCode", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.2102
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2219
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaCode)", 
+          0.2226
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.2226
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          0.2226
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          0.2226
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          0.2237
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.2237
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          0.2237
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          0.2237
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.224
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2241
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.2241
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          0.2241
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          15.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|North_Dakota)", 
+      0.169
+    ], 
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)>(type|Hamlet_(place))>(country|Canada)", 
+      0.2091
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Central_Alberta)>(isPartOf|Alberta)", 
+      0.2103
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Central_Alberta)>(isPartOf|Alberta)>(country|Canada)", 
+      0.2211
+    ], 
+    [
+      "City[areaCode]>(isPartOf|California)", 
+      0.2226
+    ], 
+    [
+      "Location[maximumElevation]>(region|Rh%C3%B4ne-Alpes)>(department|Loire_(department))>(arrondissement|Arrondissement_of_Montbrison)", 
+      0.2237
+    ], 
+    [
+      "Settlement[maximumElevation]>(region|Rh%C3%B4ne-Alpes)>(department|Loire_(department))>(arrondissement|Arrondissement_of_Montbrison)", 
+      0.2237
+    ], 
+    [
+      "Mountain[elevation]>(locatedInArea|Wales)>(mountainRange|Snowdonia)>(locatedInArea|Gwynedd)", 
+      0.2241
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Central_Alberta)", 
+      0.2333
+    ], 
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)>(type|Hamlet_(place))", 
+      0.239
+    ]
+  ], 
+  "values": [
+    53.0, 
+    709.0, 
+    705.0, 
+    775.0, 
+    819.0, 
+    450.0, 
+    613.0, 
+    807.0, 
+    819.0, 
+    1491.0
+  ]
+}

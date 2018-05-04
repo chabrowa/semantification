@@ -1,0 +1,121 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfStudents"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaCode", 
+          0.3835
+        ]
+      ], 
+      "maj": [
+        [
+          "areaCode", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Town (areaCode)", 
+          0.3658
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          0.3731
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          0.3793
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.3793
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaCode)", 
+          0.4073
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          0.4216
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          18.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaCode)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaCode)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          4.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Town[areaCode]>(isPartOf|Kerala)>(country|India)", 
+      0.3615
+    ], 
+    [
+      "Settlement[areaCode]>(timeZone|Indian_Standard_Time)>(isPartOf|Kerala)>(country|India)", 
+      0.3625
+    ], 
+    [
+      "Town[areaCode]>(isPartOf|Kerala)", 
+      0.367
+    ], 
+    [
+      "Settlement[areaCode]>(timeZone|Indian_Standard_Time)>(isPartOf|Kerala)", 
+      0.3675
+    ], 
+    [
+      "Town[areaCode]>(isPartOf|Kerala)>(country|India)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3684
+    ], 
+    [
+      "Settlement[areaCode]>(timeZone|Indian_Standard_Time)>(isPartOf|Kerala)>(country|India)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3701
+    ], 
+    [
+      "Village[areaCode]>(isPartOf|Kerala)", 
+      0.3918
+    ], 
+    [
+      "Village[areaCode]>(isPartOf|Kerala)>(type|Village)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.4071
+    ], 
+    [
+      "Village[areaCode]>(isPartOf|Kerala)>(type|Village)", 
+      0.4177
+    ], 
+    [
+      "Location[areaCode]>(timeZone|Indian_Standard_Time)>(isPartOf|Thiruvananthapuram_district)>(isPartOf|Kerala)", 
+      0.4216
+    ]
+  ], 
+  "values": [
+    500.0, 
+    465.0
+  ]
+}

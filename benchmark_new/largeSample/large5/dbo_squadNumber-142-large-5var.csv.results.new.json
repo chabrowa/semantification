@@ -1,0 +1,266 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/squadNumber"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "number", 
+          0.0962
+        ], 
+        [
+          "elevation", 
+          0.1044
+        ], 
+        [
+          "width", 
+          0.1231
+        ]
+      ], 
+      "maj": [
+        [
+          "number", 
+          6.0
+        ], 
+        [
+          "width", 
+          3.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.0962
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.0962
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.0962
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          0.1018
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1044
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1044
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1044
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          0.1049
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          0.123
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          0.1231
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.1231
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          0.1245
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "SoccerPlayer[number]", 
+      0.0519
+    ], 
+    [
+      "BasketballPlayer[number]>(nationality|Philippines)", 
+      0.0852
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Austria)", 
+      0.0997
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Vorpommern-Greifswald)", 
+      0.1044
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Spain)", 
+      0.1096
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Indonesia)", 
+      0.1128
+    ], 
+    [
+      "BasketballPlayer[number]>(nationality|Philippines)>(league|Philippine_Basketball_Association)", 
+      0.1181
+    ], 
+    [
+      "Infrastructure[width]", 
+      0.1214
+    ], 
+    [
+      "ArchitecturalStructure[width]", 
+      0.1235
+    ], 
+    [
+      "RouteOfTransportation[width]", 
+      0.1245
+    ]
+  ], 
+  "values": [
+    4.0, 
+    29.0, 
+    23.0, 
+    18.0, 
+    3.0, 
+    13.0, 
+    15.0, 
+    16.0, 
+    30.0, 
+    17.0, 
+    18.0, 
+    19.0, 
+    1.0, 
+    7.0, 
+    8.0, 
+    2.0, 
+    26.0, 
+    29.0, 
+    14.0, 
+    32.0, 
+    25.0, 
+    3.0, 
+    2.0, 
+    2.0, 
+    22.0, 
+    24.0, 
+    14.0, 
+    14.0, 
+    26.0, 
+    26.0, 
+    30.0, 
+    7.0, 
+    45.0, 
+    17.0, 
+    10.0, 
+    5.0, 
+    35.0, 
+    27.0, 
+    21.0, 
+    15.0, 
+    30.0, 
+    3.0, 
+    28.0, 
+    1.0, 
+    9.0, 
+    16.0, 
+    19.0, 
+    10.0, 
+    10.0, 
+    9.0, 
+    13.0, 
+    26.0, 
+    3.0, 
+    7.0, 
+    11.0, 
+    19.0, 
+    8.0, 
+    2.0, 
+    22.0, 
+    11.0, 
+    18.0, 
+    25.0, 
+    12.0, 
+    17.0, 
+    11.0, 
+    11.0, 
+    16.0, 
+    32.0, 
+    1.0, 
+    19.0, 
+    9.0, 
+    23.0, 
+    24.0, 
+    20.0, 
+    21.0, 
+    17.0, 
+    20.0, 
+    5.0, 
+    14.0, 
+    43.0, 
+    4.0, 
+    44.0, 
+    14.0
+  ]
+}

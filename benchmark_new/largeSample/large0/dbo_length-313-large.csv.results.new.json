@@ -1,0 +1,195 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/length"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.1156
+        ], 
+        [
+          "elevation", 
+          0.1315
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          8.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1073
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.1182
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1274
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1274
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.1296
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1303
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1315
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1315
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1315
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationDensity]>(type|Types_of_municipalities_in_Quebec)", 
+      0.0861
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Illinois)", 
+      0.0879
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Arkansas)>(type|Civil_township)", 
+      0.1134
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Arkansas)>(type|Civil_township)", 
+      0.1134
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Illinois)", 
+      0.1151
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Western_Norway)>(isPartOf|Sogn_og_Fjordane)", 
+      0.1216
+    ], 
+    [
+      "Location[populationDensity]>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Laurentides)", 
+      0.1282
+    ], 
+    [
+      "Town[populationDensity]", 
+      0.1386
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Western_Norway)", 
+      0.1415
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Kansas)", 
+      0.1423
+    ]
+  ], 
+  "values": [
+    3.937, 
+    277.8, 
+    14.59, 
+    3.3528, 
+    5.0419, 
+    8.5344, 
+    173.7, 
+    13100.0, 
+    95.7072, 
+    30.0, 
+    34.4424, 
+    13.1, 
+    27400.0, 
+    7.997999999999999, 
+    13.0, 
+    12.1, 
+    276.149, 
+    7.24, 
+    42.9768, 
+    87.0, 
+    4.68122, 
+    20.73, 
+    77.63, 
+    16.892, 
+    14.9, 
+    9.79, 
+    21.0312, 
+    13.716, 
+    0.23, 
+    2.9, 
+    4.95, 
+    123.535, 
+    3890.0, 
+    5.4102, 
+    5.99, 
+    44.5008, 
+    20.8, 
+    3.82, 
+    4.12, 
+    88.8, 
+    149.0, 
+    2.8194, 
+    0.13462000000000002, 
+    0.18288
+  ]
+}

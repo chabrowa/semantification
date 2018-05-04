@@ -1,0 +1,253 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationDensity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfStudents", 
+          0.077
+        ], 
+        [
+          "elevation", 
+          0.1231
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          9.0
+        ], 
+        [
+          "numberOfStudents", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.077
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          0.077
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.077
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.077
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1219
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1244
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1245
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1245
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.1355
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          17.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          15.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "School[numberOfStudents]>(type|Academy_(English_school))", 
+      0.077
+    ], 
+    [
+      "Settlement[elevation]>(country|Switzerland)>(canton|Graub%C3%BCnden)", 
+      0.0923
+    ], 
+    [
+      "Location[elevation]>(country|Switzerland)>(canton|Graub%C3%BCnden)", 
+      0.0923
+    ], 
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(type|Unincorporated_area)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1232
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(type|Unincorporated_area)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1232
+    ], 
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(type|Unincorporated_area)", 
+      0.126
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(type|Unincorporated_area)", 
+      0.126
+    ], 
+    [
+      "Town[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)", 
+      0.1355
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)", 
+      0.1438
+    ], 
+    [
+      "Settlement[elevation]>(country|Switzerland)>(canton|Graub%C3%BCnden)>(type|Municipalities_of_Switzerland)", 
+      0.1456
+    ]
+  ], 
+  "values": [
+    1247.0, 
+    1053.0, 
+    834.0, 
+    1359.0, 
+    1432.0, 
+    1283.0, 
+    953.0, 
+    1364.0, 
+    1221.0, 
+    1198.0, 
+    1698.0, 
+    1270.0, 
+    1149.0, 
+    1176.0, 
+    1350.0, 
+    1405.0, 
+    900.0, 
+    1019.0, 
+    1637.0, 
+    1365.0, 
+    890.0, 
+    8.8, 
+    927.0, 
+    962.0, 
+    850.0, 
+    711.0, 
+    767.0, 
+    1288.0, 
+    1072.0, 
+    2212.0, 
+    1135.0, 
+    887.0, 
+    1163.0, 
+    1660.0, 
+    1208.0, 
+    711.0, 
+    1699.0, 
+    2060.0, 
+    1273.0, 
+    674.0, 
+    1926.0, 
+    1456.0, 
+    1576.0, 
+    1379.0, 
+    900.0, 
+    596.0, 
+    833.0, 
+    842.0, 
+    719.0, 
+    1035.0, 
+    997.0, 
+    759.0, 
+    991.0, 
+    1743.0, 
+    851.0, 
+    1135.0, 
+    1567.0, 
+    1269.0, 
+    1087.0, 
+    1276.0, 
+    650.0, 
+    992.0, 
+    616.0, 
+    867.0, 
+    1048.0, 
+    864.0, 
+    1533.0, 
+    1098.0, 
+    895.0, 
+    1250.0, 
+    1208.0, 
+    1263.0, 
+    654.0, 
+    889.0, 
+    958.0, 
+    765.0, 
+    720.0, 
+    1638.0, 
+    1637.0, 
+    1271.0, 
+    1615.0, 
+    970.0, 
+    837.0, 
+    815.0, 
+    801.0, 
+    943.0, 
+    1810.0, 
+    1002.0, 
+    763.0, 
+    631.0, 
+    1107.0, 
+    600.0, 
+    642.0, 
+    1518.0, 
+    942.0, 
+    1077.0, 
+    1391.0, 
+    2851.0, 
+    2398.1, 
+    970.0, 
+    843.0, 
+    1257.0
+  ]
+}

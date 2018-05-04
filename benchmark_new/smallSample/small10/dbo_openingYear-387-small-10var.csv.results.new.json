@@ -1,0 +1,208 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/openingYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "openingYear", 
+          0.3108
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.3186
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          7.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Tunnel (openingYear)", 
+          0.303
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          0.3034
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.3097
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          0.3101
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.3108
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.3108
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.3122
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsStartYear)", 
+          0.3174
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.3186
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          0.3186
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsStartYear)", 
+          0.3186
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          0.3257
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsStartYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsStartYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tunnel (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "RailwayLine[openingYear]", 
+      0.3002
+    ], 
+    [
+      "Tunnel[openingYear]", 
+      0.303
+    ], 
+    [
+      "RailwayLine[openingYear]>(type|Light_rail)", 
+      0.305
+    ], 
+    [
+      "RouteOfTransportation[openingYear]", 
+      0.3073
+    ], 
+    [
+      "RailwayTunnel[openingYear]", 
+      0.3101
+    ], 
+    [
+      "ChristianBishop[activeYearsStartYear]>(religion|Catholic_Church)", 
+      0.3131
+    ], 
+    [
+      "ChristianBishop[activeYearsStartYear]>(religion|Anglicanism)", 
+      0.3182
+    ], 
+    [
+      "ChristianBishop[activeYearsStartYear]", 
+      0.3244
+    ], 
+    [
+      "Infrastructure[openingYear]", 
+      0.3246
+    ], 
+    [
+      "Bridge[openingYear]", 
+      0.3257
+    ]
+  ], 
+  "values": [
+    1918.0, 
+    2066.0, 
+    1704.0, 
+    1747.0, 
+    2123.0, 
+    2071.0, 
+    1915.0, 
+    2183.0, 
+    2012.0, 
+    1922.0, 
+    1986.0, 
+    1909.0, 
+    1833.0, 
+    2182.0, 
+    1890.0, 
+    1939.0, 
+    1830.0, 
+    1821.0, 
+    2028.0, 
+    1756.0, 
+    2157.0, 
+    1686.0, 
+    2000.0, 
+    1823.0, 
+    1911.0, 
+    2134.0, 
+    2006.0, 
+    2014.0, 
+    2160.0, 
+    1988.0, 
+    2206.0, 
+    1816.0, 
+    1750.0
+  ]
+}

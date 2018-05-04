@@ -1,0 +1,186 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/foundingYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "activeYearsStartYear", 
+          0.3333
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.3333
+        ], 
+        [
+          "draftYear", 
+          0.3333
+        ], 
+        [
+          "yearOfConstruction", 
+          0.3333
+        ]
+      ], 
+      "maj": [
+        [
+          "draftYear", 
+          5.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          3.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          1.0
+        ], 
+        [
+          "yearOfConstruction", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          0.3332
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/TimePeriod (activeYearsEndYear)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsStartYear)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (draftYear)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (draftYear)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (draftYear)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/GridironFootballPlayer (draftYear)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Train (yearOfConstruction)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmericanFootballPlayer (draftYear)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (yearOfConstruction)", 
+          0.3333
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Agent (draftYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (draftYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (draftYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/GridironFootballPlayer (draftYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Train (yearOfConstruction)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TimePeriod (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmericanFootballPlayer (draftYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (yearOfConstruction)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Person[activeYearsStartYear]", 
+      0.3332
+    ], 
+    [
+      "Agent[activeYearsStartYear]", 
+      0.3333
+    ], 
+    [
+      "TimePeriod[activeYearsEndYear]", 
+      0.3333
+    ], 
+    [
+      "Organisation[activeYearsStartYear]", 
+      0.3333
+    ], 
+    [
+      "Train[yearOfConstruction]>(manufacturer|Japan_Transport_Engineering_Company)", 
+      0.3333
+    ], 
+    [
+      "Athlete[draftYear]", 
+      0.3333
+    ], 
+    [
+      "Person[draftYear]", 
+      0.3333
+    ], 
+    [
+      "Agent[draftYear]", 
+      0.3333
+    ], 
+    [
+      "GridironFootballPlayer[draftYear]", 
+      0.3333
+    ], 
+    [
+      "AmericanFootballPlayer[draftYear]", 
+      0.3333
+    ]
+  ], 
+  "values": [
+    1998.0, 
+    1945.0, 
+    2052.0
+  ]
+}

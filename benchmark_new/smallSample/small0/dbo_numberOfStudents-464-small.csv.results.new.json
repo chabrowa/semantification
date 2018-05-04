@@ -1,0 +1,173 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfStudents"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.0938
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.0922
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0933
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0933
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.0946
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          0.0948
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          17.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          5.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationTotal]>(country|Italy)>(province|Province_of_Novara)", 
+      0.0889
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(province|Province_of_Novara)", 
+      0.0889
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(province|Province_of_Cremona)", 
+      0.0928
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(province|Province_of_Cremona)", 
+      0.0928
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_Time_Zone)>(type|Township_(United_States))>(isPartOf|Michigan)", 
+      0.094
+    ], 
+    [
+      "Town[populationTotal]>(isPartOf|Michigan)>(type|Township_(United_States))>(timeZone|Eastern_Time_Zone)", 
+      0.094
+    ], 
+    [
+      "Town[populationTotal]>(isPartOf|Pennsylvania)", 
+      0.0951
+    ], 
+    [
+      "Town[populationTotal]>(isPartOf|Michigan)>(type|Township_(United_States))", 
+      0.0957
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_Time_Zone)>(type|Township_(United_States))", 
+      0.0973
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(province|Province_of_Cremona)>(region|Lombardy)", 
+      0.0988
+    ]
+  ], 
+  "values": [
+    1520.0, 
+    1653.0, 
+    1440.0, 
+    3037.0, 
+    303.0, 
+    1026.0, 
+    2008.0, 
+    1200.0, 
+    3985.0, 
+    515.0, 
+    10009.0, 
+    1277.0, 
+    1754.0, 
+    1802.0, 
+    1450.0, 
+    4418.0, 
+    2452.0, 
+    366.0, 
+    18000.0, 
+    1607.0, 
+    5817.0, 
+    5472.0, 
+    714.0, 
+    1415.0, 
+    17375.0, 
+    6034.0, 
+    960.0, 
+    5224.0, 
+    2277.0, 
+    1247.0, 
+    1234.0, 
+    388.0, 
+    3776.0, 
+    1054.0, 
+    85.0, 
+    1735.0, 
+    1605.0, 
+    1112.0, 
+    4438.0, 
+    550.0, 
+    987.0, 
+    786.0, 
+    4798.0, 
+    111.0, 
+    4354.0, 
+    1673.0, 
+    1408.0, 
+    3863.0, 
+    644.0, 
+    1314.0, 
+    3693.0, 
+    1775.0, 
+    2592.0, 
+    651.0, 
+    1632.0, 
+    668.0, 
+    983.0, 
+    2912.0, 
+    715.0, 
+    2522.0, 
+    1933.0, 
+    11457.0
+  ]
+}

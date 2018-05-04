@@ -1,0 +1,277 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/budget"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.1667
+        ], 
+        [
+          "populationTotal", 
+          0.265
+        ], 
+        [
+          "length", 
+          0.2797
+        ], 
+        [
+          "weight", 
+          0.3061
+        ], 
+        [
+          "areaWater", 
+          0.3137
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          3.0
+        ], 
+        [
+          "areaWater", 
+          2.0
+        ], 
+        [
+          "weight", 
+          2.0
+        ], 
+        [
+          "length", 
+          2.0
+        ], 
+        [
+          "areaTotal", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/SportFacility (areaTotal)", 
+          0.1667
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1667
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (areaTotal)", 
+          0.1667
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.2581
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.265
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.265
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.2797
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          0.2797
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          0.2797
+        ], 
+        [
+          "http://dbpedia.org/ontology/River (length)", 
+          0.2797
+        ], 
+        [
+          "http://dbpedia.org/ontology/Stream (length)", 
+          0.2797
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bodybuilder (weight)", 
+          0.3059
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (weight)", 
+          0.3061
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (weight)", 
+          0.3061
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (weight)", 
+          0.3061
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wrestler (weight)", 
+          0.3063
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.3137
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.3137
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.3137
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          0.3137
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.3137
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/River (length)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (weight)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (weight)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (weight)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Stream (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bodybuilder (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wrestler (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "SportFacility[areaTotal]>(location|United_States)", 
+      0.1667
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Iran_Standard_Time)>(22-rdf-syntax-ns#type|_Feature)>(type|Counties_of_Iran)", 
+      0.2305
+    ], 
+    [
+      "River[length]>(state|Alaska)", 
+      0.2704
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Iran_Standard_Time)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2719
+    ], 
+    [
+      "River[length]>(sourceCountry|Australia)", 
+      0.2891
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Iran_Standard_Time)", 
+      0.2926
+    ], 
+    [
+      "Bodybuilder[weight]", 
+      0.3059
+    ], 
+    [
+      "Wrestler[weight]", 
+      0.3063
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Iowa)>(type|Township_(United_States))>(timeZone|Central_Time_Zone)", 
+      0.3137
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Iowa)>(type|Township_(United_States))>(timeZone|Central_Time_Zone)", 
+      0.3137
+    ]
+  ], 
+  "values": [
+    52336.26796702449, 
+    483522.3970404973, 
+    122217.27127830905, 
+    49310.34950570379, 
+    100826.7574813039, 
+    96588.22503895269
+  ]
+}

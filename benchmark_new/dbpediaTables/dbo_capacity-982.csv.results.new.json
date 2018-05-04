@@ -1,0 +1,179 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/capacity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.3239
+        ], 
+        [
+          "postalCode", 
+          0.3628
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          7.0
+        ], 
+        [
+          "postalCode", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.2323
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.3239
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.3239
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.3371
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (postalCode)", 
+          0.35
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationTotal)", 
+          0.356
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationTotal)", 
+          0.356
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          0.3596
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          0.3692
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          0.3692
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          0.3692
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (postalCode)", 
+          0.37
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (postalCode)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (postalCode)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[populationTotal]>(country|India)>(isPartOf|Thiruvananthapuram)", 
+      0.2217
+    ], 
+    [
+      "Village[populationTotal]>(country|India)>(isPartOf|Thiruvananthapuram)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2402
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|Gujarat)>(country|India)", 
+      0.349
+    ], 
+    [
+      "Location[postalCode]>(timeZone|Central_European_Time)>(country|Algeria)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.35
+    ], 
+    [
+      "AdministrativeRegion[populationTotal]>(country|Korea)", 
+      0.356
+    ], 
+    [
+      "Town[postalCode]>(timeZone|Central_European_Time)>(country|Serbia)", 
+      0.3633
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Kerala)>(country|India)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3651
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|Gujarat)", 
+      0.3655
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|Maharashtra)", 
+      0.3697
+    ], 
+    [
+      "Town[postalCode]>(timeZone|Central_European_Time)>(country|Serbia)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.375
+    ]
+  ], 
+  "values": [
+    18000.0, 
+    25000.0, 
+    28000.0, 
+    38755.0
+  ]
+}

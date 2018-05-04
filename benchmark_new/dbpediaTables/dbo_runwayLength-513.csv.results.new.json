@@ -1,0 +1,357 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runwayLength"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "activeYearsEndYear", 
+          0.1383
+        ], 
+        [
+          "elevation", 
+          0.1387
+        ], 
+        [
+          "runtime", 
+          0.1393
+        ], 
+        [
+          "numberOfStudents", 
+          0.1479
+        ], 
+        [
+          "populationDensity", 
+          0.1618
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          3.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          2.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ], 
+        [
+          "numberOfStudents", 
+          2.0
+        ], 
+        [
+          "runtime", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.135
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          0.135
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.135
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.1383
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsEndYear)", 
+          0.1383
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.1383
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsEndYear)", 
+          0.1383
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          0.1393
+        ], 
+        [
+          "http://dbpedia.org/ontology/Album (runtime)", 
+          0.1393
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          0.1393
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1424
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.1479
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.1479
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.1479
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          0.1492
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          0.1592
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1613
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1613
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1624
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1627
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Album (runtime)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsEndYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Mountain[elevation]>(locatedInArea|Japan)", 
+      0.135
+    ], 
+    [
+      "Cleric[activeYearsEndYear]", 
+      0.1383
+    ], 
+    [
+      "ChristianBishop[activeYearsEndYear]", 
+      0.1383
+    ], 
+    [
+      "School[numberOfStudents]>(state|Pennsylvania)>(type|State_school)", 
+      0.139
+    ], 
+    [
+      "Album[runtime]>(type|Extended_play)", 
+      0.1393
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)", 
+      0.1424
+    ], 
+    [
+      "School[numberOfStudents]>(state|New_York)>(type|State_school)>(country|United_States)", 
+      0.1568
+    ], 
+    [
+      "Village[populationDensity]>(isPartOf|Cook_County,_Illinois)", 
+      0.1592
+    ], 
+    [
+      "Location[populationDensity]>(timeZone|Indian_Standard_Time)>(isPartOf|Kerala)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1627
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|New_Jersey)>(isPartOf|Monmouth_County,_New_Jersey)", 
+      0.1635
+    ]
+  ], 
+  "values": [
+    950.976, 
+    1219.2, 
+    822.96, 
+    1524.0, 
+    3048.0, 
+    3048.0, 
+    1219.2, 
+    670.56, 
+    1219.2, 
+    1005.84, 
+    3048.0, 
+    1219.2, 
+    1524.0, 
+    1219.2, 
+    549.0, 
+    549.25, 
+    1221.64, 
+    1222.0, 
+    762.0, 
+    1973.58, 
+    1974.0, 
+    2360.68, 
+    2361.0, 
+    807.72, 
+    1828.8, 
+    1882.14, 
+    1950.72, 
+    1224.38, 
+    2713.02, 
+    2318.0, 
+    2374.39, 
+    914.4, 
+    1828.8, 
+    566.318, 
+    1219.2, 
+    1950.72, 
+    1371.6, 
+    578.815, 
+    579.0, 
+    2286.0, 
+    799.49, 
+    914.095, 
+    1950.72, 
+    1951.0, 
+    1828.0, 
+    1828.5, 
+    640.08, 
+    1588.92, 
+    1219.2, 
+    1524.0, 
+    1524.3, 
+    1584.05, 
+    1214.93, 
+    1219.2, 
+    1900.43, 
+    3102.86, 
+    1524.0, 
+    1249.68, 
+    1371.6, 
+    847.954, 
+    914.4, 
+    304.8, 
+    3200.4, 
+    1524.3, 
+    958.901, 
+    2048.56, 
+    887.578, 
+    1524.0, 
+    609.6, 
+    876.3, 
+    822.96, 
+    1066.8, 
+    1554.48, 
+    914.4, 
+    1341.12, 
+    1072.9, 
+    2194.56, 
+    1524.0, 
+    907.999, 
+    1456.94, 
+    1219.2, 
+    1701.7, 
+    1036.32, 
+    1225.3, 
+    819.912, 
+    1524.0, 
+    838.2, 
+    1517.9, 
+    1371.6, 
+    999.744, 
+    1000.0, 
+    1275.28, 
+    609.6, 
+    944.88
+  ]
+}

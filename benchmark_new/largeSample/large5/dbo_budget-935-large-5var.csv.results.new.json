@@ -1,0 +1,292 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/budget"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "budget", 
+          0.1867
+        ], 
+        [
+          "postalCode", 
+          0.229
+        ], 
+        [
+          "populationTotal", 
+          0.2317
+        ]
+      ], 
+      "maj": [
+        [
+          "budget", 
+          5.0
+        ], 
+        [
+          "populationTotal", 
+          4.0
+        ], 
+        [
+          "postalCode", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/SocietalEvent (budget)", 
+          0.1867
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tournament (budget)", 
+          0.1867
+        ], 
+        [
+          "http://dbpedia.org/ontology/Event (budget)", 
+          0.1867
+        ], 
+        [
+          "http://dbpedia.org/ontology/TennisTournament (budget)", 
+          0.1867
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsEvent (budget)", 
+          0.1867
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          0.229
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (postalCode)", 
+          0.229
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          0.229
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          0.229
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          0.2309
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2317
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2317
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.2325
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Event (budget)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SocietalEvent (budget)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsEvent (budget)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tournament (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TennisTournament (budget)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "TennisTournament[budget]", 
+      0.1867
+    ], 
+    [
+      "Tournament[budget]", 
+      0.1867
+    ], 
+    [
+      "SocietalEvent[budget]", 
+      0.1867
+    ], 
+    [
+      "Event[budget]", 
+      0.1867
+    ], 
+    [
+      "SportsEvent[budget]", 
+      0.1867
+    ], 
+    [
+      "City[populationTotal]>(type|Cities_of_Japan)", 
+      0.2267
+    ], 
+    [
+      "City[postalCode]", 
+      0.229
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|California)>(governmentType|Council%E2%80%93manager_government)", 
+      0.2308
+    ], 
+    [
+      "City[populationTotal]>(type|Cities_of_Japan)>(country|Japan)", 
+      0.2337
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Iran_Standard_Time)", 
+      0.2357
+    ]
+  ], 
+  "values": [
+    48416.69603118578, 
+    64716.88276240982, 
+    47762.44732722995, 
+    734029.1202459948, 
+    52183.55906875349, 
+    1567244.86546956, 
+    78625.37140045401, 
+    428716.35673822253, 
+    72184.27613184969, 
+    51897.451246966535, 
+    847652.8610408651, 
+    25804.08431406827, 
+    98301.39012870836, 
+    33855.829146886164, 
+    34945.53702367399, 
+    49017.37348160508, 
+    170069.77325318925, 
+    259679.3830129332, 
+    47787.17439383492, 
+    249062.446421671, 
+    51554.41487928945, 
+    71565.41795620708, 
+    145234.02938206654, 
+    48392.45929963713, 
+    47671.43506142868, 
+    52204.91609919878, 
+    100500.5908816403, 
+    48268.755494184385, 
+    52071.064569604976, 
+    48858.64707126511, 
+    5858529.148931024, 
+    51274.51438629371, 
+    4504359.275007345, 
+    224357.490655834, 
+    49895.4342079426, 
+    521998.9336825012, 
+    50430.774803015374, 
+    102921.99931683211, 
+    50216.790160228535, 
+    51044.65506725521, 
+    49306.991340909415, 
+    97804.36939382357, 
+    242285.11127765154, 
+    47713.86027229536, 
+    34947.61747703003, 
+    82642.68074026893, 
+    49537.22432557064, 
+    47971.91230262519, 
+    130045.76066203335, 
+    44200.99217463596, 
+    162244.1646671208, 
+    860509.4632607092, 
+    48565.892095643445, 
+    77397.08183767389, 
+    50601.37692907469, 
+    51960.44039722813, 
+    50339.042983293126, 
+    75378.71255563368, 
+    49047.536259911074, 
+    47826.897960792376, 
+    71517.04510855964, 
+    33378.95845325834, 
+    48409.14620717445, 
+    51489.78041326307, 
+    29748.74311576633, 
+    104748.84893170319, 
+    50810.74533698656, 
+    170114.37292766257, 
+    47746.69898059104, 
+    49549.454673987464, 
+    21908645.009385023, 
+    251848.9655639016, 
+    176812.90153310166, 
+    51251.31309838695, 
+    78263.28993702488, 
+    51042.84844856767, 
+    49390.950721907735, 
+    6978781.49704726, 
+    112726.66809398045, 
+    51313.94900277187, 
+    50663.96585085884, 
+    172175.49493440695, 
+    49312.8470303796, 
+    51427.561205558355, 
+    50453.65146899875, 
+    51806.71074985798, 
+    121318.03659252825, 
+    25510.828225150915, 
+    48837.707135478464, 
+    87640.51537747456, 
+    920974.5576932037, 
+    40535.10683771948, 
+    6002574.195533578, 
+    51594.72581823878, 
+    72919.11428120722, 
+    261865.60027227696, 
+    6579490.0192385055, 
+    104068.1967573062, 
+    49337.430644817345, 
+    49566.15857138316, 
+    51773.124650559366
+  ]
+}

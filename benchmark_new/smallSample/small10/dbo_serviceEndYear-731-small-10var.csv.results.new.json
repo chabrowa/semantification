@@ -1,0 +1,306 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/serviceEndYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "openingYear", 
+          0.3199
+        ], 
+        [
+          "elevation", 
+          0.3216
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          7.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          0.3145
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.3187
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.3187
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.3187
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.3187
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.3209
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.3209
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.3212
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          0.3214
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          0.3214
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (openingYear)", 
+          0.3214
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          0.3216
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.3231
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (openingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "RailwayLine[openingYear]", 
+      0.3145
+    ], 
+    [
+      "RailwayTunnel[openingYear]", 
+      0.3182
+    ], 
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)", 
+      0.3186
+    ], 
+    [
+      "RouteOfTransportation[openingYear]", 
+      0.3189
+    ], 
+    [
+      "Agent[openingYear]", 
+      0.3214
+    ], 
+    [
+      "PublicTransitSystem[openingYear]", 
+      0.3214
+    ], 
+    [
+      "Organisation[openingYear]", 
+      0.3214
+    ], 
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.3231
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.3231
+    ], 
+    [
+      "RailwayTunnel[openingYear]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3233
+    ]
+  ], 
+  "values": [
+    2075.0, 
+    1745.0, 
+    1624.0, 
+    1668.0, 
+    2098.0, 
+    2102.0, 
+    1682.0, 
+    1806.0, 
+    2128.0, 
+    30.0, 
+    1872.0, 
+    1818.0, 
+    1838.0, 
+    1929.0, 
+    1850.0, 
+    1971.0, 
+    2080.0, 
+    2014.0, 
+    1738.0, 
+    1966.0, 
+    1793.0, 
+    2044.0, 
+    1848.0, 
+    2090.0, 
+    1666.0, 
+    2005.0, 
+    2137.0, 
+    1889.0, 
+    1823.0, 
+    2087.0, 
+    1827.0, 
+    2142.0, 
+    1892.0, 
+    2065.0, 
+    1875.0, 
+    1834.0, 
+    2002.0, 
+    1893.0, 
+    2019.0, 
+    2125.0, 
+    1733.0, 
+    1777.0, 
+    1514.0, 
+    1761.0, 
+    1804.0, 
+    2101.0, 
+    1948.0, 
+    1851.0, 
+    2006.0, 
+    2043.0, 
+    2095.0, 
+    1961.0, 
+    2077.0, 
+    2022.0, 
+    1998.0, 
+    2095.0, 
+    1825.0, 
+    1956.0, 
+    2202.0, 
+    1923.0, 
+    2099.0, 
+    1989.0, 
+    1833.0, 
+    2055.0, 
+    1763.0, 
+    1897.0, 
+    1724.0, 
+    2081.0, 
+    2035.0, 
+    1769.0, 
+    1847.0, 
+    2005.0, 
+    1813.0, 
+    1954.0, 
+    1809.0, 
+    1955.0, 
+    2109.0, 
+    2034.0, 
+    1852.0, 
+    2097.0, 
+    1702.0, 
+    1843.0, 
+    1989.0, 
+    1929.0, 
+    2092.0, 
+    2125.0, 
+    2073.0, 
+    1756.0, 
+    2014.0, 
+    1894.0, 
+    1854.0, 
+    2152.0, 
+    1884.0, 
+    1990.0, 
+    2007.0, 
+    1976.0, 
+    2007.0, 
+    2034.0, 
+    2143.0, 
+    1836.0, 
+    2123.0, 
+    1958.0, 
+    2085.0, 
+    1946.0, 
+    1884.0, 
+    1752.0, 
+    2030.0, 
+    2009.0, 
+    1788.0, 
+    1783.0, 
+    2165.0, 
+    2058.0, 
+    2034.0, 
+    1853.0, 
+    1867.0, 
+    1711.0, 
+    1767.0, 
+    1752.0, 
+    1800.0, 
+    1933.0, 
+    2081.0, 
+    1884.0, 
+    1792.0
+  ]
+}

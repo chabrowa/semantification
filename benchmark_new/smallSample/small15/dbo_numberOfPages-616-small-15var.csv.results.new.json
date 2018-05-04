@@ -1,0 +1,193 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfPages"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "length", 
+          0.1444
+        ], 
+        [
+          "elevation", 
+          0.1558
+        ], 
+        [
+          "populationTotal", 
+          0.1629
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          5.0
+        ], 
+        [
+          "length", 
+          4.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          0.1319
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (length)", 
+          0.1557
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1558
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1558
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1558
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.1563
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          0.1563
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          0.1563
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1616
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1629
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1629
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1636
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          18.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (length)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[length]>(22-rdf-syntax-ns#type|_Feature)>(location|Custer_County,_Idaho)>(type|Glacial_lake)", 
+      0.1289
+    ], 
+    [
+      "Location[length]>(22-rdf-syntax-ns#type|_Feature)>(location|Custer_County,_Idaho)", 
+      0.136
+    ], 
+    [
+      "Lake[length]>(location|Custer_County,_Idaho)>(type|Glacial_lake)", 
+      0.1533
+    ], 
+    [
+      "Settlement[elevation]>(country|Italy)>(region|Marche)", 
+      0.1558
+    ], 
+    [
+      "Lake[length]>(location|Custer_County,_Idaho)", 
+      0.1593
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Germany)>(district|Rhein-Hunsr%C3%BCck-Kreis)>(type|Verbandsgemeinde)", 
+      0.1594
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Mazandaran_Province)>(isPartOf|Central_District_(Tonekabon_County))>(22-rdf-syntax-ns#type|_Feature)>(isPartOf|Goli_Jan_Rural_District)", 
+      0.1609
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|West_Azerbaijan_Province)>(isPartOf|Kuhsar_District)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1646
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Gilan_Province)>(isPartOf|Sowme'eh_Sara_County)>(isPartOf|Central_District_(Sowme'eh_Sara_County))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1647
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Gilan_Province)>(isPartOf|Sowme'eh_Sara_County)>(isPartOf|Central_District_(Sowme'eh_Sara_County))", 
+      0.1648
+    ]
+  ], 
+  "values": [
+    279.0, 
+    190.0, 
+    638.0, 
+    396.0, 
+    413.0, 
+    205.0, 
+    569.0, 
+    348.0, 
+    136.0, 
+    216.0
+  ]
+}

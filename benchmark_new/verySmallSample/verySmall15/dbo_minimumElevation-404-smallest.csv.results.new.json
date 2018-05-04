@@ -1,0 +1,230 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/minimumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "minimumElevation", 
+          0.1719
+        ], 
+        [
+          "populationDensity", 
+          0.2707
+        ], 
+        [
+          "areaWater", 
+          0.2966
+        ]
+      ], 
+      "maj": [
+        [
+          "minimumElevation", 
+          7.0
+        ], 
+        [
+          "areaWater", 
+          2.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/City (minimumElevation)", 
+          0.1557
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.1586
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (minimumElevation)", 
+          0.1645
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.1687
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1687
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (minimumElevation)", 
+          0.1788
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (minimumElevation)", 
+          0.1862
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.1909
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.2707
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.2707
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          0.2707
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.2707
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.2937
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.2937
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.2937
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.2937
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.2996
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "City[minimumElevation]", 
+      0.1557
+    ], 
+    [
+      "City[minimumElevation]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1557
+    ], 
+    [
+      "Town[minimumElevation]", 
+      0.1645
+    ], 
+    [
+      "AdministrativeRegion[minimumElevation]", 
+      0.1714
+    ], 
+    [
+      "Region[minimumElevation]", 
+      0.1714
+    ], 
+    [
+      "Location[minimumElevation]>(country|Greece)", 
+      0.1909
+    ], 
+    [
+      "AdministrativeRegion[minimumElevation]>(country|Greece)", 
+      0.1937
+    ], 
+    [
+      "Village[populationDensity]>(type|Types_of_municipalities_in_Quebec)", 
+      0.2707
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Kentucky)", 
+      0.2937
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Oklahoma)", 
+      0.2996
+    ]
+  ], 
+  "values": [
+    633.2363991349999, 
+    0.0, 
+    0.0, 
+    15.03862282094902, 
+    199.94394171164592, 
+    1203.1388553463078, 
+    0.0
+  ]
+}

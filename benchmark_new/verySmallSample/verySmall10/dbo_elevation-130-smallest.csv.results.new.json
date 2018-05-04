@@ -1,0 +1,180 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/elevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.0817
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.08
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.081
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.081
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0822
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0822
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          7.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(district|Hambleton)", 
+      0.0749
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(district|Hambleton)", 
+      0.0749
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Khuzestan_Province)>(isPartOf|Central_District_(Shushtar_County))", 
+      0.075
+    ], 
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(district|Hambleton)>(country|England)", 
+      0.0761
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(district|Hambleton)>(country|England)", 
+      0.0761
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Khuzestan_Province)>(isPartOf|Central_District_(Shushtar_County))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0786
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Khuzestan_Province)>(isPartOf|Khorramshahr_County)", 
+      0.0856
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(department|Aude)", 
+      0.0904
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(department|Aude)", 
+      0.0904
+    ], 
+    [
+      "Village[populationTotal]", 
+      0.0948
+    ]
+  ], 
+  "values": [
+    37.356087505733726, 
+    236.00877195639123, 
+    551.8998881309575, 
+    1099.1427699324795, 
+    65.16250766199926, 
+    276.0578214681774, 
+    61.70908276413921, 
+    681.4404179354683, 
+    354.4118738607718, 
+    151.48675705996604, 
+    2264.780750603224, 
+    1239.1943131253045, 
+    177.46043188469145, 
+    161.99855039674762, 
+    223.72540151802224, 
+    330.2631643117576, 
+    106.87892751997411, 
+    4610.526456064824, 
+    1210.7854605127013, 
+    1995.6886059211095, 
+    418.7054996108624, 
+    1883.4213887616038, 
+    215.25925708706728, 
+    142.0690193902231, 
+    607.8218636978161, 
+    322.61427295191027, 
+    43.45506987809959, 
+    142.5920635739484, 
+    2157.6058972492397, 
+    941.7160655619788, 
+    39.641705000373, 
+    6.304053706988121, 
+    48.13616934639399, 
+    515.5313429099264, 
+    146.01340672082398, 
+    202.2311739686552, 
+    703.5438464459238, 
+    5.810053354235617, 
+    237.0529891590754, 
+    981.5520509681852, 
+    170.83261433679877, 
+    2052.483819543994, 
+    154.09106002440265, 
+    6.258172531105389, 
+    212.87732576372073, 
+    297.3880697458237, 
+    162.4761030632635, 
+    175.18076644658714, 
+    96.22671037854425, 
+    80.50097427566287, 
+    392.744239282842, 
+    29.31115364107832, 
+    158.5184310787002, 
+    342.21674467849374, 
+    42.95542530175634, 
+    898.201534096346, 
+    217.40710302921275, 
+    161.97454160664114, 
+    3312.577606229149, 
+    24.757325733917565, 
+    130.9286031959923, 
+    226.39445852282364, 
+    2009.8269307555418, 
+    81.19312206841144, 
+    26.306712189519516, 
+    11.1403189695981, 
+    557.0035899565796, 
+    26.68289806223983, 
+    4267.567613460692
+  ]
+}

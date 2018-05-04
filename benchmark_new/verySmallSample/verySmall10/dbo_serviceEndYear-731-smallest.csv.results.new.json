@@ -1,0 +1,167 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/serviceEndYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "openingYear", 
+          0.2365
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          0.2165
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.2306
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          0.2337
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.2345
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.2353
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.236
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          0.2412
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          0.244
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          0.248
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "RailwayLine[openingYear]", 
+      0.2165
+    ], 
+    [
+      "RailwayTunnel[openingYear]", 
+      0.2267
+    ], 
+    [
+      "RouteOfTransportation[openingYear]", 
+      0.2285
+    ], 
+    [
+      "RailwayTunnel[openingYear]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2371
+    ], 
+    [
+      "Infrastructure[openingYear]", 
+      0.2405
+    ], 
+    [
+      "ArchitecturalStructure[openingYear]", 
+      0.2412
+    ], 
+    [
+      "Place[openingYear]", 
+      0.2412
+    ], 
+    [
+      "Location[openingYear]", 
+      0.2412
+    ], 
+    [
+      "Bridge[openingYear]", 
+      0.244
+    ], 
+    [
+      "Station[openingYear]", 
+      0.248
+    ]
+  ], 
+  "values": [
+    1798.0, 
+    2015.0, 
+    2017.0, 
+    1984.0, 
+    1959.0, 
+    1883.0, 
+    1887.0, 
+    1871.0, 
+    1861.0, 
+    2059.0, 
+    1971.0, 
+    1985.0, 
+    1997.0, 
+    1912.0, 
+    2011.0, 
+    2106.0, 
+    2081.0, 
+    2066.0, 
+    1881.0, 
+    1724.0, 
+    1914.0, 
+    4.0, 
+    1916.0, 
+    1914.0
+  ]
+}

@@ -1,0 +1,310 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/height"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "height", 
+          0.1533
+        ], 
+        [
+          "shipBeam", 
+          0.1912
+        ], 
+        [
+          "populationDensity", 
+          0.2193
+        ], 
+        [
+          "numberOfEpisodes", 
+          0.2216
+        ], 
+        [
+          "elevation", 
+          0.2259
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "populationDensity", 
+          3.0
+        ], 
+        [
+          "shipBeam", 
+          2.0
+        ], 
+        [
+          "height", 
+          1.0
+        ], 
+        [
+          "numberOfEpisodes", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Ship (height)", 
+          0.1533
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (height)", 
+          0.1533
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.1866
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.1866
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          0.1912
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          0.1912
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.2046
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.2046
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          0.2216
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionSeason (numberOfEpisodes)", 
+          0.2216
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.2226
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2251
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2259
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2259
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2487
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          15.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionSeason (numberOfEpisodes)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (height)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Ship[height]", 
+      0.1533
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Arkansas)", 
+      0.1866
+    ], 
+    [
+      "Ship[shipBeam]", 
+      0.1912
+    ], 
+    [
+      "MeanOfTransportation[shipBeam]", 
+      0.1912
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|New_York)>(isPartOf|Suffolk_County,_New_York)>(country|United_States)>(type|Administrative_divisions_of_New_York)", 
+      0.2203
+    ], 
+    [
+      "TelevisionSeason[numberOfEpisodes]>(country|United_Kingdom)", 
+      0.2216
+    ], 
+    [
+      "Settlement[populationDensity]>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Chaudi%C3%A8re-Appalaches)", 
+      0.2226
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|New_York)>(isPartOf|Suffolk_County,_New_York)>(country|United_States)>(type|Administrative_divisions_of_New_York)>(type|Census-designated_place)", 
+      0.2231
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|New_York)>(isPartOf|Suffolk_County,_New_York)>(country|United_States)", 
+      0.2342
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Zamora)", 
+      0.2487
+    ]
+  ], 
+  "values": [
+    10.601606364082553, 
+    8.357088030729606, 
+    26.84850726126301, 
+    9.14297841766753, 
+    6.742732170177178, 
+    3.0354469145992504, 
+    8.99631864010685, 
+    39.5633903777768, 
+    18.174253410539333, 
+    46.25078934189152, 
+    8.161608563342517, 
+    2.3928724691508862, 
+    7.2378751382414785, 
+    52.09856530498589, 
+    67.28054609074698, 
+    26.615699970873283, 
+    8.816681384959901, 
+    9.187634922219498, 
+    11.039101829089995, 
+    4.7906146344198035, 
+    0.0, 
+    11.245735147565682, 
+    11.826402491626864, 
+    8.498126429395384, 
+    11.044269832253356, 
+    8.792455653156072, 
+    10.846959011453784, 
+    112.79652648257897, 
+    9.851681060056395, 
+    25.618584700584368, 
+    10.672118502526281, 
+    48.432314101599154, 
+    64.4783741762217, 
+    9.113752534117891, 
+    8.470855703724332, 
+    37.886067745141986, 
+    7.820071993387661, 
+    27.169617850957582, 
+    8.633786731504456, 
+    8.799206562346198, 
+    9.147468135205305, 
+    10.128479868331, 
+    9.747348351482515, 
+    54.86354299994704, 
+    9.441340002129182, 
+    46.444427893486726, 
+    12.96092564357063, 
+    41.71144309798467, 
+    11.163208484473374, 
+    10.595496076087903, 
+    9.0117712632023, 
+    29.63692850570444, 
+    9.647020336486364, 
+    1.9787017496538903, 
+    9.363502953664767, 
+    8.362259606436403, 
+    110.03956947203338, 
+    43.74294503272202, 
+    9.807848291645573, 
+    8.670321256263824, 
+    9.022617953136335, 
+    9.432139932988063, 
+    38.91224650598696, 
+    8.485616834566873, 
+    9.082906198787926, 
+    11.183951720148688, 
+    10.365058952485498, 
+    10.737286451884723, 
+    40.5609605520303, 
+    38.42332251542934, 
+    9.97436520321291, 
+    9.258707818822504, 
+    10.384295757167934, 
+    8.467356071034587, 
+    9.264779706403043, 
+    9.15010790256563, 
+    9.079568308287039, 
+    8.96839380677678, 
+    10.703270204607492, 
+    8.34757191483549, 
+    2.9532470699524476, 
+    18.392714043315955, 
+    9.727176780801747, 
+    8.189797033239584, 
+    37.03759728362241, 
+    9.588585926147696, 
+    2.2328894840561375
+  ]
+}

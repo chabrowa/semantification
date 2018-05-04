@@ -1,0 +1,106 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/oclc"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.214
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.2122
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.2122
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.2124
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.2148
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          22.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          16.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          4.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Almer%C3%ADa)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2063
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Spain)>(isPartOf|Andalusia)>(isPartOf|Province_of_Almer%C3%ADa)", 
+      0.2063
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Almer%C3%ADa)", 
+      0.2083
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Spain)>(isPartOf|Province_of_Castell%C3%B3n)", 
+      0.2115
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Castell%C3%B3n)>(isPartOf|Valencian_Community)", 
+      0.2138
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Almer%C3%ADa)>(22-rdf-syntax-ns#type|_Feature)>(isPartOf|Andalusia)", 
+      0.2151
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Spain)>(isPartOf|Andalusia)>(isPartOf|Province_of_Almer%C3%ADa)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2151
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Spain)>(isPartOf|Province_of_Castell%C3%B3n)>(isPartOf|Valencian_Community)", 
+      0.2157
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Castell%C3%B3n)", 
+      0.2222
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(region|Tuscany)", 
+      0.2261
+    ]
+  ], 
+  "values": [
+    137217934.0, 
+    61457088.0, 
+    19973656.0
+  ]
+}

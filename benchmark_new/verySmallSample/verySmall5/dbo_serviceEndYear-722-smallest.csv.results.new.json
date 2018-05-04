@@ -1,0 +1,265 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/serviceEndYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "openingYear", 
+          0.2538
+        ], 
+        [
+          "foundingYear", 
+          0.282
+        ], 
+        [
+          "serviceEndYear", 
+          0.2895
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.2924
+        ], 
+        [
+          "serviceStartYear", 
+          0.2949
+        ]
+      ], 
+      "maj": [
+        [
+          "serviceEndYear", 
+          5.0
+        ], 
+        [
+          "foundingYear", 
+          2.0
+        ], 
+        [
+          "openingYear", 
+          1.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          1.0
+        ], 
+        [
+          "serviceStartYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          0.2538
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          0.2538
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (openingYear)", 
+          0.2538
+        ], 
+        [
+          "http://dbpedia.org/ontology/LawFirm (foundingYear)", 
+          0.275
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          0.275
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.282
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.282
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryPerson (serviceEndYear)", 
+          0.2823
+        ], 
+        [
+          "http://dbpedia.org/ontology/RugbyClub (foundingYear)", 
+          0.289
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (foundingYear)", 
+          0.289
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          0.2891
+        ], 
+        [
+          "http://dbpedia.org/ontology/Senator (serviceEndYear)", 
+          0.2895
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          0.2895
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceEndYear)", 
+          0.2915
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsEndYear)", 
+          0.2924
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryUnit (activeYearsEndYear)", 
+          0.2924
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.2924
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceStartYear)", 
+          0.2949
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceStartYear)", 
+          0.2949
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceStartYear)", 
+          0.2949
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RugbyClub (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/LawFirm (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Senator (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryUnit (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryPerson (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (foundingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "PublicTransitSystem[openingYear]>(location|England)", 
+      0.2538
+    ], 
+    [
+      "LawFirm[foundingYear]>(type|Limited_liability_partnership)", 
+      0.275
+    ], 
+    [
+      "MilitaryPerson[serviceEndYear]", 
+      0.2823
+    ], 
+    [
+      "RugbyClub[foundingYear]>(location|England)", 
+      0.289
+    ], 
+    [
+      "Senator[serviceEndYear]", 
+      0.2895
+    ], 
+    [
+      "Person[serviceEndYear]", 
+      0.291
+    ], 
+    [
+      "Agent[serviceEndYear]", 
+      0.291
+    ], 
+    [
+      "MilitaryUnit[activeYearsEndYear]", 
+      0.2924
+    ], 
+    [
+      "Politician[serviceEndYear]", 
+      0.2936
+    ], 
+    [
+      "Politician[serviceStartYear]", 
+      0.2949
+    ]
+  ], 
+  "values": [
+    1958.0, 
+    1874.0
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/oclc"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaLand", 
+          0.2655
+        ], 
+        [
+          "areaWater", 
+          0.2776
+        ], 
+        [
+          "areaTotal", 
+          0.2873
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          6.0
+        ], 
+        [
+          "areaLand", 
+          2.0
+        ], 
+        [
+          "areaTotal", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          0.26
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          0.2615
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.2646
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.2652
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.2652
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.2652
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.2709
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.2709
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.2709
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          0.2709
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.2873
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.2874
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.2874
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.2921
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.2941
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (areaTotal)", 
+          0.3095
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (areaTotal)", 
+          0.3095
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (areaTotal)", 
+          0.3095
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaWater]>(isPartOf|Minnesota)>(isPartOf|Itasca_County,_Minnesota)", 
+      0.2522
+    ], 
+    [
+      "Location[areaLand]>(isPartOf|Kentucky)", 
+      0.26
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Minnesota)>(isPartOf|St._Louis_County,_Minnesota)>(type|Township_(United_States))", 
+      0.2615
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Minnesota)>(isPartOf|St._Louis_County,_Minnesota)", 
+      0.2615
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Kentucky)", 
+      0.2652
+    ], 
+    [
+      "City[areaLand]>(isPartOf|Kentucky)", 
+      0.2709
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Maine)", 
+      0.2895
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Florida)>(governmentType|Council%E2%80%93manager_government)>(timeZone|Eastern_Time_Zone)", 
+      0.2941
+    ], 
+    [
+      "Settlement[areaWater]>(governmentType|Council%E2%80%93manager_government)", 
+      0.3065
+    ], 
+    [
+      "SkiArea[areaTotal]>(location|United_States)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3095
+    ]
+  ], 
+  "values": [
+    8628512.0, 
+    798620.0
+  ]
+}

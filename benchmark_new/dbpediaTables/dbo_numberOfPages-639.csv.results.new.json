@@ -1,0 +1,243 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfPages"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.2043
+        ], 
+        [
+          "numberOfStudents", 
+          0.2144
+        ], 
+        [
+          "elevation", 
+          0.2242
+        ], 
+        [
+          "runwayLength", 
+          0.2292
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "numberOfStudents", 
+          3.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ], 
+        [
+          "runwayLength", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.201
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          0.201
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.201
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.201
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2075
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          0.2114
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.2144
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.2144
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.2144
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2193
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2193
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2193
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.2269
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (runwayLength)", 
+          0.2292
+        ], 
+        [
+          "http://dbpedia.org/ontology/Airport (runwayLength)", 
+          0.2292
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (runwayLength)", 
+          0.2292
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (runwayLength)", 
+          0.2292
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (runwayLength)", 
+          0.2292
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (runwayLength)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Airport (runwayLength)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (runwayLength)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (runwayLength)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (runwayLength)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "City[populationDensity]>(isPartOf|Michigan)>(governmentType|Council%E2%80%93manager_government)", 
+      0.201
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Michigan)>(governmentType|Council%E2%80%93manager_government)", 
+      0.2075
+    ], 
+    [
+      "School[numberOfStudents]>(state|Ohio)>(type|State_school)>(grades|Ninth_grade)>(type|Mixed-sex_education)", 
+      0.2088
+    ], 
+    [
+      "School[numberOfStudents]>(state|Ohio)>(type|State_school)>(grades|Ninth_grade)>(type|Mixed-sex_education)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2088
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|California)>(isPartOf|Inyo_County,_California)", 
+      0.2193
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Inyo_County,_California)", 
+      0.2241
+    ], 
+    [
+      "School[numberOfStudents]>(type|Academy_(English_school))", 
+      0.2256
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Arizona)>(type|Census-designated_place)", 
+      0.229
+    ], 
+    [
+      "Airport[runwayLength]>(location|Bolivia)", 
+      0.2292
+    ], 
+    [
+      "Location[runwayLength]>(location|Bolivia)", 
+      0.2292
+    ]
+  ], 
+  "values": [
+    1185.0, 
+    2000.0, 
+    1032.0, 
+    576.0
+  ]
+}

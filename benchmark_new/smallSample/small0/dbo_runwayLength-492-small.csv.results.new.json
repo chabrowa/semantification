@@ -1,0 +1,257 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runwayLength"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.1586
+        ], 
+        [
+          "populationDensity", 
+          0.1651
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.1691
+        ], 
+        [
+          "numberOfStudents", 
+          0.1889
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          4.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          2.0
+        ], 
+        [
+          "numberOfStudents", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.142
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsEndYear)", 
+          0.1521
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1569
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1654
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1669
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1669
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.1691
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.1691
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsEndYear)", 
+          0.1691
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.1715
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1887
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          0.1887
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1887
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1887
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.1889
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          0.1889
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.1889
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.1889
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)", 
+      0.142
+    ], 
+    [
+      "ChristianBishop[activeYearsEndYear]", 
+      0.1521
+    ], 
+    [
+      "Location[populationDensity]>(timeZone|Indian_Standard_Time)>(isPartOf|Kerala)>(22-rdf-syntax-ns#type|_Feature)>(country|India)", 
+      0.1543
+    ], 
+    [
+      "Location[populationDensity]>(timeZone|Indian_Standard_Time)>(isPartOf|Kerala)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1585
+    ], 
+    [
+      "Location[populationDensity]>(timeZone|Indian_Standard_Time)>(isPartOf|Kerala)", 
+      0.1588
+    ], 
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)", 
+      0.1624
+    ], 
+    [
+      "Town[elevation]>(timeZone|Mountain_Time_Zone)", 
+      0.1715
+    ], 
+    [
+      "Cleric[activeYearsEndYear]", 
+      0.1861
+    ], 
+    [
+      "Village[populationDensity]>(isPartOf|Cook_County,_Illinois)", 
+      0.1887
+    ], 
+    [
+      "School[numberOfStudents]>(state|Pennsylvania)>(type|State_school)", 
+      0.1889
+    ]
+  ], 
+  "values": [
+    2194.86, 
+    1524.0, 
+    1524.0, 
+    1234.74, 
+    1828.8, 
+    1102.77, 
+    762.0, 
+    1676.7, 
+    853.745, 
+    865.632, 
+    1036.32, 
+    1036.32, 
+    624.84, 
+    1524.0, 
+    1554.48, 
+    2699.61, 
+    1828.8, 
+    914.4
+  ]
+}

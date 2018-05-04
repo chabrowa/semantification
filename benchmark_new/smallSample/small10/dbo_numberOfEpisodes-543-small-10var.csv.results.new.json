@@ -1,0 +1,437 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEpisodes"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfEpisodes", 
+          0.0793
+        ], 
+        [
+          "elevation", 
+          0.1269
+        ], 
+        [
+          "height", 
+          0.1372
+        ], 
+        [
+          "length", 
+          0.1416
+        ], 
+        [
+          "populationDensity", 
+          0.1503
+        ], 
+        [
+          "number", 
+          0.153
+        ]
+      ], 
+      "maj": [
+        [
+          "height", 
+          3.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "number", 
+          1.0
+        ], 
+        [
+          "numberOfEpisodes", 
+          1.0
+        ], 
+        [
+          "length", 
+          1.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          0.0793
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionSeason (numberOfEpisodes)", 
+          0.0793
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (height)", 
+          0.1266
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1269
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1269
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1281
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.1372
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (height)", 
+          0.1372
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.1372
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (length)", 
+          0.1416
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (length)", 
+          0.1416
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1503
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1503
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1503
+        ], 
+        [
+          "http://dbpedia.org/ontology/NationalCollegiateAthleticAssociationAthlete (number)", 
+          0.153
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.153
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.153
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.153
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (height)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (height)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NationalCollegiateAthleticAssociationAthlete (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionSeason (numberOfEpisodes)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "TelevisionSeason[numberOfEpisodes]", 
+      0.0793
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Rendsburg-Eckernf%C3%B6rde)", 
+      0.0843
+    ], 
+    [
+      "Lighthouse[height]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1159
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Schleswig-Flensburg)>(federalState|Schleswig-Holstein)", 
+      0.1397
+    ], 
+    [
+      "Ship[length]>(type|Patrol_boat)>(builder|Massachusetts)", 
+      0.1416
+    ], 
+    [
+      "Lighthouse[height]", 
+      0.1479
+    ], 
+    [
+      "Tower[height]", 
+      0.1479
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Oklahoma)", 
+      0.1503
+    ], 
+    [
+      "NationalCollegiateAthleticAssociationAthlete[number]", 
+      0.153
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Schleswig-Flensburg)", 
+      0.1566
+    ]
+  ], 
+  "values": [
+    13.0, 
+    18.0, 
+    4.0, 
+    52.0, 
+    13.0, 
+    21.0, 
+    13.0, 
+    24.0, 
+    8.0, 
+    24.0, 
+    47.0, 
+    10.0, 
+    12.0, 
+    20.0, 
+    12.0, 
+    24.0, 
+    19.0, 
+    10.0, 
+    27.0, 
+    8.0, 
+    20.0, 
+    13.0, 
+    21.0, 
+    12.0, 
+    28.0, 
+    10.0, 
+    24.0, 
+    19.0, 
+    49.0, 
+    13.0, 
+    12.0, 
+    245.0, 
+    7.0, 
+    17.0, 
+    36.0, 
+    12.0, 
+    197.0, 
+    16.0, 
+    4.0, 
+    38.0, 
+    28.0, 
+    14.0, 
+    33.0, 
+    42.0, 
+    13.0, 
+    109.0, 
+    21.0, 
+    225.0, 
+    19.0, 
+    8.0, 
+    22.0, 
+    13.0, 
+    25.0, 
+    18.0, 
+    26.0, 
+    5.0, 
+    11.0, 
+    28.0, 
+    11.0, 
+    46.0, 
+    20.0, 
+    21.0, 
+    54.0, 
+    28.0, 
+    8.0, 
+    8.0, 
+    17.0, 
+    24.0, 
+    24.0, 
+    22.0, 
+    13.0, 
+    12.0, 
+    8.0, 
+    26.0, 
+    4.0, 
+    19.0, 
+    21.0, 
+    172.0, 
+    22.0, 
+    18.0, 
+    8.0, 
+    88.0, 
+    22.0, 
+    13.0, 
+    14.0, 
+    15.0, 
+    9.0, 
+    97.0, 
+    32.0, 
+    22.0, 
+    33.0, 
+    27.0, 
+    24.0, 
+    15.0, 
+    23.0, 
+    22.0, 
+    22.0, 
+    26.0, 
+    25.0, 
+    5.0, 
+    186.0, 
+    8.0, 
+    17.0, 
+    23.0, 
+    31.0, 
+    55.0, 
+    19.0, 
+    12.0, 
+    18.0, 
+    12.0, 
+    28.0, 
+    23.0, 
+    25.0, 
+    147.0, 
+    39.0, 
+    11.0, 
+    12.0, 
+    22.0, 
+    13.0, 
+    11.0, 
+    23.0, 
+    10.0, 
+    26.0, 
+    14.0, 
+    6.0, 
+    29.0, 
+    24.0, 
+    14.0, 
+    11.0, 
+    7.0, 
+    6.0, 
+    21.0, 
+    11.0, 
+    12.0, 
+    13.0, 
+    15.0, 
+    14.0, 
+    8.0, 
+    23.0, 
+    20.0, 
+    31.0, 
+    7.0, 
+    21.0, 
+    43.0, 
+    26.0, 
+    24.0, 
+    21.0, 
+    13.0, 
+    11.0, 
+    8.0, 
+    18.0, 
+    13.0, 
+    12.0, 
+    14.0, 
+    14.0, 
+    31.0, 
+    14.0, 
+    113.0, 
+    22.0, 
+    26.0, 
+    16.0, 
+    8.0, 
+    36.0, 
+    14.0, 
+    24.0, 
+    22.0, 
+    72.0, 
+    45.0, 
+    22.0, 
+    25.0, 
+    22.0, 
+    38.0, 
+    10.0, 
+    13.0, 
+    22.0, 
+    28.0, 
+    22.0, 
+    24.0, 
+    22.0, 
+    14.0, 
+    14.0, 
+    10.0
+  ]
+}

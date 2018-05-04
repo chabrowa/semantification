@@ -1,0 +1,208 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/oclc"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.5026
+        ], 
+        [
+          "areaLand", 
+          0.5036
+        ], 
+        [
+          "oclc", 
+          0.5063
+        ], 
+        [
+          "budget", 
+          0.5067
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          6.0
+        ], 
+        [
+          "budget", 
+          2.0
+        ], 
+        [
+          "oclc", 
+          1.0
+        ], 
+        [
+          "areaLand", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.5017
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          0.5036
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.5037
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          0.505
+        ], 
+        [
+          "http://dbpedia.org/ontology/AcademicJournal (oclc)", 
+          0.5063
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          0.5063
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          0.5063
+        ], 
+        [
+          "http://dbpedia.org/ontology/PeriodicalLiterature (oclc)", 
+          0.5063
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (budget)", 
+          0.5067
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (budget)", 
+          0.5067
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AcademicJournal (oclc)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (budget)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PeriodicalLiterature (oclc)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaTotal]>(country|Poland)>(type|Gmina)>(isPartOf|Silesian_Voivodeship)", 
+      0.5
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Poland)>(type|Gmina)>(isPartOf|Silesian_Voivodeship)", 
+      0.5
+    ], 
+    [
+      "BodyOfWater[areaTotal]>(type|Trophic_state_index)", 
+      0.5
+    ], 
+    [
+      "Location[areaLand]>(country|Canada)>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Mont%C3%A9r%C3%A9gie)", 
+      0.5036
+    ], 
+    [
+      "Location[areaTotal]>(location|United_States)>(location|Colorado)", 
+      0.5048
+    ], 
+    [
+      "ProtectedArea[areaTotal]", 
+      0.505
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Maharashtra)>(22-rdf-syntax-ns#type|_Feature)>(country|India)", 
+      0.506
+    ], 
+    [
+      "AcademicJournal[oclc]>(publisher|Routledge)", 
+      0.5063
+    ], 
+    [
+      "Organisation[budget]", 
+      0.5067
+    ], 
+    [
+      "Agent[budget]", 
+      0.5067
+    ]
+  ], 
+  "values": [
+    60667860.0
+  ]
+}

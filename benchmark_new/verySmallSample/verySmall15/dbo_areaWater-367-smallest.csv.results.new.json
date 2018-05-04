@@ -1,0 +1,224 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaWater"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "gross", 
+          0.1083
+        ], 
+        [
+          "areaTotal", 
+          0.1107
+        ], 
+        [
+          "oclc", 
+          0.1123
+        ], 
+        [
+          "areaLand", 
+          0.1145
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          5.0
+        ], 
+        [
+          "gross", 
+          3.0
+        ], 
+        [
+          "areaLand", 
+          1.0
+        ], 
+        [
+          "oclc", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Film (gross)", 
+          0.0978
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (gross)", 
+          0.0978
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.1015
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.1099
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (gross)", 
+          0.1104
+        ], 
+        [
+          "http://dbpedia.org/ontology/Book (oclc)", 
+          0.1123
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          0.1123
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          0.1123
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.113
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.113
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          0.1145
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.1152
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (gross)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (gross)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Book (oclc)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (gross)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Wikidata:Q11424[gross]>(distributor|Walt_Disney_Studios_Motion_Pictures)>(country|United_States)", 
+      0.0978
+    ], 
+    [
+      "Film[gross]>(distributor|Walt_Disney_Studios_Motion_Pictures)>(country|United_States)", 
+      0.0978
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Valencia)", 
+      0.1015
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Spain)>(isPartOf|Province_of_Valencia)", 
+      0.1037
+    ], 
+    [
+      "Book[oclc]>(publisher|Doubleday_(publisher))", 
+      0.1123
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Alaska)>(timeZone|Alaska_Time_Zone)>(type|Alaska)", 
+      0.113
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Alaska)>(timeZone|Alaska_Time_Zone)", 
+      0.1136
+    ], 
+    [
+      "Location[areaLand]>(isPartOf|California)>(isPartOf|Riverside_County,_California)", 
+      0.1145
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Alaska)", 
+      0.1219
+    ], 
+    [
+      "Wikidata:Q11424[gross]>(distributor|New_Line_Cinema)", 
+      0.1293
+    ]
+  ], 
+  "values": [
+    11454177.511891268, 
+    96888248.7181472, 
+    131886421.83997038, 
+    15953913.926838402, 
+    25213667.676948205, 
+    42283629.95024349, 
+    7034537.101027743, 
+    143979739.09362218, 
+    60252922.864956625, 
+    35557864.17021923, 
+    70296382.34328023, 
+    38084266.44845262, 
+    19236438.020782154, 
+    26163840.203752603, 
+    7918989.337525864, 
+    62575969.92592299, 
+    69800692.62038197, 
+    6304534.178151292, 
+    570184609.0699823, 
+    51005431.77081477, 
+    501675.6210902663, 
+    66429728.3479708, 
+    83356320.35740326, 
+    20017543.541068807, 
+    6150483.543737842, 
+    2654094.515506324, 
+    1315914.772346243, 
+    4035148.252679303, 
+    40523756.12455566, 
+    8218415.358303971, 
+    503717.90000414767, 
+    3358278011.391013, 
+    150486105.08202803
+  ]
+}

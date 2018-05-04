@@ -1,0 +1,268 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/minimumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfStudents", 
+          0.1824
+        ], 
+        [
+          "runtime", 
+          0.199
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.2
+        ], 
+        [
+          "elevation", 
+          0.2
+        ], 
+        [
+          "maximumElevation", 
+          0.2
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          4.0
+        ], 
+        [
+          "numberOfStudents", 
+          2.0
+        ], 
+        [
+          "maximumElevation", 
+          2.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          1.0
+        ], 
+        [
+          "runtime", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          0.1822
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.1824
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.1824
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.1824
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          0.199
+        ], 
+        [
+          "http://dbpedia.org/ontology/Album (runtime)", 
+          0.199
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          0.199
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsEndYear)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsEndYear)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          0.2
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Album (runtime)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "School[numberOfStudents]>(state|New_York)>(type|State_school)>(country|United_States)", 
+      0.181
+    ], 
+    [
+      "School[numberOfStudents]>(state|New_York)>(type|State_school)", 
+      0.1839
+    ], 
+    [
+      "Album[runtime]>(type|Extended_play)", 
+      0.199
+    ], 
+    [
+      "ChristianBishop[activeYearsEndYear]", 
+      0.2
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|California)>(isPartOf|Inyo_County,_California)>(type|Unincorporated_area)", 
+      0.2
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Inyo_County,_California)>(type|Unincorporated_area)", 
+      0.2
+    ], 
+    [
+      "Location[maximumElevation]>(region|Languedoc-Roussillon)>(department|Loz%C3%A8re)", 
+      0.2
+    ], 
+    [
+      "Settlement[maximumElevation]>(region|Languedoc-Roussillon)>(department|Loz%C3%A8re)", 
+      0.2
+    ], 
+    [
+      "Village[elevation]>(timeZone|Mountain_Time_Zone)>(type|Village_(United_States))", 
+      0.2
+    ], 
+    [
+      "Village[elevation]>(timeZone|Mountain_Time_Zone)>(type|Village_(United_States))>(country|United_States)", 
+      0.2
+    ]
+  ], 
+  "values": [
+    1083.5735060666498, 
+    1233.000636942964, 
+    3258.1910364833416, 
+    273.2211059347464, 
+    1407.17643233955
+  ]
+}

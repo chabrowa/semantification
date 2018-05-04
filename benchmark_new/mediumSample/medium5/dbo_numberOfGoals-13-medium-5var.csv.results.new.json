@@ -1,0 +1,258 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfGoals"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "minimumElevation", 
+          0.1247
+        ], 
+        [
+          "elevation", 
+          0.1399
+        ], 
+        [
+          "populationTotal", 
+          0.1474
+        ]
+      ], 
+      "maj": [
+        [
+          "minimumElevation", 
+          6.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ], 
+        [
+          "populationTotal", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.1243
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.1243
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.1247
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1247
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1399
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1399
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1399
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1474
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1474
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1474
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1474
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[minimumElevation]>(department|Pas-de-Calais)>(arrondissement|Arrondissement_of_Montreuil)", 
+      0.1058
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Pas-de-Calais)>(arrondissement|Arrondissement_of_Montreuil)", 
+      0.1058
+    ], 
+    [
+      "Location[minimumElevation]>(region|Pays_de_la_Loire)", 
+      0.1279
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Pays_de_la_Loire)", 
+      0.1279
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Charente-Maritime)", 
+      0.1325
+    ], 
+    [
+      "Location[minimumElevation]>(department|Somme)>(arrondissement|Abbeville)", 
+      0.1403
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Somme)>(arrondissement|Abbeville)", 
+      0.1403
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Gironde)", 
+      0.1473
+    ], 
+    [
+      "Location[populationTotal]>(country|Slovenia)>(isPartOf|Municipality_of_Kr%C5%A1ko)>(isPartOf|Lower_Carniola)", 
+      0.1474
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Slovenia)>(isPartOf|Municipality_of_Kr%C5%A1ko)>(isPartOf|Lower_Carniola)", 
+      0.1474
+    ]
+  ], 
+  "values": [
+    54.0, 
+    19.0, 
+    38.0, 
+    3.0, 
+    15.0, 
+    68.0, 
+    28.0, 
+    42.0, 
+    3.0, 
+    77.0, 
+    81.0, 
+    55.0, 
+    103.0, 
+    15.0, 
+    32.0, 
+    71.0, 
+    65.0, 
+    35.0, 
+    46.0, 
+    48.0, 
+    84.0, 
+    41.0, 
+    22.0, 
+    55.0, 
+    59.0, 
+    97.0, 
+    3.0, 
+    1.0, 
+    66.0, 
+    35.0, 
+    34.0, 
+    27.0, 
+    77.0, 
+    29.0, 
+    8.0, 
+    2.0, 
+    2.0, 
+    44.0, 
+    8.0, 
+    66.0, 
+    71.0, 
+    2.0, 
+    26.0, 
+    54.0, 
+    2.0, 
+    18.0, 
+    91.0, 
+    77.0, 
+    81.0, 
+    38.0, 
+    86.0, 
+    93.0, 
+    18.0, 
+    18.0, 
+    11.0, 
+    23.0, 
+    76.0, 
+    5.0, 
+    41.0, 
+    18.0, 
+    90.0, 
+    49.0, 
+    5.0, 
+    58.0, 
+    6.0, 
+    61.0, 
+    39.0, 
+    3.0, 
+    8.0, 
+    0.0, 
+    9.0, 
+    51.0, 
+    2.0, 
+    40.0, 
+    29.0, 
+    88.0, 
+    34.0, 
+    19.0, 
+    44.0, 
+    32.0, 
+    86.0, 
+    75.0, 
+    91.0
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaWater"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "weight", 
+          0.3719
+        ], 
+        [
+          "areaTotal", 
+          0.4101
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          7.0
+        ], 
+        [
+          "weight", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Automobile (weight)", 
+          0.3692
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (weight)", 
+          0.3719
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.4083
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.4086
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.4107
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.4107
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaTotal)", 
+          0.4426
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Automobile (weight)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (weight)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaTotal)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Automobile[weight]>(class|Compact_car)>(bodyStyle|Sedan_(automobile))", 
+      0.3529
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Canada)>(isPartOf|List_of_neighbourhoods_in_Edmonton)", 
+      0.3563
+    ], 
+    [
+      "Automobile[weight]>(class|Compact_car)", 
+      0.3626
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Slovenia)>(isPartOf|Municipality_of_Trebnje)", 
+      0.3881
+    ], 
+    [
+      "Location[areaTotal]>(country|Slovenia)>(isPartOf|Municipality_of_Trebnje)", 
+      0.3913
+    ], 
+    [
+      "Automobile[weight]>(layout|Rear_mid-engine,_rear-wheel-drive_layout)", 
+      0.4
+    ], 
+    [
+      "Location[areaTotal]>(country|Slovenia)>(isPartOf|Ivan%C4%8Dna_Gorica)", 
+      0.4259
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Slovenia)>(isPartOf|Ivan%C4%8Dna_Gorica)", 
+      0.4259
+    ], 
+    [
+      "Settlement[areaTotal]>(isPartOf|Pennsylvania)>(type|List_of_Pittsburgh_neighborhoods)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.4407
+    ], 
+    [
+      "Village[areaTotal]>(isPartOf|Saskatchewan)", 
+      0.4426
+    ]
+  ], 
+  "values": [
+    900000.0, 
+    1217290.0, 
+    1220000.0
+  ]
+}

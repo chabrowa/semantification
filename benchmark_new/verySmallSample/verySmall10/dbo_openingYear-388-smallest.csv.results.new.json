@@ -1,0 +1,203 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/openingYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "width", 
+          0.3214
+        ], 
+        [
+          "elevation", 
+          0.3433
+        ], 
+        [
+          "numberOfStudents", 
+          0.35
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          6.0
+        ], 
+        [
+          "width", 
+          3.0
+        ], 
+        [
+          "numberOfStudents", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Lake (width)", 
+          0.3214
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (width)", 
+          0.3214
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (width)", 
+          0.3214
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.3214
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (width)", 
+          0.3214
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.3415
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.342
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.3447
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.3447
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.35
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          0.35
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.35
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.35
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.3565
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (width)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[width]>(location|Nordland)", 
+      0.3214
+    ], 
+    [
+      "Location[width]>(location|Nordland)>(country|Norway)", 
+      0.3214
+    ], 
+    [
+      "Lake[width]>(location|Nordland)", 
+      0.3214
+    ], 
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)", 
+      0.331
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Colorado)>(type|Census-designated_place)", 
+      0.3324
+    ], 
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.3466
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.3466
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Colorado)", 
+      0.3468
+    ], 
+    [
+      "School[numberOfStudents]>(state|Florida)", 
+      0.35
+    ], 
+    [
+      "Town[elevation]>(timeZone|Mountain_Time_Zone)>(governmentType|List_of_cities_and_towns_in_Colorado)", 
+      0.3565
+    ]
+  ], 
+  "values": [
+    1.0, 
+    2046.0, 
+    2054.0, 
+    1907.0
+  ]
+}
