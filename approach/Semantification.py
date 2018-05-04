@@ -9,8 +9,6 @@ from approach.config.imports import *
 class Semantification(object):
 
     def __init__(self, dataset):
-	print "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-	print "in semantification"
         self.dataset              = dataset
         if self.dataset.subjectColumn != -1:
             self.backgroundKnowledge  = BackgroundKnowledge(self.dataset.datasetId, self.dataset.subjectColumn.columnTypes, self.dataset.subjectColumn.cellPredictions)

@@ -20,7 +20,6 @@ class BackgroundKnowledge(object):
         for index, prediction in enumerate(self.typePredictions):
             if counter < noMaxTopPredictions:
                 if prediction[1] > minPopularity:
-		    print "we are here!!!!!!"
                     valuesBags.append(ValuesBag(prediction[0], prediction[1]))
                     counter += counter
 

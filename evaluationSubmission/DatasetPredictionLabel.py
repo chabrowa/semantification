@@ -7,8 +7,7 @@ from approach.Dataset import Dataset
 class DatasetPrediction(object):
 
     def __init__(self, datasetPath):
-        print "in datasetprediction class"
-	self.datasetPath   = datasetPath
+	    self.datasetPath   = datasetPath
         self.columnMapping = self.getColumnMapping()
         self.scores        = self.getScores()
         self.rowsNumber    = self.getRowsNumber()
@@ -35,10 +34,7 @@ class DatasetPrediction(object):
         if self.checkDataset(dataset.df) == False:
             return -1
 
-	print dataset.datasetId
-	print dataset.subjectColumn
         sem = Semantification(dataset)
-	print "PAST PAST PAST PAST PAST PAST PAST PAST PAST PAST"
         scores = {}
         scores['columnResults']   = sem.columnsResultsKS
         scores['rowResults']      = sem.rowPredictions

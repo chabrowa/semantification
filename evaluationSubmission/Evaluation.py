@@ -6,7 +6,6 @@ from evaluationSubmission.Experiment import Experiment
 class Evaluation(object):
 
     def __init__(self,sizes,deviations):
-	print "we are in evaluation"
         self.sizes       = sizes
         self.deviations  = deviations
         self.experiments = self.getExperiments()
