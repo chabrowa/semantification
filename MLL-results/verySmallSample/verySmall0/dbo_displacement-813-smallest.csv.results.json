@@ -1,0 +1,113 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/displacement"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaWater", 
+          0.507
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.5061
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.5071
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.5075
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.5075
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.5083
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          7.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[areaWater]>(isPartOf|Maryland)>(country|United_States)", 
+      0.5
+    ], 
+    [
+      "Location[areaWater]>(type|Administrative_divisions_of_New_York)>(isPartOf|Nassau_County,_New_York)", 
+      0.503
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Nebraska)", 
+      0.5052
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Idaho)>(timeZone|Pacific_Time_Zone)>(type|City)", 
+      0.5063
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|California)>(isPartOf|Riverside_County,_California)>(type|Census-designated_place)", 
+      0.507
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|California)>(isPartOf|Riverside_County,_California)>(type|Census-designated_place)>(country|United_States)", 
+      0.5072
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Indiana)", 
+      0.5082
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|South_Carolina)>(type|Census-designated_place)", 
+      0.5099
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Georgia_(U.S._state))", 
+      0.5111
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Nebraska)>(timeZone|Central_Time_Zone)>(type|City)", 
+      0.5119
+    ]
+  ], 
+  "values": [
+    0.00112, 
+    0.001998
+  ]
+}

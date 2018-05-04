@@ -1,0 +1,203 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/width"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "height", 
+          0.3128
+        ], 
+        [
+          "width", 
+          0.3141
+        ], 
+        [
+          "populationDensity", 
+          0.3486
+        ]
+      ], 
+      "maj": [
+        [
+          "width", 
+          6.0
+        ], 
+        [
+          "height", 
+          2.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (width)", 
+          0.2455
+        ], 
+        [
+          "http://dbpedia.org/ontology/Locomotive (width)", 
+          0.2759
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (width)", 
+          0.3082
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (height)", 
+          0.3128
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (height)", 
+          0.3128
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (width)", 
+          0.3483
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.3486
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.3486
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.3486
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.3486
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Weapon (width)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (width)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (height)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Locomotive (width)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Locomotive[width]", 
+      0.1543
+    ], 
+    [
+      "Weapon[height]>(type|Self-propelled_artillery)", 
+      0.1751
+    ], 
+    [
+      "Weapon[width]>(type|Self-propelled_artillery)", 
+      0.2778
+    ], 
+    [
+      "Weapon[width]>(type|Armoured_personnel_carrier)", 
+      0.2852
+    ], 
+    [
+      "Locomotive[width]>(powerType|Diesel-electric_transmission)", 
+      0.3367
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Soria)", 
+      0.3486
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Soria)", 
+      0.3486
+    ], 
+    [
+      "Device[width]", 
+      0.4152
+    ], 
+    [
+      "Weapon[width]", 
+      0.4152
+    ], 
+    [
+      "Weapon[height]>(type|Main_battle_tank)", 
+      0.4505
+    ]
+  ], 
+  "values": [
+    3.1095404149689054, 
+    2.416893426063347, 
+    2.8302327577287767, 
+    2.4276994079902763, 
+    3.107934654975409, 
+    2.7361013012361335, 
+    2.9734829912391545, 
+    2.562780468433284, 
+    2.0423860138649985, 
+    3.3471033243869535, 
+    2.4957309056131667, 
+    3.356180136047427, 
+    2.431623964472292, 
+    3.222210624550573, 
+    2.6064070347906148, 
+    2.9488340393336725, 
+    2.6987856994449295, 
+    2.218634483528738, 
+    2.7884068903965042, 
+    2.776570958903851, 
+    2.8363875762732307, 
+    3.0397698381230454, 
+    3.0601098549817616, 
+    2.368179246074345, 
+    2.745863166281521, 
+    2.5249942829251566, 
+    2.885513890686917, 
+    2.6996752846034995, 
+    2.387800316448385, 
+    2.935397587432502, 
+    2.8953635712917976, 
+    3.1182825315001446, 
+    3.205818728957557, 
+    2.9898334908799855, 
+    2.964942390191988, 
+    3.1218011122654157
+  ]
+}

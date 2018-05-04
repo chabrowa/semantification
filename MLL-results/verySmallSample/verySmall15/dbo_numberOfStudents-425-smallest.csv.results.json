@@ -1,0 +1,296 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfStudents"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "length", 
+          0.0753
+        ], 
+        [
+          "width", 
+          0.0794
+        ], 
+        [
+          "populationTotal", 
+          0.0807
+        ], 
+        [
+          "numberOfStudents", 
+          0.0874
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          4.0
+        ], 
+        [
+          "width", 
+          3.0
+        ], 
+        [
+          "numberOfStudents", 
+          2.0
+        ], 
+        [
+          "length", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.0753
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          0.0753
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          0.0753
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (length)", 
+          0.0753
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          0.0763
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.0794
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (width)", 
+          0.0794
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0807
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0807
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (width)", 
+          0.0827
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.0843
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.0874
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.0874
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.0874
+        ], 
+        [
+          "http://dbpedia.org/ontology/University (numberOfStudents)", 
+          0.089
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (width)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (width)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/University (numberOfStudents)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (length)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)", 
+      0.0575
+    ], 
+    [
+      "Lake[length]", 
+      0.0753
+    ], 
+    [
+      "Island[width]", 
+      0.0758
+    ], 
+    [
+      "PopulatedPlace[width]", 
+      0.0762
+    ], 
+    [
+      "Town[populationTotal]>(timeZone|Central_European_Time)", 
+      0.0763
+    ], 
+    [
+      "University[numberOfStudents]", 
+      0.0824
+    ], 
+    [
+      "Island[width]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0862
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|Northern_Ireland)", 
+      0.0908
+    ], 
+    [
+      "University[numberOfStudents]>(country|Philippines)", 
+      0.0923
+    ], 
+    [
+      "Settlement[populationTotal]>(type|Census-designated_place)>(isPartOf|Maryland)", 
+      0.0983
+    ]
+  ], 
+  "values": [
+    9526.0, 
+    93.0, 
+    5005.0, 
+    25602.0, 
+    619.0, 
+    15843.0, 
+    44047.0, 
+    25115.0, 
+    354.0, 
+    425.0, 
+    2916.0, 
+    697.0, 
+    22768.0, 
+    8360.0, 
+    7800.0, 
+    7911.0, 
+    82.0, 
+    5740.0, 
+    198.0, 
+    1259.0, 
+    12870.0, 
+    3928.0, 
+    6182.0, 
+    2803.0, 
+    897.0, 
+    11958.0, 
+    2001.0, 
+    18113.0, 
+    501.0, 
+    10816.0, 
+    194.0, 
+    7669.0, 
+    142.0, 
+    30366.0, 
+    3872.0, 
+    40238.0, 
+    527.0, 
+    35503.0, 
+    15109.0, 
+    4611.0, 
+    13120.0, 
+    4.0, 
+    2691.0, 
+    1715.0, 
+    315.0, 
+    5105.0, 
+    15237.0, 
+    386.0, 
+    1981.0, 
+    32890.0, 
+    14488.0, 
+    12376.0, 
+    29009.0, 
+    1854.0, 
+    1835.0, 
+    9502.0, 
+    4956.0, 
+    648.0, 
+    9657.0, 
+    3336.0, 
+    199.0, 
+    11059.0, 
+    5312.0, 
+    149.0, 
+    11510.0, 
+    11720.0, 
+    1173.0, 
+    2641.0, 
+    2620.0, 
+    65822.0, 
+    372.0, 
+    66152.0, 
+    15478.0, 
+    716.0, 
+    1915.0, 
+    3468.0, 
+    7151.0, 
+    1358.0, 
+    15022.0, 
+    3437.0, 
+    8504.0
+  ]
+}

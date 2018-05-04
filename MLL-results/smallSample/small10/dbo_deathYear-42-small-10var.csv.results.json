@@ -1,0 +1,240 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/deathYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.3363
+        ], 
+        [
+          "openingYear", 
+          0.4079
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          9.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.3363
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          0.3363
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.3363
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          0.3946
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.4027
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.4062
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.4076
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.4076
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          0.4084
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          0.4084
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (openingYear)", 
+          0.4084
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (openingYear)", 
+          0.4093
+        ], 
+        [
+          "http://dbpedia.org/ontology/PowerStation (openingYear)", 
+          0.4133
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tunnel (openingYear)", 
+          0.4146
+        ], 
+        [
+          "http://dbpedia.org/ontology/RoadTunnel (openingYear)", 
+          0.4146
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tunnel (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RoadTunnel (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PowerStation (openingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Mountain[elevation]>(locatedInArea|Norway)>(locatedInArea|Oppland)", 
+      0.3363
+    ], 
+    [
+      "RailwayLine[openingYear]>(type|Light_rail)", 
+      0.3902
+    ], 
+    [
+      "RailwayLine[openingYear]", 
+      0.4032
+    ], 
+    [
+      "Organisation[openingYear]", 
+      0.4083
+    ], 
+    [
+      "PublicTransitSystem[openingYear]", 
+      0.4084
+    ], 
+    [
+      "Agent[openingYear]", 
+      0.4085
+    ], 
+    [
+      "Dam[openingYear]", 
+      0.4093
+    ], 
+    [
+      "PowerStation[openingYear]", 
+      0.4133
+    ], 
+    [
+      "RoadTunnel[openingYear]", 
+      0.4146
+    ], 
+    [
+      "Tunnel[openingYear]", 
+      0.4146
+    ]
+  ], 
+  "values": [
+    1791.0, 
+    1961.0, 
+    2044.0, 
+    1991.0, 
+    2066.0, 
+    1980.0, 
+    1991.0, 
+    1964.0, 
+    2128.0, 
+    1851.0, 
+    2131.0, 
+    2019.0, 
+    1977.0, 
+    1767.0, 
+    2076.0, 
+    1892.0, 
+    2073.0, 
+    1923.0, 
+    2014.0, 
+    2068.0, 
+    1938.0, 
+    2197.0, 
+    1787.0, 
+    1925.0, 
+    2138.0, 
+    1936.0, 
+    2097.0, 
+    1873.0, 
+    1784.0, 
+    1830.0, 
+    1902.0, 
+    1976.0, 
+    2091.0, 
+    1896.0, 
+    2152.0, 
+    2025.0, 
+    2171.0, 
+    1906.0, 
+    2162.0, 
+    1874.0, 
+    2160.0
+  ]
+}

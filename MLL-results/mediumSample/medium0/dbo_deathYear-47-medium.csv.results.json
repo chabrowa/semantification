@@ -1,0 +1,343 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/deathYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "year", 
+          0.0844
+        ], 
+        [
+          "openingYear", 
+          0.1095
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.1113
+        ], 
+        [
+          "draftYear", 
+          0.1145
+        ]
+      ], 
+      "maj": [
+        [
+          "year", 
+          4.0
+        ], 
+        [
+          "draftYear", 
+          3.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          2.0
+        ], 
+        [
+          "openingYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/NCAATeamSeason (year)", 
+          0.0772
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeamSeason (year)", 
+          0.0823
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsSeason (year)", 
+          0.0844
+        ], 
+        [
+          "http://dbpedia.org/ontology/MotorsportSeason (year)", 
+          0.1005
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalArtist (activeYearsEndYear)", 
+          0.1087
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.1095
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.1095
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.1095
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.1095
+        ], 
+        [
+          "http://dbpedia.org/ontology/RoadJunction (openingYear)", 
+          0.1095
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.1113
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (activeYearsEndYear)", 
+          0.1113
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.1113
+        ], 
+        [
+          "http://dbpedia.org/ontology/GridironFootballPlayer (draftYear)", 
+          0.1144
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmericanFootballPlayer (draftYear)", 
+          0.1144
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (draftYear)", 
+          0.1145
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (draftYear)", 
+          0.1145
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (draftYear)", 
+          0.1145
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (draftYear)", 
+          0.1146
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/SportsSeason (year)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (draftYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (draftYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (draftYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/GridironFootballPlayer (draftYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeamSeason (year)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (draftYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NCAATeamSeason (year)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalArtist (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MotorsportSeason (year)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmericanFootballPlayer (draftYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RoadJunction (openingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "SportsSeason[year]", 
+      0.0723
+    ], 
+    [
+      "NCAATeamSeason[year]", 
+      0.0772
+    ], 
+    [
+      "SportsTeamSeason[year]", 
+      0.0874
+    ], 
+    [
+      "MotorsportSeason[year]", 
+      0.1005
+    ], 
+    [
+      "MusicalArtist[activeYearsEndYear]", 
+      0.1087
+    ], 
+    [
+      "RoadJunction[openingYear]", 
+      0.1095
+    ], 
+    [
+      "Artist[activeYearsEndYear]", 
+      0.1139
+    ], 
+    [
+      "GridironFootballPlayer[draftYear]", 
+      0.1144
+    ], 
+    [
+      "AmericanFootballPlayer[draftYear]", 
+      0.1144
+    ], 
+    [
+      "BasketballPlayer[draftYear]", 
+      0.1146
+    ]
+  ], 
+  "values": [
+    2012.0, 
+    1971.0, 
+    1985.0, 
+    1999.0, 
+    2007.0, 
+    1991.0, 
+    2012.0, 
+    2016.0, 
+    2007.0, 
+    1864.0, 
+    2007.0, 
+    2007.0, 
+    2011.0, 
+    2014.0, 
+    2010.0, 
+    2006.0, 
+    1984.0, 
+    1950.0, 
+    2016.0, 
+    2012.0, 
+    2010.0, 
+    1970.0, 
+    2003.0, 
+    1975.0, 
+    1946.0, 
+    1996.0, 
+    1960.0, 
+    1997.0, 
+    2013.0, 
+    1828.0, 
+    1968.0, 
+    2006.0, 
+    1914.0, 
+    1980.0, 
+    1995.0, 
+    1872.0, 
+    1960.0, 
+    1998.0, 
+    1985.0, 
+    1991.0, 
+    1966.0, 
+    1967.0, 
+    2008.0, 
+    2013.0, 
+    1992.0, 
+    2014.0, 
+    2014.0, 
+    2014.0, 
+    1995.0, 
+    1972.0, 
+    1979.0, 
+    2011.0, 
+    2001.0, 
+    1955.0, 
+    2005.0, 
+    16.0, 
+    1978.0, 
+    1986.0, 
+    1978.0, 
+    1965.0, 
+    1967.0, 
+    2000.0, 
+    2010.0, 
+    1932.0, 
+    2011.0, 
+    1971.0, 
+    2006.0, 
+    2013.0, 
+    1990.0, 
+    1980.0, 
+    1938.0, 
+    2014.0, 
+    2015.0, 
+    1948.0, 
+    1985.0, 
+    1993.0, 
+    1986.0, 
+    1940.0, 
+    1993.0, 
+    2009.0, 
+    2001.0, 
+    1991.0, 
+    1958.0, 
+    2013.0, 
+    2004.0, 
+    1973.0, 
+    1975.0, 
+    2007.0, 
+    1886.0, 
+    2014.0, 
+    1979.0, 
+    1997.0, 
+    2005.0, 
+    2013.0, 
+    1936.0, 
+    1977.0
+  ]
+}

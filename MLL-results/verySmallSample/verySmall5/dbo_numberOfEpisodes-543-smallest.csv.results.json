@@ -1,0 +1,219 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEpisodes"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfEpisodes", 
+          0.1304
+        ], 
+        [
+          "elevation", 
+          0.1831
+        ], 
+        [
+          "length", 
+          0.1933
+        ], 
+        [
+          "minimumElevation", 
+          0.1989
+        ]
+      ], 
+      "maj": [
+        [
+          "numberOfEpisodes", 
+          6.0
+        ], 
+        [
+          "minimumElevation", 
+          2.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ], 
+        [
+          "length", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          0.1304
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionSeason (numberOfEpisodes)", 
+          0.1326
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1831
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1831
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1831
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (length)", 
+          0.1933
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (length)", 
+          0.1933
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.1989
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.1989
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.1989
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1989
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/TelevisionSeason (numberOfEpisodes)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "TelevisionSeason[numberOfEpisodes]>(network|American_Broadcasting_Company)", 
+      0.1127
+    ], 
+    [
+      "TelevisionSeason[numberOfEpisodes]", 
+      0.1172
+    ], 
+    [
+      "TelevisionSeason[numberOfEpisodes]>(network|Fox_Broadcasting_Company)>(country|United_States)", 
+      0.1365
+    ], 
+    [
+      "TelevisionSeason[numberOfEpisodes]>(network|Fox_Broadcasting_Company)", 
+      0.1365
+    ], 
+    [
+      "TelevisionSeason[numberOfEpisodes]>(network|NBC)", 
+      0.1389
+    ], 
+    [
+      "TelevisionSeason[numberOfEpisodes]>(network|American_Broadcasting_Company)>(country|United_States)", 
+      0.1404
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Rendsburg-Eckernf%C3%B6rde)", 
+      0.1831
+    ], 
+    [
+      "Ship[length]>(type|Patrol_boat)", 
+      0.1933
+    ], 
+    [
+      "Location[minimumElevation]>(department|Pas-de-Calais)>(arrondissement|Arrondissement_of_B%C3%A9thune)", 
+      0.1989
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Pas-de-Calais)>(arrondissement|Arrondissement_of_B%C3%A9thune)", 
+      0.1989
+    ]
+  ], 
+  "values": [
+    25.0, 
+    21.0, 
+    23.0, 
+    20.0, 
+    23.0, 
+    19.0, 
+    14.0, 
+    21.0, 
+    11.0, 
+    12.0, 
+    11.0, 
+    239.0, 
+    7.0, 
+    18.0, 
+    50.0, 
+    15.0, 
+    25.0, 
+    22.0, 
+    15.0, 
+    10.0, 
+    24.0, 
+    23.0, 
+    22.0, 
+    23.0, 
+    40.0, 
+    25.0, 
+    10.0, 
+    24.0, 
+    23.0, 
+    30.0, 
+    40.0, 
+    23.0, 
+    26.0, 
+    7.0, 
+    22.0, 
+    22.0
+  ]
+}

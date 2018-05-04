@@ -1,0 +1,193 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/minimumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "maximumElevation", 
+          0.1325
+        ], 
+        [
+          "minimumElevation", 
+          0.1328
+        ], 
+        [
+          "populationTotal", 
+          0.1566
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          6.0
+        ], 
+        [
+          "minimumElevation", 
+          3.0
+        ], 
+        [
+          "maximumElevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/SkiArea (minimumElevation)", 
+          0.1317
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (minimumElevation)", 
+          0.1317
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.1325
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1328
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (minimumElevation)", 
+          0.1328
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1559
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1559
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1559
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1559
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1602
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          18.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (minimumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "SportFacility[minimumElevation]", 
+      0.1317
+    ], 
+    [
+      "SkiArea[minimumElevation]", 
+      0.1317
+    ], 
+    [
+      "Place[maximumElevation]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1325
+    ], 
+    [
+      "ArchitecturalStructure[minimumElevation]", 
+      0.135
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Isfahan_Province)>(isPartOf|Falavarjan_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1525
+    ], 
+    [
+      "Village[populationTotal]>(country|United_Kingdom)>(country|West_Sussex)>(country|England)", 
+      0.1531
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Isfahan_Province)>(isPartOf|Falavarjan_County)", 
+      0.1551
+    ], 
+    [
+      "Village[populationTotal]>(country|United_Kingdom)>(country|East_Sussex)", 
+      0.1581
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_Time_Zone)>(daylightSavingTimeZone|Eastern_Time_Zone)>(region|Crawford_County,_Pennsylvania)>(country|United_States)", 
+      0.1602
+    ], 
+    [
+      "Village[populationTotal]>(country|United_Kingdom)>(country|East_Sussex)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1609
+    ]
+  ], 
+  "values": [
+    219.03661596974217, 
+    233.83299792038935, 
+    1974.5902688255305, 
+    2555.168131077262, 
+    1148.389985405564, 
+    1766.787505990492, 
+    568.9826795708984, 
+    1729.0519753501042, 
+    263.2519867697361, 
+    278.8787333322356, 
+    2017.874363171865, 
+    1186.4520608907007, 
+    944.5690207360998, 
+    1633.738039965515, 
+    3027.048495629982, 
+    163.63446743319037, 
+    969.617501141049, 
+    1933.7142936405567, 
+    201.79899854993045, 
+    202.28055241834102, 
+    303.70707088628905, 
+    1191.0002787484189, 
+    2187.949500933287, 
+    2204.0296674309106, 
+    2250.7708342939513, 
+    1143.4204565274056
+  ]
+}

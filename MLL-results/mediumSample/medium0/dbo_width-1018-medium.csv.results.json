@@ -1,0 +1,408 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/width"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.0913
+        ], 
+        [
+          "width", 
+          0.0919
+        ], 
+        [
+          "number", 
+          0.1001
+        ], 
+        [
+          "squadNumber", 
+          0.101
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          6.0
+        ], 
+        [
+          "squadNumber", 
+          2.0
+        ], 
+        [
+          "width", 
+          1.0
+        ], 
+        [
+          "number", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.0909
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (width)", 
+          0.0919
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          0.0919
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          0.0919
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.0919
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          0.0919
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.0933
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.0933
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.0933
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.0939
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.1001
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          0.1001
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.1001
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.1001
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (squadNumber)", 
+          0.101
+        ], 
+        [
+          "http://dbpedia.org/ontology/OrganisationMember (squadNumber)", 
+          0.101
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (squadNumber)", 
+          0.101
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeamMember (squadNumber)", 
+          0.101
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (squadNumber)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (squadNumber)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/OrganisationMember (squadNumber)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeamMember (squadNumber)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationDensity]>(type|New_England_town)>(isPartOf|Vermont)", 
+      0.0832
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Michigan)>(type|Township_(United_States))", 
+      0.0896
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Michigan)>(type|Township_(United_States))", 
+      0.0896
+    ], 
+    [
+      "Location[populationDensity]>(type|New_England_town)>(isPartOf|Vermont)>(country|United_States)", 
+      0.0915
+    ], 
+    [
+      "Bridge[width]", 
+      0.0919
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Michigan)>(type|Township_(United_States))>(timeZone|Eastern_Time_Zone)", 
+      0.0971
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Michigan)>(type|Township_(United_States))>(timeZone|Eastern_Time_Zone)", 
+      0.0971
+    ], 
+    [
+      "BasketballPlayer[number]>(nationality|Philippines)>(league|Philippine_Basketball_Association)", 
+      0.1001
+    ], 
+    [
+      "Person[squadNumber]", 
+      0.101
+    ], 
+    [
+      "SportsTeamMember[squadNumber]", 
+      0.101
+    ]
+  ], 
+  "values": [
+    25.2984, 
+    20.0, 
+    7.25, 
+    4.572, 
+    30.6, 
+    4.572, 
+    25.6032, 
+    42.0, 
+    7.0, 
+    16.48, 
+    7.35, 
+    9.1, 
+    27.2, 
+    5.8674, 
+    15.0, 
+    2.4, 
+    13.8, 
+    11.3, 
+    8.5344, 
+    34.3, 
+    35.433, 
+    58.5, 
+    25749.5, 
+    6.27278, 
+    28.7, 
+    107826.0, 
+    15.5, 
+    22.56, 
+    12.192, 
+    11.5, 
+    13.716, 
+    10.0584, 
+    12.0, 
+    12.0, 
+    7.3152, 
+    12.0, 
+    19.5, 
+    24542.5, 
+    31.25, 
+    24140.2, 
+    35.8, 
+    26.5176, 
+    25749.5, 
+    23.1, 
+    4.8768, 
+    22.0, 
+    23.4696, 
+    16.4592, 
+    3.7, 
+    6.55, 
+    22.7, 
+    6.1, 
+    24.384, 
+    30.0, 
+    8.6, 
+    33.5, 
+    14.0, 
+    20.1168, 
+    4.0, 
+    6.1, 
+    41.0, 
+    24.0, 
+    6.2, 
+    14.7, 
+    9.144, 
+    22.0, 
+    6.096, 
+    35.0, 
+    460.0, 
+    17.8, 
+    7.3761600000000005, 
+    3.90144, 
+    39.01, 
+    17.0, 
+    8.6, 
+    6.096, 
+    20.0, 
+    4.2672, 
+    5.27304, 
+    30.0, 
+    25.0, 
+    8.6, 
+    48.8, 
+    26.5, 
+    128748.0, 
+    12.0, 
+    16.0, 
+    29.0, 
+    4.0, 
+    5.5, 
+    10.0, 
+    20.7, 
+    21.9456, 
+    40.2, 
+    19.0, 
+    4.0, 
+    29.0, 
+    9.0, 
+    9.85, 
+    3.25, 
+    20.0, 
+    15.7886, 
+    9.3, 
+    1.57, 
+    11.1, 
+    7.3152, 
+    11.8, 
+    9.0, 
+    61.6, 
+    8.2296, 
+    2.4, 
+    65.0, 
+    27.5, 
+    33.0, 
+    3.9624, 
+    5.7912, 
+    20.0, 
+    128748.0, 
+    32.0, 
+    6.7056, 
+    25749.5, 
+    6.7056, 
+    21.0, 
+    16.6116, 
+    22.2504, 
+    23.0, 
+    25.0, 
+    27.0, 
+    18.0, 
+    12.8016, 
+    6.4008, 
+    25.6032, 
+    20.1168, 
+    29.0, 
+    30.0, 
+    21.336, 
+    10.3632, 
+    3.9624, 
+    25.6, 
+    7.35, 
+    16.73, 
+    34.8, 
+    79.8576, 
+    3.5, 
+    20.1, 
+    21.13, 
+    26.33, 
+    4.8768, 
+    2.0, 
+    43.0, 
+    8.6, 
+    26.2128, 
+    14.0208, 
+    19.25, 
+    14.0, 
+    27.0, 
+    9.0, 
+    7.3152, 
+    13.5, 
+    32.6136, 
+    38.0, 
+    3.0, 
+    31.0896, 
+    11.0033, 
+    15.3, 
+    8.0, 
+    40.0, 
+    8.0, 
+    9.083039999999999
+  ]
+}

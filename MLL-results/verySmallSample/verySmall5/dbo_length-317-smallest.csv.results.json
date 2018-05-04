@@ -1,0 +1,218 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/length"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "length", 
+          0.0884
+        ], 
+        [
+          "populationDensity", 
+          0.1959
+        ], 
+        [
+          "elevation", 
+          0.2565
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          7.0
+        ], 
+        [
+          "length", 
+          2.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Device (length)", 
+          0.0884
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (length)", 
+          0.0884
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1903
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.1983
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.1983
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.2015
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.2015
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.2063
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.2063
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2565
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2565
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2565
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (length)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Device[length]", 
+      0.0884
+    ], 
+    [
+      "Weapon[length]", 
+      0.0884
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Kansas)", 
+      0.1409
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Nebraska)", 
+      0.1639
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Colorado)", 
+      0.1886
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Kansas)", 
+      0.1893
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Nebraska)>(type|Civil_township)", 
+      0.2232
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Nebraska)", 
+      0.2232
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Kansas)", 
+      0.2424
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Nordfriesland)", 
+      0.2565
+    ]
+  ], 
+  "values": [
+    6.2285563025054484, 
+    2.5068142234370634, 
+    6.671894262345197, 
+    1.0509027437278133, 
+    1.1887703629570665, 
+    7.182295872199461, 
+    5.719565514855688, 
+    0.2601395744088192, 
+    1.1263943571368722, 
+    5.328550843213084, 
+    2.1533541310652557, 
+    7.8637208512646675, 
+    1.0467418006457603, 
+    0.1998322060024404, 
+    11.650536274960889, 
+    12.024442025153798, 
+    6.51181861463759, 
+    1.5211566438507524, 
+    0.6055415942364892, 
+    8.935375851769786, 
+    0.501409550162451, 
+    18.312770038626283, 
+    9.092601251881092, 
+    4.6953399177037936, 
+    8.934475856713957, 
+    3.1198251772803425, 
+    1.2534887249764943, 
+    0.9012492345742369, 
+    0.44497970062659975, 
+    0.32497598246249787, 
+    3.5320154521382925, 
+    7.029756397010094, 
+    0.3099939397891553, 
+    5.6609494727672605, 
+    0.961409290918349
+  ]
+}

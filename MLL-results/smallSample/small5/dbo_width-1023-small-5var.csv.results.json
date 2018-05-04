@@ -1,0 +1,233 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/width"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "width", 
+          0.077
+        ], 
+        [
+          "height", 
+          0.194
+        ], 
+        [
+          "populationDensity", 
+          0.2686
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          5.0
+        ], 
+        [
+          "height", 
+          3.0
+        ], 
+        [
+          "width", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Device (width)", 
+          0.077
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (width)", 
+          0.077
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (height)", 
+          0.194
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (height)", 
+          0.2232
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2627
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.2701
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.2725
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.2725
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.2755
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (height)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (height)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (width)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Device[width]", 
+      0.077
+    ], 
+    [
+      "Weapon[width]", 
+      0.077
+    ], 
+    [
+      "Device[height]", 
+      0.1648
+    ], 
+    [
+      "Weapon[height]", 
+      0.1648
+    ], 
+    [
+      "Weapon[height]>(type|Armoured_personnel_carrier)", 
+      0.2525
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Nebraska)>(type|Civil_township)", 
+      0.2589
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Nebraska)", 
+      0.2589
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Soria)", 
+      0.2666
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Soria)", 
+      0.2666
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Kansas)", 
+      0.2922
+    ]
+  ], 
+  "values": [
+    2.079213878969463, 
+    2.662822243771808, 
+    2.8700497972515184, 
+    0.030403394682998654, 
+    2.1695123917539334, 
+    1.772047428011758, 
+    2.2068682353753375, 
+    2.5831714966521018, 
+    3.870173427961337, 
+    4.09896332703687, 
+    3.5936236136908253, 
+    2.4254745414502787, 
+    4.171171076917386, 
+    3.6687781190828943, 
+    2.6324992556787983, 
+    2.0864153714150984, 
+    1.9830739547763747, 
+    0.032395991744569565, 
+    2.91673233440947, 
+    3.8809079811693277, 
+    2.3292280327859936, 
+    1.2563744748563466, 
+    2.3849687464639024, 
+    3.045294838223554, 
+    3.62737476185248, 
+    1.223449588000156, 
+    1.8649643273739434, 
+    2.2725422330426053, 
+    2.7542462747786103, 
+    1.7843375783741349, 
+    3.170761831615724, 
+    1.558736652852587, 
+    2.6603304225700373, 
+    2.0933805214010732, 
+    3.010176622671701, 
+    3.035109464348127, 
+    0.03267430057928899, 
+    3.119546859999449, 
+    2.2772302601106613, 
+    3.2183340334053576, 
+    1.8119087168367225, 
+    3.6233001409744614, 
+    2.8066215676204753, 
+    2.0220500694503607, 
+    1.7153656670910966, 
+    3.559358985038808, 
+    0.03296297198276754, 
+    2.559974350878913, 
+    2.076157351547554, 
+    3.317010924359325, 
+    3.1264259857317462, 
+    0.20280995109094616, 
+    3.1141775675516583, 
+    2.31718999665975, 
+    2.654393307283608, 
+    2.5295630995652973, 
+    2.555409126622575, 
+    2.9028947690263864, 
+    0.05058981700559444, 
+    2.407640806610802, 
+    2.2986332562025447, 
+    3.5269260374919766, 
+    0.03516836165505256, 
+    2.268051701501521, 
+    2.155855080710715, 
+    0.032374687679380565, 
+    0.03053938551234069, 
+    2.5243482308672376, 
+    2.04423054811494, 
+    0.938715284856634, 
+    2.974051333496203, 
+    2.5170487711153537, 
+    0.3523229945908885, 
+    3.7094429200782346
+  ]
+}

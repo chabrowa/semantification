@@ -1,0 +1,271 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runwayLength"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.1406
+        ], 
+        [
+          "populationDensity", 
+          0.152
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.1542
+        ], 
+        [
+          "foundingYear", 
+          0.1555
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          6.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ], 
+        [
+          "foundingYear", 
+          1.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.1332
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.1402
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          0.1402
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1408
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.141
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.141
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.143
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1509
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.1536
+        ], 
+        [
+          "http://dbpedia.org/ontology/Royalty (activeYearsStartYear)", 
+          0.1542
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.1542
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          0.1542
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (foundingYear)", 
+          0.1555
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (foundingYear)", 
+          0.1555
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (foundingYear)", 
+          0.1555
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Royalty (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)", 
+      0.1253
+    ], 
+    [
+      "Village[elevation]>(country|Kyrgyzstan)>(isPartOf|Jalal-Abad_Province)", 
+      0.1268
+    ], 
+    [
+      "Mountain[elevation]>(locatedInArea|Japan)", 
+      0.1402
+    ], 
+    [
+      "Village[elevation]>(country|Kyrgyzstan)", 
+      0.1427
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Illinois)>(isPartOf|Cook_County,_Illinois)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1444
+    ], 
+    [
+      "Town[elevation]>(timeZone|Mountain_Time_Zone)", 
+      0.1536
+    ], 
+    [
+      "Royalty[activeYearsStartYear]", 
+      0.1542
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Himachal_Pradesh)", 
+      0.1548
+    ], 
+    [
+      "Country[foundingYear]", 
+      0.1555
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Illinois)>(isPartOf|Cook_County,_Illinois)", 
+      0.1596
+    ]
+  ], 
+  "values": [
+    1676.4, 
+    1554.0, 
+    2256.0, 
+    918.972, 
+    1584.96, 
+    975.055, 
+    390.144, 
+    1234.74, 
+    1615.74, 
+    762.0, 
+    1772.11, 
+    650.748, 
+    837.2860000000001, 
+    3657.6, 
+    762.0, 
+    944.88, 
+    821.436, 
+    1063.45, 
+    1981.81, 
+    1365.2, 
+    2102.0, 
+    640.08, 
+    2743.81, 
+    1212.19, 
+    853.745, 
+    1226.0, 
+    1128.0, 
+    1036.32, 
+    1219.2, 
+    706.5260000000001, 
+    1706.88, 
+    1219.5, 
+    1584.05, 
+    1524.0, 
+    1187.81, 
+    3049.22, 
+    1844.04, 
+    1982.0, 
+    1552.96, 
+    2225.04, 
+    1131.11, 
+    1402.08, 
+    2179.32, 
+    1525.22, 
+    1630.68, 
+    1828.8, 
+    2194.56, 
+    701.04, 
+    1525.52, 
+    1493.82, 
+    991.819, 
+    1043.33, 
+    1737.0, 
+    1098.19, 
+    989.99, 
+    1219.5
+  ]
+}

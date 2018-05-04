@@ -1,0 +1,267 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/year"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "serviceEndYear", 
+          0.1494
+        ], 
+        [
+          "yearOfConstruction", 
+          0.1559
+        ], 
+        [
+          "openingYear", 
+          0.1619
+        ], 
+        [
+          "foundingYear", 
+          0.169
+        ]
+      ], 
+      "maj": [
+        [
+          "foundingYear", 
+          6.0
+        ], 
+        [
+          "openingYear", 
+          2.0
+        ], 
+        [
+          "serviceEndYear", 
+          1.0
+        ], 
+        [
+          "yearOfConstruction", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          0.1494
+        ], 
+        [
+          "http://dbpedia.org/ontology/MemberOfParliament (serviceEndYear)", 
+          0.1494
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceEndYear)", 
+          0.1494
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          0.1494
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (yearOfConstruction)", 
+          0.1559
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (yearOfConstruction)", 
+          0.1559
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (yearOfConstruction)", 
+          0.1559
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (foundingYear)", 
+          0.1587
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tunnel (openingYear)", 
+          0.1591
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.1619
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.1619
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          0.1648
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayStation (openingYear)", 
+          0.1648
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.1648
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          0.1675
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.169
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.169
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bank (foundingYear)", 
+          0.169
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsLeague (foundingYear)", 
+          0.1811
+        ], 
+        [
+          "http://dbpedia.org/ontology/BaseballLeague (foundingYear)", 
+          0.1811
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (yearOfConstruction)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (yearOfConstruction)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MemberOfParliament (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bank (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (yearOfConstruction)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tunnel (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayStation (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsLeague (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BaseballLeague (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (foundingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "MemberOfParliament[serviceEndYear]", 
+      0.1494
+    ], 
+    [
+      "Infrastructure[yearOfConstruction]", 
+      0.1559
+    ], 
+    [
+      "SportsTeam[foundingYear]", 
+      0.1587
+    ], 
+    [
+      "Tunnel[openingYear]", 
+      0.1591
+    ], 
+    [
+      "RailwayStation[openingYear]", 
+      0.1648
+    ], 
+    [
+      "Company[foundingYear]>(industry|Financial_services)", 
+      0.1667
+    ], 
+    [
+      "Bank[foundingYear]", 
+      0.169
+    ], 
+    [
+      "Agent[foundingYear]", 
+      0.1692
+    ], 
+    [
+      "Organisation[foundingYear]", 
+      0.1694
+    ], 
+    [
+      "BaseballLeague[foundingYear]", 
+      0.1811
+    ]
+  ], 
+  "values": [
+    1891.0, 
+    1948.0, 
+    1931.0, 
+    2097.0, 
+    1986.0, 
+    1997.0, 
+    1932.0, 
+    1990.0, 
+    1984.0, 
+    1929.0, 
+    2005.0, 
+    1849.0
+  ]
+}

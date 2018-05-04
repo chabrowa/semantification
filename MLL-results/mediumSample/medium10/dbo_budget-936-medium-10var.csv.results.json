@@ -1,0 +1,306 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/budget"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "length", 
+          0.2115
+        ], 
+        [
+          "budget", 
+          0.2231
+        ], 
+        [
+          "populationTotal", 
+          0.2413
+        ], 
+        [
+          "postalCode", 
+          0.2463
+        ]
+      ], 
+      "maj": [
+        [
+          "budget", 
+          5.0
+        ], 
+        [
+          "populationTotal", 
+          3.0
+        ], 
+        [
+          "postalCode", 
+          1.0
+        ], 
+        [
+          "length", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.2115
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          0.2115
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          0.2115
+        ], 
+        [
+          "http://dbpedia.org/ontology/River (length)", 
+          0.2115
+        ], 
+        [
+          "http://dbpedia.org/ontology/Stream (length)", 
+          0.2115
+        ], 
+        [
+          "http://dbpedia.org/ontology/SocietalEvent (budget)", 
+          0.2231
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tournament (budget)", 
+          0.2231
+        ], 
+        [
+          "http://dbpedia.org/ontology/Event (budget)", 
+          0.2231
+        ], 
+        [
+          "http://dbpedia.org/ontology/TennisTournament (budget)", 
+          0.2231
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsEvent (budget)", 
+          0.2231
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationTotal)", 
+          0.2394
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationTotal)", 
+          0.2394
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2413
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2413
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          0.242
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.2422
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (postalCode)", 
+          0.2463
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          0.2463
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Event (budget)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SocietalEvent (budget)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsEvent (budget)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tournament (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (postalCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/River (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Stream (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TennisTournament (budget)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "River[length]>(sourceCountry|France)", 
+      0.2115
+    ], 
+    [
+      "TennisTournament[budget]", 
+      0.2231
+    ], 
+    [
+      "Tournament[budget]", 
+      0.2231
+    ], 
+    [
+      "SocietalEvent[budget]", 
+      0.2231
+    ], 
+    [
+      "Event[budget]", 
+      0.2231
+    ], 
+    [
+      "SportsEvent[budget]", 
+      0.2231
+    ], 
+    [
+      "AdministrativeRegion[populationTotal]>(country|Peru)", 
+      0.2394
+    ], 
+    [
+      "City[populationTotal]>(type|Cities_of_Japan)>(country|Japan)", 
+      0.241
+    ], 
+    [
+      "City[populationTotal]>(type|Cities_of_Japan)", 
+      0.2434
+    ], 
+    [
+      "ArchitecturalStructure[postalCode]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2463
+    ]
+  ], 
+  "values": [
+    50265.37063729012, 
+    45574.26336518243, 
+    45292.83179398633, 
+    53107.685700206624, 
+    38098.66815593532, 
+    43731.43251242085, 
+    9146.474526475053, 
+    104511.30051697616, 
+    48955.789522970386, 
+    232760.26706480666, 
+    51983.99420800529, 
+    52129.21734210672, 
+    236657.70650776717, 
+    54402.81074975646, 
+    48060.31294413971, 
+    76033.35267780043, 
+    45985.82983334835, 
+    37334.39272489151, 
+    50340.76259314261, 
+    52794.489415874676, 
+    274242.81993002584, 
+    668473.4736023563, 
+    249582.1627444012, 
+    65519.20184902225, 
+    51480.49207819408, 
+    52900.10238949391, 
+    39160043.46847213, 
+    75833.01772679182, 
+    9733.337369152203, 
+    1192701.7336938079, 
+    1175200.6224495745, 
+    50946.73265255017, 
+    26940.9315677961, 
+    53502.37883360729, 
+    50318.87406069534, 
+    47950.96425822999, 
+    54093.21306313142, 
+    47393.122693306985, 
+    51786.26435328592, 
+    28480665.94627945, 
+    45898.05107789324, 
+    50269.67254776754, 
+    517546.32414212916, 
+    50231.389972603385, 
+    26803.26978740428, 
+    53094.82177712938, 
+    46954.0095535604, 
+    76340.14654134266, 
+    969013.025767276, 
+    119534.95862854263, 
+    135203.96291643786, 
+    51534.964836287196, 
+    162743.1900968254, 
+    78926.1343829227, 
+    95875.03304139632, 
+    132869.6863693234, 
+    54781.49716228664, 
+    50382.843639222, 
+    70013.49071412986, 
+    105035.52298361358, 
+    54135.75588491313, 
+    46804.132533687545, 
+    271602.42921358935, 
+    52732.32302937262, 
+    39580.583555804355, 
+    48761.90122184858, 
+    52069.691440885275
+  ]
+}

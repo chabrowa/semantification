@@ -1,0 +1,291 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/gross"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaWater", 
+          0.0919
+        ], 
+        [
+          "areaTotal", 
+          0.1111
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          5.0
+        ], 
+        [
+          "areaTotal", 
+          5.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          0.0817
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.0899
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.0923
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.0923
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.0923
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (areaTotal)", 
+          0.099
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (areaTotal)", 
+          0.099
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1111
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.1138
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (areaTotal)", 
+          0.1138
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          0.1143
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (areaTotal)", 
+          0.1148
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          0.1149
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.1162
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (areaTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Town[areaWater]>(type|Administrative_divisions_of_New_York)", 
+      0.0738
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Minnesota)>(isPartOf|St._Louis_County,_Minnesota)>(type|Township_(United_States))", 
+      0.0869
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Minnesota)>(isPartOf|St._Louis_County,_Minnesota)", 
+      0.0869
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Maine)", 
+      0.0958
+    ], 
+    [
+      "SportFacility[areaTotal]", 
+      0.099
+    ], 
+    [
+      "NaturalPlace[areaTotal]", 
+      0.1131
+    ], 
+    [
+      "Island[areaTotal]>(country|New_Zealand)", 
+      0.1138
+    ], 
+    [
+      "Lake[areaTotal]", 
+      0.1148
+    ], 
+    [
+      "BodyOfWater[areaTotal]", 
+      0.115
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Alaska)>(timeZone|Alaska_Time_Zone)", 
+      0.1162
+    ]
+  ], 
+  "values": [
+    2500000.0, 
+    3200000.0, 
+    977671.0, 
+    628000.0, 
+    47100000.0, 
+    58500000.0, 
+    3255000.0, 
+    22000115.0, 
+    3800000.0, 
+    1900000.0, 
+    1402866.0, 
+    14817006.0, 
+    97728.0, 
+    12631.0, 
+    73800000.0, 
+    9638389.0, 
+    170832.0, 
+    1783000.0, 
+    36900000.0, 
+    4460000.0, 
+    78350.0, 
+    8096000.0, 
+    2396341.0, 
+    193781.0, 
+    20345561.0, 
+    30000000.0, 
+    2460000.0, 
+    5617460.0, 
+    2420162.0, 
+    100500000.0, 
+    120900000.0, 
+    129778.0, 
+    317831.0, 
+    622503.0, 
+    1764304.0, 
+    900000.0, 
+    4366722.0, 
+    201149.0, 
+    372438.0, 
+    1800000.0, 
+    38500000.0, 
+    117000000.0, 
+    1200000.0, 
+    9800000.0, 
+    12728.0, 
+    57756408.0, 
+    124613.0, 
+    99032.0, 
+    1400000.0, 
+    6035.0, 
+    4630000.0, 
+    371198.0, 
+    278623.0, 
+    10362785.0, 
+    1433165.0, 
+    1004105.0, 
+    13073563.0, 
+    11670000.0, 
+    2887285.0, 
+    9194283.0, 
+    300000.0, 
+    3350000.0, 
+    5301200.0, 
+    210400000.0, 
+    5494715.0, 
+    7970045.0, 
+    1969150.0, 
+    269755.0, 
+    1331900.0, 
+    171700000.0, 
+    2401999.0, 
+    22300000.0, 
+    125687.0, 
+    564632.0, 
+    2500000.0, 
+    1400000.0, 
+    4700000.0, 
+    1.0, 
+    1500147.0, 
+    133000000.0, 
+    10726909.0, 
+    15900000.0, 
+    36800000.0, 
+    162649.0, 
+    66680.0, 
+    4900000.0, 
+    1500000.0, 
+    1000000.0, 
+    40100000.0, 
+    4900000.0, 
+    1450000.0, 
+    20000000.0, 
+    325300000.0, 
+    23968.0, 
+    194000000.0, 
+    1000000.0, 
+    150.0, 
+    2350000.0, 
+    153205.0, 
+    308000.0
+  ]
+}

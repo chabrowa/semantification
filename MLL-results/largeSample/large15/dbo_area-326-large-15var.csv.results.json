@@ -1,0 +1,291 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/area"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.36
+        ], 
+        [
+          "numberOfGoals", 
+          0.4393
+        ], 
+        [
+          "length", 
+          0.4614
+        ], 
+        [
+          "areaWater", 
+          0.4792
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          6.0
+        ], 
+        [
+          "numberOfGoals", 
+          2.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ], 
+        [
+          "length", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.36
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.36
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.36
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.36
+        ], 
+        [
+          "http://dbpedia.org/ontology/CareerStation (numberOfGoals)", 
+          0.4393
+        ], 
+        [
+          "http://dbpedia.org/ontology/TimePeriod (numberOfGoals)", 
+          0.4393
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (length)", 
+          0.4614
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (length)", 
+          0.4614
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.4792
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.4792
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.4792
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.4794
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          17.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TimePeriod (numberOfGoals)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/CareerStation (numberOfGoals)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "AdministrativeRegion[populationDensity]>(state|Montana)", 
+      0.36
+    ], 
+    [
+      "TimePeriod[numberOfGoals]", 
+      0.4393
+    ], 
+    [
+      "CareerStation[numberOfGoals]", 
+      0.4393
+    ], 
+    [
+      "Weapon[length]>(type|Sniper_rifle)", 
+      0.4614
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Idaho)>(timeZone|Pacific_Time_Zone)>(type|City)>(country|United_States)", 
+      0.4772
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Nebraska)>(timeZone|Central_Time_Zone)>(type|City)", 
+      0.4781
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Idaho)>(timeZone|Pacific_Time_Zone)", 
+      0.4785
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Georgia_(U.S._state))", 
+      0.4789
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|South_Carolina)>(type|Census-designated_place)", 
+      0.4801
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Tennessee)>(timeZone|Eastern_Time_Zone)>(type|City)>(country|United_States)", 
+      0.4824
+    ]
+  ], 
+  "values": [
+    0.985358516941281, 
+    0.8698462714342852, 
+    1.095044148909012, 
+    1.1253515867212986, 
+    1.0915528204842164, 
+    0.9711775116259037, 
+    0.9965933785880037, 
+    0.9541923515345168, 
+    0.8869263201632029, 
+    1.0055441500442086, 
+    1.093507065611856, 
+    0.9973526387747278, 
+    0.9019147437914454, 
+    0.9032874768620442, 
+    1.0652623651554292, 
+    0.0, 
+    1.1308619675236917, 
+    1.0412057207397216, 
+    0.875224933043013, 
+    1.118738127151214, 
+    1.01240087295204, 
+    1.0874445146895984, 
+    0.8724548620206958, 
+    1.059412303638909, 
+    0.8941199997965531, 
+    0.8793634339553146, 
+    0.8927932496848792, 
+    0.9051456403267328, 
+    1.1138404760374387, 
+    0.9192458517620177, 
+    1.0176973164964316, 
+    1.0405373945882894, 
+    1.0414386051333753, 
+    0.9195742470637253, 
+    0.854474635691428, 
+    0.9801982229788611, 
+    1.056546118517703, 
+    0.9308278068836939, 
+    1.0446661851735362, 
+    0.9625698877470217, 
+    1.1193945663475007, 
+    1.0458640435681417, 
+    0.9878217862473135, 
+    1.0809575531931448, 
+    0.9926511120986224, 
+    1.0209739537742275, 
+    1.0688738960690187, 
+    0.8945451523849212, 
+    0.9313870962732324, 
+    0.9304860568744135, 
+    0.9956366126534815, 
+    1.1061519017128985, 
+    0.9611861482063784, 
+    0.9237952771603007, 
+    1.0569615471661724, 
+    0.998324847181216, 
+    0.9090462236815331, 
+    1.0358125869021226, 
+    0.9100216000195905, 
+    1.0429850115946229, 
+    1.0028957692269456, 
+    0.8799675525508195, 
+    1.01024935654696, 
+    1.0339020953219975, 
+    1.1423718725299468, 
+    1.0957908340861113, 
+    0.8694557105539797, 
+    1.0522601225539145, 
+    1.0348998584053515, 
+    1.0245955175644441, 
+    0.8751826091164943, 
+    0.9256592527609776, 
+    0.9961627765905087, 
+    0.9026022516043413, 
+    1.1132581243354704, 
+    0.8655046353269228, 
+    36367089.4326114, 
+    0.9251564958206608, 
+    0.9296078145782979, 
+    1.0780997321109482, 
+    0.8645098817669772, 
+    1.0271411805300938, 
+    1.0205105715141491, 
+    0.9915651234851465, 
+    0.9323882013359369, 
+    0.9253555501258616, 
+    1.1047499556217262, 
+    1.0286692437717773, 
+    1.055601231508957, 
+    0.9870849286672876, 
+    0.90832318755156, 
+    0.9561505597177936, 
+    76843.68052563242, 
+    1.134007656060434, 
+    0.9590709911449482, 
+    21875066.333384145, 
+    71514812.22583686, 
+    0.8748387574106118, 
+    1.0390961966679513, 
+    0.9789277207290326
+  ]
+}

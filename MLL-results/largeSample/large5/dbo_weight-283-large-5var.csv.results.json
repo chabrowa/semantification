@@ -1,0 +1,284 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/weight"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "weight", 
+          0.1717
+        ], 
+        [
+          "postalCode", 
+          0.2546
+        ]
+      ], 
+      "maj": [
+        [
+          "weight", 
+          8.0
+        ], 
+        [
+          "postalCode", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Artist (weight)", 
+          0.1
+        ], 
+        [
+          "http://dbpedia.org/ontology/Actor (weight)", 
+          0.1018
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdultActor (weight)", 
+          0.1127
+        ], 
+        [
+          "http://dbpedia.org/ontology/Model (weight)", 
+          0.1664
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (weight)", 
+          0.1717
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (weight)", 
+          0.1717
+        ], 
+        [
+          "http://dbpedia.org/ontology/Gymnast (weight)", 
+          0.2497
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          0.2546
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          0.2546
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          0.2546
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (postalCode)", 
+          0.264
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmateurBoxer (weight)", 
+          0.2647
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (weight)", 
+          0.2691
+        ], 
+        [
+          "http://dbpedia.org/ontology/Boxer (weight)", 
+          0.2787
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Person (weight)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (weight)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (weight)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Actor (weight)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (postalCode)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (weight)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdultActor (weight)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Boxer (weight)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmateurBoxer (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Model (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Gymnast (weight)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Actor[weight]", 
+      0.0909
+    ], 
+    [
+      "AdultActor[weight]", 
+      0.0909
+    ], 
+    [
+      "Artist[weight]", 
+      0.0945
+    ], 
+    [
+      "AdultActor[weight]>(birthPlace|United_States)", 
+      0.1237
+    ], 
+    [
+      "Model[weight]", 
+      0.1664
+    ], 
+    [
+      "City[postalCode]", 
+      0.2267
+    ], 
+    [
+      "Gymnast[weight]", 
+      0.2497
+    ], 
+    [
+      "AmateurBoxer[weight]", 
+      0.2647
+    ], 
+    [
+      "City[postalCode]>(country|Germany)", 
+      0.2826
+    ], 
+    [
+      "Boxer[weight]", 
+      0.2928
+    ]
+  ], 
+  "values": [
+    52112.99757405816, 
+    87984.60884265752, 
+    51772.73152528928, 
+    53123.40237616811, 
+    53212.66871750066, 
+    51251.564608407214, 
+    85339.39222746756, 
+    56824.62125452252, 
+    53349.09724270762, 
+    55329.1420743219, 
+    51457.34139583779, 
+    54596.22186650659, 
+    57768.29699371165, 
+    49742.25617634477, 
+    68915.11561905003, 
+    43637.431554191455, 
+    52451.34092878958, 
+    58986.424991600965, 
+    76734.49183324211, 
+    74255.66570196758, 
+    47746.748147459824, 
+    57413.69135930039, 
+    62817.4826378995, 
+    86813.31146214876, 
+    56483.66124872077, 
+    44257.00026403595, 
+    63819.68356213787, 
+    49846.706711648345, 
+    44124.74635008935, 
+    52705.19094395058, 
+    51742.500254078936, 
+    54998.63557960643, 
+    74822.28003670777, 
+    115064.59852552312, 
+    84153.99756299096, 
+    55754.969358131806, 
+    62262.64959471854, 
+    55323.14638919422, 
+    96472.78681979599, 
+    42663.0861755017, 
+    45954.42529364461, 
+    72932.4565174752, 
+    41625.01805399347, 
+    43187.77639751813, 
+    46938.59811750032, 
+    52979.80736868366, 
+    54152.82913021192, 
+    56605.621321700266, 
+    82605.87539756818, 
+    66221.23169097031, 
+    82615.46330331345, 
+    55225.29741087604, 
+    76785.50019753864, 
+    41807.25482895491, 
+    54716.660681526, 
+    56215.308091805695, 
+    48998.49223231829, 
+    77881.24195516722, 
+    66166.83151841942, 
+    47902.23064465141, 
+    57976.43591463127, 
+    49337.69387446111, 
+    69545.447565239, 
+    38523.42414985446, 
+    55177.97509117833, 
+    48375.448740023035, 
+    47739.45584109257, 
+    59546.81259273516, 
+    49232.90432007024, 
+    55238.080125114335, 
+    47887.60962124269, 
+    66712.85324385477, 
+    47860.52722299469, 
+    56552.937342974146, 
+    59207.93191973206, 
+    106384.82350105715, 
+    44511.91128200006, 
+    52954.078390525254, 
+    49204.11251501171, 
+    53228.425192406656, 
+    52774.82883042092, 
+    45736.083362339974, 
+    75144.06778104157, 
+    54029.997551215136, 
+    42690.68658473399, 
+    62127.926976717135, 
+    51584.92056765781, 
+    55998.84640695908, 
+    71159.1514353634, 
+    52330.81461877886, 
+    50690.868769681096, 
+    68295.52923954299, 
+    78022.54499133815
+  ]
+}

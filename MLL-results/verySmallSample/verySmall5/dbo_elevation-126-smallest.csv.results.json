@@ -1,0 +1,183 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/elevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1249
+        ], 
+        [
+          "populationDensity", 
+          0.1278
+        ], 
+        [
+          "minimumElevation", 
+          0.1316
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          7.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ], 
+        [
+          "minimumElevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1196
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1216
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1216
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1278
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1312
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1316
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (minimumElevation)", 
+          0.1316
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (minimumElevation)", 
+          0.1316
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (minimumElevation)", 
+          0.1316
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1331
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          16.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (minimumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[populationTotal]>(country|Canada)>(type|List_of_parishes_in_New_Brunswick)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0927
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(region|Molise)>(province|Province_of_Campobasso)", 
+      0.1163
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(region|Molise)>(province|Province_of_Campobasso)", 
+      0.125
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Canada)>(type|List_of_parishes_in_New_Brunswick)", 
+      0.125
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|New_Jersey)>(governmentType|Borough_(New_Jersey))", 
+      0.125
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Missouri)>(isPartOf|St._Louis_County,_Missouri)", 
+      0.1306
+    ], 
+    [
+      "Village[populationTotal]>(country|India)>(isPartOf|Pattukkottai_Taluk)", 
+      0.1312
+    ], 
+    [
+      "SkiArea[minimumElevation]>(location|United_States)", 
+      0.1316
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(region|Pays_de_la_Loire)>(department|Vend%C3%A9e)", 
+      0.1413
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(region|Pays_de_la_Loire)>(department|Vend%C3%A9e)", 
+      0.1429
+    ]
+  ], 
+  "values": [
+    2344.3241179544557, 
+    803.8085744220665, 
+    1639.9720704155022, 
+    395.1034815311916, 
+    2715.684515420781, 
+    1292.0809524625822, 
+    1993.1237959104283, 
+    1267.9010434578718, 
+    827.7984993515267, 
+    6936.729617880665, 
+    241.44815803307623, 
+    1148.6092916984464, 
+    189.4001663053823, 
+    2010.8216181481546, 
+    1039.0345359975706, 
+    2408.2247606624555
+  ]
+}

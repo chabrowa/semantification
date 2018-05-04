@@ -1,0 +1,148 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1868
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1867
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.187
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.187
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.187
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1906
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          17.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          3.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationTotal]>(country|Spain)>(isPartOf|Province_of_Valladolid)", 
+      0.1821
+    ], 
+    [
+      "Settlement[populationTotal]>(type|Census-designated_place)>(isPartOf|Montana)", 
+      0.1829
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(department|Doubs)", 
+      0.1843
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Spain)>(isPartOf|Province_of_Valladolid)", 
+      0.1843
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(department|Doubs)", 
+      0.1845
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(department|Vosges)", 
+      0.1893
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(department|Marne)>(arrondissement|Arrondissement_of_Ch%C3%A2lons-en-Champagne)", 
+      0.1897
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(department|Vosges)", 
+      0.1901
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(department|Marne)>(arrondissement|Arrondissement_of_Ch%C3%A2lons-en-Champagne)", 
+      0.1906
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Hormozgan_Province)>(isPartOf|Khamir_County)", 
+      0.1906
+    ]
+  ], 
+  "values": [
+    2079.628219221675, 
+    116.43824513510398, 
+    414.31074997441345, 
+    59.3488051172544, 
+    172.75098339329872, 
+    154.78032459443529, 
+    3387.61658964379, 
+    3083.5835897907527, 
+    236.53363273924333, 
+    2196.6989682430144, 
+    177.45943058286764, 
+    344.47085205465356, 
+    148.6425530997949, 
+    146.36905153772219, 
+    2508.026955755426, 
+    216.1342242794319, 
+    0.0, 
+    248.605459751948, 
+    175.9621918735291, 
+    4343.42184663853, 
+    243.66854503371303, 
+    175.9655299777691, 
+    135.24058392110672, 
+    2870.543471529639, 
+    206.67281813865753, 
+    174.57224001708323, 
+    172.036371315881, 
+    205.99889288567192, 
+    113.28776785823229, 
+    3892.0924176566077, 
+    2768.8362937610323, 
+    233.82521562762085, 
+    300.6180597944657, 
+    145.57005218757328, 
+    219.19584330036125, 
+    221.11114352355597, 
+    217.3096713051679
+  ]
+}

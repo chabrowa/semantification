@@ -1,0 +1,217 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaWater"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "budget", 
+          0.1463
+        ], 
+        [
+          "oclc", 
+          0.1471
+        ], 
+        [
+          "areaTotal", 
+          0.1526
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          7.0
+        ], 
+        [
+          "oclc", 
+          2.0
+        ], 
+        [
+          "budget", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Agent (budget)", 
+          0.1463
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (budget)", 
+          0.1463
+        ], 
+        [
+          "http://dbpedia.org/ontology/GovernmentAgency (budget)", 
+          0.1463
+        ], 
+        [
+          "http://dbpedia.org/ontology/AcademicJournal (oclc)", 
+          0.1471
+        ], 
+        [
+          "http://dbpedia.org/ontology/PeriodicalLiterature (oclc)", 
+          0.1471
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          0.1471
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          0.1471
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.1477
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.1552
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.1552
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1596
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          0.1639
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          19.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AcademicJournal (oclc)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PeriodicalLiterature (oclc)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/GovernmentAgency (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (budget)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (budget)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Maharashtra)>(22-rdf-syntax-ns#type|_Feature)>(country|India)", 
+      0.1265
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Maharashtra)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1437
+    ], 
+    [
+      "GovernmentAgency[budget]>(location|Oklahoma_City)", 
+      0.1463
+    ], 
+    [
+      "AcademicJournal[oclc]>(publisher|Informa)", 
+      0.1471
+    ], 
+    [
+      "AcademicJournal[oclc]>(publisher|John_Wiley_&_Sons)", 
+      0.1471
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Maharashtra)", 
+      0.1522
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Canada)>(timeZone|Pacific_Time_Zone)", 
+      0.1552
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Granada)>(timeZone|Central_European_Time)", 
+      0.1614
+    ], 
+    [
+      "ProtectedArea[areaTotal]", 
+      0.1639
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Granada)", 
+      0.1656
+    ]
+  ], 
+  "values": [
+    83182541.35123375, 
+    181778602.8358331, 
+    291959550.5396499, 
+    3075927.7722869962, 
+    383995500.0563071, 
+    332451376.94445497, 
+    41558661.57753641, 
+    5517841.943615917, 
+    4871644.397727566, 
+    1239833873.7774763, 
+    16847078.50429416, 
+    12879020.762190627, 
+    78141135.6512716, 
+    5886596.402214391, 
+    8636084.19429258, 
+    486713152.8582598, 
+    11850992.684215661, 
+    21774371.402010802, 
+    20858748.06257824, 
+    23235193.618695047, 
+    860697450.4943233, 
+    1446003837.548955, 
+    17562734.753961805, 
+    34212844.81921137, 
+    22562558.731808584, 
+    1335382961.574151, 
+    231721291.96945918, 
+    15081961.343548587, 
+    0.0, 
+    44764160.09957761, 
+    55953534.41987312, 
+    12101685.095401894, 
+    3100818564.947634, 
+    11195980.01066566
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/weight"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "weight", 
+          0.1457
+        ]
+      ], 
+      "maj": [
+        [
+          "weight", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/MartialArtist (weight)", 
+          0.1133
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (weight)", 
+          0.1457
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (weight)", 
+          0.1457
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (weight)", 
+          0.1457
+        ], 
+        [
+          "http://dbpedia.org/ontology/Swimmer (weight)", 
+          0.1473
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (weight)", 
+          0.1551
+        ], 
+        [
+          "http://dbpedia.org/ontology/Skater (weight)", 
+          0.1551
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cyclist (weight)", 
+          0.1755
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Swimmer (weight)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (weight)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (weight)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (weight)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cyclist (weight)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MartialArtist (weight)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Skater (weight)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Swimmer[weight]", 
+      0.0949
+    ], 
+    [
+      "MartialArtist[weight]>(birthPlace|Japan)", 
+      0.1133
+    ], 
+    [
+      "Swimmer[weight]>(nationality|United_States)", 
+      0.1234
+    ], 
+    [
+      "Swimmer[weight]>(nationality|Canada)", 
+      0.1238
+    ], 
+    [
+      "Swimmer[weight]>(nationality|Australia)", 
+      0.131
+    ], 
+    [
+      "Skater[weight]", 
+      0.1551
+    ], 
+    [
+      "Cyclist[weight]", 
+      0.1732
+    ], 
+    [
+      "Cyclist[weight]>(birthPlace|United_States)", 
+      0.1767
+    ], 
+    [
+      "Swimmer[weight]>(nationality|Brazil)", 
+      0.1816
+    ], 
+    [
+      "Swimmer[weight]>(nationality|Brazil)>(birthPlace|Brazil)", 
+      0.1845
+    ]
+  ], 
+  "values": [
+    58778.77393459978, 
+    68675.09323659354, 
+    55536.46651745061, 
+    82557.65736348063, 
+    65372.39989369025, 
+    64239.53130713487, 
+    57832.97963150986, 
+    87134.76515983154, 
+    989782.9719229528, 
+    99549.25213446349, 
+    67316.82278642365, 
+    59228.222063197085, 
+    55433.795422835596, 
+    71448.75065421237, 
+    83462.70454723161, 
+    55659.15373137929, 
+    77108.60407969699, 
+    61883.60185400653, 
+    69052.03557071615, 
+    74912.49772397288, 
+    75976.28233212637, 
+    49272.52487545063, 
+    76539.78735091774, 
+    75284.91073244286, 
+    66839.70614703404, 
+    81180.03406947183, 
+    70014.57767647985, 
+    53361.88947691626, 
+    90526.9335950133, 
+    55555.382592193346, 
+    80280.44914381589, 
+    105283.54328638595, 
+    71803.47710959952, 
+    75940.3008808525, 
+    62560.8579452471, 
+    51839.46503878618, 
+    60969.13100167873, 
+    74914.57719690252, 
+    62192.84944325471, 
+    54488.121365942294, 
+    60187.978286802725, 
+    76181.04030776685, 
+    70281.19889006412, 
+    60635.94128921851, 
+    77396.03819604774, 
+    70485.15647433397, 
+    65342.59753934918, 
+    68006.79628169085, 
+    72771.44910708153, 
+    57351.63374430364, 
+    72246.93122990195, 
+    101560.28843478371, 
+    54433.25671497122, 
+    73686.65768488692, 
+    83387.4075985037, 
+    84205.89739496518, 
+    61773.50269223647, 
+    52561.57618109482, 
+    70648.57887037972, 
+    54590.691575138575, 
+    82738.49659192804, 
+    59836.812328420805, 
+    94044.60453967383, 
+    86533.89909866297, 
+    76095.33918088132, 
+    91775.88311703545, 
+    110500.19607646561, 
+    50996.37842972135, 
+    53984.451097000274, 
+    56822.48225888794, 
+    82710.66004744387, 
+    59109.393097343505, 
+    71121.66494427319, 
+    52918.478717838145, 
+    62817.286106168154, 
+    69489.75182423364, 
+    78826.54669043909, 
+    112777.72744503405
+  ]
+}

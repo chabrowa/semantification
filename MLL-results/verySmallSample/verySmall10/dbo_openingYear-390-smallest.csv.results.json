@@ -1,0 +1,238 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/openingYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "openingYear", 
+          0.1221
+        ], 
+        [
+          "foundingYear", 
+          0.1292
+        ], 
+        [
+          "yearOfConstruction", 
+          0.1311
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          7.0
+        ], 
+        [
+          "foundingYear", 
+          2.0
+        ], 
+        [
+          "yearOfConstruction", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          0.1219
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.1221
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.1222
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.1223
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.1227
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          0.1247
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          0.125
+        ], 
+        [
+          "http://dbpedia.org/ontology/LawFirm (foundingYear)", 
+          0.128
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.1292
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          0.1292
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.1292
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bank (foundingYear)", 
+          0.1304
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (yearOfConstruction)", 
+          0.1311
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (yearOfConstruction)", 
+          0.1311
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (yearOfConstruction)", 
+          0.1311
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (yearOfConstruction)", 
+          0.1311
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bank (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (yearOfConstruction)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (yearOfConstruction)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (yearOfConstruction)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (yearOfConstruction)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/LawFirm (foundingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "RailwayTunnel[openingYear]", 
+      0.1164
+    ], 
+    [
+      "Infrastructure[openingYear]", 
+      0.1187
+    ], 
+    [
+      "ArchitecturalStructure[openingYear]", 
+      0.1219
+    ], 
+    [
+      "Location[openingYear]", 
+      0.1219
+    ], 
+    [
+      "Place[openingYear]", 
+      0.122
+    ], 
+    [
+      "Station[openingYear]", 
+      0.125
+    ], 
+    [
+      "LawFirm[foundingYear]", 
+      0.128
+    ], 
+    [
+      "RailwayTunnel[openingYear]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1289
+    ], 
+    [
+      "Bank[foundingYear]>(product|Investment_management)", 
+      0.1304
+    ], 
+    [
+      "RouteOfTransportation[yearOfConstruction]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1311
+    ]
+  ], 
+  "values": [
+    1882.0, 
+    1933.0, 
+    1890.0, 
+    2014.0, 
+    1908.0, 
+    2006.0, 
+    1818.0, 
+    1863.0, 
+    1987.0, 
+    3.0, 
+    2048.0, 
+    1986.0, 
+    1969.0, 
+    1908.0, 
+    1834.0, 
+    1864.0, 
+    1971.0, 
+    1848.0, 
+    1975.0, 
+    1946.0, 
+    1895.0, 
+    2088.0, 
+    1957.0
+  ]
+}

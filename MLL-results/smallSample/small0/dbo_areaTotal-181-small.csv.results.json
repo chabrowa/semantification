@@ -1,0 +1,232 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "budget", 
+          0.1089
+        ], 
+        [
+          "areaTotal", 
+          0.225
+        ], 
+        [
+          "area", 
+          0.2979
+        ]
+      ], 
+      "maj": [
+        [
+          "area", 
+          7.0
+        ], 
+        [
+          "areaTotal", 
+          2.0
+        ], 
+        [
+          "budget", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Agent (budget)", 
+          0.1089
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (budget)", 
+          0.1089
+        ], 
+        [
+          "http://dbpedia.org/ontology/GovernmentAgency (budget)", 
+          0.1089
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.1622
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (areaTotal)", 
+          0.1622
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.225
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (area)", 
+          0.2858
+        ], 
+        [
+          "http://dbpedia.org/ontology/WineRegion (areaTotal)", 
+          0.2879
+        ], 
+        [
+          "http://dbpedia.org/ontology/Diocese (area)", 
+          0.2931
+        ], 
+        [
+          "http://dbpedia.org/ontology/ClericalAdministrativeRegion (area)", 
+          0.2982
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (area)", 
+          0.2999
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          0.2999
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (area)", 
+          0.2999
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          0.2999
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Diocese (area)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (area)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (area)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ClericalAdministrativeRegion (area)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WineRegion (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (area)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/GovernmentAgency (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (budget)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (budget)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (areaTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "GovernmentAgency[budget]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1089
+    ], 
+    [
+      "Country[areaTotal]", 
+      0.1622
+    ], 
+    [
+      "Diocese[area]>(country|United_States)", 
+      0.2827
+    ], 
+    [
+      "Location[area]>(jurisdiction|Diocese)>(country|United_States)", 
+      0.2858
+    ], 
+    [
+      "Diocese[area]>(country|United_States)>(jurisdiction|Diocese)", 
+      0.2858
+    ], 
+    [
+      "WineRegion[areaTotal]>(growingGrape|Gew%C3%BCrztraminer)>(growingGrape|Riesling)", 
+      0.2879
+    ], 
+    [
+      "Diocese[area]>(country|Brazil)", 
+      0.3073
+    ], 
+    [
+      "ClericalAdministrativeRegion[area]", 
+      0.3077
+    ], 
+    [
+      "Diocese[area]", 
+      0.3077
+    ], 
+    [
+      "AdministrativeRegion[area]", 
+      0.3081
+    ]
+  ], 
+  "values": [
+    1709390000000.0, 
+    20978900.0, 
+    11458100000.0, 
+    22966000000.0, 
+    212509000000.0, 
+    439000000.0, 
+    2586400000.0, 
+    176215000000.0, 
+    9103810000.0, 
+    450295000000.0, 
+    17819100000.0, 
+    8660920000.0, 
+    463608000.0, 
+    92980600.0, 
+    22800000.0, 
+    1362000000.0, 
+    118000000.0, 
+    23409000000.0, 
+    199898000000.0, 
+    157989000.0, 
+    199951000000.0, 
+    342000000000.0, 
+    85469600000.0, 
+    49000000.0, 
+    528076000000.0, 
+    78733000000.0, 
+    619745000000.0, 
+    143100000000.0, 
+    603501000000.0, 
+    10000000.0, 
+    13809800000.0, 
+    42915700000.0, 
+    13812000000.0
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/squadNumber"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.1206
+        ], 
+        [
+          "number", 
+          0.1244
+        ], 
+        [
+          "elevation", 
+          0.1269
+        ], 
+        [
+          "squadNumber", 
+          0.1273
+        ], 
+        [
+          "width", 
+          0.128
+        ]
+      ], 
+      "maj": [
+        [
+          "squadNumber", 
+          4.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ], 
+        [
+          "width", 
+          1.0
+        ], 
+        [
+          "number", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1206
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.1206
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.1206
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1206
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          0.1244
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.1244
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.1244
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.1244
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.1259
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1269
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1269
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (squadNumber)", 
+          0.1273
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (squadNumber)", 
+          0.1273
+        ], 
+        [
+          "http://dbpedia.org/ontology/OrganisationMember (squadNumber)", 
+          0.1273
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeamMember (squadNumber)", 
+          0.1273
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1274
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          0.128
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (width)", 
+          0.128
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.128
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          0.128
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          0.128
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Agent (squadNumber)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (squadNumber)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/OrganisationMember (squadNumber)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeamMember (squadNumber)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "AdministrativeRegion[populationDensity]>(state|Missouri)", 
+      0.1199
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Minnesota)", 
+      0.1213
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Iran)", 
+      0.1244
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Northern_Norway)>(isPartOf|Troms)", 
+      0.1259
+    ], 
+    [
+      "Person[squadNumber]", 
+      0.1273
+    ], 
+    [
+      "SportsTeamMember[squadNumber]", 
+      0.1273
+    ], 
+    [
+      "OrganisationMember[squadNumber]", 
+      0.1273
+    ], 
+    [
+      "Agent[squadNumber]", 
+      0.1273
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Vorpommern-Greifswald)", 
+      0.1279
+    ], 
+    [
+      "Bridge[width]>(type|Arch_bridge)", 
+      0.128
+    ]
+  ], 
+  "values": [
+    19.0, 
+    7.0, 
+    32.0, 
+    17.0, 
+    13.0, 
+    22.0, 
+    3.0, 
+    4.0, 
+    3.0, 
+    12.0, 
+    14.0, 
+    5.0, 
+    8.0, 
+    84.0, 
+    28.0, 
+    24.0, 
+    9.0, 
+    19.0, 
+    21.0, 
+    9.0, 
+    2.0, 
+    4.0, 
+    9.0, 
+    8.0, 
+    20.0, 
+    14.0, 
+    18.0
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runwayLength"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.1352
+        ], 
+        [
+          "runtime", 
+          0.1443
+        ], 
+        [
+          "populationDensity", 
+          0.1609
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.1658
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          3.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "runtime", 
+          3.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1091
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.1386
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          0.1443
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          0.1443
+        ], 
+        [
+          "http://dbpedia.org/ontology/Album (runtime)", 
+          0.1448
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1482
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1482
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1482
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1543
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          0.1543
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1543
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1543
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.1578
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1637
+        ], 
+        [
+          "http://dbpedia.org/ontology/Royalty (activeYearsStartYear)", 
+          0.1658
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.1658
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          0.1658
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Album (runtime)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Royalty (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)", 
+      0.1091
+    ], 
+    [
+      "Album[runtime]>(type|Extended_play)>(genre|Acoustic_music)", 
+      0.1342
+    ], 
+    [
+      "Town[elevation]>(timeZone|Mountain_Time_Zone)", 
+      0.1386
+    ], 
+    [
+      "Album[runtime]>(type|Extended_play)", 
+      0.1407
+    ], 
+    [
+      "City[populationDensity]>(type|List_of_cities_in_Kentucky)>(isPartOf|Jefferson_County,_Kentucky)", 
+      0.1543
+    ], 
+    [
+      "Village[elevation]>(country|Kyrgyzstan)>(isPartOf|Jalal-Abad_Province)", 
+      0.1578
+    ], 
+    [
+      "Album[runtime]>(type|Extended_play)>(genre|Hip_hop_music)", 
+      0.1581
+    ], 
+    [
+      "Location[populationDensity]>(country|India)>(isPartOf|Kerala)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1605
+    ], 
+    [
+      "Royalty[activeYearsStartYear]", 
+      0.1658
+    ], 
+    [
+      "Location[populationDensity]>(country|India)>(isPartOf|Kerala)", 
+      0.1678
+    ]
+  ], 
+  "values": [
+    1365.2, 
+    914.0, 
+    1904.7, 
+    609.6, 
+    2133.6, 
+    1554.78, 
+    2699.61, 
+    1098.19, 
+    1905.0, 
+    1554.0, 
+    1584.66, 
+    390.144, 
+    1554.78, 
+    1328.62, 
+    2287.83, 
+    1402.08, 
+    918.058, 
+    1115.57, 
+    1249.68, 
+    1127.76, 
+    1981.5, 
+    914.4, 
+    1736.45, 
+    1336.85, 
+    1680.36, 
+    1036.32, 
+    1169.82, 
+    1736.45, 
+    1525.83, 
+    765.962, 
+    701.04, 
+    975.97, 
+    1524.3, 
+    865.632, 
+    1036.32, 
+    1066.8, 
+    1219.81
+  ]
+}

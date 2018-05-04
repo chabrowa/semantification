@@ -1,0 +1,315 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaLand"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaLand", 
+          0.091
+        ], 
+        [
+          "areaTotal", 
+          0.1919
+        ], 
+        [
+          "areaWater", 
+          0.2027
+        ], 
+        [
+          "gross", 
+          0.207
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          5.0
+        ], 
+        [
+          "areaWater", 
+          2.0
+        ], 
+        [
+          "gross", 
+          2.0
+        ], 
+        [
+          "areaLand", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Town (areaLand)", 
+          0.091
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.091
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.091
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.091
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          0.1113
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.1113
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.1609
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1794
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.2027
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaWater)", 
+          0.2027
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.2027
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaWater)", 
+          0.2027
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (gross)", 
+          0.2066
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (gross)", 
+          0.207
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.2076
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (gross)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (gross)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Town[areaLand]", 
+      0.091
+    ], 
+    [
+      "Town[areaTotal]", 
+      0.1113
+    ], 
+    [
+      "AdministrativeRegion[areaWater]>(state|North_Dakota)", 
+      0.1974
+    ], 
+    [
+      "Location[areaTotal]>(country|Canada)>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Mont%C3%A9r%C3%A9gie)", 
+      0.2054
+    ], 
+    [
+      "Person[gross]", 
+      0.2066
+    ], 
+    [
+      "Agent[gross]", 
+      0.2075
+    ], 
+    [
+      "AdministrativeRegion[areaWater]>(state|Louisiana)", 
+      0.2079
+    ], 
+    [
+      "PopulatedPlace[areaTotal]", 
+      0.2106
+    ], 
+    [
+      "Location[areaTotal]", 
+      0.2162
+    ], 
+    [
+      "Place[areaTotal]", 
+      0.2162
+    ]
+  ], 
+  "values": [
+    18627356.98464494, 
+    36116508.546217695, 
+    95775779.2792479, 
+    95801507.62842019, 
+    2463922.155059851, 
+    90317688.52190225, 
+    210004.8255998161, 
+    51306604.56651274, 
+    95808564.0887008, 
+    96833881.1069263, 
+    63454416.593227714, 
+    69927535.23703198, 
+    130095846.5265764, 
+    84889484.9508787, 
+    458415.9471532838, 
+    759670.9010181035, 
+    2478027.4048467926, 
+    5465675.141855468, 
+    92280030.31377842, 
+    2682396.6113170856, 
+    123694856.89477172, 
+    184695080.787227, 
+    107827335.78903244, 
+    99829522.91565365, 
+    211773341.3348143, 
+    89948181.79500598, 
+    77995559.82424903, 
+    95448493.79857378, 
+    92465665.1809993, 
+    58726365.538018875, 
+    85228937.51508541, 
+    42843961.80769683, 
+    263047.54610574764, 
+    147644799.05041227, 
+    52651272.53890511, 
+    80383818.76322462, 
+    93515013.6385931, 
+    93138850.23170237, 
+    3471364.905581302, 
+    1435526.1196495618, 
+    126732228.1924016, 
+    11981571.168456359, 
+    118143091.71594541, 
+    7082937.482737609, 
+    89339702.83643821, 
+    124243.67902452436, 
+    2945575.293622161, 
+    1945954.9261653305, 
+    101523902.719744, 
+    2554580.796349183, 
+    2014843.3147685467, 
+    91070350.29625359, 
+    61983738.15278492, 
+    94727644.03654915, 
+    95057934.74881668, 
+    492879.48875735275, 
+    102079341.85756736, 
+    91275049.0446627, 
+    127280312.91045694, 
+    118056997.03541294, 
+    144625051.46981528, 
+    89180453.75035864, 
+    152616180.89737585, 
+    262756.81964786584, 
+    91260729.14558214, 
+    4805244.400619497, 
+    141605784.41769335, 
+    2946309.266901109, 
+    83554771.67422163, 
+    25748254.067191143, 
+    1499594.6636013722, 
+    1577905.8189946688, 
+    2392221.6212737258, 
+    3704425.0983185857, 
+    14205252.023940219, 
+    8522442.562912669, 
+    75618443.98773536, 
+    117172412.49008471, 
+    1145496.349819087, 
+    90913533.1780492, 
+    40960795.19858266, 
+    122762381.48456764, 
+    1279297.4040105424, 
+    94007656.80166875, 
+    92332988.46893163, 
+    77227579.34726337, 
+    69258852.72470962, 
+    89659193.83225992, 
+    78951515.62723288, 
+    90431949.5819482, 
+    91146044.99524239, 
+    89500693.47097805, 
+    112811923.1006586, 
+    4012789.5227401387, 
+    988775.3787692679, 
+    26288263.539318692, 
+    305704.096518989, 
+    43189682.19752529, 
+    155531069.20996308, 
+    75329036.41737624
+  ]
+}

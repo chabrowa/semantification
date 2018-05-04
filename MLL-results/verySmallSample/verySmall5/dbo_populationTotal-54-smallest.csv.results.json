@@ -1,0 +1,283 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1031
+        ], 
+        [
+          "length", 
+          0.1322
+        ]
+      ], 
+      "maj": [
+        [
+          "length", 
+          6.0
+        ], 
+        [
+          "populationTotal", 
+          4.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Region (populationTotal)", 
+          0.0917
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationTotal)", 
+          0.0917
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0998
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0998
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1131
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          0.116
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.116
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          0.1206
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          0.1213
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.1291
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          0.1387
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (length)", 
+          0.1416
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (length)", 
+          0.1416
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Region[populationTotal]", 
+      0.0917
+    ], 
+    [
+      "AdministrativeRegion[populationTotal]", 
+      0.0917
+    ], 
+    [
+      "Location[populationTotal]>(country|Spain)>(isPartOf|Province_of_Barcelona)", 
+      0.1131
+    ], 
+    [
+      "City[populationTotal]", 
+      0.116
+    ], 
+    [
+      "ArchitecturalStructure[length]", 
+      0.1199
+    ], 
+    [
+      "Infrastructure[length]", 
+      0.1213
+    ], 
+    [
+      "Place[length]", 
+      0.1334
+    ], 
+    [
+      "Location[length]", 
+      0.1382
+    ], 
+    [
+      "Location[length]>(22-rdf-syntax-ns#type|_Feature)>(country|China)", 
+      0.1388
+    ], 
+    [
+      "Island[length]", 
+      0.1416
+    ]
+  ], 
+  "values": [
+    7322.0, 
+    1801.0, 
+    1028661.0, 
+    787.0, 
+    312996.0, 
+    699.0, 
+    966.0, 
+    9150.0, 
+    675.0, 
+    6644.0, 
+    80.0, 
+    15689.0, 
+    10484.0, 
+    210.0, 
+    26.0, 
+    87290.0, 
+    1340.0, 
+    25397.0, 
+    10542.0, 
+    36790.0, 
+    53406.0, 
+    21218.0, 
+    88733.0, 
+    181.0, 
+    30886.0, 
+    442634.0, 
+    295.0, 
+    18990.0, 
+    34473.0, 
+    45274.0, 
+    15434.0, 
+    4153.0, 
+    39366.0, 
+    75851.0, 
+    43430.0, 
+    19644.0, 
+    712900.0, 
+    31072.0, 
+    3112.0, 
+    25579.0, 
+    125.0, 
+    109401.0, 
+    39851.0, 
+    43245.0, 
+    723.0, 
+    810.0, 
+    1583.0, 
+    273.0, 
+    29043.0, 
+    32671.0, 
+    182.0, 
+    351.0, 
+    15482.0, 
+    68266.0, 
+    443.0, 
+    70637.0, 
+    84.0, 
+    950.0, 
+    353354.0, 
+    95.0, 
+    2347806.0, 
+    7502.0, 
+    6009.0, 
+    92575.0, 
+    24824.0, 
+    499.0, 
+    58154.0, 
+    27538.0, 
+    286017.0, 
+    112190.0, 
+    113254.0, 
+    9952.0, 
+    24223.0, 
+    4261.0, 
+    215887.0, 
+    307.0, 
+    96856.0, 
+    43383.0, 
+    387.0, 
+    70451.0, 
+    23434.0, 
+    340.0, 
+    33341.0, 
+    22695.0, 
+    448.0, 
+    18126.0, 
+    7770.0, 
+    843.0, 
+    3956.0, 
+    63.0, 
+    28469.0, 
+    46437.0, 
+    39391.0, 
+    2020.0, 
+    1896.0, 
+    586.0, 
+    2411.0, 
+    331.0, 
+    9467.0, 
+    23041.0
+  ]
+}

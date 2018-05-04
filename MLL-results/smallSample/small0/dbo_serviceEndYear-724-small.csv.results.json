@@ -1,0 +1,269 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/serviceEndYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "serviceEndYear", 
+          0.1268
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.1331
+        ], 
+        [
+          "serviceStartYear", 
+          0.1391
+        ], 
+        [
+          "openingYear", 
+          0.1493
+        ]
+      ], 
+      "maj": [
+        [
+          "serviceEndYear", 
+          5.0
+        ], 
+        [
+          "serviceStartYear", 
+          2.0
+        ], 
+        [
+          "openingYear", 
+          2.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          0.1268
+        ], 
+        [
+          "http://dbpedia.org/ontology/OfficeHolder (serviceStartYear)", 
+          0.13
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          0.131
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (activeYearsStartYear)", 
+          0.1331
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryPerson (serviceEndYear)", 
+          0.1349
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceStartYear)", 
+          0.1391
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceStartYear)", 
+          0.1391
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceEndYear)", 
+          0.1395
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceStartYear)", 
+          0.1481
+        ], 
+        [
+          "http://dbpedia.org/ontology/President (serviceStartYear)", 
+          0.1481
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.1493
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.1493
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (openingYear)", 
+          0.1493
+        ], 
+        [
+          "http://dbpedia.org/ontology/Hospital (openingYear)", 
+          0.1495
+        ], 
+        [
+          "http://dbpedia.org/ontology/Senator (serviceEndYear)", 
+          0.154
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Senator (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryPerson (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Hospital (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/OfficeHolder (serviceStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/President (serviceStartYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Person[serviceEndYear]", 
+      0.1101
+    ], 
+    [
+      "Agent[serviceEndYear]", 
+      0.1101
+    ], 
+    [
+      "Politician[serviceEndYear]", 
+      0.125
+    ], 
+    [
+      "OfficeHolder[serviceStartYear]", 
+      0.13
+    ], 
+    [
+      "Place[activeYearsStartYear]", 
+      0.1331
+    ], 
+    [
+      "MilitaryPerson[serviceEndYear]", 
+      0.1349
+    ], 
+    [
+      "President[serviceStartYear]", 
+      0.1481
+    ], 
+    [
+      "Building[openingYear]", 
+      0.149
+    ], 
+    [
+      "Hospital[openingYear]", 
+      0.1495
+    ], 
+    [
+      "Senator[serviceEndYear]", 
+      0.154
+    ]
+  ], 
+  "values": [
+    1861.0, 
+    1929.0, 
+    1863.0, 
+    1962.0, 
+    1978.0, 
+    1864.0, 
+    26.0, 
+    1866.0, 
+    2006.0, 
+    1950.0, 
+    1908.0, 
+    1980.0, 
+    1953.0, 
+    1945.0, 
+    1958.0, 
+    1965.0, 
+    1838.0, 
+    1838.0, 
+    1971.0, 
+    1864.0, 
+    1865.0, 
+    1942.0, 
+    1935.0, 
+    1948.0, 
+    1956.0, 
+    2001.0, 
+    1981.0, 
+    1928.0, 
+    1946.0, 
+    1917.0, 
+    1946.0, 
+    1919.0, 
+    1952.0, 
+    1969.0, 
+    1946.0, 
+    1952.0, 
+    1944.0, 
+    1943.0, 
+    1958.0, 
+    1947.0, 
+    2000.0, 
+    1945.0, 
+    1989.0, 
+    1919.0, 
+    1969.0, 
+    1992.0, 
+    1876.0, 
+    2012.0, 
+    1919.0, 
+    1929.0, 
+    1970.0, 
+    1898.0, 
+    1865.0, 
+    1946.0
+  ]
+}

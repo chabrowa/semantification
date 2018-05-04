@@ -1,0 +1,235 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/openingYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "foundingYear", 
+          0.1184
+        ], 
+        [
+          "openingYear", 
+          0.1316
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          9.0
+        ], 
+        [
+          "foundingYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          0.0919
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.104
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          0.116
+        ], 
+        [
+          "http://dbpedia.org/ontology/LawFirm (foundingYear)", 
+          0.1184
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.1184
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          0.1184
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.1184
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.1235
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          0.1308
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.1318
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.1319
+        ], 
+        [
+          "http://dbpedia.org/ontology/Hospital (openingYear)", 
+          0.1469
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (openingYear)", 
+          0.1495
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          0.1597
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/LawFirm (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Hospital (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "RailwayLine[openingYear]", 
+      0.0919
+    ], 
+    [
+      "RailwayTunnel[openingYear]", 
+      0.116
+    ], 
+    [
+      "LawFirm[foundingYear]", 
+      0.1184
+    ], 
+    [
+      "Infrastructure[openingYear]", 
+      0.1263
+    ], 
+    [
+      "ArchitecturalStructure[openingYear]", 
+      0.1305
+    ], 
+    [
+      "Place[openingYear]", 
+      0.1306
+    ], 
+    [
+      "Location[openingYear]", 
+      0.1308
+    ], 
+    [
+      "Hospital[openingYear]", 
+      0.1469
+    ], 
+    [
+      "Building[openingYear]", 
+      0.1522
+    ], 
+    [
+      "Station[openingYear]", 
+      0.1597
+    ]
+  ], 
+  "values": [
+    1980.0, 
+    1984.0, 
+    1901.0, 
+    1992.0, 
+    1872.0, 
+    1989.0, 
+    1872.0, 
+    1995.0, 
+    2013.0, 
+    1965.0, 
+    1865.0, 
+    1867.0, 
+    1908.0, 
+    1945.0, 
+    1891.0, 
+    2008.0, 
+    2013.0, 
+    2007.0, 
+    1904.0, 
+    2008.0, 
+    1970.0, 
+    1907.0, 
+    1979.0, 
+    1841.0, 
+    2013.0, 
+    1900.0, 
+    1970.0, 
+    1880.0, 
+    1912.0, 
+    1920.0, 
+    1912.0, 
+    1889.0, 
+    1961.0, 
+    1948.0, 
+    1890.0, 
+    1891.0, 
+    1861.0, 
+    1912.0, 
+    2007.0, 
+    1901.0, 
+    1909.0, 
+    2001.0, 
+    1903.0, 
+    1893.0
+  ]
+}

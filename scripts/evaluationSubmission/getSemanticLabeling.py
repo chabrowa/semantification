@@ -80,37 +80,37 @@ def runSets(sizePath):
     print "all: " + str(countAll)
 
 print "Large 0"
-runSets('/Users/emiliakacprzak/Code/papers/semantification/bobResults/largeSample/large0')
+runSets('/Users/emiliakacprzak/Code/papers/semantification/MLL-results/largeSample/large0')
 print "Large 5"
-runSets('/Users/emiliakacprzak/Code/papers/semantification/bobResults/largeSample/large5')
+runSets('/Users/emiliakacprzak/Code/papers/semantification/MLL-results/largeSample/large5')
 print "Large 10"
-runSets('/Users/emiliakacprzak/Code/papers/semantification/bobResults/largeSample/large10')
+runSets('/Users/emiliakacprzak/Code/papers/semantification/MLL-results/largeSample/large10')
 print "Large 15"
-runSets('/Users/emiliakacprzak/Code/papers/semantification/bobResults/largeSample/large15')
+runSets('/Users/emiliakacprzak/Code/papers/semantification/MLL-results/largeSample/large15')
 
 print "Medium 0"
-runSets('/Users/emiliakacprzak/Code/papers/semantification/bobResults/mediumSample/medium0')
+runSets('/Users/emiliakacprzak/Code/papers/semantification/MLL-results/mediumSample/medium0')
 print "Medium 5"
-runSets('/Users/emiliakacprzak/Code/papers/semantification/bobResults/mediumSample/medium5')
+runSets('/Users/emiliakacprzak/Code/papers/semantification/MLL-results/mediumSample/medium5')
 print "Medium 10"
-runSets('/Users/emiliakacprzak/Code/papers/semantification/bobResults/mediumSample/medium10')
+runSets('/Users/emiliakacprzak/Code/papers/semantification/MLL-results/mediumSample/medium10')
 print "Medium 15"
-runSets('/Users/emiliakacprzak/Code/papers/semantification/bobResults/mediumSample/medium15')
+runSets('/Users/emiliakacprzak/Code/papers/semantification/MLL-results/mediumSample/medium15')
 
 print "Small 0"
-runSets('/Users/emiliakacprzak/Code/papers/semantification/bobResults/smallSample/small0')
+runSets('/Users/emiliakacprzak/Code/papers/semantification/MLL-results/smallSample/small0')
 print "Small 5"
-runSets('/Users/emiliakacprzak/Code/papers/semantification/bobResults/smallSample/small5')
+runSets('/Users/emiliakacprzak/Code/papers/semantification/MLL-results/smallSample/small5')
 print "Small 10"
-runSets('/Users/emiliakacprzak/Code/papers/semantification/bobResults/smallSample/small10')
+runSets('/Users/emiliakacprzak/Code/papers/semantification/MLL-results/smallSample/small10')
 print "Small 15"
-runSets('/Users/emiliakacprzak/Code/papers/semantification/bobResults/smallSample/small15')
+runSets('/Users/emiliakacprzak/Code/papers/semantification/MLL-results/smallSample/small15')
 
 print "VerySmall 0"
-runSets('/Users/emiliakacprzak/Code/papers/semantification/bobResults/verySmallSample/verySmall0')
+runSets('/Users/emiliakacprzak/Code/papers/semantification/MLL-results/verySmallSample/verySmall0')
 print "VerySmall 5"
-runSets('/Users/emiliakacprzak/Code/papers/semantification/bobResults/verySmallSample/verySmall5')
+runSets('/Users/emiliakacprzak/Code/papers/semantification/MLL-results/verySmallSample/verySmall5')
 print "VerySmall 10"
-runSets('/Users/emiliakacprzak/Code/papers/semantification/bobResults/verySmallSample/verySmall10')
+runSets('/Users/emiliakacprzak/Code/papers/semantification/MLL-results/verySmallSample/verySmall10')
 print "VerySmall 15"
-runSets('/Users/emiliakacprzak/Code/papers/semantification/bobResults/verySmallSample/verySmall15')
+runSets('/Users/emiliakacprzak/Code/papers/semantification/MLL-results/verySmallSample/verySmall15')

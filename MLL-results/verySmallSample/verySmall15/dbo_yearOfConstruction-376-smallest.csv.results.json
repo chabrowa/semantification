@@ -1,0 +1,210 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/yearOfConstruction"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "yearOfConstruction", 
+          0.3301
+        ], 
+        [
+          "foundingYear", 
+          0.3332
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.3332
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.3333
+        ], 
+        [
+          "serviceEndYear", 
+          0.3333
+        ]
+      ], 
+      "maj": [
+        [
+          "activeYearsStartYear", 
+          3.0
+        ], 
+        [
+          "foundingYear", 
+          2.0
+        ], 
+        [
+          "yearOfConstruction", 
+          2.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          2.0
+        ], 
+        [
+          "serviceEndYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Train (yearOfConstruction)", 
+          0.3301
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (yearOfConstruction)", 
+          0.3301
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          0.3332
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.3332
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.3332
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.3332
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsStartYear)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceEndYear)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/MemberOfParliament (serviceEndYear)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          0.3333
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (yearOfConstruction)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MemberOfParliament (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Train (yearOfConstruction)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsStartYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Train[yearOfConstruction]", 
+      0.3301
+    ], 
+    [
+      "MeanOfTransportation[yearOfConstruction]", 
+      0.3301
+    ], 
+    [
+      "Person[activeYearsStartYear]", 
+      0.3332
+    ], 
+    [
+      "Organisation[foundingYear]", 
+      0.3332
+    ], 
+    [
+      "Agent[foundingYear]", 
+      0.3332
+    ], 
+    [
+      "Agent[activeYearsStartYear]", 
+      0.3332
+    ], 
+    [
+      "Person[activeYearsEndYear]", 
+      0.3333
+    ], 
+    [
+      "Agent[activeYearsEndYear]", 
+      0.3333
+    ], 
+    [
+      "Organisation[activeYearsStartYear]", 
+      0.3333
+    ], 
+    [
+      "MemberOfParliament[serviceEndYear]", 
+      0.3333
+    ]
+  ], 
+  "values": [
+    2052.0, 
+    1982.0, 
+    1855.0
+  ]
+}
