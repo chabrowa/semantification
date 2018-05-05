@@ -32,8 +32,9 @@ class EntityBag(object):
                 filter (?p != <http://dbpedia.org/ontology/wikiPageRevisionID>) \
                 }"
         fileName = hashlib.md5(query)
-        fileName = str(fileName.hexdigest())+".p"
-        fileExists = self.testLocalFiles(fileName)
+#        fileName = str(fileName.hexdigest())+".p"
+#        fileExists = self.testLocalFiles(fileName)
+	fileExists = False
         if fileExists:
             results = pickle.load(open(localdatabasePath+""+fileName, "rb"))
         else:
@@ -50,7 +51,7 @@ class EntityBag(object):
             sparql.setReturnFormat(JSON)
             results = sparql.query().convert()
             #time.sleep(0.5)
-            pickle.dump(results, open(localdatabasePath+""+fileName, "wb"))
+ #           pickle.dump(results, open(localdatabasePath+""+fileName, "wb"))
             #print "we dont want to be here"
             #print fileName
 

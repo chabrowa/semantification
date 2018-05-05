@@ -1,4 +1,4 @@
-ss=$1
+process=$1
 total_mem=`free -k|grep '^Mem'|awk '{print $2;}'`
 while true
 do
@@ -18,3 +18,4 @@ do
         fi
         sleep 1
 done
+~

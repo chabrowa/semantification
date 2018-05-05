@@ -1,5 +1,6 @@
 from approach.config.paths import *
 from approach.config.imports import *
+import time
 
 #from evaluationSubmission.DatasetPredictionUrl import DatasetPrediction
 from evaluationSubmission.DatasetPredictionLabel import DatasetPrediction
@@ -68,18 +69,22 @@ class Experiment(object):
     def getDatasetPredictions(self):
         datasetPredictions = []
         count = 0
+	#start_time = time.time()
         for fn in os.listdir(self.dataPath):
             #if count < 5:
-            print str(count) + ":  " + str(fn)
-            datasetPath = os.path.join(self.dataPath, fn)
-            #if fn == "dbo_formationYear-817-smallest.csv":
-            #if "dbo_formationYear" in fn:
-            #print str(count) + ":  " + str(fn)
-            dataset = DatasetPrediction(datasetPath)
-            if dataset.scores != -1:
-                datasetPredictions.append(dataset)
-            count = count + 1
-        print "all datasets: " + str(count)
+            if fn.endswith(".csv"):
+		        start_time = time.time()
+	    	    #print str(count) + ":  " + str(fn) +" - "+ str(time.time() - start_time)
+            	datasetPath = os.path.join(self.dataPath, fn)
+            	#if fn == "dbo_formationYear-817-smallest.csv":
+            	#if "dbo_formationYear" in fn:
+            	#print str(count) + ":  " + str(fn)
+            	dataset = DatasetPrediction(datasetPath)
+            	if dataset.scores != -1:
+                    datasetPredictions.append(dataset)
+            	count = count + 1
+		print str(count) + ":  " + str(fn) +" - "+ str(time.time() - start_time)
+        print "all datasets: " + str(count) +" - "+ str(time.time() - start_time)
 
         return datasetPredictions
 
