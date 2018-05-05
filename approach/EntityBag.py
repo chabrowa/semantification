@@ -36,8 +36,6 @@ class EntityBag(object):
         fileExists = self.testLocalFiles(fileName)
         if fileExists:
             results = pickle.load(open(localdatabasePath+""+fileName, "rb"))
-            #print "hurray we are here"
-            #print "we are here saving our time"
         else:
             #sparql = SPARQLWrapper("http://wdaqua-csv2rdf-fuseki.univ-st-etienne.fr/dbpedia/query")
             #sparql = SPARQLWrapper("http://35.198.64.247:8165/sparql")
@@ -45,8 +43,8 @@ class EntityBag(object):
             #sparql = SPARQLWrapper("http://localhost:3031/db-test/query")
             #sparql = SPARQLWrapper("http://kbox.kaist.ac.kr:5889/sparql")
             #sparql = SPARQLWrapper("http://uk.dbpedia.org/sparql")
-            #sparql = SPARQLWrapper("http://ec2-34-241-15-85.eu-west-1.compute.amazonaws.com/sparql")
-            sparql = SPARQLWrapper("http://dbpedia.org/sparql")
+            sparql = SPARQLWrapper("http://ec2-34-241-15-85.eu-west-1.compute.amazonaws.com/sparql")
+            #sparql = SPARQLWrapper("http://dbpedia.org/sparql")
             sparql.setReturnFormat(JSON)
             sparql.setQuery(query)  # the previous query as a literal string
             sparql.setReturnFormat(JSON)

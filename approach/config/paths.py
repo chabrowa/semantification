@@ -16,8 +16,8 @@ minPopularity = 5
 
 
 
-#evaluationPath = '/Users/emiliakacprzak/Code/papers/semantification/benchmark_new/'
-#localdatabasePath = '/Users/emiliakacprzak/Code/papers/semantification/localdatabase/'
+evaluationPath = '/Users/emiliakacprzak/Code/papers/semantification/benchmark_new/'
+localdatabasePath = '/Users/emiliakacprzak/Code/papers/semantification/localdatabaseAWS/'
 
-evaluationPath = '/data/mll/semantification/benchmark_new/'
-locadatabasePath = '/data/mll/semantification/localdatabase/'
+#evaluationPath = '/data/mll/semantification/benchmark_new/'
+#locadatabasePath = '/data/mll/semantification/localdatabase/'

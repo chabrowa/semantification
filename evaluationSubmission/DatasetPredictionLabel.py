@@ -7,7 +7,7 @@ from approach.Dataset import Dataset
 class DatasetPrediction(object):
 
     def __init__(self, datasetPath):
-	    self.datasetPath   = datasetPath
+        self.datasetPath   = datasetPath
         self.columnMapping = self.getColumnMapping()
         self.scores        = self.getScores()
         self.rowsNumber    = self.getRowsNumber()

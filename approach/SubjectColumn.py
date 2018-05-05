@@ -7,7 +7,7 @@ from approach.config.paths import *
 class SubjectColumn(object):
 
     def __init__(self, columnValues):
-	    self.columnValues    = columnValues
+        self.columnValues    = columnValues
         self.cellPredictions = self.getCellPredictions()
         self.columnTypes     = self.getMostCommonTypes(self.cellPredictions)
 

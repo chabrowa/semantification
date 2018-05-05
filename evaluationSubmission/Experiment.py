@@ -20,7 +20,7 @@ class Experiment(object):
 
 
     def getLevelDistribution(self):
-        print "column level distribution"
+        #print "column level distribution"
         for datasetPrediction in self.datasetsPredictions:
             correctMapping =  self.getPropertyName(datasetPrediction.columnMapping[2])
             finalScores = datasetPrediction.scores['columnResults'][2]
@@ -31,9 +31,9 @@ class Experiment(object):
                 if correctMapping == p:
                     correctPosition = counter
                 counter += 1
-            print str(datasetPrediction.rowsNumber) + ", " + str(correctPosition)
+            #print str(datasetPrediction.rowsNumber) + ", " + str(correctPosition)
 
-        print "row level distribution"
+        #print "row level distribution"
         for datasetPrediction in self.datasetsPredictions:
             correctMapping =  self.getPropertyName(datasetPrediction.columnMapping[2])
             finalScores = datasetPrediction.scores['rowResults'][2]
@@ -44,12 +44,12 @@ class Experiment(object):
                 if correctMapping == p:
                     correctPosition = counter
                 counter += 1
-            print str(datasetPrediction.rowsNumber) + ", " + str(correctPosition)
+            #print str(datasetPrediction.rowsNumber) + ", " + str(correctPosition)
 
         return -1
 
     def getDistribution(self):
-        print "overal level distribution"
+        #print "overal level distribution"
         for datasetPrediction in self.datasetsPredictions:
             # calculating if any predictions
             correctMapping =  self.getPropertyName(datasetPrediction.columnMapping[2])
@@ -61,7 +61,7 @@ class Experiment(object):
                 if correctMapping == p:
                     correctPosition = counter
                 counter += 1
-            print str(datasetPrediction.rowsNumber) + ", " + str(correctPosition)
+            #print str(datasetPrediction.rowsNumber) + ", " + str(correctPosition)
         return -1
 
 
@@ -70,7 +70,7 @@ class Experiment(object):
         count = 0
         for fn in os.listdir(self.dataPath):
             #if count < 5:
-            #print str(count) + ":  " + str(fn)
+            print str(count) + ":  " + str(fn)
             datasetPath = os.path.join(self.dataPath, fn)
             #if fn == "dbo_formationYear-817-smallest.csv":
             #if "dbo_formationYear" in fn:
