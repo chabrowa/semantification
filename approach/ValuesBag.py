@@ -37,8 +37,9 @@ class ValuesBag(object):
              } LIMIT 10000"
 
         fileName = hashlib.md5(query)
-        fileName = str(fileName.hexdigest())+".p"
-        fileExists = self.testLocalFiles(fileName)
+#        fileName = str(fileName.hexdigest())+".p"
+#        fileExists = self.testLocalFiles(fileName)
+	fileExists = False
         if fileExists:
             results = pickle.load(open(localdatabasePath+""+fileName, "rb"))
             #print "hurray we are here"
@@ -50,15 +51,15 @@ class ValuesBag(object):
             #sparql = SPARQLWrapper("http://localhost:23456/db-test/query")
             #sparql = SPARQLWrapper("http://localhost:3031/db-test/query")
             #sparql = SPARQLWrapper("http://kbox.kaist.ac.kr:5889/sparql")
-            #sparql = SPARQLWrapper("http://ec2-34-241-15-85.eu-west-1.compute.amazonaws.com/sparql")
-            sparql = SPARQLWrapper("http://dbpedia.org/sparql")
+            sparql = SPARQLWrapper("http://ec2-34-241-15-85.eu-west-1.compute.amazonaws.com/sparql")
+#            sparql = SPARQLWrapper("http://dbpedia.org/sparql")
             sparql.setReturnFormat(JSON)
             #sparql.setTimeout(1200)
             sparql.setQuery(query)  # the previous query as a literal string
             sparql.setReturnFormat(JSON)
             results = sparql.query().convert()
             #time.sleep(0.5)
-            pickle.dump(results, open(localdatabasePath+""+fileName, "wb"))
+            #pickle.dump(results, open(localdatabasePath+""+fileName, "wb"))
             #print "we dont want to be here"
 
         return self.createValuesObject(results["results"]["bindings"])
