@@ -1,0 +1,299 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationDensity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfEmployees", 
+          0.0894
+        ], 
+        [
+          "populationDensity", 
+          0.113
+        ], 
+        [
+          "elevation", 
+          0.1568
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          5.0
+        ], 
+        [
+          "populationDensity", 
+          4.0
+        ], 
+        [
+          "numberOfEmployees", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.0792
+        ], 
+        [
+          "http://dbpedia.org/ontology/Non-ProfitOrganisation (numberOfEmployees)", 
+          0.0894
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          0.0894
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          0.0894
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1075
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1185
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1185
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1185
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.1557
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1564
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1564
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1568
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.157
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          0.1579
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Non-ProfitOrganisation (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Town[populationDensity]", 
+      0.0792
+    ], 
+    [
+      "Non-ProfitOrganisation[numberOfEmployees]", 
+      0.0894
+    ], 
+    [
+      "Location[populationDensity]>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Laurentides)", 
+      0.1072
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Wisconsin)", 
+      0.1078
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Tr%C3%B8ndelag)>(isPartOf|S%C3%B8r-Tr%C3%B8ndelag)", 
+      0.1557
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Alameda_County,_California)", 
+      0.1559
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|West_Bengal)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.157
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|California)>(isPartOf|Contra_Costa_County,_California)", 
+      0.1572
+    ], 
+    [
+      "Village[populationDensity]>(type|Types_of_municipalities_in_Quebec)", 
+      0.1579
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|West_Bengal)", 
+      0.1582
+    ]
+  ], 
+  "values": [
+    9.38228, 
+    15.058, 
+    22.4, 
+    444.095, 
+    1.8919, 
+    23.3978, 
+    13.0116, 
+    1.3, 
+    83.6297, 
+    14.4788, 
+    190.2, 
+    2.08495, 
+    880.545, 
+    20.309, 
+    217.453, 
+    265.329, 
+    441.3, 
+    126.3, 
+    113.6, 
+    39.3052, 
+    18.3012, 
+    1968.3, 
+    5.01933, 
+    5.13516, 
+    74.5949, 
+    117.29799999999999, 
+    4.63323, 
+    91.2746, 
+    127.3, 
+    8915.97, 
+    8.4, 
+    55.4, 
+    615.601, 
+    17.3746, 
+    81.0, 
+    64.7, 
+    12.8, 
+    19.3051, 
+    2.1, 
+    2.6, 
+    76.7, 
+    876.992, 
+    819.7, 
+    5.6, 
+    8.64869, 
+    46.0, 
+    9.536719999999999, 
+    17.1815, 
+    113.9, 
+    11.39, 
+    784.56, 
+    46.5639, 
+    21.6, 
+    355.0, 
+    12.5, 
+    24.865, 
+    1.4, 
+    13.4, 
+    1.6, 
+    36.8, 
+    32.0851, 
+    11.0425, 
+    6.0618, 
+    513.516, 
+    123.8, 
+    2.43244, 
+    720.081, 
+    109.6, 
+    47.3361, 
+    2.2, 
+    548.0, 
+    178.7, 
+    612.126, 
+    11.39, 
+    3.4363099999999998, 
+    6.0, 
+    0.7, 
+    4.3, 
+    0.2, 
+    156.3, 
+    1.42858, 
+    83.6, 
+    1.3, 
+    11.9, 
+    8.3, 
+    9.6, 
+    820.622, 
+    0.6, 
+    2.5, 
+    714.096, 
+    385.8, 
+    3.7, 
+    76.178, 
+    157.8, 
+    13.9, 
+    70.7725, 
+    62.5485, 
+    2.2, 
+    1.7374599999999998, 
+    105.4
+  ]
+}

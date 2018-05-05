@@ -1,0 +1,200 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaLand"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaLand", 
+          0.5026
+        ], 
+        [
+          "areaTotal", 
+          0.5027
+        ], 
+        [
+          "areaWater", 
+          0.5044
+        ]
+      ], 
+      "maj": [
+        [
+          "areaLand", 
+          5.0
+        ], 
+        [
+          "areaTotal", 
+          4.0
+        ], 
+        [
+          "areaWater", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Town (areaLand)", 
+          0.4999
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.5011
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.5011
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.5011
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.5027
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.5035
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.5036
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.5036
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaTotal)", 
+          0.504
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.5044
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          0.5057
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          0.5086
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Town (areaLand)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Town[areaLand]>(isPartOf|Virginia)>(country|United_States)", 
+      0.4985
+    ], 
+    [
+      "Town[areaLand]>(isPartOf|Virginia)", 
+      0.4986
+    ], 
+    [
+      "BodyOfWater[areaTotal]>(type|Trophic_state_index)", 
+      0.5
+    ], 
+    [
+      "Town[areaLand]>(isPartOf|Virginia)>(country|United_States)>(type|Town)", 
+      0.5016
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Oregon)>(type|City)", 
+      0.5034
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Oregon)>(type|City)>(timeZone|Pacific_Time_Zone)", 
+      0.5035
+    ], 
+    [
+      "Village[areaTotal]>(type|Administrative_divisions_of_New_York)>(isPartOf|Nassau_County,_New_York)", 
+      0.504
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Minnesota)>(isPartOf|Itasca_County,_Minnesota)", 
+      0.5044
+    ], 
+    [
+      "City[areaLand]>(isPartOf|Oregon)>(type|City)", 
+      0.5057
+    ], 
+    [
+      "Location[areaLand]>(type|Village_(United_States))>(isPartOf|Wisconsin)", 
+      0.5086
+    ]
+  ], 
+  "values": [
+    3300000.0
+  ]
+}

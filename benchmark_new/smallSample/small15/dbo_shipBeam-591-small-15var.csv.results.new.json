@@ -1,0 +1,233 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/shipBeam"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "height", 
+          0.1529
+        ], 
+        [
+          "number", 
+          0.1886
+        ], 
+        [
+          "shipBeam", 
+          0.2038
+        ], 
+        [
+          "populationDensity", 
+          0.2216
+        ]
+      ], 
+      "maj": [
+        [
+          "number", 
+          5.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ], 
+        [
+          "shipBeam", 
+          2.0
+        ], 
+        [
+          "height", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.1529
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (height)", 
+          0.1529
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (height)", 
+          0.1529
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.1529
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          0.1871
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.1886
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.1886
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.1886
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          0.2038
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          0.2038
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          0.207
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.219
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.219
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.219
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.219
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2241
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "BasketballPlayer[number]>(league|Euroleague_Basketball)", 
+      0.1529
+    ], 
+    [
+      "Lighthouse[height]>(location|Australia)", 
+      0.1529
+    ], 
+    [
+      "BasketballPlayer[number]>(league|Eurocup_Basketball)", 
+      0.1714
+    ], 
+    [
+      "BasketballPlayer[number]>(nationality|Philippines)", 
+      0.2
+    ], 
+    [
+      "Ship[shipBeam]", 
+      0.2038
+    ], 
+    [
+      "MeanOfTransportation[shipBeam]", 
+      0.2038
+    ], 
+    [
+      "SoccerPlayer[number]", 
+      0.207
+    ], 
+    [
+      "BasketballPlayer[number]>(nationality|Philippines)>(league|Philippine_Basketball_Association)", 
+      0.2118
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Arkansas)", 
+      0.219
+    ], 
+    [
+      "Location[populationDensity]>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Centre-du-Qu%C3%A9bec)", 
+      0.2241
+    ]
+  ], 
+  "values": [
+    18.941964327306408, 
+    7.866194170171939, 
+    12.409881275330966, 
+    13.068306256611892, 
+    6.091836836594287, 
+    15.95107241343288, 
+    8.321204453693039, 
+    24.513772177958987, 
+    26.557561901886363, 
+    7.873630139001891
+  ]
+}

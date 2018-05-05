@@ -1,0 +1,105 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfPages"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.4463
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.4449
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.4477
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.4479
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.4479
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          17.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          17.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          5.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[elevation]>(isPartOf|West_Virginia)>(isPartOf|Kanawha_County,_West_Virginia)>(type|Unincorporated_area)", 
+      0.4357
+    ], 
+    [
+      "Location[elevation]>(isPartOf|West_Virginia)>(isPartOf|Kanawha_County,_West_Virginia)>(type|Unincorporated_area)", 
+      0.4357
+    ], 
+    [
+      "Settlement[elevation]>(country|Slovenia)>(isPartOf|Municipality_of_%C4%8Crnomelj)", 
+      0.4364
+    ], 
+    [
+      "Location[elevation]>(country|Slovenia)>(isPartOf|Municipality_of_%C4%8Crnomelj)", 
+      0.4364
+    ], 
+    [
+      "Location[elevation]>(isPartOf|West_Virginia)>(isPartOf|Wood_County,_West_Virginia)", 
+      0.4414
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|West_Virginia)>(isPartOf|Wood_County,_West_Virginia)", 
+      0.4526
+    ], 
+    [
+      "Location[elevation]>(country|Slovenia)>(isPartOf|Prekmurje)", 
+      0.4536
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|West_Virginia)>(isPartOf|Wood_County,_West_Virginia)>(type|Unincorporated_area)", 
+      0.4567
+    ], 
+    [
+      "Location[elevation]>(isPartOf|West_Virginia)>(isPartOf|Wood_County,_West_Virginia)>(type|Unincorporated_area)", 
+      0.4567
+    ], 
+    [
+      "Settlement[elevation]>(country|Slovenia)>(isPartOf|Prekmurje)", 
+      0.4583
+    ]
+  ], 
+  "values": [
+    208.0, 
+    197.0
+  ]
+}

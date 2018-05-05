@@ -1,0 +1,223 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/deathYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "year", 
+          0.3745
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.375
+        ], 
+        [
+          "openingYear", 
+          0.375
+        ], 
+        [
+          "draftYear", 
+          0.375
+        ]
+      ], 
+      "maj": [
+        [
+          "draftYear", 
+          5.0
+        ], 
+        [
+          "openingYear", 
+          2.0
+        ], 
+        [
+          "year", 
+          2.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Sales (year)", 
+          0.3745
+        ], 
+        [
+          "http://dbpedia.org/ontology/Activity (year)", 
+          0.3745
+        ], 
+        [
+          "http://dbpedia.org/ontology/TimePeriod (activeYearsEndYear)", 
+          0.375
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          0.375
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.375
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (draftYear)", 
+          0.375
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.375
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.375
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (draftYear)", 
+          0.375
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (draftYear)", 
+          0.375
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (draftYear)", 
+          0.375
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.375
+        ], 
+        [
+          "http://dbpedia.org/ontology/RoadJunction (openingYear)", 
+          0.375
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (draftYear)", 
+          0.375
+        ], 
+        [
+          "http://dbpedia.org/ontology/IceHockeyPlayer (draftYear)", 
+          0.375
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (draftYear)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (draftYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (draftYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (draftYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/IceHockeyPlayer (draftYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Activity (year)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Sales (year)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TimePeriod (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (draftYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RoadJunction (openingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Activity[year]", 
+      0.3745
+    ], 
+    [
+      "Sales[year]", 
+      0.3745
+    ], 
+    [
+      "TimePeriod[activeYearsEndYear]", 
+      0.375
+    ], 
+    [
+      "BasketballPlayer[draftYear]>(league|National_Basketball_Association)", 
+      0.375
+    ], 
+    [
+      "BasketballPlayer[draftYear]>(league|National_Basketball_Association)>(position|Basketball_positions)", 
+      0.375
+    ], 
+    [
+      "BasketballPlayer[draftYear]>(league|National_Basketball_Association)>(position|Power_forward_(basketball))", 
+      0.375
+    ], 
+    [
+      "BasketballPlayer[draftYear]>(league|National_Basketball_Association)>(position|Power_forward_(basketball))>(position|Center_(basketball))", 
+      0.375
+    ], 
+    [
+      "IceHockeyPlayer[draftYear]>(league|Liiga)>(birthPlace|Finland)", 
+      0.375
+    ], 
+    [
+      "RoadJunction[openingYear]", 
+      0.375
+    ], 
+    [
+      "Station[openingYear]>(location|China)", 
+      0.375
+    ]
+  ], 
+  "values": [
+    2026.0, 
+    1989.0, 
+    1926.0, 
+    1896.0, 
+    2038.0, 
+    1980.0, 
+    2011.0, 
+    2064.0
+  ]
+}

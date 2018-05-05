@@ -1,0 +1,182 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.1348
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          0.1166
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1309
+        ], 
+        [
+          "http://dbpedia.org/ontology/WineRegion (areaTotal)", 
+          0.1396
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (areaTotal)", 
+          0.1498
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.1512
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.1518
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WineRegion (areaTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "ProtectedArea[areaTotal]>(location|Canada)", 
+      0.0699
+    ], 
+    [
+      "ProtectedArea[areaTotal]>(location|Canada)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0714
+    ], 
+    [
+      "WineRegion[areaTotal]", 
+      0.1396
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Uttar_Pradesh)", 
+      0.1397
+    ], 
+    [
+      "Island[areaTotal]>(location|Pacific_Ocean)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1443
+    ], 
+    [
+      "ProtectedArea[areaTotal]", 
+      0.1538
+    ], 
+    [
+      "ProtectedArea[areaTotal]>(location|Colorado)>(location|United_States)", 
+      0.1539
+    ], 
+    [
+      "ProtectedArea[areaTotal]>(location|Colorado)", 
+      0.1565
+    ], 
+    [
+      "Island[areaTotal]>(location|Pacific_Ocean)", 
+      0.1581
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Uttar_Pradesh)>(country|India)", 
+      0.1609
+    ]
+  ], 
+  "values": [
+    1659210.0, 
+    4046860.0, 
+    2589990.0, 
+    685000000.0, 
+    634900.0, 
+    55000000.0, 
+    2458070000.0, 
+    223791000.0, 
+    2727580.0, 
+    2410770000.0, 
+    1456870.0, 
+    36535000.0, 
+    1258570.0, 
+    381000000.0, 
+    33588900.0, 
+    6306830000.0, 
+    2881360.0, 
+    4617410000.0, 
+    4840000000.0, 
+    6245000000.0, 
+    800000.0, 
+    24000000.0, 
+    8534010000.0, 
+    67960000.0, 
+    682000000.0, 
+    127000000.0, 
+    600000000.0, 
+    17230000.0, 
+    3423880000.0, 
+    441107.0, 
+    146266000.0, 
+    30351400.0, 
+    152482000.0, 
+    412000000.0, 
+    2690000000.0, 
+    413000000.0, 
+    25454000000.0, 
+    1445000000.0, 
+    13354600.0, 
+    1450000.0, 
+    15653200.0, 
+    736950000.0, 
+    137593000.0, 
+    66210000.0, 
+    500210000.0, 
+    257560000.0, 
+    34036200.0, 
+    72843.4, 
+    4389000000.0, 
+    182020000.0, 
+    2151060000.0, 
+    14535000000.0, 
+    1810000000.0, 
+    46943500.0, 
+    1922260.0, 
+    12635000000.0, 
+    360170.0, 
+    7032520000.0, 
+    242370000.0, 
+    7935890.0, 
+    1700000.0, 
+    15276900.0, 
+    1200000000.0
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/oclc"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "oclc", 
+          0.1089
+        ], 
+        [
+          "areaTotal", 
+          0.1253
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          7.0
+        ], 
+        [
+          "oclc", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          0.1089
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          0.1132
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.1247
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1247
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.1249
+        ], 
+        [
+          "http://dbpedia.org/ontology/Book (oclc)", 
+          0.1263
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.1282
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          0.1324
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Book (oclc)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Work[oclc]", 
+      0.1001
+    ], 
+    [
+      "WrittenWork[oclc]", 
+      0.1001
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)", 
+      0.1021
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Spain)", 
+      0.1078
+    ], 
+    [
+      "Book[oclc]", 
+      0.1263
+    ], 
+    [
+      "Town[areaTotal]>(timeZone|Central_European_Time)", 
+      0.1324
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(province|South_Tyrol)>(region|S%C3%BCdtirol)", 
+      0.1325
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_C%C3%A1ceres)", 
+      0.1337
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Spain)>(isPartOf|Province_of_C%C3%A1ceres)", 
+      0.1337
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(region|Sicily)", 
+      0.1345
+    ]
+  ], 
+  "values": [
+    38130759.0, 
+    45253917.0, 
+    440621345.0, 
+    259252977.0, 
+    3089379.0, 
+    15792544.0, 
+    18949381.0, 
+    176882048.0, 
+    244301912.0, 
+    25106913.0, 
+    30075172.0, 
+    32052009.0, 
+    234304058.0, 
+    5675357.0, 
+    707401.0, 
+    42578586.0, 
+    60237515.0, 
+    123912571.0, 
+    259265978.0, 
+    36824704.0, 
+    28834618.0, 
+    176833215.0, 
+    26356697.0, 
+    30157897.0, 
+    62353862.0, 
+    846889309.0, 
+    232712929.0, 
+    2132415.0, 
+    35630734.0, 
+    48053872.0, 
+    70059558.0, 
+    22108726.0, 
+    55488053.0, 
+    192048171.0, 
+    26089618.0, 
+    25990887.0, 
+    1057535.0, 
+    223802630.0, 
+    60414008.0, 
+    7004090.0, 
+    13485433.0, 
+    57167611.0, 
+    59018354.0, 
+    6535757.0, 
+    16425089.0, 
+    64433233.0, 
+    52642751.0, 
+    6379182.0, 
+    18192603.0, 
+    232980206.0, 
+    68262369.0, 
+    61204461.0, 
+    37599208.0, 
+    60175720.0, 
+    4081070.0, 
+    85019247.0, 
+    62479349.0, 
+    38574209.0, 
+    60414498.0, 
+    166360004.0
+  ]
+}

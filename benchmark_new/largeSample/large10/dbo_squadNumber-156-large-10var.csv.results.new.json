@@ -1,0 +1,243 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/squadNumber"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "width", 
+          0.1063
+        ], 
+        [
+          "number", 
+          0.1176
+        ], 
+        [
+          "elevation", 
+          0.1346
+        ]
+      ], 
+      "maj": [
+        [
+          "number", 
+          6.0
+        ], 
+        [
+          "width", 
+          3.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (width)", 
+          0.0939
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (width)", 
+          0.1063
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          0.1124
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          0.1124
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.1124
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          0.1124
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          0.1132
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.1176
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.1176
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.1176
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          0.13
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1346
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1346
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1346
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (width)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[width]>(type|Arch_bridge)", 
+      0.0939
+    ], 
+    [
+      "Bridge[width]>(type|Arch_bridge)", 
+      0.0939
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Austria)", 
+      0.0978
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Indonesia)", 
+      0.1065
+    ], 
+    [
+      "SoccerPlayer[number]", 
+      0.1073
+    ], 
+    [
+      "BasketballPlayer[number]>(nationality|Philippines)", 
+      0.1199
+    ], 
+    [
+      "Bridge[width]", 
+      0.1309
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Vorpommern-Greifswald)", 
+      0.1346
+    ], 
+    [
+      "BasketballPlayer[number]>(nationality|Philippines)>(league|Philippine_Basketball_Association)", 
+      0.1368
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Germany)", 
+      0.1371
+    ]
+  ], 
+  "values": [
+    9.0, 
+    17.0, 
+    28.0, 
+    2.0, 
+    20.0, 
+    18.0, 
+    4.0, 
+    27.0, 
+    22.0, 
+    17.0, 
+    7.0, 
+    8.0, 
+    6.0, 
+    17.0, 
+    6.0, 
+    3.0, 
+    26.0, 
+    12.0, 
+    6.0, 
+    22.0, 
+    10.0, 
+    1.0, 
+    23.0, 
+    11.0, 
+    26.0, 
+    9.0, 
+    20.0, 
+    8.0, 
+    21.0, 
+    3.0, 
+    15.0, 
+    38.0, 
+    22.0, 
+    35.0, 
+    26.0, 
+    1.0, 
+    20.0, 
+    11.0, 
+    23.0, 
+    27.0, 
+    17.0, 
+    30.0, 
+    38.0, 
+    24.0
+  ]
+}

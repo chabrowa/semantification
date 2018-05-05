@@ -1,0 +1,259 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/year"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "serviceEndYear", 
+          0.1538
+        ], 
+        [
+          "openingYear", 
+          0.1615
+        ], 
+        [
+          "formationYear", 
+          0.1652
+        ], 
+        [
+          "foundingYear", 
+          0.1733
+        ]
+      ], 
+      "maj": [
+        [
+          "foundingYear", 
+          5.0
+        ], 
+        [
+          "formationYear", 
+          2.0
+        ], 
+        [
+          "openingYear", 
+          2.0
+        ], 
+        [
+          "serviceEndYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          0.1538
+        ], 
+        [
+          "http://dbpedia.org/ontology/MemberOfParliament (serviceEndYear)", 
+          0.1538
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceEndYear)", 
+          0.1538
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          0.1538
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tunnel (openingYear)", 
+          0.1563
+        ], 
+        [
+          "http://dbpedia.org/ontology/GovernmentAgency (formationYear)", 
+          0.1613
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.1615
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.1615
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (formationYear)", 
+          0.1652
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (formationYear)", 
+          0.1652
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          0.1667
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.1667
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.1667
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          0.1679
+        ], 
+        [
+          "http://dbpedia.org/ontology/PoliticalParty (formationYear)", 
+          0.169
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bank (foundingYear)", 
+          0.1705
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.1725
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.1733
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (foundingYear)", 
+          0.1768
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PoliticalParty (formationYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/GovernmentAgency (formationYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (formationYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (formationYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bank (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MemberOfParliament (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tunnel (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "MemberOfParliament[serviceEndYear]", 
+      0.1538
+    ], 
+    [
+      "Tunnel[openingYear]", 
+      0.1563
+    ], 
+    [
+      "GovernmentAgency[formationYear]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1613
+    ], 
+    [
+      "Bridge[openingYear]", 
+      0.1667
+    ], 
+    [
+      "Company[foundingYear]>(industry|Financial_services)", 
+      0.1667
+    ], 
+    [
+      "PoliticalParty[formationYear]>(internationalAffiliation|Socialist_International)>(ideology|Social_democracy)", 
+      0.169
+    ], 
+    [
+      "Bank[foundingYear]", 
+      0.1705
+    ], 
+    [
+      "Agent[foundingYear]", 
+      0.1762
+    ], 
+    [
+      "Organisation[foundingYear]", 
+      0.1762
+    ], 
+    [
+      "SportsTeam[foundingYear]", 
+      0.1768
+    ]
+  ], 
+  "values": [
+    1891.0, 
+    1948.0, 
+    1931.0, 
+    2097.0, 
+    1986.0, 
+    1997.0, 
+    1932.0, 
+    1990.0, 
+    1984.0, 
+    1929.0, 
+    2005.0, 
+    1849.0
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfPages"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.2385
+        ], 
+        [
+          "elevation", 
+          0.2387
+        ], 
+        [
+          "topSpeed", 
+          0.2455
+        ], 
+        [
+          "minimumElevation", 
+          0.2514
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "topSpeed", 
+          3.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ], 
+        [
+          "minimumElevation", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.2333
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.2378
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          0.2384
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.2385
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.2385
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.2385
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2413
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2413
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2431
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (topSpeed)", 
+          0.2455
+        ], 
+        [
+          "http://dbpedia.org/ontology/Engine (topSpeed)", 
+          0.2455
+        ], 
+        [
+          "http://dbpedia.org/ontology/AutomobileEngine (topSpeed)", 
+          0.2455
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.2514
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.2514
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.2514
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.2514
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (topSpeed)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Engine (topSpeed)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AutomobileEngine (topSpeed)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[elevation]>(isPartOf|Indiana)>(isPartOf|Parke_County,_Indiana)", 
+      0.2333
+    ], 
+    [
+      "City[elevation]>(type|List_of_cities_in_Kentucky)", 
+      0.2378
+    ], 
+    [
+      "City[populationDensity]>(isPartOf|Alabama)>(type|City)>(timeZone|Central_Time_Zone)>(country|United_States)", 
+      0.2378
+    ], 
+    [
+      "City[populationDensity]>(isPartOf|Alabama)>(type|City)>(timeZone|Central_Time_Zone)", 
+      0.2391
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|Illinois)>(type|Unincorporated_area)", 
+      0.2449
+    ], 
+    [
+      "AutomobileEngine[topSpeed]", 
+      0.2455
+    ], 
+    [
+      "Device[topSpeed]", 
+      0.2455
+    ], 
+    [
+      "Engine[topSpeed]", 
+      0.2455
+    ], 
+    [
+      "Location[minimumElevation]>(department|Moselle)>(arrondissement|Arrondissement_of_Metz-Campagne)", 
+      0.2514
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Moselle)>(arrondissement|Arrondissement_of_Metz-Campagne)", 
+      0.2514
+    ]
+  ], 
+  "values": [
+    934.0, 
+    224.0, 
+    128.0, 
+    128.0, 
+    192.0, 
+    288.0, 
+    224.0, 
+    160.0, 
+    192.0, 
+    192.0, 
+    192.0, 
+    192.0, 
+    192.0, 
+    192.0, 
+    96.0
+  ]
+}

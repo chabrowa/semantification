@@ -1,0 +1,80 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfPages"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaCode", 
+          0.0
+        ]
+      ], 
+      "maj": [
+        [
+          "areaCode", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          0.0
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          32.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaCode]>(isPartOf|West_Virginia)", 
+      0.0
+    ], 
+    [
+      "Location[areaCode]>(isPartOf|West_Virginia)>(isPartOf|Greenbrier_County,_West_Virginia)", 
+      0.0
+    ], 
+    [
+      "Location[areaCode]>(isPartOf|West_Virginia)>(isPartOf|Logan_County,_West_Virginia)", 
+      0.0
+    ], 
+    [
+      "Location[areaCode]>(isPartOf|West_Virginia)>(isPartOf|Pocahontas_County,_West_Virginia)", 
+      0.0
+    ], 
+    [
+      "Location[areaCode]>(isPartOf|West_Virginia)>(isPartOf|McDowell_County,_West_Virginia)", 
+      0.0
+    ], 
+    [
+      "Location[areaCode]>(isPartOf|West_Virginia)>(isPartOf|Mercer_County,_West_Virginia)", 
+      0.0
+    ], 
+    [
+      "Location[areaCode]>(isPartOf|West_Virginia)>(isPartOf|Kanawha_County,_West_Virginia)", 
+      0.0
+    ], 
+    [
+      "Location[areaCode]>(isPartOf|West_Virginia)>(isPartOf|Greenbrier_County,_West_Virginia)>(type|Unincorporated_area)", 
+      0.0
+    ], 
+    [
+      "Location[areaCode]>(isPartOf|West_Virginia)>(isPartOf|Logan_County,_West_Virginia)>(type|Unincorporated_area)", 
+      0.0
+    ], 
+    [
+      "Location[areaCode]>(isPartOf|West_Virginia)>(isPartOf|Pocahontas_County,_West_Virginia)>(type|Unincorporated_area)", 
+      0.0
+    ]
+  ], 
+  "values": [
+    304.0
+  ]
+}

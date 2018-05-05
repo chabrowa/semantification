@@ -1,0 +1,166 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEpisodes"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.2257
+        ], 
+        [
+          "number", 
+          0.2298
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          6.0
+        ], 
+        [
+          "number", 
+          4.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.2245
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2247
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.2263
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.2263
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.2298
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.2311
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.2337
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.24
+        ], 
+        [
+          "http://dbpedia.org/ontology/NationalCollegiateAthleticAssociationAthlete (number)", 
+          0.2402
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NationalCollegiateAthleticAssociationAthlete (number)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[populationDensity]>(isPartOf|Oklahoma)", 
+      0.2159
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Oklahoma)>(type|Census-designated_place)", 
+      0.2234
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Oklahoma)>(type|Census-designated_place)", 
+      0.2234
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Oklahoma)>(type|Census-designated_place)>(timeZone|Central_Time_Zone)", 
+      0.2256
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Oklahoma)>(type|Census-designated_place)>(timeZone|Central_Time_Zone)", 
+      0.2256
+    ], 
+    [
+      "Person[number]", 
+      0.226
+    ], 
+    [
+      "Agent[number]", 
+      0.226
+    ], 
+    [
+      "Athlete[number]", 
+      0.2273
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Michigan)", 
+      0.24
+    ], 
+    [
+      "NationalCollegiateAthleticAssociationAthlete[number]", 
+      0.2402
+    ]
+  ], 
+  "values": [
+    35.0, 
+    72.0, 
+    12.0, 
+    12.0, 
+    27.0, 
+    68.0, 
+    24.0, 
+    11.0, 
+    17.0, 
+    15.0, 
+    12.0, 
+    12.0, 
+    11.0, 
+    12.0, 
+    9.0
+  ]
+}

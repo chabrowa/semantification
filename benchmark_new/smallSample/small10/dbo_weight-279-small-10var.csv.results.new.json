@@ -1,0 +1,161 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/weight"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "weight", 
+          0.1455
+        ]
+      ], 
+      "maj": [
+        [
+          "weight", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Cyclist (weight)", 
+          0.0854
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (weight)", 
+          0.1455
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (weight)", 
+          0.1455
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (weight)", 
+          0.1455
+        ], 
+        [
+          "http://dbpedia.org/ontology/Swimmer (weight)", 
+          0.1484
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (weight)", 
+          0.1538
+        ], 
+        [
+          "http://dbpedia.org/ontology/Skier (weight)", 
+          0.1538
+        ], 
+        [
+          "http://dbpedia.org/ontology/GolfPlayer (weight)", 
+          0.1676
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Swimmer (weight)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (weight)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (weight)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (weight)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cyclist (weight)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/GolfPlayer (weight)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Skier (weight)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Cyclist[weight]>(birthPlace|United_States)", 
+      0.0854
+    ], 
+    [
+      "Swimmer[weight]>(nationality|Australia)", 
+      0.1329
+    ], 
+    [
+      "Swimmer[weight]>(nationality|Russia)", 
+      0.1364
+    ], 
+    [
+      "Swimmer[weight]>(nationality|Canada)", 
+      0.1468
+    ], 
+    [
+      "Swimmer[weight]>(nationality|United_States)", 
+      0.1484
+    ], 
+    [
+      "Swimmer[weight]>(nationality|Brazil)>(birthPlace|Brazil)", 
+      0.1504
+    ], 
+    [
+      "Skier[weight]", 
+      0.1538
+    ], 
+    [
+      "Swimmer[weight]>(nationality|Brazil)", 
+      0.1637
+    ], 
+    [
+      "GolfPlayer[weight]>(nationality|Japan)", 
+      0.1676
+    ], 
+    [
+      "Swimmer[weight]", 
+      0.1694
+    ]
+  ], 
+  "values": [
+    59169.88765181299, 
+    70693.51280180541, 
+    75446.86997406198, 
+    68470.63615509584, 
+    80417.7008729155, 
+    56800.9591313641, 
+    72911.85758887952, 
+    65927.63607029081, 
+    82734.4272664517, 
+    92292.69568344697, 
+    81760.67777185995, 
+    75387.12801461866, 
+    95852.84126401827, 
+    79708.07181454594, 
+    67747.20722080916, 
+    61224.94608275274, 
+    54867.4263702827, 
+    61293.97370429947, 
+    94337.05561629744, 
+    59298.0499891817, 
+    78933.06246949628, 
+    70297.90501920802, 
+    77799.40964436205, 
+    72734.63616989262, 
+    82349.31435586665, 
+    79016.41428894884
+  ]
+}

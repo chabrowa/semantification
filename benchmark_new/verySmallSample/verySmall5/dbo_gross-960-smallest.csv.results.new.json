@@ -1,0 +1,162 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/gross"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "postalCode", 
+          0.1839
+        ], 
+        [
+          "populationTotal", 
+          0.2112
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          9.0
+        ], 
+        [
+          "postalCode", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          0.1839
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          0.1839
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          0.1839
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationTotal)", 
+          0.2013
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationTotal)", 
+          0.2013
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.2046
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2138
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2138
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          0.2151
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.2162
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[postalCode]>(country|Italy)", 
+      0.1839
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_Time_Zone)>(governmentType|Mayor%E2%80%93council_government)>(type|City)>(country|United_States)", 
+      0.186
+    ], 
+    [
+      "AdministrativeRegion[populationTotal]>(country|Korea)", 
+      0.2013
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|Florida)>(governmentType|Council%E2%80%93manager_government)>(timeZone|Eastern_Time_Zone)", 
+      0.2037
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_Time_Zone)>(governmentType|Council%E2%80%93manager_government)>(isPartOf|Florida)", 
+      0.2131
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|Gujarat)", 
+      0.2132
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|Florida)>(governmentType|Council%E2%80%93manager_government)", 
+      0.2174
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_Time_Zone)>(governmentType|Mayor%E2%80%93council_government)>(type|City)", 
+      0.2193
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|California)", 
+      0.223
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|Gujarat)>(country|India)", 
+      0.224
+    ]
+  ], 
+  "values": [
+    29293.322638928887, 
+    80984.25747888189, 
+    10622.693192941631
+  ]
+}

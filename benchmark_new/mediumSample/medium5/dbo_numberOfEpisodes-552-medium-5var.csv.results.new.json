@@ -1,0 +1,238 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEpisodes"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.1468
+        ], 
+        [
+          "number", 
+          0.179
+        ], 
+        [
+          "height", 
+          0.1952
+        ], 
+        [
+          "squadNumber", 
+          0.1994
+        ]
+      ], 
+      "maj": [
+        [
+          "squadNumber", 
+          4.0
+        ], 
+        [
+          "number", 
+          3.0
+        ], 
+        [
+          "height", 
+          2.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1468
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.179
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.179
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          0.179
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.179
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.1913
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (height)", 
+          0.1913
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (height)", 
+          0.1913
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.1913
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (height)", 
+          0.1991
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (squadNumber)", 
+          0.1994
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (squadNumber)", 
+          0.1994
+        ], 
+        [
+          "http://dbpedia.org/ontology/OrganisationMember (squadNumber)", 
+          0.1994
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeamMember (squadNumber)", 
+          0.1994
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (squadNumber)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (squadNumber)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/OrganisationMember (squadNumber)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeamMember (squadNumber)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationDensity]>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Centre-du-Qu%C3%A9bec)", 
+      0.1468
+    ], 
+    [
+      "BasketballPlayer[number]>(league|Eurocup_Basketball)", 
+      0.1535
+    ], 
+    [
+      "Lighthouse[height]>(location|Australia)", 
+      0.1913
+    ], 
+    [
+      "BasketballPlayer[number]>(league|Euroleague_Basketball)", 
+      0.1917
+    ], 
+    [
+      "BasketballPlayer[number]>(nationality|Philippines)", 
+      0.1919
+    ], 
+    [
+      "Location[height]>(location|Australia)", 
+      0.1991
+    ], 
+    [
+      "Person[squadNumber]", 
+      0.1994
+    ], 
+    [
+      "SportsTeamMember[squadNumber]", 
+      0.1994
+    ], 
+    [
+      "OrganisationMember[squadNumber]", 
+      0.1994
+    ], 
+    [
+      "Agent[squadNumber]", 
+      0.1994
+    ]
+  ], 
+  "values": [
+    12.0, 
+    31.0, 
+    9.0, 
+    19.0, 
+    66.0, 
+    17.0, 
+    32.0, 
+    10.0, 
+    24.0, 
+    14.0, 
+    8.0, 
+    12.0, 
+    8.0, 
+    6.0, 
+    18.0, 
+    11.0, 
+    12.0, 
+    24.0, 
+    24.0, 
+    10.0, 
+    15.0, 
+    12.0, 
+    16.0, 
+    39.0, 
+    10.0, 
+    12.0, 
+    8.0, 
+    24.0, 
+    13.0, 
+    14.0, 
+    12.0
+  ]
+}

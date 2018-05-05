@@ -1,0 +1,105 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.2654
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.2642
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2671
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2679
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.2698
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          15.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          4.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationTotal]>(country|Spain)>(isPartOf|Province_of_Castell%C3%B3n)", 
+      0.25
+    ], 
+    [
+      "Location[populationTotal]", 
+      0.264
+    ], 
+    [
+      "Place[populationTotal]", 
+      0.264
+    ], 
+    [
+      "PopulatedPlace[populationTotal]", 
+      0.2641
+    ], 
+    [
+      "Location[populationTotal]>(country|Spain)>(isPartOf|Province_of_Castell%C3%B3n)>(isPartOf|Valencian_Community)", 
+      0.2647
+    ], 
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(country|Leicestershire)", 
+      0.267
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|Leicestershire)", 
+      0.267
+    ], 
+    [
+      "Settlement[populationTotal]", 
+      0.2683
+    ], 
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(country|Leicestershire)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2723
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|Leicestershire)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2723
+    ]
+  ], 
+  "values": [
+    4749.16748429928, 
+    244.1456972866082
+  ]
+}

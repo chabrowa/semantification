@@ -1,0 +1,244 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/maximumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.07
+        ], 
+        [
+          "populationTotal", 
+          0.072
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          7.0
+        ], 
+        [
+          "populationDensity", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.0691
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.0702
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.0705
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.0705
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.072
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.072
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.072
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.0731
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          24.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[populationTotal]>(isPartOf|Gilan_Province)", 
+      0.0653
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Mazandaran_Province)", 
+      0.0672
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Michigan)>(type|Census-designated_place)", 
+      0.0691
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Michigan)>(type|Census-designated_place)", 
+      0.0691
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Michigan)", 
+      0.0719
+    ], 
+    [
+      "Village[populationTotal]>(timeZone|Central_European_Time)>(isPartOf|Jablanica_District)", 
+      0.0728
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Hamadan_Province)>(isPartOf|Khezel_District)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0731
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|West_Azerbaijan_Province)>(isPartOf|Nazlu_District)>(22-rdf-syntax-ns#type|_Feature)>(country|Iran)", 
+      0.0745
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Central_District_(Jiroft_County))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0747
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|West_Azerbaijan_Province)>(isPartOf|Nazlu_District)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0767
+    ]
+  ], 
+  "values": [
+    1077.1170177034885, 
+    967.2971049559438, 
+    142.65541566752802, 
+    472.61122123286106, 
+    1189.94467214018, 
+    589.0146180434972, 
+    97.68050529581963, 
+    271.376517592752, 
+    84.54965173268344, 
+    61.21080995221632, 
+    31.708645685435588, 
+    801.165748405578, 
+    126.35874757821828, 
+    137.90350978877774, 
+    676.2877835637132, 
+    437.39749137163994, 
+    255.19013103974288, 
+    149.04506545162468, 
+    59.37211964761224, 
+    100.93153878815019, 
+    659.9949441478346, 
+    84.508390403439, 
+    214.9408370719708, 
+    136.53997989636193, 
+    160.65110266569263, 
+    613.6053864258452, 
+    3.0252474995120493, 
+    1369.5252656472228, 
+    108.6498663703743, 
+    411.5668565585361, 
+    193.8080935877798, 
+    263.2093403981209, 
+    386.5394344453829, 
+    93.41281298779552, 
+    138.60545873517012, 
+    32.72111052830112, 
+    790.2141122703872, 
+    604.3932480873746, 
+    679.146810838729, 
+    82.45135466642404, 
+    14.616736070764503, 
+    242.38432246759166, 
+    139.405868024866, 
+    647.6761800274971, 
+    69.56930587950131, 
+    620.6564260457643, 
+    118.86223484915848, 
+    3050.7405567752066, 
+    94.684998542284, 
+    8.582572302253226, 
+    517.5664123555994, 
+    9.206903541639852, 
+    323.46659507555654, 
+    533.1363807612121, 
+    1133.6532588437506, 
+    59.972823108288345, 
+    77.11748208634546, 
+    222.92894250355423, 
+    315.886598073281, 
+    62.981759622815126, 
+    130.77414441851053, 
+    909.4752097883819, 
+    364.91092394230213, 
+    585.5323317761489, 
+    2065.7586351383543, 
+    2.048081105482905, 
+    348.40879535950575, 
+    369.21524087863554, 
+    650.9341520020104, 
+    150.4874505431046, 
+    136.48937523083765, 
+    383.77709270383605, 
+    17.9908106973234, 
+    708.1148370129208, 
+    263.20423620265194, 
+    83.641010746184, 
+    72.96443828084213, 
+    564.5204671242545, 
+    511.3781961552597, 
+    306.39094797962855, 
+    385.4701472522912, 
+    246.71875682673118, 
+    8.425198084421, 
+    994.9278917791607, 
+    141.15176760099257, 
+    710.3544096423724, 
+    556.0121696739816, 
+    367.58767272118234, 
+    698.3325626852064, 
+    418.8795636253735, 
+    1470.6481915548961, 
+    366.4844972635229, 
+    105.63597887010698, 
+    880.700102987845, 
+    263.6851297761757, 
+    46.30573164465343, 
+    164.4833787679862, 
+    294.96285405468706, 
+    343.4297532536413, 
+    153.6973304597135, 
+    472.46601322164753
+  ]
+}

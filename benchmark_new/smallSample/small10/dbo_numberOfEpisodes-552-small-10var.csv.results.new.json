@@ -1,0 +1,230 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEpisodes"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfEpisodes", 
+          0.1928
+        ], 
+        [
+          "populationDensity", 
+          0.1985
+        ], 
+        [
+          "height", 
+          0.2146
+        ], 
+        [
+          "number", 
+          0.2286
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          5.0
+        ], 
+        [
+          "height", 
+          3.0
+        ], 
+        [
+          "numberOfEpisodes", 
+          1.0
+        ], 
+        [
+          "number", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          0.1928
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          0.1928
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.198
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.198
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1985
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1993
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (height)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.222
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (height)", 
+          0.222
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (height)", 
+          0.222
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.222
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.2286
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.2286
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          0.2286
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.2286
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "TelevisionShow[numberOfEpisodes]>(channel|CBS)", 
+      0.1928
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Oklahoma)", 
+      0.1957
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Oklahoma)>(type|Census-designated_place)", 
+      0.1985
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Oklahoma)>(type|Census-designated_place)", 
+      0.1985
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Oklahoma)>(type|Census-designated_place)>(timeZone|Central_Time_Zone)", 
+      0.2
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Oklahoma)>(type|Census-designated_place)>(timeZone|Central_Time_Zone)", 
+      0.2
+    ], 
+    [
+      "Location[height]>(location|Australia)", 
+      0.2
+    ], 
+    [
+      "Lighthouse[height]", 
+      0.222
+    ], 
+    [
+      "Tower[height]", 
+      0.222
+    ], 
+    [
+      "BasketballPlayer[number]>(league|Eurocup_Basketball)", 
+      0.2286
+    ]
+  ], 
+  "values": [
+    38.0, 
+    65.0, 
+    13.0, 
+    11.0, 
+    25.0, 
+    66.0, 
+    26.0, 
+    12.0, 
+    18.0, 
+    14.0, 
+    13.0, 
+    13.0, 
+    10.0, 
+    11.0, 
+    9.0
+  ]
+}

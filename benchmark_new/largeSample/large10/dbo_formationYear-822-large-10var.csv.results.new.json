@@ -1,0 +1,309 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/formationYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfStudents", 
+          0.3659
+        ], 
+        [
+          "elevation", 
+          0.3749
+        ], 
+        [
+          "openingYear", 
+          0.4079
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          7.0
+        ], 
+        [
+          "numberOfStudents", 
+          2.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.3659
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.3659
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.3659
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          0.3672
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.3749
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          0.3749
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.3749
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          0.4037
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.4061
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          0.4068
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.4075
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.4075
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.4075
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          0.4103
+        ], 
+        [
+          "http://dbpedia.org/ontology/RoadJunction (openingYear)", 
+          0.4103
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          0.4103
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (openingYear)", 
+          0.4103
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (openingYear)", 
+          0.4146
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RoadJunction (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (openingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "School[numberOfStudents]>(state|Florida)>(type|State_school)", 
+      0.3571
+    ], 
+    [
+      "School[numberOfStudents]>(state|Florida)>(type|State_school)>(country|United_States)", 
+      0.3747
+    ], 
+    [
+      "Mountain[elevation]>(locatedInArea|Norway)>(locatedInArea|Oppland)", 
+      0.3749
+    ], 
+    [
+      "RailwayTunnel[openingYear]", 
+      0.3998
+    ], 
+    [
+      "RailwayLine[openingYear]>(type|Light_rail)", 
+      0.4008
+    ], 
+    [
+      "RailwayLine[openingYear]", 
+      0.4096
+    ], 
+    [
+      "RoadJunction[openingYear]", 
+      0.4103
+    ], 
+    [
+      "RailwayTunnel[openingYear]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.4103
+    ], 
+    [
+      "PublicTransitSystem[openingYear]>(type|Rapid_transit)", 
+      0.4103
+    ], 
+    [
+      "Dam[openingYear]", 
+      0.4146
+    ]
+  ], 
+  "values": [
+    1797.0, 
+    2106.0, 
+    1974.0, 
+    2039.0, 
+    1854.0, 
+    2190.0, 
+    2088.0, 
+    2005.0, 
+    1987.0, 
+    1756.0, 
+    2060.0, 
+    1752.0, 
+    1857.0, 
+    1994.0, 
+    1986.0, 
+    1799.0, 
+    1935.0, 
+    2154.0, 
+    2194.0, 
+    2130.0, 
+    1947.0, 
+    1913.0, 
+    1932.0, 
+    1878.0, 
+    1775.0, 
+    2039.0, 
+    1833.0, 
+    2027.0, 
+    1920.0, 
+    1924.0, 
+    1919.0, 
+    2046.0, 
+    2089.0, 
+    1935.0, 
+    1899.0, 
+    1986.0, 
+    2075.0, 
+    2186.0, 
+    2121.0, 
+    1998.0, 
+    2018.0, 
+    1985.0, 
+    1887.0, 
+    2122.0, 
+    1953.0, 
+    1831.0, 
+    2099.0, 
+    1882.0, 
+    2033.0, 
+    2025.0, 
+    1846.0, 
+    2151.0, 
+    1919.0, 
+    2112.0, 
+    2102.0, 
+    2137.0, 
+    1966.0, 
+    1812.0, 
+    2023.0, 
+    1984.0, 
+    1933.0, 
+    1763.0, 
+    2026.0, 
+    1906.0, 
+    2173.0, 
+    2037.0, 
+    2008.0, 
+    2136.0, 
+    2040.0, 
+    2063.0, 
+    1880.0, 
+    1862.0, 
+    1871.0, 
+    1913.0, 
+    1814.0, 
+    2026.0, 
+    2138.0, 
+    1982.0
+  ]
+}

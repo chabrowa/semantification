@@ -1,0 +1,323 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/gross"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "budget", 
+          0.0744
+        ], 
+        [
+          "gross", 
+          0.0794
+        ], 
+        [
+          "areaWater", 
+          0.1076
+        ], 
+        [
+          "areaTotal", 
+          0.1106
+        ]
+      ], 
+      "maj": [
+        [
+          "budget", 
+          3.0
+        ], 
+        [
+          "gross", 
+          3.0
+        ], 
+        [
+          "areaWater", 
+          3.0
+        ], 
+        [
+          "areaTotal", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Film (budget)", 
+          0.0744
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (budget)", 
+          0.0744
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (budget)", 
+          0.0744
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (gross)", 
+          0.0794
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (gross)", 
+          0.0794
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (gross)", 
+          0.0794
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.1053
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          0.1059
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.1087
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.1087
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.1087
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1106
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          0.1106
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          0.1106
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (areaTotal)", 
+          0.1106
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.1116
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (gross)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (budget)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (gross)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (gross)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (budget)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Film[budget]", 
+      0.0744
+    ], 
+    [
+      "Wikidata:Q11424[budget]", 
+      0.0744
+    ], 
+    [
+      "Work[budget]", 
+      0.0744
+    ], 
+    [
+      "Film[gross]", 
+      0.0794
+    ], 
+    [
+      "Wikidata:Q11424[gross]", 
+      0.0794
+    ], 
+    [
+      "Work[gross]", 
+      0.0794
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Maine)>(type|New_England_town)", 
+      0.1053
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Maine)", 
+      0.1059
+    ], 
+    [
+      "Lake[areaTotal]>(country|New_Zealand)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1106
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Alaska)", 
+      0.1116
+    ]
+  ], 
+  "values": [
+    2650000.0, 
+    314402.0, 
+    28300000.0, 
+    8100000.0, 
+    5300000.0, 
+    50504655.0, 
+    1200000000.0, 
+    147700000.0, 
+    43074.0, 
+    47400000.0, 
+    7450000.0, 
+    2800000.0, 
+    2509000.0, 
+    13000000.0, 
+    8033844.0, 
+    11600000.0, 
+    59000000.0, 
+    20746.0, 
+    62500000.0, 
+    1500000.0, 
+    944915.0, 
+    839731.0, 
+    12643027.0, 
+    4814619.0, 
+    21100000.0, 
+    34673095.0, 
+    61000000.0, 
+    81703.0, 
+    182000000.0, 
+    378800000.0, 
+    7286310.0, 
+    4594452.0, 
+    132204.0, 
+    891000.0, 
+    515000.0, 
+    2600000.0, 
+    32300000.0, 
+    1650000.0, 
+    248000000.0, 
+    107700000.0, 
+    7200000.0, 
+    26900000.0, 
+    12327.0, 
+    43650785.0, 
+    13417292.0, 
+    10340263.0, 
+    31906454.0, 
+    919286.0, 
+    27400000.0, 
+    1400000.0, 
+    4200000.0, 
+    48000.0, 
+    2588429.0, 
+    19800000.0, 
+    66700000.0, 
+    25600000.0, 
+    17921.0, 
+    24651.0, 
+    1150000.0, 
+    103000000.0, 
+    1050000.0, 
+    2083193.0, 
+    48190704.0, 
+    12500000.0, 
+    19300000.0, 
+    7025496.0, 
+    39041505.0, 
+    10000000.0, 
+    1917000.0, 
+    1753979.0, 
+    2600000.0, 
+    24164.0, 
+    468762.0, 
+    2294823.0, 
+    100000000.0, 
+    14100000.0, 
+    5000000.0, 
+    3400000.0, 
+    3389700.0, 
+    11217610.0, 
+    11300000.0, 
+    8900000.0, 
+    684933.13, 
+    3000000.0, 
+    891000.0, 
+    1700000.0, 
+    2000000.0, 
+    17186.0, 
+    1200000.0, 
+    13400000.0, 
+    3300000.0, 
+    371111.0, 
+    8000000.0, 
+    102353.0, 
+    1500000.0, 
+    712446.0, 
+    23000000.0, 
+    428795.0, 
+    688009.0, 
+    215000.0
+  ]
+}

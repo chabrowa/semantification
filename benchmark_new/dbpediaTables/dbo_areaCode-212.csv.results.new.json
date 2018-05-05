@@ -1,0 +1,264 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaCode", 
+    "91261-XXX-XXXX", 
+    "718, 347,646", 
+    "+92 937"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "postalCode", 
+          0.2857
+        ], 
+        [
+          "numberOfEpisodes", 
+          0.2933
+        ], 
+        [
+          "number", 
+          0.3
+        ], 
+        [
+          "elevation", 
+          0.3239
+        ], 
+        [
+          "minimumElevation", 
+          0.3288
+        ]
+      ], 
+      "maj": [
+        [
+          "numberOfEpisodes", 
+          4.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "minimumElevation", 
+          1.0
+        ], 
+        [
+          "number", 
+          1.0
+        ], 
+        [
+          "postalCode", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          0.2805
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          0.2857
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          0.2857
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          0.2857
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          0.2933
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.3
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          0.3
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.3
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.3
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionSeason (numberOfEpisodes)", 
+          0.3102
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.3143
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.3143
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.3143
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.3239
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (elevation)", 
+          0.3288
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (elevation)", 
+          0.3288
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          0.3288
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.3288
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/TelevisionSeason (numberOfEpisodes)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "TelevisionShow[numberOfEpisodes]>(language|Cantonese)", 
+      0.2655
+    ], 
+    [
+      "Settlement[postalCode]>(country|Italy)>(province|Province_of_Rome)>(region|Latium)", 
+      0.2857
+    ], 
+    [
+      "TelevisionShow[numberOfEpisodes]>(language|Cantonese)>(format|Serial_(radio_and_television))", 
+      0.2905
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Goalkeeper_(association_football))>(birthPlace|Indonesia)", 
+      0.3
+    ], 
+    [
+      "TelevisionSeason[numberOfEpisodes]>(network|American_Broadcasting_Company)", 
+      0.3004
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Tr%C3%B8ndelag)>(isPartOf|S%C3%B8r-Tr%C3%B8ndelag)", 
+      0.3143
+    ], 
+    [
+      "TelevisionSeason[numberOfEpisodes]>(network|Fox_Broadcasting_Company)>(country|United_States)", 
+      0.3168
+    ], 
+    [
+      "Lighthouse[elevation]", 
+      0.3288
+    ], 
+    [
+      "Tower[elevation]", 
+      0.3288
+    ], 
+    [
+      "Location[minimumElevation]>(department|Pas-de-Calais)>(arrondissement|Arrondissement_of_Saint-Omer)", 
+      0.3288
+    ]
+  ], 
+  "values": [
+    20.0, 
+    22.0, 
+    20.0, 
+    1752.0, 
+    20.0, 
+    20.0, 
+    1229.0, 
+    20.0, 
+    20.0, 
+    612.0, 
+    20.0, 
+    117.0, 
+    20.0, 
+    20.0
+  ]
+}

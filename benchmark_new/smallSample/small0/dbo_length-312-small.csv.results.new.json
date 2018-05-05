@@ -1,0 +1,216 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/length"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "length", 
+          0.093
+        ], 
+        [
+          "populationTotal", 
+          0.1154
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          8.0
+        ], 
+        [
+          "length", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.093
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (length)", 
+          0.093
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (length)", 
+          0.0945
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          0.1141
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1143
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1143
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1145
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1235
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (length)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "PopulatedPlace[length]", 
+      0.0915
+    ], 
+    [
+      "Island[length]", 
+      0.0945
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|Washington_(state))>(type|City)", 
+      0.1029
+    ], 
+    [
+      "City[populationTotal]", 
+      0.1062
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|Washington_(state))", 
+      0.1098
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Spain)>(isPartOf|Province_of_Barcelona)>(type|Municipalities_of_Spain)", 
+      0.1138
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Eastern_European_Time)", 
+      0.1186
+    ], 
+    [
+      "City[populationTotal]>(timeZone|Iran_Standard_Time)>(isPartOf|Gilan_Province)", 
+      0.1228
+    ], 
+    [
+      "Location[populationTotal]>(country|Spain)>(isPartOf|Province_of_Barcelona)>(type|Municipalities_of_Spain)", 
+      0.1235
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|Michigan)", 
+      0.1259
+    ]
+  ], 
+  "values": [
+    8000.0, 
+    72000.0, 
+    4500.0, 
+    4000.0, 
+    33000.0, 
+    19000.0, 
+    1100.0, 
+    7500.0, 
+    5700.0, 
+    2000.0, 
+    4250.0, 
+    200.0, 
+    800.0, 
+    4100.0, 
+    1900.0, 
+    75000.0, 
+    200.0, 
+    4000.0, 
+    3500.0, 
+    600.0, 
+    8500.0, 
+    6000.0, 
+    78000.0, 
+    230.0, 
+    6500.0, 
+    17000.0, 
+    4400.0, 
+    6900.0, 
+    61000.0, 
+    7500.0, 
+    2000.0, 
+    88000.0, 
+    4000.0, 
+    59000.0, 
+    27000.0, 
+    3700.0, 
+    102000.0, 
+    31000.0, 
+    1400.0, 
+    3600.0, 
+    1300.0, 
+    80.0, 
+    64000.0, 
+    15000.0, 
+    1250000.0, 
+    27000.0, 
+    50000.0, 
+    14800.0, 
+    700.0, 
+    1500.0, 
+    47000.0, 
+    3000.0, 
+    9656.06, 
+    5800.0, 
+    100000.0, 
+    40000.0, 
+    1400.0, 
+    2896.82, 
+    2700.0, 
+    804.672, 
+    300.0, 
+    350.0, 
+    482.80300000000005, 
+    1900.0, 
+    4850.0, 
+    25000.0, 
+    9300.0, 
+    2700.0, 
+    11265.4, 
+    33000.0, 
+    15000.0, 
+    80000.0, 
+    63000.0
+  ]
+}

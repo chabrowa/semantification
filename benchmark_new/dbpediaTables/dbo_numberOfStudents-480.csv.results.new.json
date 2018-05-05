@@ -1,0 +1,205 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfStudents"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "width", 
+          0.1751
+        ], 
+        [
+          "populationTotal", 
+          0.1755
+        ], 
+        [
+          "areaCode", 
+          0.1762
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          6.0
+        ], 
+        [
+          "width", 
+          3.0
+        ], 
+        [
+          "areaCode", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (width)", 
+          0.1634
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1695
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1733
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          0.1762
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          0.1762
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaCode)", 
+          0.1762
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.1762
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1782
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1782
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (width)", 
+          0.1788
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (width)", 
+          0.181
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.181
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (width)", 
+          0.181
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          0.1868
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (width)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (width)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[width]>(location|Ontario)>(country|Canada)", 
+      0.1634
+    ], 
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(ceremonialCounty|East_Riding_of_Yorkshire)>(country|England)", 
+      0.1667
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(ceremonialCounty|East_Riding_of_Yorkshire)>(country|England)", 
+      0.1667
+    ], 
+    [
+      "Lake[width]>(location|Ontario)>(country|Canada)", 
+      0.1701
+    ], 
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(ceremonialCounty|East_Riding_of_Yorkshire)", 
+      0.1733
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(ceremonialCounty|East_Riding_of_Yorkshire)", 
+      0.1733
+    ], 
+    [
+      "Village[areaCode]", 
+      0.1762
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|Kentucky)>(isPartOf|Jefferson_County,_Kentucky)", 
+      0.1839
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|Kentucky)>(isPartOf|Jefferson_County,_Kentucky)>(type|List_of_cities_in_Kentucky)", 
+      0.1891
+    ], 
+    [
+      "Lake[width]>(location|Ontario)", 
+      0.192
+    ]
+  ], 
+  "values": [
+    600.0, 
+    33481.0, 
+    2060.0, 
+    450.0, 
+    240.0, 
+    300.0
+  ]
+}

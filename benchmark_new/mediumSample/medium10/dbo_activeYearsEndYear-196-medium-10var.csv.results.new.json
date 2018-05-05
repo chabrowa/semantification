@@ -1,0 +1,185 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/activeYearsEndYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.2584
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2574
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2575
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.2579
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2587
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (elevation)", 
+          0.2653
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.2653
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (elevation)", 
+          0.2653
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          19.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          16.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.2552
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.2552
+    ], 
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)", 
+      0.2558
+    ], 
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)", 
+      0.2586
+    ], 
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)", 
+      0.2586
+    ], 
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)>(country|United_States)", 
+      0.2586
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)", 
+      0.2586
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)>(country|United_States)", 
+      0.2586
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)", 
+      0.2591
+    ], 
+    [
+      "Lake[elevation]>(country|Switzerland)>(type|Reservoir)", 
+      0.2653
+    ]
+  ], 
+  "values": [
+    1836.0, 
+    2194.0, 
+    1851.0, 
+    1949.0, 
+    2141.0, 
+    1926.0, 
+    78.0, 
+    75.0, 
+    1811.0, 
+    28.0, 
+    1826.0, 
+    2137.0, 
+    2023.0, 
+    56.0, 
+    1878.0, 
+    1851.0, 
+    80.0, 
+    2092.0, 
+    1937.0, 
+    1864.0, 
+    1808.0, 
+    2005.0, 
+    1884.0, 
+    1858.0, 
+    1935.0, 
+    76.0, 
+    2166.0, 
+    1813.0, 
+    2152.0, 
+    2035.0, 
+    2128.0, 
+    2016.0, 
+    68.0, 
+    2052.0, 
+    80.0, 
+    2029.0, 
+    2166.0, 
+    2035.0, 
+    2007.0, 
+    1888.0, 
+    2194.0, 
+    62.0, 
+    2157.0, 
+    1923.0, 
+    2160.0, 
+    87.0, 
+    2074.0, 
+    108.0, 
+    2001.0, 
+    1849.0, 
+    87.0, 
+    89.0, 
+    7.0, 
+    1817.0, 
+    1776.0, 
+    1960.0, 
+    86.0, 
+    2098.0
+  ]
+}

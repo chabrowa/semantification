@@ -1,0 +1,220 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/height"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "height", 
+          0.1347
+        ]
+      ], 
+      "maj": [
+        [
+          "height", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Model (height)", 
+          0.1056
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsManager (height)", 
+          0.1221
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerManager (height)", 
+          0.1236
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (height)", 
+          0.1347
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (height)", 
+          0.1347
+        ], 
+        [
+          "http://dbpedia.org/ontology/BeautyQueen (height)", 
+          0.1594
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wrestler (height)", 
+          0.1612
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (height)", 
+          0.168
+        ], 
+        [
+          "http://dbpedia.org/ontology/IceHockeyPlayer (height)", 
+          0.1714
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (height)", 
+          0.1715
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/SoccerManager (height)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (height)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (height)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/IceHockeyPlayer (height)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsManager (height)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (height)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Model (height)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BeautyQueen (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wrestler (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (height)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Model[height]", 
+      0.0732
+    ], 
+    [
+      "SoccerManager[height]>(position|Midfielder)>(birthPlace|England)", 
+      0.0954
+    ], 
+    [
+      "SoccerManager[height]>(position|Midfielder)", 
+      0.106
+    ], 
+    [
+      "Model[height]>(birthPlace|United_States)", 
+      0.1217
+    ], 
+    [
+      "SoccerManager[height]>(position|Midfielder)>(birthPlace|Scotland)", 
+      0.1234
+    ], 
+    [
+      "BeautyQueen[height]>(birthPlace|Venezuela)", 
+      0.1594
+    ], 
+    [
+      "Wrestler[height]>(birthPlace|Japan)", 
+      0.1612
+    ], 
+    [
+      "SoccerManager[height]>(position|Midfielder)>(team|Inter_Milan)", 
+      0.1637
+    ], 
+    [
+      "IceHockeyPlayer[height]>(deathPlace|Canada)>(deathPlace|Quebec)>(birthPlace|Canada)", 
+      0.1712
+    ], 
+    [
+      "IceHockeyPlayer[height]>(deathPlace|Canada)>(deathPlace|Quebec)", 
+      0.1717
+    ]
+  ], 
+  "values": [
+    1.8796, 
+    1.7272, 
+    1.8, 
+    1.85, 
+    1.778, 
+    1.524, 
+    1.778, 
+    1.8034, 
+    1.5748, 
+    1.778, 
+    1.778, 
+    1.7526, 
+    1.8034, 
+    1.8034, 
+    1.524, 
+    1.7526, 
+    1.87, 
+    1.524, 
+    1.74, 
+    1.7526, 
+    1.8288, 
+    1.78, 
+    1.7, 
+    1.778, 
+    1.87, 
+    0.0, 
+    1.651, 
+    1.73, 
+    1.8, 
+    1.8288, 
+    1.79, 
+    1.7526, 
+    1.6256, 
+    1.8796, 
+    1.7653, 
+    1.8288, 
+    1.56, 
+    1.83, 
+    1.75, 
+    1.7018, 
+    1.7526, 
+    1.78, 
+    1.7526, 
+    1.524, 
+    1.77, 
+    1.524, 
+    1.77, 
+    1.75, 
+    1.68, 
+    1.524, 
+    1.79, 
+    1.74, 
+    1.7018, 
+    1.8034, 
+    1.8, 
+    1.7526, 
+    1.778, 
+    1.7907, 
+    1.8288, 
+    1.8034, 
+    1.78, 
+    1.55, 
+    1.651, 
+    1.8288, 
+    1.8288, 
+    1.7018, 
+    1.7018, 
+    1.8034, 
+    1.77
+  ]
+}

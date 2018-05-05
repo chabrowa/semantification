@@ -1,0 +1,213 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/squadNumber"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfEpisodes", 
+          0.1773
+        ], 
+        [
+          "elevation", 
+          0.1775
+        ], 
+        [
+          "number", 
+          0.2029
+        ], 
+        [
+          "squadNumber", 
+          0.2066
+        ]
+      ], 
+      "maj": [
+        [
+          "numberOfEpisodes", 
+          4.0
+        ], 
+        [
+          "squadNumber", 
+          3.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ], 
+        [
+          "number", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          0.1773
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1775
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1775
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1803
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionSeason (numberOfEpisodes)", 
+          0.1846
+        ], 
+        [
+          "http://dbpedia.org/ontology/NationalCollegiateAthleticAssociationAthlete (number)", 
+          0.2029
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.2029
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.2029
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.2029
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (squadNumber)", 
+          0.2066
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (squadNumber)", 
+          0.2066
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeamMember (squadNumber)", 
+          0.2066
+        ], 
+        [
+          "http://dbpedia.org/ontology/OrganisationMember (squadNumber)", 
+          0.2066
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/TelevisionSeason (numberOfEpisodes)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (squadNumber)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (squadNumber)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/OrganisationMember (squadNumber)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NationalCollegiateAthleticAssociationAthlete (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeamMember (squadNumber)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "TelevisionSeason[numberOfEpisodes]", 
+      0.1332
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Rendsburg-Eckernf%C3%B6rde)", 
+      0.158
+    ], 
+    [
+      "TelevisionSeason[numberOfEpisodes]>(network|American_Broadcasting_Company)>(country|United_States)", 
+      0.1805
+    ], 
+    [
+      "TelevisionSeason[numberOfEpisodes]>(network|NBC)>(country|United_States)", 
+      0.1956
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Schleswig-Flensburg)>(federalState|Schleswig-Holstein)", 
+      0.1971
+    ], 
+    [
+      "TelevisionSeason[numberOfEpisodes]>(network|American_Broadcasting_Company)", 
+      0.1999
+    ], 
+    [
+      "NationalCollegiateAthleticAssociationAthlete[number]", 
+      0.2029
+    ], 
+    [
+      "Person[squadNumber]", 
+      0.2066
+    ], 
+    [
+      "SportsTeamMember[squadNumber]", 
+      0.2066
+    ], 
+    [
+      "OrganisationMember[squadNumber]", 
+      0.2066
+    ]
+  ], 
+  "values": [
+    23.0, 
+    19.0, 
+    4.0, 
+    26.0, 
+    24.0, 
+    25.0, 
+    24.0, 
+    22.0, 
+    10.0, 
+    18.0, 
+    38.0, 
+    7.0, 
+    32.0, 
+    10.0
+  ]
+}

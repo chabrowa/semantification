@@ -1,0 +1,315 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/width"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "width", 
+          0.0815
+        ], 
+        [
+          "populationDensity", 
+          0.1006
+        ], 
+        [
+          "elevation", 
+          0.1061
+        ], 
+        [
+          "populationTotal", 
+          0.1065
+        ]
+      ], 
+      "maj": [
+        [
+          "width", 
+          4.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ], 
+        [
+          "populationTotal", 
+          2.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Bridge (width)", 
+          0.0635
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          0.0764
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          0.0795
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          0.0815
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.0815
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1003
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.1009
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1009
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1009
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1009
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1061
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1061
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1065
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1065
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1065
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1065
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1073
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Bridge[width]", 
+      0.0635
+    ], 
+    [
+      "Infrastructure[width]", 
+      0.0857
+    ], 
+    [
+      "ArchitecturalStructure[width]", 
+      0.0873
+    ], 
+    [
+      "RouteOfTransportation[width]", 
+      0.0893
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|New_York)>(isPartOf|Suffolk_County,_New_York)", 
+      0.0982
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Maine)>(type|New_England_town)", 
+      0.1003
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Maine)", 
+      0.1009
+    ], 
+    [
+      "Location[populationTotal]>(country|Poland)>(type|Human_settlement)", 
+      0.1065
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Poland)>(type|Human_settlement)", 
+      0.1065
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|New_York)>(isPartOf|Suffolk_County,_New_York)>(country|United_States)", 
+      0.1141
+    ]
+  ], 
+  "values": [
+    7.394506710127704, 
+    7.513189957153957, 
+    25.533813943216213, 
+    17.848261698914083, 
+    1.5095215062628162, 
+    5.889648606274077, 
+    6.829869042523064, 
+    12.00924477684045, 
+    11.191243899198323, 
+    19.505545558267045, 
+    11.568014972225486, 
+    23.719699311573066, 
+    8.915532476731872, 
+    47.47068902295267, 
+    31.90072076533978, 
+    21780.952101475323, 
+    20.86130778353333, 
+    3.2908825760460996, 
+    6.721179697950835, 
+    17.792766285894672, 
+    10.513484286020374, 
+    30.873732312972372, 
+    36.91210598453102, 
+    54.62693378108751, 
+    21.87326438401079, 
+    11.907666435890206, 
+    39.640830236279065, 
+    51.95803613771588, 
+    17.89419414180433, 
+    23.262329140146193, 
+    5.869315365026085, 
+    137364.59584252525, 
+    8.06931443435285, 
+    4.665698567690657, 
+    29.895189482853706, 
+    10.429589128770717, 
+    9.786299554693494, 
+    20.299158652431707, 
+    17.549427495882217, 
+    11.793473635096786, 
+    38.47268951393571, 
+    5.962761712113576, 
+    36.035127106540656, 
+    46514.48328977246, 
+    6.673874343687885, 
+    6.679848547316622, 
+    4.690487182568617, 
+    60.29412775954994, 
+    15.21044673930227, 
+    38.51896832396947, 
+    6.516178968354033, 
+    20.399225149860737, 
+    33.951612939925745, 
+    10.063040847394944, 
+    22.383933853058174, 
+    6.185748787412105, 
+    32.9525469057544, 
+    4.267401039405002, 
+    7.818829907477288, 
+    19.86398720624704, 
+    7.615473192022903, 
+    15.446084204627816, 
+    19.211378114366177, 
+    19.753378334552046, 
+    47.47057317231308, 
+    16.960261189319066, 
+    3.655475576369673, 
+    3.7374470484035016, 
+    7.734017739361769, 
+    20.760648550310602, 
+    13.531166080112985, 
+    22.985995120794012, 
+    8.00766682389292, 
+    5.054618763336686, 
+    26132.379661063547, 
+    39.4607336647618, 
+    22506.07839868506, 
+    4.4259877887241545, 
+    4.1500532599791535, 
+    31.94654451818287, 
+    2.178346670378074, 
+    11.328611591805249, 
+    10.675066519554846, 
+    20.98800329382867
+  ]
+}

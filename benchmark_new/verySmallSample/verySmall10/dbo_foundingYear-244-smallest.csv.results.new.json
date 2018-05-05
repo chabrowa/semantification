@@ -1,0 +1,246 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/foundingYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "foundingYear", 
+          0.255
+        ], 
+        [
+          "serviceEndYear", 
+          0.3103
+        ], 
+        [
+          "openingYear", 
+          0.3115
+        ]
+      ], 
+      "maj": [
+        [
+          "foundingYear", 
+          4.0
+        ], 
+        [
+          "openingYear", 
+          4.0
+        ], 
+        [
+          "serviceEndYear", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (foundingYear)", 
+          0.1983
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (foundingYear)", 
+          0.1983
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (foundingYear)", 
+          0.1983
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (foundingYear)", 
+          0.1983
+        ], 
+        [
+          "http://dbpedia.org/ontology/Congressman (serviceEndYear)", 
+          0.3014
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceEndYear)", 
+          0.3014
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          0.3097
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          0.3103
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          0.3103
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          0.3114
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          0.3114
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.3115
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.3115
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.3115
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          0.3117
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.3117
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.3117
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryPerson (serviceEndYear)", 
+          0.3192
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryPerson (serviceEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Congressman (serviceEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceEndYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "AdministrativeRegion[foundingYear]", 
+      0.1983
+    ], 
+    [
+      "Region[foundingYear]", 
+      0.1983
+    ], 
+    [
+      "Congressman[serviceEndYear]>(country|United_States)", 
+      0.3014
+    ], 
+    [
+      "School[foundingYear]>(type|Independent_school_(United_Kingdom))>(religion|Church_of_England)>(country|England)", 
+      0.3056
+    ], 
+    [
+      "Station[openingYear]>(country|Germany)>(location|Bavaria)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3107
+    ], 
+    [
+      "Location[openingYear]>(location|Germany)>(location|Bavaria)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3107
+    ], 
+    [
+      "Station[openingYear]>(country|Germany)>(location|Bavaria)", 
+      0.3123
+    ], 
+    [
+      "Location[openingYear]>(location|Germany)>(location|Bavaria)", 
+      0.3123
+    ], 
+    [
+      "School[foundingYear]>(type|Independent_school_(United_Kingdom))", 
+      0.3179
+    ], 
+    [
+      "MilitaryPerson[serviceEndYear]>(battle|Mexican%E2%80%93American_War)", 
+      0.3192
+    ]
+  ], 
+  "values": [
+    1863.0, 
+    1861.0, 
+    1865.0, 
+    1910.0, 
+    1806.0, 
+    1855.0, 
+    1924.0, 
+    1839.0, 
+    1931.0, 
+    1790.0, 
+    1873.0, 
+    1820.0, 
+    1853.0, 
+    1774.0, 
+    1776.0
+  ]
+}

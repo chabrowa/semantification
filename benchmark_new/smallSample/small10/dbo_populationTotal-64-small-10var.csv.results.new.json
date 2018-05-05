@@ -1,0 +1,230 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.2014
+        ], 
+        [
+          "gross", 
+          0.2326
+        ], 
+        [
+          "populationTotal", 
+          0.2568
+        ], 
+        [
+          "budget", 
+          0.2654
+        ]
+      ], 
+      "maj": [
+        [
+          "budget", 
+          3.0
+        ], 
+        [
+          "areaTotal", 
+          3.0
+        ], 
+        [
+          "gross", 
+          3.0
+        ], 
+        [
+          "populationTotal", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (areaTotal)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.2014
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.2043
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (areaTotal)", 
+          0.2043
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (gross)", 
+          0.2326
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (gross)", 
+          0.2326
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (gross)", 
+          0.2326
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2568
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2568
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (populationTotal)", 
+          0.2568
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (budget)", 
+          0.2654
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (budget)", 
+          0.2654
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (budget)", 
+          0.2654
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Lake (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (gross)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (budget)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (gross)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (gross)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (budget)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Lake[areaTotal]>(country|New_Zealand)", 
+      0.2
+    ], 
+    [
+      "Lake[areaTotal]>(country|New_Zealand)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2
+    ], 
+    [
+      "Island[areaTotal]", 
+      0.2043
+    ], 
+    [
+      "Film[gross]", 
+      0.2326
+    ], 
+    [
+      "Wikidata:Q11424[gross]", 
+      0.2326
+    ], 
+    [
+      "Work[gross]", 
+      0.2326
+    ], 
+    [
+      "Country[populationTotal]>(governmentType|Unitary_state)", 
+      0.2568
+    ], 
+    [
+      "Film[budget]", 
+      0.2654
+    ], 
+    [
+      "Wikidata:Q11424[budget]", 
+      0.2654
+    ], 
+    [
+      "Work[budget]", 
+      0.2654
+    ]
+  ], 
+  "values": [
+    3267.0, 
+    147073.0, 
+    17403689.0, 
+    7347916.0, 
+    1516321377.0, 
+    195061910.0, 
+    46255783.0, 
+    46654007.0, 
+    23660153.0, 
+    7369977.0, 
+    188079.0, 
+    591.0, 
+    6.0, 
+    8697814.0, 
+    307752831.0
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/serviceEndYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "serviceStartYear", 
+          0.1652
+        ], 
+        [
+          "serviceEndYear", 
+          0.1654
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.1774
+        ], 
+        [
+          "foundingYear", 
+          0.1893
+        ]
+      ], 
+      "maj": [
+        [
+          "serviceEndYear", 
+          7.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          1.0
+        ], 
+        [
+          "foundingYear", 
+          1.0
+        ], 
+        [
+          "serviceStartYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Congressman (serviceEndYear)", 
+          0.1022
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceEndYear)", 
+          0.1473
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          0.1615
+        ], 
+        [
+          "http://dbpedia.org/ontology/Governor (serviceEndYear)", 
+          0.1638
+        ], 
+        [
+          "http://dbpedia.org/ontology/Congressman (serviceStartYear)", 
+          0.1652
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceStartYear)", 
+          0.1652
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceStartYear)", 
+          0.1652
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceStartYear)", 
+          0.1652
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          0.1654
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsEndYear)", 
+          0.1774
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryUnit (activeYearsEndYear)", 
+          0.1774
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.1774
+        ], 
+        [
+          "http://dbpedia.org/ontology/Senator (serviceEndYear)", 
+          0.1805
+        ], 
+        [
+          "http://dbpedia.org/ontology/LawFirm (foundingYear)", 
+          0.1893
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          0.1893
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.1893
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.1893
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryPerson (serviceEndYear)", 
+          0.1912
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceEndYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/LawFirm (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Congressman (serviceStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Congressman (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Governor (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryUnit (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryPerson (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Senator (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Congressman[serviceEndYear]", 
+      0.1022
+    ], 
+    [
+      "Politician[serviceEndYear]", 
+      0.1426
+    ], 
+    [
+      "Governor[serviceEndYear]", 
+      0.1638
+    ], 
+    [
+      "Congressman[serviceStartYear]", 
+      0.1652
+    ], 
+    [
+      "MilitaryUnit[activeYearsEndYear]", 
+      0.1774
+    ], 
+    [
+      "Senator[serviceEndYear]", 
+      0.1805
+    ], 
+    [
+      "Person[serviceEndYear]", 
+      0.1888
+    ], 
+    [
+      "Agent[serviceEndYear]", 
+      0.1888
+    ], 
+    [
+      "LawFirm[foundingYear]>(type|Limited_liability_partnership)", 
+      0.1893
+    ], 
+    [
+      "MilitaryPerson[serviceEndYear]", 
+      0.1912
+    ]
+  ], 
+  "values": [
+    1864.0, 
+    1848.0, 
+    1971.0, 
+    1945.0, 
+    1918.0, 
+    1783.0, 
+    1946.0, 
+    1865.0, 
+    1945.0, 
+    1835.0, 
+    1965.0, 
+    1862.0, 
+    1945.0, 
+    1959.0, 
+    1919.0, 
+    1946.0, 
+    1960.0, 
+    1865.0, 
+    1945.0, 
+    1976.0, 
+    1918.0, 
+    1863.0, 
+    1782.0, 
+    1946.0, 
+    1865.0, 
+    1863.0, 
+    1815.0, 
+    1971.0, 
+    1865.0, 
+    1945.0, 
+    1963.0, 
+    1978.0, 
+    1919.0, 
+    1782.0, 
+    4.0, 
+    1947.0, 
+    1946.0, 
+    1945.0, 
+    1861.0, 
+    1976.0, 
+    1954.0, 
+    1970.0
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/activeYearsEndYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "activeYearsEndYear", 
+          0.2759
+        ], 
+        [
+          "populationTotal", 
+          0.2991
+        ], 
+        [
+          "deathYear", 
+          0.2993
+        ], 
+        [
+          "foundingYear", 
+          0.2997
+        ], 
+        [
+          "width", 
+          0.3013
+        ]
+      ], 
+      "maj": [
+        [
+          "foundingYear", 
+          4.0
+        ], 
+        [
+          "deathYear", 
+          2.0
+        ], 
+        [
+          "populationTotal", 
+          2.0
+        ], 
+        [
+          "width", 
+          1.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.2759
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (activeYearsEndYear)", 
+          0.2759
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.2759
+        ], 
+        [
+          "http://dbpedia.org/ontology/RugbyPlayer (activeYearsEndYear)", 
+          0.2759
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          0.2974
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (foundingYear)", 
+          0.2983
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2991
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.2991
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2991
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (foundingYear)", 
+          0.2992
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          0.2993
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          0.2993
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (foundingYear)", 
+          0.2995
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (foundingYear)", 
+          0.3001
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.3009
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (width)", 
+          0.3013
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (foundingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RugbyPlayer (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "RugbyPlayer[activeYearsEndYear]", 
+      0.2759
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|Idaho)>(timeZone|Mountain_Time_Zone)>(country|United_States)", 
+      0.2974
+    ], 
+    [
+      "Country[foundingYear]", 
+      0.2983
+    ], 
+    [
+      "Agent[deathYear]", 
+      0.2993
+    ], 
+    [
+      "Person[deathYear]", 
+      0.2993
+    ], 
+    [
+      "Place[foundingYear]", 
+      0.3001
+    ], 
+    [
+      "Location[foundingYear]", 
+      0.3001
+    ], 
+    [
+      "PopulatedPlace[foundingYear]", 
+      0.3001
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|East_Azerbaijan_Province)>(isPartOf|Tabriz_County)>(isPartOf|Central_District_(Tabriz_County))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3009
+    ], 
+    [
+      "Location[width]", 
+      0.3013
+    ]
+  ], 
+  "values": [
+    89.0, 
+    1897.0, 
+    81.0, 
+    103.0, 
+    73.0, 
+    1876.0, 
+    1959.0, 
+    1905.0, 
+    2161.0, 
+    2068.0, 
+    96.0, 
+    1809.0, 
+    1810.0, 
+    84.0, 
+    2049.0, 
+    1826.0, 
+    30.0, 
+    2020.0, 
+    1810.0, 
+    11.0, 
+    92.0, 
+    2.0, 
+    24.0, 
+    2156.0, 
+    1896.0, 
+    2112.0, 
+    2135.0, 
+    1994.0, 
+    2132.0
+  ]
+}

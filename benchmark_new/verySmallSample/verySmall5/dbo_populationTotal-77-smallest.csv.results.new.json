@@ -1,0 +1,315 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfStudents", 
+          0.0723
+        ], 
+        [
+          "length", 
+          0.0726
+        ], 
+        [
+          "width", 
+          0.0731
+        ], 
+        [
+          "populationTotal", 
+          0.0896
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          4.0
+        ], 
+        [
+          "width", 
+          3.0
+        ], 
+        [
+          "numberOfStudents", 
+          2.0
+        ], 
+        [
+          "length", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.0723
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.0723
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.0723
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.0726
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          0.0726
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          0.0726
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (length)", 
+          0.0726
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (width)", 
+          0.0731
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.0731
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (width)", 
+          0.0732
+        ], 
+        [
+          "http://dbpedia.org/ontology/University (numberOfStudents)", 
+          0.0762
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.0867
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0906
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0906
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.0906
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/University (numberOfStudents)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (width)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (width)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (length)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "University[numberOfStudents]", 
+      0.0646
+    ], 
+    [
+      "Island[width]", 
+      0.0695
+    ], 
+    [
+      "Lake[length]", 
+      0.0726
+    ], 
+    [
+      "PopulatedPlace[width]", 
+      0.0746
+    ], 
+    [
+      "Island[width]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.075
+    ], 
+    [
+      "University[numberOfStudents]>(country|India)>(type|Public_university)", 
+      0.08
+    ], 
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(country|Hertfordshire)", 
+      0.0867
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|Hertfordshire)", 
+      0.0867
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Eastern_Time_Zone)>(isPartOf|Georgia_(U.S._state))", 
+      0.0906
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Spain)>(isPartOf|Andalusia)", 
+      0.0944
+    ]
+  ], 
+  "values": [
+    400.0, 
+    4125.0, 
+    3839.0, 
+    15415.0, 
+    2876.0, 
+    17460.0, 
+    49.0, 
+    6279.0, 
+    403.0, 
+    695.0, 
+    55817.0, 
+    588.0, 
+    1250.0, 
+    5814.0, 
+    5607.0, 
+    12962.0, 
+    6455.0, 
+    1558.0, 
+    2755.0, 
+    11021.0, 
+    5.0, 
+    3866.0, 
+    14684.0, 
+    422.0, 
+    110348.0, 
+    28145.0, 
+    36148.0, 
+    718.0, 
+    167.0, 
+    51389.0, 
+    2333.0, 
+    1193.0, 
+    2478.0, 
+    10404.0, 
+    21388.0, 
+    93.0, 
+    11715.0, 
+    2078.0, 
+    16960.0, 
+    10585.0, 
+    140.0, 
+    327.0, 
+    18380.0, 
+    5114.0, 
+    4945.0, 
+    213.0, 
+    1185.0, 
+    10429.0, 
+    245.0, 
+    6397.0, 
+    50804.0, 
+    5257.0, 
+    1553.0, 
+    93681.0, 
+    15391.0, 
+    113.0, 
+    9783.0, 
+    6702.0, 
+    1112.0, 
+    2630.0, 
+    212.0, 
+    2181.0, 
+    1758.0, 
+    20612.0, 
+    438.0, 
+    1785.0, 
+    33816.0, 
+    2034.0, 
+    4249.0, 
+    4420.0, 
+    19330.0, 
+    1816.0, 
+    136.0, 
+    26697.0, 
+    9222.0, 
+    1297.0, 
+    65791.0, 
+    40240.0, 
+    40034.0, 
+    1649.0, 
+    4877.0, 
+    2142.0, 
+    3015.0, 
+    1293.0, 
+    128.0, 
+    3233.0, 
+    96007.0, 
+    182.0, 
+    502.0, 
+    241654.0, 
+    693.0, 
+    1086.0, 
+    8906.0, 
+    7834.0, 
+    7127.0, 
+    6196.0, 
+    2628.0, 
+    217.0, 
+    613.0, 
+    19488.0
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/weight"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "weight", 
+          0.2039
+        ], 
+        [
+          "populationTotal", 
+          0.2722
+        ], 
+        [
+          "postalCode", 
+          0.2727
+        ]
+      ], 
+      "maj": [
+        [
+          "weight", 
+          8.0
+        ], 
+        [
+          "postalCode", 
+          1.0
+        ], 
+        [
+          "populationTotal", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Artist (weight)", 
+          0.1648
+        ], 
+        [
+          "http://dbpedia.org/ontology/Actor (weight)", 
+          0.1676
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdultActor (weight)", 
+          0.1792
+        ], 
+        [
+          "http://dbpedia.org/ontology/Model (weight)", 
+          0.1892
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (weight)", 
+          0.2039
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (weight)", 
+          0.2039
+        ], 
+        [
+          "http://dbpedia.org/ontology/Gymnast (weight)", 
+          0.225
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (weight)", 
+          0.2611
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2722
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          0.2722
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.2722
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2722
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          0.2727
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          0.2727
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (postalCode)", 
+          0.2727
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          0.2727
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmateurBoxer (weight)", 
+          0.2787
+        ], 
+        [
+          "http://dbpedia.org/ontology/Boxer (weight)", 
+          0.2791
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Person (weight)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (weight)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (weight)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Actor (weight)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (weight)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdultActor (weight)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Boxer (weight)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmateurBoxer (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Model (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Gymnast (weight)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Actor[weight]", 
+      0.1561
+    ], 
+    [
+      "Artist[weight]", 
+      0.1561
+    ], 
+    [
+      "AdultActor[weight]", 
+      0.1561
+    ], 
+    [
+      "Model[weight]", 
+      0.1892
+    ], 
+    [
+      "AdultActor[weight]>(birthPlace|United_States)", 
+      0.1907
+    ], 
+    [
+      "Gymnast[weight]", 
+      0.225
+    ], 
+    [
+      "City[populationTotal]>(type|Cities_of_Japan)>(country|Japan)", 
+      0.2722
+    ], 
+    [
+      "City[postalCode]", 
+      0.2727
+    ], 
+    [
+      "AmateurBoxer[weight]", 
+      0.2787
+    ], 
+    [
+      "Boxer[weight]", 
+      0.2796
+    ]
+  ], 
+  "values": [
+    45724.64366634508, 
+    61703.9282749118, 
+    84621.69732940066, 
+    46860.05825523912, 
+    61557.337890377865, 
+    109548.90025051941, 
+    49798.17777697812, 
+    46965.001864642094, 
+    56969.336337656365, 
+    49576.67107235117, 
+    67390.01124553253, 
+    71983.07592747663, 
+    49674.12247801756, 
+    50930.5978833305, 
+    89449.81542918691, 
+    57130.73887847372, 
+    56262.88059333517, 
+    45054.200320885684, 
+    62277.38073224982, 
+    60857.824062571955, 
+    50478.03306262217, 
+    50204.04910446984, 
+    58713.35934216664, 
+    58528.75391372813, 
+    46592.349878022476, 
+    59742.33372447541, 
+    41406.56249824098, 
+    73367.50636093579, 
+    47282.695952662594, 
+    48734.91297515457, 
+    80422.75028942614, 
+    45233.47723731491, 
+    77714.14739471086, 
+    40191.88435483199, 
+    55686.35969608388, 
+    54415.20023615149, 
+    122489.11682490382, 
+    85073.99593318808, 
+    61531.3778917572, 
+    38747.12314238667, 
+    49265.47311032777, 
+    47979.45353101428, 
+    87825.86182073242, 
+    49112.56184354631, 
+    44339.83205423482, 
+    44733.06189290328, 
+    52401.62505798321, 
+    44610.4701415905, 
+    94733.23937399314, 
+    57356.16579967458, 
+    52320.07598695325, 
+    55756.10881041802, 
+    86881.53041728803, 
+    62188.1780137896, 
+    53291.42318591747, 
+    48787.48239678056, 
+    106720.31158423939, 
+    70552.1758021825, 
+    41086.70642755, 
+    51058.20270926046, 
+    56315.91607952943, 
+    51663.06483223342
+  ]
+}

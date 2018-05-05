@@ -1,0 +1,258 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.0665
+        ], 
+        [
+          "budget", 
+          0.2175
+        ], 
+        [
+          "area", 
+          0.3205
+        ]
+      ], 
+      "maj": [
+        [
+          "area", 
+          7.0
+        ], 
+        [
+          "budget", 
+          2.0
+        ], 
+        [
+          "areaTotal", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.0665
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.0665
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (areaTotal)", 
+          0.0665
+        ], 
+        [
+          "http://dbpedia.org/ontology/GovernmentAgency (budget)", 
+          0.2065
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (budget)", 
+          0.2175
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (budget)", 
+          0.2175
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (area)", 
+          0.3186
+        ], 
+        [
+          "http://dbpedia.org/ontology/Diocese (area)", 
+          0.3209
+        ], 
+        [
+          "http://dbpedia.org/ontology/ClericalAdministrativeRegion (area)", 
+          0.3213
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (area)", 
+          0.3213
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          0.3213
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (area)", 
+          0.3213
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          0.3213
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Diocese (area)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (area)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ClericalAdministrativeRegion (area)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (area)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (area)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/GovernmentAgency (budget)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (areaTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Country[areaTotal]", 
+      0.0665
+    ], 
+    [
+      "GovernmentAgency[budget]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1844
+    ], 
+    [
+      "GovernmentAgency[budget]", 
+      0.2506
+    ], 
+    [
+      "Location[area]>(jurisdiction|Diocese)>(country|China)", 
+      0.3134
+    ], 
+    [
+      "Diocese[area]>(country|China)>(jurisdiction|Diocese)", 
+      0.3134
+    ], 
+    [
+      "Diocese[area]>(country|China)", 
+      0.3139
+    ], 
+    [
+      "Diocese[area]>(country|United_States)", 
+      0.3225
+    ], 
+    [
+      "Location[area]>(jurisdiction|Diocese)>(country|United_States)", 
+      0.3237
+    ], 
+    [
+      "Diocese[area]>(country|United_States)>(jurisdiction|Diocese)", 
+      0.3237
+    ], 
+    [
+      "Diocese[area]>(country|Brazil)", 
+      0.3331
+    ]
+  ], 
+  "values": [
+    35438506618.6083, 
+    65356140256.305855, 
+    10762405615.245636, 
+    2753956434.5290265, 
+    346356960.4694231, 
+    151546364.45972818, 
+    22373892974.58584, 
+    266389408.93176404, 
+    270785464460.39523, 
+    644937684880.4379, 
+    2073540.272349771, 
+    1964342.3874888578, 
+    333047145560.9357, 
+    81664780223.31516, 
+    180103303461.0049, 
+    291698413927.0168, 
+    58570784951.53673, 
+    7578382.965792058, 
+    55597843644.14444, 
+    26864094658.213306, 
+    81410065.2953489, 
+    368346200318.9921, 
+    1261948617808.5862, 
+    446938641.1111171, 
+    137975092973.60724, 
+    89585433701.30624, 
+    6015823256442.18, 
+    398.44923364448096, 
+    355613272131.28766, 
+    519294131930.6746, 
+    11784491424.388952, 
+    45824074.18666152, 
+    58707138.1649621, 
+    379863985133.9961, 
+    29749575171.88972, 
+    690786623.9609685, 
+    17686703797.80852, 
+    83768525490.66534, 
+    1872638172889.0325, 
+    227583205628.68497, 
+    489555351827.53503, 
+    348647715.51506007, 
+    15923529.60664903, 
+    46508879820.04434, 
+    4131085528800.213, 
+    81436440.59376127, 
+    3313803111.8965087, 
+    43080965383.11333, 
+    28852756414092.78, 
+    3838861859.1060476, 
+    153397858984.72125, 
+    30793090718.383717, 
+    203537069250.17926, 
+    178809362341.54956, 
+    10434737677.354216, 
+    44605440551.93912, 
+    485589023305.70953, 
+    19491355334.455547, 
+    4181235607.7237873, 
+    413378846.9614478, 
+    31095063443522.426, 
+    3270629460910.2363, 
+    152593888.66993183, 
+    164116517.27501228, 
+    149004057053.58466, 
+    337819616201.3931, 
+    239855.19454358023
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/activeYearsEndYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "openingYear", 
+          0.4126
+        ], 
+        [
+          "numberOfStudents", 
+          0.4167
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          9.0
+        ], 
+        [
+          "numberOfStudents", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          0.3898
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          0.3898
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (openingYear)", 
+          0.3898
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          0.4004
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.4142
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.4143
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (openingYear)", 
+          0.4152
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.4155
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.4155
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.4167
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.4167
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.4167
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          0.4167
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          0.4174
+        ], 
+        [
+          "http://dbpedia.org/ontology/RoadJunction (openingYear)", 
+          0.4189
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tunnel (openingYear)", 
+          0.4237
+        ], 
+        [
+          "http://dbpedia.org/ontology/RoadTunnel (openingYear)", 
+          0.4237
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RoadJunction (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tunnel (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RoadTunnel (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "PublicTransitSystem[openingYear]>(type|Rapid_transit)", 
+      0.3898
+    ], 
+    [
+      "RailwayLine[openingYear]>(type|Light_rail)", 
+      0.3954
+    ], 
+    [
+      "RailwayLine[openingYear]", 
+      0.4102
+    ], 
+    [
+      "Dam[openingYear]", 
+      0.4152
+    ], 
+    [
+      "School[numberOfStudents]>(state|Florida)>(type|State_school)", 
+      0.4167
+    ], 
+    [
+      "RailwayTunnel[openingYear]", 
+      0.4174
+    ], 
+    [
+      "RoadJunction[openingYear]", 
+      0.4189
+    ], 
+    [
+      "RouteOfTransportation[openingYear]", 
+      0.4192
+    ], 
+    [
+      "RoadTunnel[openingYear]", 
+      0.4237
+    ], 
+    [
+      "Tunnel[openingYear]", 
+      0.4237
+    ]
+  ], 
+  "values": [
+    1890.0, 
+    2093.0, 
+    2030.0, 
+    1942.0, 
+    1935.0, 
+    1905.0, 
+    2086.0, 
+    2000.0, 
+    1987.0, 
+    2064.0, 
+    2039.0, 
+    2027.0, 
+    2090.0, 
+    2054.0, 
+    2002.0, 
+    1949.0, 
+    1922.0, 
+    1941.0, 
+    2099.0, 
+    2099.0, 
+    1883.0, 
+    2029.0, 
+    1980.0, 
+    1959.0, 
+    1959.0, 
+    2049.0, 
+    2067.0, 
+    2062.0, 
+    1929.0, 
+    1922.0, 
+    2051.0, 
+    1968.0, 
+    2084.0, 
+    2055.0, 
+    2081.0, 
+    1886.0, 
+    1959.0, 
+    1988.0, 
+    1891.0, 
+    2020.0, 
+    2088.0, 
+    1904.0, 
+    1981.0, 
+    2007.0, 
+    2066.0, 
+    1947.0, 
+    2024.0, 
+    1913.0, 
+    1969.0, 
+    2015.0, 
+    1980.0, 
+    2018.0, 
+    1956.0, 
+    1873.0, 
+    2105.0, 
+    1914.0, 
+    1985.0, 
+    1919.0, 
+    2086.0
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/height"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "height", 
+          0.104
+        ]
+      ], 
+      "maj": [
+        [
+          "height", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Agent (height)", 
+          0.104
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (height)", 
+          0.1048
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (height)", 
+          0.1059
+        ], 
+        [
+          "http://dbpedia.org/ontology/TennisPlayer (height)", 
+          0.107
+        ], 
+        [
+          "http://dbpedia.org/ontology/Swimmer (height)", 
+          0.1073
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cyclist (height)", 
+          0.1105
+        ], 
+        [
+          "http://dbpedia.org/ontology/MartialArtist (height)", 
+          0.1178
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Agent (height)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (height)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (height)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Swimmer (height)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TennisPlayer (height)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cyclist (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MartialArtist (height)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Athlete[height]", 
+      0.0793
+    ], 
+    [
+      "Person[height]", 
+      0.0967
+    ], 
+    [
+      "Agent[height]", 
+      0.0967
+    ], 
+    [
+      "Swimmer[height]>(nationality|Brazil)>(birthPlace|Brazil)", 
+      0.1015
+    ], 
+    [
+      "Swimmer[height]>(nationality|Brazil)", 
+      0.1035
+    ], 
+    [
+      "TennisPlayer[height]>(birthPlace|United_States)>(country|United_States)", 
+      0.1058
+    ], 
+    [
+      "TennisPlayer[height]>(birthPlace|United_States)", 
+      0.1089
+    ], 
+    [
+      "Cyclist[height]>(birthPlace|Netherlands)", 
+      0.1105
+    ], 
+    [
+      "MartialArtist[height]>(birthPlace|Soviet_Union)", 
+      0.1178
+    ], 
+    [
+      "Swimmer[height]>(birthPlace|Australia)", 
+      0.1197
+    ]
+  ], 
+  "values": [
+    1.78, 
+    1.8288, 
+    1.905, 
+    1.6764, 
+    1.76, 
+    1.88, 
+    1.85, 
+    1.6256, 
+    1.97, 
+    1.82, 
+    1.9304, 
+    1.72, 
+    1.88, 
+    1.75, 
+    1.8288, 
+    1.905, 
+    1.3208, 
+    1.85, 
+    1.524, 
+    1.7018, 
+    1.8542, 
+    1.8796, 
+    1.524, 
+    1.9304, 
+    1.9304, 
+    1.78, 
+    1.8034, 
+    1.778, 
+    1.8542, 
+    1.8034, 
+    1.8288, 
+    1.78
+  ]
+}

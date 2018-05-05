@@ -1,0 +1,280 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/width"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "width", 
+          0.2996
+        ], 
+        [
+          "populationDensity", 
+          0.3757
+        ], 
+        [
+          "shipBeam", 
+          0.4404
+        ], 
+        [
+          "height", 
+          0.4445
+        ]
+      ], 
+      "maj": [
+        [
+          "width", 
+          4.0
+        ], 
+        [
+          "populationDensity", 
+          3.0
+        ], 
+        [
+          "height", 
+          2.0
+        ], 
+        [
+          "shipBeam", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (width)", 
+          0.2196
+        ], 
+        [
+          "http://dbpedia.org/ontology/Locomotive (width)", 
+          0.242
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.359
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.359
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (width)", 
+          0.3797
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (width)", 
+          0.3797
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.3841
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.3841
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.4091
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.4091
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          0.4404
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          0.4404
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (height)", 
+          0.4445
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (height)", 
+          0.4445
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Locomotive (width)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (width)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Locomotive[width]", 
+      0.1522
+    ], 
+    [
+      "Locomotive[width]>(powerType|Diesel-electric_transmission)", 
+      0.2869
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Soria)", 
+      0.359
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Soria)", 
+      0.359
+    ], 
+    [
+      "Device[width]", 
+      0.3797
+    ], 
+    [
+      "Weapon[width]", 
+      0.3797
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Nebraska)", 
+      0.4091
+    ], 
+    [
+      "Ship[shipBeam]>(type|Patrol_boat)>(builder|Massachusetts)", 
+      0.4404
+    ], 
+    [
+      "Device[height]", 
+      0.4445
+    ], 
+    [
+      "Weapon[height]", 
+      0.4445
+    ]
+  ], 
+  "values": [
+    2.535837330468812, 
+    2.9780210279016868, 
+    2.4422146372743283, 
+    2.971049598435264, 
+    2.933590179426423, 
+    3.126197348556865, 
+    2.9746393510377453, 
+    2.3576903664116253, 
+    3.0240597523556563, 
+    2.7959377330910327, 
+    2.502960561766207, 
+    2.6084691898370114, 
+    2.7047513808124664, 
+    4.29176824525838, 
+    3.2161830978713626, 
+    2.9057257833302006, 
+    3.199098751931459, 
+    2.499447631723224, 
+    3.095256767126188, 
+    2.8198949712935497, 
+    3.185115975397113, 
+    3.264930310934944, 
+    3.132789628292301, 
+    2.0833937958475395, 
+    3.2469251762063966, 
+    2.6551970648065852, 
+    3.072162735165439, 
+    2.750528823897882, 
+    2.767428237381581, 
+    2.478263201398511, 
+    3.183050892424098, 
+    2.341905240668313, 
+    3.026560612098189, 
+    2.3277087081176555, 
+    2.9952734887191657, 
+    2.3359039797311243, 
+    2.556728198863204, 
+    2.514783530479782, 
+    2.8985833759672395, 
+    3.414324730430354, 
+    2.410512976716428, 
+    2.8595400621965386, 
+    2.6560285321193704, 
+    3.03693060345116, 
+    2.657670248741958, 
+    3.120905306963407, 
+    2.7435630177909, 
+    2.829804917332347, 
+    3.1094311810140383, 
+    3.116209325023889, 
+    3.1920568467935255, 
+    2.327536276788096, 
+    3.125237946972452, 
+    2.7031891643337764, 
+    3.5110780110046376, 
+    2.971869481688852, 
+    2.924336945156777, 
+    2.957914327865357, 
+    3.08992231426995, 
+    3.0659193979929498, 
+    2.666610129569875, 
+    2.5338378942665036, 
+    3.024015485325898, 
+    3.16391344401074, 
+    2.957432785286456, 
+    2.762773259472568, 
+    3.019333749474797, 
+    2.792422686342329, 
+    2.8072738524498533, 
+    2.7831603083909005, 
+    3.2261970457271256, 
+    2.5426010965211834, 
+    2.801584451285404
+  ]
+}

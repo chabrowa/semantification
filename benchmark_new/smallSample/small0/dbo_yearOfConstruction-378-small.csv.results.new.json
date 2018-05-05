@@ -1,0 +1,267 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/yearOfConstruction"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "serviceEndYear", 
+          0.2186
+        ], 
+        [
+          "deathYear", 
+          0.2262
+        ], 
+        [
+          "openingYear", 
+          0.2296
+        ], 
+        [
+          "foundingYear", 
+          0.2535
+        ]
+      ], 
+      "maj": [
+        [
+          "serviceEndYear", 
+          3.0
+        ], 
+        [
+          "openingYear", 
+          3.0
+        ], 
+        [
+          "deathYear", 
+          2.0
+        ], 
+        [
+          "foundingYear", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/MilitaryPerson (serviceEndYear)", 
+          0.2009
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          0.2186
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          0.2186
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          0.2255
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.2255
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.2255
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.2255
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (deathYear)", 
+          0.2262
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          0.2262
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          0.2262
+        ], 
+        [
+          "http://dbpedia.org/ontology/Saint (deathYear)", 
+          0.2275
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          0.2377
+        ], 
+        [
+          "http://dbpedia.org/ontology/RugbyClub (foundingYear)", 
+          0.2436
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (foundingYear)", 
+          0.2436
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.2535
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.2535
+        ], 
+        [
+          "http://dbpedia.org/ontology/OfficeHolder (serviceEndYear)", 
+          0.2539
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          0.2634
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          0.2634
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Saint (deathYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryPerson (serviceEndYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (deathYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RugbyClub (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/OfficeHolder (serviceEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (foundingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "MilitaryPerson[serviceEndYear]>(battle|Philippine%E2%80%93American_War)", 
+      0.1958
+    ], 
+    [
+      "MilitaryPerson[serviceEndYear]>(battle|Second_Boer_War)", 
+      0.206
+    ], 
+    [
+      "Station[openingYear]>(country|Japan)>(operatedBy|Nankai_Electric_Railway)", 
+      0.2134
+    ], 
+    [
+      "Saint[deathYear]>(beatifiedBy|Pope_John_Paul_II)", 
+      0.2196
+    ], 
+    [
+      "Saint[deathYear]>(beatifiedBy|Pope_John_Paul_II)>(veneratedIn|Catholic_Church)", 
+      0.2328
+    ], 
+    [
+      "Station[openingYear]>(country|Japan)>(servingRailwayLine|%C5%8Cu_Main_Line)", 
+      0.2377
+    ], 
+    [
+      "Location[openingYear]>(operatedBy|East_Japan_Railway_Company)>(servingRailwayLine|%C5%8Cu_Main_Line)", 
+      0.2377
+    ], 
+    [
+      "RugbyClub[foundingYear]>(location|England)", 
+      0.2436
+    ], 
+    [
+      "OfficeHolder[serviceEndYear]>(battle|World_War_I)", 
+      0.2539
+    ], 
+    [
+      "School[foundingYear]>(type|Single-sex_education)", 
+      0.2634
+    ]
+  ], 
+  "values": [
+    1917.0, 
+    1931.0, 
+    1914.0, 
+    1925.0, 
+    1919.0, 
+    28.0, 
+    1937.0, 
+    1885.0, 
+    1835.0, 
+    1924.0, 
+    1924.0, 
+    1899.0, 
+    1915.0, 
+    1925.0, 
+    1928.0, 
+    1954.0, 
+    1888.0, 
+    1858.0, 
+    1901.0, 
+    1925.0
+  ]
+}

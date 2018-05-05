@@ -1,0 +1,219 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/weight"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "weight", 
+          0.0814
+        ], 
+        [
+          "populationTotal", 
+          0.0838
+        ], 
+        [
+          "populationDensity", 
+          0.0925
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          7.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ], 
+        [
+          "weight", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/InformationAppliance (weight)", 
+          0.0814
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (weight)", 
+          0.0814
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.0816
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.085
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0851
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0851
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.0925
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.0925
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.0925
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.0925
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/InformationAppliance (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (weight)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationTotal]>(country|France)>(department|Moselle)", 
+      0.0739
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(department|Moselle)", 
+      0.0739
+    ], 
+    [
+      "InformationAppliance[weight]", 
+      0.0814
+    ], 
+    [
+      "Location[populationTotal]>(country|France)", 
+      0.0862
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(department|Puy-de-D%C3%B4me)", 
+      0.0864
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(department|Puy-de-D%C3%B4me)", 
+      0.0864
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)", 
+      0.0865
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|New_York)>(type|Census-designated_place)>(country|United_States)", 
+      0.0925
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|New_York)>(type|Census-designated_place)>(country|United_States)", 
+      0.0925
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Germany)>(district|Steinburg)", 
+      0.0936
+    ]
+  ], 
+  "values": [
+    374.5253547210559, 
+    642.6625325522139, 
+    499.8177781054753, 
+    99.31994799787354, 
+    168.7198856801522, 
+    17696.947157747185, 
+    601.9136889265519, 
+    386.4204985837747, 
+    1831.062474310948, 
+    5307.244818651375, 
+    399.1934880847189, 
+    284.97085208597383, 
+    318.66167310142305, 
+    392.8446125162716, 
+    637.7025737564245, 
+    205.81592346860873, 
+    90.11101199819541, 
+    8278.55845504822, 
+    566.0332146867219, 
+    744.7201059806665, 
+    1196.417122266987, 
+    368.43732999924566, 
+    65.011831633699, 
+    113.37679297998022, 
+    631.0904345387438, 
+    549.9532164019051, 
+    404.726021726193, 
+    371.7583590997075, 
+    227.7932579084315, 
+    354.34377069361517, 
+    462.31394289469006, 
+    6840.3160619415685, 
+    688.3120354962198, 
+    2.9503656388638184, 
+    160.90829002941663, 
+    418.1470969876606, 
+    1009.3438725255502, 
+    11.689381971897053, 
+    111.57263878601627, 
+    10953.919159147692, 
+    7305.784453337485, 
+    54.93437146135885, 
+    2001.5924104986282, 
+    308.759966234577, 
+    1160.4583874826865, 
+    236.01098933091038, 
+    175.87435119031454, 
+    14.447691369577106, 
+    167.57254671630164, 
+    1429.5329750575324, 
+    508.8859725731365, 
+    1368.601231548467
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationDensity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.1247
+        ], 
+        [
+          "height", 
+          0.1301
+        ], 
+        [
+          "minimumElevation", 
+          0.1464
+        ], 
+        [
+          "numberOfEmployees", 
+          0.1466
+        ], 
+        [
+          "populationDensity", 
+          0.1542
+        ]
+      ], 
+      "maj": [
+        [
+          "minimumElevation", 
+          4.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ], 
+        [
+          "height", 
+          1.0
+        ], 
+        [
+          "numberOfEmployees", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1236
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1258
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1258
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1258
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.1301
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          0.1301
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.1301
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (height)", 
+          0.1301
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.1464
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1464
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          0.1466
+        ], 
+        [
+          "http://dbpedia.org/ontology/Non-ProfitOrganisation (numberOfEmployees)", 
+          0.1466
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          0.1466
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.1475
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.1475
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.1542
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1542
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1542
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1542
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Non-ProfitOrganisation (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Contra_Costa_County,_California)>(timeZone|Pacific_Time_Zone)", 
+      0.1236
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(federalState|Lower_Saxony)", 
+      0.1258
+    ], 
+    [
+      "RouteOfTransportation[height]", 
+      0.1301
+    ], 
+    [
+      "Location[minimumElevation]>(department|Calvados)", 
+      0.1409
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Calvados)", 
+      0.1409
+    ], 
+    [
+      "Non-ProfitOrganisation[numberOfEmployees]", 
+      0.1466
+    ], 
+    [
+      "Location[minimumElevation]>(department|Manche)>(arrondissement|Arrondissement_of_Avranches)", 
+      0.1519
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Manche)>(arrondissement|Arrondissement_of_Avranches)", 
+      0.1519
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|New_York)>(type|Administrative_divisions_of_New_York)>(country|United_States)", 
+      0.1542
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|New_York)>(type|Administrative_divisions_of_New_York)>(country|United_States)>(timeZone|Eastern_Time_Zone)", 
+      0.1542
+    ]
+  ], 
+  "values": [
+    24.950752592728982, 
+    56.597291475756684, 
+    36.61398303130426, 
+    17.797967022944576, 
+    7.004941479138002, 
+    82.90387347463059, 
+    24.708516858716283, 
+    826.7756001318221, 
+    0.844547779061248, 
+    112.28383277766201, 
+    26.14960263021534, 
+    0.7454678797277292, 
+    35.83014200971508, 
+    14.153946341546987, 
+    77.43728339403653, 
+    143.0618663951434, 
+    1.3619492204975594, 
+    158.4345016863821, 
+    79.9628933742423, 
+    7.887638016206837, 
+    6.761988523162388, 
+    83.83456582056091, 
+    12.546248664169106, 
+    257.5660496355591, 
+    134.30089456573577, 
+    13.080488634393873, 
+    7.612048804767675, 
+    78.69215242161209, 
+    6.4858176187814784, 
+    48.10875446924494, 
+    5.245964567532187, 
+    39.09915361376459, 
+    85.64572709509721, 
+    4.23750434305966, 
+    135.84634574751945
+  ]
+}

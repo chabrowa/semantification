@@ -1,0 +1,276 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/minimumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.1204
+        ], 
+        [
+          "minimumElevation", 
+          0.1555
+        ], 
+        [
+          "numberOfEmployees", 
+          0.2438
+        ], 
+        [
+          "elevation", 
+          0.2549
+        ]
+      ], 
+      "maj": [
+        [
+          "minimumElevation", 
+          7.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ], 
+        [
+          "numberOfEmployees", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1204
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1204
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          0.1204
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1204
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (minimumElevation)", 
+          0.1237
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (minimumElevation)", 
+          0.1464
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (minimumElevation)", 
+          0.1525
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.1552
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1552
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.1574
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.1639
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (minimumElevation)", 
+          0.184
+        ], 
+        [
+          "http://dbpedia.org/ontology/Non-ProfitOrganisation (numberOfEmployees)", 
+          0.2438
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          0.2438
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          0.2438
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2549
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2549
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2549
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Non-ProfitOrganisation (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[populationDensity]>(type|Types_of_municipalities_in_Quebec)", 
+      0.1204
+    ], 
+    [
+      "Town[minimumElevation]", 
+      0.1237
+    ], 
+    [
+      "AdministrativeRegion[minimumElevation]", 
+      0.1404
+    ], 
+    [
+      "Region[minimumElevation]", 
+      0.1404
+    ], 
+    [
+      "Location[minimumElevation]>(country|Greece)", 
+      0.1574
+    ], 
+    [
+      "AdministrativeRegion[minimumElevation]>(country|Greece)", 
+      0.1586
+    ], 
+    [
+      "City[minimumElevation]", 
+      0.184
+    ], 
+    [
+      "City[minimumElevation]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.184
+    ], 
+    [
+      "Non-ProfitOrganisation[numberOfEmployees]", 
+      0.2438
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(federalState|Lower_Saxony)", 
+      0.2549
+    ]
+  ], 
+  "values": [
+    128.9992635303115, 
+    686.5608323561219, 
+    6.943285685331674, 
+    0.0, 
+    447.7207127901786, 
+    20.30285423172766, 
+    0.0, 
+    183.5969465491546, 
+    864.3055962657771, 
+    32.52570959429089, 
+    0.0, 
+    90.7141764139467, 
+    520.7455384169581, 
+    0.0, 
+    39.497409669985, 
+    6.804749098873733, 
+    726.9451773692292, 
+    109.20717645579998, 
+    0.0, 
+    353.4213465369723, 
+    341.9002898585189, 
+    19.167730046451865, 
+    0.0, 
+    222.37131006805708, 
+    0.0, 
+    90.36706078919708, 
+    51.213135128126545, 
+    0.0, 
+    4.4053521362404275, 
+    2.189928839188655, 
+    0.0, 
+    407.85682061210144, 
+    9.160005886050246, 
+    0.0, 
+    1589.5117728584528, 
+    2.1159698393263207, 
+    108.05582221189132
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/minimumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "minimumElevation", 
+          0.1567
+        ], 
+        [
+          "areaWater", 
+          0.2749
+        ]
+      ], 
+      "maj": [
+        [
+          "minimumElevation", 
+          7.0
+        ], 
+        [
+          "areaWater", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Town (minimumElevation)", 
+          0.1212
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (minimumElevation)", 
+          0.1532
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.1553
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1553
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.1574
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (minimumElevation)", 
+          0.1602
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.1648
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (minimumElevation)", 
+          0.1756
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          0.2734
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.2736
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.2756
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.2756
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.2756
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.2778
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (minimumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Town[minimumElevation]", 
+      0.1212
+    ], 
+    [
+      "AdministrativeRegion[minimumElevation]", 
+      0.1462
+    ], 
+    [
+      "Region[minimumElevation]", 
+      0.1462
+    ], 
+    [
+      "Location[minimumElevation]>(country|Greece)", 
+      0.1648
+    ], 
+    [
+      "AdministrativeRegion[minimumElevation]>(country|Greece)", 
+      0.1672
+    ], 
+    [
+      "City[minimumElevation]", 
+      0.1756
+    ], 
+    [
+      "City[minimumElevation]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1756
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Alabama)", 
+      0.2734
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Kentucky)", 
+      0.2736
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Kentucky)", 
+      0.2778
+    ]
+  ], 
+  "values": [
+    0.0, 
+    0.0, 
+    0.0, 
+    228.0791405031606, 
+    19.266996671124872, 
+    0.0, 
+    0.0, 
+    524.4541832305999, 
+    0.0, 
+    0.0, 
+    6.94686832254802, 
+    747.2960975760792, 
+    0.0, 
+    812.9326898887581, 
+    62.905757067076365, 
+    105.97663407494512, 
+    594.4958306847037, 
+    0.0, 
+    453.24554430262106, 
+    227.87764919217966, 
+    54.51858804969165, 
+    0.0, 
+    728.7663850278608, 
+    0.0
+  ]
+}

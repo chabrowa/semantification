@@ -1,0 +1,267 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/elevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.0688
+        ], 
+        [
+          "populationTotal", 
+          0.0749
+        ], 
+        [
+          "elevation", 
+          0.0771
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          5.0
+        ], 
+        [
+          "elevation", 
+          4.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.0688
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.0745
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0747
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.0747
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0747
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.0755
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.0767
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.0768
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.077
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.0776
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationDensity]>(isPartOf|Texas)", 
+      0.0688
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|West_Azerbaijan_Province)>(isPartOf|Showt_County)", 
+      0.0724
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Fars_Province)>(isPartOf|Eqlid_County)", 
+      0.0731
+    ], 
+    [
+      "Location[populationTotal]>(country|Poland)>(type|Village)", 
+      0.0755
+    ], 
+    [
+      "Settlement[elevation]>(country|Italy)", 
+      0.0759
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Central_District_(Qaleh_Ganj_County))", 
+      0.0759
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Mazandaran_Province)", 
+      0.0774
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(region|Provence-Alpes-C%C3%B4te_d'Azur)", 
+      0.0775
+    ], 
+    [
+      "Place[elevation]", 
+      0.0776
+    ], 
+    [
+      "Location[elevation]", 
+      0.0776
+    ]
+  ], 
+  "values": [
+    174.90313060244222, 
+    406.5847234315438, 
+    3379.7053751688923, 
+    102.96736063985367, 
+    10.67042131941357, 
+    386.61056564807916, 
+    437.2081138858302, 
+    4.954863330899091, 
+    404.9230197353577, 
+    80.00783339732303, 
+    319.4342506076477, 
+    68.83503364242748, 
+    690.793336332614, 
+    325.2433637467677, 
+    234.7915904282783, 
+    436.7345917147127, 
+    94.72302116525077, 
+    287.9677127128049, 
+    19.146620804649427, 
+    239.41239830944167, 
+    120.34093775977244, 
+    3888.135486546424, 
+    351.571471357009, 
+    2040.8271723369553, 
+    375.42194326751076, 
+    518.3662754521422, 
+    216.40711483339112, 
+    4.733788937871683, 
+    453.0427465216053, 
+    189.71736544876234, 
+    110.32464643399561, 
+    682.5151603072794, 
+    1048.570145777643, 
+    574.4202358886628, 
+    110.76895932743157, 
+    241.65150751453822, 
+    304.9036516914668, 
+    81.44759211128165, 
+    12.113135013712697, 
+    216.02454869050365, 
+    395.7308304394799, 
+    328.3071965360812, 
+    352.93118383843074, 
+    566.7584118371717, 
+    17.261288369756233, 
+    280.90731421625105, 
+    348.2909701612236, 
+    171.02579299404582, 
+    830.6479307659174, 
+    482.66074472281593, 
+    10.455714907280873, 
+    656.3438600735377, 
+    20.07690618552741, 
+    87.30177613807861, 
+    44.42376335738369, 
+    650.5077607965382, 
+    454.44708243186494, 
+    241.32926047679825, 
+    116.83564056339362, 
+    27.543579496558817, 
+    176.62244767082362, 
+    344.5627017050646, 
+    616.861204378613, 
+    176.56082489755914, 
+    531.4140613155683, 
+    122.81757697126642, 
+    146.0312594082477, 
+    109.83669079788022, 
+    237.4161720105625, 
+    54.37418888384787, 
+    346.0496457046795, 
+    210.4468885185829, 
+    1171.828485317646, 
+    193.5232927672161, 
+    1.023513158416849, 
+    1725.580744627026, 
+    926.02503137455, 
+    383.81335572215403, 
+    2408.886444414583, 
+    23.825470799883746, 
+    39.67450683933263, 
+    912.1380049171236, 
+    701.2703050567504, 
+    1238.0985770960042, 
+    315.21764230948645, 
+    287.54538093822384, 
+    923.0208931818246, 
+    1123.0031856961064, 
+    365.9085818898678, 
+    176.1592269141875, 
+    216.5888814842255, 
+    388.44925577816144, 
+    66.0214815614725, 
+    3817.1386347700463, 
+    179.84526533173724, 
+    495.95891406386403, 
+    334.992384106457, 
+    41.81192145408447, 
+    841.552562209941, 
+    121.9590253437126
+  ]
+}

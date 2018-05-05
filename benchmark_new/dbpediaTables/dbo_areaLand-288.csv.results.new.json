@@ -1,0 +1,162 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaLand"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.3824
+        ], 
+        [
+          "areaLand", 
+          0.3988
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          8.0
+        ], 
+        [
+          "areaLand", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.3795
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.3818
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.3827
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.3827
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.3933
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaLand)", 
+          0.3977
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.3977
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.3977
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.3977
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          0.4
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaTotal]>(country|Poland)>(type|Gmina)>(isPartOf|Pomeranian_Voivodeship)", 
+      0.3333
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Poland)>(type|Gmina)>(isPartOf|Pomeranian_Voivodeship)", 
+      0.3333
+    ], 
+    [
+      "City[areaTotal]>(timeZone|Japan_Standard_Time)", 
+      0.3742
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Spain)>(isPartOf|Galicia_(Spain))>(timeZone|Central_European_Time)", 
+      0.3968
+    ], 
+    [
+      "Town[areaLand]>(country|Canada)", 
+      0.3977
+    ], 
+    [
+      "Location[areaLand]>(country|Canada)>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Outaouais)", 
+      0.4
+    ], 
+    [
+      "Location[areaTotal]>(country|Poland)>(type|Gmina)>(isPartOf|Kuyavian-Pomeranian_Voivodeship)", 
+      0.403
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Poland)>(type|Gmina)>(isPartOf|Kuyavian-Pomeranian_Voivodeship)", 
+      0.403
+    ], 
+    [
+      "City[areaTotal]>(timeZone|Japan_Standard_Time)>(type|Cities_of_Japan)", 
+      0.406
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Galicia_(Spain))>(timeZone|Central_European_Time)", 
+      0.4091
+    ]
+  ], 
+  "values": [
+    303800000.0, 
+    114348000.0, 
+    114350000.0
+  ]
+}

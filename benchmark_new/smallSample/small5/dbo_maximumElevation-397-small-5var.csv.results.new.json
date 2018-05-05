@@ -1,0 +1,209 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/maximumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.1232
+        ], 
+        [
+          "numberOfStudents", 
+          0.1464
+        ], 
+        [
+          "length", 
+          0.1544
+        ], 
+        [
+          "populationTotal", 
+          0.1623
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          5.0
+        ], 
+        [
+          "numberOfStudents", 
+          3.0
+        ], 
+        [
+          "length", 
+          1.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.1232
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1232
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          0.1429
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.1464
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.1464
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.1464
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          0.1544
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1623
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1623
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1623
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1629
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          19.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "School[numberOfStudents]>(state|Texas)>(22-rdf-syntax-ns#type|_Feature)>(type|State_school)", 
+      0.119
+    ], 
+    [
+      "NaturalPlace[elevation]", 
+      0.1232
+    ], 
+    [
+      "School[numberOfStudents]>(state|California)", 
+      0.1507
+    ], 
+    [
+      "Village[populationTotal]>(timeZone|Central_European_Time)>(isPartOf|Vojvodina)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1533
+    ], 
+    [
+      "Location[length]>(22-rdf-syntax-ns#type|_Feature)>(country|Germany)", 
+      0.1544
+    ], 
+    [
+      "Village[populationTotal]>(timeZone|Central_European_Time)>(isPartOf|Vojvodina)", 
+      0.156
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|East_Azerbaijan_Province)>(isPartOf|Tabriz_County)", 
+      0.1615
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|East_Azerbaijan_Province)>(isPartOf|Tabriz_County)>(isPartOf|Central_District_(Tabriz_County))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1674
+    ], 
+    [
+      "School[numberOfStudents]>(state|Texas)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1694
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|East_Azerbaijan_Province)>(isPartOf|Tabriz_County)>(isPartOf|Central_District_(Tabriz_County))", 
+      0.1731
+    ]
+  ], 
+  "values": [
+    2320.6428085283806, 
+    1049.5330798594396, 
+    644.2756020893404, 
+    130.4708593999163, 
+    1946.184578983688, 
+    90.17205625092599, 
+    2751.732397163336, 
+    575.2961859393918, 
+    1695.7882528686982, 
+    80.68256295535251, 
+    3360.6282093696645, 
+    807.2768174070163, 
+    531.542815738795, 
+    404.10130222913403, 
+    2245.0537618784765, 
+    3226.268465861992, 
+    3677.0653297871813, 
+    2166.7060189226877, 
+    2526.9741597380025, 
+    127.1467676512211, 
+    590.0415793419746, 
+    2026.1344056518506, 
+    621.6411200901607, 
+    3706.3601007008733, 
+    2410.602276490359, 
+    2424.347450944846
+  ]
+}

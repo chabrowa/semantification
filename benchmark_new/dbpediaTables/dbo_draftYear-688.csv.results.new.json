@@ -1,0 +1,145 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/draftYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "year", 
+          0.2562
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.2701
+        ]
+      ], 
+      "maj": [
+        [
+          "year", 
+          9.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/FootballLeagueSeason (year)", 
+          0.2562
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsSeason (year)", 
+          0.2562
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeamSeason (year)", 
+          0.2562
+        ], 
+        [
+          "http://dbpedia.org/ontology/NationalFootballLeagueSeason (year)", 
+          0.2562
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.2701
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalArtist (activeYearsStartYear)", 
+          0.2701
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (activeYearsStartYear)", 
+          0.2701
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          0.2701
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/NationalFootballLeagueSeason (year)", 
+          18.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/FootballLeagueSeason (year)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsSeason (year)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeamSeason (year)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalArtist (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "NationalFootballLeagueSeason[year]>(team|New_York_Jets)", 
+      0.2407
+    ], 
+    [
+      "NationalFootballLeagueSeason[year]>(team|Oakland_Raiders)", 
+      0.2545
+    ], 
+    [
+      "NationalFootballLeagueSeason[year]>(team|San_Diego_Chargers)", 
+      0.2545
+    ], 
+    [
+      "NationalFootballLeagueSeason[year]>(team|Buffalo_Bills)", 
+      0.2545
+    ], 
+    [
+      "NationalFootballLeagueSeason[year]>(team|Minnesota_Vikings)", 
+      0.2547
+    ], 
+    [
+      "NationalFootballLeagueSeason[year]>(team|Kansas_City_Chiefs)", 
+      0.2593
+    ], 
+    [
+      "NationalFootballLeagueSeason[year]>(team|Denver_Broncos)", 
+      0.2593
+    ], 
+    [
+      "NationalFootballLeagueSeason[year]>(team|New_England_Patriots)", 
+      0.2593
+    ], 
+    [
+      "NationalFootballLeagueSeason[year]>(team|Dallas_Cowboys)", 
+      0.2692
+    ], 
+    [
+      "MusicalArtist[activeYearsStartYear]", 
+      0.2701
+    ]
+  ], 
+  "values": [
+    1973.0, 
+    2000.0
+  ]
+}

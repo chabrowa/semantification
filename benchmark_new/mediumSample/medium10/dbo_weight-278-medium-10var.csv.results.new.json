@@ -1,0 +1,191 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/weight"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "weight", 
+          0.1242
+        ], 
+        [
+          "areaTotal", 
+          0.1288
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          9.0
+        ], 
+        [
+          "weight", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.1216
+        ], 
+        [
+          "http://dbpedia.org/ontology/Train (weight)", 
+          0.1242
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (weight)", 
+          0.1242
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.1279
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.129
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.129
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.1549
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          19.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Train (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (weight)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Teruel)", 
+      0.1105
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Spain)>(isPartOf|Province_of_Teruel)", 
+      0.1105
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(region|Umbria)>(province|Province_of_Perugia)", 
+      0.1119
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_C%C3%A1ceres)", 
+      0.1215
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Spain)>(isPartOf|Province_of_C%C3%A1ceres)", 
+      0.1215
+    ], 
+    [
+      "Train[weight]", 
+      0.1242
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Seville)", 
+      0.1302
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(region|Umbria)", 
+      0.1458
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(region|Tuscany)", 
+      0.1529
+    ], 
+    [
+      "City[areaTotal]>(timeZone|Central_European_Time)", 
+      0.1549
+    ]
+  ], 
+  "values": [
+    44915166.285341926, 
+    416198095.2936419, 
+    125049235.61389947, 
+    157795563.46842623, 
+    35401655.472092114, 
+    62105861.58351718, 
+    376562756.4678448, 
+    33937679.93962024, 
+    75445766.76961571, 
+    96204272.64590707, 
+    91432250.54745728, 
+    7337178.200404899, 
+    474307064.9377685, 
+    13040640.367633302, 
+    75626432.93881315, 
+    45016069.46724671, 
+    178262229.60418874, 
+    206487933.1423039, 
+    50198992.16295419, 
+    39261378.16024695, 
+    140231388.54364154, 
+    10172805.003702343, 
+    49655304.01111093, 
+    4569690.587169784, 
+    22362371.01066083, 
+    20297814.74572854, 
+    39549300.51032469, 
+    118231489.26888955, 
+    36895022.39288489, 
+    181564904.8020393, 
+    40025896.16693681, 
+    43593059.35135385, 
+    64032747.04418703, 
+    68769202.50719102, 
+    43347907.344875194, 
+    545405756.6836483, 
+    154581893.71540597, 
+    31202942.743383966, 
+    38787193.45012435, 
+    18312743.6274537, 
+    41375590.30473226, 
+    35351905.7360557, 
+    109568507.37783903, 
+    319666755.54392165, 
+    255583803.67313075, 
+    37682371.29096505, 
+    48285759.455687396, 
+    16515730.013056632, 
+    171693241.01334664, 
+    164170810.72003043, 
+    397023660.9494491, 
+    24361629.371943325, 
+    32995737.959795114, 
+    52747714.176794514, 
+    108457267.15511735, 
+    218216116.23630202
+  ]
+}

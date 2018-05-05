@@ -1,0 +1,192 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/oclc"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.5012
+        ], 
+        [
+          "areaLand", 
+          0.5031
+        ], 
+        [
+          "gross", 
+          0.5054
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          7.0
+        ], 
+        [
+          "gross", 
+          2.0
+        ], 
+        [
+          "areaLand", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.501
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.5012
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.5014
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.5015
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.5031
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.5031
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.5031
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          0.5031
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (gross)", 
+          0.5054
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (gross)", 
+          0.5054
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (gross)", 
+          0.5054
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (gross)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (gross)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (gross)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaTotal]>(type|Census-designated_place)>(isPartOf|Ohio)>(isPartOf|Hamilton_County,_Ohio)", 
+      0.5
+    ], 
+    [
+      "Settlement[areaTotal]>(isPartOf|Indiana)", 
+      0.5
+    ], 
+    [
+      "Settlement[areaTotal]>(isPartOf|Indiana)>(22-rdf-syntax-ns#type|_Feature)>(country|United_States)", 
+      0.5
+    ], 
+    [
+      "Settlement[areaTotal]>(region|Lombardy)>(province|Province_of_Como)", 
+      0.5
+    ], 
+    [
+      "BodyOfWater[areaTotal]>(type|Trophic_state_index)", 
+      0.5
+    ], 
+    [
+      "City[areaLand]", 
+      0.5031
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(province|Province_of_Como)", 
+      0.5034
+    ], 
+    [
+      "Settlement[areaTotal]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)>(country|United_States)", 
+      0.5048
+    ], 
+    [
+      "Film[gross]", 
+      0.5054
+    ], 
+    [
+      "Wikidata:Q11424[gross]", 
+      0.5054
+    ]
+  ], 
+  "values": [
+    5866486.0
+  ]
+}

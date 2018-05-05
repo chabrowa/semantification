@@ -1,0 +1,257 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/activeYearsEndYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.2562
+        ], 
+        [
+          "postalCode", 
+          0.2586
+        ], 
+        [
+          "areaCode", 
+          0.2586
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          5.0
+        ], 
+        [
+          "areaCode", 
+          4.0
+        ], 
+        [
+          "postalCode", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2555
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2555
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.2559
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2563
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.2578
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          0.2578
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          0.2586
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          0.2586
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.2586
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          0.2586
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          0.2586
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          0.2586
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          0.2586
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (postalCode)", 
+          0.2586
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (postalCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.2552
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.2552
+    ], 
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)", 
+      0.2558
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)", 
+      0.2568
+    ], 
+    [
+      "Mountain[elevation]>(locatedInArea|Norway)", 
+      0.2578
+    ], 
+    [
+      "Location[areaCode]>(country|England)>(country|Cumbria)", 
+      0.2586
+    ], 
+    [
+      "Location[areaCode]>(country|England)>(country|Cumbria)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2586
+    ], 
+    [
+      "Settlement[areaCode]>(country|England)>(country|Cumbria)", 
+      0.2586
+    ], 
+    [
+      "Settlement[areaCode]>(country|England)>(country|Cumbria)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2586
+    ], 
+    [
+      "Town[postalCode]>(governmentType|Open_town_meeting)", 
+      0.2586
+    ]
+  ], 
+  "values": [
+    2083.0, 
+    1994.0, 
+    1940.0, 
+    2007.0, 
+    2151.0, 
+    1795.0, 
+    90.0, 
+    77.0, 
+    1766.0, 
+    25.0, 
+    2136.0, 
+    1826.0, 
+    2260.0, 
+    52.0, 
+    1944.0, 
+    2083.0, 
+    75.0, 
+    1818.0, 
+    1705.0, 
+    1779.0, 
+    1965.0, 
+    2154.0, 
+    1694.0, 
+    2266.0, 
+    2276.0, 
+    81.0, 
+    1881.0, 
+    2168.0, 
+    1945.0, 
+    1963.0, 
+    2233.0, 
+    1776.0, 
+    73.0, 
+    1742.0, 
+    76.0, 
+    1839.0, 
+    1718.0, 
+    1775.0, 
+    2217.0, 
+    2271.0, 
+    2218.0, 
+    62.0, 
+    1825.0, 
+    1732.0, 
+    2256.0, 
+    97.0, 
+    2254.0, 
+    107.0, 
+    1890.0, 
+    2145.0, 
+    82.0, 
+    86.0, 
+    7.0, 
+    1930.0, 
+    1882.0, 
+    1785.0, 
+    83.0, 
+    1778.0
+  ]
+}

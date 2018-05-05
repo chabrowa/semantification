@@ -1,0 +1,192 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaWater"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "gross", 
+          0.1182
+        ], 
+        [
+          "areaTotal", 
+          0.1191
+        ], 
+        [
+          "areaLand", 
+          0.1291
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          5.0
+        ], 
+        [
+          "gross", 
+          4.0
+        ], 
+        [
+          "areaLand", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.1078
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (gross)", 
+          0.1166
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (gross)", 
+          0.1166
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (gross)", 
+          0.1182
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.1184
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.1219
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1219
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.1239
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          0.1291
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (gross)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (gross)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (gross)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Valencia)", 
+      0.1078
+    ], 
+    [
+      "Wikidata:Q11424[gross]>(distributor|Walt_Disney_Studios_Motion_Pictures)>(country|United_States)", 
+      0.1101
+    ], 
+    [
+      "Film[gross]>(distributor|Walt_Disney_Studios_Motion_Pictures)>(country|United_States)", 
+      0.1101
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Spain)>(isPartOf|Province_of_Valencia)", 
+      0.1113
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Alaska)>(timeZone|Alaska_Time_Zone)>(type|Alaska)", 
+      0.1187
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Alaska)>(timeZone|Alaska_Time_Zone)", 
+      0.125
+    ], 
+    [
+      "Wikidata:Q11424[gross]>(distributor|Walt_Disney_Studios_Motion_Pictures)", 
+      0.1264
+    ], 
+    [
+      "Film[gross]>(distributor|Walt_Disney_Studios_Motion_Pictures)", 
+      0.1264
+    ], 
+    [
+      "Location[areaLand]>(isPartOf|California)>(isPartOf|Riverside_County,_California)", 
+      0.1291
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Alaska)", 
+      0.1327
+    ]
+  ], 
+  "values": [
+    12394587.005482592, 
+    99386046.47248408, 
+    140302336.35226774, 
+    15927283.625340564, 
+    25315716.37200556, 
+    42295554.75683759, 
+    7435783.120646138, 
+    138271664.40157288, 
+    64342628.30761977, 
+    37158015.46889581, 
+    69069228.16210431, 
+    38079402.76746662, 
+    18709762.81690517, 
+    24546741.196481854, 
+    7734145.476473597, 
+    64065492.85446877, 
+    69899745.09945452, 
+    6286301.873009943, 
+    575204682.9138786, 
+    47709179.580480166, 
+    513267.4599242654, 
+    67552606.17444767, 
+    81363098.8309495, 
+    19314051.70621062, 
+    5990562.490127955, 
+    2679376.3044575076, 
+    1358188.325431265, 
+    4174090.235769403, 
+    37803810.71344571, 
+    7598665.393421366, 
+    527863.5751251118, 
+    3456451113.551511, 
+    157379437.468627
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfStudents"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1227
+        ], 
+        [
+          "width", 
+          0.125
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          9.0
+        ], 
+        [
+          "width", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1176
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          0.1205
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (width)", 
+          0.125
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.125
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (width)", 
+          0.125
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1254
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1254
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1269
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          0.1328
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationTotal]>(country|Spain)>(isPartOf|Province_of_Granada)>(timeZone|Central_European_Time)", 
+      0.11
+    ], 
+    [
+      "Location[populationTotal]>(country|Spain)>(isPartOf|Province_of_Granada)", 
+      0.1136
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|Oregon)>(type|City)>(timeZone|Pacific_Time_Zone)>(country|United_States)", 
+      0.1167
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|Oregon)>(type|City)>(timeZone|Pacific_Time_Zone)", 
+      0.1174
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|Oregon)>(type|City)", 
+      0.1227
+    ], 
+    [
+      "BodyOfWater[width]>(location|Ontario)", 
+      0.125
+    ], 
+    [
+      "Location[populationTotal]>(country|Spain)>(isPartOf|Province_of_Valencia)>(type|Municipalities_of_Spain)", 
+      0.1281
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Spain)>(isPartOf|Province_of_Valencia)>(type|Municipalities_of_Spain)", 
+      0.13
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|Arkansas)", 
+      0.1327
+    ], 
+    [
+      "Town[populationTotal]>(isPartOf|Pennsylvania)>(22-rdf-syntax-ns#type|_Feature)>(type|Township_(Pennsylvania))>(country|United_States)", 
+      0.1328
+    ]
+  ], 
+  "values": [
+    863.0, 
+    260.0, 
+    243.0, 
+    2356.0, 
+    1582.0, 
+    627.0, 
+    2874.0, 
+    17057.0, 
+    1167.0, 
+    2274.0, 
+    18836.0, 
+    10462.0
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/weight"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.3294
+        ], 
+        [
+          "elevation", 
+          0.3324
+        ], 
+        [
+          "populationTotal", 
+          0.3333
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          8.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ], 
+        [
+          "populationTotal", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.3294
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.3294
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          0.3294
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.3294
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.3307
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.3321
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.3321
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.3336
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[elevation]>(isPartOf|Illinois)", 
+      0.3282
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|Illinois)>(type|Unincorporated_area)>(timeZone|Central_Time_Zone)", 
+      0.3289
+    ], 
+    [
+      "Village[populationDensity]>(isPartOf|Alberta)>(timeZone|Mountain_Time_Zone)>(country|Canada)", 
+      0.3294
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kurdistan_Province)>(isPartOf|Central_District_(Kamyaran_County))", 
+      0.3333
+    ], 
+    [
+      "City[elevation]>(isPartOf|Missouri)>(isPartOf|St._Louis_County,_Missouri)", 
+      0.3333
+    ], 
+    [
+      "City[elevation]>(isPartOf|Missouri)>(isPartOf|St._Louis_County,_Missouri)>(type|City)", 
+      0.3333
+    ], 
+    [
+      "City[elevation]>(isPartOf|Missouri)>(isPartOf|St._Louis_County,_Missouri)>(type|City)>(country|United_States)", 
+      0.3333
+    ], 
+    [
+      "Location[elevation]>(isPartOf|Indiana)>(isPartOf|Parke_County,_Indiana)", 
+      0.3333
+    ], 
+    [
+      "Location[elevation]>(isPartOf|Kentucky)>(isPartOf|Jefferson_County,_Kentucky)", 
+      0.3333
+    ], 
+    [
+      "City[elevation]>(isPartOf|Tennessee)", 
+      0.3353
+    ]
+  ], 
+  "values": [
+    169.3164309181641, 
+    166.68922091789818, 
+    282.810083147643
+  ]
+}

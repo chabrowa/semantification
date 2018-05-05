@@ -1,0 +1,224 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfGoals"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.1413
+        ], 
+        [
+          "minimumElevation", 
+          0.1437
+        ], 
+        [
+          "elevation", 
+          0.1485
+        ]
+      ], 
+      "maj": [
+        [
+          "minimumElevation", 
+          6.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.1413
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1413
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1413
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1413
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1413
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.1432
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.1432
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.1437
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1437
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1485
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1485
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1485
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[minimumElevation]>(department|Somme)>(arrondissement|Abbeville)", 
+      0.1301
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Somme)>(arrondissement|Abbeville)", 
+      0.1301
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|New_York)>(isPartOf|Nassau_County,_New_York)>(type|Administrative_divisions_of_New_York)", 
+      0.1408
+    ], 
+    [
+      "Location[populationDensity]>(type|Township_(Pennsylvania))", 
+      0.1413
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Pennsylvania)>(type|Township_(Pennsylvania))", 
+      0.1413
+    ], 
+    [
+      "Location[minimumElevation]>(region|Pays_de_la_Loire)", 
+      0.1473
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Pays_de_la_Loire)", 
+      0.1473
+    ], 
+    [
+      "Location[minimumElevation]>(department|Pas-de-Calais)>(arrondissement|Arrondissement_of_Saint-Omer)", 
+      0.1537
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Pas-de-Calais)>(arrondissement|Arrondissement_of_Saint-Omer)", 
+      0.1537
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Charente-Maritime)>(region|Poitou-Charentes)", 
+      0.1562
+    ]
+  ], 
+  "values": [
+    33.0, 
+    30.0, 
+    8.0, 
+    44.0, 
+    31.0, 
+    3.0, 
+    56.0, 
+    4.0, 
+    31.0, 
+    69.0, 
+    2.0, 
+    84.0, 
+    22.0, 
+    67.0, 
+    66.0, 
+    53.0, 
+    46.0, 
+    56.0, 
+    41.0, 
+    1.0, 
+    15.0, 
+    5.0, 
+    23.0, 
+    25.0, 
+    71.0, 
+    30.0, 
+    90.0, 
+    24.0, 
+    17.0, 
+    56.0, 
+    5.0, 
+    36.0, 
+    39.0, 
+    30.0, 
+    21.0, 
+    4.0, 
+    2.0, 
+    2.0, 
+    20.0, 
+    18.0, 
+    60.0
+  ]
+}

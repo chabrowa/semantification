@@ -1,0 +1,249 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/yearOfConstruction"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "serviceEndYear", 
+          0.26
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.3293
+        ], 
+        [
+          "openingYear", 
+          0.3846
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.408
+        ]
+      ], 
+      "maj": [
+        [
+          "activeYearsStartYear", 
+          3.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          3.0
+        ], 
+        [
+          "serviceEndYear", 
+          2.0
+        ], 
+        [
+          "openingYear", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/MilitaryPerson (serviceEndYear)", 
+          0.2598
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          0.26
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          0.26
+        ], 
+        [
+          "http://dbpedia.org/ontology/IceHockeyPlayer (activeYearsEndYear)", 
+          0.3277
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (activeYearsEndYear)", 
+          0.3293
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (activeYearsEndYear)", 
+          0.3293
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.3293
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.3293
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          0.3826
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          0.3865
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.3865
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.3865
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.3865
+        ], 
+        [
+          "http://dbpedia.org/ontology/Locomotive (activeYearsStartYear)", 
+          0.4038
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (activeYearsStartYear)", 
+          0.4038
+        ], 
+        [
+          "http://dbpedia.org/ontology/ScreenWriter (activeYearsStartYear)", 
+          0.4101
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.4101
+        ], 
+        [
+          "http://dbpedia.org/ontology/Writer (activeYearsStartYear)", 
+          0.4101
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          0.4101
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/IceHockeyPlayer (activeYearsEndYear)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryPerson (serviceEndYear)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (activeYearsEndYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (activeYearsEndYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Locomotive (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Writer (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ScreenWriter (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (activeYearsStartYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "MilitaryPerson[serviceEndYear]>(battle|Philippine%E2%80%93American_War)>(battle|World_War_I)>(battle|Spanish%E2%80%93American_War)", 
+      0.2586
+    ], 
+    [
+      "MilitaryPerson[serviceEndYear]>(battle|Philippine%E2%80%93American_War)>(battle|World_War_I)", 
+      0.2614
+    ], 
+    [
+      "IceHockeyPlayer[activeYearsEndYear]>(formerTeam|Ottawa_Senators_(original))>(birthPlace|Ontario)>(birthPlace|Canada)", 
+      0.3226
+    ], 
+    [
+      "IceHockeyPlayer[activeYearsEndYear]>(formerTeam|Ottawa_Senators_(original))>(birthPlace|Ontario)", 
+      0.3281
+    ], 
+    [
+      "IceHockeyPlayer[activeYearsEndYear]>(formerTeam|Ottawa_Senators_(original))", 
+      0.3372
+    ], 
+    [
+      "Location[openingYear]>(operatedBy|East_Japan_Railway_Company)", 
+      0.3826
+    ], 
+    [
+      "Station[openingYear]>(country|Japan)", 
+      0.3865
+    ], 
+    [
+      "Locomotive[activeYearsStartYear]>(designer|Transnet_Freight_Rail)", 
+      0.4038
+    ], 
+    [
+      "Writer[activeYearsStartYear]", 
+      0.4101
+    ], 
+    [
+      "ScreenWriter[activeYearsStartYear]", 
+      0.4101
+    ]
+  ], 
+  "values": [
+    1933.0, 
+    1920.0
+  ]
+}

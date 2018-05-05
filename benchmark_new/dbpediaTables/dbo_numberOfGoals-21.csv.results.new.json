@@ -1,0 +1,270 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfGoals"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "minimumElevation", 
+          0.1758
+        ], 
+        [
+          "populationDensity", 
+          0.1785
+        ], 
+        [
+          "elevation", 
+          0.1877
+        ]
+      ], 
+      "maj": [
+        [
+          "minimumElevation", 
+          6.0
+        ], 
+        [
+          "populationDensity", 
+          3.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1498
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.1758
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1758
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.1758
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.1758
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.1877
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1877
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1877
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1877
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1929
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.1929
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.1929
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1929
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[minimumElevation]>(department|Manche)>(arrondissement|Arrondissement_of_Cherbourg)", 
+      0.1478
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Manche)>(arrondissement|Arrondissement_of_Cherbourg)", 
+      0.1478
+    ], 
+    [
+      "Location[populationDensity]>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Outaouais)", 
+      0.1498
+    ], 
+    [
+      "Location[minimumElevation]>(region|Poitou-Charentes)>(department|Charente-Maritime)", 
+      0.1798
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Poitou-Charentes)>(department|Charente-Maritime)", 
+      0.1798
+    ], 
+    [
+      "City[elevation]>(isPartOf|Florida)", 
+      0.1877
+    ], 
+    [
+      "Region[populationDensity]", 
+      0.1929
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]", 
+      0.1929
+    ], 
+    [
+      "Location[minimumElevation]>(department|Gironde)>(region|Aquitaine)", 
+      0.1996
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Gironde)>(region|Aquitaine)", 
+      0.1996
+    ]
+  ], 
+  "values": [
+    2.0, 
+    2.0, 
+    2.0, 
+    2.0, 
+    3.0, 
+    4.0, 
+    2.0, 
+    55.0, 
+    82.0, 
+    35.0, 
+    0.0, 
+    2.0, 
+    3.0, 
+    30.0, 
+    56.0, 
+    71.0, 
+    60.0, 
+    5.0, 
+    67.0, 
+    81.0, 
+    1.0, 
+    2.0, 
+    1.0, 
+    2.0, 
+    13.0, 
+    1.0, 
+    2.0, 
+    4.0, 
+    5.0, 
+    6.0, 
+    90.0, 
+    1.0, 
+    2.0, 
+    3.0, 
+    4.0, 
+    5.0, 
+    6.0, 
+    7.0, 
+    8.0, 
+    9.0, 
+    60.0, 
+    1.0, 
+    2.0, 
+    3.0, 
+    4.0, 
+    5.0, 
+    6.0, 
+    1.0, 
+    2.0, 
+    3.0, 
+    4.0, 
+    2.0, 
+    1.0, 
+    2.0, 
+    3.0, 
+    14.0, 
+    30.0, 
+    38.0, 
+    44.0, 
+    50.0, 
+    56.0, 
+    58.0, 
+    64.0, 
+    70.0, 
+    75.0, 
+    90.0, 
+    54.0, 
+    0.0, 
+    1.0, 
+    2.0, 
+    31.0, 
+    4.0, 
+    16.0, 
+    56.0, 
+    12.0, 
+    13.0, 
+    15.0, 
+    86.0, 
+    6.0
+  ]
+}

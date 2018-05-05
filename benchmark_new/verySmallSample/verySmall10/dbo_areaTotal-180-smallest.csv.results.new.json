@@ -1,0 +1,259 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaLand", 
+          0.1492
+        ], 
+        [
+          "areaTotal", 
+          0.15
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          6.0
+        ], 
+        [
+          "areaLand", 
+          4.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.1318
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.1318
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.1318
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.1324
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1324
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.1324
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaLand)", 
+          0.1492
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          0.1539
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          0.1665
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.1674
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaLand)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Town[areaTotal]", 
+      0.0634
+    ], 
+    [
+      "Town[areaLand]", 
+      0.0971
+    ], 
+    [
+      "Location[areaLand]>(type|Civil_township)>(isPartOf|Arkansas)", 
+      0.1665
+    ], 
+    [
+      "Town[areaLand]>(isPartOf|Arkansas)>(type|Civil_township)", 
+      0.1665
+    ], 
+    [
+      "Location[areaTotal]>(type|Civil_township)>(isPartOf|Arkansas)>(timeZone|Central_Time_Zone)", 
+      0.1665
+    ], 
+    [
+      "Town[areaTotal]>(isPartOf|Arkansas)>(type|Civil_township)>(timeZone|Central_Time_Zone)", 
+      0.1665
+    ], 
+    [
+      "Location[areaLand]>(country|Canada)>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Centre-du-Qu%C3%A9bec)", 
+      0.1666
+    ], 
+    [
+      "Location[areaTotal]>(type|Civil_township)>(isPartOf|Arkansas)", 
+      0.1673
+    ], 
+    [
+      "Town[areaTotal]>(isPartOf|Arkansas)>(type|Civil_township)", 
+      0.1673
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Time_in_China)>(isPartOf|Loudi)", 
+      0.1688
+    ]
+  ], 
+  "values": [
+    16770062.277062282, 
+    13671281.775213115, 
+    93952828.2952419, 
+    103349447.93368775, 
+    91736971.75758627, 
+    29017061.140704658, 
+    62791232.72334599, 
+    25773405.145817194, 
+    120290725.70923097, 
+    116828096.17497274, 
+    92519150.79378837, 
+    112564388.2825109, 
+    1550907.5883902027, 
+    45497426.759179935, 
+    47019151.24666797, 
+    90967523.04119687, 
+    91750230.50826769, 
+    96544945.92212726, 
+    146342031.89194787, 
+    574159.7808512072, 
+    125813375.98744507, 
+    111086610.19887716, 
+    71392199.78675053, 
+    91704445.29148573, 
+    92423793.0022001, 
+    3642704.4216686203, 
+    243085296.26188302, 
+    90219686.53485905, 
+    5228858.440087595, 
+    91980351.3262621, 
+    90782431.05528428, 
+    96956736.9203149, 
+    587676178.0768466, 
+    90979115.65567756, 
+    131688859.45567644, 
+    79007410.32436925, 
+    122778219.71852635, 
+    68131807.75277552, 
+    27638706.538211633, 
+    500758645.21197635, 
+    102908752.79102105, 
+    110855399.7449921, 
+    12450686.519999666, 
+    86793469.20334044, 
+    90927525.87003045, 
+    118810858.71666636, 
+    93599971.34200785, 
+    94940607.54371868, 
+    2850944.9662907426, 
+    2718085.348379246, 
+    91786823.37734604, 
+    90838522.34437647, 
+    94232534.79207566, 
+    5591752.775167981, 
+    38217179.435358286, 
+    36131959.599831164, 
+    96082970.53229722, 
+    68741851.42616561, 
+    110649664.09609617, 
+    1736653.7373616677, 
+    95957530.81729566, 
+    88199877.47124323, 
+    31690913.75762917, 
+    1404529.4788566264, 
+    93475364.74880436, 
+    182950.22247633548, 
+    2734637023.2042418, 
+    2117448.3258592733, 
+    1022660.8497130981, 
+    198813933.31102914, 
+    90865839.84819768, 
+    95870904.67179172, 
+    74105488.8269452, 
+    77377704.96252161, 
+    115864837.04430148, 
+    86184165.224171, 
+    95949982.46003194, 
+    94707355.45603138, 
+    63386911.751584195, 
+    37110266.74198847, 
+    1507224.517450495, 
+    973947.3100787738, 
+    65142044.679762706, 
+    72384957.07706639, 
+    49990952.26620578, 
+    942644044.7361809, 
+    32697225.351847492, 
+    88180040.10582308, 
+    14308796.36322509, 
+    86598976.85979596, 
+    44791282.25523173, 
+    481085065.0491307, 
+    30182156.59396161, 
+    19447764.071653537, 
+    4501825.128253911, 
+    96134105.82593326, 
+    119641772.46576032, 
+    108502969.48941778, 
+    82848479.26438758, 
+    920198.8867795075
+  ]
+}

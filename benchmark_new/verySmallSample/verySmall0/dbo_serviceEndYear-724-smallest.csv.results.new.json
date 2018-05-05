@@ -1,0 +1,217 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/serviceEndYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "serviceStartYear", 
+          0.2212
+        ], 
+        [
+          "serviceEndYear", 
+          0.2298
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.2306
+        ]
+      ], 
+      "maj": [
+        [
+          "serviceEndYear", 
+          6.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          3.0
+        ], 
+        [
+          "serviceStartYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsEndYear)", 
+          0.1651
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryUnit (activeYearsEndYear)", 
+          0.1651
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.1651
+        ], 
+        [
+          "http://dbpedia.org/ontology/Senator (serviceEndYear)", 
+          0.1947
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryPerson (serviceEndYear)", 
+          0.2164
+        ], 
+        [
+          "http://dbpedia.org/ontology/Congressman (serviceStartYear)", 
+          0.2212
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceStartYear)", 
+          0.2212
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceStartYear)", 
+          0.2212
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceStartYear)", 
+          0.2212
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          0.2296
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          0.2298
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceEndYear)", 
+          0.2337
+        ], 
+        [
+          "http://dbpedia.org/ontology/Congressman (serviceEndYear)", 
+          0.2533
+        ], 
+        [
+          "http://dbpedia.org/ontology/Locomotive (activeYearsEndYear)", 
+          0.2634
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (activeYearsEndYear)", 
+          0.2634
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceEndYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Locomotive (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Congressman (serviceStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Senator (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryUnit (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryPerson (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Congressman (serviceEndYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "MilitaryUnit[activeYearsEndYear]", 
+      0.1651
+    ], 
+    [
+      "Senator[serviceEndYear]", 
+      0.1947
+    ], 
+    [
+      "MilitaryPerson[serviceEndYear]", 
+      0.2164
+    ], 
+    [
+      "Congressman[serviceStartYear]", 
+      0.2212
+    ], 
+    [
+      "Person[serviceEndYear]", 
+      0.2306
+    ], 
+    [
+      "Agent[serviceEndYear]", 
+      0.2306
+    ], 
+    [
+      "Politician[serviceEndYear]", 
+      0.2532
+    ], 
+    [
+      "Congressman[serviceEndYear]", 
+      0.2533
+    ], 
+    [
+      "MeanOfTransportation[activeYearsEndYear]", 
+      0.2634
+    ], 
+    [
+      "Locomotive[activeYearsEndYear]", 
+      0.2634
+    ]
+  ], 
+  "values": [
+    1835.0, 
+    1946.0, 
+    1935.0, 
+    1944.0, 
+    1986.0, 
+    1863.0, 
+    1782.0, 
+    1946.0, 
+    1945.0, 
+    1951.0
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/squadNumber"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "number", 
+          0.1162
+        ], 
+        [
+          "populationDensity", 
+          0.1318
+        ], 
+        [
+          "elevation", 
+          0.1364
+        ]
+      ], 
+      "maj": [
+        [
+          "number", 
+          5.0
+        ], 
+        [
+          "populationDensity", 
+          4.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/SportsManager (number)", 
+          0.1125
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerManager (number)", 
+          0.1125
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          0.1129
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.1162
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.1162
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.1187
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1297
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          0.1302
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.133
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.1342
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1364
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1364
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1364
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsManager (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerManager (number)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Australia)", 
+      0.1035
+    ], 
+    [
+      "SoccerManager[number]", 
+      0.1125
+    ], 
+    [
+      "SportsManager[number]", 
+      0.1125
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Iran)", 
+      0.1224
+    ], 
+    [
+      "Location[populationDensity]>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Estrie)>(country|Canada)", 
+      0.1263
+    ], 
+    [
+      "BasketballPlayer[number]>(league|Euroleague_Basketball)", 
+      0.1302
+    ], 
+    [
+      "Settlement[populationDensity]>(type|Types_of_municipalities_in_Quebec)", 
+      0.1324
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Missouri)>(type|Township_(United_States))", 
+      0.1342
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Missouri)>(type|Township_(United_States))", 
+      0.1342
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Vorpommern-Greifswald)", 
+      0.1364
+    ]
+  ], 
+  "values": [
+    13.0, 
+    10.0, 
+    18.0, 
+    92.0, 
+    22.0, 
+    12.0, 
+    0.0, 
+    22.0, 
+    13.0, 
+    22.0, 
+    3.0, 
+    9.0, 
+    3.0, 
+    12.0, 
+    7.0, 
+    8.0, 
+    2.0, 
+    24.0, 
+    11.0, 
+    9.0, 
+    2.0, 
+    84.0, 
+    11.0, 
+    92.0, 
+    13.0, 
+    13.0, 
+    20.0, 
+    12.0, 
+    14.0, 
+    28.0, 
+    3.0, 
+    11.0, 
+    27.0, 
+    5.0, 
+    9.0, 
+    9.0, 
+    19.0, 
+    17.0, 
+    20.0, 
+    1.0, 
+    6.0, 
+    11.0, 
+    11.0, 
+    20.0, 
+    9.0, 
+    6.0, 
+    7.0, 
+    7.0, 
+    19.0, 
+    3.0, 
+    17.0, 
+    14.0, 
+    16.0, 
+    12.0, 
+    30.0, 
+    17.0, 
+    8.0, 
+    4.0, 
+    11.0, 
+    16.0, 
+    1.0, 
+    1.0, 
+    5.0, 
+    4.0, 
+    26.0, 
+    4.0, 
+    18.0, 
+    4.0, 
+    9.0, 
+    16.0, 
+    13.0, 
+    7.0, 
+    2.0, 
+    7.0, 
+    83.0, 
+    17.0, 
+    1.0, 
+    1.0, 
+    22.0, 
+    12.0, 
+    9.0, 
+    6.0, 
+    5.0, 
+    3.0, 
+    19.0, 
+    18.0, 
+    20.0, 
+    6.0, 
+    25.0, 
+    18.0, 
+    27.0, 
+    4.0, 
+    19.0, 
+    66.0, 
+    19.0, 
+    27.0, 
+    20.0, 
+    5.0, 
+    7.0, 
+    27.0, 
+    9.0, 
+    22.0, 
+    7.0, 
+    9.0, 
+    8.0, 
+    3.0
+  ]
+}

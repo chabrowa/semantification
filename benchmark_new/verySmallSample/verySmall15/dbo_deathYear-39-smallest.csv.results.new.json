@@ -1,0 +1,273 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/deathYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "foundingYear", 
+          0.1438
+        ], 
+        [
+          "formationYear", 
+          0.1599
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.1643
+        ], 
+        [
+          "deathYear", 
+          0.1727
+        ], 
+        [
+          "openingYear", 
+          0.1778
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          3.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          3.0
+        ], 
+        [
+          "formationYear", 
+          2.0
+        ], 
+        [
+          "deathYear", 
+          1.0
+        ], 
+        [
+          "foundingYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/SportsLeague (foundingYear)", 
+          0.1438
+        ], 
+        [
+          "http://dbpedia.org/ontology/BaseballLeague (foundingYear)", 
+          0.1438
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.1438
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.1438
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryUnit (activeYearsEndYear)", 
+          0.15
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (formationYear)", 
+          0.1599
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (formationYear)", 
+          0.1599
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.1643
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          0.1644
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayStation (openingYear)", 
+          0.1644
+        ], 
+        [
+          "http://dbpedia.org/ontology/GovernmentAgency (formationYear)", 
+          0.1647
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsEndYear)", 
+          0.1648
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          0.1727
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          0.1727
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (deathYear)", 
+          0.1727
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.1778
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.1778
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.1778
+        ], 
+        [
+          "http://dbpedia.org/ontology/RoadTunnel (openingYear)", 
+          0.1838
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.1844
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/GovernmentAgency (formationYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RoadTunnel (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (formationYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryUnit (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (formationYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsLeague (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BaseballLeague (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayStation (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (deathYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "BaseballLeague[foundingYear]", 
+      0.1438
+    ], 
+    [
+      "GovernmentAgency[formationYear]", 
+      0.1456
+    ], 
+    [
+      "MilitaryUnit[activeYearsEndYear]>(battle|Gulf_War)", 
+      0.15
+    ], 
+    [
+      "Agent[activeYearsEndYear]", 
+      0.1633
+    ], 
+    [
+      "RailwayStation[openingYear]", 
+      0.1644
+    ], 
+    [
+      "Athlete[deathYear]", 
+      0.1727
+    ], 
+    [
+      "GovernmentAgency[formationYear]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1742
+    ], 
+    [
+      "Organisation[activeYearsEndYear]", 
+      0.1795
+    ], 
+    [
+      "RoadTunnel[openingYear]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1826
+    ], 
+    [
+      "RoadTunnel[openingYear]", 
+      0.1863
+    ]
+  ], 
+  "values": [
+    1942.0, 
+    2000.0, 
+    1983.0, 
+    1928.0, 
+    1912.0, 
+    1944.0, 
+    2012.0, 
+    1963.0, 
+    2006.0, 
+    2000.0
+  ]
+}

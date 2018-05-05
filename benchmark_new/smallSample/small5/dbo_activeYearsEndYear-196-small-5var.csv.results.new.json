@@ -1,0 +1,268 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/activeYearsEndYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "activeYearsEndYear", 
+          0.2631
+        ], 
+        [
+          "openingYear", 
+          0.2758
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.3004
+        ], 
+        [
+          "populationTotal", 
+          0.3016
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          3.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          3.0
+        ], 
+        [
+          "populationTotal", 
+          2.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Medician (activeYearsEndYear)", 
+          0.2593
+        ], 
+        [
+          "http://dbpedia.org/ontology/Scientist (activeYearsEndYear)", 
+          0.2593
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.2631
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.2631
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (activeYearsEndYear)", 
+          0.2708
+        ], 
+        [
+          "http://dbpedia.org/ontology/RugbyPlayer (activeYearsEndYear)", 
+          0.2708
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.2758
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.2758
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.2758
+        ], 
+        [
+          "http://dbpedia.org/ontology/PowerStation (openingYear)", 
+          0.2763
+        ], 
+        [
+          "http://dbpedia.org/ontology/Medician (activeYearsStartYear)", 
+          0.3004
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.3004
+        ], 
+        [
+          "http://dbpedia.org/ontology/Scientist (activeYearsStartYear)", 
+          0.3004
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          0.3004
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.3015
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.3016
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.3016
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.3016
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PowerStation (openingYear)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Scientist (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Scientist (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Medician (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Medician (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RugbyPlayer (activeYearsEndYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "PowerStation[openingYear]>(primaryFuelType|Bituminous_coal)", 
+      0.2593
+    ], 
+    [
+      "Scientist[activeYearsEndYear]", 
+      0.2593
+    ], 
+    [
+      "Medician[activeYearsEndYear]", 
+      0.2593
+    ], 
+    [
+      "RugbyPlayer[activeYearsEndYear]", 
+      0.2708
+    ], 
+    [
+      "PowerStation[openingYear]>(primaryFuelType|Coal)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2793
+    ], 
+    [
+      "PowerStation[openingYear]>(primaryFuelType|Coal)", 
+      0.2889
+    ], 
+    [
+      "Scientist[activeYearsStartYear]", 
+      0.3004
+    ], 
+    [
+      "Medician[activeYearsStartYear]", 
+      0.3004
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|East_Azerbaijan_Province)>(isPartOf|Tabriz_County)>(isPartOf|Central_District_(Tabriz_County))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3009
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|East_Azerbaijan_Province)>(isPartOf|Tabriz_County)>(isPartOf|Central_District_(Tabriz_County))", 
+      0.3024
+    ]
+  ], 
+  "values": [
+    84.0, 
+    2001.0, 
+    87.0, 
+    98.0, 
+    77.0, 
+    1957.0, 
+    2020.0, 
+    2061.0, 
+    1958.0, 
+    1962.0, 
+    91.0, 
+    2088.0, 
+    2079.0, 
+    95.0, 
+    2022.0, 
+    1986.0, 
+    30.0, 
+    1998.0, 
+    1938.0, 
+    12.0, 
+    89.0, 
+    2.0, 
+    27.0, 
+    1963.0, 
+    1984.0, 
+    1982.0, 
+    1954.0, 
+    2080.0, 
+    1950.0
+  ]
+}

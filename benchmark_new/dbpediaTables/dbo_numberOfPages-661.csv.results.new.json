@@ -1,0 +1,225 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfPages"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaCode", 
+          0.2747
+        ], 
+        [
+          "elevation", 
+          0.2877
+        ], 
+        [
+          "numberOfPages", 
+          0.309
+        ], 
+        [
+          "maximumElevation", 
+          0.3103
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          7.0
+        ], 
+        [
+          "numberOfPages", 
+          1.0
+        ], 
+        [
+          "maximumElevation", 
+          1.0
+        ], 
+        [
+          "areaCode", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Lake (elevation)", 
+          0.2716
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (elevation)", 
+          0.2725
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.2725
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          0.2747
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.2747
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          0.2747
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaCode)", 
+          0.2747
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2844
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.2908
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2963
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.3002
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.3077
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (numberOfPages)", 
+          0.309
+        ], 
+        [
+          "http://dbpedia.org/ontology/Book (numberOfPages)", 
+          0.309
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfPages)", 
+          0.309
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          0.3103
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Lake (elevation)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Book (numberOfPages)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (numberOfPages)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfPages)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Lake[elevation]>(location|Ontario)>(country|Canada)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2688
+    ], 
+    [
+      "Lake[elevation]>(location|Ontario)>(country|Canada)", 
+      0.2716
+    ], 
+    [
+      "Town[areaCode]>(timeZone|Eastern_European_Time)", 
+      0.2747
+    ], 
+    [
+      "Lake[elevation]>(location|Ontario)", 
+      0.2771
+    ], 
+    [
+      "City[elevation]>(isPartOf|Iowa)>(country|United_States)", 
+      0.2884
+    ], 
+    [
+      "City[elevation]>(isPartOf|Iowa)", 
+      0.2945
+    ], 
+    [
+      "Settlement[elevation]>(country|Slovenia)>(isPartOf|Municipality_of_Trebnje)", 
+      0.306
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Chhattisgarh)", 
+      0.3077
+    ], 
+    [
+      "Book[numberOfPages]>(publisher|Del_Rey_Books)>(literaryGenre|List_of_science_fiction_novels)", 
+      0.309
+    ], 
+    [
+      "Location[maximumElevation]>(department|Meurthe-et-Moselle)>(arrondissement|Arrondissement_of_Briey)", 
+      0.3103
+    ]
+  ], 
+  "values": [
+    374.0, 
+    277.0
+  ]
+}

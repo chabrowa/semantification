@@ -1,0 +1,202 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runwayLength"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "activeYearsStartYear", 
+          0.1697
+        ], 
+        [
+          "numberOfStudents", 
+          0.2075
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.2094
+        ], 
+        [
+          "populationDensity", 
+          0.2105
+        ]
+      ], 
+      "maj": [
+        [
+          "numberOfStudents", 
+          6.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          1.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Monarch (activeYearsStartYear)", 
+          0.1697
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.1697
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          0.1697
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.2075
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.2075
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.2075
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          0.2081
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.2094
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.2094
+        ], 
+        [
+          "http://dbpedia.org/ontology/Monarch (activeYearsEndYear)", 
+          0.2094
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2105
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          17.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Monarch (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Monarch (activeYearsEndYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Monarch[activeYearsStartYear]", 
+      0.1697
+    ], 
+    [
+      "School[numberOfStudents]>(type|Community_school_(England_and_Wales))>(gender|Mixed-sex_education)", 
+      0.2025
+    ], 
+    [
+      "School[numberOfStudents]>(type|Community_school_(England_and_Wales))", 
+      0.2058
+    ], 
+    [
+      "School[numberOfStudents]", 
+      0.2068
+    ], 
+    [
+      "School[numberOfStudents]>(province|Ontario)", 
+      0.2086
+    ], 
+    [
+      "Monarch[activeYearsEndYear]", 
+      0.2094
+    ], 
+    [
+      "School[numberOfStudents]>(type|Community_school_(England_and_Wales))>(gender|Mixed-sex_education)>(country|England)", 
+      0.2105
+    ], 
+    [
+      "School[numberOfStudents]>(type|Community_school_(England_and_Wales))>(gender|Mixed-sex_education)>(country|England)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2105
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Florida)>(governmentType|Council%E2%80%93manager_government)", 
+      0.2105
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Washington_(state))>(isPartOf|King_County,_Washington)", 
+      0.2105
+    ]
+  ], 
+  "values": [
+    0.0, 
+    1380.7202387242844, 
+    1383.8482090059176, 
+    0.0, 
+    906.857276084132, 
+    2325.8343595500564, 
+    1048.792455529949, 
+    1371.491494329067, 
+    1095.747948799749, 
+    956.108530831094, 
+    1418.2077675805865, 
+    1072.9086269821757, 
+    320.8022355740277, 
+    1150.3907039303965, 
+    2220.899156049543, 
+    0.0, 
+    1448.7834020004304, 
+    0.0, 
+    520.100707948812
+  ]
+}

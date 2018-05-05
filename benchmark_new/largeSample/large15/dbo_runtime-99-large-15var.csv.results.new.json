@@ -1,0 +1,248 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "runtime", 
+          0.1361
+        ], 
+        [
+          "elevation", 
+          0.161
+        ], 
+        [
+          "populationTotal", 
+          0.1658
+        ], 
+        [
+          "numberOfStudents", 
+          0.1678
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          7.0
+        ], 
+        [
+          "runtime", 
+          1.0
+        ], 
+        [
+          "numberOfStudents", 
+          1.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          0.1361
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          0.1361
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.161
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.161
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1613
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1614
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1614
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.1678
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.1678
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          0.1678
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.1678
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1713
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1745
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[populationTotal]>(timeZone|Eastern_Time_Zone)>(isPartOf|Maine)", 
+      0.1309
+    ], 
+    [
+      "MusicalWork[runtime]", 
+      0.1361
+    ], 
+    [
+      "NaturalPlace[elevation]", 
+      0.161
+    ], 
+    [
+      "School[numberOfStudents]>(state|Texas)>(22-rdf-syntax-ns#type|_Feature)>(type|State_school)", 
+      0.1678
+    ], 
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(country|East_Sussex)>(country|England)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1694
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|East_Sussex)>(country|England)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1694
+    ], 
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(country|East_Sussex)>(country|England)", 
+      0.1707
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|East_Sussex)>(country|England)", 
+      0.1707
+    ], 
+    [
+      "Village[populationTotal]>(timeZone|Central_European_Time)>(isPartOf|Vojvodina)", 
+      0.1745
+    ], 
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(country|East_Sussex)", 
+      0.1752
+    ]
+  ], 
+  "values": [
+    107.20694124612852, 
+    4611.17641210598, 
+    1129.6963390905987, 
+    2513.3741521848037, 
+    3209.92409666293, 
+    5638.43772472041, 
+    1550.7638036833252, 
+    1217.3561440269145, 
+    1064.1299433591882, 
+    3642.801143888544, 
+    180.58257102952768, 
+    2395.7860776927264, 
+    2077.6897603113057, 
+    2522.6057737901187, 
+    4452.797071447712, 
+    3082.0875900891565, 
+    180.35106059472008, 
+    1757.3294900701333, 
+    202.4555537285931, 
+    2219.8861751856784, 
+    2747.862794565078, 
+    245.23080052634478, 
+    233.64333111186255, 
+    3265.8506185222654, 
+    2825.835086458674, 
+    146.98443985751194, 
+    2143.2032616672454, 
+    174.89719478151295, 
+    3052.8661139123465, 
+    814.6401728106716, 
+    2154.615431549549, 
+    128.2279122012114, 
+    121.59392873620384, 
+    2280.694209598893, 
+    788.6810546426744, 
+    1533.2024564789206, 
+    3450.2549222597454, 
+    2694.4422654769887, 
+    2841.7899032866576, 
+    2129.768684878117, 
+    1639.0985766646206, 
+    3332.920106578895, 
+    243.37935652462158, 
+    3100.8845013077157, 
+    3142.239351080664, 
+    1772.9655588020714, 
+    273.0130971421525, 
+    161.9419463480895, 
+    797.3349093806952
+  ]
+}

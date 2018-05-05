@@ -1,0 +1,190 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runwayLength"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaCode", 
+          0.2621
+        ], 
+        [
+          "populationTotal", 
+          0.2993
+        ], 
+        [
+          "elevation", 
+          0.3005
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          7.0
+        ], 
+        [
+          "areaCode", 
+          2.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          0.2621
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.2621
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          0.2621
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaCode)", 
+          0.2623
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.2911
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.3005
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.3005
+        ], 
+        [
+          "http://dbpedia.org/ontology/MountainRange (elevation)", 
+          0.3005
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.3084
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.3093
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.3093
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.3093
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaCode)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MountainRange (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationTotal]>(type|Village_development_committee)>(isPartOf|Lamjung_District)", 
+      0.25
+    ], 
+    [
+      "City[areaCode]>(country|India)>(isPartOf|Maharashtra)", 
+      0.2603
+    ], 
+    [
+      "City[areaCode]>(country|India)>(isPartOf|Maharashtra)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2639
+    ], 
+    [
+      "Location[populationTotal]>(type|Village_development_committee)>(isPartOf|Dhawalagiri_Zone)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2823
+    ], 
+    [
+      "MountainRange[elevation]>(country|Canada)", 
+      0.3005
+    ], 
+    [
+      "Village[populationTotal]>(type|Village_development_committee)>(isPartOf|Dhawalagiri_Zone)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3009
+    ], 
+    [
+      "Village[populationTotal]>(type|Village_development_committee)>(isPartOf|Dhawalagiri_Zone)", 
+      0.3113
+    ], 
+    [
+      "Location[populationTotal]>(type|Village_development_committee)>(isPartOf|Dhawalagiri_Zone)", 
+      0.3143
+    ], 
+    [
+      "Village[populationTotal]>(type|Village_development_committee)>(isPartOf|Khotang_District)", 
+      0.3157
+    ], 
+    [
+      "Location[populationTotal]>(type|Village_development_committee)>(isPartOf|Khotang_District)", 
+      0.3209
+    ]
+  ], 
+  "values": [
+    1826.0, 
+    1826.06, 
+    2385.97, 
+    2386.0, 
+    1828.0, 
+    3657.0, 
+    3657.6
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/area"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "area", 
+          0.2307
+        ], 
+        [
+          "areaLand", 
+          0.2429
+        ], 
+        [
+          "areaTotal", 
+          0.2815
+        ]
+      ], 
+      "maj": [
+        [
+          "area", 
+          5.0
+        ], 
+        [
+          "areaTotal", 
+          3.0
+        ], 
+        [
+          "areaLand", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          0.2216
+        ], 
+        [
+          "http://dbpedia.org/ontology/ClericalAdministrativeRegion (area)", 
+          0.2216
+        ], 
+        [
+          "http://dbpedia.org/ontology/Diocese (area)", 
+          0.2216
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          0.2216
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (area)", 
+          0.2216
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (area)", 
+          0.2216
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          0.2429
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.2429
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.2429
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.2429
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.2464
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (area)", 
+          0.2673
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.2674
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.2674
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.3095
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.3095
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (area)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (area)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ClericalAdministrativeRegion (area)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (area)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Diocese (area)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "AdministrativeRegion[area]", 
+      0.2216
+    ], 
+    [
+      "Region[area]", 
+      0.2216
+    ], 
+    [
+      "ClericalAdministrativeRegion[area]", 
+      0.2216
+    ], 
+    [
+      "Diocese[area]", 
+      0.2216
+    ], 
+    [
+      "Settlement[areaTotal]>(isPartOf|California)>(type|County_(United_States))", 
+      0.2253
+    ], 
+    [
+      "Location[areaLand]>(isPartOf|California)>(type|County_(United_States))", 
+      0.2429
+    ], 
+    [
+      "Settlement[areaLand]>(isPartOf|California)>(type|County_(United_States))", 
+      0.2429
+    ], 
+    [
+      "Location[area]>(jurisdiction|Diocese)", 
+      0.2673
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Time_in_China)>(type|Prefecture-level_city)>(country|China)", 
+      0.3095
+    ], 
+    [
+      "City[areaTotal]>(type|Prefecture-level_city)>(country|China)", 
+      0.3095
+    ]
+  ], 
+  "values": [
+    2548549135.817103, 
+    22185013144.223343, 
+    1185363755.178679, 
+    15925500668.829205, 
+    38922540535.81672, 
+    9560266800.665071, 
+    8000421758.065185, 
+    669208.0966808192, 
+    2361304369.756523, 
+    278033012.9632714, 
+    7702476592.324639, 
+    7948867364.748264, 
+    6160043284.746997, 
+    2682903924.162273, 
+    11402072573.995892, 
+    17401323019.690742, 
+    83906475299.13684, 
+    10973157979.554731, 
+    57342629140.51077, 
+    5698286674.677553, 
+    2443747851.346506, 
+    98435708293.87015, 
+    1065125963.8843606, 
+    5951927967.539567, 
+    580793648.4597458, 
+    7035373296.848356, 
+    3270932567.684091, 
+    7822396502.64644
+  ]
+}

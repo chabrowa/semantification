@@ -1,0 +1,182 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.1348
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          0.1166
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1309
+        ], 
+        [
+          "http://dbpedia.org/ontology/WineRegion (areaTotal)", 
+          0.1396
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (areaTotal)", 
+          0.1498
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.1512
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.1518
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WineRegion (areaTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "ProtectedArea[areaTotal]>(location|Canada)", 
+      0.0699
+    ], 
+    [
+      "ProtectedArea[areaTotal]>(location|Canada)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0714
+    ], 
+    [
+      "WineRegion[areaTotal]", 
+      0.1396
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Uttar_Pradesh)", 
+      0.1397
+    ], 
+    [
+      "Island[areaTotal]>(location|Pacific_Ocean)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1443
+    ], 
+    [
+      "ProtectedArea[areaTotal]", 
+      0.1535
+    ], 
+    [
+      "ProtectedArea[areaTotal]>(location|Colorado)>(location|United_States)", 
+      0.1539
+    ], 
+    [
+      "ProtectedArea[areaTotal]>(location|Colorado)", 
+      0.1565
+    ], 
+    [
+      "Island[areaTotal]>(location|Pacific_Ocean)", 
+      0.1581
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Uttar_Pradesh)>(country|India)", 
+      0.1609
+    ]
+  ], 
+  "values": [
+    1613670.3401847393, 
+    3952530.7550992826, 
+    2609003.986644363, 
+    664270823.0065808, 
+    661715.8585790506, 
+    52434214.586516164, 
+    2399602491.3057284, 
+    231099569.10228202, 
+    2670465.956238476, 
+    2291362452.838702, 
+    1528057.3582295012, 
+    35214937.62181053, 
+    1318673.7785264812, 
+    378035163.17240334, 
+    32296268.06497588, 
+    6570590694.63328, 
+    2792790.101093304, 
+    4700612551.509565, 
+    4754526568.267229, 
+    6455296572.646926, 
+    785085.6614491985, 
+    23517540.028505366, 
+    8955855529.826708, 
+    69111387.12431712, 
+    698242845.3664538, 
+    131895413.38167956, 
+    596232027.5063617, 
+    17175758.037377246, 
+    3387066178.061637, 
+    451630.09189061425, 
+    140866942.9940062, 
+    31673084.75440056, 
+    151052066.9294247, 
+    394209698.1909813, 
+    2607269365.675574, 
+    397661611.8344194, 
+    24670666598.716213, 
+    1426687414.0139165, 
+    12929769.520614032, 
+    1425205.560047485, 
+    15765462.163562618, 
+    749302975.3473494, 
+    144141385.0013608, 
+    67988986.15945625, 
+    498533025.5573744, 
+    250044926.91480553, 
+    33808090.533013225, 
+    75998.12688560813, 
+    4413377783.824987, 
+    178628531.2226462, 
+    2196160333.205058, 
+    14436999003.667107, 
+    1861675135.8219516, 
+    47671084.5860461, 
+    1828856.6983884387, 
+    12377584754.116041, 
+    355903.94373250246, 
+    7209374635.864913, 
+    236217119.0402039, 
+    8058867.375277723, 
+    1690771.8065260653, 
+    15759896.259081043, 
+    1215066410.2278237
+  ]
+}

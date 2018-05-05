@@ -1,0 +1,166 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationDensity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.2301
+        ], 
+        [
+          "elevation", 
+          0.2361
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          7.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.2252
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2295
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.2356
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2361
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2361
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2362
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.2362
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2362
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.2374
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (elevation)", 
+          0.2453
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (elevation)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationTotal]>(timeZone|Eastern_European_Time)>(country|Estonia)", 
+      0.1931
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|California)", 
+      0.2256
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_European_Time)>(isPartOf|Alytus_County)", 
+      0.2286
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Central_District_(Rafsanjan_County))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2303
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Fars_Province)>(isPartOf|Larestan_County)", 
+      0.2315
+    ], 
+    [
+      "Town[elevation]>(type|Towns_of_the_People's_Republic_of_China)>(country|China)", 
+      0.2374
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_European_Time)>(isPartOf|Kaunas_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2381
+    ], 
+    [
+      "Location[populationTotal]>(isPartOf|Fars_Province)", 
+      0.2423
+    ], 
+    [
+      "Island[elevation]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2453
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Central_District_(Rafsanjan_County))", 
+      0.2468
+    ]
+  ], 
+  "values": [
+    0.7, 
+    1026.95, 
+    1027.0, 
+    101.5, 
+    40.7, 
+    50.0, 
+    8760.0
+  ]
+}

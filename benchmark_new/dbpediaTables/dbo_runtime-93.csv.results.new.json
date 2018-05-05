@@ -1,0 +1,116 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.2074
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          0.2061
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.207
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.207
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.2074
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.2076
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          18.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          16.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          5.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "City[populationTotal]>(isPartOf|Arkansas)", 
+      0.2013
+    ], 
+    [
+      "Location[populationTotal]>(country|Spain)>(isPartOf|Province_of_Tarragona)>(22-rdf-syntax-ns#type|_Feature)>(type|Municipalities_of_Spain)>(timeZone|Central_European_Time)", 
+      0.2065
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Spain)>(isPartOf|Province_of_Tarragona)>(22-rdf-syntax-ns#type|_Feature)>(type|Municipalities_of_Spain)>(timeZone|Central_European_Time)", 
+      0.2065
+    ], 
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(country|Northern_Ireland)>(county|County_Down)", 
+      0.2077
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|Northern_Ireland)>(county|County_Down)", 
+      0.2077
+    ], 
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(country|Lancashire)", 
+      0.2081
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|Lancashire)", 
+      0.2081
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(region|Liguria)", 
+      0.2093
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(region|Liguria)", 
+      0.2093
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|Arkansas)>(type|City)", 
+      0.2094
+    ]
+  ], 
+  "values": [
+    5520.0, 
+    1037.0, 
+    5400.0, 
+    900.0, 
+    206.0
+  ]
+}

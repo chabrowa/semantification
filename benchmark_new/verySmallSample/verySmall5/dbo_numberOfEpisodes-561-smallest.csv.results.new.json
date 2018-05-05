@@ -1,0 +1,206 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEpisodes"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.1487
+        ], 
+        [
+          "number", 
+          0.1576
+        ], 
+        [
+          "elevation", 
+          0.161
+        ], 
+        [
+          "height", 
+          0.1623
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          4.0
+        ], 
+        [
+          "number", 
+          3.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ], 
+        [
+          "height", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1467
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1467
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1467
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.1478
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1549
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.1576
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.1577
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.158
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1608
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1612
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1612
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1612
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (height)", 
+          0.1623
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Town[populationDensity]>(isPartOf|Pennsylvania)", 
+      0.1383
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Michigan)", 
+      0.1468
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|New_York)>(type|Town)", 
+      0.1549
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|New_York)>(type|Town)", 
+      0.1549
+    ], 
+    [
+      "Person[number]", 
+      0.1574
+    ], 
+    [
+      "Agent[number]", 
+      0.1574
+    ], 
+    [
+      "Athlete[number]", 
+      0.158
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Marin_County,_California)", 
+      0.1608
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|California)>(isPartOf|Marin_County,_California)", 
+      0.1612
+    ], 
+    [
+      "Location[height]>(location|Australia)", 
+      0.1623
+    ]
+  ], 
+  "values": [
+    20.0, 
+    24.0, 
+    10.0, 
+    54.0, 
+    2.0, 
+    76.0, 
+    13.0
+  ]
+}

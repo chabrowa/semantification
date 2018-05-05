@@ -1,0 +1,208 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/oclc"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaLand", 
+          0.5016
+        ], 
+        [
+          "areaTotal", 
+          0.5022
+        ], 
+        [
+          "oclc", 
+          0.5035
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          6.0
+        ], 
+        [
+          "areaLand", 
+          3.0
+        ], 
+        [
+          "oclc", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.5014
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.5016
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.5016
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.5021
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.5021
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.5028
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.5028
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.5028
+        ], 
+        [
+          "http://dbpedia.org/ontology/AcademicJournal (oclc)", 
+          0.5035
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          0.5035
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          0.5035
+        ], 
+        [
+          "http://dbpedia.org/ontology/PeriodicalLiterature (oclc)", 
+          0.5035
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          18.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AcademicJournal (oclc)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PeriodicalLiterature (oclc)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "City[areaLand]>(leaderName|Mayor)>(governmentType|Council%E2%80%93manager_government)>(timeZone|Central_Time_Zone)>(country|United_States)>(type|City)", 
+      0.5
+    ], 
+    [
+      "Settlement[areaLand]>(isPartOf|Illinois)>(22-rdf-syntax-ns#type|_Feature)>(country|United_States)", 
+      0.5
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(region|Marche)>(province|Province_of_Macerata)", 
+      0.5
+    ], 
+    [
+      "BodyOfWater[areaTotal]>(type|Trophic_state_index)", 
+      0.5
+    ], 
+    [
+      "City[areaTotal]>(leaderName|Mayor)>(country|United_States)>(timeZone|Central_Time_Zone)>(type|City)", 
+      0.5027
+    ], 
+    [
+      "City[areaTotal]>(leaderName|Mayor)>(country|United_States)>(timeZone|Central_Time_Zone)>(type|City)>(governmentType|Council%E2%80%93manager_government)", 
+      0.5028
+    ], 
+    [
+      "City[areaTotal]>(leaderName|Mayor)>(country|United_States)>(timeZone|Central_Time_Zone)>(type|City)>(governmentType|Council%E2%80%93manager_government)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5029
+    ], 
+    [
+      "AcademicJournal[oclc]>(publisher|Elsevier)", 
+      0.5035
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(region|Lazio)", 
+      0.5048
+    ], 
+    [
+      "Settlement[areaLand]>(isPartOf|Illinois)", 
+      0.5049
+    ]
+  ], 
+  "values": [
+    34737173.0
+  ]
+}

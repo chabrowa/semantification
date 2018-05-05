@@ -1,0 +1,173 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/width"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "width", 
+          0.3095
+        ], 
+        [
+          "height", 
+          0.3113
+        ], 
+        [
+          "populationDensity", 
+          0.3318
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          6.0
+        ], 
+        [
+          "height", 
+          2.0
+        ], 
+        [
+          "width", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Device (width)", 
+          0.3095
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (width)", 
+          0.3095
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (height)", 
+          0.3113
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (height)", 
+          0.3113
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.3275
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.3318
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.3318
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.3324
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.3373
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (width)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Device[width]", 
+      0.3095
+    ], 
+    [
+      "Weapon[width]", 
+      0.3095
+    ], 
+    [
+      "Device[height]", 
+      0.3113
+    ], 
+    [
+      "Weapon[height]", 
+      0.3113
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Nebraska)>(type|Civil_township)", 
+      0.3125
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Nebraska)", 
+      0.3125
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Minnesota)>(type|Township_(United_States))>(isPartOf|Polk_County,_Minnesota)", 
+      0.3374
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Minnesota)>(isPartOf|Polk_County,_Minnesota)", 
+      0.3374
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Soria)", 
+      0.3455
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Soria)", 
+      0.3455
+    ]
+  ], 
+  "values": [
+    2.0677788684888463, 
+    0.032759643465410146, 
+    3.3897251700260442, 
+    2.104676270711741, 
+    2.0470938933771645, 
+    2.499046279436843, 
+    2.5449004278317298, 
+    1.5223856327598262, 
+    2.940617300941271, 
+    0.05457835596079034, 
+    3.079410137115839, 
+    1.8152377950485372, 
+    2.1574688203729773, 
+    2.0230320575602083
+  ]
+}

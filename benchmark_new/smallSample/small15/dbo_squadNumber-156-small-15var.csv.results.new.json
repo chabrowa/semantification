@@ -1,0 +1,213 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/squadNumber"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfEpisodes", 
+          0.1505
+        ], 
+        [
+          "elevation", 
+          0.1887
+        ], 
+        [
+          "squadNumber", 
+          0.207
+        ], 
+        [
+          "number", 
+          0.2201
+        ]
+      ], 
+      "maj": [
+        [
+          "squadNumber", 
+          5.0
+        ], 
+        [
+          "numberOfEpisodes", 
+          2.0
+        ], 
+        [
+          "number", 
+          2.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          0.1505
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionSeason (numberOfEpisodes)", 
+          0.1641
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1887
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1887
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1887
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (squadNumber)", 
+          0.207
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (squadNumber)", 
+          0.2071
+        ], 
+        [
+          "http://dbpedia.org/ontology/OrganisationMember (squadNumber)", 
+          0.2072
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeamMember (squadNumber)", 
+          0.2079
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.2201
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.2201
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.2201
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          0.2201
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (squadNumber)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (squadNumber)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionSeason (numberOfEpisodes)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeamMember (squadNumber)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/OrganisationMember (squadNumber)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "TelevisionSeason[numberOfEpisodes]", 
+      0.1098
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Rendsburg-Eckernf%C3%B6rde)", 
+      0.1887
+    ], 
+    [
+      "TelevisionSeason[numberOfEpisodes]>(network|American_Broadcasting_Company)", 
+      0.1913
+    ], 
+    [
+      "Person[squadNumber]", 
+      0.2066
+    ], 
+    [
+      "SportsTeamMember[squadNumber]", 
+      0.2066
+    ], 
+    [
+      "OrganisationMember[squadNumber]", 
+      0.2066
+    ], 
+    [
+      "Agent[squadNumber]", 
+      0.2066
+    ], 
+    [
+      "SportsTeamMember[squadNumber]>(position|Midfielder)", 
+      0.2085
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Indonesia)", 
+      0.2175
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Ukrainian_Soviet_Socialist_Republic)", 
+      0.2227
+    ]
+  ], 
+  "values": [
+    20.0, 
+    21.0, 
+    4.0, 
+    28.0, 
+    26.0, 
+    22.0, 
+    23.0, 
+    22.0, 
+    10.0, 
+    18.0, 
+    44.0, 
+    8.0, 
+    26.0, 
+    11.0
+  ]
+}

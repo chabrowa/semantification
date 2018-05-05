@@ -1,0 +1,308 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/maximumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "maximumElevation", 
+          0.0763
+        ], 
+        [
+          "elevation", 
+          0.0891
+        ], 
+        [
+          "numberOfStudents", 
+          0.0945
+        ], 
+        [
+          "minimumElevation", 
+          0.096
+        ], 
+        [
+          "populationTotal", 
+          0.1206
+        ]
+      ], 
+      "maj": [
+        [
+          "maximumElevation", 
+          4.0
+        ], 
+        [
+          "numberOfStudents", 
+          3.0
+        ], 
+        [
+          "populationTotal", 
+          1.0
+        ], 
+        [
+          "minimumElevation", 
+          1.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (maximumElevation)", 
+          0.0763
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.0763
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (maximumElevation)", 
+          0.0794
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.0891
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.0891
+        ], 
+        [
+          "http://dbpedia.org/ontology/MountainRange (elevation)", 
+          0.0891
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (maximumElevation)", 
+          0.0918
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          0.0932
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.0945
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.0945
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.0945
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.096
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (minimumElevation)", 
+          0.096
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (minimumElevation)", 
+          0.096
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (minimumElevation)", 
+          0.096
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1206
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1206
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1206
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1206
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (maximumElevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MountainRange (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "ArchitecturalStructure[maximumElevation]", 
+      0.0671
+    ], 
+    [
+      "SportFacility[maximumElevation]", 
+      0.0671
+    ], 
+    [
+      "SkiArea[maximumElevation]", 
+      0.0671
+    ], 
+    [
+      "School[numberOfStudents]>(state|California)>(type|State_school)>(22-rdf-syntax-ns#type|_Feature)>(country|United_States)", 
+      0.0873
+    ], 
+    [
+      "MountainRange[elevation]", 
+      0.0891
+    ], 
+    [
+      "School[numberOfStudents]>(state|California)>(type|State_school)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0924
+    ], 
+    [
+      "SkiArea[minimumElevation]>(location|United_States)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.096
+    ], 
+    [
+      "School[numberOfStudents]>(state|California)>(type|State_school)", 
+      0.1039
+    ], 
+    [
+      "SkiArea[maximumElevation]>(location|United_States)", 
+      0.1042
+    ], 
+    [
+      "Village[populationTotal]>(country|India)>(isPartOf|Orathanadu_Taluk)", 
+      0.1206
+    ]
+  ], 
+  "values": [
+    1355.2884898294913, 
+    2340.487614602072, 
+    2108.71778559452, 
+    2518.8162572196184, 
+    433.3952386359872, 
+    2476.989725457043, 
+    2094.524344952906, 
+    2595.1309502130543, 
+    1108.8297704880765, 
+    4096.922219222221, 
+    2123.050398513592, 
+    289.60704842039013, 
+    1533.3928676033236, 
+    530.60690342103, 
+    3909.1037774481465, 
+    1139.1426222657533, 
+    2376.185421207536, 
+    431.3406972863671, 
+    1209.6377740520843, 
+    3064.9625337870298, 
+    788.8051709116788, 
+    3238.5455285763974, 
+    1641.584838799784, 
+    2077.1319339932256, 
+    3348.261183621934, 
+    2625.6454790035314, 
+    2788.2462253504686, 
+    2858.167821196895, 
+    0.0, 
+    444.8950642780047, 
+    1467.6818741007417, 
+    2248.5063716563327, 
+    301.7982134454948, 
+    2132.020070244353, 
+    2567.5628385621376, 
+    3081.2811702885992, 
+    2033.4949761108944, 
+    1225.071537668187, 
+    2178.218845804168, 
+    1113.6512752191134, 
+    2914.174703802586, 
+    1631.0432802351013, 
+    614.8190718949396, 
+    2559.7381927332035, 
+    325.20726410155817, 
+    2804.7481702209193, 
+    1418.9834247791632, 
+    961.0151619879529, 
+    839.7119951395108, 
+    163.40913864220778, 
+    910.9259107142889, 
+    690.7323959297635, 
+    1796.0577857336193
+  ]
+}

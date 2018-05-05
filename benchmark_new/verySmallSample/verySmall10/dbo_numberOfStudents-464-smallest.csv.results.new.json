@@ -1,0 +1,131 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfStudents"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1246
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          0.1195
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1233
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1253
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1253
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.128
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          0.1328
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          5.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationTotal]>(country|Spain)>(isPartOf|Province_of_Granada)>(timeZone|Central_European_Time)", 
+      0.11
+    ], 
+    [
+      "Location[populationTotal]>(country|Spain)>(isPartOf|Province_of_Granada)", 
+      0.1136
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|Oregon)>(type|City)>(timeZone|Pacific_Time_Zone)>(country|United_States)", 
+      0.1167
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|Oregon)>(type|City)>(timeZone|Pacific_Time_Zone)", 
+      0.1174
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|Oregon)>(type|City)", 
+      0.1227
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|Arkansas)", 
+      0.1262
+    ], 
+    [
+      "Town[populationTotal]>(isPartOf|Pennsylvania)>(22-rdf-syntax-ns#type|_Feature)>(type|Township_(Pennsylvania))>(country|United_States)", 
+      0.1328
+    ], 
+    [
+      "Location[populationTotal]>(country|Spain)>(isPartOf|Province_of_Valencia)>(type|Municipalities_of_Spain)", 
+      0.1343
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(region|Provence-Alpes-C%C3%B4te_d'Azur)", 
+      0.1361
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(region|Provence-Alpes-C%C3%B4te_d'Azur)", 
+      0.1361
+    ]
+  ], 
+  "values": [
+    889.0, 
+    246.0, 
+    240.0, 
+    2253.0, 
+    1636.0, 
+    631.0, 
+    2932.0, 
+    17285.0, 
+    1174.0, 
+    2237.0, 
+    18870.0, 
+    10148.0
+  ]
+}

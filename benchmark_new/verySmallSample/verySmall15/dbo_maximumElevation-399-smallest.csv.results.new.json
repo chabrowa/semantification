@@ -1,0 +1,235 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/maximumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.0768
+        ], 
+        [
+          "maximumElevation", 
+          0.0833
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          9.0
+        ], 
+        [
+          "maximumElevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.0733
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.0751
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0785
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0785
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.0825
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.0833
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          0.0833
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationTotal]>(country|France)>(department|Marne)", 
+      0.0547
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(department|Marne)", 
+      0.0547
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Lorestan_Province)>(isPartOf|Azna_County)", 
+      0.079
+    ], 
+    [
+      "Location[populationTotal]>(country|Slovenia)>(isPartOf|Carinthia_Statistical_Region)", 
+      0.0797
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Lorestan_Province)>(isPartOf|Azna_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0825
+    ], 
+    [
+      "PopulatedPlace[maximumElevation]", 
+      0.0833
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|West_Azerbaijan_Province)", 
+      0.0844
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kurdistan_Province)>(isPartOf|Sanandaj_County)", 
+      0.0848
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(department|Aube)", 
+      0.0854
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(department|Aube)", 
+      0.0854
+    ]
+  ], 
+  "values": [
+    265.61849652373, 
+    212.8219891670393, 
+    40.075844171574865, 
+    190.5486497087983, 
+    114.27396522319175, 
+    242.52112562708302, 
+    165.13033352537667, 
+    47.82668640209784, 
+    668.3508827547674, 
+    206.90005019951457, 
+    186.3371699602347, 
+    402.6573615913618, 
+    126.3504279950676, 
+    773.1908683599622, 
+    113.04983659615941, 
+    107.28469250547444, 
+    280.07552840734775, 
+    382.796367675344, 
+    321.94054038973366, 
+    221.79672282066142, 
+    123.98181255980424, 
+    113.1266357362077, 
+    199.84694100433865, 
+    249.71822690042606, 
+    151.14877984600903, 
+    676.5557373902703, 
+    1404.623837262705, 
+    846.2697873029654, 
+    143.2841076939439, 
+    126.88711018796802, 
+    229.79800096538452, 
+    301.5682939797885, 
+    359.1861045580664, 
+    1001.1223455507053, 
+    471.05587080090305, 
+    20.73236871190707, 
+    74.7553205131223, 
+    4090.527360895434, 
+    102.25881565221471, 
+    267.3548486579835, 
+    85.99237872201168, 
+    1196.4158279039552, 
+    47.88962954360178, 
+    127.08044467537852, 
+    151.31593703022205, 
+    354.57303037665537, 
+    248.6396359202353, 
+    183.61670789264016, 
+    904.6185780685372, 
+    110.57550019020536, 
+    1532.3815204995537, 
+    567.813803842594, 
+    132.49680703940672, 
+    171.01677657560356, 
+    1449.3333504171299, 
+    357.87505490655843, 
+    120.21849131063992, 
+    394.54361723404594, 
+    776.961509786806, 
+    105.07195547150434, 
+    672.2999870173747, 
+    1435.47794222373, 
+    136.28288651828387, 
+    1287.1507307363818, 
+    711.6233404438594, 
+    164.91101792963698, 
+    78.65419849125769, 
+    88.77954567318312, 
+    112.9447607085643, 
+    1233.6208681998773, 
+    931.807443664386, 
+    949.177075431952, 
+    101.05872805682203, 
+    281.92254186993523, 
+    61.35128000652454, 
+    159.63134423308512, 
+    31.108622009062014, 
+    206.1530067167658, 
+    79.48549343477261, 
+    142.03807644209547, 
+    334.09437024975796, 
+    198.53246660912447, 
+    144.11104944388418, 
+    149.23257637490175, 
+    166.24659554524158, 
+    1288.316422797034, 
+    136.96970594732855, 
+    42.86278165130431, 
+    294.9325322010757, 
+    245.45482022483625, 
+    393.8910731130866, 
+    80.54284442882526, 
+    301.98893958253524, 
+    200.0844500966918, 
+    132.45757595498975, 
+    418.18463352747665, 
+    617.9153436427447, 
+    120.24047414437531, 
+    655.5041007265502, 
+    1203.483903900282
+  ]
+}

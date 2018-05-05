@@ -1,0 +1,275 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/topSpeed"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "height", 
+          0.0876
+        ], 
+        [
+          "populationDensity", 
+          0.0888
+        ], 
+        [
+          "topSpeed", 
+          0.1034
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          6.0
+        ], 
+        [
+          "topSpeed", 
+          2.0
+        ], 
+        [
+          "height", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.0875
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (height)", 
+          0.0875
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          0.0875
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.0875
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (height)", 
+          0.0877
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.0891
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.0891
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.0899
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.0906
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (topSpeed)", 
+          0.1034
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (topSpeed)", 
+          0.1034
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (topSpeed)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (topSpeed)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationDensity]>(country|Hungary)>(isPartOf|Somogy_County)", 
+      0.0695
+    ], 
+    [
+      "Settlement[populationDensity]>(country|Hungary)>(isPartOf|Somogy_County)", 
+      0.0695
+    ], 
+    [
+      "Dam[height]>(location|South_Africa)", 
+      0.0875
+    ], 
+    [
+      "Location[height]>(location|South_Africa)", 
+      0.0877
+    ], 
+    [
+      "Location[populationDensity]>(country|Hungary)>(isPartOf|Baranya_County)", 
+      0.0925
+    ], 
+    [
+      "Settlement[populationDensity]>(country|Hungary)>(isPartOf|Baranya_County)", 
+      0.0946
+    ], 
+    [
+      "Location[populationDensity]>(country|Hungary)>(isPartOf|Baranya_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1033
+    ], 
+    [
+      "Settlement[populationDensity]>(country|Hungary)>(isPartOf|Baranya_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1033
+    ], 
+    [
+      "MeanOfTransportation[topSpeed]", 
+      0.1034
+    ], 
+    [
+      "Ship[topSpeed]", 
+      0.1034
+    ]
+  ], 
+  "values": [
+    38.00916393093214, 
+    60.296691854468605, 
+    25.70923056994917, 
+    15.015264428790095, 
+    37.60669896649024, 
+    16.70126706697901, 
+    38.267060424177345, 
+    46.89964452243579, 
+    18.113196961229757, 
+    55.17492457562355, 
+    22.77236252441336, 
+    27.186597261127723, 
+    30.618166832195524, 
+    20.587066126130345, 
+    36.369060178901485, 
+    46.21846231237024, 
+    19.656959896790372, 
+    46.04712435187287, 
+    26.058280445334034, 
+    34.15460916055645, 
+    32.3215895455263, 
+    28.719617905687482, 
+    36.78225841301016, 
+    49.257834322498724, 
+    29.266710807092895, 
+    51.5797327944963, 
+    32.79269726147414, 
+    28.454939911776762, 
+    30.298839729853853, 
+    33.171973189395715, 
+    18.55755691740169, 
+    29.923229714750992, 
+    47.88087082354981, 
+    27.467788806214493, 
+    22.174828059546705, 
+    59.906096019794575, 
+    22.882839667264697, 
+    24.619401390491923, 
+    20.41784461809237, 
+    19.756694391015344, 
+    27.648974501693182, 
+    13.110081154012281, 
+    23.99525233687502, 
+    45.29319395052107, 
+    28.723507118403752, 
+    36.532467255119755, 
+    9.110855969185984, 
+    53.216685730051864, 
+    61.23435209829727, 
+    19.338423290447228, 
+    67.30071947319335, 
+    37.982040992429674, 
+    42.092982401376, 
+    30.595327636538133, 
+    29.736978368353387, 
+    21.276932784735216, 
+    19.37655539220629, 
+    25.994471513246868, 
+    46.31678197232307, 
+    46.2957850746824, 
+    20.479349094487745, 
+    23.944790217078133, 
+    30.10240997316453, 
+    55.61782696994656, 
+    65.36627632472043, 
+    24.316400903404606, 
+    39.702141659515014, 
+    25.768357528965357, 
+    34.66725103927669, 
+    10.236031188785725, 
+    52.61915856529721, 
+    38.69473873883656, 
+    18.515195342580032, 
+    64.82780310520191, 
+    39.911879790410985, 
+    27.323805003962317, 
+    39.48998777194747, 
+    27.42894311241933, 
+    26.795390805337217, 
+    60.309711889016086, 
+    51.618746552435745, 
+    26.40853408506589, 
+    20.161391790236763, 
+    55.68398211719267, 
+    36.26951406228961, 
+    37.597172061836744, 
+    37.32767294046952, 
+    22.96681363863532, 
+    23.00848477155622, 
+    27.315689598746527, 
+    24.406394289403792, 
+    71.10603145177211, 
+    17.863514751254925, 
+    16.746581767312342, 
+    34.269573233666726, 
+    51.63740017465488, 
+    25.98001878998326, 
+    14.676201901554835, 
+    38.43404076750579, 
+    36.06088706522459
+  ]
+}

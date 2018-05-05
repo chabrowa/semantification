@@ -1,0 +1,287 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/yearOfConstruction"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "activeYearsStartYear", 
+          0.2798
+        ], 
+        [
+          "foundingYear", 
+          0.2853
+        ], 
+        [
+          "deathYear", 
+          0.2858
+        ], 
+        [
+          "elevation", 
+          0.3233
+        ], 
+        [
+          "areaCode", 
+          0.3256
+        ]
+      ], 
+      "maj": [
+        [
+          "foundingYear", 
+          3.0
+        ], 
+        [
+          "deathYear", 
+          2.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          2.0
+        ], 
+        [
+          "areaCode", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsStartYear)", 
+          0.256
+        ], 
+        [
+          "http://dbpedia.org/ontology/Philosopher (deathYear)", 
+          0.2585
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.2798
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsStartYear)", 
+          0.2798
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          0.2798
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.2853
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          0.2853
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.2853
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          0.2858
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          0.2858
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          0.2887
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (deathYear)", 
+          0.313
+        ], 
+        [
+          "http://dbpedia.org/ontology/Saint (deathYear)", 
+          0.313
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.3233
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.3233
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.3233
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.3233
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          0.3256
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Saint (deathYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Philosopher (deathYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (deathYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsStartYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "School[foundingYear]>(type|Independent_school_(United_Kingdom))", 
+      0.25
+    ], 
+    [
+      "ChristianBishop[activeYearsStartYear]", 
+      0.256
+    ], 
+    [
+      "Philosopher[deathYear]", 
+      0.2585
+    ], 
+    [
+      "School[foundingYear]>(type|Independent_school_(United_Kingdom))>(religion|Church_of_England)>(country|England)", 
+      0.2806
+    ], 
+    [
+      "Cleric[activeYearsStartYear]", 
+      0.3036
+    ], 
+    [
+      "Saint[deathYear]>(beatifiedBy|Pope_John_Paul_II)", 
+      0.313
+    ], 
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.3233
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.3233
+    ], 
+    [
+      "School[foundingYear]>(type|Academy_(English_school))>(type|Grammar_school)", 
+      0.3253
+    ], 
+    [
+      "Location[areaCode]>(country|England)>(country|Oxfordshire)", 
+      0.3256
+    ]
+  ], 
+  "values": [
+    1779.0, 
+    1764.0, 
+    1741.0, 
+    2055.0, 
+    1791.0, 
+    1789.0, 
+    2017.0, 
+    1776.0, 
+    1686.0, 
+    1839.0, 
+    1952.0, 
+    1825.0, 
+    1956.0, 
+    1798.0, 
+    1861.0, 
+    1726.0, 
+    1755.0, 
+    1861.0, 
+    1781.0, 
+    2031.0, 
+    1934.0, 
+    1737.0, 
+    1908.0, 
+    1829.0, 
+    1743.0, 
+    1703.0, 
+    2073.0, 
+    1992.0, 
+    1707.0, 
+    1976.0, 
+    1984.0, 
+    1958.0, 
+    1750.0, 
+    2041.0, 
+    1809.0, 
+    1827.0, 
+    1751.0, 
+    2052.0, 
+    1981.0, 
+    2075.0
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runwayLength"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaCode", 
+          0.2823
+        ], 
+        [
+          "populationTotal", 
+          0.3171
+        ], 
+        [
+          "elevation", 
+          0.3305
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          5.0
+        ], 
+        [
+          "areaCode", 
+          3.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.2621
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          0.2621
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          0.2621
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaCode)", 
+          0.2623
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.292
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.3135
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.3214
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.3214
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          0.3227
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.3305
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.3305
+        ], 
+        [
+          "http://dbpedia.org/ontology/MountainRange (elevation)", 
+          0.3305
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.3361
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaCode)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MountainRange (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "City[areaCode]>(country|India)>(isPartOf|Maharashtra)", 
+      0.2603
+    ], 
+    [
+      "City[areaCode]>(country|India)>(isPartOf|Maharashtra)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2639
+    ], 
+    [
+      "Location[populationTotal]>(type|Village_development_committee)>(isPartOf|Lamjung_District)", 
+      0.2857
+    ], 
+    [
+      "Village[populationTotal]>(type|Village_development_committee)>(isPartOf|Dhawalagiri_Zone)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.292
+    ], 
+    [
+      "Location[populationTotal]>(type|Village_development_committee)>(isPartOf|Dhawalagiri_Zone)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3065
+    ], 
+    [
+      "MountainRange[elevation]>(country|Canada)", 
+      0.3103
+    ], 
+    [
+      "Location[areaCode]>(country|Germany)>(federalState|North_Rhine-Westphalia)", 
+      0.3227
+    ], 
+    [
+      "MountainRange[elevation]>(country|Austria)", 
+      0.3506
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(province|Province_of_Udine)", 
+      0.3507
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(province|Province_of_Udine)", 
+      0.3507
+    ]
+  ], 
+  "values": [
+    2200.0, 
+    2200.05, 
+    3000.0, 
+    3000.15, 
+    2400.0, 
+    2400.0, 
+    1676.4
+  ]
+}

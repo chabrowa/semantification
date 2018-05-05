@@ -1,0 +1,160 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaWater"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.5
+        ], 
+        [
+          "area", 
+          0.5004
+        ], 
+        [
+          "areaLand", 
+          0.5038
+        ]
+      ], 
+      "maj": [
+        [
+          "area", 
+          5.0
+        ], 
+        [
+          "areaTotal", 
+          4.0
+        ], 
+        [
+          "areaLand", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (area)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (area)", 
+          0.5005
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          0.5006
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          0.5006
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          0.5038
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (area)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (area)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[area]>(region|Lower_Normandy)>(arrondissement|Arrondissement_of_Saint-L%C3%B4)", 
+      0.5
+    ], 
+    [
+      "Location[area]>(region|Lorraine_(region))>(arrondissement|Arrondissement_of_Briey)", 
+      0.5
+    ], 
+    [
+      "Settlement[area]>(department|Meurthe-et-Moselle)>(arrondissement|Arrondissement_of_Briey)", 
+      0.5
+    ], 
+    [
+      "Settlement[area]>(department|Manche)>(arrondissement|Arrondissement_of_Saint-L%C3%B4)", 
+      0.5
+    ], 
+    [
+      "Location[areaTotal]>(type|Census-designated_place)>(timeZone|Hawaii%E2%80%93Aleutian_Time_Zone)>(isPartOf|Hawaii)", 
+      0.5
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(province|Province_of_Naples)", 
+      0.5
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(province|Province_of_Naples)>(region|Campania)", 
+      0.5
+    ], 
+    [
+      "BodyOfWater[areaTotal]>(type|Trophic_state_index)", 
+      0.5
+    ], 
+    [
+      "Settlement[area]>(department|Eure)", 
+      0.5019
+    ], 
+    [
+      "Location[areaLand]>(isPartOf|New_Jersey)", 
+      0.5038
+    ]
+  ], 
+  "values": [
+    7562770.0
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/topSpeed"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfEpisodes", 
+          0.2559
+        ], 
+        [
+          "height", 
+          0.2604
+        ], 
+        [
+          "number", 
+          0.2833
+        ]
+      ], 
+      "maj": [
+        [
+          "numberOfEpisodes", 
+          5.0
+        ], 
+        [
+          "height", 
+          4.0
+        ], 
+        [
+          "number", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/TelevisionSeason (numberOfEpisodes)", 
+          0.246
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          0.2559
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (height)", 
+          0.26
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (height)", 
+          0.26
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.2604
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          0.2604
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.2604
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          0.2649
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          0.2833
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.2833
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.2833
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.2833
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (height)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (height)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionSeason (numberOfEpisodes)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "TelevisionSeason[numberOfEpisodes]>(network|American_Broadcasting_Company)>(country|United_States)", 
+      0.2374
+    ], 
+    [
+      "TelevisionShow[numberOfEpisodes]>(language|Cantonese)>(format|Serial_(radio_and_television))", 
+      0.2464
+    ], 
+    [
+      "TelevisionSeason[numberOfEpisodes]>(network|NBC)>(country|United_States)", 
+      0.2546
+    ], 
+    [
+      "Dam[height]>(owner|Government_of_Maharashtra)>(22-rdf-syntax-ns#type|_Feature)>(owner|India)", 
+      0.2577
+    ], 
+    [
+      "Location[height]>(owner|Government_of_Maharashtra)>(22-rdf-syntax-ns#type|_Feature)>(owner|India)", 
+      0.2577
+    ], 
+    [
+      "TelevisionShow[numberOfEpisodes]>(language|Cantonese)>(format|Serial_(radio_and_television))>(format|576i)>(format|1080i)>(location|Hong_Kong)", 
+      0.263
+    ], 
+    [
+      "Dam[height]>(owner|Government_of_Maharashtra)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.263
+    ], 
+    [
+      "Location[height]>(owner|Government_of_Maharashtra)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.263
+    ], 
+    [
+      "TelevisionShow[numberOfEpisodes]>(language|Cantonese)>(format|Serial_(radio_and_television))>(format|576i)>(format|1080i)", 
+      0.2781
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Goalkeeper_(association_football))>(birthPlace|Indonesia)", 
+      0.2833
+    ]
+  ], 
+  "values": [
+    26.6688, 
+    29.632, 
+    20.0127, 
+    22.224, 
+    16.8532, 
+    32.7804, 
+    18.52, 
+    21.2054, 
+    25.928, 
+    27.78, 
+    22.224, 
+    29.632, 
+    55.56, 
+    25.002, 
+    27.2244, 
+    20.372, 
+    18.52, 
+    25.002, 
+    24.076, 
+    18.52, 
+    18.52, 
+    21.1128, 
+    23.15
+  ]
+}

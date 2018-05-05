@@ -1,0 +1,183 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/width"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.1175
+        ], 
+        [
+          "width", 
+          0.1249
+        ], 
+        [
+          "height", 
+          0.1373
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          6.0
+        ], 
+        [
+          "width", 
+          3.0
+        ], 
+        [
+          "height", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1149
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1156
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1156
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1216
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          0.1244
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          0.1249
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.1249
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          0.1256
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (height)", 
+          0.1373
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (height)", 
+          0.1373
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          18.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (height)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[elevation]>(isPartOf|New_York)>(isPartOf|Suffolk_County,_New_York)>(country|United_States)>(type|Administrative_divisions_of_New_York)>(type|Census-designated_place)", 
+      0.1094
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|New_York)>(isPartOf|Suffolk_County,_New_York)>(country|United_States)>(type|Administrative_divisions_of_New_York)", 
+      0.1154
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|California)>(isPartOf|Yolo_County,_California)", 
+      0.1156
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Yolo_County,_California)", 
+      0.1196
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|New_York)>(isPartOf|Suffolk_County,_New_York)>(country|United_States)", 
+      0.122
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Yolo_County,_California)>(country|United_States)", 
+      0.1232
+    ], 
+    [
+      "ArchitecturalStructure[width]", 
+      0.1235
+    ], 
+    [
+      "RouteOfTransportation[width]", 
+      0.1244
+    ], 
+    [
+      "Infrastructure[width]", 
+      0.1267
+    ], 
+    [
+      "Ship[height]", 
+      0.1373
+    ]
+  ], 
+  "values": [
+    19.532987658537852, 
+    9.577712396407206, 
+    25381.791688851044, 
+    3.9754170748913027, 
+    19.33856048464179, 
+    9.698152542339928, 
+    7.550481443995607, 
+    6.5198868392333935, 
+    25.961916751114636, 
+    19.778409234875955, 
+    16.796331077711322, 
+    60.92195072143759, 
+    4.114634691264566, 
+    36.566246244816085, 
+    9.233104962929804, 
+    5.659620732637834
+  ]
+}

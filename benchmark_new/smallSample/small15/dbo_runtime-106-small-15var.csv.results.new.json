@@ -1,0 +1,162 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "runtime", 
+          0.1904
+        ], 
+        [
+          "populationTotal", 
+          0.2159
+        ], 
+        [
+          "length", 
+          0.2168
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          8.0
+        ], 
+        [
+          "runtime", 
+          1.0
+        ], 
+        [
+          "length", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          0.1904
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.2156
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.2156
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2159
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2159
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cave (length)", 
+          0.2168
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.2168
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          0.2168
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cave (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Work[runtime]", 
+      0.1904
+    ], 
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(country|Hertfordshire)>(country|England)", 
+      0.2115
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|Hertfordshire)>(country|England)", 
+      0.2115
+    ], 
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(country|Gloucestershire)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2161
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|Gloucestershire)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2161
+    ], 
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(country|Lancashire)", 
+      0.2164
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|Lancashire)", 
+      0.2164
+    ], 
+    [
+      "Cave[length]", 
+      0.2168
+    ], 
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(country|Gloucestershire)", 
+      0.2197
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|Gloucestershire)", 
+      0.2197
+    ]
+  ], 
+  "values": [
+    239.7572561333171, 
+    2008.9357975922653, 
+    225.53331417210407, 
+    176.99408587638624, 
+    3696.690585630756, 
+    5329.889135126762, 
+    2125.6351539248813, 
+    5207.302849765428, 
+    3725.9468493364066, 
+    7335.484909682293, 
+    265.74309549713394
+  ]
+}

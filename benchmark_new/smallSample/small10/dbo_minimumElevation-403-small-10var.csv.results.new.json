@@ -1,0 +1,203 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/minimumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.1722
+        ], 
+        [
+          "populationDensity", 
+          0.188
+        ], 
+        [
+          "minimumElevation", 
+          0.1936
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          4.0
+        ], 
+        [
+          "elevation", 
+          4.0
+        ], 
+        [
+          "minimumElevation", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1667
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.1667
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1667
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1722
+        ], 
+        [
+          "http://dbpedia.org/ontology/Airport (elevation)", 
+          0.1728
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (elevation)", 
+          0.1734
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          0.174
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1847
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1852
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1852
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1936
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.1936
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1965
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Airport (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "City[elevation]>(timeZone|Central_European_Time)", 
+      0.1667
+    ], 
+    [
+      "Airport[elevation]", 
+      0.1728
+    ], 
+    [
+      "Infrastructure[elevation]", 
+      0.1741
+    ], 
+    [
+      "ArchitecturalStructure[elevation]", 
+      0.1753
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Nebraska)", 
+      0.1786
+    ], 
+    [
+      "Settlement[populationDensity]", 
+      0.1876
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Maine)", 
+      0.1894
+    ], 
+    [
+      "Location[minimumElevation]", 
+      0.1936
+    ], 
+    [
+      "Place[minimumElevation]", 
+      0.1936
+    ], 
+    [
+      "Location[populationDensity]", 
+      0.1965
+    ]
+  ], 
+  "values": [
+    4.746532075194924, 
+    152.94797526204633, 
+    390.94501231487715, 
+    0.0, 
+    696.927369020848, 
+    770.6046038575383, 
+    174.82953556338407, 
+    414.3098541171071, 
+    157.23501670296352, 
+    0.0, 
+    62.5367599033035, 
+    171.94840153597102
+  ]
+}

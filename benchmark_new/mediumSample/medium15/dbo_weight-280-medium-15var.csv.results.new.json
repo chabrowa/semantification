@@ -1,0 +1,153 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/weight"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1022
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1002
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1026
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1026
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          0.1029
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1168
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          15.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          3.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationTotal]>(country|Spain)>(isPartOf|Province_of_Cuenca)>(timeZone|Central_European_Time)", 
+      0.0962
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Spain)>(isPartOf|Province_of_Cuenca)", 
+      0.0962
+    ], 
+    [
+      "Location[populationTotal]>(country|Spain)>(isPartOf|Province_of_Cuenca)", 
+      0.0971
+    ], 
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(country|Suffolk)", 
+      0.0985
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|Suffolk)", 
+      0.0985
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(department|Haute-Garonne)", 
+      0.0987
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(department|Haute-Garonne)", 
+      0.0987
+    ], 
+    [
+      "Town[populationTotal]>(isPartOf|Kansas)>(timeZone|Central_Time_Zone)", 
+      0.1029
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|West_Azerbaijan_Province)>(isPartOf|Khoy_County)>(isPartOf|Central_District_(Khoy_County))", 
+      0.1168
+    ], 
+    [
+      "Location[populationTotal]>(country|Poland)", 
+      0.1178
+    ]
+  ], 
+  "values": [
+    5977.611515887965, 
+    118.8156440612015, 
+    404.3138828224974, 
+    54.521093131249714, 
+    80.11529777681898, 
+    370.47243870453184, 
+    1301.5204034214262, 
+    192.88400283753282, 
+    4.067477533587439, 
+    613.9078051561039, 
+    328.6251565916535, 
+    650.6794736854154, 
+    150.5271056441308, 
+    618.7336062882055, 
+    6527.238483955558, 
+    567.5625246330918, 
+    227.1370936465924, 
+    23737.07097549133, 
+    1092.2812254806129, 
+    104.47010885553682, 
+    151.9711303313869, 
+    557.5205325555952, 
+    209.93194321728376, 
+    111.77609864014936, 
+    336.12172297600785, 
+    221.21279436692896, 
+    154.0182770712915, 
+    1347.7334375024802, 
+    697.270167314616, 
+    647.6327353624948, 
+    140.26120126058854, 
+    40754.89005497653, 
+    4218.475527000518, 
+    97.44015522231904
+  ]
+}

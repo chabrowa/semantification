@@ -1,0 +1,274 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1059
+        ], 
+        [
+          "areaWater", 
+          0.218
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          9.0
+        ], 
+        [
+          "populationTotal", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1059
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1059
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (populationTotal)", 
+          0.1059
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.2158
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.2169
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.2169
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.2185
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.2196
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          17.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (populationTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Island[populationTotal]", 
+      0.1059
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Kentucky)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2105
+    ], 
+    [
+      "City[areaWater]>(isPartOf|South_Dakota)>(timeZone|Central_Time_Zone)>(country|United_States)", 
+      0.2139
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Tennessee)>(type|Census-designated_place)", 
+      0.2177
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Tennessee)>(type|Census-designated_place)", 
+      0.2177
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Washington_(state))>(type|Town)>(country|United_States)", 
+      0.2186
+    ], 
+    [
+      "City[areaWater]>(isPartOf|South_Dakota)>(timeZone|Central_Time_Zone)>(country|United_States)>(type|City)", 
+      0.2186
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Missouri)>(isPartOf|St._Louis_County,_Missouri)", 
+      0.2189
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Missouri)>(isPartOf|St._Louis_County,_Missouri)>(country|United_States)>(type|City)", 
+      0.2219
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|North_Dakota)", 
+      0.2243
+    ]
+  ], 
+  "values": [
+    408.0, 
+    0.0, 
+    1194.0, 
+    535.0, 
+    107.0, 
+    1016772.0, 
+    674.0, 
+    38720.0, 
+    81481.0, 
+    0.0, 
+    5.0, 
+    15790.0, 
+    2185.0, 
+    7132.0, 
+    81.0, 
+    755.0, 
+    0.0, 
+    8077.0, 
+    32392.0, 
+    2826.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    61782.0, 
+    26.0, 
+    0.0, 
+    14.0, 
+    1041.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    100209.0, 
+    1410.0, 
+    482.0, 
+    0.0, 
+    30777.0, 
+    0.0, 
+    197.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    999.0, 
+    24097.0, 
+    514.0, 
+    0.0, 
+    124358.0, 
+    0.0, 
+    477.0, 
+    247.0, 
+    0.0, 
+    0.0, 
+    1409.0, 
+    157.0, 
+    79776.0, 
+    0.0, 
+    0.0, 
+    360142.0, 
+    74658.0, 
+    0.0, 
+    21114.0, 
+    94.0, 
+    0.0, 
+    47.0, 
+    0.0, 
+    5.0, 
+    0.0, 
+    5161.0, 
+    0.0, 
+    148543.0, 
+    0.0, 
+    23.0, 
+    0.0, 
+    3.0, 
+    898.0, 
+    0.0, 
+    0.0, 
+    339314.0, 
+    0.0, 
+    0.0, 
+    313.0, 
+    0.0, 
+    0.0, 
+    409121.0, 
+    6.0, 
+    0.0, 
+    138.0, 
+    40657.0, 
+    843820.0, 
+    4.0, 
+    4.0, 
+    2.0, 
+    0.0, 
+    0.0, 
+    96106.0, 
+    0.0, 
+    0.0, 
+    4950754.0, 
+    3418.0, 
+    4.0, 
+    95.0, 
+    0.0, 
+    0.0, 
+    9800.0, 
+    0.0, 
+    0.0, 
+    1798.0, 
+    0.0, 
+    9.0, 
+    157.0, 
+    282.0, 
+    0.0, 
+    93.0, 
+    10953.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    982.0, 
+    0.0, 
+    295721.0, 
+    0.0, 
+    18027.0, 
+    264.0, 
+    664.0, 
+    1725.0, 
+    0.0, 
+    0.0, 
+    1493.0, 
+    0.0, 
+    0.0
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/foundingYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "openingYear", 
+          0.2683
+        ], 
+        [
+          "foundingYear", 
+          0.2723
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          9.0
+        ], 
+        [
+          "foundingYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          0.2583
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.2652
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.2669
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.2675
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.2679
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (openingYear)", 
+          0.2695
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          0.2711
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          0.2719
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          0.2723
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.2723
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          0.2723
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.2723
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "RailwayLine[openingYear]>(type|Light_rail)", 
+      0.2539
+    ], 
+    [
+      "RailwayLine[openingYear]", 
+      0.2673
+    ], 
+    [
+      "RouteOfTransportation[openingYear]", 
+      0.2678
+    ], 
+    [
+      "Dam[openingYear]", 
+      0.2695
+    ], 
+    [
+      "Infrastructure[openingYear]", 
+      0.271
+    ], 
+    [
+      "ArchitecturalStructure[openingYear]", 
+      0.2711
+    ], 
+    [
+      "Place[openingYear]", 
+      0.2711
+    ], 
+    [
+      "Location[openingYear]", 
+      0.2711
+    ], 
+    [
+      "Bridge[openingYear]", 
+      0.2719
+    ], 
+    [
+      "School[foundingYear]", 
+      0.2723
+    ]
+  ], 
+  "values": [
+    1929.0, 
+    2000.0, 
+    1976.0, 
+    1943.0, 
+    1823.0, 
+    2093.0, 
+    1981.0, 
+    1868.0, 
+    1914.0, 
+    2020.0, 
+    2042.0
+  ]
+}

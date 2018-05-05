@@ -1,0 +1,212 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfPages", 
+          0.1211
+        ], 
+        [
+          "elevation", 
+          0.1496
+        ], 
+        [
+          "populationDensity", 
+          0.1543
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          4.0
+        ], 
+        [
+          "numberOfPages", 
+          3.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/WrittenWork (numberOfPages)", 
+          0.1211
+        ], 
+        [
+          "http://dbpedia.org/ontology/Book (numberOfPages)", 
+          0.1211
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfPages)", 
+          0.1211
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.1465
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1496
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1496
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1496
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1516
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          0.1541
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1552
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1552
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1552
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.1558
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.1579
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfPages)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (numberOfPages)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Book (numberOfPages)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Work[numberOfPages]", 
+      0.1211
+    ], 
+    [
+      "WrittenWork[numberOfPages]", 
+      0.1211
+    ], 
+    [
+      "Book[numberOfPages]", 
+      0.1211
+    ], 
+    [
+      "Town[elevation]>(isPartOf|Oklahoma)>(type|Town)", 
+      0.1464
+    ], 
+    [
+      "Town[elevation]>(isPartOf|Oklahoma)", 
+      0.1466
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Michigan)>(type|Village_(United_States))>(timeZone|Eastern_Time_Zone)", 
+      0.1516
+    ], 
+    [
+      "Village[populationDensity]>(isPartOf|Michigan)>(timeZone|Eastern_Time_Zone)", 
+      0.1523
+    ], 
+    [
+      "Village[populationDensity]>(isPartOf|Michigan)>(timeZone|Eastern_Time_Zone)>(type|Village_(United_States))", 
+      0.1555
+    ], 
+    [
+      "Village[elevation]>(country|Czech_Republic)>(isPartOf|Central_Bohemian_Region)", 
+      0.1558
+    ], 
+    [
+      "Town[populationDensity]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)", 
+      0.1579
+    ]
+  ], 
+  "values": [
+    289.0, 
+    434.0, 
+    206.0, 
+    520.0, 
+    550.0, 
+    226.0, 
+    411.0, 
+    67.0, 
+    123.0, 
+    206.0, 
+    308.0, 
+    288.0, 
+    318.0
+  ]
+}

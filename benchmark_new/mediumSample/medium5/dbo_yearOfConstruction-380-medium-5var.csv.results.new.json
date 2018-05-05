@@ -1,0 +1,304 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/yearOfConstruction"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "serviceEndYear", 
+          0.1479
+        ], 
+        [
+          "serviceStartYear", 
+          0.1714
+        ], 
+        [
+          "yearOfConstruction", 
+          0.1848
+        ], 
+        [
+          "openingYear", 
+          0.2233
+        ], 
+        [
+          "deathYear", 
+          0.2361
+        ]
+      ], 
+      "maj": [
+        [
+          "yearOfConstruction", 
+          5.0
+        ], 
+        [
+          "deathYear", 
+          2.0
+        ], 
+        [
+          "serviceEndYear", 
+          1.0
+        ], 
+        [
+          "openingYear", 
+          1.0
+        ], 
+        [
+          "serviceStartYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          0.1479
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          0.1479
+        ], 
+        [
+          "http://dbpedia.org/ontology/Congressman (serviceEndYear)", 
+          0.1479
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceEndYear)", 
+          0.1479
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceStartYear)", 
+          0.1714
+        ], 
+        [
+          "http://dbpedia.org/ontology/Congressman (serviceStartYear)", 
+          0.1714
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceStartYear)", 
+          0.1714
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceStartYear)", 
+          0.1714
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (yearOfConstruction)", 
+          0.1844
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (yearOfConstruction)", 
+          0.185
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (yearOfConstruction)", 
+          0.185
+        ], 
+        [
+          "http://dbpedia.org/ontology/HistoricPlace (yearOfConstruction)", 
+          0.1854
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (yearOfConstruction)", 
+          0.1858
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.2233
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.2233
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          0.2233
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.2233
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.2233
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          0.2361
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (deathYear)", 
+          0.2361
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          0.2361
+        ], 
+        [
+          "http://dbpedia.org/ontology/Saint (deathYear)", 
+          0.2381
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Saint (deathYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (yearOfConstruction)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (deathYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Congressman (serviceStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Congressman (serviceEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (yearOfConstruction)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/HistoricPlace (yearOfConstruction)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (yearOfConstruction)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (yearOfConstruction)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceStartYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Congressman[serviceEndYear]>(country|United_States)", 
+      0.1479
+    ], 
+    [
+      "Congressman[serviceStartYear]>(country|United_States)", 
+      0.1714
+    ], 
+    [
+      "ArchitecturalStructure[yearOfConstruction]", 
+      0.1843
+    ], 
+    [
+      "Location[yearOfConstruction]", 
+      0.1844
+    ], 
+    [
+      "Place[yearOfConstruction]", 
+      0.1844
+    ], 
+    [
+      "HistoricPlace[yearOfConstruction]", 
+      0.1854
+    ], 
+    [
+      "Building[yearOfConstruction]", 
+      0.1858
+    ], 
+    [
+      "Bridge[openingYear]>(type|Arch_bridge)", 
+      0.2233
+    ], 
+    [
+      "Saint[deathYear]>(beatifiedBy|Pope_John_Paul_II)", 
+      0.2261
+    ], 
+    [
+      "Saint[deathYear]>(beatifiedBy|Pope_John_Paul_II)>(veneratedIn|Catholic_Church)", 
+      0.2461
+    ]
+  ], 
+  "values": [
+    2006.0, 
+    1823.0, 
+    1982.0, 
+    1901.0, 
+    1901.0, 
+    1927.0, 
+    1929.0, 
+    1838.0, 
+    1868.0, 
+    1815.0, 
+    1838.0, 
+    1836.0, 
+    1982.0, 
+    1947.0, 
+    1812.0, 
+    1871.0, 
+    1912.0, 
+    1884.0, 
+    1829.0, 
+    1833.0, 
+    1969.0, 
+    1885.0, 
+    1795.0, 
+    1843.0, 
+    1910.0
+  ]
+}

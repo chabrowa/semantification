@@ -1,0 +1,344 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/height"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.1039
+        ], 
+        [
+          "minimumElevation", 
+          0.1119
+        ], 
+        [
+          "height", 
+          0.118
+        ], 
+        [
+          "populationDensity", 
+          0.1184
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          5.0
+        ], 
+        [
+          "minimumElevation", 
+          2.0
+        ], 
+        [
+          "height", 
+          2.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.0908
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1014
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1014
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1014
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.111
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.1119
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.1119
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.1119
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1119
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1138
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (height)", 
+          0.1168
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.118
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          0.118
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.118
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (height)", 
+          0.118
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          0.1184
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1184
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1184
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1184
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[elevation]>(type|Administrative_divisions_of_New_York)", 
+      0.089
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Tr%C3%B8ndelag)", 
+      0.0925
+    ], 
+    [
+      "Town[elevation]>(type|Township_(New_Jersey))>(governmentType|Township_(New_Jersey))", 
+      0.1066
+    ], 
+    [
+      "Location[minimumElevation]>(region|Languedoc-Roussillon)>(department|H%C3%A9rault)", 
+      0.1119
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Languedoc-Roussillon)>(department|H%C3%A9rault)", 
+      0.1119
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Monterey_County,_California)", 
+      0.1138
+    ], 
+    [
+      "Bridge[height]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1168
+    ], 
+    [
+      "Town[elevation]>(type|Township_(New_Jersey))", 
+      0.1177
+    ], 
+    [
+      "City[populationDensity]>(country|Spain)>(timeZone|Central_European_Time)", 
+      0.1184
+    ], 
+    [
+      "RouteOfTransportation[height]", 
+      0.1191
+    ]
+  ], 
+  "values": [
+    279.1240927609869, 
+    89.139627742508, 
+    23.01399121508268, 
+    262.7874138253223, 
+    85.42253992649336, 
+    11.64869039941617, 
+    297.7356166454027, 
+    4.218839315103046, 
+    292.00212059627614, 
+    6.613868006947314, 
+    4.176368831161407, 
+    178.8070015335717, 
+    156.7720606498034, 
+    26.139499493971673, 
+    18.658119880853576, 
+    207.36707856660152, 
+    140.84876457277667, 
+    4.495411291744523, 
+    179.18114046539057, 
+    208.2163346445422, 
+    27.950486997603935, 
+    126.80217820676384, 
+    43.27552188917527, 
+    7.041291648364248, 
+    64.03580567306143, 
+    7.49566573889229, 
+    25.55766148581186, 
+    5.7733198199297835, 
+    59.720719927246634, 
+    78.265651475881, 
+    95.76036367620468, 
+    65.4020409759652, 
+    22.925372794073983, 
+    19.272136045830937, 
+    3.2241679352725536, 
+    77.99995063675976, 
+    21.858366607992274, 
+    103.42844997076395, 
+    6.440777104111893, 
+    10.155949600194713, 
+    48.66449277137309, 
+    22.790648660422686, 
+    40.930128807528185, 
+    35.46738019823617, 
+    4.690718405787678, 
+    29.245405040522627, 
+    27.781986612015128, 
+    25.494204833274672, 
+    122.64510096339919, 
+    19.094438581255115, 
+    60.81944503549484, 
+    265.8778869518762, 
+    21.49711573925618, 
+    20.06427145904511, 
+    129.39219288777, 
+    4.938047874279782, 
+    113.04642598783711, 
+    45.965356204036574, 
+    194.31641186487786, 
+    28.840404821226908, 
+    142.34922889374047, 
+    219.48341669545255, 
+    153.45474985737943, 
+    5.344733461392308, 
+    88.65329281285875, 
+    7.719414803579545, 
+    70.33883965744322, 
+    95.36137883492303, 
+    39.68340666339952, 
+    217.25023772513083, 
+    2.5503147919930647, 
+    15.668284017622119, 
+    5.116322971572138, 
+    26.527828717247438, 
+    14.564478626435934, 
+    167.65388707652605, 
+    44.72719687216884, 
+    21.909548473318644, 
+    40.53383141856262, 
+    178.24539109155043, 
+    7.454186096402557, 
+    260.0521927822809, 
+    61.8724788201236, 
+    55.92453831229531, 
+    221.84875508147243, 
+    27.89626284566758, 
+    346.41035187446636, 
+    131.17325606546189, 
+    4.278108867250985, 
+    9.433780907115366, 
+    256.87350662653193, 
+    352.7610054945247, 
+    149.88044792819727, 
+    198.87584371621688, 
+    8.452002803505007, 
+    68.30294220103089, 
+    33.43444065358112
+  ]
+}

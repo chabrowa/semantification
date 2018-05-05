@@ -1,0 +1,235 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/yearOfConstruction"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "serviceEndYear", 
+          0.2329
+        ], 
+        [
+          "openingYear", 
+          0.2332
+        ], 
+        [
+          "serviceStartYear", 
+          0.2381
+        ], 
+        [
+          "yearOfConstruction", 
+          0.2422
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          4.0
+        ], 
+        [
+          "yearOfConstruction", 
+          4.0
+        ], 
+        [
+          "serviceStartYear", 
+          1.0
+        ], 
+        [
+          "serviceEndYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          0.2329
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceEndYear)", 
+          0.2329
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          0.2329
+        ], 
+        [
+          "http://dbpedia.org/ontology/Congressman (serviceEndYear)", 
+          0.2329
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.2336
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.2336
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.2336
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          0.2341
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          0.2348
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceStartYear)", 
+          0.2381
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceStartYear)", 
+          0.2381
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceStartYear)", 
+          0.2381
+        ], 
+        [
+          "http://dbpedia.org/ontology/Congressman (serviceStartYear)", 
+          0.2381
+        ], 
+        [
+          "http://dbpedia.org/ontology/HistoricPlace (yearOfConstruction)", 
+          0.2412
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (yearOfConstruction)", 
+          0.2421
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (yearOfConstruction)", 
+          0.2425
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (yearOfConstruction)", 
+          0.2427
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (yearOfConstruction)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/HistoricPlace (yearOfConstruction)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Congressman (serviceEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Congressman (serviceStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (yearOfConstruction)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (yearOfConstruction)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[openingYear]>(location|Germany)", 
+      0.2265
+    ], 
+    [
+      "Station[openingYear]>(country|Germany)", 
+      0.2281
+    ], 
+    [
+      "Congressman[serviceEndYear]>(country|United_States)", 
+      0.2329
+    ], 
+    [
+      "Congressman[serviceStartYear]>(country|United_States)", 
+      0.2381
+    ], 
+    [
+      "Station[openingYear]>(country|Germany)>(location|North_Rhine-Westphalia)", 
+      0.2392
+    ], 
+    [
+      "Location[openingYear]>(location|Germany)>(location|North_Rhine-Westphalia)", 
+      0.2392
+    ], 
+    [
+      "HistoricPlace[yearOfConstruction]>(location|Baltimore)", 
+      0.2412
+    ], 
+    [
+      "ArchitecturalStructure[yearOfConstruction]", 
+      0.2425
+    ], 
+    [
+      "Location[yearOfConstruction]", 
+      0.2427
+    ], 
+    [
+      "Place[yearOfConstruction]", 
+      0.2427
+    ]
+  ], 
+  "values": [
+    1822.0, 
+    1898.0, 
+    1956.0, 
+    1860.0
+  ]
+}

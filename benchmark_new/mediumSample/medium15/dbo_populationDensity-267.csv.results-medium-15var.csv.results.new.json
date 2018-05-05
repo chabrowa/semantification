@@ -1,0 +1,256 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/width"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "width", 
+          0.3273
+        ], 
+        [
+          "populationDensity", 
+          0.3817
+        ], 
+        [
+          "shipBeam", 
+          0.3937
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          5.0
+        ], 
+        [
+          "width", 
+          4.0
+        ], 
+        [
+          "shipBeam", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (width)", 
+          0.2834
+        ], 
+        [
+          "http://dbpedia.org/ontology/Locomotive (width)", 
+          0.2978
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.3268
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (width)", 
+          0.3712
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (width)", 
+          0.3712
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.3776
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.3845
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.3845
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          0.3937
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          0.3937
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.4133
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.4133
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Locomotive (width)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (width)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Locomotive[width]", 
+      0.2402
+    ], 
+    [
+      "Locomotive[width]>(powerType|Diesel-electric_transmission)", 
+      0.3266
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Soria)", 
+      0.3268
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Soria)", 
+      0.3268
+    ], 
+    [
+      "Device[width]", 
+      0.3712
+    ], 
+    [
+      "Weapon[width]", 
+      0.3712
+    ], 
+    [
+      "Ship[shipBeam]>(type|Patrol_boat)>(builder|Massachusetts)", 
+      0.3937
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Nebraska)", 
+      0.4091
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Kansas)", 
+      0.4176
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Nebraska)>(type|Civil_township)", 
+      0.4283
+    ]
+  ], 
+  "values": [
+    2.934720316381833, 
+    3.0657185106946843, 
+    2.5547465393777173, 
+    2.9991980218143337, 
+    3.084238067678707, 
+    2.677940001211871, 
+    1.9557295072679097, 
+    2.982191861745956, 
+    3.1463809259661204, 
+    3.556335337007762, 
+    2.8511950556739656, 
+    2.5412399391902207, 
+    3.2353781973492413, 
+    3.674844081347061, 
+    3.497280285291749, 
+    2.5936132478787917, 
+    2.775662088885149, 
+    2.6419753756445163, 
+    2.1392408462985983, 
+    2.6942000417150545, 
+    2.6432500346994017, 
+    2.719125669392872, 
+    3.1952262196019436, 
+    2.774964354358919, 
+    2.777174882211604, 
+    2.984131406512971, 
+    2.7024002485397105, 
+    1.8041669697829639, 
+    2.889036489183195, 
+    2.513631942646415, 
+    3.3098800468569225, 
+    2.871371408616914, 
+    3.4587621448859167, 
+    2.9793259355781823, 
+    2.577594977896703, 
+    2.3399552257253253, 
+    2.571020570843764, 
+    3.054655086977484, 
+    2.502964762925565, 
+    3.1700968627332924, 
+    2.436334067643061, 
+    3.4471800360903426, 
+    1.9029573114851808, 
+    2.50986030836238, 
+    3.3199471941364846, 
+    2.885228268014038, 
+    2.559539416060286, 
+    2.9748063295154292, 
+    2.869337455819481, 
+    2.6506503110029263, 
+    2.6546350707402118, 
+    3.41688921419793, 
+    3.2167137326518156, 
+    2.6777856426359925, 
+    2.2109328145986558, 
+    2.891691121026605, 
+    3.160399735026241, 
+    3.4843512846810265, 
+    2.630583874176512, 
+    3.0748122805120435, 
+    2.5950092521260135, 
+    2.409741037203433, 
+    2.743774965914296, 
+    2.7638743851937564, 
+    2.1420545273440017, 
+    3.4347434767575864, 
+    2.621441540154212, 
+    3.316327069083677, 
+    3.0636981294565424, 
+    3.3327711430805254, 
+    2.092654017152081, 
+    3.1007647870474546, 
+    2.6314440577487934
+  ]
+}

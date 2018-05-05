@@ -1,0 +1,242 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEpisodes"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.1355
+        ], 
+        [
+          "populationDensity", 
+          0.1529
+        ], 
+        [
+          "minimumElevation", 
+          0.1574
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          5.0
+        ], 
+        [
+          "populationDensity", 
+          3.0
+        ], 
+        [
+          "minimumElevation", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.134
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1355
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1355
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1355
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.1408
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1516
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          0.1531
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1535
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1535
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1535
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.1574
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.1574
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.1574
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1574
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[elevation]>(isPartOf|Tr%C3%B8ndelag)", 
+      0.1187
+    ], 
+    [
+      "Village[elevation]>(type|Administrative_divisions_of_New_York)", 
+      0.1282
+    ], 
+    [
+      "Town[elevation]>(type|Township_(New_Jersey))>(governmentType|Township_(New_Jersey))", 
+      0.1395
+    ], 
+    [
+      "Town[elevation]>(type|Township_(New_Jersey))", 
+      0.1428
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Tr%C3%B8ndelag)>(isPartOf|S%C3%B8r-Tr%C3%B8ndelag)", 
+      0.1482
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Michigan)", 
+      0.1516
+    ], 
+    [
+      "City[populationDensity]>(country|Spain)>(timeZone|Central_European_Time)", 
+      0.1518
+    ], 
+    [
+      "City[populationDensity]>(country|Spain)", 
+      0.1552
+    ], 
+    [
+      "Location[minimumElevation]>(region|Languedoc-Roussillon)>(department|H%C3%A9rault)", 
+      0.1574
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Languedoc-Roussillon)>(department|H%C3%A9rault)", 
+      0.1574
+    ]
+  ], 
+  "values": [
+    43.0, 
+    192.0, 
+    7.0, 
+    22.0, 
+    900.0, 
+    97.0, 
+    78.0, 
+    100.0, 
+    826.0, 
+    16.0, 
+    7.0, 
+    154.0, 
+    57.0, 
+    52.0, 
+    10.0, 
+    13.0, 
+    8.0, 
+    18.0, 
+    8.0, 
+    65.0, 
+    16.0, 
+    67.0, 
+    182.0, 
+    800.0, 
+    6.0, 
+    6.0, 
+    39.0, 
+    155.0, 
+    250.0, 
+    12.0, 
+    10.0, 
+    6.0, 
+    105.0, 
+    10.0, 
+    8.0, 
+    801.0, 
+    1151.0, 
+    192.0, 
+    26.0, 
+    100.0, 
+    52.0, 
+    4.0, 
+    500.0
+  ]
+}

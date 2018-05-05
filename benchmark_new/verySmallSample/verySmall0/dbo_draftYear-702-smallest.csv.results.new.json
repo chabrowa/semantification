@@ -1,0 +1,307 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/draftYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "activeYearsEndYear", 
+          0.0861
+        ], 
+        [
+          "foundingYear", 
+          0.0961
+        ], 
+        [
+          "yearOfConstruction", 
+          0.1003
+        ]
+      ], 
+      "maj": [
+        [
+          "activeYearsEndYear", 
+          6.0
+        ], 
+        [
+          "foundingYear", 
+          2.0
+        ], 
+        [
+          "yearOfConstruction", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Artist (activeYearsEndYear)", 
+          0.0769
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalArtist (activeYearsEndYear)", 
+          0.0792
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.0861
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.0861
+        ], 
+        [
+          "http://dbpedia.org/ontology/IceHockeyPlayer (activeYearsEndYear)", 
+          0.0873
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (activeYearsEndYear)", 
+          0.0888
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (activeYearsEndYear)", 
+          0.0907
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bank (foundingYear)", 
+          0.094
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          0.094
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.0961
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.0961
+        ], 
+        [
+          "http://dbpedia.org/ontology/Non-ProfitOrganisation (foundingYear)", 
+          0.0982
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (activeYearsEndYear)", 
+          0.1001
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (yearOfConstruction)", 
+          0.1003
+        ], 
+        [
+          "http://dbpedia.org/ontology/Train (yearOfConstruction)", 
+          0.1003
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (activeYearsEndYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (yearOfConstruction)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bank (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalArtist (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Train (yearOfConstruction)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/IceHockeyPlayer (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Non-ProfitOrganisation (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Artist[activeYearsEndYear]", 
+      0.0746
+    ], 
+    [
+      "MusicalArtist[activeYearsEndYear]", 
+      0.0792
+    ], 
+    [
+      "Athlete[activeYearsEndYear]", 
+      0.0854
+    ], 
+    [
+      "IceHockeyPlayer[activeYearsEndYear]", 
+      0.0873
+    ], 
+    [
+      "WinterSportPlayer[activeYearsEndYear]", 
+      0.0902
+    ], 
+    [
+      "Bank[foundingYear]>(product|Cheque)", 
+      0.094
+    ], 
+    [
+      "Non-ProfitOrganisation[foundingYear]", 
+      0.0982
+    ], 
+    [
+      "BasketballPlayer[activeYearsEndYear]", 
+      0.1001
+    ], 
+    [
+      "MeanOfTransportation[yearOfConstruction]", 
+      0.1003
+    ], 
+    [
+      "Train[yearOfConstruction]", 
+      0.1003
+    ]
+  ], 
+  "values": [
+    1941.0, 
+    1991.0, 
+    1982.0, 
+    1987.0, 
+    1995.0, 
+    2016.0, 
+    1989.0, 
+    2012.0, 
+    2016.0, 
+    1945.0, 
+    1982.0, 
+    1999.0, 
+    2015.0, 
+    1969.0, 
+    2013.0, 
+    2012.0, 
+    1993.0, 
+    1946.0, 
+    1990.0, 
+    1952.0, 
+    1996.0, 
+    2016.0, 
+    2001.0, 
+    1971.0, 
+    2014.0, 
+    1995.0, 
+    1995.0, 
+    1998.0, 
+    1939.0, 
+    1984.0, 
+    1979.0, 
+    2016.0, 
+    1978.0, 
+    2003.0, 
+    1991.0, 
+    1982.0, 
+    1994.0, 
+    1983.0, 
+    2002.0, 
+    2008.0, 
+    1992.0, 
+    1993.0, 
+    1999.0, 
+    1955.0, 
+    1986.0, 
+    1988.0, 
+    1995.0, 
+    2016.0, 
+    1964.0, 
+    1976.0, 
+    1993.0, 
+    1984.0, 
+    1990.0, 
+    2011.0, 
+    2005.0, 
+    2001.0, 
+    1999.0, 
+    1947.0, 
+    2010.0, 
+    1939.0, 
+    1987.0, 
+    2003.0, 
+    1952.0, 
+    1995.0, 
+    1993.0, 
+    1949.0, 
+    1985.0, 
+    2006.0, 
+    2002.0, 
+    2004.0, 
+    1977.0, 
+    1966.0, 
+    1993.0, 
+    1965.0, 
+    1968.0, 
+    1952.0, 
+    1948.0, 
+    1987.0, 
+    2012.0, 
+    1994.0, 
+    1943.0, 
+    1996.0, 
+    1994.0, 
+    2002.0, 
+    2011.0, 
+    1994.0, 
+    1971.0, 
+    1943.0, 
+    2010.0, 
+    2000.0, 
+    2004.0, 
+    2006.0, 
+    2003.0, 
+    1976.0, 
+    2013.0, 
+    1994.0, 
+    1991.0, 
+    1959.0, 
+    1998.0, 
+    2004.0
+  ]
+}

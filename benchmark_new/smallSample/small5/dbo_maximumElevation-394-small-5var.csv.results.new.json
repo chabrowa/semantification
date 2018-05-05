@@ -1,0 +1,260 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/maximumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "minimumElevation", 
+          0.1372
+        ], 
+        [
+          "maximumElevation", 
+          0.1517
+        ], 
+        [
+          "elevation", 
+          0.1535
+        ], 
+        [
+          "populationTotal", 
+          0.1561
+        ], 
+        [
+          "populationDensity", 
+          0.1588
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          4.0
+        ], 
+        [
+          "maximumElevation", 
+          2.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ], 
+        [
+          "minimumElevation", 
+          1.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1372
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (minimumElevation)", 
+          0.1372
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (maximumElevation)", 
+          0.1515
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.1515
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (maximumElevation)", 
+          0.1515
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          0.1515
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          0.152
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (elevation)", 
+          0.1531
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1535
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1538
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1538
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1561
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1561
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1561
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1563
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1588
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1588
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1588
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          15.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "ProtectedArea[minimumElevation]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1372
+    ], 
+    [
+      "AdministrativeRegion[maximumElevation]>(country|Greece)", 
+      0.1515
+    ], 
+    [
+      "Location[maximumElevation]>(country|Greece)", 
+      0.152
+    ], 
+    [
+      "ProtectedArea[elevation]", 
+      0.1531
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Fars_Province)>(isPartOf|Mohr_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1538
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Razavi_Khorasan_Province)>(isPartOf|Central_District_(Sabzevar_County))", 
+      0.1538
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Razavi_Khorasan_Province)>(isPartOf|Central_District_(Sabzevar_County))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1538
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(region|Languedoc-Roussillon)", 
+      0.1538
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Georgia_(U.S._state))>(country|United_States)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1588
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Rud_Ab_District_(Kerman_Province))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1629
+    ]
+  ], 
+  "values": [
+    313.83920376849534, 
+    1024.0840017420387, 
+    13.189850711517991, 
+    272.45887928934724, 
+    8.96179700293328, 
+    871.8650489685867, 
+    365.1149924991032, 
+    280.22307471282033, 
+    2552.6731482312866, 
+    61.776688909080974, 
+    5966.570875845991, 
+    428.5979313981338, 
+    48.485052566569124
+  ]
+}

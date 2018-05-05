@@ -1,0 +1,196 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/squadNumber"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "number", 
+          0.1118
+        ], 
+        [
+          "width", 
+          0.1333
+        ]
+      ], 
+      "maj": [
+        [
+          "number", 
+          8.0
+        ], 
+        [
+          "width", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          0.1005
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.1118
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.1118
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.1118
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          0.1193
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (width)", 
+          0.1333
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          0.1333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (width)", 
+          0.1333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.1333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          0.1333
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          0.1333
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "BasketballPlayer[number]>(nationality|Philippines)>(league|Philippine_Basketball_Association)", 
+      0.0784
+    ], 
+    [
+      "SoccerPlayer[number]", 
+      0.0969
+    ], 
+    [
+      "BasketballPlayer[number]>(nationality|Philippines)", 
+      0.1034
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Spain)", 
+      0.1146
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Germany)", 
+      0.1197
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|China)", 
+      0.1211
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Austria)", 
+      0.1294
+    ], 
+    [
+      "BasketballPlayer[number]>(league|Euroleague_Basketball)", 
+      0.1306
+    ], 
+    [
+      "Location[width]>(type|Arch_bridge)", 
+      0.1333
+    ], 
+    [
+      "Bridge[width]>(type|Arch_bridge)", 
+      0.1333
+    ]
+  ], 
+  "values": [
+    32.0, 
+    14.0, 
+    8.0, 
+    24.0, 
+    5.0, 
+    4.0, 
+    32.0, 
+    7.0, 
+    8.0, 
+    4.0, 
+    17.0, 
+    18.0, 
+    29.0, 
+    2.0, 
+    23.0, 
+    18.0, 
+    20.0, 
+    26.0, 
+    30.0, 
+    7.0, 
+    10.0, 
+    27.0, 
+    11.0, 
+    1.0, 
+    8.0, 
+    6.0, 
+    22.0, 
+    26.0, 
+    14.0
+  ]
+}

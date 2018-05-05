@@ -1,0 +1,241 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/maximumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaCode", 
+          0.2726
+        ], 
+        [
+          "elevation", 
+          0.2745
+        ], 
+        [
+          "populationDensity", 
+          0.2778
+        ], 
+        [
+          "minimumElevation", 
+          0.284
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          4.0
+        ], 
+        [
+          "minimumElevation", 
+          2.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ], 
+        [
+          "areaCode", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.2615
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          0.2726
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.2726
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          0.2726
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaCode)", 
+          0.2726
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2745
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2745
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2758
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.2764
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.2764
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.2764
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          0.2823
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2823
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.284
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.284
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.284
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.284
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          0.2853
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaCode)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Town[populationDensity]>(isPartOf|Indiana)>(type|Town)>(timeZone|Central_Time_Zone)", 
+      0.2615
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Hautes-Pyr%C3%A9n%C3%A9es)", 
+      0.2657
+    ], 
+    [
+      "Town[areaCode]>(isPartOf|Virginia)>(country|United_States)", 
+      0.2725
+    ], 
+    [
+      "Town[areaCode]>(isPartOf|Virginia)>(country|United_States)>(type|Town)", 
+      0.2727
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Wisconsin)>(type|City)>(timeZone|Central_Time_Zone)>(country|United_States)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2823
+    ], 
+    [
+      "City[populationDensity]>(isPartOf|Wisconsin)>(type|City)>(timeZone|Central_Time_Zone)>(country|United_States)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2823
+    ], 
+    [
+      "Settlement[elevation]>(country|Italy)>(province|Province_of_Rome)>(region|Latium)", 
+      0.2833
+    ], 
+    [
+      "Location[minimumElevation]>(region|Rh%C3%B4ne-Alpes)>(department|Savoie)", 
+      0.284
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Rh%C3%B4ne-Alpes)>(department|Savoie)", 
+      0.284
+    ], 
+    [
+      "Village[populationDensity]>(isPartOf|Ohio)", 
+      0.2853
+    ]
+  ], 
+  "values": [
+    603.9649073246677, 
+    304.59488863849856
+  ]
+}

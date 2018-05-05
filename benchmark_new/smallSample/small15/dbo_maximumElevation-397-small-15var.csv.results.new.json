@@ -1,0 +1,217 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/maximumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.1545
+        ], 
+        [
+          "numberOfStudents", 
+          0.1575
+        ], 
+        [
+          "populationTotal", 
+          0.1684
+        ], 
+        [
+          "length", 
+          0.1689
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          7.0
+        ], 
+        [
+          "numberOfStudents", 
+          1.0
+        ], 
+        [
+          "length", 
+          1.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.1545
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1545
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.1575
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.1575
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          0.1575
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.1575
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1654
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          0.1689
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1695
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1695
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1695
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1699
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          16.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "NaturalPlace[elevation]", 
+      0.1545
+    ], 
+    [
+      "School[numberOfStudents]>(state|Texas)>(22-rdf-syntax-ns#type|_Feature)>(type|State_school)", 
+      0.1575
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(region|Rh%C3%B4ne-Alpes)>(arrondissement|Arrondissement_of_Lyon)>(department|Rh%C3%B4ne_(department))", 
+      0.1624
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(region|Rh%C3%B4ne-Alpes)>(arrondissement|Arrondissement_of_Lyon)>(department|Rh%C3%B4ne_(department))", 
+      0.1624
+    ], 
+    [
+      "Village[populationTotal]>(timeZone|Central_European_Time)>(isPartOf|Vojvodina)", 
+      0.1659
+    ], 
+    [
+      "Location[length]>(22-rdf-syntax-ns#type|_Feature)>(country|Germany)", 
+      0.1689
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(region|Rh%C3%B4ne-Alpes)>(arrondissement|Arrondissement_of_Lyon)", 
+      0.1692
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(region|Rh%C3%B4ne-Alpes)>(arrondissement|Arrondissement_of_Lyon)", 
+      0.1692
+    ], 
+    [
+      "Village[populationTotal]>(timeZone|Central_European_Time)>(isPartOf|Vojvodina)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1728
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Eastern_Time_Zone)>(isPartOf|North_Carolina)>(type|Census-designated_place)>(country|United_States)", 
+      0.177
+    ]
+  ], 
+  "values": [
+    2192.6069803824003, 
+    920.8836813250931, 
+    661.0302530940415, 
+    134.72939571237288, 
+    1911.716483019613, 
+    104.47575977024374, 
+    2899.5261405029446, 
+    468.82324334299307, 
+    1985.2440885067535, 
+    94.6132579441764, 
+    3367.7125065044884, 
+    750.6478855256612, 
+    531.5239684503358, 
+    431.31680487966946, 
+    2390.0366184809723, 
+    2878.4397027063583, 
+    3925.7500516849414, 
+    2466.9582986435853, 
+    2713.1426842142437, 
+    116.54396109273858, 
+    665.2712111195939, 
+    2208.879010800919, 
+    681.8945570547382, 
+    3732.3779257774404, 
+    2506.4998050597196, 
+    2718.158367706974
+  ]
+}

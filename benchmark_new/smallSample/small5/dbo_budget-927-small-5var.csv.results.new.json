@@ -1,0 +1,292 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/budget"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "area", 
+          0.1123
+        ], 
+        [
+          "areaTotal", 
+          0.1129
+        ], 
+        [
+          "areaLand", 
+          0.117
+        ], 
+        [
+          "budget", 
+          0.1175
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          3.0
+        ], 
+        [
+          "area", 
+          3.0
+        ], 
+        [
+          "budget", 
+          3.0
+        ], 
+        [
+          "areaLand", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          0.107
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (area)", 
+          0.107
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          0.107
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.1084
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (budget)", 
+          0.1156
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (budget)", 
+          0.1156
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (budget)", 
+          0.1156
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          0.117
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.117
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.117
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.117
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.119
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.119
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.119
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (budget)", 
+          0.1215
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (budget)", 
+          0.1215
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (budget)", 
+          0.1215
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (budget)", 
+          0.1215
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (area)", 
+          0.1228
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (area)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (budget)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (budget)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (area)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (budget)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (budget)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (budget)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (budget)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaTotal]>(country|Italy)>(region|Calabria)>(province|Province_of_Reggio_Calabria)", 
+      0.1005
+    ], 
+    [
+      "Settlement[area]>(region|Languedoc-Roussillon)>(department|Loz%C3%A8re)", 
+      0.1029
+    ], 
+    [
+      "Settlement[area]>(region|Centre_(French_region))>(arrondissement|Arrondissement_of_Orl%C3%A9ans)", 
+      0.1111
+    ], 
+    [
+      "Wikidata:Q11424[budget]>(distributor|Walt_Disney_Studios_Motion_Pictures)>(country|United_States)", 
+      0.1156
+    ], 
+    [
+      "Film[budget]>(distributor|Walt_Disney_Studios_Motion_Pictures)>(country|United_States)", 
+      0.1156
+    ], 
+    [
+      "City[areaLand]>(isPartOf|Mississippi)", 
+      0.117
+    ], 
+    [
+      "Location[areaTotal]>(type|Municipalities_of_Switzerland)>(canton|Valais)", 
+      0.119
+    ], 
+    [
+      "Settlement[areaTotal]>(type|Municipalities_of_Switzerland)>(canton|Valais)", 
+      0.119
+    ], 
+    [
+      "School[budget]>(state|Pennsylvania)", 
+      0.1215
+    ], 
+    [
+      "Location[area]>(region|Pays_de_la_Loire)>(department|Loire-Atlantique)", 
+      0.1228
+    ]
+  ], 
+  "values": [
+    11033768.024696775, 
+    41895498.37342918, 
+    30053609.372325283, 
+    21096552.57433078, 
+    2458846.512736679, 
+    13189909.152187284, 
+    15428914.095963968, 
+    42912187.79098516, 
+    32232305.773061257, 
+    50670419.11064235, 
+    36217066.465857476, 
+    48721000.85669146, 
+    40786925.28750656, 
+    8852545.389772179, 
+    27067876.41900058, 
+    14047439.106342485, 
+    33077525.202170443, 
+    18169220.413445067, 
+    17334336.783688255, 
+    13782897.230635243, 
+    26903746.878977817, 
+    35945368.43755643, 
+    15034911.252038326, 
+    48848607.82281987, 
+    25039603.748056646, 
+    27185726.948584065, 
+    23364258.790894166, 
+    27492979.423197977, 
+    120984066.9099868, 
+    42991828.8266757, 
+    31585304.9028092, 
+    22441200.47597476, 
+    12871895.89246182, 
+    7804230.168567573, 
+    62716041.31365323, 
+    61762709.02627438, 
+    35340822.12668816, 
+    13505.800924994892, 
+    14474.050522484966, 
+    21270905.601672653, 
+    41221141.615811124, 
+    15973212.84915945, 
+    12042871.04443202, 
+    106828882.30970502, 
+    11867058.830954414
+  ]
+}

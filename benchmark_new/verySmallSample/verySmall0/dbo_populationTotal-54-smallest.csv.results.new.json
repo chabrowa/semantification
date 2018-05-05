@@ -1,0 +1,299 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1246
+        ], 
+        [
+          "numberOfEmployees", 
+          0.1445
+        ], 
+        [
+          "length", 
+          0.1472
+        ]
+      ], 
+      "maj": [
+        [
+          "length", 
+          6.0
+        ], 
+        [
+          "populationTotal", 
+          3.0
+        ], 
+        [
+          "numberOfEmployees", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1078
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1078
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1078
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (length)", 
+          0.1348
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (length)", 
+          0.1353
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1358
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (numberOfEmployees)", 
+          0.1445
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bank (numberOfEmployees)", 
+          0.1445
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          0.1445
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          0.1445
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.1451
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          0.1488
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          0.1491
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          0.1575
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bank (numberOfEmployees)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[populationTotal]>(country|Spain)>(isPartOf|Province_of_Barcelona)", 
+      0.1078
+    ], 
+    [
+      "Location[populationTotal]>(country|Spain)>(isPartOf|Province_of_Barcelona)", 
+      0.1131
+    ], 
+    [
+      "Island[length]", 
+      0.1348
+    ], 
+    [
+      "PopulatedPlace[length]", 
+      0.1358
+    ], 
+    [
+      "Bank[numberOfEmployees]>(product|Private_equity)", 
+      0.1445
+    ], 
+    [
+      "ArchitecturalStructure[length]", 
+      0.1484
+    ], 
+    [
+      "Infrastructure[length]", 
+      0.1491
+    ], 
+    [
+      "Location[populationTotal]>(country|Spain)>(isPartOf|Province_of_Barcelona)>(type|Municipalities_of_Spain)", 
+      0.1529
+    ], 
+    [
+      "Place[length]", 
+      0.1575
+    ], 
+    [
+      "Location[length]", 
+      0.1575
+    ]
+  ], 
+  "values": [
+    7200.0, 
+    1760.0, 
+    1039000.0, 
+    763.0, 
+    320596.0, 
+    676.0, 
+    984.0, 
+    9139.0, 
+    648.0, 
+    6353.0, 
+    78.0, 
+    15386.0, 
+    10680.0, 
+    217.0, 
+    26.0, 
+    83199.0, 
+    1407.0, 
+    26026.0, 
+    10682.0, 
+    37600.0, 
+    54479.0, 
+    21451.0, 
+    91884.0, 
+    187.0, 
+    31952.0, 
+    429791.0, 
+    288.0, 
+    18372.0, 
+    35161.0, 
+    44669.0, 
+    14824.0, 
+    3974.0, 
+    40716.0, 
+    75718.0, 
+    42853.0, 
+    19212.0, 
+    691106.0, 
+    31477.0, 
+    3147.0, 
+    24939.0, 
+    126.0, 
+    109330.0, 
+    41869.0, 
+    44875.0, 
+    752.0, 
+    797.0, 
+    1577.0, 
+    273.0, 
+    28341.0, 
+    31619.0, 
+    185.0, 
+    362.0, 
+    15304.0, 
+    71130.0, 
+    447.0, 
+    70400.0, 
+    80.0, 
+    996.0, 
+    361000.0, 
+    97.0, 
+    2311179.0, 
+    7459.0, 
+    5893.0, 
+    93145.0, 
+    25398.0, 
+    518.0, 
+    61023.0, 
+    27891.0, 
+    283331.0, 
+    109297.0, 
+    108840.0, 
+    9531.0, 
+    24533.0, 
+    4375.0, 
+    210000.0, 
+    295.0, 
+    96555.0, 
+    43437.0, 
+    385.0, 
+    68778.0, 
+    23528.0, 
+    346.0, 
+    32154.0, 
+    22985.0, 
+    448.0, 
+    17570.0, 
+    7726.0, 
+    824.0, 
+    4029.0, 
+    60.0, 
+    28706.0, 
+    48536.0, 
+    41294.0, 
+    2049.0, 
+    1834.0, 
+    613.0, 
+    2314.0, 
+    342.0, 
+    9049.0, 
+    23177.0
+  ]
+}

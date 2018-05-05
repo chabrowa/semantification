@@ -1,0 +1,153 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/minimumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.2665
+        ], 
+        [
+          "populationTotal", 
+          0.2711
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          7.0
+        ], 
+        [
+          "populationDensity", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2607
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.2694
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.2694
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.2706
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.2709
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.271
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2712
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2712
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.2719
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationDensity]>(isPartOf|New_Jersey)", 
+      0.2607
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Florida)", 
+      0.2658
+    ], 
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(country|West_Sussex)>(district|Chichester_District)", 
+      0.2681
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|West_Sussex)>(district|Chichester_District)", 
+      0.2681
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(department|Gironde)>(region|Aquitaine)", 
+      0.2719
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(department|Gironde)>(region|Aquitaine)", 
+      0.2719
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Hormozgan_Province)>(isPartOf|Qeshm_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2719
+    ], 
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(ceremonialCounty|East_Riding_of_Yorkshire)>(country|England)", 
+      0.2727
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(ceremonialCounty|East_Riding_of_Yorkshire)>(country|England)", 
+      0.2727
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Florida)>(country|United_States)>(type|Census-designated_place)", 
+      0.2731
+    ]
+  ], 
+  "values": [
+    271.61452053688726, 
+    1515.5466477530306
+  ]
+}

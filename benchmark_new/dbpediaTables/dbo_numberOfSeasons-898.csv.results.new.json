@@ -1,0 +1,263 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfSeasons"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.1272
+        ], 
+        [
+          "numberOfSeasons", 
+          0.1351
+        ], 
+        [
+          "number", 
+          0.1698
+        ], 
+        [
+          "populationDensity", 
+          0.1736
+        ]
+      ], 
+      "maj": [
+        [
+          "number", 
+          6.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ], 
+        [
+          "numberOfSeasons", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1272
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1272
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1272
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          0.1351
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          0.1351
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsManager (number)", 
+          0.1591
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerManager (number)", 
+          0.1591
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.1698
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.1698
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.1736
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1736
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1736
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1736
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1736
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.1752
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          0.1752
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsManager (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerManager (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Steinburg)", 
+      0.1272
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]>(format|Aspect_ratio_(image))>(format|16:9)", 
+      0.1351
+    ], 
+    [
+      "SoccerManager[number]", 
+      0.1591
+    ], 
+    [
+      "SportsManager[number]", 
+      0.1591
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Maine)>(type|New_England_town)>(isPartOf|Aroostook_County,_Maine)", 
+      0.1736
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Maine)>(isPartOf|Aroostook_County,_Maine)", 
+      0.1736
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Sweden)", 
+      0.175
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Australia)", 
+      0.175
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|England)", 
+      0.175
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Defender_(association_football))>(birthPlace|Netherlands)", 
+      0.1757
+    ]
+  ], 
+  "values": [
+    17.0, 
+    1.0, 
+    1.0, 
+    7.0, 
+    2.0, 
+    16.0, 
+    18.0, 
+    25.0, 
+    6.0, 
+    9.0, 
+    1.0, 
+    20.0, 
+    19.0, 
+    23.0, 
+    24.0, 
+    1.0, 
+    5.0, 
+    15.0, 
+    8.0, 
+    14.0, 
+    10.0, 
+    6.0, 
+    28.0, 
+    9.0, 
+    1.0, 
+    22.0, 
+    5.0, 
+    12.0, 
+    13.0, 
+    3.0, 
+    4.0, 
+    1.0, 
+    2.0, 
+    2.0, 
+    27.0, 
+    21.0, 
+    2.0, 
+    26.0, 
+    1.0, 
+    5.0
+  ]
+}

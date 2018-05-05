@@ -1,0 +1,272 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEpisodes"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.0873
+        ], 
+        [
+          "populationTotal", 
+          0.0952
+        ], 
+        [
+          "populationDensity", 
+          0.1049
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          4.0
+        ], 
+        [
+          "populationDensity", 
+          3.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.0848
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.0873
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.0873
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.0873
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.0884
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0952
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0952
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.0958
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.0958
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.1037
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1037
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1037
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1037
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1052
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[elevation]>(isPartOf|Western_Norway)>(isPartOf|M%C3%B8re_og_Romsdal)", 
+      0.0848
+    ], 
+    [
+      "City[elevation]>(type|Alaska)>(timeZone|Alaska_Time_Zone)", 
+      0.0876
+    ], 
+    [
+      "City[elevation]>(type|Alaska)", 
+      0.0896
+    ], 
+    [
+      "Location[populationTotal]>(country|Poland)>(type|Human_settlement)", 
+      0.0911
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Poland)>(type|Human_settlement)", 
+      0.0911
+    ], 
+    [
+      "Location[populationTotal]>(country|Poland)>(type|Human_settlement)>(isPartOf|Pomeranian_Voivodeship)", 
+      0.0993
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Poland)>(type|Human_settlement)>(isPartOf|Pomeranian_Voivodeship)", 
+      0.0993
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Maine)>(type|New_England_town)>(isPartOf|Penobscot_County,_Maine)", 
+      0.1037
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Maine)>(isPartOf|Penobscot_County,_Maine)>(type|New_England_town)", 
+      0.1037
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Maine)>(type|New_England_town)", 
+      0.1073
+    ]
+  ], 
+  "values": [
+    30.0, 
+    32.0, 
+    26.0, 
+    31.0, 
+    6.0, 
+    341.0, 
+    65.0, 
+    4.0, 
+    8.0, 
+    1.0, 
+    12.0, 
+    42.0, 
+    65.0, 
+    20.0, 
+    1.0, 
+    29.0, 
+    40.0, 
+    23.0, 
+    26.0, 
+    18.0, 
+    21.0, 
+    32.0, 
+    8.0, 
+    7.0, 
+    1.0, 
+    80.0, 
+    20.0, 
+    10.0, 
+    1.0, 
+    3.0, 
+    37.0, 
+    13.0, 
+    16.0, 
+    8.0, 
+    17.0, 
+    11.0, 
+    6.0, 
+    2.0, 
+    22.0, 
+    13.0, 
+    10.0, 
+    34.0, 
+    1.0, 
+    1.0, 
+    13.0, 
+    10.0, 
+    235.0, 
+    1.0, 
+    30.0, 
+    20.0, 
+    63.0, 
+    15.0, 
+    26.0, 
+    7.0, 
+    40.0, 
+    6.0, 
+    1.0, 
+    12.0, 
+    28.0, 
+    20.0, 
+    3.0, 
+    13.0, 
+    2.0, 
+    119.0, 
+    16.0, 
+    1.0, 
+    8.0, 
+    13.0, 
+    6.0, 
+    191.0, 
+    3.0, 
+    3.0, 
+    6.0
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runwayLength"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaCode", 
+          0.2821
+        ], 
+        [
+          "runtime", 
+          0.3058
+        ]
+      ], 
+      "maj": [
+        [
+          "areaCode", 
+          9.0
+        ], 
+        [
+          "runtime", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          0.2784
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.2784
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          0.2786
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          0.2845
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          0.3058
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (runtime)", 
+          0.3058
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          17.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (runtime)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaCode]>(country|England)>(country|Kent)", 
+      0.2745
+    ], 
+    [
+      "Settlement[areaCode]>(country|England)>(country|Kent)", 
+      0.2745
+    ], 
+    [
+      "Location[areaCode]>(country|England)>(country|Kent)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2769
+    ], 
+    [
+      "Settlement[areaCode]>(country|England)>(country|Kent)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2769
+    ], 
+    [
+      "Location[areaCode]>(country|England)>(country|Nottinghamshire)", 
+      0.2796
+    ], 
+    [
+      "Settlement[areaCode]>(country|England)>(country|Nottinghamshire)", 
+      0.2796
+    ], 
+    [
+      "Location[areaCode]>(country|England)>(country|Nottinghamshire)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2826
+    ], 
+    [
+      "Settlement[areaCode]>(country|England)>(country|Nottinghamshire)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2826
+    ], 
+    [
+      "TelevisionShow[runtime]>(format|Animated_series)", 
+      0.3058
+    ], 
+    [
+      "Location[areaCode]>(country|England)>(country|East_Sussex)", 
+      0.3118
+    ]
+  ], 
+  "values": [
+    1676.4, 
+    1280.16
+  ]
+}

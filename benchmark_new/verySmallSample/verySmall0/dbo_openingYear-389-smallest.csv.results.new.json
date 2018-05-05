@@ -1,0 +1,216 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/openingYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "activeYearsEndYear", 
+          0.1362
+        ], 
+        [
+          "foundingYear", 
+          0.1396
+        ], 
+        [
+          "openingYear", 
+          0.1499
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          5.0
+        ], 
+        [
+          "foundingYear", 
+          3.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.1362
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (activeYearsEndYear)", 
+          0.1362
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.1362
+        ], 
+        [
+          "http://dbpedia.org/ontology/Actor (activeYearsEndYear)", 
+          0.1393
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.1396
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          0.1396
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.1396
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          0.1409
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (openingYear)", 
+          0.1491
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.1499
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.1499
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.1499
+        ], 
+        [
+          "http://dbpedia.org/ontology/PowerStation (openingYear)", 
+          0.153
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (openingYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Actor (activeYearsEndYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PowerStation (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Actor[activeYearsEndYear]>(country|France)", 
+      0.1208
+    ], 
+    [
+      "School[foundingYear]>(language|American_English)", 
+      0.1336
+    ], 
+    [
+      "School[foundingYear]>(language|American_English)>(state|Virginia)", 
+      0.14
+    ], 
+    [
+      "School[foundingYear]>(language|American_English)>(state|Virginia)>(type|High_school)", 
+      0.1453
+    ], 
+    [
+      "Dam[openingYear]", 
+      0.1453
+    ], 
+    [
+      "Dam[openingYear]>(location|Japan)", 
+      0.1465
+    ], 
+    [
+      "Actor[activeYearsEndYear]>(birthPlace|Sweden)>(birthPlace|Stockholm)", 
+      0.1517
+    ], 
+    [
+      "Dam[openingYear]>(location|Japan)>(country|Japan)", 
+      0.152
+    ], 
+    [
+      "PowerStation[openingYear]>(primaryFuelType|Bituminous_coal)", 
+      0.1524
+    ], 
+    [
+      "PowerStation[openingYear]>(primaryFuelType|Coal)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1533
+    ]
+  ], 
+  "values": [
+    1952.0, 
+    1966.0, 
+    1982.0, 
+    1973.0, 
+    2000.0, 
+    1964.0, 
+    1957.0, 
+    1916.0, 
+    1988.0, 
+    1969.0, 
+    1951.0, 
+    1998.0, 
+    2000.0, 
+    1957.0, 
+    1985.0, 
+    1963.0, 
+    1962.0, 
+    1928.0, 
+    2005.0, 
+    1967.0, 
+    1968.0, 
+    2014.0, 
+    1954.0, 
+    1969.0, 
+    1934.0
+  ]
+}

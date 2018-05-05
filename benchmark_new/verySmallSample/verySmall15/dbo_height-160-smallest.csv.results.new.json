@@ -1,0 +1,160 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/height"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "height", 
+          0.1046
+        ]
+      ], 
+      "maj": [
+        [
+          "height", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/MartialArtist (height)", 
+          0.0969
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (height)", 
+          0.1046
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (height)", 
+          0.1078
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (height)", 
+          0.1119
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (height)", 
+          0.1152
+        ], 
+        [
+          "http://dbpedia.org/ontology/HandballPlayer (height)", 
+          0.1173
+        ], 
+        [
+          "http://dbpedia.org/ontology/GolfPlayer (height)", 
+          0.1233
+        ], 
+        [
+          "http://dbpedia.org/ontology/TennisPlayer (height)", 
+          0.1242
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Agent (height)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (height)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (height)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MartialArtist (height)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TennisPlayer (height)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/GolfPlayer (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/HandballPlayer (height)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Person[height]", 
+      0.0756
+    ], 
+    [
+      "Agent[height]", 
+      0.0756
+    ], 
+    [
+      "MartialArtist[height]>(birthPlace|United_States)", 
+      0.0947
+    ], 
+    [
+      "Athlete[height]", 
+      0.0949
+    ], 
+    [
+      "MartialArtist[height]", 
+      0.1013
+    ], 
+    [
+      "SoccerPlayer[height]", 
+      0.1152
+    ], 
+    [
+      "HandballPlayer[height]", 
+      0.1173
+    ], 
+    [
+      "GolfPlayer[height]", 
+      0.1233
+    ], 
+    [
+      "TennisPlayer[height]", 
+      0.1241
+    ], 
+    [
+      "TennisPlayer[height]>(country|Australia)", 
+      0.1242
+    ]
+  ], 
+  "values": [
+    1.8258116205900807, 
+    1.6477213392703371, 
+    1.772932064994482, 
+    1.7111586654773514, 
+    1.7489861723665532, 
+    1.8297756757454875, 
+    1.5378522655502251, 
+    1.7288296065485143, 
+    1.8362075738323704, 
+    1.815401913705443, 
+    1.8136747706151148, 
+    1.7247198471257954, 
+    1.9543989953567533, 
+    1.8733894330069687, 
+    1.6887988610217117, 
+    1.7903774804286239, 
+    1.8898173373780427, 
+    1.7654604292772893, 
+    1.859238391004283, 
+    1.7910038879500214, 
+    1.7548591652855732, 
+    1.9024597482753178, 
+    1.9800952643971608, 
+    1.7789750795068624, 
+    1.9012477764340956
+  ]
+}

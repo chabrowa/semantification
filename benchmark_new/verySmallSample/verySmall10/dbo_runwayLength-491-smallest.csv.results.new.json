@@ -1,0 +1,153 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runwayLength"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaCode", 
+          0.2878
+        ], 
+        [
+          "elevation", 
+          0.2965
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          6.0
+        ], 
+        [
+          "areaCode", 
+          4.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          0.2878
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          0.2878
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.2878
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          0.2878
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.2881
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2945
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2945
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.3004
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.3015
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaCode]>(country|England)>(country|Norfolk)", 
+      0.28
+    ], 
+    [
+      "Settlement[areaCode]>(country|England)>(country|Norfolk)", 
+      0.28
+    ], 
+    [
+      "City[elevation]>(isPartOf|Utah)>(type|City)>(country|United_States)", 
+      0.2824
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Utah)>(type|City)", 
+      0.2901
+    ], 
+    [
+      "City[elevation]>(isPartOf|Utah)", 
+      0.2917
+    ], 
+    [
+      "City[elevation]>(isPartOf|Utah)>(type|City)", 
+      0.2932
+    ], 
+    [
+      "Location[areaCode]>(country|England)>(country|Surrey)", 
+      0.2957
+    ], 
+    [
+      "Settlement[areaCode]>(country|England)>(country|Surrey)", 
+      0.2957
+    ], 
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Utah)>(type|Census-designated_place)", 
+      0.3108
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Utah)>(type|Census-designated_place)", 
+      0.3108
+    ]
+  ], 
+  "values": [
+    1613.575725945401, 
+    1343.4354927042532
+  ]
+}
