@@ -1,0 +1,234 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/budget"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "area", 
+          0.0812
+        ], 
+        [
+          "areaTotal", 
+          0.0864
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          7.0
+        ], 
+        [
+          "area", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (area)", 
+          0.0792
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          0.0822
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (area)", 
+          0.0822
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          0.0822
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.0832
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.0832
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.0832
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.0878
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          17.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (area)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (area)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Valladolid)", 
+      0.0785
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Spain)>(isPartOf|Province_of_Valladolid)", 
+      0.0785
+    ], 
+    [
+      "Location[area]>(region|Pays_de_la_Loire)>(department|Loire-Atlantique)", 
+      0.0792
+    ], 
+    [
+      "Settlement[area]>(region|Pays_de_la_Loire)>(department|Loire-Atlantique)", 
+      0.0792
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(region|Calabria)>(province|Province_of_Reggio_Calabria)", 
+      0.0832
+    ], 
+    [
+      "Settlement[area]>(region|Languedoc-Roussillon)>(department|Loz%C3%A8re)", 
+      0.0853
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Salamanca)", 
+      0.0878
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Spain)>(isPartOf|Province_of_Salamanca)", 
+      0.0878
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(region|Marche)>(province|Province_of_Pesaro_and_Urbino)", 
+      0.0941
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(province|Province_of_Udine)", 
+      0.0948
+    ]
+  ], 
+  "values": [
+    12861302.657608947, 
+    7775544.070137774, 
+    25251403.386246465, 
+    43953189.95496287, 
+    28904895.413338974, 
+    33030114.020409368, 
+    25408831.376916647, 
+    152591841.61802593, 
+    54806556.5205491, 
+    31804101.311436065, 
+    119143011.78916863, 
+    10103490.712232694, 
+    38937819.049122, 
+    47775829.6972726, 
+    17715097.22831291, 
+    17336571.46392403, 
+    110409507.00601028, 
+    15864720.475381175, 
+    21317571.7664386, 
+    56022202.628044225, 
+    41796037.24925238, 
+    16759617.204031207, 
+    39430671.51251337, 
+    6649572.698328288, 
+    16496335.75052814, 
+    19673612.6202882, 
+    15179994.637090582, 
+    2.3626204356133504, 
+    26103263.869068656, 
+    25250065.228654202, 
+    26991048.940517794, 
+    72507978.27607843, 
+    35951533.76744284, 
+    16970725.050105687, 
+    17495023.372376896, 
+    23973672.042886432, 
+    44968938.10655236, 
+    129725326.28265445, 
+    22271861.446258865, 
+    53214809.91327161, 
+    32217730.049373273, 
+    40088951.77726833, 
+    31405925.424292624, 
+    36788656.385788046, 
+    20626261.590231776, 
+    24684296.5788079, 
+    4514311.481634982, 
+    9916.956376915996, 
+    49870539.01031145, 
+    32632802.666469656, 
+    33623557.74170887, 
+    7202935.829186407, 
+    85358731.79442905, 
+    33642815.34854224, 
+    16060648.646776702, 
+    14795973.962932521, 
+    29997415.88930059, 
+    11681421.109595511, 
+    40130717.27250169, 
+    11253625.290944964, 
+    38877969.73136735, 
+    27556465.73918791, 
+    15633934.225023018, 
+    20872832.862622514, 
+    18046244.86066053, 
+    54859364.360194795, 
+    68273816.52269173, 
+    15283269.600470819, 
+    35339285.65616362, 
+    15372892.795482296, 
+    26628169.3975087, 
+    33742664.07682476, 
+    14040669.541763892, 
+    38963396.70414274, 
+    93031634.83792903, 
+    3298121.7409564094, 
+    31809405.520341363, 
+    23661640.242439166, 
+    26458286.592777584, 
+    20392325.800970484, 
+    29299911.449632816, 
+    27573059.08212962, 
+    20106445.880851217, 
+    23136780.848340604, 
+    8281468.691327583, 
+    16483786.217736743, 
+    20306502.07078973, 
+    14814181.97145816, 
+    12035706.784823773, 
+    48664292.02710306, 
+    41448961.69479505
+  ]
+}

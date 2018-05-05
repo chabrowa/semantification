@@ -1,0 +1,227 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/yearOfConstruction"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "deathYear", 
+          0.2375
+        ], 
+        [
+          "openingYear", 
+          0.2727
+        ], 
+        [
+          "foundingYear", 
+          0.3012
+        ], 
+        [
+          "yearOfConstruction", 
+          0.3086
+        ]
+      ], 
+      "maj": [
+        [
+          "yearOfConstruction", 
+          4.0
+        ], 
+        [
+          "openingYear", 
+          4.0
+        ], 
+        [
+          "deathYear", 
+          1.0
+        ], 
+        [
+          "foundingYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Philosopher (deathYear)", 
+          0.2375
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          0.2375
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          0.2375
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.2727
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.2727
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.2727
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          0.276
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          0.276
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.3012
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.3012
+        ], 
+        [
+          "http://dbpedia.org/ontology/RugbyClub (foundingYear)", 
+          0.3012
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (foundingYear)", 
+          0.3012
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (yearOfConstruction)", 
+          0.3074
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (yearOfConstruction)", 
+          0.3078
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (yearOfConstruction)", 
+          0.3082
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (yearOfConstruction)", 
+          0.3099
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (yearOfConstruction)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Philosopher (deathYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (yearOfConstruction)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RugbyClub (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (yearOfConstruction)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (yearOfConstruction)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Philosopher[deathYear]>(era|19th-century_philosophy)", 
+      0.2375
+    ], 
+    [
+      "Station[openingYear]>(country|United_Kingdom)>(district|Glasgow)", 
+      0.25
+    ], 
+    [
+      "Location[openingYear]>(country|United_Kingdom)>(district|Glasgow)", 
+      0.25
+    ], 
+    [
+      "Station[openingYear]>(country|United_Kingdom)>(district|Glasgow)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2955
+    ], 
+    [
+      "Location[openingYear]>(country|United_Kingdom)>(district|Glasgow)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2955
+    ], 
+    [
+      "RugbyClub[foundingYear]>(location|Wales)", 
+      0.3012
+    ], 
+    [
+      "ArchitecturalStructure[yearOfConstruction]", 
+      0.307
+    ], 
+    [
+      "Building[yearOfConstruction]", 
+      0.3078
+    ], 
+    [
+      "Location[yearOfConstruction]", 
+      0.3099
+    ], 
+    [
+      "Place[yearOfConstruction]", 
+      0.3099
+    ]
+  ], 
+  "values": [
+    1922.0, 
+    1891.0, 
+    1836.0, 
+    1896.0
+  ]
+}

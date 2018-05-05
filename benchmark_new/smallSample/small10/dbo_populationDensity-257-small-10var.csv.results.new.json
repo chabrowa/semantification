@@ -1,0 +1,146 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationDensity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1132
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          0.1087
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1123
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1127
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1127
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1139
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1142
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          16.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          4.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "City[populationTotal]>(isPartOf|North_Dakota)>(timeZone|Central_Time_Zone)>(type|City)", 
+      0.1087
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Fars_Province)>(isPartOf|Central_District_(Jahrom_County))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1104
+    ], 
+    [
+      "Location[populationTotal]>(country|Slovenia)>(isPartOf|Upper_Carniola_Statistical_Region)", 
+      0.1111
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Fars_Province)>(isPartOf|Hamaijan_District)", 
+      0.112
+    ], 
+    [
+      "Location[populationTotal]>(country|Slovenia)>(isPartOf|Upper_Carniola_Statistical_Region)>(isPartOf|Upper_Carniola)", 
+      0.1147
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(isPartOf|Perugia)>(type|Frazione)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1148
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(isPartOf|Perugia)>(type|Frazione)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1148
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Khuzestan_Province)>(isPartOf|Central_District_(Bagh-e_Malek_County))", 
+      0.1151
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(isPartOf|Perugia)>(type|Frazione)", 
+      0.1152
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(isPartOf|Perugia)>(type|Frazione)", 
+      0.1152
+    ]
+  ], 
+  "values": [
+    79.7572307308981, 
+    4890.707888849486, 
+    247.48599286460959, 
+    1359.587498158874, 
+    248.12688661069862, 
+    8.512689578761766, 
+    184.08147024724076, 
+    5.517471553317823, 
+    352.0292772218947, 
+    99.96951251743829, 
+    42.306778681045095, 
+    34.99797230543642, 
+    192.97348380311715, 
+    72.19694660994213, 
+    15.79305495260902, 
+    70.97939631565863, 
+    132.0524992353241, 
+    19.648632953856676, 
+    115.74455156769861, 
+    687.32239607271, 
+    121.91245332033856, 
+    775.178995189286, 
+    4692.355749617977, 
+    103.5731825560385, 
+    78.69761512973636, 
+    20434.3050187269, 
+    24.84716913105824
+  ]
+}

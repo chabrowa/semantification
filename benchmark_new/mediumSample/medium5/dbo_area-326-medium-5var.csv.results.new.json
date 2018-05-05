@@ -1,0 +1,257 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/area"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "area", 
+          0.3869
+        ], 
+        [
+          "numberOfSeasons", 
+          0.4304
+        ], 
+        [
+          "numberOfGoals", 
+          0.4494
+        ], 
+        [
+          "areaWater", 
+          0.4632
+        ]
+      ], 
+      "maj": [
+        [
+          "numberOfSeasons", 
+          5.0
+        ], 
+        [
+          "numberOfGoals", 
+          2.0
+        ], 
+        [
+          "areaWater", 
+          2.0
+        ], 
+        [
+          "area", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          0.3869
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (area)", 
+          0.3869
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          0.3869
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (area)", 
+          0.3869
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          0.4157
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          0.4304
+        ], 
+        [
+          "http://dbpedia.org/ontology/CareerStation (numberOfGoals)", 
+          0.4494
+        ], 
+        [
+          "http://dbpedia.org/ontology/TimePeriod (numberOfGoals)", 
+          0.4494
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.4627
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.4627
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.4627
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.4636
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TimePeriod (numberOfGoals)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (area)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/CareerStation (numberOfGoals)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (area)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[area]", 
+      0.3869
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]>(language|Hindi)>(format|480i)", 
+      0.4091
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]>(language|Hindi)>(format|480i)>(country|India)", 
+      0.4091
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]>(language|Hindi)", 
+      0.4176
+    ], 
+    [
+      "TimePeriod[numberOfGoals]", 
+      0.4494
+    ], 
+    [
+      "CareerStation[numberOfGoals]", 
+      0.4494
+    ], 
+    [
+      "Work[numberOfSeasons]", 
+      0.4582
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]", 
+      0.4582
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|South_Carolina)", 
+      0.4627
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Iowa)", 
+      0.4636
+    ]
+  ], 
+  "values": [
+    0.984752131311755, 
+    0.9671326484247935, 
+    0.9657739336584922, 
+    0.9943429254179844, 
+    1.0018432147442073, 
+    0.9534739413036534, 
+    0.9928508550204915, 
+    0.9630065655954602, 
+    1.0197540842260961, 
+    1.0497580255026946, 
+    1.0279355682481286, 
+    1.010454773649102, 
+    1.0047625464609866, 
+    1.022393507572985, 
+    1.010461875164177, 
+    1.0174352059666765, 
+    1.0117891975731885, 
+    1.0300411863918901, 
+    0.9712137940493883, 
+    0.9561335651885572, 
+    26820556.71290463, 
+    0.9804438395786862, 
+    1.0377628427172814, 
+    0.9581219913293652, 
+    0.95511787338413, 
+    0.9967527902929403, 
+    1.0170874382249158, 
+    0.9629477624777839, 
+    0.9966762636107217, 
+    739518791.4199575, 
+    0.9718945733421807, 
+    1.0055700846989077, 
+    0.9924270121598715, 
+    1.0365447096952862, 
+    1.007915617557042, 
+    1.0057880354131494, 
+    0.9873597837800485, 
+    1.010423858961401, 
+    1.042164533059909, 
+    1.027428641861184, 
+    0.9742969655251772, 
+    62080233.85755224, 
+    1.0174945092524543, 
+    1.0302221445309026, 
+    1.0135680301039451, 
+    22825142.947785176, 
+    1.0086435897395751, 
+    0.9723398171354494, 
+    1.0230235090122521, 
+    1.0111917592809385, 
+    1.0076774483204594, 
+    1.0421260216778885, 
+    50147777.69708044, 
+    1.0418361654927142, 
+    0.9601134984448988, 
+    0.9937046230623735, 
+    0.9981383129825996, 
+    0.9938119070974775, 
+    1.049820328306888, 
+    0.9730576788028322, 
+    1.0095486761181063, 
+    1.0323984238012258, 
+    1.0448657618844395, 
+    1.027313728957496, 
+    0.9949346698148692, 
+    0.9632903101341583
+  ]
+}

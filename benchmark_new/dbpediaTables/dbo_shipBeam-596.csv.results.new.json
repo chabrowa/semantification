@@ -1,0 +1,216 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/shipBeam"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.1003
+        ], 
+        [
+          "height", 
+          0.1293
+        ], 
+        [
+          "elevation", 
+          0.133
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          5.0
+        ], 
+        [
+          "height", 
+          4.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.0957
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.101
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1036
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1036
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (height)", 
+          0.1212
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.132
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (height)", 
+          0.132
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.132
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.133
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.133
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.133
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (height)", 
+          0.144
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (height)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (height)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationDensity]>(isPartOf|Oklahoma)>(type|Census-designated_place)", 
+      0.0939
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Oklahoma)>(type|Census-designated_place)", 
+      0.0939
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Oklahoma)>(type|Census-designated_place)>(timeZone|Central_Time_Zone)", 
+      0.097
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Oklahoma)>(type|Census-designated_place)>(timeZone|Central_Time_Zone)", 
+      0.097
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Oklahoma)", 
+      0.1199
+    ], 
+    [
+      "Lighthouse[height]", 
+      0.12
+    ], 
+    [
+      "Tower[height]", 
+      0.12
+    ], 
+    [
+      "Location[height]>(location|Australia)", 
+      0.1212
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Rendsburg-Eckernf%C3%B6rde)", 
+      0.133
+    ], 
+    [
+      "Lighthouse[height]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.156
+    ]
+  ], 
+  "values": [
+    23.32, 
+    8.77824, 
+    16.1239, 
+    19.0, 
+    32.004, 
+    3.9624, 
+    16.3, 
+    16.8, 
+    23.5, 
+    13.7, 
+    23.3, 
+    35.3568, 
+    62.7856, 
+    90.0, 
+    11.25, 
+    13.04, 
+    8.5344, 
+    9.1, 
+    7.93, 
+    46.0, 
+    18.3, 
+    13.4996, 
+    19.0, 
+    67.0, 
+    7.3, 
+    14.6, 
+    9.144, 
+    16.4592, 
+    8.11, 
+    10.9728, 
+    39.624, 
+    85.9536, 
+    21.336
+  ]
+}

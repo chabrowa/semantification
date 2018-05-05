@@ -1,0 +1,161 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/oclc"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.3141
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          0.2746
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          0.2746
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (areaTotal)", 
+          0.2761
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (areaTotal)", 
+          0.2957
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (areaTotal)", 
+          0.2979
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.3097
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          0.3108
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.3212
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.3544
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.3704
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          0.371
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (areaTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (areaTotal)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Lake[areaTotal]>(country|Russia)", 
+      0.267
+    ], 
+    [
+      "Lake[areaTotal]>(country|Russia)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2822
+    ], 
+    [
+      "Island[areaTotal]>(archipelago|Canadian_Arctic_Archipelago)>(country|Canada)", 
+      0.2927
+    ], 
+    [
+      "Island[areaTotal]>(archipelago|Canadian_Arctic_Archipelago)>(country|Canada)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2963
+    ], 
+    [
+      "Country[areaTotal]>(officialLanguage|English_language)", 
+      0.2979
+    ], 
+    [
+      "Island[areaTotal]>(archipelago|Canadian_Arctic_Archipelago)", 
+      0.2991
+    ], 
+    [
+      "ProtectedArea[areaTotal]>(location|California)", 
+      0.3108
+    ], 
+    [
+      "Location[areaTotal]>(location|United_States)>(growingGrape|Cabernet_Franc)", 
+      0.3544
+    ], 
+    [
+      "Settlement[areaTotal]>(country|India)", 
+      0.3701
+    ], 
+    [
+      "Town[areaTotal]>(timeZone|Central_European_Time)>(type|Communes_of_Algeria)>(22-rdf-syntax-ns#type|_Feature)>(country|Algeria)", 
+      0.371
+    ]
+  ], 
+  "values": [
+    52530997.0, 
+    914220080.0
+  ]
+}

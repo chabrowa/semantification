@@ -1,0 +1,210 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEpisodes"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "maximumElevation", 
+          0.3869
+        ], 
+        [
+          "areaCode", 
+          0.3914
+        ], 
+        [
+          "elevation", 
+          0.4117
+        ], 
+        [
+          "height", 
+          0.4154
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          4.0
+        ], 
+        [
+          "areaCode", 
+          3.0
+        ], 
+        [
+          "maximumElevation", 
+          2.0
+        ], 
+        [
+          "height", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          0.3869
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.3869
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          0.3869
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          0.3869
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          0.3892
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.408
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.4106
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.4129
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.4129
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.4137
+        ], 
+        [
+          "http://dbpedia.org/ontology/Hotel (height)", 
+          0.4154
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.4154
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.4154
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (height)", 
+          0.4154
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Hotel (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (height)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaCode]>(timeZone|Indian_Standard_Time)>(isPartOf|West_Bengal)>(22-rdf-syntax-ns#type|_Feature)>(country|India)", 
+      0.381
+    ], 
+    [
+      "Location[areaCode]>(timeZone|Indian_Standard_Time)>(isPartOf|West_Bengal)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3867
+    ], 
+    [
+      "Location[maximumElevation]>(region|Pays_de_la_Loire)>(department|Maine-et-Loire)", 
+      0.3869
+    ], 
+    [
+      "Settlement[maximumElevation]>(region|Pays_de_la_Loire)>(department|Maine-et-Loire)", 
+      0.3869
+    ], 
+    [
+      "Location[areaCode]>(timeZone|Indian_Standard_Time)>(isPartOf|West_Bengal)", 
+      0.4065
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Fresno_County,_California)", 
+      0.408
+    ], 
+    [
+      "Town[elevation]>(isPartOf|Arkansas)", 
+      0.4106
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Landes_(department))>(arrondissement|Arrondissement_of_Mont-de-Marsan)", 
+      0.413
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Marne)>(arrondissement|Arrondissement_of_Ch%C3%A2lons-en-Champagne)", 
+      0.4151
+    ], 
+    [
+      "Hotel[height]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.4154
+    ]
+  ], 
+  "values": [
+    89.0, 
+    96.0, 
+    111.0
+  ]
+}

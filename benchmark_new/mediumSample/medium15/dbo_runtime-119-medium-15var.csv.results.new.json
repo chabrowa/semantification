@@ -1,0 +1,175 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfStudents", 
+          0.1223
+        ], 
+        [
+          "populationTotal", 
+          0.1332
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          9.0
+        ], 
+        [
+          "numberOfStudents", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.1223
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.1223
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          0.1223
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.1223
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1267
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1287
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1287
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          0.1352
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1423
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          15.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Town[populationTotal]>(isPartOf|Michigan)", 
+      0.1158
+    ], 
+    [
+      "School[numberOfStudents]>(state|Georgia_(U.S._state))", 
+      0.1223
+    ], 
+    [
+      "Town[populationTotal]>(isPartOf|Ohio)", 
+      0.1239
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Eastern_Time_Zone)>(isPartOf|Pennsylvania)>(isPartOf|Allegheny_County,_Pennsylvania)", 
+      0.125
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Eastern_Time_Zone)>(isPartOf|Pennsylvania)>(isPartOf|Allegheny_County,_Pennsylvania)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.125
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_Time_Zone)>(type|Township_(United_States))>(isPartOf|Ohio)", 
+      0.139
+    ], 
+    [
+      "Town[populationTotal]>(isPartOf|Ohio)>(type|Township_(United_States))", 
+      0.139
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_Time_Zone)>(governmentType|Town_council)>(type|Town)>(leaderName|Democratic_Party_(United_States))>(22-rdf-syntax-ns#type|_Feature)>(country|United_States)", 
+      0.1435
+    ], 
+    [
+      "Town[populationTotal]>(governmentType|Town_council)>(type|Town)>(leaderName|Democratic_Party_(United_States))>(country|United_States)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1435
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(region|Sicily)>(province|Province_of_Messina)", 
+      0.1436
+    ]
+  ], 
+  "values": [
+    6199.39127108519, 
+    1433.6199173504629, 
+    3487.270277967846, 
+    1605.9693346236386, 
+    656.1888730966454, 
+    6554.302791454216, 
+    1507.5172013063411, 
+    653.8713857762552, 
+    2585.6003085587804, 
+    1754.6259480586493, 
+    824.2112030472697, 
+    8308.651542039412, 
+    5053.70077173566, 
+    4026.1684008194297, 
+    4728.620773553396, 
+    6011.634827690335, 
+    467.20109481871987, 
+    1006.4832334149436, 
+    769.9310238086059, 
+    1512.295617255939, 
+    1500.6881838726677, 
+    2212.891621635879, 
+    6925.2082558395105, 
+    810.9619444698
+  ]
+}

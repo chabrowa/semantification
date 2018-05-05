@@ -1,0 +1,316 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/maximumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.0719
+        ], 
+        [
+          "maximumElevation", 
+          0.0725
+        ], 
+        [
+          "populationDensity", 
+          0.0863
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          6.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ], 
+        [
+          "maximumElevation", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.0655
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.07
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (maximumElevation)", 
+          0.0711
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.0725
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0732
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0732
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.0746
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.0863
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          0.0864
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationTotal]>(country|Poland)>(type|Village)>(isPartOf|Podkarpackie_Voivodeship)", 
+      0.0626
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|East_Azerbaijan_Province)>(isPartOf|Central_District_(Marand_County))", 
+      0.0628
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Fars_Province)>(isPartOf|Central_District_(Marvdasht_County))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0675
+    ], 
+    [
+      "ProtectedArea[maximumElevation]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0684
+    ], 
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(country|West_Sussex)>(district|Chichester_District)>(country|England)", 
+      0.076
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|West_Sussex)>(district|Chichester_District)>(country|England)", 
+      0.076
+    ], 
+    [
+      "ProtectedArea[maximumElevation]", 
+      0.0767
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Florida)", 
+      0.0857
+    ], 
+    [
+      "Town[populationTotal]>(timeZone|Mountain_Time_Zone)>(governmentType|List_of_cities_and_towns_in_Colorado)", 
+      0.0864
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|New_Jersey)", 
+      0.0869
+    ]
+  ], 
+  "values": [
+    621.0, 
+    621.0, 
+    7000.0, 
+    95.0976, 
+    384.0, 
+    1238.4, 
+    1305.15, 
+    1066.8, 
+    853.44, 
+    1109.47, 
+    15.8496, 
+    1000.96, 
+    1210.06, 
+    1208.0, 
+    1979.0, 
+    20.0, 
+    273.101, 
+    231.0, 
+    826.008, 
+    491.947, 
+    1746.2, 
+    687.934, 
+    398.069, 
+    1482.24, 
+    1453.9, 
+    335.28, 
+    832.0, 
+    621.0, 
+    445.922, 
+    680.009, 
+    15.24, 
+    3410.0, 
+    2980.0, 
+    193.548, 
+    142.951, 
+    1602.0, 
+    466.039, 
+    1378.0, 
+    115.0, 
+    2103.12, 
+    360.0, 
+    1205.79, 
+    1085.0, 
+    1628.85, 
+    2387.19, 
+    1274.06, 
+    223.114, 
+    786.079, 
+    325.0, 
+    285.293, 
+    2041.86, 
+    264.262, 
+    1670.3, 
+    1559.0, 
+    1900.43, 
+    683.057, 
+    280.0, 
+    416.966, 
+    109.728, 
+    2010.0, 
+    2010.46, 
+    729.082, 
+    315.0, 
+    1256.69, 
+    1746.2, 
+    1755.65, 
+    490.728, 
+    1371.6, 
+    384.048, 
+    2497.0, 
+    392.887, 
+    590.0, 
+    1280.0, 
+    1859.89, 
+    1531.01, 
+    733.654, 
+    30.48, 
+    303.886, 
+    1793.14, 
+    241.097, 
+    486.0, 
+    550.0, 
+    750.0, 
+    750.0, 
+    73.152, 
+    1112.52, 
+    243.84, 
+    85.0392, 
+    1424.0, 
+    951.281, 
+    416.052, 
+    2500.0, 
+    298.0, 
+    45.72, 
+    70.104, 
+    55.7784, 
+    195.0, 
+    886.0, 
+    978.103, 
+    315.773, 
+    1388.67, 
+    1146.96, 
+    1214.02, 
+    1219.2, 
+    617.0, 
+    1592.0, 
+    636.0, 
+    1482.24, 
+    886.0, 
+    561.0, 
+    454.152, 
+    2400.0, 
+    1357.0, 
+    536.0, 
+    317.0, 
+    411.48, 
+    2653.0, 
+    1192.38, 
+    320.954, 
+    499.0, 
+    161.849, 
+    1042.0, 
+    2010.0, 
+    6000.0, 
+    4800.0, 
+    4925.0, 
+    2200.0, 
+    1043.0, 
+    1600.0, 
+    4400.0, 
+    5100.0, 
+    67.0, 
+    651.0, 
+    1323.0, 
+    461.467, 
+    1317.96, 
+    1208.0, 
+    408.432, 
+    341.376, 
+    380.0, 
+    736.0, 
+    160.0, 
+    80.0, 
+    640.0, 
+    215.0, 
+    478.0, 
+    209.0, 
+    380.0, 
+    260.0, 
+    155.0, 
+    205.0, 
+    198.0, 
+    540.0, 
+    260.0, 
+    68.0, 
+    165.0, 
+    615.0
+  ]
+}

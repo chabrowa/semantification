@@ -1,0 +1,251 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/maximumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "minimumElevation", 
+          0.1245
+        ], 
+        [
+          "numberOfStudents", 
+          0.1323
+        ], 
+        [
+          "populationDensity", 
+          0.1393
+        ], 
+        [
+          "elevation", 
+          0.1424
+        ]
+      ], 
+      "maj": [
+        [
+          "numberOfStudents", 
+          4.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "minimumElevation", 
+          2.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1245
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (minimumElevation)", 
+          0.1245
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (minimumElevation)", 
+          0.1245
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (minimumElevation)", 
+          0.1281
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          0.1316
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.1323
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.1323
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.1323
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1393
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1424
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.1425
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1425
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          0.1428
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (minimumElevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (minimumElevation)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "SkiArea[minimumElevation]>(location|United_States)", 
+      0.1064
+    ], 
+    [
+      "School[numberOfStudents]>(state|Florida)", 
+      0.1266
+    ], 
+    [
+      "School[numberOfStudents]>(state|Virginia)", 
+      0.1271
+    ], 
+    [
+      "School[numberOfStudents]>(state|California)>(type|State_school)>(22-rdf-syntax-ns#type|_Feature)>(country|United_States)", 
+      0.1297
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Missouri)>(isPartOf|St._Louis_County,_Missouri)", 
+      0.1393
+    ], 
+    [
+      "NaturalPlace[elevation]", 
+      0.1421
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Uttarakhand)", 
+      0.1424
+    ], 
+    [
+      "SkiArea[minimumElevation]>(location|United_States)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1425
+    ], 
+    [
+      "Mountain[elevation]>(locatedInArea|Japan)", 
+      0.1428
+    ], 
+    [
+      "School[numberOfStudents]>(state|California)", 
+      0.1459
+    ]
+  ], 
+  "values": [
+    1953.2132941293257, 
+    2872.593129389415, 
+    2550.3913839860625, 
+    323.0350653219729, 
+    1493.9395671279995, 
+    373.64529512991516, 
+    1607.6564462024478, 
+    930.4754148502648, 
+    2664.326537352665, 
+    334.54938184335674, 
+    328.81969314578316, 
+    2538.7534626241522, 
+    308.0900526745661, 
+    2388.5718711564773, 
+    301.67092622101546, 
+    983.1818656901696, 
+    1014.4664778144212, 
+    366.23233007396846, 
+    1279.0250560425654, 
+    253.57739698803252, 
+    3051.2954487479165, 
+    1864.7010866968758, 
+    671.4270048876595, 
+    1841.3502641124187, 
+    529.6058751538012, 
+    379.253136403023, 
+    326.33441642890773, 
+    1646.608558167876, 
+    1743.617146236163, 
+    873.9122944174495, 
+    266.19839766978225, 
+    2089.392965173264, 
+    1612.7050964146154, 
+    2186.8891500862346, 
+    4369.221343401072, 
+    2275.965397372925, 
+    380.7991717028136, 
+    2140.543104779913, 
+    2009.637440606315, 
+    544.7703882463742, 
+    1888.7236772037286, 
+    1703.0278251182417, 
+    1795.5196949900005, 
+    2327.138828179152, 
+    3365.6632120908457, 
+    3051.0885577040763, 
+    568.4631534596405, 
+    2620.5382348784606, 
+    720.9213279878118, 
+    1439.0851114139818, 
+    2441.781282070092, 
+    1291.4717844023442
+  ]
+}

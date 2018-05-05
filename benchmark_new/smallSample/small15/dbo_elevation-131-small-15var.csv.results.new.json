@@ -1,0 +1,240 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/elevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.0847
+        ], 
+        [
+          "populationTotal", 
+          0.0984
+        ], 
+        [
+          "minimumElevation", 
+          0.1055
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          4.0
+        ], 
+        [
+          "populationTotal", 
+          4.0
+        ], 
+        [
+          "minimumElevation", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.0684
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.0901
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0984
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.0984
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0984
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.0984
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1009
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.102
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.1055
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1055
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.1055
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.1055
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          15.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Place[elevation]", 
+      0.0684
+    ], 
+    [
+      "Location[elevation]", 
+      0.0684
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Razavi_Khorasan_Province)>(isPartOf|Central_District_(Sabzevar_County))", 
+      0.0935
+    ], 
+    [
+      "Settlement[elevation]>(country|Italy)", 
+      0.0954
+    ], 
+    [
+      "Village[populationTotal]>(timeZone|Central_European_Time)>(country|Croatia)>(22-rdf-syntax-ns#type|_Feature)>(type|Village)", 
+      0.0976
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Gilan_Province)>(isPartOf|Asalem_District)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1005
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Gilan_Province)>(isPartOf|Asalem_District)", 
+      0.1019
+    ], 
+    [
+      "Location[minimumElevation]>(region|Languedoc-Roussillon)>(department|Pyr%C3%A9n%C3%A9es-Orientales)", 
+      0.1055
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Languedoc-Roussillon)>(department|Pyr%C3%A9n%C3%A9es-Orientales)", 
+      0.1055
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(region|Provence-Alpes-C%C3%B4te_d'Azur)", 
+      0.1065
+    ]
+  ], 
+  "values": [
+    285.3609738167382, 
+    470.7436375487199, 
+    453.5857540284677, 
+    6.900415306017241, 
+    12.330397636158965, 
+    458.00325567995384, 
+    219.72920111117853, 
+    20.021517377942203, 
+    209.04829118497975, 
+    363.6339988861638, 
+    66.98858749863291, 
+    25.01539510254332, 
+    577.8853317062276, 
+    254.36746940412337, 
+    4.971886963004924, 
+    159.69122857561507, 
+    1161.5914637462204, 
+    12.308487381155224, 
+    176.71357030768814, 
+    293.5369403783353, 
+    159.60819811469756, 
+    69.87742481600223, 
+    406.66432059443343, 
+    1163.1316707067724, 
+    309.1415350997388, 
+    621.8526493569665, 
+    219.849731259308, 
+    495.02406872275606, 
+    343.32806553151966, 
+    206.4577493307547, 
+    190.5392369763046, 
+    1.02720883163731, 
+    32.960638937647246, 
+    163.67770034974518, 
+    218.9661489616841, 
+    733.2802014900565, 
+    859.185231974096, 
+    90.57692996027752, 
+    109.83542611132884, 
+    118.83115189688453, 
+    1009.8663312268245, 
+    262.26943615094183, 
+    1067.900360251612, 
+    809.2270800415808, 
+    7.696579973716615, 
+    1864.6133595432232, 
+    430.88099157495844, 
+    765.331099809167, 
+    449.8497740464849, 
+    191.52795940429843, 
+    309.71238583341375, 
+    14.070328684417163, 
+    764.8109250204856, 
+    738.1130111499278, 
+    1608.7895553371545, 
+    375.89805305966223, 
+    188.6946581408722
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfPages"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "maximumElevation", 
+          0.2607
+        ], 
+        [
+          "areaCode", 
+          0.3015
+        ], 
+        [
+          "elevation", 
+          0.3107
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          7.0
+        ], 
+        [
+          "maximumElevation", 
+          2.0
+        ], 
+        [
+          "areaCode", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.2607
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          0.2607
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          0.2607
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          0.2607
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.2908
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaCode)", 
+          0.3015
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.3015
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          0.3015
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          0.3015
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.31
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.31
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.3123
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.313
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          15.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[maximumElevation]>(department|C%C3%B4te-d'Or)", 
+      0.2607
+    ], 
+    [
+      "Settlement[maximumElevation]>(department|C%C3%B4te-d'Or)", 
+      0.2607
+    ], 
+    [
+      "City[elevation]>(isPartOf|Kansas)", 
+      0.2908
+    ], 
+    [
+      "City[areaCode]>(isPartOf|Minnesota)", 
+      0.3015
+    ], 
+    [
+      "Settlement[elevation]>(country|Switzerland)>(canton|Ticino)>(district|Lugano_District)", 
+      0.3115
+    ], 
+    [
+      "Location[elevation]>(country|Switzerland)>(canton|Ticino)>(district|Lugano_District)", 
+      0.3115
+    ], 
+    [
+      "Location[elevation]>(country|Spain)>(isPartOf|Province_of_Badajoz)", 
+      0.3134
+    ], 
+    [
+      "Settlement[elevation]>(country|Italy)>(region|Umbria)", 
+      0.314
+    ], 
+    [
+      "Settlement[elevation]>(country|Italy)>(region|Umbria)>(province|Province_of_Perugia)", 
+      0.3148
+    ], 
+    [
+      "Settlement[elevation]>(country|Spain)>(isPartOf|Province_of_C%C3%A1ceres)", 
+      0.3188
+    ]
+  ], 
+  "values": [
+    512.0, 
+    308.0
+  ]
+}

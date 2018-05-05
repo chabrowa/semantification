@@ -1,0 +1,182 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.2496
+        ], 
+        [
+          "numberOfStudents", 
+          0.2535
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          8.0
+        ], 
+        [
+          "numberOfStudents", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2462
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.2483
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2495
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2495
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.2526
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.2535
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.2535
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.2535
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          0.2536
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          16.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(type|Census-designated_place)", 
+      0.2339
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(type|Census-designated_place)", 
+      0.2339
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(type|Town)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2463
+    ], 
+    [
+      "Town[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(type|Town)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2506
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(type|Town)", 
+      0.2509
+    ], 
+    [
+      "School[numberOfStudents]>(type|Academy_(English_school))>(type|Grammar_school)", 
+      0.253
+    ], 
+    [
+      "School[numberOfStudents]>(type|Academy_(English_school))>(type|Grammar_school)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2541
+    ], 
+    [
+      "Town[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(type|Town)", 
+      0.2552
+    ], 
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)", 
+      0.2582
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)", 
+      0.2673
+    ]
+  ], 
+  "values": [
+    3628.5548262266047, 
+    1097.991361680762, 
+    1097.3543234798042, 
+    1228.5699874839515, 
+    851.5728536405586, 
+    1032.4185415915035, 
+    927.318500839762, 
+    944.5176534668366, 
+    898.4641534268869, 
+    1134.9947502167092, 
+    929.0133977968596, 
+    942.0614562730052, 
+    789.8184604275825, 
+    985.8076712973566, 
+    1003.0869090646984, 
+    914.3248978824112, 
+    897.1263859482979, 
+    1075.8899731036358, 
+    826.1493005552063, 
+    -2291.3233931900104, 
+    962.5374135900433, 
+    846.0980128434372, 
+    967.3006785962943, 
+    1009.6685672975516, 
+    951.592485698827, 
+    966.878385673426, 
+    895.1632586386768, 
+    898.5780243145051, 
+    1149.1216842949893, 
+    900.9784762574724, 
+    975.4986127108293
+  ]
+}

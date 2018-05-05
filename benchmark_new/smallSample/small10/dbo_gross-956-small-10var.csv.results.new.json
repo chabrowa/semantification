@@ -1,0 +1,171 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/gross"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaWater", 
+          0.1711
+        ], 
+        [
+          "populationTotal", 
+          0.1718
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          8.0
+        ], 
+        [
+          "populationTotal", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          0.1569
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.165
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.1682
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1718
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1718
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.1727
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.1727
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1781
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.1855
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          15.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[populationTotal]>(timeZone|Indian_Standard_Time)", 
+      0.1403
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|New_Jersey)", 
+      0.141
+    ], 
+    [
+      "City[areaWater]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)", 
+      0.1513
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Iowa)>(type|Township_(United_States))>(timeZone|Central_Time_Zone)", 
+      0.1569
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Iowa)>(type|Township_(United_States))>(timeZone|Central_Time_Zone)", 
+      0.1569
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|New_Jersey)>(governmentType|Borough_(New_Jersey))", 
+      0.176
+    ], 
+    [
+      "City[areaWater]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)>(type|City)>(timeZone|Pacific_Time_Zone)", 
+      0.1859
+    ], 
+    [
+      "City[areaWater]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)>(type|City)", 
+      0.1959
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Eastern_European_Time)>(country|Greece)", 
+      0.2033
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Ohio)>(country|United_States)", 
+      0.2053
+    ]
+  ], 
+  "values": [
+    13905.806221740973, 
+    1741.927927839314, 
+    187.23019835546805, 
+    797542.2147391639, 
+    47815.59607940399, 
+    75176.23132620903, 
+    316453.30120683456, 
+    113008.29417116151, 
+    4552.062671784321, 
+    16539.13190962776, 
+    426143.053938663, 
+    119147.5306518132, 
+    23686.681515158773, 
+    267765.52477732033, 
+    139415.3445915762, 
+    252523.50776011706, 
+    516310.3743076438, 
+    439018.57819719455, 
+    41790.976397957194, 
+    137099.03400582552
+  ]
+}

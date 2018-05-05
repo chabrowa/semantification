@@ -1,0 +1,135 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1061
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          0.101
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.106
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.106
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1063
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1069
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          16.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          4.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "City[populationTotal]>(isPartOf|Kentucky)>(timeZone|Central_Time_Zone)>(type|List_of_cities_in_Kentucky)", 
+      0.101
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_Time_Zone)>(type|Types_of_municipalities_in_Quebec)", 
+      0.102
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(region|Liguria)", 
+      0.1043
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(region|Liguria)", 
+      0.1043
+    ], 
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(country|West_Sussex)", 
+      0.1071
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|West_Sussex)", 
+      0.1071
+    ], 
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(country|Devon)", 
+      0.1086
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|Devon)", 
+      0.1086
+    ], 
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(country|Lancashire)>(country|England)", 
+      0.1087
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|Lancashire)>(country|England)", 
+      0.1087
+    ]
+  ], 
+  "values": [
+    14400.0, 
+    2880.0, 
+    1800.0, 
+    1556.0, 
+    270.0, 
+    283.0, 
+    358.0, 
+    -2700.0, 
+    1800.0, 
+    1320.0, 
+    6300.0, 
+    3600.0, 
+    3600.0, 
+    900.0, 
+    600.0, 
+    5400.0, 
+    724.0, 
+    1500.0, 
+    1800.0, 
+    10500.0, 
+    600.0, 
+    900.0, 
+    -900.0, 
+    3300.0
+  ]
+}

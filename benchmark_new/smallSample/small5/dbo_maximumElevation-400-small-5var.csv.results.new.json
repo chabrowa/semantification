@@ -1,0 +1,173 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/maximumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.0966
+        ], 
+        [
+          "populationTotal", 
+          0.0986
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          7.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.0957
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.0966
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.0966
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.0966
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.0983
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.0986
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0989
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0989
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.0993
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "City[elevation]>(country|China)>(type|Prefecture-level_city)>(22-rdf-syntax-ns#type|_Feature)>(timeZone|Time_in_China)", 
+      0.0909
+    ], 
+    [
+      "City[elevation]>(country|China)>(type|Prefecture-level_city)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.097
+    ], 
+    [
+      "Location[populationTotal]>(isPartOf|Kerman_Province)", 
+      0.098
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(isPartOf|Perugia)>(type|Frazione)", 
+      0.0984
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(isPartOf|Perugia)>(type|Frazione)", 
+      0.0984
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(isPartOf|Perugia)", 
+      0.0985
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(isPartOf|Perugia)", 
+      0.0985
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Central_District_(Anbarabad_County))", 
+      0.0986
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|South_Khorasan_Province)>(isPartOf|Central_District_(Darmian_County))", 
+      0.1
+    ], 
+    [
+      "City[elevation]>(country|China)>(type|Prefecture-level_city)", 
+      0.1018
+    ]
+  ], 
+  "values": [
+    123.37922313460477, 
+    65.27841464760914, 
+    377.2548651780767, 
+    515.6010911491721, 
+    5.856023566667529, 
+    22.19860304992434, 
+    96.43167517293573, 
+    102.59387790302543, 
+    427.74076056745827, 
+    9.937699495643205, 
+    1241.2561855530137, 
+    42.11622895354147, 
+    42.52709926491156, 
+    165.2493163627307, 
+    73.14532558484997, 
+    21.838444645685215, 
+    125.33534373339327, 
+    50.97258206087481, 
+    408.6023011440403, 
+    136.6448540814073, 
+    1075.667835091255, 
+    609.7966206820963
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/minimumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "minimumElevation", 
+          0.1843
+        ], 
+        [
+          "populationDensity", 
+          0.2308
+        ]
+      ], 
+      "maj": [
+        [
+          "minimumElevation", 
+          9.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Region (minimumElevation)", 
+          0.1435
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (minimumElevation)", 
+          0.1483
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.1725
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.1801
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1815
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.1847
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (minimumElevation)", 
+          0.1847
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2308
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "AdministrativeRegion[minimumElevation]", 
+      0.1386
+    ], 
+    [
+      "Region[minimumElevation]", 
+      0.1386
+    ], 
+    [
+      "Location[minimumElevation]>(country|Greece)", 
+      0.1523
+    ], 
+    [
+      "AdministrativeRegion[minimumElevation]>(country|Greece)", 
+      0.1532
+    ], 
+    [
+      "City[minimumElevation]", 
+      0.1847
+    ], 
+    [
+      "City[minimumElevation]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1847
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Nebraska)", 
+      0.2308
+    ], 
+    [
+      "PopulatedPlace[minimumElevation]", 
+      0.2354
+    ], 
+    [
+      "Location[minimumElevation]", 
+      0.2357
+    ], 
+    [
+      "Place[minimumElevation]", 
+      0.2357
+    ]
+  ], 
+  "values": [
+    563.0471214430606, 
+    52.45293774563696, 
+    39.44832691776406, 
+    498.56546862220745, 
+    0.0, 
+    0.0, 
+    0.0, 
+    608.6698264774511, 
+    58.130246464252224, 
+    663.0073751478138, 
+    203.46146567828373, 
+    56.472639738003664, 
+    0.0, 
+    0.0, 
+    0.9666566100300013, 
+    0.0, 
+    244.11920224637313, 
+    168.57905581544622, 
+    67.19951721101165, 
+    89.39597036223324, 
+    0.0, 
+    36.96305261998472, 
+    1226.095268146073, 
+    45.32272012960344, 
+    68.02694157494747, 
+    77.36123723758612, 
+    669.351126275714, 
+    389.284646821678, 
+    858.6199967501997, 
+    28.33775194717244, 
+    83.7562662374319, 
+    487.98898071776887, 
+    535.1357383728794, 
+    0.0, 
+    0.891065472714483, 
+    271.8397076607415, 
+    553.6338967826047, 
+    0.0, 
+    300.6411267889996
+  ]
+}

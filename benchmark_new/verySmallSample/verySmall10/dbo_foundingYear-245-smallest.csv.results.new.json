@@ -1,0 +1,226 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/foundingYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "deathYear", 
+          0.2941
+        ], 
+        [
+          "openingYear", 
+          0.2964
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.2999
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          6.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          3.0
+        ], 
+        [
+          "deathYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsEndYear)", 
+          0.2598
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryUnit (activeYearsEndYear)", 
+          0.2598
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          0.2766
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.2867
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.2925
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.2925
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.2925
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          0.2941
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (deathYear)", 
+          0.2941
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          0.2941
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.2999
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          0.3118
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          0.3158
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          0.3158
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.32
+        ], 
+        [
+          "http://dbpedia.org/ontology/Scientist (activeYearsEndYear)", 
+          0.32
+        ], 
+        [
+          "http://dbpedia.org/ontology/Medician (activeYearsEndYear)", 
+          0.32
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MilitaryUnit (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Scientist (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (deathYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Medician (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "RailwayLine[openingYear]>(type|Light_rail)", 
+      0.2484
+    ], 
+    [
+      "MilitaryUnit[activeYearsEndYear]>(battle|Gulf_War)", 
+      0.2598
+    ], 
+    [
+      "RouteOfTransportation[openingYear]", 
+      0.2911
+    ], 
+    [
+      "Artist[deathYear]", 
+      0.2941
+    ], 
+    [
+      "RailwayLine[openingYear]>(type|Light_rail)>(typeOfElectrification|Overhead_line)", 
+      0.2954
+    ], 
+    [
+      "Bridge[openingYear]", 
+      0.3118
+    ], 
+    [
+      "Station[openingYear]>(location|China)>(operatedBy|Ministry_of_Railways_(China))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3158
+    ], 
+    [
+      "Location[openingYear]>(location|China)>(operatedBy|Ministry_of_Railways_(China))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3158
+    ], 
+    [
+      "Scientist[activeYearsEndYear]", 
+      0.32
+    ], 
+    [
+      "Medician[activeYearsEndYear]", 
+      0.32
+    ]
+  ], 
+  "values": [
+    1948.0, 
+    2013.0, 
+    1904.0
+  ]
+}

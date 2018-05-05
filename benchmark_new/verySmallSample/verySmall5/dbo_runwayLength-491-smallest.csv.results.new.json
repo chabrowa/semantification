@@ -1,0 +1,129 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runwayLength"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaCode", 
+          0.2938
+        ], 
+        [
+          "runtime", 
+          0.3058
+        ]
+      ], 
+      "maj": [
+        [
+          "areaCode", 
+          9.0
+        ], 
+        [
+          "runtime", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          0.2916
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.2916
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          0.2917
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          0.2954
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          0.3058
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (runtime)", 
+          0.3058
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          16.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (runtime)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaCode]>(country|England)>(country|Surrey)", 
+      0.2826
+    ], 
+    [
+      "Settlement[areaCode]>(country|England)>(country|Surrey)", 
+      0.2826
+    ], 
+    [
+      "Location[areaCode]>(country|England)>(country|Nottinghamshire)", 
+      0.2903
+    ], 
+    [
+      "Settlement[areaCode]>(country|England)>(country|Nottinghamshire)", 
+      0.2903
+    ], 
+    [
+      "Location[areaCode]>(country|England)>(country|Nottinghamshire)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2935
+    ], 
+    [
+      "Settlement[areaCode]>(country|England)>(country|Nottinghamshire)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2935
+    ], 
+    [
+      "Location[areaCode]>(country|England)>(country|Cambridgeshire)", 
+      0.3
+    ], 
+    [
+      "Settlement[areaCode]>(country|England)>(country|Cambridgeshire)", 
+      0.3
+    ], 
+    [
+      "TelevisionShow[runtime]>(format|Animated_series)", 
+      0.3058
+    ], 
+    [
+      "Location[areaCode]>(country|England)>(country|Devon)", 
+      0.3111
+    ]
+  ], 
+  "values": [
+    1739.7457891849845, 
+    1314.525288994009
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/formationYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "openingYear", 
+          0.3874
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.3982
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          8.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          0.3801
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          0.3848
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.3854
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.3874
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.3874
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.3874
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (openingYear)", 
+          0.389
+        ], 
+        [
+          "http://dbpedia.org/ontology/Locomotive (activeYearsEndYear)", 
+          0.3982
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (activeYearsEndYear)", 
+          0.3982
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (openingYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Locomotive (activeYearsEndYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "RailwayTunnel[openingYear]", 
+      0.3767
+    ], 
+    [
+      "RailwayLine[openingYear]>(type|Light_rail)", 
+      0.3811
+    ], 
+    [
+      "RailwayTunnel[openingYear]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3818
+    ], 
+    [
+      "Dam[openingYear]>(country|United_States)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3872
+    ], 
+    [
+      "Dam[openingYear]>(country|United_States)", 
+      0.388
+    ], 
+    [
+      "RailwayLine[openingYear]", 
+      0.3922
+    ], 
+    [
+      "RouteOfTransportation[openingYear]", 
+      0.3951
+    ], 
+    [
+      "Dam[openingYear]", 
+      0.3968
+    ], 
+    [
+      "MeanOfTransportation[activeYearsEndYear]", 
+      0.3982
+    ], 
+    [
+      "Locomotive[activeYearsEndYear]", 
+      0.3982
+    ]
+  ], 
+  "values": [
+    1952.0, 
+    2038.0, 
+    2020.0, 
+    1903.0, 
+    1918.0
+  ]
+}

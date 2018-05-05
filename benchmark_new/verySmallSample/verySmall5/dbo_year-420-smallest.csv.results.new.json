@@ -1,0 +1,209 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/year"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "openingYear", 
+          0.3232
+        ], 
+        [
+          "foundingYear", 
+          0.3234
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.3234
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          4.0
+        ], 
+        [
+          "foundingYear", 
+          4.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          0.3227
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.3229
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.3231
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.3232
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.3232
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          0.3233
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          0.3233
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.3234
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.3234
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          0.3234
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.3234
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Bridge[openingYear]", 
+      0.3227
+    ], 
+    [
+      "RouteOfTransportation[openingYear]", 
+      0.3232
+    ], 
+    [
+      "School[foundingYear]", 
+      0.3233
+    ], 
+    [
+      "EducationalInstitution[foundingYear]", 
+      0.3233
+    ], 
+    [
+      "Person[activeYearsStartYear]", 
+      0.3234
+    ], 
+    [
+      "Agent[foundingYear]", 
+      0.3234
+    ], 
+    [
+      "Organisation[foundingYear]", 
+      0.3234
+    ], 
+    [
+      "Agent[activeYearsStartYear]", 
+      0.3235
+    ], 
+    [
+      "Infrastructure[openingYear]", 
+      0.3235
+    ], 
+    [
+      "ArchitecturalStructure[openingYear]", 
+      0.3235
+    ]
+  ], 
+  "values": [
+    1981.0, 
+    1856.0, 
+    2008.0, 
+    2082.0, 
+    2061.0, 
+    1856.0, 
+    1900.0, 
+    2079.0, 
+    1966.0, 
+    1978.0, 
+    1882.0, 
+    1933.0, 
+    2090.0, 
+    2064.0, 
+    2054.0, 
+    1971.0, 
+    1997.0, 
+    1897.0, 
+    2086.0, 
+    1947.0, 
+    2060.0, 
+    2087.0, 
+    1933.0, 
+    1912.0, 
+    1954.0, 
+    1955.0, 
+    1974.0, 
+    1908.0, 
+    1976.0, 
+    1921.0, 
+    1941.0, 
+    2006.0, 
+    2081.0, 
+    2107.0
+  ]
+}

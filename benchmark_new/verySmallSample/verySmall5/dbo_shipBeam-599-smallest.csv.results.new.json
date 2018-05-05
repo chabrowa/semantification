@@ -1,0 +1,363 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/shipBeam"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "shipBeam", 
+          0.059
+        ], 
+        [
+          "populationDensity", 
+          0.1192
+        ], 
+        [
+          "number", 
+          0.1688
+        ], 
+        [
+          "elevation", 
+          0.1788
+        ], 
+        [
+          "height", 
+          0.1871
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          3.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "shipBeam", 
+          2.0
+        ], 
+        [
+          "height", 
+          1.0
+        ], 
+        [
+          "number", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          0.059
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          0.059
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1036
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1036
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1271
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1271
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.1505
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.1505
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.1688
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          0.1688
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.1688
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.1688
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.178
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1788
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1788
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1788
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.1871
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (height)", 
+          0.1871
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.1871
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (height)", 
+          0.1871
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lighthouse (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tower (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Ship[shipBeam]", 
+      0.059
+    ], 
+    [
+      "MeanOfTransportation[shipBeam]", 
+      0.059
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Zamora)", 
+      0.1036
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Zamora)", 
+      0.1036
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Arkansas)", 
+      0.1505
+    ], 
+    [
+      "BasketballPlayer[number]>(league|Euroleague_Basketball)", 
+      0.1688
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Northern_Norway)>(isPartOf|Nordland)", 
+      0.1732
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Northern_Norway)>(isPartOf|Nordland)>(timeZone|Central_European_Time)", 
+      0.1779
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Northern_Norway)", 
+      0.1854
+    ], 
+    [
+      "Lighthouse[height]>(location|Australia)", 
+      0.1871
+    ]
+  ], 
+  "values": [
+    7.995913208545443, 
+    8.16354402386185, 
+    13.52643259566054, 
+    7.698237185856345, 
+    9.21805039556558, 
+    11.814355246457009, 
+    26.494405569374678, 
+    6.6973660283446526, 
+    8.94651834375774, 
+    6.419423926603593, 
+    9.523606059539436, 
+    5.638285063271096, 
+    7.3694830333583425, 
+    11.242955598291353, 
+    6.67308358809579, 
+    11.714281840611362, 
+    22.923170663872828, 
+    14.947111815618653, 
+    5.0818341185488975, 
+    8.996617037210354, 
+    8.427171576951604, 
+    4.071285213941215, 
+    32.676031944988196, 
+    14.280407625635828, 
+    15.760280640353342, 
+    11.07599869030596, 
+    6.468694435692951, 
+    8.206152105103083, 
+    6.1483300134815675, 
+    7.310750446203881, 
+    9.595002627738927, 
+    10.78205984434327, 
+    6.649716902900823, 
+    20.548127492340633, 
+    61.60719807034909, 
+    2.7598541591963515, 
+    12.7093306394976, 
+    19.171778852486806, 
+    14.980615449593687, 
+    7.794933139761916, 
+    8.150026202553581, 
+    15.201833758705082, 
+    15.118422220413652, 
+    16.312717901872208, 
+    14.833354498016881, 
+    20.204605778906654, 
+    6.165680202650654, 
+    11.727592602501812, 
+    9.20421278800832, 
+    7.323196820491107, 
+    12.410222332118312, 
+    9.534020177597107, 
+    13.787610885550555, 
+    15.588129540507781, 
+    4.777656874740211, 
+    20.78186765270854, 
+    11.691940981957282, 
+    33.21666542056973, 
+    69.97330437333898, 
+    14.54109120329132, 
+    12.319293858466054, 
+    18.042871234315616, 
+    7.230628730421558, 
+    11.835795762577481, 
+    26.398516365745046, 
+    9.126232090638046, 
+    14.190659253245569, 
+    24.831559958776996, 
+    6.289092691965041, 
+    13.647910732058133, 
+    3.868933718394548, 
+    18.038349729553463, 
+    12.707304289552551, 
+    6.196381664013915, 
+    7.888463944889317, 
+    18.53855119864171, 
+    2.0153066657637217, 
+    4.491358993457523, 
+    10.231053001730537, 
+    2.9797728548849456, 
+    11.155062772591203, 
+    21.9295875447242, 
+    20.03470022938351, 
+    10.731883198229006, 
+    18.23106536619815, 
+    18.747384399037127, 
+    11.29067774830094, 
+    6.474732934635235, 
+    4.729816678492236, 
+    20.821646907949813, 
+    12.270582385170343, 
+    20.8443823711155, 
+    14.666616801271871, 
+    11.03978021598338, 
+    19.390634287512793, 
+    7.102774004246847, 
+    14.376226846120424, 
+    8.362271255268519, 
+    17.373157161595636, 
+    3.8722150416276797
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/yearOfConstruction"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "deathYear", 
+          0.2576
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.2866
+        ], 
+        [
+          "foundingYear", 
+          0.2922
+        ], 
+        [
+          "serviceEndYear", 
+          0.3003
+        ]
+      ], 
+      "maj": [
+        [
+          "activeYearsStartYear", 
+          6.0
+        ], 
+        [
+          "deathYear", 
+          2.0
+        ], 
+        [
+          "serviceEndYear", 
+          1.0
+        ], 
+        [
+          "foundingYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Artist (deathYear)", 
+          0.2353
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsStartYear)", 
+          0.2574
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          0.2576
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          0.2576
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.2709
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsStartYear)", 
+          0.2709
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          0.2709
+        ], 
+        [
+          "http://dbpedia.org/ontology/Philosopher (deathYear)", 
+          0.2799
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.2922
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          0.2922
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.2922
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          0.2922
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cardinal (activeYearsStartYear)", 
+          0.2941
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          0.3003
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          0.3003
+        ], 
+        [
+          "http://dbpedia.org/ontology/OfficeHolder (serviceEndYear)", 
+          0.3003
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (activeYearsStartYear)", 
+          0.3023
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (activeYearsStartYear)", 
+          0.3023
+        ], 
+        [
+          "http://dbpedia.org/ontology/Venue (activeYearsStartYear)", 
+          0.3023
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (activeYearsStartYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cleric (activeYearsStartYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ChristianBishop (activeYearsStartYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Philosopher (deathYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cardinal (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Venue (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Artist (deathYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/OfficeHolder (serviceEndYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Artist[deathYear]", 
+      0.2353
+    ], 
+    [
+      "ChristianBishop[activeYearsStartYear]>(religion|Catholic_Church)", 
+      0.2537
+    ], 
+    [
+      "ChristianBishop[activeYearsStartYear]", 
+      0.2649
+    ], 
+    [
+      "Philosopher[deathYear]", 
+      0.2799
+    ], 
+    [
+      "School[foundingYear]>(type|Academy_(English_school))", 
+      0.2922
+    ], 
+    [
+      "Cardinal[activeYearsStartYear]", 
+      0.2941
+    ], 
+    [
+      "OfficeHolder[serviceEndYear]", 
+      0.3003
+    ], 
+    [
+      "ArchitecturalStructure[activeYearsStartYear]", 
+      0.3023
+    ], 
+    [
+      "Place[activeYearsStartYear]", 
+      0.3023
+    ], 
+    [
+      "Venue[activeYearsStartYear]", 
+      0.3023
+    ]
+  ], 
+  "values": [
+    2011.0, 
+    1799.0, 
+    1908.0, 
+    1913.0, 
+    1924.0, 
+    2020.0, 
+    1810.0, 
+    2007.0, 
+    1949.0, 
+    1835.0, 
+    2085.0, 
+    2038.0, 
+    1920.0, 
+    1709.0, 
+    1887.0, 
+    2040.0, 
+    1725.0, 
+    2048.0, 
+    1771.0, 
+    2013.0, 
+    1767.0, 
+    2034.0, 
+    1896.0, 
+    1929.0, 
+    1787.0, 
+    1746.0, 
+    1742.0, 
+    1990.0, 
+    2035.0, 
+    1825.0, 
+    2013.0, 
+    1779.0, 
+    2073.0, 
+    1855.0
+  ]
+}

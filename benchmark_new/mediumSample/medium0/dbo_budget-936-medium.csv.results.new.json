@@ -1,0 +1,290 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/budget"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "budget", 
+          0.1218
+        ], 
+        [
+          "length", 
+          0.2597
+        ], 
+        [
+          "populationTotal", 
+          0.2646
+        ]
+      ], 
+      "maj": [
+        [
+          "budget", 
+          5.0
+        ], 
+        [
+          "populationTotal", 
+          3.0
+        ], 
+        [
+          "length", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/SocietalEvent (budget)", 
+          0.1218
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tournament (budget)", 
+          0.1218
+        ], 
+        [
+          "http://dbpedia.org/ontology/Event (budget)", 
+          0.1218
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsEvent (budget)", 
+          0.1218
+        ], 
+        [
+          "http://dbpedia.org/ontology/TennisTournament (budget)", 
+          0.1218
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationTotal)", 
+          0.2477
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationTotal)", 
+          0.2477
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.2597
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          0.2597
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          0.2597
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          0.2597
+        ], 
+        [
+          "http://dbpedia.org/ontology/Stream (length)", 
+          0.2597
+        ], 
+        [
+          "http://dbpedia.org/ontology/River (length)", 
+          0.2597
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2646
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2646
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          0.2729
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.273
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Event (budget)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SocietalEvent (budget)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsEvent (budget)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Tournament (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/River (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Stream (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TennisTournament (budget)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "TennisTournament[budget]", 
+      0.1218
+    ], 
+    [
+      "Tournament[budget]", 
+      0.1218
+    ], 
+    [
+      "SocietalEvent[budget]", 
+      0.1218
+    ], 
+    [
+      "Event[budget]", 
+      0.1218
+    ], 
+    [
+      "SportsEvent[budget]", 
+      0.1218
+    ], 
+    [
+      "AdministrativeRegion[populationTotal]>(country|Peru)", 
+      0.2477
+    ], 
+    [
+      "River[length]>(sourceCountry|France)", 
+      0.2597
+    ], 
+    [
+      "Location[length]>(sourceCountry|France)", 
+      0.2597
+    ], 
+    [
+      "City[populationTotal]>(type|Cities_of_Japan)>(country|Japan)", 
+      0.2725
+    ], 
+    [
+      "City[populationTotal]>(type|Cities_of_Japan)", 
+      0.2735
+    ]
+  ], 
+  "values": [
+    50000.0, 
+    50000.0, 
+    50000.0, 
+    50000.0, 
+    35000.0, 
+    42500.0, 
+    10000.0, 
+    100000.0, 
+    50000.0, 
+    250000.0, 
+    50000.0, 
+    50000.0, 
+    235000.0, 
+    50000.0, 
+    50000.0, 
+    75000.0, 
+    42500.0, 
+    35000.0, 
+    50000.0, 
+    50000.0, 
+    250000.0, 
+    638050.0, 
+    235000.0, 
+    64000.0, 
+    50000.0, 
+    50000.0, 
+    40000000.0, 
+    75000.0, 
+    10000.0, 
+    1221320.0, 
+    1190700.0, 
+    50000.0, 
+    25000.0, 
+    50000.0, 
+    50000.0, 
+    50000.0, 
+    50000.0, 
+    50000.0, 
+    50000.0, 
+    28028600.0, 
+    42500.0, 
+    50000.0, 
+    573750.0, 
+    50000.0, 
+    25000.0, 
+    50000.0, 
+    50000.0, 
+    75000.0, 
+    1024000.0, 
+    115000.0, 
+    125000.0, 
+    50000.0, 
+    170000.0, 
+    75000.0, 
+    100000.0, 
+    125000.0, 
+    50000.0, 
+    50000.0, 
+    75000.0, 
+    115000.0, 
+    50000.0, 
+    50000.0, 
+    250000.0, 
+    50000.0, 
+    42500.0, 
+    50000.0, 
+    50000.0
+  ]
+}

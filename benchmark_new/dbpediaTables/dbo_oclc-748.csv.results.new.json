@@ -1,0 +1,129 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/oclc"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.267
+        ], 
+        [
+          "areaLand", 
+          0.2798
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          6.0
+        ], 
+        [
+          "areaLand", 
+          4.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.267
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.267
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.2676
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.2796
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.2798
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.2798
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          18.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          4.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[areaTotal]>(isPartOf|Indiana)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2529
+    ], 
+    [
+      "Settlement[areaTotal]>(isPartOf|Indiana)>(22-rdf-syntax-ns#type|_Feature)>(country|United_States)", 
+      0.2558
+    ], 
+    [
+      "Settlement[areaTotal]>(isPartOf|Indiana)", 
+      0.2614
+    ], 
+    [
+      "Settlement[areaLand]>(isPartOf|Minnesota)", 
+      0.2667
+    ], 
+    [
+      "Settlement[areaTotal]>(isPartOf|Wisconsin)", 
+      0.2694
+    ], 
+    [
+      "Settlement[areaLand]>(isPartOf|Minnesota)>(country|United_States)", 
+      0.274
+    ], 
+    [
+      "Settlement[areaTotal]>(isPartOf|Illinois)>(timeZone|Central_Time_Zone)", 
+      0.2771
+    ], 
+    [
+      "Settlement[areaLand]>(isPartOf|Minnesota)>(country|United_States)>(timeZone|Central_Time_Zone)", 
+      0.2817
+    ], 
+    [
+      "Settlement[areaTotal]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)>(country|United_States)", 
+      0.2857
+    ], 
+    [
+      "Settlement[areaLand]>(isPartOf|Wisconsin)", 
+      0.2968
+    ]
+  ], 
+  "values": [
+    2696675.0, 
+    11631321.0
+  ]
+}

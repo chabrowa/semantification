@@ -1,0 +1,208 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "runtime", 
+          0.1325
+        ], 
+        [
+          "populationTotal", 
+          0.1681
+        ], 
+        [
+          "elevation", 
+          0.1792
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          8.0
+        ], 
+        [
+          "runtime", 
+          1.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          0.1325
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          0.1325
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1652
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1659
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1659
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1713
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          0.1774
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.1792
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1792
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          16.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "MusicalWork[runtime]", 
+      0.1325
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Eastern_Time_Zone)>(isPartOf|Maine)", 
+      0.1369
+    ], 
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(country|East_Sussex)>(country|England)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1694
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|East_Sussex)>(country|England)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1694
+    ], 
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(country|East_Sussex)>(country|England)", 
+      0.1707
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|East_Sussex)>(country|England)", 
+      0.1707
+    ], 
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(country|East_Sussex)", 
+      0.1752
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|East_Sussex)", 
+      0.1752
+    ], 
+    [
+      "Town[populationTotal]>(isPartOf|North_Carolina)", 
+      0.1774
+    ], 
+    [
+      "NaturalPlace[elevation]", 
+      0.1792
+    ]
+  ], 
+  "values": [
+    119.22571494295433, 
+    4464.027796649757, 
+    1066.047800447325, 
+    2763.402905148587, 
+    2927.5479615661975, 
+    4848.557224626978, 
+    1655.701491046543, 
+    1263.9684585547566, 
+    1088.0038541164963, 
+    4166.304973477712, 
+    209.07979296777526, 
+    2609.470157004754, 
+    2385.0855861164514, 
+    2420.1035833732726, 
+    5157.310179898269, 
+    3091.819701459658, 
+    166.35995774996198, 
+    1999.7762458941224, 
+    191.53080080455018, 
+    2271.063375031046, 
+    2527.974410469537, 
+    228.30135149049633, 
+    211.96212979946827, 
+    3490.8607300618273, 
+    2866.1871359869297, 
+    162.17689427839156, 
+    2401.3615993373237, 
+    205.53336005772823, 
+    2862.844546974538, 
+    752.8392833653295, 
+    2335.27622278348, 
+    131.13789242738252, 
+    117.65422056546343, 
+    2548.9212201262317, 
+    792.4963779273103, 
+    1626.131156098783, 
+    3442.5125007625074, 
+    3099.2475130113653, 
+    3133.265238000554, 
+    1985.7746669250942, 
+    1463.9159504263544, 
+    3052.731191300011, 
+    237.74180066939988, 
+    3006.933348519034, 
+    3361.575754784022, 
+    1831.0334004302586, 
+    269.68447917890586, 
+    191.0622374236014, 
+    713.8976797601889
+  ]
+}

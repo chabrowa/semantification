@@ -1,0 +1,315 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfSeasons"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfSeasons", 
+          0.0389
+        ], 
+        [
+          "length", 
+          0.24
+        ], 
+        [
+          "populationDensity", 
+          0.259
+        ], 
+        [
+          "area", 
+          0.2856
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          6.0
+        ], 
+        [
+          "numberOfSeasons", 
+          2.0
+        ], 
+        [
+          "area", 
+          1.0
+        ], 
+        [
+          "length", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          0.0389
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          0.0389
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (length)", 
+          0.24
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (length)", 
+          0.24
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.2458
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.2469
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2549
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.2583
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.2583
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.2809
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.2809
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          0.2856
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (area)", 
+          0.2856
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (area)", 
+          0.2856
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          0.2856
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (area)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (area)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Work[numberOfSeasons]", 
+      0.0389
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]", 
+      0.0389
+    ], 
+    [
+      "Weapon[length]>(usedInWar|World_War_II)", 
+      0.24
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Minnesota)>(type|Township_(United_States))>(isPartOf|Polk_County,_Minnesota)", 
+      0.2414
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Minnesota)>(isPartOf|Polk_County,_Minnesota)", 
+      0.2414
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Nebraska)>(type|Civil_township)", 
+      0.2525
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Nebraska)", 
+      0.2525
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Nebraska)", 
+      0.2809
+    ], 
+    [
+      "Village[area]", 
+      0.2856
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Kansas)", 
+      0.2856
+    ]
+  ], 
+  "values": [
+    2.0, 
+    2.0, 
+    1.0, 
+    10.0, 
+    26.0, 
+    9.0, 
+    1.0, 
+    2.0, 
+    1.0, 
+    1.0, 
+    3.0, 
+    1.0, 
+    3.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    2.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    2.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    2.0, 
+    4.0, 
+    1.0, 
+    2.0, 
+    6.0, 
+    2.0, 
+    2.0, 
+    1.0, 
+    2.0, 
+    5.0, 
+    1.0, 
+    3.0, 
+    4.0, 
+    3.0, 
+    2.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    2.0, 
+    1.0, 
+    3.0, 
+    1.0, 
+    1.0, 
+    2.0, 
+    7.0, 
+    1.0, 
+    8.0, 
+    3.0, 
+    2.0, 
+    5.0, 
+    9.0, 
+    2.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    7.0, 
+    3.0, 
+    3.0, 
+    1.0, 
+    1.0, 
+    2.0, 
+    2.0, 
+    7.0, 
+    4.0, 
+    2.0, 
+    3.0, 
+    1.0, 
+    3.0, 
+    4.0, 
+    3.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    5.0, 
+    2.0, 
+    2.0, 
+    1.0, 
+    2.0, 
+    1.0, 
+    2.0, 
+    11.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    24.0, 
+    4.0, 
+    16.0, 
+    1.0, 
+    1.0, 
+    1.0
+  ]
+}

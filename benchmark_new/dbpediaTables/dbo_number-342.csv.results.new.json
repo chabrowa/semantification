@@ -1,0 +1,222 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/number"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.1818
+        ], 
+        [
+          "areaCode", 
+          0.1838
+        ], 
+        [
+          "topSpeed", 
+          0.2022
+        ], 
+        [
+          "height", 
+          0.2154
+        ]
+      ], 
+      "maj": [
+        [
+          "topSpeed", 
+          4.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ], 
+        [
+          "height", 
+          2.0
+        ], 
+        [
+          "areaCode", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1818
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1818
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1818
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1818
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaCode)", 
+          0.1832
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          0.1838
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.1838
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          0.1838
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (topSpeed)", 
+          0.192
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (topSpeed)", 
+          0.2022
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.2099
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.2099
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (height)", 
+          0.2099
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          0.2099
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (height)", 
+          0.2209
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (areaCode)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (topSpeed)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (topSpeed)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[areaCode]>(type|Village_development_committee)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1809
+    ], 
+    [
+      "Location[populationDensity]>(country|Hungary)>(isPartOf|Somogy_County)", 
+      0.1818
+    ], 
+    [
+      "Settlement[populationDensity]>(country|Hungary)>(isPartOf|Somogy_County)", 
+      0.1818
+    ], 
+    [
+      "Ship[topSpeed]>(country|German_Empire)", 
+      0.184
+    ], 
+    [
+      "Ship[topSpeed]>(builder|Barrow-in-Furness)", 
+      0.1865
+    ], 
+    [
+      "Village[areaCode]>(type|Village_development_committee)", 
+      0.1866
+    ], 
+    [
+      "Dam[height]>(location|South_Africa)", 
+      0.2099
+    ], 
+    [
+      "MeanOfTransportation[topSpeed]", 
+      0.2191
+    ], 
+    [
+      "Ship[topSpeed]", 
+      0.2191
+    ], 
+    [
+      "Location[height]>(location|South_Africa)", 
+      0.2209
+    ]
+  ], 
+  "values": [
+    23.0, 
+    45.0, 
+    13.0, 
+    35.0, 
+    29.0, 
+    26.0, 
+    45.0
+  ]
+}

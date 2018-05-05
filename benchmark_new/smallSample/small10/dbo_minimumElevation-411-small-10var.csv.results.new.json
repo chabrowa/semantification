@@ -1,0 +1,225 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/minimumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "minimumElevation", 
+          0.09
+        ], 
+        [
+          "numberOfStudents", 
+          0.131
+        ], 
+        [
+          "elevation", 
+          0.1326
+        ], 
+        [
+          "populationDensity", 
+          0.133
+        ], 
+        [
+          "populationTotal", 
+          0.1474
+        ]
+      ], 
+      "maj": [
+        [
+          "numberOfStudents", 
+          3.0
+        ], 
+        [
+          "populationDensity", 
+          3.0
+        ], 
+        [
+          "populationTotal", 
+          2.0
+        ], 
+        [
+          "minimumElevation", 
+          1.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.09
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (minimumElevation)", 
+          0.09
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (minimumElevation)", 
+          0.09
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (minimumElevation)", 
+          0.09
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.131
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.131
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.131
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          0.1325
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.1326
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1326
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1343
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1476
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (minimumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "SkiArea[minimumElevation]>(location|United_States)", 
+      0.09
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Missouri)>(isPartOf|St._Louis_County,_Missouri)", 
+      0.1145
+    ], 
+    [
+      "School[numberOfStudents]>(state|California)", 
+      0.1166
+    ], 
+    [
+      "NaturalPlace[elevation]", 
+      0.1326
+    ], 
+    [
+      "School[numberOfStudents]>(state|Texas)>(22-rdf-syntax-ns#type|_Feature)>(type|State_school)", 
+      0.1368
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|New_Jersey)>(governmentType|Borough_(New_Jersey))", 
+      0.1383
+    ], 
+    [
+      "School[numberOfStudents]>(state|Virginia)", 
+      0.1397
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_Time_Zone)>(isPartOf|Vermont)", 
+      0.1461
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Missouri)>(isPartOf|St._Louis_County,_Missouri)>(type|City)", 
+      0.1462
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_Time_Zone)>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Chaudi%C3%A8re-Appalaches)", 
+      0.1488
+    ]
+  ], 
+  "values": [
+    1672.1715468148825, 
+    2267.8698644627216, 
+    2817.937044691172, 
+    372.2497030308145, 
+    742.3541572137874, 
+    1583.5209004778917, 
+    971.7429857095772, 
+    234.57867002488837, 
+    261.5234226717477, 
+    1183.924460828247, 
+    922.2593922906547, 
+    2290.6576839365116, 
+    216.29878022857486, 
+    3010.9799183803507, 
+    2731.899343831968, 
+    2820.6598773115625, 
+    2142.1935280109924, 
+    760.6913601975516, 
+    1560.3674945869054, 
+    1421.6611148918948, 
+    1526.2024288685939, 
+    3398.977775327201, 
+    1727.5911856989906, 
+    871.3219965459671, 
+    68.2855880578948, 
+    192.53044639750345
+  ]
+}

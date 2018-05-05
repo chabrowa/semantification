@@ -1,0 +1,172 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationDensity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaCode", 
+          0.1769
+        ], 
+        [
+          "populationDensity", 
+          0.1812
+        ], 
+        [
+          "elevation", 
+          0.2075
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          8.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ], 
+        [
+          "areaCode", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/City (areaCode)", 
+          0.1769
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.1769
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          0.1769
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          0.1769
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1812
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2052
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2052
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2064
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.2112
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.2129
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          15.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "City[areaCode]>(timeZone|Central_European_Time)", 
+      0.1769
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Oklahoma)", 
+      0.1812
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)", 
+      0.1816
+    ], 
+    [
+      "Settlement[elevation]>(country|Spain)>(isPartOf|Province_of_Tarragona)>(type|Municipalities_of_Spain)>(timeZone|Central_European_Time)", 
+      0.2065
+    ], 
+    [
+      "Location[elevation]>(country|Spain)>(isPartOf|Province_of_Tarragona)>(type|Municipalities_of_Spain)>(timeZone|Central_European_Time)", 
+      0.2065
+    ], 
+    [
+      "Settlement[elevation]>(country|Spain)>(isPartOf|Province_of_Tarragona)>(type|Municipalities_of_Spain)", 
+      0.2125
+    ], 
+    [
+      "Location[elevation]>(country|Spain)>(isPartOf|Province_of_Tarragona)>(type|Municipalities_of_Spain)", 
+      0.2125
+    ], 
+    [
+      "Settlement[elevation]>(country|Italy)>(region|Liguria)", 
+      0.2126
+    ], 
+    [
+      "Town[elevation]>(country|India)>(isPartOf|Andhra_Pradesh)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2129
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Andhra_Pradesh)>(country|India)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2149
+    ]
+  ], 
+  "values": [
+    44.17284014511662, 
+    470.5378283945325, 
+    257.4310433779436, 
+    7.952562805509276, 
+    373.8836459684394
+  ]
+}

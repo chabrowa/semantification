@@ -1,0 +1,121 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationDensity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1299
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1187
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1298
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1326
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1326
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1344
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          25.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          6.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationTotal]>(country|Slovenia)>(isPartOf|Municipality_of_Kamnik)", 
+      0.1107
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Slovenia)>(isPartOf|Municipality_of_Kamnik)", 
+      0.1182
+    ], 
+    [
+      "Location[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Howmeh_Rural_District_(Bam_County))", 
+      0.1268
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kerman_Province)>(isPartOf|Howmeh_Rural_District_(Bam_County))", 
+      0.1268
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Mazandaran_Province)>(isPartOf|Larijan_District)>(country|Iran)", 
+      0.1305
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Mazandaran_Province)>(isPartOf|Larijan_District)>(country|Iran)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.131
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Mazandaran_Province)>(isPartOf|Larijan_District)", 
+      0.1333
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Lorestan_Province)>(isPartOf|Zaz_va_Mahru_District)", 
+      0.1367
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Lorestan_Province)>(isPartOf|Besharat_District)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1378
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Hormozgan_Province)>(isPartOf|Fin_District)", 
+      0.1468
+    ]
+  ], 
+  "values": [
+    12.644436916184917, 
+    202.7395562133337, 
+    77.9329969619549, 
+    42.16529871046443, 
+    64.85315454421247, 
+    57.72906013908704, 
+    248.23459985822728, 
+    329.5129453344313, 
+    83.66631302647228, 
+    34.20193053695417
+  ]
+}

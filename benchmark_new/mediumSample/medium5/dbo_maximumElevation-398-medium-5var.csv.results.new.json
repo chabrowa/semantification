@@ -1,0 +1,267 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/maximumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "minimumElevation", 
+          0.1252
+        ], 
+        [
+          "populationTotal", 
+          0.1372
+        ], 
+        [
+          "numberOfStudents", 
+          0.1382
+        ], 
+        [
+          "maximumElevation", 
+          0.1529
+        ]
+      ], 
+      "maj": [
+        [
+          "numberOfStudents", 
+          4.0
+        ], 
+        [
+          "populationTotal", 
+          3.0
+        ], 
+        [
+          "minimumElevation", 
+          2.0
+        ], 
+        [
+          "maximumElevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1252
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (minimumElevation)", 
+          0.1252
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (minimumElevation)", 
+          0.1252
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (minimumElevation)", 
+          0.1257
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1346
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1361
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.1382
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.1382
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.1382
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1384
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1384
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          0.1409
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          0.1422
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (maximumElevation)", 
+          0.1529
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.1529
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (minimumElevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "School[numberOfStudents]>(state|Florida)", 
+      0.1115
+    ], 
+    [
+      "SkiArea[minimumElevation]>(location|United_States)", 
+      0.1226
+    ], 
+    [
+      "SkiArea[minimumElevation]>(location|United_States)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1278
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(region|Pays_de_la_Loire)>(department|Vend%C3%A9e)", 
+      0.1346
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(region|Pays_de_la_Loire)>(department|Vend%C3%A9e)", 
+      0.1346
+    ], 
+    [
+      "Town[populationTotal]>(timeZone|Central_European_Time)>(isPartOf|Zeeland)", 
+      0.1422
+    ], 
+    [
+      "School[numberOfStudents]>(state|California)>(type|State_school)>(22-rdf-syntax-ns#type|_Feature)>(country|United_States)", 
+      0.1427
+    ], 
+    [
+      "School[numberOfStudents]>(state|California)>(type|State_school)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.149
+    ], 
+    [
+      "School[numberOfStudents]>(state|California)", 
+      0.1497
+    ], 
+    [
+      "ArchitecturalStructure[maximumElevation]", 
+      0.1529
+    ]
+  ], 
+  "values": [
+    2102.7266009110026, 
+    2855.9360384082747, 
+    2465.205555292447, 
+    323.1717548174514, 
+    1617.0659114865412, 
+    378.20356985696037, 
+    1614.8191583163914, 
+    1050.415412546149, 
+    2923.9507115300557, 
+    353.18978943622534, 
+    324.05360952516924, 
+    2428.3903741313097, 
+    331.8444294299356, 
+    2476.342313505384, 
+    325.91101663990185, 
+    954.5720529851671, 
+    1104.297679272356, 
+    367.52820072621125, 
+    1172.1359119978822, 
+    242.453310474258, 
+    3254.130480472083, 
+    1740.4311022708052, 
+    673.243543062581, 
+    1853.6807831220633, 
+    514.0330414882677, 
+    352.35558419117274, 
+    359.52275024077994, 
+    1595.8746988525604, 
+    1941.9393802525365, 
+    919.9533348643585, 
+    300.551192014176, 
+    2106.3337215247675, 
+    1704.0453208161678, 
+    2196.590559776685, 
+    4099.4591550479745, 
+    2364.491631378713, 
+    419.3472897129081, 
+    2076.8399189099882, 
+    2234.4830229338777, 
+    540.8389735963697, 
+    1742.8870155006696, 
+    1793.8827992093647, 
+    1828.6387594917771, 
+    2462.3522678698755, 
+    3509.63435823641, 
+    2802.212518788736, 
+    573.303178111946, 
+    2398.6453461485244, 
+    822.0695323422244, 
+    1498.828782894985, 
+    2391.7538242565156, 
+    1408.3201216547955
+  ]
+}

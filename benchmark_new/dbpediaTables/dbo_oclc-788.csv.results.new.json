@@ -1,0 +1,226 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/oclc"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.2571
+        ], 
+        [
+          "oclc", 
+          0.2579
+        ], 
+        [
+          "gross", 
+          0.2697
+        ], 
+        [
+          "areaLand", 
+          0.2704
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          4.0
+        ], 
+        [
+          "areaLand", 
+          3.0
+        ], 
+        [
+          "gross", 
+          2.0
+        ], 
+        [
+          "oclc", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.249
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.2551
+        ], 
+        [
+          "http://dbpedia.org/ontology/Book (oclc)", 
+          0.2579
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          0.2579
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          0.2579
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.2598
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.2598
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.2648
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          0.266
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (gross)", 
+          0.2697
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (gross)", 
+          0.2697
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (gross)", 
+          0.2697
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.279
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.279
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.279
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          0.279
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Book (oclc)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (gross)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (gross)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (gross)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[areaTotal]>(country|Spain)>(isPartOf|Province_of_Barcelona)", 
+      0.248
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Barcelona)", 
+      0.249
+    ], 
+    [
+      "Book[oclc]>(publisher|Ace_Books)", 
+      0.2579
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Alaska)>(timeZone|Alaska_Time_Zone)>(type|Alaska)", 
+      0.2588
+    ], 
+    [
+      "Location[areaLand]>(isPartOf|New_Jersey)>(governmentType|Faulkner_Act_(mayor%E2%80%93council))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2655
+    ], 
+    [
+      "Location[areaLand]>(isPartOf|New_Jersey)>(governmentType|Faulkner_Act_(mayor%E2%80%93council))", 
+      0.2667
+    ], 
+    [
+      "Wikidata:Q11424[gross]>(distributor|New_Line_Cinema)", 
+      0.2697
+    ], 
+    [
+      "Film[gross]>(distributor|New_Line_Cinema)", 
+      0.2697
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Alaska)>(timeZone|Alaska_Time_Zone)", 
+      0.2727
+    ], 
+    [
+      "City[areaLand]>(isPartOf|Alaska)", 
+      0.279
+    ]
+  ], 
+  "values": [
+    156484864.0, 
+    9969945.0, 
+    17399915.0
+  ]
+}

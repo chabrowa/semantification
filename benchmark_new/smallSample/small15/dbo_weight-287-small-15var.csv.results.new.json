@@ -1,0 +1,251 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/weight"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "weight", 
+          0.094
+        ], 
+        [
+          "areaTotal", 
+          0.1588
+        ], 
+        [
+          "areaLand", 
+          0.1686
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          6.0
+        ], 
+        [
+          "weight", 
+          2.0
+        ], 
+        [
+          "areaLand", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (weight)", 
+          0.094
+        ], 
+        [
+          "http://dbpedia.org/ontology/Automobile (weight)", 
+          0.1031
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaTotal)", 
+          0.1465
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.1575
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1575
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.1586
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.1649
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          0.1673
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          0.188
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (areaTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (weight)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Automobile (weight)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "MeanOfTransportation[weight]", 
+      0.0849
+    ], 
+    [
+      "Automobile[weight]", 
+      0.1031
+    ], 
+    [
+      "Village[areaTotal]>(isPartOf|Alberta)>(timeZone|Mountain_Time_Zone)", 
+      0.144
+    ], 
+    [
+      "Village[areaTotal]>(isPartOf|Alberta)", 
+      0.1458
+    ], 
+    [
+      "Village[areaTotal]>(isPartOf|Alberta)>(timeZone|Mountain_Time_Zone)>(country|Canada)", 
+      0.1487
+    ], 
+    [
+      "Location[areaLand]>(isPartOf|Washington_(state))>(type|Town)>(country|United_States)", 
+      0.1594
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Slovenia)>(isPartOf|Upper_Carniola)", 
+      0.1611
+    ], 
+    [
+      "Location[areaTotal]>(country|Slovenia)>(isPartOf|Upper_Carniola)", 
+      0.1649
+    ], 
+    [
+      "Location[areaLand]>(isPartOf|Washington_(state))>(type|Town)", 
+      0.1777
+    ], 
+    [
+      "Town[areaTotal]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(type|Town)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.188
+    ]
+  ], 
+  "values": [
+    1038912.5238886102, 
+    1378034.1932750607, 
+    572538.2501241075, 
+    1933328.5275614494, 
+    23076677.639337454, 
+    1871900.2994593163, 
+    1408561.9095413673, 
+    14928521.703388207, 
+    1061710.8532711759, 
+    1531038.835665256, 
+    1511608.7717426333, 
+    1430702.4775465245, 
+    1483647.2792356182, 
+    747584.5604048262, 
+    8360392.561864548, 
+    839084.4082933802, 
+    1225474.9490063943, 
+    1719985.5663687745, 
+    1770650.7742198221, 
+    2959328.1795646474, 
+    1200746.9378817326, 
+    663393.7048995425, 
+    936568.4747149448, 
+    13897643.705776976, 
+    1308534.279675602, 
+    1691424.6905747582, 
+    1247575.4396174476, 
+    1074629.554820516, 
+    689895.8379220195, 
+    923284.1734775483, 
+    2032369.332484673, 
+    4546642.424639603, 
+    732142.7396346038, 
+    1173036.4546786814, 
+    17965523.488859966, 
+    1338350.046012604, 
+    991902.1652922091, 
+    1110683.9557171827, 
+    1053460.2839603, 
+    12249489.559237357, 
+    399491.02438462415, 
+    1768961.1004341347, 
+    1020850.4701557757, 
+    2437888.165432389, 
+    2558344.348201734, 
+    499359.70149636606, 
+    815907.8410326403, 
+    10933022.703156052, 
+    25739795.71422565, 
+    1167310.0230951067, 
+    1353708.340081246, 
+    41491085.62004972, 
+    748373.9198689378, 
+    1643318.4783147685, 
+    1481232.4380769476, 
+    1827091.3322151825, 
+    3261918.1991255833, 
+    1104452.0320522368, 
+    822784.456580267, 
+    987240.3341899929, 
+    1255361.7772027939, 
+    976838.5605211967, 
+    28179.87536824825, 
+    1002344.2516567531, 
+    1077528.9980836275, 
+    1112219.7874391563, 
+    896703.5668735831, 
+    1331525.752206108, 
+    1143148.7665696212, 
+    1590551.6083649877, 
+    409745.36113145755, 
+    666698.3549703464, 
+    1112773.5564632511, 
+    894964.5056805762, 
+    1236049.0915275365, 
+    1297803.641192261, 
+    5551435.060138443, 
+    4595130.456910024, 
+    727971.124982699, 
+    1714661.8507892357, 
+    1058548.2467348566, 
+    999328.751077021, 
+    1456838.165790134, 
+    1634442.3849859335, 
+    1525177.8257162694, 
+    883545.8047179376, 
+    1307281.5463095715, 
+    1309026.4768757587, 
+    23465.52333104278, 
+    960537.7593671156, 
+    1059175.5678586466, 
+    984786.9856030731
+  ]
+}

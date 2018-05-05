@@ -1,0 +1,145 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/squadNumber"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "number", 
+          0.2859
+        ], 
+        [
+          "minimumElevation", 
+          0.3286
+        ]
+      ], 
+      "maj": [
+        [
+          "minimumElevation", 
+          8.0
+        ], 
+        [
+          "number", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          0.2757
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.2859
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.2859
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.2859
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.3267
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.3267
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.3286
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.3286
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerPlayer (number)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "SoccerPlayer[number]>(position|Goalkeeper_(association_football))>(birthPlace|Japan)", 
+      0.2353
+    ], 
+    [
+      "Location[minimumElevation]>(department|Manche)>(arrondissement|Arrondissement_of_Cherbourg)", 
+      0.26
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Manche)>(arrondissement|Arrondissement_of_Cherbourg)", 
+      0.26
+    ], 
+    [
+      "SoccerPlayer[number]>(position|Goalkeeper_(association_football))", 
+      0.3364
+    ], 
+    [
+      "Location[minimumElevation]>(department|Gironde)", 
+      0.3484
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Gironde)", 
+      0.3484
+    ], 
+    [
+      "Location[minimumElevation]>(department|Gironde)>(region|Aquitaine)", 
+      0.3499
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Gironde)>(region|Aquitaine)", 
+      0.3499
+    ], 
+    [
+      "Location[minimumElevation]>(region|Poitou-Charentes)>(department|Charente-Maritime)", 
+      0.3559
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Poitou-Charentes)>(department|Charente-Maritime)", 
+      0.3559
+    ]
+  ], 
+  "values": [
+    22.0, 
+    1.0
+  ]
+}

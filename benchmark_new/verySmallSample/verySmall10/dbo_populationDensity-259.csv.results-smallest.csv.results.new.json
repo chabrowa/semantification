@@ -1,0 +1,222 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/width"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "width", 
+          0.4046
+        ], 
+        [
+          "populationDensity", 
+          0.4091
+        ], 
+        [
+          "height", 
+          0.4387
+        ], 
+        [
+          "areaWater", 
+          0.5027
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          3.0
+        ], 
+        [
+          "width", 
+          3.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ], 
+        [
+          "height", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Device (width)", 
+          0.3934
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (width)", 
+          0.3934
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.4091
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.4091
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.4091
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.4091
+        ], 
+        [
+          "http://dbpedia.org/ontology/Locomotive (width)", 
+          0.4269
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (width)", 
+          0.4269
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (height)", 
+          0.4387
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (height)", 
+          0.4387
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.5013
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.5026
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.5026
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.503
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.5052
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Locomotive (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (width)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Device[width]", 
+      0.3934
+    ], 
+    [
+      "Weapon[width]", 
+      0.3934
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Soria)", 
+      0.4091
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Soria)", 
+      0.4091
+    ], 
+    [
+      "Locomotive[width]", 
+      0.4269
+    ], 
+    [
+      "Device[height]", 
+      0.4387
+    ], 
+    [
+      "Weapon[height]", 
+      0.4387
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Maryland)>(country|United_States)", 
+      0.5
+    ], 
+    [
+      "Location[areaWater]>(type|Administrative_divisions_of_New_York)>(isPartOf|Nassau_County,_New_York)", 
+      0.503
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Nebraska)", 
+      0.5052
+    ]
+  ], 
+  "values": [
+    2.324882315850796, 
+    2.531540840997359, 
+    2.9260311147297235, 
+    2.859275983846798, 
+    2.8529423165149224, 
+    2.754829481317109, 
+    2.506662223471672
+  ]
+}

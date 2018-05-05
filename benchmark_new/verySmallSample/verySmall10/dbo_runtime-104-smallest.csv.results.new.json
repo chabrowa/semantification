@@ -1,0 +1,299 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "runtime", 
+          0.1227
+        ], 
+        [
+          "numberOfStudents", 
+          0.2073
+        ], 
+        [
+          "populationTotal", 
+          0.212
+        ], 
+        [
+          "length", 
+          0.2148
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          7.0
+        ], 
+        [
+          "runtime", 
+          1.0
+        ], 
+        [
+          "length", 
+          1.0
+        ], 
+        [
+          "numberOfStudents", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          0.1227
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          0.1227
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.2073
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.2073
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.2073
+        ], 
+        [
+          "http://dbpedia.org/ontology/University (numberOfStudents)", 
+          0.2073
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.2113
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.2114
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2121
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2121
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cave (length)", 
+          0.2148
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.2148
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          0.2148
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          25.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/University (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cave (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "MusicalWork[runtime]", 
+      0.1227
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Eastern_Time_Zone)>(isPartOf|Florida)>(type|Neighborhoods_in_Tampa,_Florida)>(isPartOf|Hillsborough_County,_Florida)", 
+      0.2053
+    ], 
+    [
+      "University[numberOfStudents]>(country|India)", 
+      0.2073
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Eastern_Time_Zone)>(isPartOf|Florida)>(type|Neighborhoods_in_Tampa,_Florida)>(isPartOf|Hillsborough_County,_Florida)>(country|United_States)", 
+      0.2088
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(region|Liguria)>(province|Province_of_Genoa)", 
+      0.2114
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Italy)>(region|Liguria)>(province|Province_of_Genoa)", 
+      0.2114
+    ], 
+    [
+      "Cave[length]", 
+      0.2148
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Eastern_Time_Zone)>(isPartOf|Maine)", 
+      0.215
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Eastern_Time_Zone)>(isPartOf|North_Carolina)", 
+      0.2159
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Eastern_Time_Zone)>(isPartOf|Florida)>(type|Neighborhoods_in_Tampa,_Florida)", 
+      0.2164
+    ]
+  ], 
+  "values": [
+    2823.8913061323688, 
+    320.7235570344524, 
+    2504.7303183074814, 
+    4297.770687598066, 
+    3931.9084393807175, 
+    203.18324091989, 
+    3536.5205451135553, 
+    2494.5419200022748, 
+    239.58069039443632, 
+    586.045873845691, 
+    141.85966314468044, 
+    2911.7139765721577, 
+    228.542838534594, 
+    180.43392457681264, 
+    2512.4675912049797, 
+    3149.0855704682385, 
+    228.0021067127617, 
+    3126.0976739708203, 
+    274.57633073849695, 
+    4049.019643947144, 
+    61.146922207931816, 
+    3132.9292638460197, 
+    2713.540284777805, 
+    1871.1054804970981, 
+    2951.927551281337, 
+    2995.511440555369, 
+    2613.7875634031625, 
+    2231.4285309485194, 
+    4459.252813557821, 
+    3741.6645888014036, 
+    3427.75438782478, 
+    3049.106900256939, 
+    4384.475317859056, 
+    3470.228095641391, 
+    174.0494814430257, 
+    335.04372091513636, 
+    2551.415222115025, 
+    3315.727818734369, 
+    5860.631770869871, 
+    4339.157793205627, 
+    2303.0676168815544, 
+    1568.6647123870907, 
+    246.1043541824884, 
+    1842.731110004805, 
+    3645.144638136956, 
+    295.2345615588588, 
+    2495.033935385927, 
+    2207.4548014429597, 
+    195.31469787415614, 
+    4590.359744729732, 
+    4135.6896780622055, 
+    3496.6263571618256, 
+    285.3346887248007, 
+    154.88069557287997, 
+    200.5097249712337, 
+    226.89319473089495, 
+    3352.583008769891, 
+    2393.2959575770137, 
+    2423.3658285487977, 
+    3544.910625722443, 
+    10707.24471454052, 
+    27856.45942939951, 
+    3167.3898257513674, 
+    3503.5484771688534, 
+    2823.2078645310044, 
+    2756.616173079714, 
+    218.53367955870485, 
+    256.89616949032325, 
+    2367.762789167599, 
+    324.27269214048664, 
+    2182.8367111853945, 
+    115.21761756612099, 
+    198.30076985934787, 
+    256.7463249049939, 
+    25.798664256050362, 
+    2640.7144090191073, 
+    2540.760830319781, 
+    3193.4796092323113, 
+    196.99651957551575, 
+    4115.7277357141065, 
+    2374.1657501642894, 
+    942.9385403547608, 
+    173.9911955316002, 
+    1138.3953448482748, 
+    3494.627745881827, 
+    2155.0644195122136, 
+    3939.841221421353, 
+    2204.2693617737123, 
+    335.5269662732124, 
+    273.25854699128, 
+    187.44688577128932, 
+    3127.054850931842, 
+    2309.777499036787, 
+    178.9689988324706, 
+    2482.9858729847306, 
+    2278.428778579635, 
+    210.36462692551927, 
+    4499.826878666156, 
+    2640.848875715278, 
+    233.54585984516928
+  ]
+}

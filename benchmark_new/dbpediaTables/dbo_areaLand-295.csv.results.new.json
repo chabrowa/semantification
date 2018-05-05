@@ -1,0 +1,182 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaLand"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaLand", 
+          0.1649
+        ], 
+        [
+          "areaTotal", 
+          0.1684
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          7.0
+        ], 
+        [
+          "areaLand", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.1557
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaLand)", 
+          0.1605
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.1646
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1646
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.1649
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.1649
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.1649
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.1691
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          0.17
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.1727
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaLand)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "City[areaTotal]>(leaderName|Mayor)>(country|United_States)", 
+      0.154
+    ], 
+    [
+      "City[areaTotal]>(leaderName|Mayor)", 
+      0.1583
+    ], 
+    [
+      "City[areaLand]>(leaderName|Mayor)", 
+      0.1584
+    ], 
+    [
+      "Town[areaLand]>(isPartOf|New_Jersey)", 
+      0.1605
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(province|South_Tyrol)>(region|S%C3%BCdtirol)", 
+      0.1689
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Spain)>(isPartOf|Province_of_Castell%C3%B3n)>(isPartOf|Valencian_Community)", 
+      0.1714
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Spain)>(isPartOf|Province_of_Castell%C3%B3n)", 
+      0.1747
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)", 
+      0.1753
+    ], 
+    [
+      "City[areaLand]>(leaderName|Mayor)>(governmentType|Council%E2%80%93manager_government)>(timeZone|Central_Time_Zone)", 
+      0.1759
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(province|South_Tyrol)", 
+      0.1761
+    ]
+  ], 
+  "values": [
+    64516600.0, 
+    64520000.0, 
+    84045100.0, 
+    84050000.0, 
+    140895000.0, 
+    140900000.0, 
+    86635100.0, 
+    86640000.0, 
+    1579890.0, 
+    1580000.0, 
+    123800000.0, 
+    123801000.0, 
+    17920000.0, 
+    17922700.0, 
+    39989400.0, 
+    39990000.0, 
+    40480000.0, 
+    40481500.0, 
+    12880000.0, 
+    12880000.0, 
+    4402980.0, 
+    4500000.0, 
+    42490000.0
+  ]
+}

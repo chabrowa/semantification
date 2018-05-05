@@ -1,0 +1,275 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationDensity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.1256
+        ], 
+        [
+          "populationDensity", 
+          0.1266
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          5.0
+        ], 
+        [
+          "elevation", 
+          5.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.1162
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.121
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (elevation)", 
+          0.1229
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.124
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1247
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1251
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1251
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1252
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1256
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1273
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          0.1295
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (elevation)", 
+          0.1295
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Town[populationDensity]>(isPartOf|Indiana)", 
+      0.1162
+    ], 
+    [
+      "Island[elevation]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1198
+    ], 
+    [
+      "City[elevation]>(timeZone|Central_European_Time)", 
+      0.124
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|New_York)", 
+      0.1243
+    ], 
+    [
+      "Settlement[populationDensity]", 
+      0.1258
+    ], 
+    [
+      "Settlement[elevation]>(country|India)", 
+      0.1258
+    ], 
+    [
+      "Island[elevation]", 
+      0.1291
+    ], 
+    [
+      "Infrastructure[elevation]", 
+      0.1295
+    ], 
+    [
+      "Location[populationDensity]", 
+      0.1335
+    ], 
+    [
+      "PopulatedPlace[populationDensity]", 
+      0.1335
+    ]
+  ], 
+  "values": [
+    10.4248, 
+    4.3, 
+    7.606210000000001, 
+    1798.0, 
+    582.0, 
+    1718.0, 
+    319.0, 
+    7.83787, 
+    50.5, 
+    343.0, 
+    139.38299999999998, 
+    790.0, 
+    856.0, 
+    524.8, 
+    314.0, 
+    0.4, 
+    486.5, 
+    1354.0, 
+    396.0, 
+    696.914, 
+    539.0, 
+    7576.2, 
+    56.0, 
+    5.4, 
+    29.614, 
+    21.3, 
+    526.7, 
+    264.0, 
+    344.0, 
+    46.6, 
+    12.7, 
+    0.694984, 
+    314.3, 
+    612.8, 
+    1355.26, 
+    7.4, 
+    4.6, 
+    374.98199999999997, 
+    1198.0, 
+    858.0, 
+    42.6, 
+    137.4, 
+    27.4133, 
+    431.0, 
+    863.0, 
+    358.2, 
+    39.0735, 
+    445.0, 
+    21.0812, 
+    3.6, 
+    192.8, 
+    659.3, 
+    2.20078, 
+    33.5, 
+    569.05, 
+    426.0, 
+    4.5, 
+    600.698, 
+    38.0697, 
+    12.4711, 
+    48.9, 
+    266.6, 
+    12.5, 
+    5073.73, 
+    16.3321, 
+    527.0, 
+    558.0, 
+    113.0, 
+    6.71818, 
+    10.8109, 
+    964.0, 
+    286.681, 
+    715.0, 
+    1298.8, 
+    1.3513600000000001, 
+    9.2, 
+    210.9, 
+    1382.4, 
+    213.0, 
+    25.4, 
+    99.5, 
+    3.7, 
+    57.06, 
+    1933.0, 
+    164.45, 
+    330.0, 
+    661.0, 
+    297.323, 
+    20.0, 
+    17.4, 
+    1.1, 
+    620.0, 
+    1.93051, 
+    9.23, 
+    367.0, 
+    712.0, 
+    269.422, 
+    42.5098, 
+    8552.23, 
+    3.2818699999999996
+  ]
+}

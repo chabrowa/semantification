@@ -1,0 +1,501 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/serviceEndYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "serviceEndYear", 
+          0.0939
+        ], 
+        [
+          "openingYear", 
+          0.1157
+        ], 
+        [
+          "yearOfConstruction", 
+          0.1217
+        ], 
+        [
+          "foundingYear", 
+          0.1236
+        ]
+      ], 
+      "maj": [
+        [
+          "foundingYear", 
+          4.0
+        ], 
+        [
+          "yearOfConstruction", 
+          3.0
+        ], 
+        [
+          "serviceEndYear", 
+          2.0
+        ], 
+        [
+          "openingYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/OfficeHolder (serviceEndYear)", 
+          0.0724
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          0.0939
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          0.0939
+        ], 
+        [
+          "http://dbpedia.org/ontology/MemberOfParliament (serviceEndYear)", 
+          0.1154
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceEndYear)", 
+          0.1154
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.1157
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.1157
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.1157
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          0.1157
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.1157
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          0.1203
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (yearOfConstruction)", 
+          0.1217
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (yearOfConstruction)", 
+          0.1217
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (yearOfConstruction)", 
+          0.1217
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bank (foundingYear)", 
+          0.1228
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          0.1228
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.1236
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.1236
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          0.1239
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (yearOfConstruction)", 
+          0.126
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (yearOfConstruction)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bank (foundingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (yearOfConstruction)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (yearOfConstruction)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (yearOfConstruction)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/OfficeHolder (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MemberOfParliament (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "OfficeHolder[serviceEndYear]", 
+      0.0724
+    ], 
+    [
+      "MemberOfParliament[serviceEndYear]", 
+      0.1154
+    ], 
+    [
+      "Bridge[openingYear]", 
+      0.1157
+    ], 
+    [
+      "School[foundingYear]>(type|Academy_(English_school))", 
+      0.1168
+    ], 
+    [
+      "RouteOfTransportation[yearOfConstruction]", 
+      0.1175
+    ], 
+    [
+      "Infrastructure[yearOfConstruction]", 
+      0.1175
+    ], 
+    [
+      "Bank[foundingYear]>(product|Investment_management)>(product|Investment_banking)", 
+      0.1228
+    ], 
+    [
+      "School[foundingYear]", 
+      0.1274
+    ], 
+    [
+      "EducationalInstitution[foundingYear]", 
+      0.1274
+    ], 
+    [
+      "RouteOfTransportation[yearOfConstruction]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1303
+    ]
+  ], 
+  "values": [
+    1939.0, 
+    2011.0, 
+    1946.0, 
+    1975.0, 
+    1945.0, 
+    1945.0, 
+    1976.0, 
+    2009.0, 
+    2006.0, 
+    1946.0, 
+    1989.0, 
+    1945.0, 
+    2003.0, 
+    1865.0, 
+    1854.0, 
+    1991.0, 
+    1953.0, 
+    1896.0, 
+    1974.0, 
+    1952.0, 
+    1975.0, 
+    14.0, 
+    1947.0, 
+    1921.0, 
+    1922.0, 
+    2001.0, 
+    1864.0, 
+    1998.0, 
+    1930.0, 
+    1839.0, 
+    1928.0, 
+    1864.0, 
+    1940.0, 
+    1861.0, 
+    1915.0, 
+    1919.0, 
+    1864.0, 
+    2009.0, 
+    1945.0, 
+    2012.0, 
+    1948.0, 
+    1985.0, 
+    16.0, 
+    1966.0, 
+    1865.0, 
+    1856.0, 
+    1946.0, 
+    1864.0, 
+    1970.0, 
+    1945.0, 
+    1946.0, 
+    1948.0, 
+    1961.0, 
+    1919.0, 
+    1919.0, 
+    1813.0, 
+    1986.0, 
+    1948.0, 
+    1970.0, 
+    1983.0, 
+    1969.0, 
+    1965.0, 
+    1991.0, 
+    1993.0, 
+    1956.0, 
+    1721.0, 
+    1945.0, 
+    1945.0, 
+    1865.0, 
+    2006.0, 
+    1993.0, 
+    1956.0, 
+    38.0, 
+    2011.0, 
+    1918.0, 
+    1977.0, 
+    1991.0, 
+    1865.0, 
+    2006.0, 
+    2015.0, 
+    1978.0, 
+    1814.0, 
+    1991.0, 
+    2010.0, 
+    1980.0, 
+    1955.0, 
+    1961.0, 
+    1919.0, 
+    1861.0, 
+    31.0, 
+    1819.0, 
+    1855.0, 
+    2008.0, 
+    1971.0, 
+    2004.0, 
+    1651.0, 
+    1971.0, 
+    1971.0, 
+    1970.0, 
+    2012.0, 
+    17.0, 
+    1944.0, 
+    1956.0, 
+    2016.0, 
+    2007.0, 
+    1973.0, 
+    1782.0, 
+    1973.0, 
+    1992.0, 
+    1946.0, 
+    1946.0, 
+    1739.0, 
+    1794.0, 
+    1952.0, 
+    2001.0, 
+    1863.0, 
+    1991.0, 
+    1777.0, 
+    1963.0, 
+    1973.0, 
+    1971.0, 
+    1865.0, 
+    2003.0, 
+    1987.0, 
+    1948.0, 
+    28.0, 
+    1865.0, 
+    1957.0, 
+    2003.0, 
+    1967.0, 
+    1955.0, 
+    1.0, 
+    2013.0, 
+    1857.0, 
+    1955.0, 
+    4.0, 
+    1946.0, 
+    1929.0, 
+    1946.0, 
+    2014.0, 
+    1898.0, 
+    1946.0, 
+    1968.0, 
+    1946.0, 
+    1971.0, 
+    1975.0, 
+    1946.0, 
+    1987.0, 
+    2015.0, 
+    1919.0, 
+    1947.0, 
+    1986.0, 
+    1948.0, 
+    1832.0, 
+    1884.0, 
+    2012.0, 
+    1862.0, 
+    2007.0, 
+    1943.0, 
+    1955.0, 
+    1862.0, 
+    1985.0, 
+    1919.0, 
+    1991.0, 
+    2000.0, 
+    1983.0, 
+    1946.0, 
+    1914.0, 
+    1919.0, 
+    1919.0, 
+    1956.0, 
+    1940.0, 
+    1622.0, 
+    1847.0, 
+    1988.0, 
+    1994.0, 
+    1995.0, 
+    1919.0, 
+    1949.0, 
+    1947.0, 
+    1863.0, 
+    1866.0, 
+    1989.0, 
+    1971.0, 
+    2013.0, 
+    1945.0, 
+    1933.0, 
+    1979.0, 
+    1782.0, 
+    1990.0, 
+    1999.0, 
+    1944.0, 
+    2011.0, 
+    1945.0, 
+    1919.0, 
+    1954.0, 
+    1971.0, 
+    1955.0, 
+    1782.0, 
+    1783.0, 
+    1944.0, 
+    1974.0, 
+    1896.0, 
+    1917.0, 
+    1972.0, 
+    2012.0, 
+    1924.0, 
+    1917.0, 
+    1946.0, 
+    1947.0, 
+    1977.0, 
+    1944.0, 
+    1990.0, 
+    1924.0, 
+    1965.0, 
+    1918.0, 
+    1968.0, 
+    1997.0, 
+    1914.0, 
+    1943.0, 
+    1990.0, 
+    2013.0, 
+    2005.0, 
+    1991.0, 
+    2006.0, 
+    1691.0, 
+    1918.0, 
+    2006.0, 
+    1944.0, 
+    1999.0, 
+    1945.0, 
+    1989.0, 
+    1848.0, 
+    1968.0, 
+    1983.0, 
+    1659.0, 
+    1923.0, 
+    2016.0, 
+    2013.0, 
+    1561.0, 
+    1984.0, 
+    1521.0, 
+    1939.0, 
+    1848.0, 
+    1981.0, 
+    1946.0
+  ]
+}

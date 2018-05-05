@@ -1,0 +1,121 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/gross"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaWater", 
+          0.2819
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          0.2644
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.2733
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.2833
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.2841
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.2841
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.2875
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          18.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Town[areaWater]", 
+      0.2644
+    ], 
+    [
+      "Location[areaWater]>(type|Administrative_divisions_of_New_York)", 
+      0.2712
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Minnesota)>(isPartOf|Stearns_County,_Minnesota)", 
+      0.2747
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Texas)>(governmentType|Council%E2%80%93manager_government)", 
+      0.2759
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Texas)>(governmentType|Council%E2%80%93manager_government)>(leaderName|Mayor)", 
+      0.2766
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Michigan)>(country|United_States)>(type|Census-designated_place)>(timeZone|Eastern_Time_Zone)", 
+      0.2891
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Michigan)>(country|United_States)>(type|Census-designated_place)", 
+      0.2901
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Illinois)>(country|United_States)", 
+      0.2912
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Michigan)", 
+      0.2925
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Texas)>(governmentType|Council%E2%80%93manager_government)>(leaderName|Mayor)>(country|United_States)", 
+      0.293
+    ]
+  ], 
+  "values": [
+    2500.0, 
+    2000000.0
+  ]
+}

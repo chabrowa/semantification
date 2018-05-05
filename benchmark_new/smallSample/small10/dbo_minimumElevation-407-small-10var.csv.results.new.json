@@ -1,0 +1,225 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/minimumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "minimumElevation", 
+          0.1328
+        ], 
+        [
+          "maximumElevation", 
+          0.1394
+        ], 
+        [
+          "populationTotal", 
+          0.1519
+        ], 
+        [
+          "numberOfStudents", 
+          0.1555
+        ]
+      ], 
+      "maj": [
+        [
+          "numberOfStudents", 
+          4.0
+        ], 
+        [
+          "minimumElevation", 
+          3.0
+        ], 
+        [
+          "populationTotal", 
+          2.0
+        ], 
+        [
+          "maximumElevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1328
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (minimumElevation)", 
+          0.1328
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (minimumElevation)", 
+          0.1328
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (minimumElevation)", 
+          0.1328
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.1394
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1519
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1519
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1519
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.152
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.1555
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.1557
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.1561
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          0.1574
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (minimumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "ArchitecturalStructure[minimumElevation]", 
+      0.1328
+    ], 
+    [
+      "SportFacility[minimumElevation]", 
+      0.1328
+    ], 
+    [
+      "SkiArea[minimumElevation]", 
+      0.1328
+    ], 
+    [
+      "Place[maximumElevation]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1394
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Isfahan_Province)>(isPartOf|Falavarjan_County)", 
+      0.1513
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Isfahan_Province)>(isPartOf|Falavarjan_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1525
+    ], 
+    [
+      "Organisation[numberOfStudents]", 
+      0.1548
+    ], 
+    [
+      "EducationalInstitution[numberOfStudents]", 
+      0.1548
+    ], 
+    [
+      "Agent[numberOfStudents]", 
+      0.1548
+    ], 
+    [
+      "School[numberOfStudents]>(state|Virginia)", 
+      0.1574
+    ]
+  ], 
+  "values": [
+    219.03661596974217, 
+    233.83299792038935, 
+    1974.5902688255305, 
+    2555.168131077262, 
+    1148.389985405564, 
+    1766.787505990492, 
+    568.9826795708984, 
+    1729.0519753501042, 
+    263.2519867697361, 
+    278.8787333322356, 
+    2017.874363171865, 
+    1186.4520608907007, 
+    944.5690207360998, 
+    1633.738039965515, 
+    3027.048495629982, 
+    163.63446743319037, 
+    969.617501141049, 
+    1933.7142936405567, 
+    201.79899854993045, 
+    202.28055241834102, 
+    303.70707088628905, 
+    1191.0002787484189, 
+    2187.949500933287, 
+    2204.0296674309106, 
+    2250.7708342939513, 
+    1143.4204565274056
+  ]
+}

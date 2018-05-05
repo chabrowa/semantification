@@ -1,0 +1,331 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/shipBeam"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "shipBeam", 
+          0.0564
+        ], 
+        [
+          "populationDensity", 
+          0.1517
+        ], 
+        [
+          "number", 
+          0.1771
+        ], 
+        [
+          "elevation", 
+          0.1778
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          5.0
+        ], 
+        [
+          "shipBeam", 
+          2.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ], 
+        [
+          "number", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          0.0564
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          0.0564
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1342
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.1505
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.1505
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1515
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1515
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.152
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.1771
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          0.1771
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.1771
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.1771
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1778
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1778
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1778
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.1781
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.1877
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Ship[shipBeam]", 
+      0.0564
+    ], 
+    [
+      "MeanOfTransportation[shipBeam]", 
+      0.0564
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Zamora)", 
+      0.1164
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Zamora)", 
+      0.1164
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Arkansas)", 
+      0.1505
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Northern_Norway)>(isPartOf|Nordland)", 
+      0.1756
+    ], 
+    [
+      "BasketballPlayer[number]>(league|Euroleague_Basketball)", 
+      0.1771
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Northern_Norway)>(isPartOf|Nordland)>(timeZone|Central_European_Time)", 
+      0.18
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Missouri)>(type|Township_(United_States))", 
+      0.1877
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Missouri)>(type|Township_(United_States))", 
+      0.1877
+    ]
+  ], 
+  "values": [
+    7.77602320864734, 
+    8.44907824163963, 
+    13.479670045359109, 
+    7.557062821236244, 
+    9.758351656123192, 
+    11.790646469735945, 
+    25.752409554031622, 
+    6.980137735535566, 
+    9.54792802816156, 
+    6.4176963356597145, 
+    10.429410135141973, 
+    5.537149141280945, 
+    7.684415506690459, 
+    11.131353203163247, 
+    6.819423850101127, 
+    11.600804046319627, 
+    21.350507068119693, 
+    14.261086218151359, 
+    5.075075309243495, 
+    9.064384487930257, 
+    8.559705138082732, 
+    4.129974085492171, 
+    30.77641005566838, 
+    13.646841805326865, 
+    16.814560671256945, 
+    11.628623168061297, 
+    6.626234904269286, 
+    8.568832234494021, 
+    6.510469652591857, 
+    7.250077764669473, 
+    9.216508452934018, 
+    10.657127287241988, 
+    6.519892521487481, 
+    20.487011702222638, 
+    61.85483560104622, 
+    2.66687947878159, 
+    12.521772396324039, 
+    18.559057907361066, 
+    15.799215345651998, 
+    7.299940556642413, 
+    8.449824773928471, 
+    13.829242946788758, 
+    13.701309470460382, 
+    16.493280598649083, 
+    14.853934959514875, 
+    18.855240614286274, 
+    6.4064758007140155, 
+    12.777968645728995, 
+    9.584590938177675, 
+    7.587998893390723, 
+    13.607895249438055, 
+    10.186612144338751, 
+    13.608617856266891, 
+    15.904260048998129, 
+    4.596682450897092, 
+    21.383935974832646, 
+    11.205710630423889, 
+    31.55841266716932, 
+    73.36581650892532, 
+    14.35595298969781, 
+    13.014990617057304, 
+    19.019216483761962, 
+    7.094003340527783, 
+    12.255287747859976, 
+    24.277304906380458, 
+    8.849854281089298, 
+    13.845846880189384, 
+    26.430426973457028, 
+    6.208851968683149, 
+    13.915352517495831, 
+    3.8216570820320888, 
+    18.5151851227548, 
+    12.589622849003543, 
+    6.366960060308949, 
+    7.996982802220413, 
+    19.74876645044393, 
+    1.9217454849984534, 
+    4.237574691245923, 
+    9.666870885508265, 
+    2.997582636297528, 
+    11.18017231030554, 
+    20.48193796851426, 
+    20.1522905811314, 
+    11.124981894440324, 
+    18.63450601105093, 
+    18.61875157447582, 
+    11.127989008291273, 
+    6.375958071326396, 
+    4.5810249128112766, 
+    20.246194758901083, 
+    11.923061596668369, 
+    20.187002995539412, 
+    13.694350060995996, 
+    10.523875033695743, 
+    19.09400906938887, 
+    7.059578464059418, 
+    15.271135750940356, 
+    8.432431533019868, 
+    16.910686787953896, 
+    3.6605139773687227
+  ]
+}

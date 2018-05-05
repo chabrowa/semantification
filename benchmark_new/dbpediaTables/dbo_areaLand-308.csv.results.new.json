@@ -1,0 +1,208 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaLand"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaLand", 
+          0.5038
+        ], 
+        [
+          "areaTotal", 
+          0.504
+        ], 
+        [
+          "area", 
+          0.507
+        ]
+      ], 
+      "maj": [
+        [
+          "areaLand", 
+          5.0
+        ], 
+        [
+          "areaTotal", 
+          4.0
+        ], 
+        [
+          "area", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          0.5019
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          0.5029
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.5031
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.5033
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.5034
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.5036
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          0.505
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.5051
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.5051
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.5051
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.5052
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (areaTotal)", 
+          0.5057
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (area)", 
+          0.507
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          0.507
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          0.507
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (area)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "BodyOfWater[areaTotal]>(type|Trophic_state_index)", 
+      0.5
+    ], 
+    [
+      "Settlement[areaLand]>(isPartOf|Alabama)", 
+      0.5031
+    ], 
+    [
+      "Location[areaLand]", 
+      0.5035
+    ], 
+    [
+      "PopulatedPlace[areaLand]", 
+      0.5035
+    ], 
+    [
+      "Place[areaLand]", 
+      0.5035
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Oklahoma)", 
+      0.5051
+    ], 
+    [
+      "Location[areaTotal]>(type|Census-designated_place)>(isPartOf|Nevada)>(timeZone|Pacific_Time_Zone)", 
+      0.5052
+    ], 
+    [
+      "Location[areaLand]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)", 
+      0.5055
+    ], 
+    [
+      "Lake[areaTotal]>(country|Bolivia)", 
+      0.5057
+    ], 
+    [
+      "Settlement[area]>(region|Centre_(French_region))>(arrondissement|Arrondissement_of_Montargis)", 
+      0.507
+    ]
+  ], 
+  "values": [
+    14550000.0
+  ]
+}

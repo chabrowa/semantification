@@ -1,0 +1,164 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/height"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "height", 
+          0.2195
+        ]
+      ], 
+      "maj": [
+        [
+          "height", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/TableTennisPlayer (height)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/FigureSkater (height)", 
+          0.2004
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (height)", 
+          0.2029
+        ], 
+        [
+          "http://dbpedia.org/ontology/MartialArtist (height)", 
+          0.21
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (height)", 
+          0.2136
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (height)", 
+          0.2195
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (height)", 
+          0.2195
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wrestler (height)", 
+          0.2418
+        ], 
+        [
+          "http://dbpedia.org/ontology/Model (height)", 
+          0.2425
+        ], 
+        [
+          "http://dbpedia.org/ontology/Swimmer (height)", 
+          0.2457
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Agent (height)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (height)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (height)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/FigureSkater (height)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (height)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Model (height)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MartialArtist (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Swimmer (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wrestler (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TableTennisPlayer (height)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "FigureSkater[height]>(country|France)", 
+      0.1419
+    ], 
+    [
+      "TableTennisPlayer[height]", 
+      0.2
+    ], 
+    [
+      "MartialArtist[height]>(birthPlace|Japan)", 
+      0.21
+    ], 
+    [
+      "FigureSkater[height]>(country|Germany)", 
+      0.2177
+    ], 
+    [
+      "FigureSkater[height]", 
+      0.2202
+    ], 
+    [
+      "FigureSkater[height]>(country|China)", 
+      0.2318
+    ], 
+    [
+      "Model[height]>(birthPlace|United_States)", 
+      0.2415
+    ], 
+    [
+      "Wrestler[height]>(birthPlace|Mexico_City)", 
+      0.2418
+    ], 
+    [
+      "Model[height]", 
+      0.2444
+    ], 
+    [
+      "Swimmer[height]>(nationality|Japan)", 
+      0.2457
+    ]
+  ], 
+  "values": [
+    1.8, 
+    1.524, 
+    1.68, 
+    1.88, 
+    1.8034, 
+    1.77, 
+    1.6256, 
+    1.7526, 
+    1.6256, 
+    1.79, 
+    1.75, 
+    1.53, 
+    1.6002
+  ]
+}

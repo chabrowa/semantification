@@ -1,0 +1,291 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runwayLength"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "runwayLength", 
+          0.0995
+        ], 
+        [
+          "elevation", 
+          0.1165
+        ], 
+        [
+          "populationDensity", 
+          0.1189
+        ]
+      ], 
+      "maj": [
+        [
+          "runwayLength", 
+          5.0
+        ], 
+        [
+          "elevation", 
+          4.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Airport (runwayLength)", 
+          0.0995
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (runwayLength)", 
+          0.0995
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (runwayLength)", 
+          0.0995
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (runwayLength)", 
+          0.0995
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (runwayLength)", 
+          0.0995
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1121
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1149
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1149
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.1149
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1189
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1204
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.126
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          0.126
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (runwayLength)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (runwayLength)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (runwayLength)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Airport (runwayLength)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (runwayLength)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "ArchitecturalStructure[runwayLength]", 
+      0.0995
+    ], 
+    [
+      "Airport[runwayLength]", 
+      0.0995
+    ], 
+    [
+      "Infrastructure[runwayLength]", 
+      0.0995
+    ], 
+    [
+      "Place[runwayLength]", 
+      0.0995
+    ], 
+    [
+      "Location[runwayLength]", 
+      0.0995
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Himachal_Pradesh)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1093
+    ], 
+    [
+      "Town[elevation]>(timeZone|Mountain_Time_Zone)", 
+      0.1149
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Himachal_Pradesh)", 
+      0.1159
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Illinois)>(isPartOf|Cook_County,_Illinois)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1189
+    ], 
+    [
+      "Mountain[elevation]>(locatedInArea|Japan)", 
+      0.126
+    ]
+  ], 
+  "values": [
+    1551.0, 
+    1000.05, 
+    3052.27, 
+    992.1239999999999, 
+    950.0, 
+    2200.0, 
+    1520.0, 
+    4000.0, 
+    2300.0, 
+    1072.9, 
+    1996.0, 
+    1460.0, 
+    1828.8, 
+    975.0, 
+    3200.0, 
+    550.0, 
+    760.0, 
+    1371.6, 
+    2990.0, 
+    1250.0, 
+    1219.2, 
+    1356.66, 
+    2133.6, 
+    1400.0, 
+    975.36, 
+    853.44, 
+    1200.0, 
+    3200.0, 
+    563.88, 
+    3997.45, 
+    951.586, 
+    2438.0, 
+    1066.8, 
+    1800.0, 
+    1799.0, 
+    1600.0, 
+    1066.8, 
+    1000.05, 
+    1500.0, 
+    3898.39, 
+    1200.0, 
+    3050.0, 
+    1797.0, 
+    2675.84, 
+    1524.0, 
+    2700.0, 
+    1812.95, 
+    1646.0, 
+    609.6, 
+    908.6089999999999, 
+    1527.35, 
+    1522.0, 
+    792.0, 
+    3500.02, 
+    2100.0, 
+    860.1460000000001, 
+    2560.32, 
+    512.064, 
+    1828.8, 
+    1484.68, 
+    788.0, 
+    1355.75, 
+    1371.6, 
+    1330.0, 
+    1558.44, 
+    914.4, 
+    1200.0, 
+    1005.84, 
+    512.0, 
+    1829.0, 
+    914.0, 
+    672.998, 
+    1180.0, 
+    701.04, 
+    1157.94, 
+    807.72, 
+    2438.0, 
+    2601.47, 
+    2400.0, 
+    1480.11, 
+    518.0, 
+    1524.0, 
+    1830.32, 
+    994.0, 
+    502.615, 
+    914.4, 
+    637.0, 
+    825.0, 
+    1566.0, 
+    1472.0, 
+    783.946, 
+    913.4860000000001, 
+    2420.0, 
+    1800.0, 
+    1179.88, 
+    1325.58, 
+    1708.0, 
+    3300.0, 
+    2133.6, 
+    777.24
+  ]
+}

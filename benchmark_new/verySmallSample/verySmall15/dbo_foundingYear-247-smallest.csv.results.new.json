@@ -1,0 +1,234 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/foundingYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "openingYear", 
+          0.2716
+        ], 
+        [
+          "foundingYear", 
+          0.2725
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.2727
+        ], 
+        [
+          "serviceStartYear", 
+          0.2727
+        ]
+      ], 
+      "maj": [
+        [
+          "foundingYear", 
+          4.0
+        ], 
+        [
+          "openingYear", 
+          3.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          2.0
+        ], 
+        [
+          "serviceStartYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.2712
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.2716
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.2716
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.2716
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          0.2719
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (openingYear)", 
+          0.2722
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          0.2725
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          0.2725
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.2725
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.2725
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.2727
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.2727
+        ], 
+        [
+          "http://dbpedia.org/ontology/MemberOfParliament (serviceStartYear)", 
+          0.2727
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceStartYear)", 
+          0.2727
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceStartYear)", 
+          0.2727
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceStartYear)", 
+          0.2727
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MemberOfParliament (serviceStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "RouteOfTransportation[openingYear]", 
+      0.2706
+    ], 
+    [
+      "Bridge[openingYear]", 
+      0.2719
+    ], 
+    [
+      "Dam[openingYear]", 
+      0.2722
+    ], 
+    [
+      "School[foundingYear]", 
+      0.2725
+    ], 
+    [
+      "EducationalInstitution[foundingYear]", 
+      0.2725
+    ], 
+    [
+      "Agent[foundingYear]", 
+      0.2726
+    ], 
+    [
+      "Organisation[foundingYear]", 
+      0.2726
+    ], 
+    [
+      "Person[activeYearsEndYear]", 
+      0.2727
+    ], 
+    [
+      "Agent[activeYearsEndYear]", 
+      0.2727
+    ], 
+    [
+      "MemberOfParliament[serviceStartYear]", 
+      0.2727
+    ]
+  ], 
+  "values": [
+    1984.0, 
+    1934.0, 
+    1946.0, 
+    2026.0, 
+    1958.0, 
+    2065.0, 
+    2072.0, 
+    1859.0, 
+    1839.0, 
+    1980.0, 
+    1926.0
+  ]
+}

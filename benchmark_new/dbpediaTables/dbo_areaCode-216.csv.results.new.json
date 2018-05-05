@@ -1,0 +1,272 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaCode"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfStudents", 
+          0.5
+        ], 
+        [
+          "areaWater", 
+          0.5
+        ], 
+        [
+          "populationDensity", 
+          0.5
+        ], 
+        [
+          "maximumElevation", 
+          0.5
+        ], 
+        [
+          "areaCode", 
+          0.5
+        ], 
+        [
+          "length", 
+          0.5
+        ]
+      ], 
+      "maj": [
+        [
+          "areaCode", 
+          4.0
+        ], 
+        [
+          "length", 
+          2.0
+        ], 
+        [
+          "numberOfStudents", 
+          1.0
+        ], 
+        [
+          "areaWater", 
+          1.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ], 
+        [
+          "maximumElevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaCode)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (length)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.5
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaCode)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "School[numberOfStudents]>(state|Virginia)>(country|United_States)", 
+      0.5
+    ], 
+    [
+      "Settlement[populationDensity]>(type|New_England_town)", 
+      0.5
+    ], 
+    [
+      "Dam[length]>(operator|United_States_Army_Corps_of_Engineers)", 
+      0.5
+    ], 
+    [
+      "Location[length]>(22-rdf-syntax-ns#type|_Feature)>(location|California)", 
+      0.5
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Maryland)>(country|United_States)", 
+      0.5
+    ], 
+    [
+      "Place[areaCode]>(timeZone|Pacific_Time_Zone)", 
+      0.5
+    ], 
+    [
+      "City[areaCode]>(type|Prefecture-level_city)", 
+      0.5
+    ], 
+    [
+      "City[areaCode]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)", 
+      0.5
+    ], 
+    [
+      "Settlement[areaCode]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)>(country|United_States)", 
+      0.5
+    ], 
+    [
+      "Location[maximumElevation]>(department|Doubs)", 
+      0.5
+    ]
+  ], 
+  "values": [
+    575.0
+  ]
+}

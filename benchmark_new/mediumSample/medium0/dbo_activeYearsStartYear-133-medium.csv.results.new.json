@@ -1,0 +1,308 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/activeYearsStartYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "foundingYear", 
+          0.0831
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.091
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.0969
+        ], 
+        [
+          "formationYear", 
+          0.104
+        ]
+      ], 
+      "maj": [
+        [
+          "activeYearsEndYear", 
+          5.0
+        ], 
+        [
+          "foundingYear", 
+          2.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          2.0
+        ], 
+        [
+          "formationYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Non-ProfitOrganisation (foundingYear)", 
+          0.0717
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.0831
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.0831
+        ], 
+        [
+          "http://dbpedia.org/ontology/GridironFootballPlayer (activeYearsEndYear)", 
+          0.0889
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmericanFootballPlayer (activeYearsEndYear)", 
+          0.0889
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.091
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (activeYearsEndYear)", 
+          0.091
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.091
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsStartYear)", 
+          0.0913
+        ], 
+        [
+          "http://dbpedia.org/ontology/IceHockeyPlayer (activeYearsEndYear)", 
+          0.0944
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          0.0946
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bank (foundingYear)", 
+          0.0946
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.0969
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (activeYearsEndYear)", 
+          0.099
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (formationYear)", 
+          0.104
+        ], 
+        [
+          "http://dbpedia.org/ontology/PoliticalParty (formationYear)", 
+          0.104
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (formationYear)", 
+          0.104
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (activeYearsEndYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/GridironFootballPlayer (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bank (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (formationYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PoliticalParty (formationYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (formationYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmericanFootballPlayer (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/IceHockeyPlayer (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Non-ProfitOrganisation (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (activeYearsStartYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Non-ProfitOrganisation[foundingYear]", 
+      0.0717
+    ], 
+    [
+      "Athlete[activeYearsEndYear]", 
+      0.0796
+    ], 
+    [
+      "GridironFootballPlayer[activeYearsEndYear]", 
+      0.0889
+    ], 
+    [
+      "AmericanFootballPlayer[activeYearsEndYear]", 
+      0.0889
+    ], 
+    [
+      "Organisation[activeYearsStartYear]", 
+      0.0913
+    ], 
+    [
+      "IceHockeyPlayer[activeYearsEndYear]", 
+      0.0944
+    ], 
+    [
+      "Bank[foundingYear]>(product|Cheque)", 
+      0.0946
+    ], 
+    [
+      "Agent[activeYearsStartYear]", 
+      0.1025
+    ], 
+    [
+      "WinterSportPlayer[activeYearsEndYear]", 
+      0.1036
+    ], 
+    [
+      "PoliticalParty[formationYear]", 
+      0.104
+    ]
+  ], 
+  "values": [
+    2005.0, 
+    1966.0, 
+    2002.0, 
+    1998.0, 
+    1945.0, 
+    2004.0, 
+    2007.0, 
+    1930.0, 
+    1900.0, 
+    2012.0, 
+    1960.0, 
+    1992.0, 
+    1999.0, 
+    2010.0, 
+    1997.0, 
+    2000.0, 
+    1954.0, 
+    1908.0, 
+    2001.0, 
+    1919.0, 
+    1998.0, 
+    1988.0, 
+    30.0, 
+    1993.0, 
+    1967.0, 
+    1998.0, 
+    1990.0, 
+    1989.0, 
+    2007.0, 
+    2000.0, 
+    2010.0, 
+    1999.0, 
+    1993.0, 
+    1987.0, 
+    2009.0, 
+    2016.0, 
+    1990.0, 
+    2003.0, 
+    1940.0, 
+    2003.0, 
+    1996.0, 
+    1942.0, 
+    1997.0, 
+    1970.0, 
+    1987.0, 
+    2002.0, 
+    1920.0, 
+    2003.0, 
+    1958.0, 
+    1980.0, 
+    1992.0, 
+    2004.0, 
+    1923.0, 
+    1995.0, 
+    1988.0, 
+    1997.0, 
+    1980.0, 
+    1998.0, 
+    1968.0, 
+    2013.0, 
+    2005.0, 
+    2001.0, 
+    1980.0, 
+    1962.0, 
+    1981.0, 
+    1939.0, 
+    2004.0, 
+    1900.0, 
+    2005.0, 
+    1986.0, 
+    1978.0, 
+    1989.0, 
+    2005.0, 
+    2001.0, 
+    2007.0, 
+    1996.0, 
+    2008.0
+  ]
+}

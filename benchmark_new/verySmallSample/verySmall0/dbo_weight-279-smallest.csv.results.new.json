@@ -1,0 +1,204 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/weight"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "weight", 
+          0.3319
+        ], 
+        [
+          "postalCode", 
+          0.3762
+        ]
+      ], 
+      "maj": [
+        [
+          "weight", 
+          7.0
+        ], 
+        [
+          "postalCode", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Swimmer (weight)", 
+          0.2889
+        ], 
+        [
+          "http://dbpedia.org/ontology/TableTennisPlayer (weight)", 
+          0.2903
+        ], 
+        [
+          "http://dbpedia.org/ontology/Boxer (weight)", 
+          0.305
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmateurBoxer (weight)", 
+          0.306
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (weight)", 
+          0.3319
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (weight)", 
+          0.3319
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (weight)", 
+          0.3319
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (postalCode)", 
+          0.3729
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          0.3762
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          0.3778
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          0.3778
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (postalCode)", 
+          0.3828
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (weight)", 
+          0.4076
+        ], 
+        [
+          "http://dbpedia.org/ontology/Skater (weight)", 
+          0.4076
+        ], 
+        [
+          "http://dbpedia.org/ontology/BadmintonPlayer (weight)", 
+          0.4374
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Athlete (weight)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (weight)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (weight)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Swimmer (weight)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (postalCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Boxer (weight)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TableTennisPlayer (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BadmintonPlayer (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Skater (weight)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmateurBoxer (weight)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Swimmer[weight]>(nationality|South_Korea)", 
+      0.2706
+    ], 
+    [
+      "TableTennisPlayer[weight]", 
+      0.2903
+    ], 
+    [
+      "Boxer[weight]", 
+      0.3039
+    ], 
+    [
+      "AmateurBoxer[weight]", 
+      0.306
+    ], 
+    [
+      "Swimmer[weight]>(nationality|Japan)", 
+      0.3072
+    ], 
+    [
+      "Location[postalCode]>(region|Lorraine_(region))", 
+      0.3729
+    ], 
+    [
+      "Settlement[postalCode]>(region|Lorraine_(region))", 
+      0.3729
+    ], 
+    [
+      "City[postalCode]", 
+      0.3828
+    ], 
+    [
+      "Skater[weight]", 
+      0.4076
+    ], 
+    [
+      "BadmintonPlayer[weight]", 
+      0.4374
+    ]
+  ], 
+  "values": [
+    55000.0, 
+    63050.4, 
+    72000.0, 
+    54000.0, 
+    60000.0
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/budget"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "budget", 
+          0.073
+        ], 
+        [
+          "areaTotal", 
+          0.0939
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          8.0
+        ], 
+        [
+          "budget", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Film (budget)", 
+          0.073
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (budget)", 
+          0.073
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (budget)", 
+          0.073
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.0937
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.0937
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.0937
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.0941
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          19.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (budget)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Wikidata:Q11424[budget]>(distributor|Walt_Disney_Studios_Motion_Pictures)", 
+      0.073
+    ], 
+    [
+      "Film[budget]>(distributor|Walt_Disney_Studios_Motion_Pictures)", 
+      0.073
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Tarragona)>(type|Municipalities_of_Spain)", 
+      0.0909
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Spain)>(isPartOf|Province_of_Tarragona)>(type|Municipalities_of_Spain)", 
+      0.0909
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(region|Calabria)", 
+      0.0922
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Tarragona)", 
+      0.0949
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Spain)>(isPartOf|Province_of_Tarragona)", 
+      0.0949
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Tarragona)>(type|Municipalities_of_Spain)>(timeZone|Central_European_Time)", 
+      0.0953
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Spain)>(isPartOf|Province_of_Tarragona)>(type|Municipalities_of_Spain)>(timeZone|Central_European_Time)", 
+      0.0953
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(region|Sardinia)>(province|Province_of_Oristano)", 
+      0.0965
+    ]
+  ], 
+  "values": [
+    49322062.52350373, 
+    24125025.864140116, 
+    58145324.08666508, 
+    22686553.7077012, 
+    44799878.20260436, 
+    924009.7585770511, 
+    13613860.416353345, 
+    438085415.3745014, 
+    11576529.981691485, 
+    10639207.815026741, 
+    12564790.287722515, 
+    28175006.09302524, 
+    20479076.29661852, 
+    23418601.449925754, 
+    19815996.488075674, 
+    15387192.070745958, 
+    26998483.723487187, 
+    2247.896336786563, 
+    7.752940274549192, 
+    32447265.484816425, 
+    54231136.73680008, 
+    48718922.89326729, 
+    166305063.1799787, 
+    71705777.52039447, 
+    84036573.23483564, 
+    85944346.9392897, 
+    271097649.3267024, 
+    33198349.818453293, 
+    19178009.02176133, 
+    94918623.95953462, 
+    15944552.186242877, 
+    16886441.425710134, 
+    8570651.572525097, 
+    13242.46599918821, 
+    20304258.865220685, 
+    39007779.74801453, 
+    42249074.93713371, 
+    10113725.625161976, 
+    23157065.995933212, 
+    16735266.408966888, 
+    45404108.014821745, 
+    53707436.8586091, 
+    9980290031.765388, 
+    33215271.454365537
+  ]
+}

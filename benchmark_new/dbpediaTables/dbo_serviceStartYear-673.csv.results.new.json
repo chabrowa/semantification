@@ -1,0 +1,165 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/serviceStartYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "serviceStartYear", 
+          0.3171
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.3755
+        ]
+      ], 
+      "maj": [
+        [
+          "serviceStartYear", 
+          8.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/MilitaryPerson (serviceStartYear)", 
+          0.3063
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceStartYear)", 
+          0.3171
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceStartYear)", 
+          0.3171
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceStartYear)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/PrimeMinister (serviceStartYear)", 
+          0.3333
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (activeYearsStartYear)", 
+          0.3755
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (activeYearsStartYear)", 
+          0.3755
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          0.3755
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.3755
+        ], 
+        [
+          "http://dbpedia.org/ontology/IceHockeyPlayer (activeYearsStartYear)", 
+          0.3791
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/MilitaryPerson (serviceStartYear)", 
+          22.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceStartYear)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceStartYear)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/IceHockeyPlayer (activeYearsStartYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceStartYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PrimeMinister (serviceStartYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "MilitaryPerson[serviceStartYear]>(battle|Battle_of_Britain)>(battle|Invasion_of_Poland)", 
+      0.2821
+    ], 
+    [
+      "MilitaryPerson[serviceStartYear]>(battle|Battle_of_Britain)>(battle|Invasion_of_Poland)>(battle|Battle_of_France)>(battle|World_War_II)", 
+      0.2879
+    ], 
+    [
+      "MilitaryPerson[serviceStartYear]>(battle|Battle_of_Britain)>(battle|Invasion_of_Poland)>(battle|Battle_of_France)", 
+      0.2911
+    ], 
+    [
+      "MilitaryPerson[serviceStartYear]>(militaryBranch|Waffen-SS)", 
+      0.3004
+    ], 
+    [
+      "MilitaryPerson[serviceStartYear]>(battle|Battle_of_Britain)>(battle|Invasion_of_Poland)>(battle|Battle_of_France)>(battle|World_War_II)>(militaryBranch|Luftwaffe)", 
+      0.3175
+    ], 
+    [
+      "Politician[serviceStartYear]>(battle|World_War_II)", 
+      0.3333
+    ], 
+    [
+      "PrimeMinister[serviceStartYear]", 
+      0.3333
+    ], 
+    [
+      "IceHockeyPlayer[activeYearsStartYear]>(deathPlace|Ontario)", 
+      0.3575
+    ], 
+    [
+      "MilitaryPerson[serviceStartYear]>(battle|Battle_of_Britain)", 
+      0.3916
+    ], 
+    [
+      "IceHockeyPlayer[activeYearsStartYear]>(deathPlace|United_States)>(birthPlace|Ontario)", 
+      0.3934
+    ]
+  ], 
+  "values": [
+    1940.0, 
+    1934.0, 
+    1932.0, 
+    1914.0, 
+    1939.0, 
+    1933.0
+  ]
+}

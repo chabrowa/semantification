@@ -1,0 +1,156 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaWater"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaWater", 
+          0.0947
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.0891
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.0899
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaWater)", 
+          0.0924
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.0959
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.0959
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.101
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaWater)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          5.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "City[areaWater]>(isPartOf|Nebraska)>(timeZone|Central_Time_Zone)>(type|City)", 
+      0.0843
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Nebraska)>(timeZone|Central_Time_Zone)", 
+      0.0849
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Nebraska)", 
+      0.0875
+    ], 
+    [
+      "Village[areaWater]>(isPartOf|Ohio)>(type|Village_(United_States))", 
+      0.0884
+    ], 
+    [
+      "Location[areaWater]>(type|Village_(United_States))>(isPartOf|Ohio)", 
+      0.0886
+    ], 
+    [
+      "Village[areaWater]>(isPartOf|Ohio)", 
+      0.0888
+    ], 
+    [
+      "Location[areaWater]>(type|Village_(United_States))", 
+      0.0918
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Missouri)", 
+      0.1067
+    ], 
+    [
+      "Village[areaWater]", 
+      0.1117
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|West_Virginia)>(type|Census-designated_place)>(timeZone|Eastern_Time_Zone)", 
+      0.1147
+    ]
+  ], 
+  "values": [
+    260000.0, 
+    0.0, 
+    30000.0, 
+    0.0, 
+    30000.0, 
+    0.0, 
+    50000.0, 
+    0.0, 
+    51799.8, 
+    30000.0, 
+    0.0, 
+    130000.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    77699.6, 
+    25899.9, 
+    0.0, 
+    0.0, 
+    130000.0, 
+    3200000.0, 
+    0.0, 
+    50000.0, 
+    0.0, 
+    776996.0, 
+    2510000.0, 
+    1400000.0, 
+    100000.0, 
+    0.0, 
+    0.0, 
+    25899.9, 
+    0.0, 
+    51799.8
+  ]
+}

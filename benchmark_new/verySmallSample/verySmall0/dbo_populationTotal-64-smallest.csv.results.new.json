@@ -1,0 +1,202 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.3037
+        ], 
+        [
+          "areaWater", 
+          0.3254
+        ], 
+        [
+          "gross", 
+          0.3307
+        ], 
+        [
+          "areaLand", 
+          0.3325
+        ]
+      ], 
+      "maj": [
+        [
+          "gross", 
+          5.0
+        ], 
+        [
+          "areaTotal", 
+          3.0
+        ], 
+        [
+          "areaLand", 
+          1.0
+        ], 
+        [
+          "areaWater", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Village (areaTotal)", 
+          0.2943
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (areaTotal)", 
+          0.301
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.3037
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.3037
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.3086
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.3254
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.3254
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.3254
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.3254
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (gross)", 
+          0.3307
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (gross)", 
+          0.3308
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (gross)", 
+          0.3308
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          0.3325
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (gross)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (gross)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (gross)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[areaTotal]", 
+      0.2943
+    ], 
+    [
+      "Island[areaTotal]", 
+      0.301
+    ], 
+    [
+      "Settlement[areaTotal]>(isPartOf|Kansas)", 
+      0.3158
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Alaska)", 
+      0.3254
+    ], 
+    [
+      "Film[gross]", 
+      0.3307
+    ], 
+    [
+      "Wikidata:Q11424[gross]", 
+      0.3307
+    ], 
+    [
+      "Work[gross]", 
+      0.3307
+    ], 
+    [
+      "Wikidata:Q11424[gross]>(distributor|United_Artists)", 
+      0.3308
+    ], 
+    [
+      "Film[gross]>(distributor|United_Artists)", 
+      0.3308
+    ], 
+    [
+      "Location[areaLand]>(isPartOf|Oklahoma)", 
+      0.3325
+    ]
+  ], 
+  "values": [
+    2718000.0, 
+    2328000000.0, 
+    1125119.0
+  ]
+}

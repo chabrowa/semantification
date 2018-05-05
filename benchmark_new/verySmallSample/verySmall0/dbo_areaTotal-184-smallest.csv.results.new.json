@@ -1,0 +1,219 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/areaTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.1698
+        ], 
+        [
+          "area", 
+          0.1905
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          8.0
+        ], 
+        [
+          "area", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Island (areaTotal)", 
+          0.117
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.1526
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.1536
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1723
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          0.1787
+        ], 
+        [
+          "http://dbpedia.org/ontology/WineRegion (areaTotal)", 
+          0.1833
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          0.1838
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          0.1838
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (areaTotal)", 
+          0.1838
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.1901
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (area)", 
+          0.1905
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (area)", 
+          0.1905
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          0.1905
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (area)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WineRegion (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (area)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Island[areaTotal]", 
+      0.117
+    ], 
+    [
+      "Location[areaTotal]>(location|United_States)", 
+      0.1526
+    ], 
+    [
+      "ProtectedArea[areaTotal]", 
+      0.1729
+    ], 
+    [
+      "ProtectedArea[areaTotal]>(location|South_Africa)", 
+      0.1768
+    ], 
+    [
+      "ProtectedArea[areaTotal]>(location|South_Africa)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.182
+    ], 
+    [
+      "WineRegion[areaTotal]>(type|American_Viticultural_Area)", 
+      0.1833
+    ], 
+    [
+      "Lake[areaTotal]>(country|Canada)", 
+      0.1838
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Canada)", 
+      0.1901
+    ], 
+    [
+      "BodyOfWater[area]", 
+      0.1905
+    ], 
+    [
+      "NaturalPlace[area]", 
+      0.1905
+    ]
+  ], 
+  "values": [
+    29605500.0, 
+    276000000.0, 
+    131000000.0, 
+    50700.0, 
+    16700000.0, 
+    643000000.0, 
+    82820000.0, 
+    70000.0, 
+    3628570000.0, 
+    25000000.0, 
+    4290000.0, 
+    24000000.0, 
+    473000.0, 
+    28000000.0, 
+    144521000.0, 
+    42000000.0, 
+    1560000000.0, 
+    5956970.0, 
+    6390000000.0, 
+    1080000.0, 
+    48600.0, 
+    700000.0, 
+    80000.0, 
+    10000.0, 
+    16635500000.0, 
+    263046.0, 
+    80000000.0, 
+    522000000.0, 
+    29000000.0, 
+    400000.0, 
+    90000000.0, 
+    2750000.0, 
+    106000000.0, 
+    10690000.0, 
+    1988000.0, 
+    36520000000.0
+  ]
+}

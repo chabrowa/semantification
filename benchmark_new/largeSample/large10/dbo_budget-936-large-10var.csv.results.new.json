@@ -1,0 +1,307 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/budget"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "postalCode", 
+          0.188
+        ], 
+        [
+          "populationTotal", 
+          0.1957
+        ], 
+        [
+          "length", 
+          0.2022
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          7.0
+        ], 
+        [
+          "length", 
+          2.0
+        ], 
+        [
+          "postalCode", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          0.1765
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          0.188
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (postalCode)", 
+          0.188
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          0.188
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          0.188
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1922
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1922
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.2022
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          0.2022
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          0.2022
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          0.2022
+        ], 
+        [
+          "http://dbpedia.org/ontology/River (length)", 
+          0.2022
+        ], 
+        [
+          "http://dbpedia.org/ontology/Stream (length)", 
+          0.2022
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.2026
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.2173
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/River (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Stream (length)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "City[populationTotal]>(type|Cities_of_Japan)>(country|Japan)", 
+      0.1564
+    ], 
+    [
+      "City[populationTotal]>(type|Cities_of_Japan)", 
+      0.1565
+    ], 
+    [
+      "City[postalCode]", 
+      0.188
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Iran_Standard_Time)", 
+      0.1994
+    ], 
+    [
+      "River[length]>(sourceCountry|France)", 
+      0.2022
+    ], 
+    [
+      "Location[length]>(sourceCountry|France)", 
+      0.2022
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|California)>(governmentType|Council%E2%80%93manager_government)", 
+      0.21
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Eastern_European_Time)>(country|Greece)", 
+      0.2133
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_European_Time)>(type|Regional_units_of_Greece)", 
+      0.2173
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Eastern_European_Time)>(country|Greece)>(type|Regional_units_of_Greece)", 
+      0.2173
+    ]
+  ], 
+  "values": [
+    69126.09029973602, 
+    22623.17452010703, 
+    92807.90632541374, 
+    49167.2845989388, 
+    1293077.0530771902, 
+    69305.73221602831, 
+    49757.9775324426, 
+    95185.3111775158, 
+    47958.891780494036, 
+    416535.503995561, 
+    29000.082253218803, 
+    47776.448155900165, 
+    97888.06393738836, 
+    49201.732198319354, 
+    172076.89179255243, 
+    75228.86519856319, 
+    48550.463790107344, 
+    46551.70586435868, 
+    48951.94715144487, 
+    46998.09829938955, 
+    96565.76035145149, 
+    113680.6451996381, 
+    54540.549166434605, 
+    1409178.4925561305, 
+    45020.11857036253, 
+    51887.8799265778, 
+    46087.83591468888, 
+    25144.71489983007, 
+    51582.09941776983, 
+    60872.93810980263, 
+    95001.46019036838, 
+    33883.56510532044, 
+    47496.99420601944, 
+    261464.53331947065, 
+    53833.2543208366, 
+    114184.85368428976, 
+    60399.49866098504, 
+    775931.3387583691, 
+    39093.95026246607, 
+    33425.61282724528, 
+    45251221.75835468, 
+    52152.50968036709, 
+    98278.05056341959, 
+    51247.36372232289, 
+    128957.93952740253, 
+    52525.54893246689, 
+    806990.6651424398, 
+    106143.56072661924, 
+    38249.691113303204, 
+    38253.83165139991, 
+    107787.21576272704, 
+    71327.69288591306, 
+    40482.225412234366, 
+    72359.15781404548, 
+    48448.76037596256, 
+    48524.60072045888, 
+    54564.03937283999, 
+    97095.55502158543, 
+    708979.9206325435, 
+    48438.5772459666, 
+    45884.975401313655, 
+    32759.83198676349, 
+    45546.74294432995, 
+    182281.5858660494, 
+    100670.7419080888, 
+    25540.70274090887, 
+    48452.14627287918, 
+    54751.67388527587, 
+    48852.879029491116, 
+    51783.11246513725, 
+    1024268.3159644591, 
+    52149.979220704256, 
+    519036.3736107911, 
+    50517.22849677825, 
+    6437444.791817538, 
+    53572.64735308587, 
+    122145.72564127526, 
+    45155.301728782215, 
+    109518.25677396655, 
+    46102.36438204091, 
+    119191.71150893785, 
+    45046.191845644214, 
+    230407.97442568006, 
+    160927.99551167156, 
+    52975.5840994782, 
+    48109.8212660606, 
+    997250.2281377566, 
+    53740.97740240733, 
+    102832.98737347883, 
+    42860.2190729528, 
+    2380216.990125187, 
+    447168.45471173024, 
+    4979695.061688349, 
+    10628.280921295465, 
+    82350.15495754228, 
+    259336.9329823521, 
+    45202.121011420735, 
+    51591.19012526558, 
+    43532414.09776126, 
+    46953.02450724174
+  ]
+}

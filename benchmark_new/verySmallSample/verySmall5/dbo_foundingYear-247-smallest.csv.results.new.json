@@ -1,0 +1,250 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/foundingYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "activeYearsEndYear", 
+          0.18
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.1802
+        ], 
+        [
+          "foundingYear", 
+          0.1818
+        ], 
+        [
+          "openingYear", 
+          0.1818
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          4.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          2.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          2.0
+        ], 
+        [
+          "foundingYear", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (activeYearsEndYear)", 
+          0.18
+        ], 
+        [
+          "http://dbpedia.org/ontology/Locomotive (activeYearsEndYear)", 
+          0.18
+        ], 
+        [
+          "http://dbpedia.org/ontology/Locomotive (activeYearsStartYear)", 
+          0.1802
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (activeYearsStartYear)", 
+          0.1802
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          0.1818
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.1818
+        ], 
+        [
+          "http://dbpedia.org/ontology/Theatre (openingYear)", 
+          0.1818
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.1818
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.1818
+        ], 
+        [
+          "http://dbpedia.org/ontology/Venue (openingYear)", 
+          0.1818
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bank (foundingYear)", 
+          0.1818
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          0.1818
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.1818
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (openingYear)", 
+          0.1818
+        ], 
+        [
+          "http://dbpedia.org/ontology/RugbyClub (foundingYear)", 
+          0.1818
+        ], 
+        [
+          "http://dbpedia.org/ontology/Hospital (openingYear)", 
+          0.1818
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.1818
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (foundingYear)", 
+          0.1818
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bank (foundingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Venue (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Hospital (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Locomotive (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Theatre (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Locomotive (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RugbyClub (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (foundingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "MeanOfTransportation[activeYearsEndYear]", 
+      0.18
+    ], 
+    [
+      "Locomotive[activeYearsEndYear]", 
+      0.18
+    ], 
+    [
+      "MeanOfTransportation[activeYearsStartYear]", 
+      0.1802
+    ], 
+    [
+      "Locomotive[activeYearsStartYear]", 
+      0.1802
+    ], 
+    [
+      "Theatre[openingYear]", 
+      0.1818
+    ], 
+    [
+      "Venue[openingYear]", 
+      0.1818
+    ], 
+    [
+      "Station[openingYear]>(country|Japan)", 
+      0.1818
+    ], 
+    [
+      "Hospital[openingYear]>(country|Canada)", 
+      0.1818
+    ], 
+    [
+      "RugbyClub[foundingYear]", 
+      0.1818
+    ], 
+    [
+      "Bank[foundingYear]>(product|Investment_management)>(product|Investment_banking)>(industry|Financial_services)", 
+      0.1818
+    ]
+  ], 
+  "values": [
+    1922.0, 
+    1940.0, 
+    1826.0, 
+    2020.0, 
+    1925.0, 
+    1915.0, 
+    1971.0, 
+    1895.0, 
+    1968.0, 
+    1933.0, 
+    2030.0
+  ]
+}

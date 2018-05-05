@@ -1,0 +1,154 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.2528
+        ], 
+        [
+          "capacity", 
+          0.2549
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          9.0
+        ], 
+        [
+          "capacity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2487
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.2487
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2487
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.2496
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (capacity)", 
+          0.2549
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (capacity)", 
+          0.2549
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerClub (capacity)", 
+          0.2549
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (capacity)", 
+          0.2549
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.2562
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          20.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SoccerClub (capacity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (capacity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (capacity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (capacity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[populationTotal]>(type|Village_development_committee)>(isPartOf|Rapti_Zone)", 
+      0.2381
+    ], 
+    [
+      "Village[populationTotal]>(type|Village_development_committee)>(isPartOf|Bheri_Zone)", 
+      0.2459
+    ], 
+    [
+      "Location[populationTotal]>(type|Village_development_committee)>(isPartOf|Rapti_Zone)", 
+      0.2535
+    ], 
+    [
+      "Village[populationTotal]>(type|Village_development_committee)>(isPartOf|Bheri_Zone)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2538
+    ], 
+    [
+      "SoccerClub[capacity]>(ground|Spain)>(season|2012%E2%80%9313_Segunda_Divisi%C3%B3n_B)", 
+      0.2549
+    ], 
+    [
+      "Location[populationTotal]>(type|Village_development_committee)>(isPartOf|Mechi_Zone)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2555
+    ], 
+    [
+      "Location[populationTotal]>(type|Village_development_committee)>(isPartOf|Sarlahi_District)>(22-rdf-syntax-ns#type|_Feature)>(country|Nepal)", 
+      0.2564
+    ], 
+    [
+      "Village[populationTotal]>(type|Village_development_committee)>(isPartOf|Rapti_Zone)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2569
+    ], 
+    [
+      "Location[populationTotal]>(type|Village_development_committee)>(isPartOf|Sarlahi_District)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2574
+    ], 
+    [
+      "Location[populationTotal]>(type|Village_development_committee)>(isPartOf|Rapti_Zone)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2577
+    ]
+  ], 
+  "values": [
+    2866.9512382723015, 
+    8459.680583519472, 
+    3663.5022288769082
+  ]
+}

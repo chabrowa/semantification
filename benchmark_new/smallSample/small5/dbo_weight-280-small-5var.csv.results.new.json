@@ -1,0 +1,168 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/weight"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1159
+        ], 
+        [
+          "populationDensity", 
+          0.1176
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          9.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1151
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1161
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1165
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1165
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1176
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          0.1176
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1176
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1176
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1183
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          16.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(district|South_Norfolk)", 
+      0.1092
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(district|South_Norfolk)", 
+      0.1092
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Eastern_Time_Zone)>(isPartOf|West_Virginia)>(type|Census-designated_place)", 
+      0.1173
+    ], 
+    [
+      "City[populationDensity]>(type|List_of_cities_in_Kentucky)", 
+      0.1176
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(region|Rh%C3%B4ne-Alpes)>(arrondissement|Arrondissement_of_Montbrison)", 
+      0.1176
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kurdistan_Province)>(isPartOf|Sarvabad_County)>(isPartOf|Central_District_(Sarvabad_County))", 
+      0.1176
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(region|Rh%C3%B4ne-Alpes)>(arrondissement|Arrondissement_of_Montbrison)", 
+      0.1176
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(department|Oise)", 
+      0.1178
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(department|Oise)", 
+      0.1178
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kurdistan_Province)>(isPartOf|Sarvabad_County)", 
+      0.1192
+    ]
+  ], 
+  "values": [
+    1193.0815284209118, 
+    227.74744464238148, 
+    12763.688422477024, 
+    236.60204020636507, 
+    577.3776659185329, 
+    97.30156352076608, 
+    435.9372430171725, 
+    414663.95395085093, 
+    400.0309289921614, 
+    510.24841150610825, 
+    319.61071454609805, 
+    506.79530610448086, 
+    671.3381726430508, 
+    34.844739886234706, 
+    121.87039403113965, 
+    1175.2671881550057, 
+    401.8336409040452
+  ]
+}

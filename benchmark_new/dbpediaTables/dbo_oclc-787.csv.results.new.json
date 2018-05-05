@@ -1,0 +1,153 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/oclc"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.3377
+        ], 
+        [
+          "gross", 
+          0.3641
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          7.0
+        ], 
+        [
+          "gross", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          0.3348
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          0.3349
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.3377
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (areaTotal)", 
+          0.3378
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.3551
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.3551
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (gross)", 
+          0.3641
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (gross)", 
+          0.3641
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (gross)", 
+          0.3641
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Lake (areaTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (gross)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (gross)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (gross)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Lake[areaTotal]>(country|New_Zealand)", 
+      0.3143
+    ], 
+    [
+      "Lake[areaTotal]>(country|New_Zealand)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3235
+    ], 
+    [
+      "Lake[areaTotal]", 
+      0.3334
+    ], 
+    [
+      "BodyOfWater[areaTotal]", 
+      0.3342
+    ], 
+    [
+      "NaturalPlace[areaTotal]", 
+      0.3342
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Canada)>(isPartOf|Alberta)>(timeZone|Mountain_Time_Zone)", 
+      0.3551
+    ], 
+    [
+      "Film[gross]", 
+      0.3641
+    ], 
+    [
+      "Wikidata:Q11424[gross]", 
+      0.3641
+    ], 
+    [
+      "Work[gross]", 
+      0.3641
+    ], 
+    [
+      "Lake[areaTotal]>(country|Canada)>(location|Alberta)", 
+      0.3692
+    ]
+  ], 
+  "values": [
+    70402011.0, 
+    607825.0
+  ]
+}

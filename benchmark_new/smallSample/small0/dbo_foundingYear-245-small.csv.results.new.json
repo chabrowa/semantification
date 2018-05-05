@@ -1,0 +1,254 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/foundingYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "foundingYear", 
+          0.2
+        ], 
+        [
+          "draftYear", 
+          0.2629
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.2703
+        ], 
+        [
+          "year", 
+          0.2956
+        ]
+      ], 
+      "maj": [
+        [
+          "activeYearsStartYear", 
+          7.0
+        ], 
+        [
+          "year", 
+          1.0
+        ], 
+        [
+          "foundingYear", 
+          1.0
+        ], 
+        [
+          "draftYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/SportsLeague (foundingYear)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.2
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (draftYear)", 
+          0.2629
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (draftYear)", 
+          0.2629
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (draftYear)", 
+          0.2629
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (draftYear)", 
+          0.2629
+        ], 
+        [
+          "http://dbpedia.org/ontology/IceHockeyPlayer (activeYearsStartYear)", 
+          0.2641
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (activeYearsStartYear)", 
+          0.2656
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (activeYearsStartYear)", 
+          0.2703
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.2703
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          0.2703
+        ], 
+        [
+          "http://dbpedia.org/ontology/PeriodicalLiterature (year)", 
+          0.2956
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (year)", 
+          0.2956
+        ], 
+        [
+          "http://dbpedia.org/ontology/Magazine (year)", 
+          0.2956
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (year)", 
+          0.2956
+        ], 
+        [
+          "http://dbpedia.org/ontology/GridironFootballPlayer (activeYearsStartYear)", 
+          0.2983
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmericanFootballPlayer (activeYearsStartYear)", 
+          0.2983
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/IceHockeyPlayer (activeYearsStartYear)", 
+          20.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (activeYearsStartYear)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WinterSportPlayer (activeYearsStartYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (draftYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsLeague (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Magazine (year)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmericanFootballPlayer (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (draftYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PeriodicalLiterature (year)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (year)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/GridironFootballPlayer (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (draftYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (draftYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (year)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "SportsLeague[foundingYear]>(country|United_States)", 
+      0.2
+    ], 
+    [
+      "IceHockeyPlayer[activeYearsStartYear]>(league|Liiga)>(position|Forward_(ice_hockey))>(birthPlace|Finland)", 
+      0.2267
+    ], 
+    [
+      "IceHockeyPlayer[activeYearsStartYear]>(league|Liiga)>(position|Forward_(ice_hockey))", 
+      0.2462
+    ], 
+    [
+      "IceHockeyPlayer[activeYearsStartYear]>(league|Liiga)>(position|Defenceman)>(birthPlace|Finland)", 
+      0.2617
+    ], 
+    [
+      "BasketballPlayer[draftYear]>(league|National_Basketball_Association)>(position|Shooting_guard)", 
+      0.2629
+    ], 
+    [
+      "IceHockeyPlayer[activeYearsStartYear]>(league|Liiga)>(position|Defenceman)", 
+      0.276
+    ], 
+    [
+      "IceHockeyPlayer[activeYearsStartYear]>(league|Liiga)", 
+      0.2852
+    ], 
+    [
+      "Magazine[year]>(language|English_language)", 
+      0.2956
+    ], 
+    [
+      "IceHockeyPlayer[activeYearsStartYear]>(league|Liiga)>(position|Winger_(ice_hockey))>(birthPlace|Finland)", 
+      0.2981
+    ], 
+    [
+      "AmericanFootballPlayer[activeYearsStartYear]>(team|Jacksonville_Jaguars)", 
+      0.2983
+    ]
+  ], 
+  "values": [
+    2001.0, 
+    1920.0, 
+    2015.0, 
+    2010.0, 
+    2014.0, 
+    2007.0, 
+    1954.0, 
+    2015.0, 
+    2011.0, 
+    2013.0, 
+    2010.0, 
+    2013.0, 
+    1899.0, 
+    2013.0, 
+    2000.0
+  ]
+}

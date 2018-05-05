@@ -1,0 +1,144 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/gross"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaWater", 
+          0.1549
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          0.1545
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.1547
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.1547
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.1547
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.1575
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.1632
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Town (areaWater)", 
+          28.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Town[areaWater]>(isPartOf|Michigan)>(type|Township_(United_States))", 
+      0.139
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Michigan)", 
+      0.1415
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Michigan)>(type|Township_(United_States))>(timeZone|Eastern_Time_Zone)", 
+      0.1458
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Maine)>(type|New_England_town)>(isPartOf|Penobscot_County,_Maine)", 
+      0.1575
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Maine)>(isPartOf|Penobscot_County,_Maine)>(type|New_England_town)", 
+      0.1575
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Michigan)>(type|Charter_township)>(timeZone|Eastern_Time_Zone)>(country|United_States)", 
+      0.1583
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Maine)>(isPartOf|Penobscot_County,_Maine)", 
+      0.16
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Michigan)>(type|Charter_township)>(timeZone|Eastern_Time_Zone)", 
+      0.1622
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Florida)", 
+      0.1632
+    ], 
+    [
+      "Town[areaWater]>(isPartOf|Michigan)>(type|Charter_township)", 
+      0.1644
+    ]
+  ], 
+  "values": [
+    59763.0, 
+    8466884.0, 
+    3190975.0, 
+    3416765.0, 
+    750.0, 
+    46844.0, 
+    770315.0, 
+    203631.0, 
+    5613536.0, 
+    6368368.0, 
+    307207.0, 
+    8970000.0, 
+    711999.0, 
+    980598.0, 
+    2039350.0, 
+    1209054.0, 
+    1683144.0, 
+    2940137.0, 
+    1426294.0, 
+    11401.0, 
+    3523891.0, 
+    4727141.0, 
+    3129890.0, 
+    3511843.0, 
+    40155.0
+  ]
+}

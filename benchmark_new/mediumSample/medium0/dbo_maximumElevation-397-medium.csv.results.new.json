@@ -1,0 +1,276 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/maximumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "maximumElevation", 
+          0.0758
+        ], 
+        [
+          "minimumElevation", 
+          0.0857
+        ], 
+        [
+          "numberOfStudents", 
+          0.0914
+        ], 
+        [
+          "elevation", 
+          0.0974
+        ]
+      ], 
+      "maj": [
+        [
+          "numberOfStudents", 
+          4.0
+        ], 
+        [
+          "maximumElevation", 
+          4.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ], 
+        [
+          "minimumElevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (maximumElevation)", 
+          0.0643
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (maximumElevation)", 
+          0.0643
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.0643
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (maximumElevation)", 
+          0.0643
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.0857
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (minimumElevation)", 
+          0.0857
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (minimumElevation)", 
+          0.0857
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (minimumElevation)", 
+          0.0857
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          0.0882
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.0914
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.0914
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.0914
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.0974
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.0974
+        ], 
+        [
+          "http://dbpedia.org/ontology/MountainRange (elevation)", 
+          0.0974
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          0.1106
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportFacility (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SkiArea (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MountainRange (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "ArchitecturalStructure[maximumElevation]", 
+      0.0643
+    ], 
+    [
+      "SportFacility[maximumElevation]", 
+      0.0643
+    ], 
+    [
+      "SkiArea[maximumElevation]", 
+      0.0643
+    ], 
+    [
+      "School[numberOfStudents]>(state|California)>(type|State_school)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0768
+    ], 
+    [
+      "School[numberOfStudents]>(state|California)>(type|State_school)>(22-rdf-syntax-ns#type|_Feature)>(country|United_States)", 
+      0.0819
+    ], 
+    [
+      "SkiArea[minimumElevation]>(location|United_States)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0857
+    ], 
+    [
+      "MountainRange[elevation]", 
+      0.0974
+    ], 
+    [
+      "School[numberOfStudents]>(state|Florida)", 
+      0.1031
+    ], 
+    [
+      "School[numberOfStudents]>(state|California)>(type|State_school)", 
+      0.1039
+    ], 
+    [
+      "Location[maximumElevation]>(region|Rh%C3%B4ne-Alpes)>(department|Savoie)", 
+      0.1106
+    ]
+  ], 
+  "values": [
+    1370.0, 
+    2320.0, 
+    2037.0, 
+    2400.0, 
+    416.0, 
+    2602.99, 
+    2204.62, 
+    2499.36, 
+    1133.55, 
+    3965.45, 
+    2088.0, 
+    277.368, 
+    1481.0, 
+    546.0, 
+    3781.96, 
+    1097.28, 
+    2371.65, 
+    432.816, 
+    1268.0, 
+    3048.0, 
+    820.5219999999999, 
+    3221.13, 
+    1638.0, 
+    1982.0, 
+    3200.0, 
+    2621.28, 
+    2788.92, 
+    2900.17, 
+    0.0, 
+    454.0, 
+    1503.0, 
+    2344.0, 
+    302.0, 
+    2040.0, 
+    2600.0, 
+    2952.0, 
+    1964.0, 
+    1274.06, 
+    2200.0, 
+    1154.58, 
+    2900.0, 
+    1645.92, 
+    629.717, 
+    2438.4, 
+    320.0, 
+    2825.8, 
+    1359.0, 
+    975.36, 
+    876.3, 
+    160.02, 
+    912.571, 
+    685.8, 
+    1789.0
+  ]
+}

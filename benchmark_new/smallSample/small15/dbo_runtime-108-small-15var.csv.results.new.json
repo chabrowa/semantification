@@ -1,0 +1,177 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfStudents", 
+          0.2667
+        ], 
+        [
+          "populationDensity", 
+          0.2795
+        ], 
+        [
+          "populationTotal", 
+          0.2839
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          6.0
+        ], 
+        [
+          "populationDensity", 
+          3.0
+        ], 
+        [
+          "numberOfStudents", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.2667
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.2667
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          0.2667
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.2667
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.2729
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2774
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2774
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2797
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.29
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          0.2909
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[populationTotal]>(country|Germany)>(federalState|Brandenburg)>(division|Quarter_(urban_subdivision))", 
+      0.2514
+    ], 
+    [
+      "School[numberOfStudents]>(state|Pennsylvania)>(type|State_school)", 
+      0.2667
+    ], 
+    [
+      "Location[populationDensity]>(timeZone|Indian_Standard_Time)>(isPartOf|Kerala)", 
+      0.2765
+    ], 
+    [
+      "Location[populationDensity]>(timeZone|Indian_Standard_Time)>(isPartOf|Kerala)>(22-rdf-syntax-ns#type|_Feature)>(country|India)", 
+      0.279
+    ], 
+    [
+      "Location[populationDensity]>(timeZone|Indian_Standard_Time)>(isPartOf|Kerala)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2829
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_Time_Zone)>(isPartOf|Vermont)>(type|New_England_town)>(country|United_States)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2879
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(region|Pays_de_la_Loire)>(department|Vend%C3%A9e)", 
+      0.2899
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(region|Pays_de_la_Loire)>(department|Vend%C3%A9e)", 
+      0.2899
+    ], 
+    [
+      "Town[populationTotal]>(isPartOf|Pennsylvania)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2909
+    ], 
+    [
+      "Location[populationTotal]>(timeZone|Eastern_Time_Zone)>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Centre-du-Qu%C3%A9bec)", 
+      0.2931
+    ]
+  ], 
+  "values": [
+    4515.988538617596, 
+    857.6981274995195, 
+    4840.165171360572, 
+    1005.3729345941281, 
+    840.3996516747472, 
+    1106.474324911717, 
+    6741.475687715569, 
+    814.2751785471255, 
+    991.4774422161471, 
+    859.520814238844
+  ]
+}

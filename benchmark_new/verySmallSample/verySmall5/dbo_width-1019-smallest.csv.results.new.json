@@ -1,0 +1,197 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/width"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.3529
+        ], 
+        [
+          "numberOfSeasons", 
+          0.357
+        ], 
+        [
+          "height", 
+          0.3577
+        ], 
+        [
+          "length", 
+          0.3733
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          5.0
+        ], 
+        [
+          "numberOfSeasons", 
+          2.0
+        ], 
+        [
+          "height", 
+          2.0
+        ], 
+        [
+          "length", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.3509
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.3509
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.3509
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.3518
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.356
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          0.357
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          0.357
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (height)", 
+          0.3577
+        ], 
+        [
+          "http://dbpedia.org/ontology/Automobile (height)", 
+          0.36
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (length)", 
+          0.3733
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (length)", 
+          0.3733
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Automobile (height)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Town[populationDensity]>(isPartOf|Kansas)", 
+      0.3409
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Nebraska)>(type|Civil_township)", 
+      0.3546
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Nebraska)", 
+      0.3546
+    ], 
+    [
+      "MeanOfTransportation[height]", 
+      0.3553
+    ], 
+    [
+      "Work[numberOfSeasons]", 
+      0.357
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]", 
+      0.357
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Minnesota)>(type|Township_(United_States))>(isPartOf|Polk_County,_Minnesota)", 
+      0.3571
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Minnesota)>(isPartOf|Polk_County,_Minnesota)", 
+      0.3571
+    ], 
+    [
+      "Automobile[height]", 
+      0.36
+    ], 
+    [
+      "Weapon[length]>(usedInWar|World_War_II)", 
+      0.3733
+    ]
+  ], 
+  "values": [
+    0.025106749707648087, 
+    0.19127696099215083, 
+    2.8420187354044213, 
+    3.2212904148270063, 
+    2.2881515892334616, 
+    3.7957221266501464, 
+    1.4581634487706197, 
+    0.037639206655242216, 
+    0.016363283235244358, 
+    1.7030275729846187, 
+    1.4078657232857614, 
+    0.13919682957945698, 
+    1.8734468452761883, 
+    2.890416808929123
+  ]
+}

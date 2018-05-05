@@ -1,0 +1,233 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/oclc", 
+    "262143062 (1st edition)"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "oclc", 
+          0.1293
+        ], 
+        [
+          "areaTotal", 
+          0.1428
+        ], 
+        [
+          "areaLand", 
+          0.1504
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          5.0
+        ], 
+        [
+          "oclc", 
+          4.0
+        ], 
+        [
+          "areaLand", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          0.1293
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          0.13
+        ], 
+        [
+          "http://dbpedia.org/ontology/Book (oclc)", 
+          0.1305
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.1415
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1415
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.1415
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.1424
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.148
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.1504
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.1504
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.1504
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          0.1504
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          18.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Book (oclc)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Work[oclc]", 
+      0.1273
+    ], 
+    [
+      "WrittenWork[oclc]", 
+      0.1273
+    ], 
+    [
+      "Book[oclc]>(publisher|Viking_Press)", 
+      0.1288
+    ], 
+    [
+      "Book[oclc]", 
+      0.1338
+    ], 
+    [
+      "City[areaTotal]>(leaderName|Mayor)>(country|United_States)>(timeZone|Central_Time_Zone)>(type|City)", 
+      0.1366
+    ], 
+    [
+      "City[areaTotal]>(leaderName|Mayor)>(country|United_States)>(timeZone|Central_Time_Zone)", 
+      0.1386
+    ], 
+    [
+      "City[areaTotal]>(leaderName|Mayor)>(country|United_States)", 
+      0.1398
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(region|Sicily)", 
+      0.148
+    ], 
+    [
+      "City[areaLand]>(leaderName|Mayor)>(governmentType|Council%E2%80%93manager_government)>(timeZone|Central_Time_Zone)>(country|United_States)", 
+      0.1504
+    ], 
+    [
+      "City[areaTotal]>(leaderName|Mayor)>(country|United_States)>(timeZone|Central_Time_Zone)>(type|City)>(governmentType|Council%E2%80%93manager_government)", 
+      0.151
+    ]
+  ], 
+  "values": [
+    7173050.0, 
+    57639518.0, 
+    85691861.0, 
+    155503760.0, 
+    45151237.0, 
+    14965647.0, 
+    269472014.0, 
+    54697380.0, 
+    4493124.0, 
+    174109815.0, 
+    9395876.0, 
+    13947149.0, 
+    9282964.0, 
+    27490485.0, 
+    4498430.0, 
+    225200464.0, 
+    12481000.0, 
+    2895871.0, 
+    8219612.0, 
+    225253907.0, 
+    5938300.0, 
+    13361327.0, 
+    16004222.0, 
+    7338977.0, 
+    223933339.0, 
+    14407342.0, 
+    224976893.0, 
+    46988231.0, 
+    145733040.0, 
+    7275560.0, 
+    52324974.0, 
+    51275066.0, 
+    38831816.0, 
+    38392026.0, 
+    41877548.0, 
+    51500273.0, 
+    62545546.0, 
+    48835300.0, 
+    48794079.0, 
+    223765101.0, 
+    42402469.0, 
+    38385440.0, 
+    38385638.0, 
+    47033960.0, 
+    60307757.0, 
+    32931955.0, 
+    44436442.0, 
+    2008402.0, 
+    86090238.0
+  ]
+}

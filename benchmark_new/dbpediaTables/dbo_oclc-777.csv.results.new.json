@@ -1,0 +1,144 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/oclc"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.5039
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.5029
+        ], 
+        [
+          "http://dbpedia.org/ontology/WineRegion (areaTotal)", 
+          0.5034
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.5036
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.5036
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          0.5047
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.505
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          0.5075
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WineRegion (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[areaTotal]>(country|Canada)>(timeZone|Pacific_Time_Zone)", 
+      0.5
+    ], 
+    [
+      "BodyOfWater[areaTotal]>(type|Trophic_state_index)", 
+      0.5
+    ], 
+    [
+      "WineRegion[areaTotal]>(type|American_Viticultural_Area)", 
+      0.5034
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_C%C3%A1ceres)", 
+      0.5041
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Spain)>(isPartOf|Province_of_C%C3%A1ceres)", 
+      0.5041
+    ], 
+    [
+      "Town[areaTotal]>(isPartOf|Pennsylvania)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5044
+    ], 
+    [
+      "Town[areaTotal]>(isPartOf|Pennsylvania)>(22-rdf-syntax-ns#type|_Feature)>(type|Township_(Pennsylvania))", 
+      0.5047
+    ], 
+    [
+      "Town[areaTotal]>(isPartOf|Pennsylvania)>(22-rdf-syntax-ns#type|_Feature)>(type|Township_(Pennsylvania))>(country|United_States)", 
+      0.505
+    ], 
+    [
+      "Location[areaTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Maharashtra)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5057
+    ], 
+    [
+      "ProtectedArea[areaTotal]>(location|Idaho)", 
+      0.5075
+    ]
+  ], 
+  "values": [
+    49687706.0
+  ]
+}

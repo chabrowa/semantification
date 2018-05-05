@@ -1,0 +1,331 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/elevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.0951
+        ], 
+        [
+          "populationTotal", 
+          0.0997
+        ], 
+        [
+          "populationDensity", 
+          0.1034
+        ], 
+        [
+          "maximumElevation", 
+          0.1119
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          4.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "populationTotal", 
+          2.0
+        ], 
+        [
+          "maximumElevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.093
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.0951
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.0951
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.0964
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.0994
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0997
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.0997
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0997
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.1033
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1033
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1033
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1033
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1036
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.1119
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (maximumElevation)", 
+          0.1119
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          0.1119
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          0.1119
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[elevation]>(country|France)>(region|Provence-Alpes-C%C3%B4te_d'Azur)", 
+      0.0906
+    ], 
+    [
+      "Town[elevation]", 
+      0.093
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Mazandaran_Province)>(isPartOf|Central_District_(Tonekabon_County))>(22-rdf-syntax-ns#type|_Feature)>(isPartOf|Goli_Jan_Rural_District)", 
+      0.0983
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Fars_Province)>(isPartOf|Eqlid_County)", 
+      0.1012
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(region|Provence-Alpes-C%C3%B4te_d'Azur)>(department|Var_(department))", 
+      0.1015
+    ], 
+    [
+      "Town[populationDensity]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(country|United_States)>(type|Town)", 
+      0.103
+    ], 
+    [
+      "Town[populationDensity]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)>(country|United_States)", 
+      0.1033
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|North_Carolina)", 
+      0.1036
+    ], 
+    [
+      "Town[populationDensity]>(timeZone|Mountain_Time_Zone)>(isPartOf|Montana)", 
+      0.1037
+    ], 
+    [
+      "Village[maximumElevation]", 
+      0.1119
+    ]
+  ], 
+  "values": [
+    40.18638791330509, 
+    284.28347443980294, 
+    269.7770246784635, 
+    265.05579248262245, 
+    216.600036362644, 
+    252.43256365452132, 
+    535.9011808316178, 
+    487.2738599828574, 
+    1971.119864826391, 
+    24.394955003945473, 
+    1850.2887381363364, 
+    644.4616125628535, 
+    51.85074823617675, 
+    428.61906386139424, 
+    296.08349418037005, 
+    1638.9210687592806, 
+    1.0030314635667723, 
+    353.79897584561553, 
+    348.73737681252305, 
+    336.4158859733511, 
+    971.6312281996068, 
+    238.45524981576548, 
+    344.81293947439264, 
+    2.172117105909533, 
+    554.8006278871314, 
+    301.9242597364664, 
+    205.0146764746431, 
+    4.1099657138750105, 
+    656.1674600369751, 
+    873.1833311123644, 
+    354.6544203547958, 
+    136.996720542032, 
+    42.45873892438597, 
+    280.5839896990025, 
+    372.37689894765003, 
+    189.0357823739196, 
+    383.970780325351, 
+    221.22370904972715, 
+    153.26178440674497, 
+    213.87741409778204, 
+    1306.934065260612, 
+    283.9740866438229, 
+    195.98284649934905, 
+    317.3495891198307, 
+    362.96487328376276, 
+    408.664130463352, 
+    2.0083578729887126, 
+    80.35073916554228, 
+    278.9164506159592, 
+    425.689869944859, 
+    292.34817212075166, 
+    38.127909546775086, 
+    106.2294535205748, 
+    32.220862542398564, 
+    88.58574921341253, 
+    13.928603856609861, 
+    1342.5069052504311, 
+    110.6932092853461, 
+    1869.6081765723716, 
+    101.97218722628824, 
+    294.3645484345051, 
+    256.9456758213556, 
+    154.71211023272437, 
+    14.254146658440199, 
+    909.6269755298392, 
+    307.1909182410109, 
+    498.1062433692308, 
+    212.50707911416913, 
+    454.83823600924586, 
+    285.62830636597454, 
+    160.44967044604417, 
+    507.269372402489, 
+    163.5201578265698, 
+    1152.2947515256772, 
+    1366.692747106425, 
+    288.32533237659516, 
+    460.6426932893627, 
+    315.94378735976005, 
+    256.59613799415854, 
+    281.85659735688375, 
+    325.59246680790653, 
+    545.742867069566, 
+    134.05454577138087, 
+    276.5108067206844, 
+    412.07974860712994, 
+    316.0939600865704, 
+    382.20677223242393, 
+    250.78772380869293, 
+    7.02134645879031, 
+    2.899759167692889, 
+    401.9129783413768, 
+    353.2798863259769, 
+    1467.9948051306203, 
+    189.23802049334432, 
+    72.01198708060826, 
+    842.8922498135952, 
+    371.8589014712833, 
+    261.22916989974067, 
+    287.26357604228195, 
+    116.05785806046961
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/activeYearsStartYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfStudents", 
+          0.3484
+        ], 
+        [
+          "elevation", 
+          0.3858
+        ], 
+        [
+          "populationTotal", 
+          0.3969
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          6.0
+        ], 
+        [
+          "numberOfStudents", 
+          2.0
+        ], 
+        [
+          "populationTotal", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.3142
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          0.3142
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.3484
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.3484
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.3484
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          0.3488
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.378
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.3969
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.3969
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.3969
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.3969
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.3993
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.3997
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.4013
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Mountain[elevation]>(locatedInArea|Norway)>(locatedInArea|Oppland)", 
+      0.3142
+    ], 
+    [
+      "School[numberOfStudents]>(state|Florida)>(type|State_school)", 
+      0.3452
+    ], 
+    [
+      "School[numberOfStudents]>(state|Florida)>(type|State_school)>(country|United_States)", 
+      0.3515
+    ], 
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)", 
+      0.3952
+    ], 
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.3966
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.3966
+    ], 
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(country|Wales)>(ceremonialCounty|Gwynedd)", 
+      0.3969
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|Wales)>(ceremonialCounty|Gwynedd)", 
+      0.3969
+    ], 
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)", 
+      0.4061
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)", 
+      0.4061
+    ]
+  ], 
+  "values": [
+    1896.0, 
+    1916.0, 
+    1962.0, 
+    1964.0, 
+    1853.0, 
+    2155.0, 
+    1826.0, 
+    2064.0, 
+    2064.0, 
+    27.0, 
+    2202.0, 
+    2168.0, 
+    1943.0, 
+    1913.0, 
+    1943.0, 
+    1830.0, 
+    1819.0, 
+    1900.0, 
+    2029.0, 
+    2137.0, 
+    1859.0, 
+    1909.0, 
+    2102.0, 
+    2123.0, 
+    2170.0, 
+    2179.0, 
+    2154.0, 
+    2127.0, 
+    2177.0, 
+    2170.0, 
+    1796.0, 
+    1875.0, 
+    1859.0, 
+    2120.0, 
+    1776.0, 
+    2120.0, 
+    1910.0, 
+    195.0, 
+    1921.0, 
+    1796.0, 
+    1977.0, 
+    1953.0, 
+    2174.0, 
+    2043.0, 
+    1847.0, 
+    1863.0, 
+    1989.0, 
+    1791.0, 
+    1874.0, 
+    1989.0, 
+    1985.0, 
+    1801.0, 
+    2047.0, 
+    2027.0, 
+    1827.0, 
+    2037.0, 
+    1848.0, 
+    1898.0, 
+    1898.0, 
+    2050.0, 
+    1909.0, 
+    2064.0, 
+    2133.0, 
+    1935.0, 
+    2085.0, 
+    2166.0, 
+    2063.0, 
+    1921.0, 
+    2103.0, 
+    1750.0, 
+    2059.0, 
+    1976.0, 
+    2068.0, 
+    2177.0, 
+    1981.0, 
+    2104.0, 
+    2029.0, 
+    1828.0, 
+    1864.0, 
+    2035.0, 
+    1938.0, 
+    4.0, 
+    2199.0, 
+    1804.0, 
+    2104.0, 
+    2139.0, 
+    1928.0, 
+    14.0, 
+    1819.0, 
+    2105.0, 
+    1814.0, 
+    1882.0, 
+    1874.0, 
+    1792.0, 
+    1823.0, 
+    1816.0, 
+    2045.0, 
+    2211.0, 
+    1962.0, 
+    2169.0, 
+    2070.0, 
+    1987.0, 
+    1925.0, 
+    2006.0, 
+    2119.0, 
+    2080.0, 
+    2059.0, 
+    1808.0, 
+    2028.0, 
+    2121.0, 
+    2190.0, 
+    1906.0, 
+    2080.0, 
+    1857.0, 
+    1935.0, 
+    2094.0
+  ]
+}

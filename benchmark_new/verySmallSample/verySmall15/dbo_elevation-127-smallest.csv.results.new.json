@@ -1,0 +1,195 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/elevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.144
+        ], 
+        [
+          "numberOfEmployees", 
+          0.1599
+        ], 
+        [
+          "elevation", 
+          0.1662
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          7.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ], 
+        [
+          "numberOfEmployees", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1399
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1435
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1562
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1565
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (numberOfEmployees)", 
+          0.1599
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          0.1599
+        ], 
+        [
+          "http://dbpedia.org/ontology/Publisher (numberOfEmployees)", 
+          0.1599
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          0.1599
+        ], 
+        [
+          "http://dbpedia.org/ontology/Airport (elevation)", 
+          0.1648
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          0.1662
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1662
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (elevation)", 
+          0.1662
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Airport (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Publisher (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationDensity]", 
+      0.1288
+    ], 
+    [
+      "PopulatedPlace[populationDensity]", 
+      0.1288
+    ], 
+    [
+      "Place[populationDensity]", 
+      0.1288
+    ], 
+    [
+      "Settlement[populationDensity]", 
+      0.1352
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Kansas)>(timeZone|Central_Time_Zone)", 
+      0.1546
+    ], 
+    [
+      "Publisher[numberOfEmployees]", 
+      0.1599
+    ], 
+    [
+      "Airport[elevation]", 
+      0.1648
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Kansas)>(timeZone|Central_Time_Zone)>(country|United_States)", 
+      0.1649
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Nebraska)", 
+      0.1667
+    ], 
+    [
+      "Infrastructure[elevation]", 
+      0.1675
+    ]
+  ], 
+  "values": [
+    340.84210443628115, 
+    1366.4355418250009, 
+    9.71316063984591, 
+    206.60764276651548, 
+    125.46735560375969, 
+    14.908420571014513, 
+    8.011809853250798, 
+    2.855251413042536, 
+    83.01307461414832, 
+    351.91967820488907, 
+    355.967747876994, 
+    870.9212734655874
+  ]
+}

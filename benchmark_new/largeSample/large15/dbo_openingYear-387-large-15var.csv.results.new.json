@@ -1,0 +1,299 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/openingYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.2877
+        ], 
+        [
+          "areaCode", 
+          0.3084
+        ], 
+        [
+          "activeYearsEndYear", 
+          0.3208
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          7.0
+        ], 
+        [
+          "areaCode", 
+          2.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.2794
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2866
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2874
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2939
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          0.3084
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          0.3084
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.3084
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          0.3084
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (elevation)", 
+          0.3157
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.3157
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (elevation)", 
+          0.3157
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.3208
+        ], 
+        [
+          "http://dbpedia.org/ontology/Royalty (activeYearsEndYear)", 
+          0.3208
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.3208
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaCode)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Lake (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Royalty (activeYearsEndYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Colorado)>(type|Census-designated_place)", 
+      0.2557
+    ], 
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.2631
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.2631
+    ], 
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)", 
+      0.2773
+    ], 
+    [
+      "Location[areaCode]>(country|England)>(country|Cumbria)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3084
+    ], 
+    [
+      "Settlement[areaCode]>(country|England)>(country|Cumbria)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3084
+    ], 
+    [
+      "Lake[elevation]>(location|Glacier_County,_Montana)>(location|United_States)", 
+      0.3157
+    ], 
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)", 
+      0.3194
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)", 
+      0.3194
+    ], 
+    [
+      "Royalty[activeYearsEndYear]>(deathPlace|France)", 
+      0.3208
+    ]
+  ], 
+  "values": [
+    1728.0, 
+    2124.0, 
+    1770.0, 
+    2097.0, 
+    1840.0, 
+    1626.0, 
+    1788.0, 
+    1675.0, 
+    1713.0, 
+    2168.0, 
+    2093.0, 
+    2018.0, 
+    1789.0, 
+    2143.0, 
+    2078.0, 
+    1920.0, 
+    1621.0, 
+    1834.0, 
+    2130.0, 
+    1774.0, 
+    1757.0, 
+    2134.0, 
+    1739.0, 
+    2085.0, 
+    1804.0, 
+    2241.0, 
+    1639.0, 
+    2158.0, 
+    1649.0, 
+    1763.0, 
+    2119.0, 
+    1816.0, 
+    2258.0, 
+    1655.0, 
+    1875.0, 
+    2070.0, 
+    1831.0, 
+    1686.0, 
+    82.0, 
+    1771.0, 
+    1650.0, 
+    1998.0, 
+    2047.0, 
+    1979.0, 
+    1755.0, 
+    2092.0, 
+    1721.0, 
+    1721.0, 
+    2295.0, 
+    1690.0, 
+    1970.0, 
+    2119.0, 
+    2030.0, 
+    1625.0, 
+    1867.0, 
+    2183.0, 
+    1851.0, 
+    2141.0, 
+    1825.0, 
+    2094.0, 
+    1868.0, 
+    2258.0, 
+    2096.0, 
+    1840.0, 
+    1848.0, 
+    1773.0, 
+    1985.0, 
+    1854.0, 
+    1980.0, 
+    2112.0, 
+    2182.0, 
+    1699.0, 
+    2198.0, 
+    1792.0, 
+    1588.0, 
+    2144.0, 
+    1933.0, 
+    2043.0, 
+    1959.0, 
+    1866.0, 
+    1954.0, 
+    1818.0, 
+    2012.0, 
+    1720.0, 
+    1918.0, 
+    1857.0, 
+    2041.0, 
+    2259.0, 
+    1741.0, 
+    1791.0, 
+    1691.0, 
+    1937.0, 
+    1942.0, 
+    1675.0, 
+    1880.0, 
+    212.0, 
+    1847.0, 
+    1894.0, 
+    2221.0, 
+    1681.0
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runwayLength"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "runwayLength", 
+          0.2083
+        ], 
+        [
+          "populationTotal", 
+          0.27
+        ], 
+        [
+          "minimumElevation", 
+          0.2904
+        ], 
+        [
+          "numberOfStudents", 
+          0.301
+        ]
+      ], 
+      "maj": [
+        [
+          "runwayLength", 
+          4.0
+        ], 
+        [
+          "populationTotal", 
+          4.0
+        ], 
+        [
+          "minimumElevation", 
+          1.0
+        ], 
+        [
+          "numberOfStudents", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Airport (runwayLength)", 
+          0.2058
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (runwayLength)", 
+          0.2058
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (runwayLength)", 
+          0.2083
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (runwayLength)", 
+          0.2083
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (runwayLength)", 
+          0.2083
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.2358
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2529
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.2529
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2529
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          0.2701
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.287
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.2904
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.301
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.301
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.301
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          0.301
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Airport (runwayLength)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (runwayLength)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (runwayLength)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (runwayLength)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (runwayLength)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Airport[runwayLength]>(owner|Air_Ministry)>(operator|Royal_Air_Force)", 
+      0.196
+    ], 
+    [
+      "Location[runwayLength]>(owner|Air_Ministry)>(operator|Royal_Air_Force)", 
+      0.196
+    ], 
+    [
+      "Airport[runwayLength]>(owner|Air_Ministry)", 
+      0.2207
+    ], 
+    [
+      "Location[runwayLength]>(owner|Air_Ministry)", 
+      0.2207
+    ], 
+    [
+      "Village[populationTotal]>(timeZone|Eastern_Time_Zone)>(type|Types_of_municipalities_in_Quebec)", 
+      0.2358
+    ], 
+    [
+      "Town[populationTotal]>(timeZone|Mountain_Time_Zone)", 
+      0.2701
+    ], 
+    [
+      "Location[populationTotal]>(country|Poland)>(type|Village)>(isPartOf|Podkarpackie_Voivodeship)", 
+      0.2781
+    ], 
+    [
+      "Place[minimumElevation]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2904
+    ], 
+    [
+      "Location[populationTotal]>(country|Poland)>(type|Village)>(isPartOf|Pozna%C5%84_County)", 
+      0.2959
+    ], 
+    [
+      "School[numberOfStudents]>(type|Independent_school_(United_Kingdom))>(gender|Mixed-sex_education)", 
+      0.301
+    ]
+  ], 
+  "values": [
+    874.776, 
+    875.0, 
+    1050.0, 
+    1051.56, 
+    1133.0, 
+    1133.86, 
+    0.0, 
+    0.0, 
+    1524.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    1170.43, 
+    1353.31, 
+    594.0, 
+    594.36, 
+    0.0, 
+    0.0, 
+    645.0, 
+    646.176, 
+    1000.0, 
+    1000.66, 
+    900.0, 
+    900.684
+  ]
+}

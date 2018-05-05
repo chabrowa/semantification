@@ -1,0 +1,176 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/area"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "area", 
+          0.0587
+        ], 
+        [
+          "numberOfSeasons", 
+          0.0606
+        ]
+      ], 
+      "maj": [
+        [
+          "area", 
+          8.0
+        ], 
+        [
+          "numberOfSeasons", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Town (area)", 
+          0.0565
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          0.0586
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (area)", 
+          0.0586
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          0.0586
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (area)", 
+          0.0589
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          0.0606
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          0.0606
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (area)", 
+          0.0606
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (area)", 
+          18.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (area)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (area)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (area)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[area]>(timeZone|Eastern_Time_Zone)>(type|New_England_town)", 
+      0.051
+    ], 
+    [
+      "Town[area]", 
+      0.0565
+    ], 
+    [
+      "Location[area]>(timeZone|Eastern_Time_Zone)", 
+      0.0594
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]>(language|Hindi)>(format|720p)", 
+      0.0606
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]>(language|Hindi)>(format|720p)>(country|India)", 
+      0.0606
+    ], 
+    [
+      "City[area]", 
+      0.0606
+    ], 
+    [
+      "Location[area]>(timeZone|Eastern_Time_Zone)>(isPartOf|South_Carolina)", 
+      0.0606
+    ], 
+    [
+      "Location[area]>(timeZone|Eastern_Time_Zone)>(isPartOf|Indiana)", 
+      0.0606
+    ], 
+    [
+      "Location[area]>(timeZone|Eastern_Time_Zone)>(country|Canada)", 
+      0.0606
+    ], 
+    [
+      "Location[area]>(timeZone|Eastern_Time_Zone)>(isPartOf|South_Carolina)>(country|United_States)", 
+      0.0606
+    ]
+  ], 
+  "values": [
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    23600000.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    56880000.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0
+  ]
+}

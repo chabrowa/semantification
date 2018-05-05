@@ -1,0 +1,264 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEpisodes"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaCode", 
+          0.4678
+        ], 
+        [
+          "elevation", 
+          0.4989
+        ], 
+        [
+          "height", 
+          0.5
+        ], 
+        [
+          "postalCode", 
+          0.5
+        ], 
+        [
+          "areaWater", 
+          0.5
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          4.0
+        ], 
+        [
+          "height", 
+          2.0
+        ], 
+        [
+          "areaCode", 
+          2.0
+        ], 
+        [
+          "postalCode", 
+          1.0
+        ], 
+        [
+          "areaWater", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          0.4678
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          0.4678
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          0.4678
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaCode)", 
+          0.4678
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.4958
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.4958
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.4958
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.4958
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (height)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (height)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.5
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaCode)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Dam (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaCode)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[areaCode]>(type|Village_development_committee)", 
+      0.4677
+    ], 
+    [
+      "Village[areaCode]>(type|Village_development_committee)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.4679
+    ], 
+    [
+      "Village[elevation]>(type|Administrative_divisions_of_New_York)>(isPartOf|Nassau_County,_New_York)>(isPartOf|New_York)", 
+      0.4958
+    ], 
+    [
+      "Settlement[areaWater]>(isPartOf|Maryland)>(country|United_States)", 
+      0.5
+    ], 
+    [
+      "Settlement[postalCode]>(country|Italy)>(province|Province_of_Rome)>(region|Latium)", 
+      0.5
+    ], 
+    [
+      "Dam[height]>(owner|Government_of_Maharashtra)", 
+      0.5
+    ], 
+    [
+      "Location[height]>(owner|Government_of_Maharashtra)", 
+      0.5
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Contra_Costa_County,_California)>(timeZone|Pacific_Time_Zone)", 
+      0.5
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Kerala)>(country|India)", 
+      0.5
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Kerala)>(country|India)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5
+    ]
+  ], 
+  "values": [
+    26.0
+  ]
+}

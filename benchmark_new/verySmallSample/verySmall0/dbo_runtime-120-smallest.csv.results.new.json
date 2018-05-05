@@ -1,0 +1,283 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "runtime", 
+          0.1053
+        ], 
+        [
+          "populationTotal", 
+          0.1932
+        ], 
+        [
+          "elevation", 
+          0.1955
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          6.0
+        ], 
+        [
+          "runtime", 
+          2.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          0.1053
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (runtime)", 
+          0.1053
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (runtime)", 
+          0.1053
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1593
+        ], 
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          0.1644
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1713
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1713
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1785
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.1955
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1955
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.2058
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          0.2267
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (runtime)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (runtime)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Film[runtime]", 
+      0.1053
+    ], 
+    [
+      "Wikidata:Q11424[runtime]", 
+      0.1053
+    ], 
+    [
+      "Location[populationTotal]>(type|Village_development_committee)>(isPartOf|Mahottari_District)", 
+      0.1348
+    ], 
+    [
+      "Village[populationTotal]>(type|Village_development_committee)>(isPartOf|Mahottari_District)", 
+      0.1593
+    ], 
+    [
+      "Volcano[elevation]>(mountainRange|Andes)", 
+      0.1644
+    ], 
+    [
+      "Location[populationTotal]>(country|Poland)>(type|Gmina)>(isPartOf|%C5%81%C3%B3d%C5%BA_Voivodeship)", 
+      0.1833
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Poland)>(type|Gmina)>(isPartOf|%C5%81%C3%B3d%C5%BA_Voivodeship)", 
+      0.1833
+    ], 
+    [
+      "Mountain[elevation]>(mountainRange|Andes)", 
+      0.2267
+    ], 
+    [
+      "Location[populationTotal]>(type|Village_development_committee)>(isPartOf|Nawalparasi_District)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2488
+    ], 
+    [
+      "Location[populationTotal]>(country|Italy)>(province|Province_of_Padua)", 
+      0.2494
+    ]
+  ], 
+  "values": [
+    5280.0, 
+    9600.0, 
+    5640.0, 
+    3720.0, 
+    5700.0, 
+    6060.0, 
+    1014.0, 
+    5820.0, 
+    5400.0, 
+    5280.0, 
+    6600.0, 
+    5160.0, 
+    6300.0, 
+    5400.0, 
+    5580.0, 
+    4740.0, 
+    7260.0, 
+    5520.0, 
+    6600.0, 
+    11400.0, 
+    5460.0, 
+    5160.0, 
+    5940.0, 
+    5400.0, 
+    3480.0, 
+    4320.0, 
+    6060.0, 
+    7800.0, 
+    4980.0, 
+    7200.0, 
+    1620.0, 
+    4380.0, 
+    5940.0, 
+    5220.0, 
+    7500.0, 
+    9000.0, 
+    10320.0, 
+    5400.0, 
+    4800.0, 
+    1200.0, 
+    5400.0, 
+    6000.0, 
+    5460.0, 
+    5700.0, 
+    5700.0, 
+    5820.0, 
+    5880.0, 
+    9600.0, 
+    4020.0, 
+    5880.0, 
+    3900.0, 
+    5340.0, 
+    3600.0, 
+    1560.0, 
+    4200.0, 
+    6000.0, 
+    5460.0, 
+    5760.0, 
+    5880.0, 
+    5400.0, 
+    5520.0, 
+    5580.0, 
+    9900.0, 
+    3720.0, 
+    5280.0, 
+    5400.0, 
+    5460.0, 
+    5520.0, 
+    5100.0, 
+    5640.0, 
+    4680.0, 
+    6480.0, 
+    4080.0, 
+    7080.0, 
+    5280.0, 
+    6600.0, 
+    5700.0, 
+    5160.0, 
+    6000.0, 
+    6300.0, 
+    5040.0, 
+    5100.0, 
+    4020.0, 
+    9540.0, 
+    5820.0, 
+    5520.0, 
+    5280.0, 
+    6660.0, 
+    540.0, 
+    6600.0, 
+    7380.0, 
+    1020.0, 
+    3720.0, 
+    4440.0, 
+    3480.0, 
+    600.0, 
+    4800.0, 
+    6120.0, 
+    1560.0, 
+    9180.0
+  ]
+}

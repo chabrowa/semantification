@@ -1,0 +1,331 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationDensity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfEmployees", 
+          0.0894
+        ], 
+        [
+          "populationDensity", 
+          0.1224
+        ], 
+        [
+          "elevation", 
+          0.1575
+        ], 
+        [
+          "height", 
+          0.1635
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          5.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ], 
+        [
+          "height", 
+          1.0
+        ], 
+        [
+          "numberOfEmployees", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.077
+        ], 
+        [
+          "http://dbpedia.org/ontology/Non-ProfitOrganisation (numberOfEmployees)", 
+          0.0894
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          0.0894
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          0.0894
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1175
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1175
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1175
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1231
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1572
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1572
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1572
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1576
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          0.1579
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.1635
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          0.1635
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.1635
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (height)", 
+          0.1635
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Non-ProfitOrganisation (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Town[populationDensity]", 
+      0.077
+    ], 
+    [
+      "Non-ProfitOrganisation[numberOfEmployees]", 
+      0.0894
+    ], 
+    [
+      "Location[populationDensity]>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Laurentides)", 
+      0.1072
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Wisconsin)", 
+      0.1094
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Alameda_County,_California)", 
+      0.1559
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|California)>(isPartOf|Contra_Costa_County,_California)", 
+      0.1572
+    ], 
+    [
+      "Village[populationDensity]>(type|Types_of_municipalities_in_Quebec)", 
+      0.1579
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Contra_Costa_County,_California)", 
+      0.1594
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Illinois)", 
+      0.1606
+    ], 
+    [
+      "RouteOfTransportation[height]", 
+      0.1635
+    ]
+  ], 
+  "values": [
+    9.176968998438479, 
+    15.337826829078226, 
+    22.4564232450626, 
+    441.39834073683534, 
+    1.8533102808525996, 
+    23.428180737391283, 
+    12.37116870160227, 
+    1.2626270781281665, 
+    86.99674893135483, 
+    14.51757160316245, 
+    182.65252243706436, 
+    2.1024002597799942, 
+    844.6489803776241, 
+    19.944228968274203, 
+    216.52467133818877, 
+    277.41391862042013, 
+    448.6396037895488, 
+    130.33196235803717, 
+    114.86709720678438, 
+    37.76121830640123, 
+    18.441912981313912, 
+    2029.4038347939716, 
+    4.996067905797005, 
+    4.880594788360512, 
+    75.5509567213631, 
+    122.46682116655032, 
+    4.782787549104139, 
+    90.85858345699404, 
+    133.55060408791786, 
+    9256.320687171909, 
+    8.517090256961797, 
+    53.650956475111904, 
+    585.1234417342157, 
+    17.94004726472307, 
+    82.13342799305961, 
+    61.64973169666398, 
+    13.042553500687411, 
+    18.6986753431365, 
+    2.0627985858026703, 
+    2.578959807926663, 
+    79.79258507056119, 
+    909.0360316749354, 
+    798.5859846588183, 
+    5.733424391234485, 
+    8.22016401768952, 
+    45.19091795119472, 
+    9.44532701802605, 
+    16.52565717889314, 
+    108.52303252572038, 
+    11.043347857356428, 
+    796.6532740729185, 
+    46.76449673478258, 
+    21.072332648577163, 
+    353.9939156357984, 
+    13.059148303989438, 
+    25.703966236631313, 
+    1.381376061863996, 
+    12.960975350042073, 
+    1.63224796117722, 
+    37.0002066131927, 
+    32.021656608370336, 
+    10.799778699721058, 
+    5.863140522968194, 
+    520.5441930410196, 
+    123.61946258269433, 
+    2.530743646939165, 
+    752.8794045475379, 
+    110.94411407975275, 
+    46.09206989793022, 
+    2.2304331104974167, 
+    569.1145000970785, 
+    178.21082246052464, 
+    638.4110666684953, 
+    11.866137021187651, 
+    3.3354354364282472, 
+    6.158274402378937, 
+    0.6693772295959759, 
+    4.189961194824596, 
+    0.20606795878060505, 
+    153.7045872532316, 
+    1.4912703471514632, 
+    81.66181960610733, 
+    1.2927961106469454, 
+    11.64986771881379, 
+    8.314416286166514, 
+    9.870330632670914, 
+    845.1652352282805, 
+    0.5706496974130357, 
+    2.4593495712466136, 
+    681.9504934349534, 
+    401.3182900544608, 
+    3.8212745671907298, 
+    79.35743885800146, 
+    152.4933014263815, 
+    14.194959733880856, 
+    69.85369224188736, 
+    64.4587158911157, 
+    2.1314789458983934, 
+    1.7701056731034395, 
+    103.77612605405376
+  ]
+}

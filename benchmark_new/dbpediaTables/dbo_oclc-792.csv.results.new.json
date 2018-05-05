@@ -1,0 +1,136 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/oclc"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.5223
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.5127
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.5185
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.5187
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.5271
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          0.5385
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaTotal)", 
+          0.5455
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "BodyOfWater[areaTotal]>(type|Trophic_state_index)", 
+      0.5
+    ], 
+    [
+      "Settlement[areaTotal]>(country|China)>(type|District_(China))", 
+      0.5036
+    ], 
+    [
+      "Location[areaTotal]>(country|United_Kingdom)>(leaderName|Local_Government_Act_2000)>(type|Non-metropolitan_district)", 
+      0.5088
+    ], 
+    [
+      "Settlement[areaTotal]>(country|United_Kingdom)>(leaderName|Local_Government_Act_2000)>(type|Non-metropolitan_district)", 
+      0.5088
+    ], 
+    [
+      "Location[areaTotal]>(country|United_Kingdom)>(leaderName|Local_Government_Act_2000)", 
+      0.5161
+    ], 
+    [
+      "Settlement[areaTotal]>(country|United_Kingdom)>(leaderName|Local_Government_Act_2000)", 
+      0.5161
+    ], 
+    [
+      "Location[areaTotal]>(location|United_States)>(location|California)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5385
+    ], 
+    [
+      "ProtectedArea[areaTotal]>(location|California)>(location|United_States)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5385
+    ], 
+    [
+      "Village[areaTotal]>(isPartOf|Blagoevgrad_Province)", 
+      0.5455
+    ], 
+    [
+      "Location[areaTotal]>(location|United_States)>(location|California)", 
+      0.5472
+    ]
+  ], 
+  "values": [
+    426475923.0
+  ]
+}

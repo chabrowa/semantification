@@ -1,0 +1,351 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/yearOfConstruction"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "foundingYear", 
+          0.1262
+        ], 
+        [
+          "serviceEndYear", 
+          0.1413
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.1425
+        ], 
+        [
+          "openingYear", 
+          0.1444
+        ], 
+        [
+          "serviceStartYear", 
+          0.1574
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          3.0
+        ], 
+        [
+          "foundingYear", 
+          3.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          2.0
+        ], 
+        [
+          "serviceStartYear", 
+          1.0
+        ], 
+        [
+          "serviceEndYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/LawFirm (foundingYear)", 
+          0.1234
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bank (foundingYear)", 
+          0.125
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.1262
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.1262
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          0.1262
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          0.1379
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          0.1413
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          0.1413
+        ], 
+        [
+          "http://dbpedia.org/ontology/Congressman (serviceEndYear)", 
+          0.1413
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceEndYear)", 
+          0.1413
+        ], 
+        [
+          "http://dbpedia.org/ontology/Scientist (activeYearsStartYear)", 
+          0.1425
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          0.1425
+        ], 
+        [
+          "http://dbpedia.org/ontology/Medician (activeYearsStartYear)", 
+          0.1425
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.1425
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.1444
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.1444
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.1444
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          0.1448
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.1476
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceStartYear)", 
+          0.1574
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceStartYear)", 
+          0.1574
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceStartYear)", 
+          0.1574
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/LawFirm (foundingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Scientist (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bank (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Congressman (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (serviceStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Medician (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Politician (serviceStartYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "LawFirm[foundingYear]>(type|Limited_liability_partnership)", 
+      0.1167
+    ], 
+    [
+      "Bank[foundingYear]>(product|Investment_management)", 
+      0.125
+    ], 
+    [
+      "LawFirm[foundingYear]", 
+      0.1369
+    ], 
+    [
+      "Station[openingYear]", 
+      0.1379
+    ], 
+    [
+      "RailwayTunnel[openingYear]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1391
+    ], 
+    [
+      "Congressman[serviceEndYear]", 
+      0.1413
+    ], 
+    [
+      "Scientist[activeYearsStartYear]", 
+      0.1425
+    ], 
+    [
+      "Medician[activeYearsStartYear]", 
+      0.1425
+    ], 
+    [
+      "RailwayTunnel[openingYear]", 
+      0.156
+    ], 
+    [
+      "Politician[serviceStartYear]", 
+      0.1574
+    ]
+  ], 
+  "values": [
+    1862.0, 
+    1870.0, 
+    1942.0, 
+    1812.0, 
+    1837.0, 
+    1910.0, 
+    1832.0, 
+    1922.0, 
+    1813.0, 
+    1971.0, 
+    1985.0, 
+    1917.0, 
+    2014.0, 
+    1862.0, 
+    1855.0, 
+    1968.0, 
+    1824.0, 
+    1813.0, 
+    2007.0, 
+    1891.0, 
+    1962.0, 
+    2049.0, 
+    1935.0, 
+    1977.0, 
+    1882.0, 
+    1842.0, 
+    1853.0, 
+    1881.0, 
+    1830.0, 
+    1990.0, 
+    1887.0, 
+    1945.0, 
+    1947.0, 
+    1974.0, 
+    1954.0, 
+    2001.0, 
+    1821.0, 
+    1948.0, 
+    1989.0, 
+    1875.0, 
+    1880.0, 
+    1930.0, 
+    2009.0, 
+    1984.0, 
+    1980.0, 
+    1941.0, 
+    1897.0, 
+    1900.0, 
+    1967.0, 
+    1927.0, 
+    1957.0, 
+    1913.0, 
+    1883.0, 
+    1983.0, 
+    1935.0, 
+    1855.0, 
+    1804.0, 
+    1982.0, 
+    1995.0, 
+    1937.0, 
+    1855.0, 
+    1896.0, 
+    1859.0, 
+    1958.0, 
+    1888.0, 
+    1857.0, 
+    1988.0, 
+    1979.0, 
+    1822.0, 
+    1915.0, 
+    1833.0, 
+    1851.0
+  ]
+}

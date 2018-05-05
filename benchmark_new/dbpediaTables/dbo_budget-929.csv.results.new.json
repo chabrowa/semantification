@@ -1,0 +1,206 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/budget"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaLand", 
+          0.2113
+        ], 
+        [
+          "areaTotal", 
+          0.2197
+        ], 
+        [
+          "budget", 
+          0.25
+        ]
+      ], 
+      "maj": [
+        [
+          "areaLand", 
+          5.0
+        ], 
+        [
+          "areaTotal", 
+          3.0
+        ], 
+        [
+          "budget", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          0.1981
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          0.1986
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.1986
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.2197
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.2197
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.2197
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.2197
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.2197
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.2197
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (budget)", 
+          0.25
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (budget)", 
+          0.25
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (budget)", 
+          0.25
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaTotal)", 
+          0.2603
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaLand)", 
+          0.2603
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (budget)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaLand]>(isPartOf|Kentucky)>(isPartOf|Jefferson_County,_Kentucky)>(type|List_of_cities_in_Kentucky)", 
+      0.194
+    ], 
+    [
+      "City[areaLand]>(isPartOf|Kentucky)>(isPartOf|Jefferson_County,_Kentucky)>(type|List_of_cities_in_Kentucky)", 
+      0.194
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Kentucky)>(isPartOf|Jefferson_County,_Kentucky)>(type|List_of_cities_in_Kentucky)", 
+      0.194
+    ], 
+    [
+      "Location[areaLand]>(isPartOf|Kentucky)>(isPartOf|Jefferson_County,_Kentucky)", 
+      0.2035
+    ], 
+    [
+      "City[areaLand]>(isPartOf|Kentucky)>(isPartOf|Jefferson_County,_Kentucky)", 
+      0.2047
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Kentucky)>(isPartOf|Jefferson_County,_Kentucky)", 
+      0.2047
+    ], 
+    [
+      "Wikidata:Q11424[budget]>(distributor|RKO_Pictures)", 
+      0.25
+    ], 
+    [
+      "Film[budget]>(distributor|RKO_Pictures)", 
+      0.25
+    ], 
+    [
+      "Village[areaLand]>(isPartOf|Missouri)>(type|Village)", 
+      0.2603
+    ], 
+    [
+      "Village[areaTotal]>(isPartOf|Missouri)>(type|Village)", 
+      0.2603
+    ]
+  ], 
+  "values": [
+    235000.0, 
+    1353550.0, 
+    250000.0, 
+    461330.0, 
+    753000.0, 
+    731000.0, 
+    494310.0
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEpisodes"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.2465
+        ], 
+        [
+          "height", 
+          0.2537
+        ], 
+        [
+          "populationTotal", 
+          0.2551
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          8.0
+        ], 
+        [
+          "height", 
+          1.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2465
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2465
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2465
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.2537
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.2537
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (height)", 
+          0.2537
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.254
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.2549
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.2549
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.2565
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.2568
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          20.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (height)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[populationTotal]>(isPartOf|Lorestan_Province)>(isPartOf|Kakavand-e_Sharqi_Rural_District)", 
+      0.2463
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Manche)>(arrondissement|Arrondissement_of_Avranches)", 
+      0.2465
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|East_Azerbaijan_Province)>(isPartOf|Kaghazkonan_District)", 
+      0.25
+    ], 
+    [
+      "Building[height]", 
+      0.2537
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Lorestan_Province)>(isPartOf|Kakavand-e_Sharqi_Rural_District)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2542
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kermanshah_Province)>(isPartOf|Jalalvand_Rural_District)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2549
+    ], 
+    [
+      "Location[populationTotal]>(country|Slovenia)>(isPartOf|Municipality_of_Sevnica)>(isPartOf|Lower_Sava_Statistical_Region)", 
+      0.2568
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kermanshah_Province)>(isPartOf|Jalalvand_Rural_District)", 
+      0.2593
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Kermanshah_Province)>(isPartOf|Gurani_Rural_District)", 
+      0.2593
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Slovenia)>(isPartOf|Municipality_of_Sevnica)>(isPartOf|Lower_Sava_Statistical_Region)", 
+      0.2603
+    ]
+  ], 
+  "values": [
+    49.0, 
+    67.0, 
+    138.0, 
+    140.0
+  ]
+}

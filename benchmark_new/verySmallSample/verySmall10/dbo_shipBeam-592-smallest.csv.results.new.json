@@ -1,0 +1,185 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/shipBeam"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "shipBeam", 
+          0.4287
+        ], 
+        [
+          "populationDensity", 
+          0.4541
+        ], 
+        [
+          "elevation", 
+          0.4694
+        ]
+      ], 
+      "maj": [
+        [
+          "shipBeam", 
+          4.0
+        ], 
+        [
+          "populationDensity", 
+          3.0
+        ], 
+        [
+          "elevation", 
+          3.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.4286
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.4286
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          0.4287
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          0.4328
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.4541
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.4541
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.4646
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.4662
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.4662
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.4662
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.4704
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.4711
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Ship[shipBeam]>(country|Kingdom_of_Great_Britain)", 
+      0.3665
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Arkansas)", 
+      0.4286
+    ], 
+    [
+      "Ship[shipBeam]", 
+      0.436
+    ], 
+    [
+      "MeanOfTransportation[shipBeam]", 
+      0.436
+    ], 
+    [
+      "Settlement[populationDensity]>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Chaudi%C3%A8re-Appalaches)", 
+      0.4625
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|California)>(isPartOf|Yolo_County,_California)", 
+      0.4662
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Yolo_County,_California)>(country|United_States)", 
+      0.4672
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Illinois)", 
+      0.4711
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Yolo_County,_California)", 
+      0.4748
+    ], 
+    [
+      "Ship[shipBeam]>(country|Kingdom_of_Great_Britain)>(class|Fourth-rate)", 
+      0.476
+    ]
+  ], 
+  "values": [
+    10.143473103485562, 
+    12.760130979357266
+  ]
+}

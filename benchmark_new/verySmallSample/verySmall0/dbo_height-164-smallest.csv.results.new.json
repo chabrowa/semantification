@@ -1,0 +1,157 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/height"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "minimumElevation", 
+          0.2241
+        ], 
+        [
+          "elevation", 
+          0.2333
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          6.0
+        ], 
+        [
+          "minimumElevation", 
+          4.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.216
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.2241
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.2241
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.2241
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.2241
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2314
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2314
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2375
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.243
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          13.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[elevation]>(country|Republic_of_Ireland)>(isPartOf|Connacht)", 
+      0.2131
+    ], 
+    [
+      "Village[elevation]>(country|Republic_of_Ireland)", 
+      0.2202
+    ], 
+    [
+      "Location[minimumElevation]>(department|Manche)>(arrondissement|Arrondissement_of_Saint-L%C3%B4)", 
+      0.224
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Manche)>(arrondissement|Arrondissement_of_Saint-L%C3%B4)", 
+      0.224
+    ], 
+    [
+      "Location[minimumElevation]>(department|Pas-de-Calais)", 
+      0.2243
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Pas-de-Calais)", 
+      0.2243
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|California)>(isPartOf|Humboldt_County,_California)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.2391
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|California)>(isPartOf|Humboldt_County,_California)", 
+      0.2401
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Alameda_County,_California)", 
+      0.243
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Pas-de-Calais)>(arrondissement|Arrondissement_of_Saint-Omer)", 
+      0.2443
+    ]
+  ], 
+  "values": [
+    54.864, 
+    4.38, 
+    180.0, 
+    3.048, 
+    68.2, 
+    63.7
+  ]
+}

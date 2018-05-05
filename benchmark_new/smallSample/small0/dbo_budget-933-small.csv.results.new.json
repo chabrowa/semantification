@@ -1,0 +1,179 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/budget"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "budget", 
+          0.073
+        ], 
+        [
+          "areaTotal", 
+          0.1036
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          8.0
+        ], 
+        [
+          "budget", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Film (budget)", 
+          0.073
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (budget)", 
+          0.073
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (budget)", 
+          0.073
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.1029
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1029
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.1029
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.1041
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          19.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (budget)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (budget)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Wikidata:Q11424[budget]>(distributor|Walt_Disney_Studios_Motion_Pictures)", 
+      0.073
+    ], 
+    [
+      "Film[budget]>(distributor|Walt_Disney_Studios_Motion_Pictures)", 
+      0.073
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Tarragona)>(type|Municipalities_of_Spain)", 
+      0.098
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Spain)>(isPartOf|Province_of_Tarragona)>(type|Municipalities_of_Spain)", 
+      0.098
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(region|Calabria)", 
+      0.1027
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Tarragona)", 
+      0.105
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Spain)>(isPartOf|Province_of_Tarragona)", 
+      0.105
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Tarragona)>(type|Municipalities_of_Spain)>(timeZone|Central_European_Time)", 
+      0.1056
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Spain)>(isPartOf|Province_of_Tarragona)>(type|Municipalities_of_Spain)>(timeZone|Central_European_Time)", 
+      0.1056
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(region|Sardinia)>(province|Province_of_Oristano)", 
+      0.1086
+    ]
+  ], 
+  "values": [
+    53530438.0, 
+    25100000.0, 
+    61300000.0, 
+    23583000.0, 
+    41500000.0, 
+    1000000.0, 
+    12425809.0, 
+    400381000.0, 
+    11234000.0, 
+    11529307.0, 
+    12874635.0, 
+    30351798.0, 
+    20000000.0, 
+    23800000.0, 
+    20500000.0, 
+    16429171.0, 
+    24720615.0, 
+    2200.0, 
+    8.5, 
+    34216821.0, 
+    53000000.0, 
+    48828593.0, 
+    152000000.0, 
+    68000000.0, 
+    82900000.0, 
+    84200000.0, 
+    255000000.0, 
+    33474270.0, 
+    19330000.0, 
+    90000000.0, 
+    15247761.0, 
+    17400000.0, 
+    9440000.0, 
+    13271.341, 
+    21283515.0, 
+    41928853.0, 
+    46120422.0, 
+    9901123.0, 
+    23343000.0, 
+    17700000.0, 
+    41627629.0, 
+    58117123.0, 
+    11044598000.0, 
+    31227000.0
+  ]
+}

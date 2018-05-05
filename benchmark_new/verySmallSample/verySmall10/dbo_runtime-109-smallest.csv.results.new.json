@@ -1,0 +1,251 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "runtime", 
+          0.0948
+        ], 
+        [
+          "elevation", 
+          0.1192
+        ]
+      ], 
+      "maj": [
+        [
+          "runtime", 
+          6.0
+        ], 
+        [
+          "elevation", 
+          4.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Single (runtime)", 
+          0.0899
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          0.0948
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          0.0948
+        ], 
+        [
+          "http://dbpedia.org/ontology/Song (runtime)", 
+          0.1042
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.1175
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1189
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1189
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.12
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.12
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Single (runtime)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Song (runtime)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Single[runtime]>(genre|Indie_rock)", 
+      0.0581
+    ], 
+    [
+      "Single[runtime]>(genre|Indie_rock)>(format|Compact_disc)", 
+      0.0821
+    ], 
+    [
+      "Song[runtime]>(writer|David_Bowie)", 
+      0.0994
+    ], 
+    [
+      "Single[runtime]>(genre|Indie_rock)>(format|Compact_disc)>(format|Gramophone_record)", 
+      0.1048
+    ], 
+    [
+      "Song[runtime]>(writer|David_Bowie)>(artist|David_Bowie)", 
+      0.1074
+    ], 
+    [
+      "Town[elevation]>(governmentType|Indiana_Township_Trustee)>(type|Civil_township)", 
+      0.117
+    ], 
+    [
+      "Single[runtime]", 
+      0.1171
+    ], 
+    [
+      "Town[elevation]>(governmentType|Indiana_Township_Trustee)", 
+      0.1182
+    ], 
+    [
+      "Location[elevation]>(isPartOf|Indiana)", 
+      0.12
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Meuse)", 
+      0.1216
+    ]
+  ], 
+  "values": [
+    204.94924028193793, 
+    222.52823855069389, 
+    161.1885101894425, 
+    189.94202760895112, 
+    202.56947959033135, 
+    289.99708824454365, 
+    167.95729292808747, 
+    200.21063868997427, 
+    319.6141093205603, 
+    987.6545729860259, 
+    220.1317796568222, 
+    208.84866565684493, 
+    208.10744079385125, 
+    244.6761261397781, 
+    185.03651152710208, 
+    181.86773736906832, 
+    235.60269172533222, 
+    218.1804953595096, 
+    214.90681095410562, 
+    212.72552854798826, 
+    218.39028214860033, 
+    337.576702447856, 
+    7.276503260904036, 
+    217.00674907853085, 
+    170.05257185543442, 
+    234.80258792724334, 
+    221.39936717945727, 
+    256.41285382598574, 
+    223.2749463057558, 
+    460.8843985048327, 
+    216.2118459872171, 
+    263.793846504989, 
+    229.17463489259006, 
+    201.78881988182755, 
+    563.3043501202511, 
+    307.2093642207453, 
+    198.65182073545563, 
+    245.94955188902813, 
+    2124.441167732077, 
+    213.6828041659026, 
+    203.6098486944976, 
+    318.90363391814515, 
+    246.59723963747504, 
+    76.30647587046379, 
+    263.5411757197705, 
+    196.54825538831568, 
+    211.7871876964187, 
+    202.1654787069848, 
+    194.13447959578576, 
+    418.0102902849722, 
+    273.07676950970455, 
+    210.44082837347898, 
+    273.1721784172413, 
+    304.4375973027497, 
+    256.04368763184306, 
+    167.25321152808556, 
+    331.7912612364853, 
+    284.306127679544, 
+    228.99323247684345, 
+    303.9542770449997, 
+    216.60916927790902, 
+    310.407953000082, 
+    151.49660806008683, 
+    211.2930816900971, 
+    232.82145739129487, 
+    257.34535267091167, 
+    400.5104549661842, 
+    373.71094619382734, 
+    181.752590069339, 
+    137.60578744309302, 
+    214.46739945045962, 
+    183.19931201600699, 
+    153.1440004136384, 
+    193.72201438724164, 
+    243.7498307649509, 
+    261.9364094645721, 
+    239.51138345192692, 
+    1266.4871961465224, 
+    274.70403283463486, 
+    362.5355709161596, 
+    208.20923439128714, 
+    262.88448124830524, 
+    197.6946419509017, 
+    290.3835138966916, 
+    212.78457867025045, 
+    177.9387215600892, 
+    211.81476843678126, 
+    116.16276455365929, 
+    207.25893146255567, 
+    243.33324407574463, 
+    201.8053578140909, 
+    292.1331999881992, 
+    235.48738602404816, 
+    208.90747714968904, 
+    227.950289035725, 
+    200.02719480807679, 
+    178.10776822225066, 
+    154.2390728585282, 
+    69.85518172282181, 
+    226.84290441521281
+  ]
+}

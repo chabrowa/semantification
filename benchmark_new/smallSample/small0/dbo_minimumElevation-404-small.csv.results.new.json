@@ -1,0 +1,230 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/minimumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "minimumElevation", 
+          0.1592
+        ], 
+        [
+          "populationDensity", 
+          0.2308
+        ], 
+        [
+          "elevation", 
+          0.236
+        ]
+      ], 
+      "maj": [
+        [
+          "minimumElevation", 
+          7.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.1301
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (minimumElevation)", 
+          0.132
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (minimumElevation)", 
+          0.1331
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.164
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.164
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.1734
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (minimumElevation)", 
+          0.1734
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2308
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.2329
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.236
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.236
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.236
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.2392
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (minimumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[minimumElevation]>(country|Greece)", 
+      0.1301
+    ], 
+    [
+      "AdministrativeRegion[minimumElevation]>(country|Greece)", 
+      0.1309
+    ], 
+    [
+      "AdministrativeRegion[minimumElevation]", 
+      0.1341
+    ], 
+    [
+      "Region[minimumElevation]", 
+      0.1341
+    ], 
+    [
+      "City[minimumElevation]", 
+      0.1734
+    ], 
+    [
+      "City[minimumElevation]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1734
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Nebraska)", 
+      0.2308
+    ], 
+    [
+      "Town[elevation]>(country|India)>(isPartOf|Odisha)", 
+      0.2329
+    ], 
+    [
+      "PopulatedPlace[minimumElevation]", 
+      0.2382
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Tr%C3%B8ndelag)>(isPartOf|S%C3%B8r-Tr%C3%B8ndelag)", 
+      0.2392
+    ]
+  ], 
+  "values": [
+    555.0, 
+    55.0, 
+    35.0, 
+    550.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    695.0, 
+    65.0, 
+    630.0, 
+    217.0, 
+    65.0, 
+    0.0, 
+    0.0, 
+    1.0, 
+    0.0, 
+    265.0, 
+    180.0, 
+    70.0, 
+    85.0, 
+    0.0, 
+    40.0, 
+    1350.0, 
+    45.0, 
+    70.0, 
+    70.0, 
+    665.0, 
+    430.0, 
+    1000.0, 
+    30.0, 
+    85.0, 
+    465.0, 
+    536.0, 
+    0.0, 
+    1.0, 
+    295.0, 
+    565.0, 
+    0.0, 
+    300.0
+  ]
+}

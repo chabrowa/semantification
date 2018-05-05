@@ -1,0 +1,199 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/oclc"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.192
+        ], 
+        [
+          "areaLand", 
+          0.1921
+        ], 
+        [
+          "oclc", 
+          0.2108
+        ]
+      ], 
+      "maj": [
+        [
+          "areaLand", 
+          5.0
+        ], 
+        [
+          "areaTotal", 
+          4.0
+        ], 
+        [
+          "oclc", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          0.1696
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.1753
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.1866
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.1866
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.1899
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.1899
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.1923
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          0.1932
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.2083
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaLand)", 
+          0.2094
+        ], 
+        [
+          "http://dbpedia.org/ontology/Book (oclc)", 
+          0.2108
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          0.2108
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          0.2108
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaLand)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Book (oclc)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[areaLand]>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Mont%C3%A9r%C3%A9gie)", 
+      0.1535
+    ], 
+    [
+      "Town[areaTotal]>(isPartOf|Massachusetts)", 
+      0.1696
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Canada)>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Mont%C3%A9r%C3%A9gie)", 
+      0.182
+    ], 
+    [
+      "Location[areaLand]>(country|Canada)>(type|Types_of_municipalities_in_Quebec)>(isPartOf|Mont%C3%A9r%C3%A9gie)", 
+      0.1888
+    ], 
+    [
+      "Location[areaLand]>(type|Township_(Pennsylvania))", 
+      0.202
+    ], 
+    [
+      "Town[areaLand]>(type|Township_(Pennsylvania))", 
+      0.202
+    ], 
+    [
+      "Location[areaTotal]>(country|Poland)>(type|Gmina)>(isPartOf|Silesian_Voivodeship)", 
+      0.2083
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Poland)>(type|Gmina)>(isPartOf|Silesian_Voivodeship)", 
+      0.2083
+    ], 
+    [
+      "Book[oclc]>(publisher|HarperCollins)>(literaryGenre|Young-adult_fiction)", 
+      0.2108
+    ], 
+    [
+      "Town[areaLand]>(isPartOf|Massachusetts)>(isPartOf|Worcester_County,_Massachusetts)", 
+      0.2143
+    ]
+  ], 
+  "values": [
+    2983706.0, 
+    78893335.0, 
+    42291109.0, 
+    70718171.0, 
+    51150692.0, 
+    60303934.0, 
+    64021233.0, 
+    173683787.0
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/serviceEndYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "activeYearsEndYear", 
+          0.3147
+        ], 
+        [
+          "openingYear", 
+          0.3148
+        ], 
+        [
+          "foundingYear", 
+          0.3148
+        ], 
+        [
+          "yearOfConstruction", 
+          0.3148
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          4.0
+        ], 
+        [
+          "yearOfConstruction", 
+          3.0
+        ], 
+        [
+          "foundingYear", 
+          2.0
+        ], 
+        [
+          "activeYearsEndYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          0.3147
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          0.3147
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (yearOfConstruction)", 
+          0.3148
+        ], 
+        [
+          "http://dbpedia.org/ontology/Theatre (openingYear)", 
+          0.3148
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (yearOfConstruction)", 
+          0.3148
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.3148
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.3148
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.3148
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          0.3148
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (yearOfConstruction)", 
+          0.3148
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          0.3148
+        ], 
+        [
+          "http://dbpedia.org/ontology/Hospital (openingYear)", 
+          0.3148
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.3148
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (yearOfConstruction)", 
+          0.3148
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.3148
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (openingYear)", 
+          0.3148
+        ], 
+        [
+          "http://dbpedia.org/ontology/Venue (openingYear)", 
+          0.3148
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.3148
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bank (foundingYear)", 
+          0.3148
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Bank (foundingYear)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (yearOfConstruction)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (yearOfConstruction)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (yearOfConstruction)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (yearOfConstruction)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Theatre (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Hospital (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsEndYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Venue (openingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Person[activeYearsEndYear]", 
+      0.3147
+    ], 
+    [
+      "RouteOfTransportation[yearOfConstruction]", 
+      0.3148
+    ], 
+    [
+      "Infrastructure[yearOfConstruction]", 
+      0.3148
+    ], 
+    [
+      "RouteOfTransportation[yearOfConstruction]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3148
+    ], 
+    [
+      "Hospital[openingYear]", 
+      0.3148
+    ], 
+    [
+      "Building[openingYear]", 
+      0.3148
+    ], 
+    [
+      "Bridge[openingYear]>(type|Arch_bridge)", 
+      0.3148
+    ], 
+    [
+      "Theatre[openingYear]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3148
+    ], 
+    [
+      "Bank[foundingYear]>(product|Investment_management)", 
+      0.3148
+    ], 
+    [
+      "Bank[foundingYear]>(product|Investment_management)>(product|Investment_banking)>(industry|Financial_services)", 
+      0.3148
+    ]
+  ], 
+  "values": [
+    1924.0, 
+    1893.0, 
+    2095.0, 
+    1790.0, 
+    1810.0, 
+    2097.0, 
+    26.0, 
+    1797.0, 
+    2153.0, 
+    1878.0, 
+    1648.0, 
+    1815.0, 
+    1971.0, 
+    1814.0, 
+    1792.0, 
+    2040.0, 
+    2096.0, 
+    1936.0, 
+    2115.0, 
+    1974.0, 
+    2067.0, 
+    1866.0, 
+    1702.0, 
+    1903.0, 
+    2005.0, 
+    1995.0, 
+    1814.0, 
+    1784.0, 
+    2115.0, 
+    1973.0, 
+    1853.0, 
+    2074.0, 
+    2051.0, 
+    2046.0, 
+    2019.0, 
+    1702.0, 
+    1927.0, 
+    2227.0, 
+    1751.0, 
+    1784.0, 
+    2131.0, 
+    1670.0, 
+    1778.0, 
+    1873.0, 
+    1986.0, 
+    2024.0, 
+    1841.0, 
+    2201.0, 
+    1759.0, 
+    1769.0, 
+    1874.0, 
+    2129.0, 
+    1812.0, 
+    1971.0
+  ]
+}

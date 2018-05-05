@@ -1,0 +1,325 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/minimumElevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.095
+        ], 
+        [
+          "populationDensity", 
+          0.0986
+        ], 
+        [
+          "numberOfStudents", 
+          0.1028
+        ], 
+        [
+          "maximumElevation", 
+          0.1047
+        ], 
+        [
+          "elevation", 
+          0.1127
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          3.0
+        ], 
+        [
+          "numberOfStudents", 
+          2.0
+        ], 
+        [
+          "maximumElevation", 
+          2.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.0935
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.0954
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0957
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0957
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.0959
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.0959
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.0959
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.0959
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1013
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.1028
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.1028
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.1028
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.1047
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          0.1056
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (maximumElevation)", 
+          0.1057
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.1127
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1127
+        ], 
+        [
+          "http://dbpedia.org/ontology/MountainRange (elevation)", 
+          0.1127
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ProtectedArea (maximumElevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MountainRange (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationTotal]>(country|Poland)>(type|Village)>(isPartOf|Lesser_Poland_Voivodeship)", 
+      0.0935
+    ], 
+    [
+      "School[numberOfStudents]", 
+      0.0944
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Razavi_Khorasan_Province)>(isPartOf|Kashmar_County)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0954
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|New_Jersey)", 
+      0.0959
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Germany)>(district|Trier-Saarburg)", 
+      0.096
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|New_Jersey)", 
+      0.1013
+    ], 
+    [
+      "ProtectedArea[maximumElevation]", 
+      0.1018
+    ], 
+    [
+      "ProtectedArea[maximumElevation]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1077
+    ], 
+    [
+      "School[numberOfStudents]>(state|Pennsylvania)", 
+      0.1111
+    ], 
+    [
+      "MountainRange[elevation]>(state|California)", 
+      0.1127
+    ]
+  ], 
+  "values": [
+    1118.0980016377384, 
+    1459.4045997795645, 
+    343.221287619848, 
+    1268.2738038294713, 
+    1771.242047714813, 
+    162.07787308640692, 
+    1159.6524747552066, 
+    1906.7656182174194, 
+    2418.8511439167355, 
+    768.9280562871816, 
+    1190.4802927253975, 
+    286.5026745733677, 
+    557.1848232593002, 
+    235.3095992218319, 
+    1117.9253780769677, 
+    1672.9062235997544, 
+    1462.107559896621, 
+    2358.6055079964585, 
+    1777.3432239943768, 
+    844.9406877973479, 
+    239.31793526446938, 
+    85.12241606844155, 
+    204.03783929262994, 
+    229.118015745391, 
+    496.3488721501108, 
+    289.0508302913426, 
+    258.3069539301808, 
+    77.01135246604844, 
+    2348.952804924562, 
+    969.5823648612127, 
+    164.47261223802766, 
+    1305.797213296344, 
+    300.16381450283467, 
+    2373.772921493649, 
+    1212.6015535264626, 
+    962.9952280179409, 
+    425.0105663245878, 
+    2404.572854542052, 
+    711.4287099632709, 
+    337.44611168012204, 
+    1863.5916322844805, 
+    784.6904522507659, 
+    431.88436850463063, 
+    344.8008017935566, 
+    896.6084264201932, 
+    868.9070973101663, 
+    1221.9567480224764, 
+    1793.6886516443326, 
+    720.2138418700671, 
+    1914.3335971552879, 
+    1334.0156655065969, 
+    174.11039793756348, 
+    2468.1312327595724, 
+    1199.7003051899774, 
+    1939.0537241991733, 
+    1337.6292729586653, 
+    3145.9717736007096, 
+    1338.7651729850575, 
+    10342.577035687895, 
+    1505.8265671373877, 
+    291.18624845086947, 
+    69.40715255318582, 
+    727.3714090498434, 
+    755.4108878966146, 
+    2368.488370067661, 
+    1393.3681935658083, 
+    1226.6660696825454, 
+    672.3407614199105, 
+    2564.5526556262525, 
+    210.36824442631894, 
+    1073.8510137048945, 
+    728.1856852265435, 
+    321.0095149832268, 
+    252.25549784709708, 
+    771.247564944832, 
+    72.89263562237234, 
+    756.8324874729967, 
+    601.9720429689046
+  ]
+}

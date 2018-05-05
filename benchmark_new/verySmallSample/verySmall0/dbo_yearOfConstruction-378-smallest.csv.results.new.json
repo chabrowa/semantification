@@ -1,0 +1,203 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/yearOfConstruction"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "openingYear", 
+          0.3318
+        ], 
+        [
+          "deathYear", 
+          0.35
+        ], 
+        [
+          "foundingYear", 
+          0.3908
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          6.0
+        ], 
+        [
+          "foundingYear", 
+          3.0
+        ], 
+        [
+          "deathYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.3243
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.3243
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.3243
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          0.3273
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          0.3453
+        ], 
+        [
+          "http://dbpedia.org/ontology/RugbyClub (foundingYear)", 
+          0.3494
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (foundingYear)", 
+          0.3494
+        ], 
+        [
+          "http://dbpedia.org/ontology/Philosopher (deathYear)", 
+          0.35
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          0.35
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          0.35
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.3908
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.3908
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          0.4115
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          0.4117
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (foundingYear)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Philosopher (deathYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RugbyClub (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (foundingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Station[openingYear]>(owner|VicTrack)", 
+      0.3
+    ], 
+    [
+      "Station[openingYear]>(owner|VicTrack)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3036
+    ], 
+    [
+      "Station[openingYear]>(country|United_Kingdom)>(district|Glasgow)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3364
+    ], 
+    [
+      "Location[openingYear]>(country|United_Kingdom)>(district|Glasgow)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3364
+    ], 
+    [
+      "RugbyClub[foundingYear]>(location|Wales)", 
+      0.3494
+    ], 
+    [
+      "Philosopher[deathYear]>(era|19th-century_philosophy)", 
+      0.35
+    ], 
+    [
+      "Station[openingYear]>(country|United_Kingdom)>(district|Glasgow)", 
+      0.3571
+    ], 
+    [
+      "Location[openingYear]>(country|United_Kingdom)>(district|Glasgow)", 
+      0.3571
+    ], 
+    [
+      "School[foundingYear]>(type|Academy_(English_school))>(type|Grammar_school)", 
+      0.4096
+    ], 
+    [
+      "School[foundingYear]>(type|Academy_(English_school))>(type|Grammar_school)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.4133
+    ]
+  ], 
+  "values": [
+    1885.0, 
+    1904.0, 
+    1905.0, 
+    1879.0
+  ]
+}

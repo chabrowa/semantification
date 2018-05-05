@@ -1,0 +1,291 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/yearOfConstruction"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "yearOfConstruction", 
+          0.0897
+        ], 
+        [
+          "openingYear", 
+          0.2034
+        ], 
+        [
+          "deathYear", 
+          0.2075
+        ]
+      ], 
+      "maj": [
+        [
+          "yearOfConstruction", 
+          6.0
+        ], 
+        [
+          "openingYear", 
+          3.0
+        ], 
+        [
+          "deathYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (yearOfConstruction)", 
+          0.0738
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (yearOfConstruction)", 
+          0.0745
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (yearOfConstruction)", 
+          0.0746
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (yearOfConstruction)", 
+          0.0929
+        ], 
+        [
+          "http://dbpedia.org/ontology/HistoricPlace (yearOfConstruction)", 
+          0.1328
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          0.1954
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.2074
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.2074
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.2074
+        ], 
+        [
+          "http://dbpedia.org/ontology/Philosopher (deathYear)", 
+          0.2075
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          0.2075
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          0.2075
+        ], 
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          0.21
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Station (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (yearOfConstruction)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/HistoricPlace (yearOfConstruction)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Philosopher (deathYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (yearOfConstruction)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (yearOfConstruction)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Building (yearOfConstruction)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (deathYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (deathYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[yearOfConstruction]", 
+      0.0738
+    ], 
+    [
+      "Place[yearOfConstruction]", 
+      0.0738
+    ], 
+    [
+      "ArchitecturalStructure[yearOfConstruction]", 
+      0.0744
+    ], 
+    [
+      "Building[yearOfConstruction]", 
+      0.0746
+    ], 
+    [
+      "HistoricPlace[yearOfConstruction]", 
+      0.0853
+    ], 
+    [
+      "HistoricPlace[yearOfConstruction]>(location|Baltimore)", 
+      0.1565
+    ], 
+    [
+      "Station[openingYear]>(country|Germany)", 
+      0.1942
+    ], 
+    [
+      "Location[openingYear]>(location|Germany)", 
+      0.1954
+    ], 
+    [
+      "Philosopher[deathYear]>(era|19th-century_philosophy)", 
+      0.2075
+    ], 
+    [
+      "Station[openingYear]>(country|United_Kingdom)>(operatedBy|Arriva_Trains_Wales)", 
+      0.2206
+    ]
+  ], 
+  "values": [
+    1917.0, 
+    1834.0, 
+    1788.0, 
+    1902.0, 
+    1928.0, 
+    1848.0, 
+    1884.0, 
+    1889.0, 
+    1843.0, 
+    1921.0, 
+    1860.0, 
+    1838.0, 
+    1929.0, 
+    1903.0, 
+    1821.0, 
+    1898.0, 
+    1916.0, 
+    1841.0, 
+    1846.0, 
+    1909.0, 
+    1802.0, 
+    1939.0, 
+    1908.0, 
+    1793.0, 
+    1873.0, 
+    1812.0, 
+    1925.0, 
+    1750.0, 
+    1834.0, 
+    1916.0, 
+    1790.0, 
+    1850.0, 
+    1897.0, 
+    1934.0, 
+    1892.0, 
+    1909.0, 
+    1830.0, 
+    1839.0, 
+    1861.0, 
+    1914.0, 
+    1917.0, 
+    1808.0, 
+    1870.0, 
+    1926.0, 
+    1839.0, 
+    1849.0, 
+    1855.0, 
+    1734.0, 
+    1887.0, 
+    1918.0, 
+    1927.0, 
+    1916.0, 
+    1873.0, 
+    1941.0, 
+    1909.0, 
+    1851.0, 
+    1911.0, 
+    1924.0, 
+    1812.0, 
+    1809.0, 
+    1936.0, 
+    1868.0, 
+    1913.0, 
+    1907.0, 
+    1855.0, 
+    1909.0, 
+    1901.0, 
+    1894.0, 
+    1830.0, 
+    1929.0, 
+    1847.0, 
+    1901.0, 
+    1893.0, 
+    1923.0, 
+    1938.0, 
+    1795.0, 
+    1892.0, 
+    1895.0, 
+    1923.0, 
+    1848.0, 
+    1858.0, 
+    1857.0, 
+    1919.0, 
+    1870.0, 
+    1886.0, 
+    1853.0, 
+    1850.0, 
+    1842.0, 
+    1893.0, 
+    1886.0, 
+    1912.0, 
+    1890.0, 
+    1858.0, 
+    1902.0, 
+    1921.0, 
+    1931.0, 
+    1860.0, 
+    1820.0, 
+    1908.0, 
+    1925.0
+  ]
+}

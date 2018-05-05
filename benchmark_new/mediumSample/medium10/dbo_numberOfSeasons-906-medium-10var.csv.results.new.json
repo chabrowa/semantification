@@ -1,0 +1,218 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfSeasons"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "area", 
+          0.1979
+        ], 
+        [
+          "numberOfSeasons", 
+          0.2407
+        ], 
+        [
+          "populationDensity", 
+          0.3633
+        ]
+      ], 
+      "maj": [
+        [
+          "numberOfSeasons", 
+          7.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ], 
+        [
+          "area", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          0.1979
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (area)", 
+          0.1979
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          0.1979
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (area)", 
+          0.1979
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          0.2407
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          0.2479
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.3633
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.3633
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.3633
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.3633
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.3633
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          17.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (area)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (area)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "TelevisionShow[numberOfSeasons]>(language|Hindi)>(format|480i)", 
+      0.1787
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]>(language|Hindi)>(format|480i)>(country|India)", 
+      0.1848
+    ], 
+    [
+      "Village[area]", 
+      0.1979
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]>(language|Hindi)", 
+      0.2221
+    ], 
+    [
+      "Work[numberOfSeasons]", 
+      0.2253
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]", 
+      0.2253
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]>(language|Hindi)>(format|720p)>(country|India)", 
+      0.3229
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]>(language|Hindi)>(format|720p)", 
+      0.3259
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Minnesota)>(type|Township_(United_States))>(isPartOf|Polk_County,_Minnesota)", 
+      0.3633
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Minnesota)>(isPartOf|Polk_County,_Minnesota)", 
+      0.3633
+    ]
+  ], 
+  "values": [
+    1.0, 
+    1.0, 
+    1.0, 
+    2.0, 
+    2.0, 
+    2.0, 
+    1.0, 
+    1.0, 
+    2.0, 
+    1.0, 
+    6.0, 
+    5.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    2.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    10.0, 
+    4.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    2.0, 
+    1.0, 
+    1.0, 
+    2.0, 
+    2.0, 
+    1.0, 
+    2.0, 
+    2.0, 
+    2.0, 
+    1.0, 
+    1.0, 
+    25.0, 
+    2.0, 
+    1.0
+  ]
+}

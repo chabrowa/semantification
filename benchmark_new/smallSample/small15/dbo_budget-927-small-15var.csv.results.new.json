@@ -1,0 +1,236 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/budget"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "area", 
+          0.0971
+        ], 
+        [
+          "areaTotal", 
+          0.113
+        ], 
+        [
+          "areaLand", 
+          0.117
+        ], 
+        [
+          "budget", 
+          0.12
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          6.0
+        ], 
+        [
+          "area", 
+          2.0
+        ], 
+        [
+          "budget", 
+          1.0
+        ], 
+        [
+          "areaLand", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          0.0971
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (area)", 
+          0.0971
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          0.0971
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.1111
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          0.117
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.117
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.117
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.117
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.119
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.119
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.119
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (budget)", 
+          0.12
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          19.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (area)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (budget)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[area]>(region|Centre_(French_region))>(arrondissement|Arrondissement_of_Orl%C3%A9ans)", 
+      0.0889
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(region|Calabria)>(province|Province_of_Reggio_Calabria)", 
+      0.0896
+    ], 
+    [
+      "Settlement[area]>(region|Languedoc-Roussillon)>(department|Loz%C3%A8re)", 
+      0.1053
+    ], 
+    [
+      "Location[areaTotal]>(country|Spain)>(isPartOf|Province_of_Burgos)>(type|Municipalities_of_Spain)>(timeZone|Central_European_Time)", 
+      0.1142
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(region|Latium)>(province|Province_of_Rieti)", 
+      0.1163
+    ], 
+    [
+      "City[areaLand]>(isPartOf|Mississippi)", 
+      0.117
+    ], 
+    [
+      "Location[areaTotal]>(type|Municipalities_of_Switzerland)>(canton|Valais)", 
+      0.119
+    ], 
+    [
+      "Settlement[areaTotal]>(type|Municipalities_of_Switzerland)>(canton|Valais)", 
+      0.119
+    ], 
+    [
+      "Location[areaTotal]>(country|Italy)>(region|Marche)", 
+      0.1195
+    ], 
+    [
+      "Wikidata:Q11424[budget]>(distributor|Walt_Disney_Studios_Motion_Pictures)>(country|United_States)", 
+      0.12
+    ]
+  ], 
+  "values": [
+    10216950.969208578, 
+    45586595.284384385, 
+    30052090.57154716, 
+    23143706.796390854, 
+    2203497.000588239, 
+    14958499.383808456, 
+    14631839.854091754, 
+    45690761.98097102, 
+    34703347.95341716, 
+    50112126.5330942, 
+    34803623.9363267, 
+    51496487.477849014, 
+    35066089.00637451, 
+    9525779.755281067, 
+    24374876.251587313, 
+    13007811.200630346, 
+    36636525.94503979, 
+    17424940.169891175, 
+    20801193.01390849, 
+    15603057.322004639, 
+    30012753.15544951, 
+    35778900.878876284, 
+    16815117.201524124, 
+    49445718.37613929, 
+    21314492.389097165, 
+    26468262.604706824, 
+    25687887.160774898, 
+    25242077.743868575, 
+    134134590.13216631, 
+    39782843.98176672, 
+    34539112.31829878, 
+    19176299.51829297, 
+    11030077.09619969, 
+    8165480.827138393, 
+    70576489.85133786, 
+    60159269.18085447, 
+    33754624.53940811, 
+    14720.948138058755, 
+    14634.696780191507, 
+    17293313.845424008, 
+    38512479.59498742, 
+    13962949.448267572, 
+    10797348.083107412, 
+    115501829.90053162, 
+    12546510.84092974
+  ]
+}

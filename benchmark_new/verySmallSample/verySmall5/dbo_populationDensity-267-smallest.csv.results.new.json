@@ -1,0 +1,260 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationDensity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationDensity", 
+          0.0814
+        ], 
+        [
+          "elevation", 
+          0.0852
+        ], 
+        [
+          "populationTotal", 
+          0.093
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          7.0
+        ], 
+        [
+          "populationTotal", 
+          2.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.0802
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.0814
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.0863
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.0863
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.0875
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.0884
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.093
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.093
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.093
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.093
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.093
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          14.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)", 
+      0.061
+    ], 
+    [
+      "Town[elevation]>(country|India)", 
+      0.0802
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Oklahoma)", 
+      0.0814
+    ], 
+    [
+      "Settlement[elevation]>(country|Spain)>(isPartOf|Province_of_Barcelona)", 
+      0.0888
+    ], 
+    [
+      "Settlement[elevation]>(country|Spain)>(isPartOf|Province_of_Tarragona)>(type|Municipalities_of_Spain)>(timeZone|Central_European_Time)", 
+      0.0898
+    ], 
+    [
+      "Location[elevation]>(country|Spain)>(isPartOf|Province_of_Tarragona)>(type|Municipalities_of_Spain)>(timeZone|Central_European_Time)", 
+      0.0898
+    ], 
+    [
+      "Location[populationTotal]>(isPartOf|Razavi_Khorasan_Province)>(isPartOf|Chenaran_Rural_District)", 
+      0.093
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|Razavi_Khorasan_Province)>(isPartOf|Chenaran_Rural_District)", 
+      0.093
+    ], 
+    [
+      "Location[elevation]>(country|Spain)>(isPartOf|Province_of_Barcelona)", 
+      0.0933
+    ], 
+    [
+      "Location[elevation]>(country|Spain)>(isPartOf|Province_of_Barcelona)>(type|Municipalities_of_Spain)", 
+      0.0936
+    ]
+  ], 
+  "values": [
+    264.27597916885946, 
+    251.7546537473609, 
+    26.269473210412084, 
+    98.3663471908318, 
+    1285.0095985694165, 
+    227.63858190478942, 
+    172.29546465464105, 
+    239.22673818795326, 
+    36.368865303994, 
+    493.92941335274793, 
+    193.05598089037295, 
+    447.2766626927804, 
+    27.379750791107806, 
+    1267.9875742431634, 
+    0.0, 
+    1037.7622640074535, 
+    673.4471747493801, 
+    69.72461352737966, 
+    446.0016226958261, 
+    654.4833736283774, 
+    200.34114699567726, 
+    214.22352605535355, 
+    19.906924749521508, 
+    489.52285682112495, 
+    481.41377457904986, 
+    438.27541909785276, 
+    29.782704820284224, 
+    918.8672042730523, 
+    439.69289817555875, 
+    81.42497682837566, 
+    467.90187539641465, 
+    319.96136180514435, 
+    390.67476023471596, 
+    161.7947463624746, 
+    52.978517470949264, 
+    719.9985584429718, 
+    399.076764079492, 
+    79.77729031393419, 
+    16.56479055577043, 
+    87.03551457582024, 
+    1552.5566988424246, 
+    178.4358338815444, 
+    230.9767870004612, 
+    20.264962729332034, 
+    92.8618997720569, 
+    287.75603774023494, 
+    254.0605676920312, 
+    234.53014357999592, 
+    71.78321933945767, 
+    123.80185847212978, 
+    27.468689324733337, 
+    650.6000638118401, 
+    217.24183634161855, 
+    1554.063948042435, 
+    148.9592708332345, 
+    37.223633948162124, 
+    66.5930275172276, 
+    456.97103111229626, 
+    303.0054316397538, 
+    23.50302090956322, 
+    208.31198957302036, 
+    10.0334460329035, 
+    36.49601032659272, 
+    28.7813946141296, 
+    80.44769796821683, 
+    783.0868366987195, 
+    12545.728272849274, 
+    20.45798873453679, 
+    550.252332376403, 
+    240.27668709303765, 
+    253.9017111472986, 
+    36.34714481842119, 
+    41.69897735400094, 
+    402.629252850111, 
+    256.7775812675534, 
+    143.95165749015635, 
+    312.2257119642355, 
+    3.8789008195358, 
+    193.90312695893553, 
+    14.43688310260944, 
+    128.30878932663046, 
+    38.52763096318412, 
+    4.866889111021696, 
+    12.149344013066221, 
+    215.41212640822775
+  ]
+}

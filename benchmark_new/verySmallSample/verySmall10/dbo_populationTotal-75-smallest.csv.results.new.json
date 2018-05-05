@@ -1,0 +1,211 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.0886
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          0.0806
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.0872
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.0878
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.0883
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.0903
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "City[populationTotal]>(isPartOf|Minnesota)", 
+      0.0806
+    ], 
+    [
+      "Settlement[populationTotal]", 
+      0.0824
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Spain)", 
+      0.0883
+    ], 
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(country|Leicestershire)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0901
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|Leicestershire)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0901
+    ], 
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(country|Leicestershire)", 
+      0.0903
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|Leicestershire)", 
+      0.0903
+    ], 
+    [
+      "PopulatedPlace[populationTotal]", 
+      0.0913
+    ], 
+    [
+      "Location[populationTotal]", 
+      0.0914
+    ], 
+    [
+      "Place[populationTotal]", 
+      0.0914
+    ]
+  ], 
+  "values": [
+    5202.0, 
+    93.0, 
+    24782.0, 
+    2095.0, 
+    3603.0, 
+    1003.0, 
+    1320.0, 
+    344.0, 
+    63.0, 
+    1674.0, 
+    199.0, 
+    990.0, 
+    513.0, 
+    132416.0, 
+    18024.0, 
+    168.0, 
+    76.0, 
+    1517.0, 
+    1169.0, 
+    7436.0, 
+    264.0, 
+    86.0, 
+    130165.0, 
+    2222.0, 
+    166.0, 
+    6255.0, 
+    91.0, 
+    191.0, 
+    1111.0, 
+    726657.0, 
+    1181.0, 
+    270.0, 
+    18229.0, 
+    80.0, 
+    7250.0, 
+    18038.0, 
+    5340.0, 
+    635.0, 
+    688.0, 
+    1500.0, 
+    111.0, 
+    70.0, 
+    306.0, 
+    7615.0, 
+    548.0, 
+    28.0, 
+    896.0, 
+    161.0, 
+    71.0, 
+    2079.0, 
+    339716.0, 
+    62158.0, 
+    164.0, 
+    3054.0, 
+    702.0, 
+    342.0, 
+    423.0, 
+    742.0, 
+    431938.0, 
+    1704.0, 
+    310.0, 
+    2011.0, 
+    2800.0, 
+    1526.0, 
+    30.0, 
+    1836.0, 
+    283.0, 
+    5910.0, 
+    516.0, 
+    49.0, 
+    131.0, 
+    5601.0, 
+    135.0, 
+    703.0, 
+    477.0, 
+    1543689210.0, 
+    176025.0, 
+    176.0, 
+    1976.0, 
+    652.0, 
+    363.0, 
+    16.0, 
+    219.0, 
+    1103.0, 
+    126.0, 
+    1895.0, 
+    47210.0, 
+    434.0, 
+    237.0, 
+    1241.0, 
+    11194.0, 
+    1257.0, 
+    946.0, 
+    99878.0, 
+    394.0, 
+    390.0, 
+    472.0, 
+    89.0, 
+    257.0, 
+    58.0
+  ]
+}

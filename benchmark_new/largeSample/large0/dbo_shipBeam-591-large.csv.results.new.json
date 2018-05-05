@@ -1,0 +1,294 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/shipBeam"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "number", 
+          0.2345
+        ], 
+        [
+          "shipBeam", 
+          0.2397
+        ], 
+        [
+          "width", 
+          0.2472
+        ], 
+        [
+          "elevation", 
+          0.2491
+        ], 
+        [
+          "populationDensity", 
+          0.2492
+        ]
+      ], 
+      "maj": [
+        [
+          "number", 
+          2.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ], 
+        [
+          "shipBeam", 
+          2.0
+        ], 
+        [
+          "width", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          0.2313
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          0.2345
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          0.2345
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          0.2345
+        ], 
+        [
+          "http://dbpedia.org/ontology/GridironFootballPlayer (number)", 
+          0.2376
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmericanFootballPlayer (number)", 
+          0.2376
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          0.2397
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          0.2397
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          0.2472
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          0.2472
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          0.2472
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          0.2483
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.2491
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.2491
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.2491
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.2492
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2492
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.2492
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.2492
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.2492
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (shipBeam)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AmericanFootballPlayer (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (number)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Ship (shipBeam)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/GridironFootballPlayer (number)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "BasketballPlayer[number]>(league|Eurocup_Basketball)", 
+      0.2313
+    ], 
+    [
+      "AmericanFootballPlayer[number]>(position|Quarterback)", 
+      0.2376
+    ], 
+    [
+      "Ship[shipBeam]", 
+      0.2397
+    ], 
+    [
+      "MeanOfTransportation[shipBeam]", 
+      0.2397
+    ], 
+    [
+      "Infrastructure[width]", 
+      0.2462
+    ], 
+    [
+      "RouteOfTransportation[width]", 
+      0.2483
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|New_York)>(isPartOf|Suffolk_County,_New_York)>(country|United_States)", 
+      0.249
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Maine)>(type|New_England_town)>(isPartOf|Penobscot_County,_Maine)", 
+      0.2492
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Maine)>(isPartOf|Penobscot_County,_Maine)>(type|New_England_town)", 
+      0.2492
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|New_York)>(isPartOf|Suffolk_County,_New_York)", 
+      0.2493
+    ]
+  ], 
+  "values": [
+    11.8, 
+    5.8, 
+    9.9, 
+    9.84, 
+    10.2, 
+    14.8, 
+    30.4, 
+    32.9794, 
+    9.75, 
+    10.15, 
+    6.5, 
+    28.0, 
+    9.1, 
+    26.0, 
+    18.2, 
+    12.0, 
+    12.2, 
+    14.6304, 
+    9.9, 
+    11.7, 
+    13.4112, 
+    10.15, 
+    13.7, 
+    22.5, 
+    12.4968, 
+    14.84, 
+    3.6, 
+    9.5, 
+    21.9456, 
+    10.8, 
+    10.0584
+  ]
+}

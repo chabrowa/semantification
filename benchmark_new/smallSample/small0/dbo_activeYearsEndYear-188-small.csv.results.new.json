@@ -1,0 +1,312 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/activeYearsEndYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "foundingYear", 
+          0.0811
+        ], 
+        [
+          "year", 
+          0.0836
+        ], 
+        [
+          "yearOfConstruction", 
+          0.0957
+        ], 
+        [
+          "formationYear", 
+          0.0977
+        ], 
+        [
+          "activeYearsStartYear", 
+          0.0986
+        ]
+      ], 
+      "maj": [
+        [
+          "formationYear", 
+          3.0
+        ], 
+        [
+          "yearOfConstruction", 
+          2.0
+        ], 
+        [
+          "foundingYear", 
+          2.0
+        ], 
+        [
+          "year", 
+          2.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/SportsLeague (foundingYear)", 
+          0.073
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballLeague (foundingYear)", 
+          0.073
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          0.0811
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          0.0811
+        ], 
+        [
+          "http://dbpedia.org/ontology/FootballLeagueSeason (year)", 
+          0.0836
+        ], 
+        [
+          "http://dbpedia.org/ontology/NationalFootballLeagueSeason (year)", 
+          0.0836
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeamSeason (year)", 
+          0.0836
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsSeason (year)", 
+          0.0836
+        ], 
+        [
+          "http://dbpedia.org/ontology/PoliticalParty (formationYear)", 
+          0.0888
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballTeam (foundingYear)", 
+          0.0892
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (foundingYear)", 
+          0.0892
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (formationYear)", 
+          0.0955
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (yearOfConstruction)", 
+          0.0957
+        ], 
+        [
+          "http://dbpedia.org/ontology/Train (yearOfConstruction)", 
+          0.0957
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (formationYear)", 
+          0.0977
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (activeYearsStartYear)", 
+          0.0986
+        ], 
+        [
+          "http://dbpedia.org/ontology/GaelicGamesPlayer (activeYearsStartYear)", 
+          0.0986
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.0986
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          0.0986
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Agent (formationYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/FootballLeagueSeason (year)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (yearOfConstruction)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeamSeason (year)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsSeason (year)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (formationYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (foundingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsLeague (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NationalFootballLeagueSeason (year)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballLeague (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Train (yearOfConstruction)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/GaelicGamesPlayer (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballTeam (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PoliticalParty (formationYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeam (foundingYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "BasketballLeague[foundingYear]", 
+      0.073
+    ], 
+    [
+      "FootballLeagueSeason[year]", 
+      0.0836
+    ], 
+    [
+      "NationalFootballLeagueSeason[year]", 
+      0.0836
+    ], 
+    [
+      "PoliticalParty[formationYear]", 
+      0.0888
+    ], 
+    [
+      "BasketballTeam[foundingYear]", 
+      0.0892
+    ], 
+    [
+      "MeanOfTransportation[yearOfConstruction]", 
+      0.0957
+    ], 
+    [
+      "Train[yearOfConstruction]", 
+      0.0957
+    ], 
+    [
+      "GaelicGamesPlayer[activeYearsStartYear]", 
+      0.0986
+    ], 
+    [
+      "Organisation[formationYear]", 
+      0.1022
+    ], 
+    [
+      "Agent[formationYear]", 
+      0.1022
+    ]
+  ], 
+  "values": [
+    1970.0, 
+    2007.0, 
+    1936.0, 
+    1996.0, 
+    1934.0, 
+    2014.0, 
+    1956.0, 
+    2004.0, 
+    1997.0, 
+    1955.0, 
+    1947.0, 
+    2004.0, 
+    1990.0, 
+    1988.0, 
+    1971.0, 
+    2009.0, 
+    1989.0, 
+    2013.0, 
+    1990.0, 
+    2009.0, 
+    1971.0, 
+    1995.0, 
+    1985.0, 
+    1966.0, 
+    2005.0, 
+    1929.0, 
+    1935.0, 
+    1984.0, 
+    1919.0, 
+    1967.0, 
+    2007.0, 
+    2001.0, 
+    1952.0, 
+    2005.0, 
+    1998.0, 
+    1994.0, 
+    2003.0, 
+    2009.0, 
+    1981.0, 
+    2003.0, 
+    1989.0, 
+    1988.0, 
+    1952.0, 
+    1947.0, 
+    1986.0, 
+    1934.0, 
+    2011.0, 
+    2004.0, 
+    2009.0, 
+    1995.0, 
+    1968.0, 
+    1970.0, 
+    2002.0, 
+    2012.0, 
+    1968.0, 
+    1970.0, 
+    1932.0
+  ]
+}

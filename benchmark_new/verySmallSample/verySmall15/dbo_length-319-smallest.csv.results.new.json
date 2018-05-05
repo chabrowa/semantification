@@ -1,0 +1,265 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/length"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "length", 
+          0.0983
+        ], 
+        [
+          "populationTotal", 
+          0.133
+        ], 
+        [
+          "areaWater", 
+          0.1782
+        ]
+      ], 
+      "maj": [
+        [
+          "length", 
+          6.0
+        ], 
+        [
+          "populationTotal", 
+          3.0
+        ], 
+        [
+          "areaWater", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          0.0847
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          0.0847
+        ], 
+        [
+          "http://dbpedia.org/ontology/Stream (length)", 
+          0.0847
+        ], 
+        [
+          "http://dbpedia.org/ontology/River (length)", 
+          0.0849
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          0.0983
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          0.1228
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.133
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.133
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1435
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          0.166
+        ], 
+        [
+          "http://dbpedia.org/ontology/Road (length)", 
+          0.166
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          0.166
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (length)", 
+          0.166
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.1782
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (populationTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/River (length)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (length)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (length)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (length)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Stream (length)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Road (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (length)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "River[length]>(state|California)", 
+      0.0715
+    ], 
+    [
+      "River[length]>(state|California)>(country|United_States)", 
+      0.0729
+    ], 
+    [
+      "Stream[length]", 
+      0.0804
+    ], 
+    [
+      "River[length]", 
+      0.0806
+    ], 
+    [
+      "River[length]>(state|Washington_(state))", 
+      0.1184
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|California)>(governmentType|Council%E2%80%93manager_government)>(country|United_States)", 
+      0.1204
+    ], 
+    [
+      "City[populationTotal]>(isPartOf|California)>(governmentType|Council%E2%80%93manager_government)>(country|United_States)>(timeZone|Pacific_Time_Zone)", 
+      0.1247
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Andhra_Pradesh)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1539
+    ], 
+    [
+      "Road[length]", 
+      0.166
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|New_Jersey)>(type|Census-designated_place)", 
+      0.1782
+    ]
+  ], 
+  "values": [
+    21458.951460991037, 
+    109190.02438373101, 
+    40526.77506748543, 
+    13159.487776424821, 
+    104550.07162635842, 
+    267293.7388333687, 
+    18227.3209699186, 
+    131872.33211261008, 
+    593289.8381702078, 
+    254276.34271951223, 
+    711025.5013117692, 
+    3285.41338148542, 
+    62851.75895453884, 
+    7779.49952806579, 
+    120389.0524454559, 
+    281699.38270670094, 
+    125523.51928055196, 
+    143610.92364569157, 
+    14305.879842748935, 
+    7082.2361916119635, 
+    28141.915251940503, 
+    13656.539072090634, 
+    141034.52443708113, 
+    54413.72524078255, 
+    96535.45183172071, 
+    49479.237278490335, 
+    5250.367035230361, 
+    76988.67428708331, 
+    74088.71850050887, 
+    275082.266643997, 
+    70450.54302770723, 
+    33452.30636187995, 
+    40033.81167944595, 
+    20610.34910479358, 
+    770392.3788721465, 
+    116791.61960029902, 
+    32019.98478334656, 
+    6603.530494695875, 
+    225024.46362320663, 
+    8126.576996721957, 
+    20398.116411549174, 
+    5668.799940621396, 
+    19274.35453548258, 
+    421357.7791021468, 
+    92505.63998336236, 
+    25433.65046765788, 
+    29786.80538954172, 
+    22755.325060022245, 
+    25020.486958027097, 
+    36828.952843544095, 
+    87986.80392622849, 
+    55472.58536249797, 
+    25882.4149183303, 
+    18438.971074621768, 
+    50801.16332625988, 
+    13378.917840469994, 
+    137186.88604049516, 
+    106992.03092165512, 
+    35385.29222075041, 
+    85282.19106001219, 
+    16524.02587261187, 
+    15645.972153736555, 
+    128903.18601758809, 
+    315175.50461694686, 
+    44576.05916115084, 
+    38538.787961751565
+  ]
+}

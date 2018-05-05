@@ -1,0 +1,251 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/elevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "minimumElevation", 
+          0.0667
+        ], 
+        [
+          "elevation", 
+          0.1027
+        ], 
+        [
+          "populationDensity", 
+          0.1081
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          7.0
+        ], 
+        [
+          "minimumElevation", 
+          2.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.0667
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.0667
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.0667
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.0667
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.1014
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1016
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.102
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.102
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1071
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.1074
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1081
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1081
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1081
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[minimumElevation]>(region|Languedoc-Roussillon)", 
+      0.0667
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Languedoc-Roussillon)", 
+      0.0667
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)", 
+      0.0865
+    ], 
+    [
+      "City[elevation]>(timeZone|Central_European_Time)", 
+      0.0953
+    ], 
+    [
+      "Settlement[elevation]>(country|India)", 
+      0.1054
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)", 
+      0.1071
+    ], 
+    [
+      "Town[elevation]>(country|India)", 
+      0.1074
+    ], 
+    [
+      "City[elevation]>(country|Canada)", 
+      0.1074
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Washington_(state))>(country|United_States)", 
+      0.1081
+    ], 
+    [
+      "Settlement[elevation]>(country|Spain)>(isPartOf|Province_of_Barcelona)>(type|Municipalities_of_Spain)", 
+      0.1098
+    ]
+  ], 
+  "values": [
+    1961.123194006661, 
+    510.44920447366457, 
+    3.2104215036383317, 
+    156.72005466358482, 
+    557.0281761613606, 
+    1067.2505742037395, 
+    115.49751755674404, 
+    1.0307801536077987, 
+    0.9930803249122263, 
+    677.7824618614746, 
+    417.54235393513227, 
+    292.11848011381835, 
+    921.3041470351018, 
+    175.94172506458654, 
+    1904.5271493685364, 
+    2050.692252639568, 
+    321.89059902832753, 
+    771.0089180999989, 
+    250.61071175981456, 
+    97.31764365485525, 
+    306.353339881382, 
+    256.3778463071492, 
+    209.95445284562533, 
+    61.071720271462326, 
+    20.542190511377775, 
+    3222.8729435927157, 
+    55.57474948257463, 
+    315.8222293139642, 
+    119.56643508041743, 
+    2.7357707558848112, 
+    59.755192608512445, 
+    374.38633077687587, 
+    131.09571832302007, 
+    2.7526800931035544, 
+    822.0969672322783, 
+    15.588812299214936, 
+    195.71566344040642, 
+    857.9171326120057, 
+    55.302024065814486, 
+    43.66300770958841, 
+    425.21011246415947, 
+    779.104337574306, 
+    13.08899390184151, 
+    73.75403774750076, 
+    109.087464121799, 
+    197.22261796806163, 
+    326.0088860595724, 
+    4.588606492363463, 
+    587.0308000978287, 
+    969.5347484705433, 
+    432.1605520212536, 
+    0.0, 
+    138.92460032178798, 
+    40.493916612868695, 
+    2.559939417854331, 
+    685.9511235340746, 
+    160.09441965283827, 
+    664.1395778516296, 
+    454.286998282014, 
+    194.8227250069122
+  ]
+}

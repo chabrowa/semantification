@@ -1,0 +1,299 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/elevation"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.088
+        ], 
+        [
+          "elevation", 
+          0.0882
+        ], 
+        [
+          "populationDensity", 
+          0.0921
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          5.0
+        ], 
+        [
+          "populationDensity", 
+          3.0
+        ], 
+        [
+          "populationTotal", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.074
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.088
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.088
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.088
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.088
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.0881
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.0882
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.0882
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.0885
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.092
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.092
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.092
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          0.0921
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.0925
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationDensity)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Town[elevation]", 
+      0.074
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|West_Azerbaijan_Province)>(isPartOf|Central_District_(Urmia_County))", 
+      0.087
+    ], 
+    [
+      "City[elevation]", 
+      0.088
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|West_Azerbaijan_Province)>(isPartOf|Central_District_(Urmia_County))>(22-rdf-syntax-ns#type|_Feature)", 
+      0.0889
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(region|Provence-Alpes-C%C3%B4te_d'Azur)>(department|Vaucluse)", 
+      0.0908
+    ], 
+    [
+      "Village[populationDensity]>(isPartOf|Wisconsin)", 
+      0.0915
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Wisconsin)>(type|Village_(United_States))", 
+      0.0925
+    ], 
+    [
+      "Village[populationDensity]>(isPartOf|Wisconsin)>(type|Village_(United_States))", 
+      0.0925
+    ], 
+    [
+      "PopulatedPlace[elevation]", 
+      0.094
+    ], 
+    [
+      "Settlement[elevation]", 
+      0.0942
+    ]
+  ], 
+  "values": [
+    356.921, 
+    584.0, 
+    138.05, 
+    449.0, 
+    350.0, 
+    291.998, 
+    234.08599999999998, 
+    1050.04, 
+    206.0, 
+    8.8392, 
+    455.066, 
+    334.0, 
+    57.912, 
+    55.0, 
+    10.0, 
+    259.0, 
+    307.848, 
+    202.997, 
+    170.078, 
+    345.034, 
+    160.02, 
+    295.0, 
+    135.0, 
+    360.0, 
+    331.01300000000003, 
+    7.62, 
+    383.0, 
+    20.0, 
+    83.0, 
+    0.0, 
+    363.931, 
+    174.0, 
+    76.0, 
+    210.0, 
+    44.0, 
+    219.15099999999998, 
+    316.992, 
+    627.0, 
+    167.945, 
+    303.0, 
+    316.992, 
+    205.0, 
+    331.92699999999996, 
+    300.228, 
+    10.0, 
+    95.0, 
+    3.0, 
+    250.0, 
+    1110.0, 
+    1573.0, 
+    199.03400000000002, 
+    306.0, 
+    30.0, 
+    367.0, 
+    97.0, 
+    411.0, 
+    337.0, 
+    67.9704, 
+    330.0, 
+    366.0, 
+    255.727, 
+    427.025, 
+    2428.0, 
+    747.9789999999999, 
+    376.0, 
+    1986.99, 
+    97.0, 
+    292.0, 
+    262.0, 
+    61.0, 
+    301.142, 
+    268.0, 
+    34.0, 
+    1694.0, 
+    53.0, 
+    86.868, 
+    182.0, 
+    146.914, 
+    3193.0, 
+    298.0, 
+    230.0, 
+    1.0, 
+    452.01800000000003, 
+    364.0, 
+    1244.0, 
+    757.0, 
+    227.99, 
+    337.0, 
+    273.0, 
+    187.14700000000002, 
+    974.0, 
+    462.991, 
+    314.0, 
+    241.0, 
+    450.0, 
+    169.0, 
+    2151.0, 
+    127.0, 
+    530.0, 
+    298.0
+  ]
+}

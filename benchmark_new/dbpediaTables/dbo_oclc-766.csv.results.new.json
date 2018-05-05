@@ -1,0 +1,176 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/oclc"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.5027
+        ], 
+        [
+          "oclc", 
+          0.5036
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          8.0
+        ], 
+        [
+          "oclc", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.5026
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.5031
+        ], 
+        [
+          "http://dbpedia.org/ontology/WineRegion (areaTotal)", 
+          0.5034
+        ], 
+        [
+          "http://dbpedia.org/ontology/AcademicJournal (oclc)", 
+          0.5036
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          0.5036
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          0.5036
+        ], 
+        [
+          "http://dbpedia.org/ontology/PeriodicalLiterature (oclc)", 
+          0.5036
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.5037
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          0.5047
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Town (areaTotal)", 
+          15.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WrittenWork (oclc)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (oclc)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PeriodicalLiterature (oclc)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/WineRegion (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AcademicJournal (oclc)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[areaTotal]>(country|Italy)>(region|Sardinia)>(province|Province_of_Cagliari)", 
+      0.5
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Canada)>(timeZone|Pacific_Time_Zone)", 
+      0.5
+    ], 
+    [
+      "BodyOfWater[areaTotal]>(type|Trophic_state_index)", 
+      0.5
+    ], 
+    [
+      "WineRegion[areaTotal]>(type|American_Viticultural_Area)", 
+      0.5034
+    ], 
+    [
+      "AcademicJournal[oclc]", 
+      0.5036
+    ], 
+    [
+      "PeriodicalLiterature[oclc]", 
+      0.5036
+    ], 
+    [
+      "Town[areaTotal]>(country|Germany)>(federalState|Baden-W%C3%BCrttemberg)", 
+      0.5044
+    ], 
+    [
+      "Town[areaTotal]>(isPartOf|Pennsylvania)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.5044
+    ], 
+    [
+      "Town[areaTotal]>(isPartOf|Pennsylvania)>(22-rdf-syntax-ns#type|_Feature)>(type|Township_(Pennsylvania))", 
+      0.5047
+    ], 
+    [
+      "Town[areaTotal]>(isPartOf|Pennsylvania)>(22-rdf-syntax-ns#type|_Feature)>(type|Township_(Pennsylvania))>(country|United_States)", 
+      0.505
+    ]
+  ], 
+  "values": [
+    47781915.0
+  ]
+}

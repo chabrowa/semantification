@@ -1,0 +1,221 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/height"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "height", 
+          0.1089
+        ], 
+        [
+          "elevation", 
+          0.1101
+        ], 
+        [
+          "populationTotal", 
+          0.1223
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          6.0
+        ], 
+        [
+          "height", 
+          2.0
+        ], 
+        [
+          "populationTotal", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1038
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          0.1089
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          0.1089
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          0.1089
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (height)", 
+          0.1113
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (height)", 
+          0.1113
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1158
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1162
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1162
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1223
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1223
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1223
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1223
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Bridge (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (height)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Gujarat)", 
+      0.0993
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Gujarat)>(country|India)", 
+      0.1014
+    ], 
+    [
+      "Infrastructure[height]", 
+      0.1065
+    ], 
+    [
+      "Bridge[height]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1113
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Humboldt_County,_California)", 
+      0.1114
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Pas-de-Calais)>(arrondissement|Arrondissement_of_Saint-Omer)", 
+      0.1119
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Nord_(French_department))", 
+      0.1143
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|South_Khorasan_Province)>(isPartOf|Baqeran_Rural_District)", 
+      0.1196
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|California)>(isPartOf|Humboldt_County,_California)", 
+      0.1225
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|South_Khorasan_Province)>(isPartOf|Jolgeh-e_Mazhan_District)", 
+      0.125
+    ]
+  ], 
+  "values": [
+    229.81028035450234, 
+    105.68902717036404, 
+    47.574411654633046, 
+    247.45365492338647, 
+    32.398362193052556, 
+    151.305871425091, 
+    95.56214932812557, 
+    8.80940640684128, 
+    89.06236298221975, 
+    22.097310146001035, 
+    30.43066072789436, 
+    66.90861527279247, 
+    19.86383579687095, 
+    8.508613818621903, 
+    116.02604058747092, 
+    25.22338686986171, 
+    27.56917939245012, 
+    63.850633327092126, 
+    113.89603086420357, 
+    57.168489690739015, 
+    59.324304842599645, 
+    179.66715616082237, 
+    89.90896789116931, 
+    10.099449859271841, 
+    29.80427689673077, 
+    48.215428228823946, 
+    3.820530573286616, 
+    22.389102488136132, 
+    162.80514326701643, 
+    4.815866344705264
+  ]
+}

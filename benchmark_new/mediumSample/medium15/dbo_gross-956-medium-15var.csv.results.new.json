@@ -1,0 +1,223 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/gross"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1205
+        ], 
+        [
+          "areaWater", 
+          0.127
+        ], 
+        [
+          "postalCode", 
+          0.1328
+        ]
+      ], 
+      "maj": [
+        [
+          "areaWater", 
+          7.0
+        ], 
+        [
+          "populationTotal", 
+          2.0
+        ], 
+        [
+          "postalCode", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.1074
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.1139
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.1139
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.1205
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.1205
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.1266
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1286
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (postalCode)", 
+          0.1328
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          0.1328
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          0.1328
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          0.1328
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          0.1458
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          12.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaWater)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (postalCode)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (postalCode)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[areaWater]>(isPartOf|New_Jersey)", 
+      0.0816
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Indian_Standard_Time)", 
+      0.0959
+    ], 
+    [
+      "City[areaWater]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)", 
+      0.1103
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|New_Jersey)>(governmentType|Borough_(New_Jersey))", 
+      0.1207
+    ], 
+    [
+      "City[areaWater]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)>(type|City)", 
+      0.1305
+    ], 
+    [
+      "Village[postalCode]", 
+      0.1328
+    ], 
+    [
+      "City[areaWater]>(isPartOf|California)>(isPartOf|Los_Angeles_County,_California)>(type|City)>(timeZone|Pacific_Time_Zone)", 
+      0.1332
+    ], 
+    [
+      "Settlement[populationTotal]>(timeZone|Indian_Standard_Time)>(isPartOf|Maharashtra)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.145
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|New_Jersey)>(type|Census-designated_place)", 
+      0.1563
+    ], 
+    [
+      "Location[areaWater]>(isPartOf|Iowa)>(type|Township_(United_States))>(timeZone|Central_Time_Zone)", 
+      0.1569
+    ]
+  ], 
+  "values": [
+    1534600.2001913285, 
+    12314.582185904914, 
+    127159.54606978252, 
+    5319.240211902836, 
+    783.8476861940633, 
+    48165.01536546119, 
+    37359.679389275916, 
+    677969.8358043543, 
+    751525.7584064144, 
+    200824.7786891876, 
+    123098.18413759471, 
+    597477.1402541718, 
+    210372.34054800437, 
+    135992.62113834033, 
+    12051.454211120728, 
+    352623.1873756097, 
+    301052.55115358386, 
+    31057.18580703644, 
+    127407.36584000295, 
+    87955.78752820645, 
+    75572.97389663146, 
+    1050859.3805979067, 
+    3190.803186796742, 
+    4412.480656855866, 
+    251622.49542872974, 
+    343740.9988037924, 
+    34977.853558018294, 
+    4828.0125055048275, 
+    8900.809710491252, 
+    11248.359189085604, 
+    15579.812224891082, 
+    1436.8911959993488, 
+    559910.2254168368, 
+    1831332.5463890696, 
+    17456.88927793158, 
+    433717.70431308495, 
+    49387.96023269379, 
+    122606.30547659578, 
+    1301093.3984785224, 
+    7759.82109666489
+  ]
+}

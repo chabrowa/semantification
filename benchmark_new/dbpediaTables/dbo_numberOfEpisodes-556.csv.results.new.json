@@ -1,0 +1,196 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEpisodes"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "minimumElevation", 
+          0.1415
+        ], 
+        [
+          "numberOfMatches", 
+          0.1474
+        ], 
+        [
+          "elevation", 
+          0.171
+        ]
+      ], 
+      "maj": [
+        [
+          "minimumElevation", 
+          4.0
+        ], 
+        [
+          "elevation", 
+          4.0
+        ], 
+        [
+          "numberOfMatches", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          0.1415
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          0.1415
+        ], 
+        [
+          "http://dbpedia.org/ontology/CareerStation (numberOfMatches)", 
+          0.1474
+        ], 
+        [
+          "http://dbpedia.org/ontology/TimePeriod (numberOfMatches)", 
+          0.1474
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          0.1477
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          0.1477
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1677
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.1717
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1721
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1721
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1721
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          0.1723
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (minimumElevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (minimumElevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (minimumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TimePeriod (numberOfMatches)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/CareerStation (numberOfMatches)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[minimumElevation]>(department|Manche)", 
+      0.1104
+    ], 
+    [
+      "Settlement[minimumElevation]>(department|Manche)", 
+      0.1104
+    ], 
+    [
+      "TimePeriod[numberOfMatches]", 
+      0.1474
+    ], 
+    [
+      "CareerStation[numberOfMatches]", 
+      0.1474
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Goa)>(country|India)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.1677
+    ], 
+    [
+      "City[elevation]>(type|Alaska)", 
+      0.1717
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Western_Norway)", 
+      0.1719
+    ], 
+    [
+      "Village[elevation]>(isPartOf|Western_Norway)>(isPartOf|Sogn_og_Fjordane)", 
+      0.1725
+    ], 
+    [
+      "Location[minimumElevation]>(region|Pays_de_la_Loire)>(department|Vend%C3%A9e)", 
+      0.1726
+    ], 
+    [
+      "Settlement[minimumElevation]>(region|Pays_de_la_Loire)>(department|Vend%C3%A9e)", 
+      0.1726
+    ]
+  ], 
+  "values": [
+    875.0, 
+    1.0, 
+    2.0, 
+    4.0, 
+    13.0, 
+    72.0, 
+    40.0, 
+    60.0, 
+    70.0, 
+    18.0, 
+    27.0, 
+    1.0, 
+    13.0
+  ]
+}

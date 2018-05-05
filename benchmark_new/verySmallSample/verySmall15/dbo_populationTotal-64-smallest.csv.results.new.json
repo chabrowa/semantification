@@ -1,0 +1,186 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationTotal"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.3085
+        ], 
+        [
+          "areaWater", 
+          0.3254
+        ], 
+        [
+          "gross", 
+          0.3306
+        ]
+      ], 
+      "maj": [
+        [
+          "gross", 
+          5.0
+        ], 
+        [
+          "areaTotal", 
+          4.0
+        ], 
+        [
+          "areaWater", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Village (areaTotal)", 
+          0.2941
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (areaTotal)", 
+          0.2947
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.3085
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.3085
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.3169
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          0.3254
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          0.3254
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          0.3254
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          0.3254
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (gross)", 
+          0.3306
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (gross)", 
+          0.3307
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (gross)", 
+          0.3307
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Film (gross)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (gross)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Wikidata:Q11424 (gross)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaWater)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaWater)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Island (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (areaTotal)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaWater)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Village[areaTotal]", 
+      0.2941
+    ], 
+    [
+      "Island[areaTotal]", 
+      0.2947
+    ], 
+    [
+      "Settlement[areaTotal]>(isPartOf|Kansas)", 
+      0.3158
+    ], 
+    [
+      "City[areaWater]>(isPartOf|Alaska)", 
+      0.3254
+    ], 
+    [
+      "Settlement[areaTotal]>(country|Canada)", 
+      0.3294
+    ], 
+    [
+      "Film[gross]", 
+      0.3304
+    ], 
+    [
+      "Wikidata:Q11424[gross]", 
+      0.3304
+    ], 
+    [
+      "Work[gross]", 
+      0.3304
+    ], 
+    [
+      "Wikidata:Q11424[gross]>(distributor|United_Artists)", 
+      0.3308
+    ], 
+    [
+      "Film[gross]>(distributor|United_Artists)", 
+      0.3308
+    ]
+  ], 
+  "values": [
+    2838090.0, 
+    2249512353.0, 
+    1172587.0
+  ]
+}

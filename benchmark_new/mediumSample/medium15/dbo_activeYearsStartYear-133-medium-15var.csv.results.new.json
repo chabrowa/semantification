@@ -1,0 +1,244 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/activeYearsStartYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.3346
+        ], 
+        [
+          "numberOfStudents", 
+          0.3376
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          8.0
+        ], 
+        [
+          "numberOfStudents", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          0.238
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          0.3051
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.3316
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.3376
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.3376
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.3376
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          0.3382
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.3436
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.3449
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.3483
+        ], 
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          0.3722
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          16.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Mountain (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Volcano (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          2.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Mountain[elevation]>(locatedInArea|Norway)>(locatedInArea|Oppland)", 
+      0.238
+    ], 
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)", 
+      0.3194
+    ], 
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.3206
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|New_Mexico)>(type|Census-designated_place)", 
+      0.3206
+    ], 
+    [
+      "School[numberOfStudents]>(state|Florida)>(type|State_school)", 
+      0.3333
+    ], 
+    [
+      "School[numberOfStudents]>(state|Florida)>(type|State_school)>(country|United_States)", 
+      0.3419
+    ], 
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)", 
+      0.3665
+    ], 
+    [
+      "Location[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)", 
+      0.3665
+    ], 
+    [
+      "Volcano[elevation]>(locatedInArea|Indonesia)>(type|Stratovolcano)", 
+      0.3722
+    ], 
+    [
+      "Settlement[elevation]>(timeZone|Mountain_Time_Zone)>(isPartOf|Wyoming)>(type|Census-designated_place)>(country|United_States)", 
+      0.3731
+    ]
+  ], 
+  "values": [
+    2104.0, 
+    1682.0, 
+    2191.0, 
+    1855.0, 
+    2000.0, 
+    1995.0, 
+    1812.0, 
+    1957.0, 
+    1977.0, 
+    2168.0, 
+    1707.0, 
+    2209.0, 
+    2250.0, 
+    1722.0, 
+    1938.0, 
+    1958.0, 
+    2124.0, 
+    1900.0, 
+    1957.0, 
+    1952.0, 
+    2097.0, 
+    1695.0, 
+    28.0, 
+    2071.0, 
+    1945.0, 
+    1723.0, 
+    1963.0, 
+    2144.0, 
+    2247.0, 
+    1875.0, 
+    1941.0, 
+    2273.0, 
+    1959.0, 
+    2049.0, 
+    1711.0, 
+    1999.0, 
+    2155.0, 
+    1756.0, 
+    2206.0, 
+    1948.0, 
+    1992.0, 
+    2133.0, 
+    1778.0, 
+    2259.0, 
+    1707.0, 
+    2169.0, 
+    2014.0, 
+    2240.0, 
+    2069.0, 
+    1789.0, 
+    2185.0, 
+    2238.0, 
+    2194.0, 
+    2229.0, 
+    1811.0, 
+    2061.0, 
+    1706.0, 
+    1861.0, 
+    2030.0, 
+    2199.0, 
+    2071.0, 
+    1928.0, 
+    2277.0, 
+    1876.0, 
+    1872.0, 
+    1978.0, 
+    2070.0, 
+    2000.0, 
+    1822.0, 
+    1938.0, 
+    2200.0, 
+    2111.0, 
+    2080.0, 
+    2040.0, 
+    1901.0, 
+    1834.0, 
+    1824.0
+  ]
+}

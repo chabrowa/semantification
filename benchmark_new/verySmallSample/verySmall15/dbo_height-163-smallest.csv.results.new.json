@@ -1,0 +1,205 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/height"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "height", 
+          0.1653
+        ], 
+        [
+          "width", 
+          0.1841
+        ]
+      ], 
+      "maj": [
+        [
+          "height", 
+          9.0
+        ], 
+        [
+          "width", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/MartialArtist (height)", 
+          0.1567
+        ], 
+        [
+          "http://dbpedia.org/ontology/RugbyPlayer (height)", 
+          0.1625
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (height)", 
+          0.1652
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (height)", 
+          0.1653
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (height)", 
+          0.1653
+        ], 
+        [
+          "http://dbpedia.org/ontology/Swimmer (height)", 
+          0.166
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cyclist (height)", 
+          0.1724
+        ], 
+        [
+          "http://dbpedia.org/ontology/Automobile (width)", 
+          0.1841
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (width)", 
+          0.1841
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Agent (height)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (height)", 
+          8.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (height)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Swimmer (height)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Cyclist (height)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MartialArtist (height)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Automobile (width)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MeanOfTransportation (width)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RugbyPlayer (height)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "MartialArtist[height]>(birthPlace|Soviet_Union)", 
+      0.1567
+    ], 
+    [
+      "Athlete[height]", 
+      0.1576
+    ], 
+    [
+      "Swimmer[height]>(nationality|Brazil)>(birthPlace|Brazil)", 
+      0.1612
+    ], 
+    [
+      "RugbyPlayer[height]", 
+      0.1625
+    ], 
+    [
+      "Person[height]", 
+      0.166
+    ], 
+    [
+      "Agent[height]", 
+      0.166
+    ], 
+    [
+      "Cyclist[height]>(birthPlace|Belgium)", 
+      0.1709
+    ], 
+    [
+      "Swimmer[height]>(nationality|Brazil)", 
+      0.1732
+    ], 
+    [
+      "Cyclist[height]>(birthPlace|Netherlands)", 
+      0.1739
+    ], 
+    [
+      "Automobile[width]>(class|Grand_tourer)", 
+      0.1841
+    ]
+  ], 
+  "values": [
+    1.9596170110802509, 
+    1.8564773536340267, 
+    1.8129673839406564, 
+    1.880422703983849, 
+    1.749166269257718, 
+    1.804592572247184, 
+    1.8206619872352348, 
+    1.86809225752293, 
+    1.7412086050892772, 
+    167.75968767466364, 
+    1.9286516165068686, 
+    1.8090434888271645, 
+    1.9483151536917582, 
+    1.8128694001376031, 
+    1.9408421854628641, 
+    1.768003781229491, 
+    1.7545497880512457, 
+    1.7848276658918323, 
+    1.6844278646428497, 
+    1.7218104866865773, 
+    1.9126470041926962, 
+    1.9545497016809723, 
+    1.8491483191724334, 
+    1.7025359776475648, 
+    2.030274236151552, 
+    2.076799003405243, 
+    1.7429584235251299, 
+    1.7415561186566932, 
+    2.0864400829955443, 
+    1.81991801746704, 
+    1.5952472489945522, 
+    1.770225989768664, 
+    1.9199585938461174, 
+    1.7268895131321123, 
+    1.8504640627018227, 
+    1.814895713012718, 
+    1.7813477762855257, 
+    1.835192276986948, 
+    1.8487267695405198, 
+    1.8627679620230233, 
+    1.6780837317377326, 
+    1.8110355052374192, 
+    1.9498663447070215, 
+    1.7586516815528115, 
+    1.7841977149726171, 
+    1.7593271172458695, 
+    1.8952084565036393, 
+    178.05816872265, 
+    1.7734242760638563, 
+    2.0837759309401354, 
+    1.8004762122594717, 
+    1.8476759026911438, 
+    1.8167619357691245, 
+    1.869265787932021
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/runtime"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "runtime", 
+          0.0828
+        ], 
+        [
+          "elevation", 
+          0.1233
+        ], 
+        [
+          "maximumElevation", 
+          0.1427
+        ]
+      ], 
+      "maj": [
+        [
+          "runtime", 
+          5.0
+        ], 
+        [
+          "maximumElevation", 
+          3.0
+        ], 
+        [
+          "elevation", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Song (runtime)", 
+          0.0772
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          0.0828
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          0.0828
+        ], 
+        [
+          "http://dbpedia.org/ontology/Single (runtime)", 
+          0.0937
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1233
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1233
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1254
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          0.1414
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          0.1414
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          0.1414
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          0.1438
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Song (runtime)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (runtime)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/MusicalWork (runtime)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (maximumElevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Single (runtime)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (maximumElevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (maximumElevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (maximumElevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Single[runtime]", 
+      0.0653
+    ], 
+    [
+      "Song[runtime]>(writer|David_Bowie)>(artist|David_Bowie)", 
+      0.0741
+    ], 
+    [
+      "Song[runtime]>(writer|David_Bowie)", 
+      0.0744
+    ], 
+    [
+      "Song[runtime]", 
+      0.0923
+    ], 
+    [
+      "Single[runtime]>(genre|Indie_rock)", 
+      0.108
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Meuse)", 
+      0.109
+    ], 
+    [
+      "Settlement[elevation]>(country|France)>(department|Moselle)>(arrondissement|Arrondissement_of_Metz-Campagne)", 
+      0.1376
+    ], 
+    [
+      "Location[maximumElevation]>(department|Dordogne)", 
+      0.1414
+    ], 
+    [
+      "Settlement[maximumElevation]>(department|Dordogne)", 
+      0.1414
+    ], 
+    [
+      "Location[maximumElevation]>(department|Dordogne)>(region|Aquitaine)", 
+      0.1454
+    ]
+  ], 
+  "values": [
+    234.0, 
+    283.0, 
+    207.0, 
+    272.0, 
+    240.0, 
+    330.0, 
+    361.0, 
+    194.0, 
+    214.0, 
+    189.0, 
+    414.0, 
+    350.0, 
+    50.0, 
+    202.0, 
+    157.0, 
+    221.0, 
+    273.0, 
+    289.0, 
+    253.0, 
+    218.0, 
+    215.0, 
+    7.0, 
+    12.0, 
+    235.0, 
+    225.0, 
+    259.0, 
+    263.0, 
+    278.0, 
+    244.0, 
+    264.0, 
+    225.0, 
+    140.0, 
+    158.0, 
+    150.0, 
+    180.0, 
+    180.0, 
+    182.0, 
+    212.0, 
+    210.0, 
+    230.0, 
+    271.0, 
+    237.0, 
+    235.0, 
+    237.0, 
+    221.0, 
+    1202.0, 
+    359.0, 
+    235.0, 
+    262.0, 
+    207.0, 
+    248.0, 
+    341.0, 
+    219.0, 
+    291.0, 
+    353.0, 
+    230.0, 
+    241.0, 
+    313.0, 
+    397.0, 
+    480.0, 
+    232.0, 
+    176.0, 
+    182.0, 
+    855.0, 
+    175.0, 
+    120.0, 
+    193.0
+  ]
+}

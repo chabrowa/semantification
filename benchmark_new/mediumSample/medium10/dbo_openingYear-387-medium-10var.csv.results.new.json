@@ -1,0 +1,249 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/openingYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfStudents", 
+          0.3489
+        ], 
+        [
+          "openingYear", 
+          0.3509
+        ]
+      ], 
+      "maj": [
+        [
+          "openingYear", 
+          8.0
+        ], 
+        [
+          "numberOfStudents", 
+          2.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          0.3458
+        ], 
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          0.3477
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          0.3487
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          0.3487
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          0.3487
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          0.3487
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          0.3489
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          0.3489
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          0.3489
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          0.3517
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          0.3547
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          0.3547
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (openingYear)", 
+          0.3547
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/School (numberOfStudents)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RouteOfTransportation (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/ArchitecturalStructure (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Infrastructure (openingYear)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayLine (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/RailwayTunnel (openingYear)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (openingYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/EducationalInstitution (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfStudents)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PublicTransitSystem (openingYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "RailwayTunnel[openingYear]", 
+      0.3404
+    ], 
+    [
+      "School[numberOfStudents]>(state|Florida)>(type|State_school)>(country|United_States)", 
+      0.3407
+    ], 
+    [
+      "RailwayLine[openingYear]", 
+      0.3466
+    ], 
+    [
+      "RailwayTunnel[openingYear]>(22-rdf-syntax-ns#type|_Feature)", 
+      0.3485
+    ], 
+    [
+      "RouteOfTransportation[openingYear]", 
+      0.3538
+    ], 
+    [
+      "RailwayLine[openingYear]>(type|Light_rail)", 
+      0.3542
+    ], 
+    [
+      "Agent[openingYear]", 
+      0.3547
+    ], 
+    [
+      "PublicTransitSystem[openingYear]", 
+      0.3547
+    ], 
+    [
+      "Organisation[openingYear]", 
+      0.3547
+    ], 
+    [
+      "School[numberOfStudents]>(state|Florida)>(type|State_school)", 
+      0.3571
+    ]
+  ], 
+  "values": [
+    2070.0, 
+    1815.0, 
+    2128.0, 
+    1722.0, 
+    2093.0, 
+    1801.0, 
+    1918.0, 
+    1730.0, 
+    1963.0, 
+    1957.0, 
+    1887.0, 
+    1791.0, 
+    1845.0, 
+    2154.0, 
+    1998.0, 
+    1930.0, 
+    1860.0, 
+    2132.0, 
+    1804.0, 
+    2085.0, 
+    2085.0, 
+    1788.0, 
+    1819.0, 
+    1914.0, 
+    1957.0, 
+    1877.0, 
+    1965.0, 
+    1956.0, 
+    1876.0, 
+    19.0, 
+    1922.0, 
+    1979.0, 
+    2047.0, 
+    1798.0, 
+    1896.0, 
+    2184.0, 
+    1919.0, 
+    1769.0, 
+    2168.0, 
+    2142.0, 
+    2082.0, 
+    1906.0, 
+    2026.0, 
+    2076.0, 
+    1833.0, 
+    2170.0, 
+    2053.0, 
+    2148.0, 
+    1843.0, 
+    89.0, 
+    1811.0, 
+    1805.0, 
+    1913.0, 
+    2140.0, 
+    1798.0, 
+    1979.0, 
+    2017.0, 
+    1866.0, 
+    2025.0, 
+    1999.0, 
+    2093.0, 
+    2026.0, 
+    1874.0, 
+    2110.0, 
+    1910.0, 
+    2091.0
+  ]
+}

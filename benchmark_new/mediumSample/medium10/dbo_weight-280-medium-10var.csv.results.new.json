@@ -1,0 +1,153 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/weight"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "populationTotal", 
+          0.1077
+        ]
+      ], 
+      "maj": [
+        [
+          "populationTotal", 
+          10.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          0.1061
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          0.108
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          0.108
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          0.1082
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          0.1099
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          0.1168
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationTotal)", 
+          15.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationTotal)", 
+          11.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationTotal)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (populationTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationTotal)", 
+          3.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationTotal]>(country|United_Kingdom)>(country|Suffolk)", 
+      0.0876
+    ], 
+    [
+      "Settlement[populationTotal]>(country|United_Kingdom)>(country|Suffolk)", 
+      0.0876
+    ], 
+    [
+      "Location[populationTotal]>(country|France)>(department|Haute-Garonne)", 
+      0.1063
+    ], 
+    [
+      "Settlement[populationTotal]>(country|France)>(department|Haute-Garonne)", 
+      0.1063
+    ], 
+    [
+      "Location[populationTotal]>(country|Poland)", 
+      0.108
+    ], 
+    [
+      "Town[populationTotal]>(isPartOf|Kansas)>(timeZone|Central_Time_Zone)", 
+      0.1099
+    ], 
+    [
+      "Location[populationTotal]>(country|Spain)>(isPartOf|Province_of_Cuenca)", 
+      0.1157
+    ], 
+    [
+      "Village[populationTotal]>(isPartOf|West_Azerbaijan_Province)>(isPartOf|Khoy_County)>(isPartOf|Central_District_(Khoy_County))", 
+      0.1168
+    ], 
+    [
+      "Location[populationTotal]>(country|Spain)>(isPartOf|Province_of_Cuenca)>(timeZone|Central_European_Time)", 
+      0.1196
+    ], 
+    [
+      "Settlement[populationTotal]>(country|Spain)>(isPartOf|Province_of_Cuenca)", 
+      0.1196
+    ]
+  ], 
+  "values": [
+    6286.141664758492, 
+    145.09492034098034, 
+    386.1992184325636, 
+    50.16706500231484, 
+    73.90051547295106, 
+    388.1879728635479, 
+    1293.987876833088, 
+    166.85172261022396, 
+    3.8701083235645783, 
+    584.4319747099345, 
+    329.87599965906844, 
+    575.3679140817076, 
+    165.39008243004207, 
+    730.029981125469, 
+    6590.028973028615, 
+    581.6500784006602, 
+    218.67989085246907, 
+    24942.155100133656, 
+    1029.2188045625117, 
+    116.07560646628845, 
+    123.41359529382873, 
+    664.1132762888694, 
+    222.0614935057107, 
+    124.19478610230723, 
+    340.786872221665, 
+    198.93666003909178, 
+    164.67400532938524, 
+    1356.2716169511853, 
+    638.3649469827719, 
+    574.0430539446812, 
+    116.37185821802944, 
+    45004.54408093937, 
+    4074.3631820994015, 
+    100.54492996450342
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/populationDensity"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.1067
+        ], 
+        [
+          "populationDensity", 
+          0.1096
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          9.0
+        ], 
+        [
+          "populationDensity", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1021
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1048
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1048
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          0.1079
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1096
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (populationDensity)", 
+          0.1096
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1096
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.1101
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1132
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (elevation)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          7.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Country (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Settlement[elevation]>(country|Italy)>(region|Friuli-Venezia_Giulia)", 
+      0.0929
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|New_York)", 
+      0.1011
+    ], 
+    [
+      "Town[elevation]>(isPartOf|North_Carolina)", 
+      0.1012
+    ], 
+    [
+      "City[elevation]>(isPartOf|Washington_(state))>(type|City)", 
+      0.1065
+    ], 
+    [
+      "Town[elevation]>(isPartOf|North_Carolina)>(type|Town)", 
+      0.1079
+    ], 
+    [
+      "Country[populationDensity]", 
+      0.1096
+    ], 
+    [
+      "Town[elevation]>(isPartOf|North_Carolina)>(type|Town)>(country|United_States)", 
+      0.1113
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Odisha)", 
+      0.1127
+    ], 
+    [
+      "City[elevation]>(isPartOf|Washington_(state))>(type|City)>(country|United_States)", 
+      0.1128
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Tamil_Nadu)", 
+      0.1138
+    ]
+  ], 
+  "values": [
+    262.095117414641, 
+    47.76158205575884, 
+    34.043679081095725, 
+    6.89635984268591, 
+    70.13367790619535, 
+    214.78973336255964, 
+    2.5324786144701297, 
+    1125.0975666794889, 
+    169.6035022075175, 
+    3.6841485569347867, 
+    172.71241658866052, 
+    80.73300387073013, 
+    2.7497859889390353, 
+    252.14258652066079, 
+    68.94149561504771, 
+    64.9629985579582, 
+    1813.7509954624775, 
+    318.21725530204924, 
+    4.682821129336505, 
+    454.9555948428892, 
+    111.85637788834934, 
+    21.484448631623323, 
+    373.56003338712895, 
+    37.974523992565835, 
+    124.37237543833871, 
+    139.67171657419982, 
+    89.49332828111584, 
+    436.4118109226383, 
+    13.182692797219733, 
+    26.23413266258185, 
+    20.416271511528716, 
+    129.35169214863433
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfEpisodes"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfEpisodes", 
+          0.0819
+        ], 
+        [
+          "elevation", 
+          0.092
+        ], 
+        [
+          "populationDensity", 
+          0.0927
+        ], 
+        [
+          "numberOfEmployees", 
+          0.0991
+        ]
+      ], 
+      "maj": [
+        [
+          "elevation", 
+          5.0
+        ], 
+        [
+          "numberOfEpisodes", 
+          2.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ], 
+        [
+          "numberOfEmployees", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          0.0711
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          0.0819
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.0855
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.0892
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.0892
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.0892
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.0936
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          0.0991
+        ], 
+        [
+          "http://dbpedia.org/ontology/Non-ProfitOrganisation (numberOfEmployees)", 
+          0.0991
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          0.0991
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.1
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          15.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfEpisodes)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfEpisodes)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Non-ProfitOrganisation (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "TelevisionShow[numberOfEpisodes]", 
+      0.0711
+    ], 
+    [
+      "Location[elevation]>(isPartOf|California)>(isPartOf|Contra_Costa_County,_California)", 
+      0.08
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Maine)", 
+      0.0855
+    ], 
+    [
+      "Settlement[elevation]>(isPartOf|California)>(isPartOf|Contra_Costa_County,_California)", 
+      0.0892
+    ], 
+    [
+      "Work[numberOfEpisodes]", 
+      0.0928
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|West_Bengal)", 
+      0.0967
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|West_Bengal)>(22-rdf-syntax-ns#type|_Feature)", 
+      0.097
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|West_Bengal)>(22-rdf-syntax-ns#type|_Feature)>(country|India)", 
+      0.0972
+    ], 
+    [
+      "Non-ProfitOrganisation[numberOfEmployees]", 
+      0.0991
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|New_York)>(type|Administrative_divisions_of_New_York)", 
+      0.1
+    ]
+  ], 
+  "values": [
+    6.0, 
+    27.0, 
+    1424.0, 
+    12.0, 
+    575.0, 
+    9.0, 
+    221.0, 
+    19.0, 
+    35.0, 
+    186.0, 
+    302.0, 
+    6.0, 
+    868.0, 
+    236.0, 
+    1469.0, 
+    42.0, 
+    184.0, 
+    10.0, 
+    6.0, 
+    1.0, 
+    21.0, 
+    82.0, 
+    6.0, 
+    10.0, 
+    23.0, 
+    10.0, 
+    122.0, 
+    4.0, 
+    24.0, 
+    14.0, 
+    120.0, 
+    12.0, 
+    13.0, 
+    13.0, 
+    1157.0, 
+    3.0, 
+    20.0, 
+    88.0, 
+    16.0, 
+    30.0, 
+    43.0, 
+    12.0, 
+    21.0, 
+    18.0, 
+    86.0, 
+    13.0, 
+    1075.0, 
+    29.0, 
+    25.0, 
+    27.0, 
+    101.0, 
+    49.0, 
+    78.0, 
+    8.0, 
+    73.0, 
+    14.0, 
+    28.0, 
+    261.0, 
+    19.0, 
+    7.0, 
+    10.0, 
+    26.0, 
+    53.0, 
+    8.0, 
+    10.0, 
+    19.0, 
+    12.0, 
+    47.0, 
+    629.0, 
+    103.0, 
+    5.0, 
+    24.0, 
+    42.0, 
+    29.0, 
+    6.0, 
+    3.0, 
+    9.0, 
+    16.0, 
+    187.0, 
+    76.0, 
+    4.0, 
+    50.0, 
+    25.0, 
+    27.0, 
+    19.0, 
+    3.0, 
+    19.0, 
+    14.0, 
+    9.0, 
+    6.0, 
+    14.0, 
+    26.0, 
+    91.0, 
+    805.0, 
+    5.0, 
+    86.0, 
+    3.0, 
+    1.0, 
+    82.0, 
+    1.0
+  ]
+}

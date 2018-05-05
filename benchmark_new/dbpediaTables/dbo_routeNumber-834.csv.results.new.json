@@ -1,0 +1,206 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/routeNumber"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "numberOfEmployees", 
+          0.1523
+        ], 
+        [
+          "elevation", 
+          0.1661
+        ], 
+        [
+          "populationDensity", 
+          0.1696
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          5.0
+        ], 
+        [
+          "elevation", 
+          4.0
+        ], 
+        [
+          "numberOfEmployees", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Company (numberOfEmployees)", 
+          0.1523
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          0.1523
+        ], 
+        [
+          "http://dbpedia.org/ontology/Publisher (numberOfEmployees)", 
+          0.1523
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          0.1523
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1581
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1619
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1619
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1667
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          0.1681
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1682
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1687
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          0.1703
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1716
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (elevation)", 
+          6.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Company (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Publisher (numberOfEmployees)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Organisation (numberOfEmployees)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Publisher[numberOfEmployees]", 
+      0.1523
+    ], 
+    [
+      "Settlement[elevation]>(country|Italy)>(region|Friuli-Venezia_Giulia)>(province|Province_of_Udine)", 
+      0.1556
+    ], 
+    [
+      "Settlement[populationDensity]>(isPartOf|Nebraska)", 
+      0.1667
+    ], 
+    [
+      "City[elevation]>(isPartOf|Washington_(state))", 
+      0.1681
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Odisha)", 
+      0.1697
+    ], 
+    [
+      "Location[populationDensity]", 
+      0.1697
+    ], 
+    [
+      "PopulatedPlace[populationDensity]", 
+      0.1697
+    ], 
+    [
+      "Place[populationDensity]", 
+      0.1697
+    ], 
+    [
+      "Location[elevation]>(timeZone|Indian_Standard_Time)>(isPartOf|Tamil_Nadu)", 
+      0.1708
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Texas)>(type|Census-designated_place)>(timeZone|Central_Time_Zone)", 
+      0.1721
+    ]
+  ], 
+  "values": [
+    70.0, 
+    93.0, 
+    10.0, 
+    2212.0, 
+    6136.0, 
+    691.0, 
+    122.0, 
+    8.0, 
+    1.0, 
+    187.0, 
+    138.0, 
+    6.0, 
+    470.0, 
+    94.0, 
+    90.0
+  ]
+}

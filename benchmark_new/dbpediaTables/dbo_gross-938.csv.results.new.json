@@ -1,0 +1,176 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/gross"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "areaTotal", 
+          0.5021
+        ], 
+        [
+          "areaLand", 
+          0.5029
+        ]
+      ], 
+      "maj": [
+        [
+          "areaTotal", 
+          5.0
+        ], 
+        [
+          "areaLand", 
+          5.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          0.5
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          0.5013
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          0.5016
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          0.5018
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          0.5018
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          0.5026
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          0.503
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          0.5031
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          0.5032
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          0.5034
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          0.5052
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/City (areaTotal)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaTotal)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (areaLand)", 
+          4.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (areaTotal)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (areaLand)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BodyOfWater (areaTotal)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/City (areaLand)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (areaLand)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/NaturalPlace (areaTotal)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "City[areaTotal]>(isPartOf|Oklahoma)>(country|United_States)>(type|City)", 
+      0.5
+    ], 
+    [
+      "BodyOfWater[areaTotal]>(type|Trophic_state_index)", 
+      0.5
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Oklahoma)", 
+      0.5017
+    ], 
+    [
+      "Location[areaLand]", 
+      0.5026
+    ], 
+    [
+      "PopulatedPlace[areaLand]", 
+      0.5026
+    ], 
+    [
+      "Place[areaLand]", 
+      0.5026
+    ], 
+    [
+      "Settlement[areaLand]>(isPartOf|Alabama)", 
+      0.5031
+    ], 
+    [
+      "City[areaLand]>(isPartOf|Oklahoma)", 
+      0.5034
+    ], 
+    [
+      "City[areaTotal]>(isPartOf|Oklahoma)>(country|United_States)", 
+      0.5036
+    ], 
+    [
+      "Location[areaTotal]>(type|Census-designated_place)>(isPartOf|Nevada)>(timeZone|Pacific_Time_Zone)", 
+      0.5052
+    ]
+  ], 
+  "values": [
+    14500000.0
+  ]
+}

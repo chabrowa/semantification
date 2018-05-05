@@ -1,0 +1,264 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/numberOfSeasons"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "area", 
+          0.1709
+        ], 
+        [
+          "numberOfSeasons", 
+          0.1814
+        ], 
+        [
+          "populationDensity", 
+          0.2913
+        ], 
+        [
+          "length", 
+          0.2988
+        ]
+      ], 
+      "maj": [
+        [
+          "numberOfSeasons", 
+          5.0
+        ], 
+        [
+          "populationDensity", 
+          2.0
+        ], 
+        [
+          "length", 
+          2.0
+        ], 
+        [
+          "area", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          0.1709
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (area)", 
+          0.1709
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          0.1709
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (area)", 
+          0.1709
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          0.1814
+        ], 
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          0.2106
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.2858
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.2967
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          0.2967
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          0.2967
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.2967
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (length)", 
+          0.2988
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (length)", 
+          0.2988
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/TelevisionShow (numberOfSeasons)", 
+          10.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Work (numberOfSeasons)", 
+          5.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Device (length)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/AdministrativeRegion (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (area)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (area)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Region (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Weapon (length)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (area)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Village (area)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Work[numberOfSeasons]", 
+      0.1185
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]", 
+      0.1185
+    ], 
+    [
+      "Village[area]", 
+      0.1709
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]>(language|Hindi)>(format|480i)", 
+      0.2077
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]>(language|Hindi)>(format|480i)>(country|India)", 
+      0.22
+    ], 
+    [
+      "TelevisionShow[numberOfSeasons]>(language|Hindi)", 
+      0.2421
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Kansas)", 
+      0.2858
+    ], 
+    [
+      "AdministrativeRegion[populationDensity]>(state|Nebraska)", 
+      0.2967
+    ], 
+    [
+      "Device[length]", 
+      0.2988
+    ], 
+    [
+      "Weapon[length]", 
+      0.2988
+    ]
+  ], 
+  "values": [
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    10.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    7.0, 
+    2.0, 
+    1.0, 
+    6.0, 
+    5.0, 
+    16.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    3.0, 
+    9.0, 
+    2.0, 
+    1.0, 
+    6.0, 
+    4.0, 
+    1.0, 
+    1.0, 
+    18.0, 
+    3.0, 
+    1.0, 
+    2.0, 
+    3.0, 
+    1.0, 
+    2.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    17.0, 
+    2.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    3.0, 
+    2.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    6.0, 
+    7.0, 
+    1.0, 
+    6.0, 
+    1.0, 
+    2.0, 
+    1.0, 
+    1.0, 
+    3.0, 
+    1.0, 
+    1.0, 
+    4.0, 
+    7.0
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/draftYear"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "activeYearsStartYear", 
+          0.1247
+        ], 
+        [
+          "year", 
+          0.1535
+        ]
+      ], 
+      "maj": [
+        [
+          "year", 
+          9.0
+        ], 
+        [
+          "activeYearsStartYear", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/Athlete (activeYearsStartYear)", 
+          0.1247
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (activeYearsStartYear)", 
+          0.1247
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          0.1247
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          0.1247
+        ], 
+        [
+          "http://dbpedia.org/ontology/NationalFootballLeagueSeason (year)", 
+          0.1535
+        ], 
+        [
+          "http://dbpedia.org/ontology/FootballLeagueSeason (year)", 
+          0.1535
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsSeason (year)", 
+          0.1535
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeamSeason (year)", 
+          0.1535
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/NationalFootballLeagueSeason (year)", 
+          18.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/FootballLeagueSeason (year)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsSeason (year)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/SportsTeamSeason (year)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/BasketballPlayer (activeYearsStartYear)", 
+          2.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Athlete (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Agent (activeYearsStartYear)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Person (activeYearsStartYear)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "BasketballPlayer[activeYearsStartYear]>(draftTeam|Chicago_Bulls)", 
+      0.1247
+    ], 
+    [
+      "NationalFootballLeagueSeason[year]>(team|Kansas_City_Chiefs)", 
+      0.1508
+    ], 
+    [
+      "NationalFootballLeagueSeason[year]>(team|New_York_Jets)", 
+      0.1508
+    ], 
+    [
+      "NationalFootballLeagueSeason[year]>(team|New_England_Patriots)", 
+      0.1508
+    ], 
+    [
+      "NationalFootballLeagueSeason[year]>(team|Oakland_Raiders)", 
+      0.1519
+    ], 
+    [
+      "NationalFootballLeagueSeason[year]>(team|San_Diego_Chargers)", 
+      0.1519
+    ], 
+    [
+      "NationalFootballLeagueSeason[year]>(team|Buffalo_Bills)", 
+      0.1519
+    ], 
+    [
+      "NationalFootballLeagueSeason[year]>(team|Minnesota_Vikings)", 
+      0.1523
+    ], 
+    [
+      "NationalFootballLeagueSeason[year]>(team|Dallas_Cowboys)", 
+      0.1593
+    ], 
+    [
+      "NationalFootballLeagueSeason[year]>(team|Denver_Broncos)", 
+      0.1614
+    ]
+  ], 
+  "values": [
+    1986.0, 
+    1980.0, 
+    1995.0, 
+    2006.0, 
+    1979.0, 
+    1972.0, 
+    1980.0, 
+    1980.0, 
+    1975.0, 
+    1985.0, 
+    1964.0, 
+    1995.0, 
+    2003.0, 
+    2015.0
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "invalid": [
+    "http://dbpedia.org/ontology/squadNumber"
+  ], 
+  "labelling": {
+    "property": {
+      "avg": [
+        [
+          "elevation", 
+          0.1671
+        ], 
+        [
+          "populationDensity", 
+          0.1748
+        ]
+      ], 
+      "maj": [
+        [
+          "populationDensity", 
+          9.0
+        ], 
+        [
+          "elevation", 
+          1.0
+        ]
+      ]
+    }, 
+    "type": {
+      "avg": [
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          0.1671
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          0.1671
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          0.1671
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          0.1687
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          0.1687
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          0.1687
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          0.1708
+        ], 
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          0.1791
+        ]
+      ], 
+      "maj": [
+        [
+          "http://dbpedia.org/ontology/Location (populationDensity)", 
+          24.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Town (populationDensity)", 
+          9.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (elevation)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Settlement (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (populationDensity)", 
+          3.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/PopulatedPlace (elevation)", 
+          1.0
+        ], 
+        [
+          "http://dbpedia.org/ontology/Place (elevation)", 
+          1.0
+        ]
+      ]
+    }
+  }, 
+  "neighbours": [
+    [
+      "Location[populationDensity]>(isPartOf|Minnesota)>(type|Township_(United_States))>(isPartOf|Otter_Tail_County,_Minnesota)", 
+      0.1333
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Minnesota)>(isPartOf|Otter_Tail_County,_Minnesota)", 
+      0.1333
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Iowa)>(type|Civil_township)", 
+      0.1644
+    ], 
+    [
+      "Settlement[elevation]>(country|Germany)>(district|Nordfriesland)", 
+      0.1671
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Iowa)", 
+      0.1766
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Burgos)>(type|Municipalities_of_Spain)>(timeZone|Central_European_Time)", 
+      0.1867
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Iowa)>(type|Township_(United_States))", 
+      0.1896
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Maine)>(type|New_England_town)>(isPartOf|Aroostook_County,_Maine)>(country|United_States)", 
+      0.1961
+    ], 
+    [
+      "Town[populationDensity]>(isPartOf|Maine)>(isPartOf|Aroostook_County,_Maine)>(country|United_States)", 
+      0.1961
+    ], 
+    [
+      "Location[populationDensity]>(isPartOf|Castile_and_Le%C3%B3n)>(isPartOf|Province_of_Burgos)>(type|Municipalities_of_Spain)", 
+      0.1974
+    ]
+  ], 
+  "values": [
+    1.0, 
+    2.0, 
+    3.0, 
+    4.0, 
+    5.0, 
+    6.0, 
+    7.0, 
+    8.0, 
+    9.0, 
+    10.0, 
+    11.0, 
+    12.0, 
+    14.0, 
+    1.0, 
+    2.0, 
+    3.0, 
+    4.0, 
+    5.0, 
+    6.0, 
+    7.0, 
+    8.0, 
+    9.0, 
+    10.0, 
+    11.0
+  ]
+}
