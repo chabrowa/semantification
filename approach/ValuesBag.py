@@ -39,7 +39,7 @@ class ValuesBag(object):
         fileName = hashlib.md5(query)
 #        fileName = str(fileName.hexdigest())+".p"
 #        fileExists = self.testLocalFiles(fileName)
-	fileExists = False
+        fileExists = False
         if fileExists:
             results = pickle.load(open(localdatabasePath+""+fileName, "rb"))
 

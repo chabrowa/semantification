@@ -4,8 +4,8 @@ from approach.config.paths import *
 from approach.config.imports import *
 
 
-#sizes = ['verySmall', 'small', 'medium', 'large']
-sizes = ['small', 'medium', 'large']
+sizes = ['verySmall', 'small', 'medium', 'large']
+#sizes = ['small', 'medium', 'large']
 #sizes = ['verySmall', 'small', 'medium']
 
 #sizes = ['large']
