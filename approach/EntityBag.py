@@ -10,15 +10,6 @@ class EntityBag(object):
         self.entity        = entity
         self.values        = self.getEntityTriples()
 
-
-    def testLocalFiles(self, newFile):
-        for fn in os.listdir(localdatabasePath):
-            #print "compare: " + fn + " - " + newFile
-            if fn == newFile:
-                #print "we are here"
-                return True
-        return False
-
     def getEntityTriples(self):
         if self.entity == -1:
             return -1
@@ -31,37 +22,18 @@ class EntityBag(object):
                 filter (?p != <http://dbpedia.org/ontology/wikiPageID>) \
                 filter (?p != <http://dbpedia.org/ontology/wikiPageRevisionID>) \
                 }"
-        fileName = hashlib.md5(query)
-#        fileName = str(fileName.hexdigest())+".p"
-#        fileExists = self.testLocalFiles(fileName)
-        fileExists = False
-        if fileExists:
-            results = pickle.load(open(localdatabasePath+""+fileName, "rb"))
-        else:
-            #sparql = SPARQLWrapper("http://wdaqua-csv2rdf-fuseki.univ-st-etienne.fr/dbpedia/query")
-            #sparql = SPARQLWrapper("http://35.198.64.247:8165/sparql")
-            #sparql = SPARQLWrapper("http://localhost:23456/db-test/query")
-            #sparql = SPARQLWrapper("http://localhost:3031/db-test/query")
-            #sparql = SPARQLWrapper("http://kbox.kaist.ac.kr:5889/sparql")
-            #sparql = SPARQLWrapper("http://uk.dbpedia.org/sparql")
-            sparql = SPARQLWrapper("http://ec2-34-241-15-85.eu-west-1.compute.amazonaws.com/sparql")
-            #sparql = SPARQLWrapper("http://dbpedia.org/sparql")
-            sparql.setReturnFormat(JSON)
-            sparql.setQuery(query)  # the previous query as a literal string
-            sparql.setReturnFormat(JSON)
-            results = sparql.query().convert()
-            #time.sleep(0.5)
- #           pickle.dump(results, open(localdatabasePath+""+fileName, "wb"))
-            #print "we dont want to be here"
-            #print fileName
+
+        sparql = SPARQLWrapper("http://dbpedia.org/sparql")
+        sparql.setReturnFormat(JSON)
+        sparql.setQuery(query) 
+        sparql.setReturnFormat(JSON)
+        results = sparql.query().convert()
 
         return self.createValuesObject(results["results"]["bindings"])
 
     def createValuesObject(self, results):
         valuesObject = {}
-        #valuesObjectClean = {}
         for result in results:
-            #pValue = self.getProperty(result["p"]["value"])
             pValue = result["p"]["value"]
             try:
                 oValue = float(result["o"]["value"])

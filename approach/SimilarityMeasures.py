@@ -38,19 +38,16 @@ class SimilarityMeasures(object):
         return vector1, vector2
 
     def relativeDifference(self, val1, val2):
-        #print "val 1: " + str(val1) + " val 2: " + str(val2)
         try:
             val1 = float(self.getTrim(str(val1)))
             val2 = float(self.getTrim(str(val2)))
             if max(abs(val1), abs(val2)) == 0:
-                #print "devision by 0; values are: " + str(val1) + " : " + str(val2)
                 relDiff = 0
             else:
                 relDiff = (abs(val1 - val2))/(max(abs(val1), abs(val2)))
 
             return relDiff
         except:
-            # this is the worse case scenario - value is a string not a number even 
             return 1
 
     def getTrim(self, val):
@@ -58,6 +55,4 @@ class SimilarityMeasures(object):
         for c in val:
             if c.isdigit() or c == '.':
                 trimVal = trimVal + c
-            #elif c == ',':
-            #    trimVal = trimVal + '.'
         return trimVal

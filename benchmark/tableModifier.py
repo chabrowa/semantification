@@ -70,84 +70,84 @@ class tableModifier(object):
                 if df_large.shape[0] > 1:
                     filePrint[2] = True
 
-                df_smallestMod5 = df_smallest
+                df_smallestMod5 = df_smallest.copy()
                 df_smallestMod5[df_smallestMod5.columns[2]] = df_smallestMod5[df_smallestMod5.columns[2]].apply(
                     lambda x: self.fivePerCentMod(x))
                 fileSmallest_mod5 = 'verySmallSample/smallest5/' + fileNew + '-smallest.csv'
                 if df_smallestMod5.shape[0] > 1:
                     filePrint[13] = True
 
-                df_smallestMod10 = df_smallest
+                df_smallestMod10 = df_smallest.copy()
                 df_smallestMod10[df_smallestMod10.columns[2]] = df_smallestMod10[df_smallestMod5.columns[2]].apply(
                     lambda x: self.fivePerCentMod(x))
                 fileSmallest_mod10 = 'verySmallSample/smallest10/' + fileNew + '-smallest.csv'
                 if df_smallestMod10.shape[0] > 1:
                     filePrint[14] = True
 
-                df_smallestMod15 = df_smallest
+                df_smallestMod15 = df_smallest.copy()
                 df_smallestMod15[df_smallestMod15.columns[2]] = df_smallestMod15[df_smallestMod15.columns[2]].apply(
                     lambda x: self.fivePerCentMod(x))
                 fileSmallest_mod15 = 'verySmallSample/smallest15/' + fileNew + '-smallest.csv'
                 if df_smallestMod15.shape[0] > 1:
                     filePrint[15] = True
 
-                df_smallMod5 = df_small
+                df_smallMod5 = df_small.copy()
                 df_smallMod5[df_smallMod5.columns[2]] = df_smallMod5[df_smallMod5.columns[2]].apply(
                     lambda x: self.fivePerCentMod(x))
                 fileSmall_mod5 = 'smallSample/small5/' + fileNew + '-small-5var.csv'
                 if df_smallMod5.shape[0] > 1:
                     filePrint[3] = True
 
-                df_smallMod10 = df_small
+                df_smallMod10 = df_small.copy()
                 df_smallMod10[df_smallMod10.columns[2]] = df_smallMod10[df_smallMod10.columns[2]].apply(
                     lambda x: self.tenPerCentMod(x))
                 fileSmall_mod10 = 'smallSample/small10/' + fileNew + '-small-10var.csv'
                 if df_smallMod10.shape[0] > 1:
                     filePrint[4] = True
 
-                df_smallMod15 = df_small
+                df_smallMod15 = df_small.copy()
                 df_smallMod15[df_smallMod15.columns[2]] = df_smallMod15[df_smallMod15.columns[2]].apply(
                     lambda x: self.fifteenPerCentMod(x))
                 fileSmall_mod15 = 'smallSample/small15/' + fileNew + '-small-15var.csv'
                 if df_smallMod15.shape[0] > 1:
                     filePrint[5] = True
 
-                df_mediumMod5 = df_medium
+                df_mediumMod5 = df_medium.copy()
                 df_mediumMod5[df_mediumMod5.columns[2]] = df_mediumMod5[df_mediumMod5.columns[2]].apply(
                     lambda x: self.fivePerCentMod(x))
                 fileMedium_mod5 = 'mediumSample/medium5/' + fileNew + '-medium-5var.csv'
                 if df_mediumMod5.shape[0] > 1:
                     filePrint[6] = True
 
-                df_mediumMod10 = df_medium
+                df_mediumMod10 = df_medium.copy()
                 df_mediumMod10[df_mediumMod10.columns[2]] = df_mediumMod10[df_mediumMod10.columns[2]].apply(
                     lambda x: self.tenPerCentMod(x))
                 fileMedium_mod10 = 'mediumSample/medium10/' + fileNew + '-medium-10var.csv'
                 if df_mediumMod10.shape[0] > 1:
                     filePrint[7] = True
 
-                df_mediumMod15 = df_medium
+                df_mediumMod15 = df_medium.copy()
                 df_mediumMod15[df_mediumMod15.columns[2]] = df_mediumMod15[df_mediumMod15.columns[2]].apply(
                     lambda x: self.fifteenPerCentMod(x))
                 fileMedium_mod15 = 'mediumSample/medium15/' + fileNew + '-medium-15var.csv'
                 if df_mediumMod15.shape[0] > 1:
                     filePrint[8] = True
 
-                df_largeMod5 = df_large
+                df_largeMod5 = df_large.copy()
                 df_largeMod5[df_largeMod5.columns[2]] = df_largeMod5[df_largeMod5.columns[2]].apply(
                     lambda x: self.fivePerCentMod(x))
                 fileLarge_mod5 = 'largeSample/large5/' + fileNew + '-large-5var.csv'
                 if df_largeMod5.shape[0] > 1:
                     filePrint[9] = True
 
-                df_largeMod10 = df_large
+                df_largeMod10 = df_large.copy()
                 df_largeMod10[df_largeMod10.columns[2]] = df_largeMod10[df_largeMod10.columns[2]].apply(
                     lambda x: self.tenPerCentMod(x))
                 fileLarge_mod10 = 'largeSample/large10/' + fileNew + '-large-10var.csv'
                 if df_largeMod10.shape[0] > 1:
                     filePrint[10] = True
 
-                df_largeMod15 = df_large
+                df_largeMod15 = df_large.copy()
                 df_largeMod15[df_largeMod15.columns[2]] = df_largeMod15[df_largeMod15.columns[2]].apply(
                     lambda x: self.fifteenPerCentMod(x))
                 fileLarge_mod15 = 'largeSample/large15/' + fileNew + '-large-15var.csv'

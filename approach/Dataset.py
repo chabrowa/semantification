@@ -11,7 +11,6 @@ class Dataset(object):
 
     def __init__(self, datasetId, subjectColumnId, numericalColumnsIds):
         self.datasetId              = datasetId
-        #self.df                     = pd.read_csv(os.path.join(datasetsPath, datasetId))
         self.df                     = pd.read_csv(datasetId)
         self.subjectColumnId        = subjectColumnId
         self.subjectColumn          = self.getSubjectColumn()
@@ -37,17 +36,6 @@ class Dataset(object):
                 if row[int(self.subjectColumnId)] == subjectCellValue:
                     cell = row[columnId]
         return cell
-
-    # def getSubjectColumnId(self):
-    #     with open(subjectFile) as f:
-    #         content = f.readlines()
-    #
-    #     for line in content:
-    #         (fileDatasetId, subjectColumnIndex) = line.split(",")
-    #         if fileDatasetId == self.datasetId:
-    #             #print subjectColumnIndex
-    #             return subjectColumnIndex
-    #     return -100
 
     def getSubjectColumn(self):
         subjectColumnValues = []
